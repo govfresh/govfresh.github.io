@@ -10,11 +10,11 @@ on:
   uses: fjogeleit/http-request-action@v1.8.1
   with:
     # Request URL
-    url: 'https://discord.com/api/webhooks/906730237520384041/OOnn76jvx4d9fnVHtiLXH6nN1vTOE9qqW37_XrJF10xdZgOYOHBd2g1KNpj3woLsTf1Y'
+    url: 'https://discord.com/api/webhooks/907008463165620225/4NLOjVozE6UjiWuQbqqCbcAUEtacAfu3mN42SKoS90yfp-C39SupyHH6Jwn_Ciahztwm'
     # Request Method
     method: 'POST'
     # Content Type
-    contentType: # optional
+    contentType: 'application/json'
     # Request Body as JSON String
     data: {'Hello'}
     # Map of absolute file paths as JSON String
