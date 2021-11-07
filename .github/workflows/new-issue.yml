@@ -28,4 +28,4 @@ jobs:
           webhook: 'https://discord.com/api/webhooks/907008463165620225/4NLOjVozE6UjiWuQbqqCbcAUEtacAfu3mN42SKoS90yfp-C39SupyHH6Jwn_Ciahztwm'
           # Message to be sent
           message: >
-            New issue created: [**${{ github.event.issue.title }}**](https://www.patreon.com/govfresh?fan_landing=true)
+            New issue created: [**${{ github.event.issue.title }}**](${{ github.event.issue.url }})
