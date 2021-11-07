@@ -10,7 +10,7 @@
     # Content Type
     contentType: # optional
     # Request Body as JSON String
-    data: 'Hello'
+    data: {'Hello'}
     # Map of absolute file paths as JSON String
     files: # optional, default is {}
     # Auth Username
