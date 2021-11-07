@@ -13,3 +13,4 @@ assignees: ''
 - [ ] Call for review
 - [ ] Publish
 - [ ] Delete doc
+- [ ] Promote
