@@ -22,7 +22,7 @@ jobs:
           # Content Type
             contentType: 'application/json'
           # Request Body as JSON String
-            data: 'Hello'
+            data: '{content: "Hello"}'
           # Map of absolute file paths as JSON String
           #  files: # optional, default is {}
           # Auth Username
