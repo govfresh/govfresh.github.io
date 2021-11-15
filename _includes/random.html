@@ -1,0 +1,15 @@
+<script>
+    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
+    var randomized = new Array();
+    document.querySelector('div.randomize').innerHTML = '';
+    let length = elements.length;
+    for (let index = 0; index < length; index++) {
+        let i = Math.floor(Math.random() * elements.length);
+        console.log(elements);
+        randomized.push(elements[i])
+        elements.splice(i, 1);
+    }
+    randomized.forEach(element => {
+        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+    });
+</script>

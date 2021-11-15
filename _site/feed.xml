@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-15T13:23:10-08:00</updated><id>/feed.xml</id><title type="html">GovFresh</title><subtitle>Public service with and by the people.</subtitle><entry><title type="html">Voting isn’t easy if you can’t see the ballot</title><link href="/radar/voting-seeing-ballot" rel="alternate" type="text/html" title="Voting isn’t easy if you can’t see the ballot" /><published>2021-11-15T00:00:00-08:00</published><updated>2021-11-15T13:06:34-08:00</updated><id>/radar/voting-seeing-ballot</id><content type="html" xml:base="/radar/voting-seeing-ballot"></content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;, &quot;Inclusion&quot;]" /><summary type="html"></summary></entry><entry><title type="html">NIST wants public feedback on cybersecurity labeling for consumer software</title><link href="/radar/nist-public-input-cybersecurity-consumer-software-labeling" rel="alternate" type="text/html" title="NIST wants public feedback on cybersecurity labeling for consumer software" /><published>2021-11-03T00:00:00-07:00</published><updated>2021-11-04T17:04:22-07:00</updated><id>/radar/nist-public-input-cybersecurity-consumer-software-labeling</id><content type="html" xml:base="/radar/nist-public-input-cybersecurity-consumer-software-labeling">&lt;p&gt;The National Institute of Standards and Technology has drafted a set of &lt;a href=&quot;https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity/consumer-software-criteria&quot;&gt;cybersecurity criteria&lt;/a&gt; to help consumers make more informed software purchasing decisions.&lt;/p&gt;
+
+&lt;p&gt;NIST says it doesn’t intend to create a formal standard, but hopes to create a voluntary labeling system that shows the software “incorporates a baseline level of security measures.”&lt;/p&gt;
+
+&lt;p&gt;From NIST:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The document, formally titled &lt;a href=&quot;https://www.nist.gov/document/draft-baseline-criteria-consumer-software-cybersecurity-labeling&quot;&gt;Draft Baseline Criteria for Consumer Software Cybersecurity Labeling&lt;/a&gt;, forms part of NIST’s response to the May 12, 2021, &lt;a href=&quot;https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity&quot;&gt;Executive Order (EO) 14028 on Improving the Nation’s Cybersecurity&lt;/a&gt;. The EO specifies that NIST “shall identify secure software development practices or criteria for a consumer software labeling program” — criteria that reflect a baseline level of cybersecurity and that focus on ease of use for consumers. (The EO also instructs NIST to initiate a labeling effort on the cybersecurity aspects of consumer devices associated with the Internet of Things, which the present publication does not address.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the announcement, NIST acknowledged the challenges of a security labeling system for a wide array of technology solutions:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Part of the challenge is the sheer vastness and variety of the consumer software landscape. Software forms an integral part of most consumers’ lives, and it is subject to vulnerabilities that place the users’ safety, property and productivity at risk — but there is no one-size-fits-all approach to cybersecurity that can be applied to all types of consumer software. The cybersecurity considerations for a smartphone game could differ greatly from, for example, those applied to a banking app. Yet a security label aimed at consumers will need to communicate simply and directly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Comments on the draft document are due by December 16, 2021.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;, &quot;Security&quot;]" /><summary type="html">The National Institute of Standards and Technology has drafted a set of cybersecurity criteria to help consumers make more informed software purchasing decisions.</summary></entry><entry><title type="html">Denice Ross named federal chief data scientist</title><link href="/radar/denice-ross-named-federal-chief-data-scientist" rel="alternate" type="text/html" title="Denice Ross named federal chief data scientist" /><published>2021-11-03T00:00:00-07:00</published><updated>2021-11-03T16:25:33-07:00</updated><id>/radar/denice-ross-named-federal-chief-data-scientist</id><content type="html" xml:base="/radar/denice-ross-named-federal-chief-data-scientist">&lt;p&gt;Denice Ross was named as U.S. chief data scientist at the White House Office of Science and Technology Policy.&lt;/p&gt;
+
+&lt;p&gt;From the anouncement on her blog:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The current moment is an extraordinary policy window for the Biden-Harris Administration to shore up our nation’s data infrastructure and reconfigure the public decision-making process so data scientists can best support the design and implementation of policies to improve the lives of all Americans.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As I head into this new role as Chief Data Scientist, I’m focused on addressing these questions: What data do we need to design an equitable recovery? How will we use that data responsibly and to ensure we are building back better? What can we do to support the Federal, Tribal, state, and local data practitioners so they can help deliver better outcomes for the American people?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The mission of the U.S. Chief Data Scientist is to responsibly unleash the power of data to benefit all Americans. I’m eager to get started and look forward to collaborating with data innovators already working inside of Federal government and at the State, Tribal, and local level.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Follow Ross’ official government Twitter handle at &lt;a href=&quot;https://twitter.com/deniceross46&quot;&gt;@DeniceRoss46&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://denicewross.blog/2021/11/03/rejoining-federal-service-as-the-next-u-s-chief-data-scientist/&quot;&gt;Rejoining Federal Service as the next U.S. Chief Data Scientist&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;]" /><summary type="html">Denice Ross was named as U.S. chief data scientist at the White House Office of Science and Technology Policy.</summary></entry><entry><title type="html">2021 Federal Plain Language Report Card released</title><link href="/radar/2021-federal-plain-language-report-card" rel="alternate" type="text/html" title="2021 Federal Plain Language Report Card released" /><published>2021-11-02T00:00:00-07:00</published><updated>2021-11-02T20:37:25-07:00</updated><id>/radar/2021-federal-plain-language-report-card</id><content type="html" xml:base="/radar/2021-federal-plain-language-report-card">&lt;p&gt;The Center for Plain Language issued its yearly &lt;a href=&quot;https://centerforplainlanguage.org/2021-federal-plain-language-report-card/&quot;&gt;plain language report card&lt;/a&gt;. This year’s focus was on the main Freedom of Information Act request and Coronavirus pages of 21 executive branch agencies.&lt;/p&gt;
+
+&lt;p&gt;“Agencies earned grades between A and F for both organizational compliance, covering the staffing, training, and annual reporting required by the Plain Writing Act, and writing quality, focusing on how easy it is to find, understand, and use information the public needs,” said the Center for Plain Language referencing the 2021 report card.&lt;/p&gt;
+
+&lt;p&gt;On writing:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Overall the average writing grade was a B-, unchanged from last year. But this year’s average was pulled down by poor marks for the FOIA Request pages, where the average grade was a C+.  Within that average is a far more positive story:  agencies are doing a better job communicating about the pandemic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On compliance:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Two-thirds of agencies surveyed this year earned an A on organizational compliance (how well they meet the staffing, training, and annual reporting requirements of the 2010 Plain Writing Act).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Center for Plain Language included examplary examples of FOIA and Coronavirus pages to support those looking for guidance.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://centerforplainlanguage.org/2021-federal-plain-language-report-card/&quot;&gt;2021 Federal Plain Language Report Card&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;, &quot;Design&quot;, &quot;Inclusion&quot;]" /><summary type="html">The Center for Plain Language issued its yearly plain language report card. This year’s focus was on the main Freedom of Information Act request and Coronavirus pages of 21 executive branch agencies.</summary></entry><entry><title type="html">National Intelligence director speaks on diversity, equity, inclusion, accessibility efforts</title><link href="/radar/dni-deia-opening-remarks" rel="alternate" type="text/html" title="National Intelligence director speaks on diversity, equity, inclusion, accessibility efforts" /><published>2021-10-28T00:00:00-07:00</published><updated>2021-11-01T15:51:46-07:00</updated><id>/radar/dni-deia-opening-remarks</id><content type="html" xml:base="/radar/dni-deia-opening-remarks">&lt;p&gt;In an opening statement to U.S. House Permanent Select Committee on Intelligence, Director of National Intelligence Avril Haines shared the agency’s “work we have ahead of us to advance diversity, equity, inclusion, and accessibility.”&lt;/p&gt;
+
+&lt;p&gt;Haines:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“While we have exceptional leaders within the IC who are committed to promoting DEIA, many of whom have worked hard to achieve the progress we have made thus far on these issues over the last many years, we know we have a great deal of work ahead of us. These leaders know that it is not only essential to our mission and our values but to who we are as a nation. Promoting diversity – ensuring that we reflect the country we serve – is a responsibility we carry as public servants.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Moreover, it is fundamental to our national security.  Ensuring that we have an IC 
+workforce made up of people who think differently, see problems differently, and 
+overcome challenges differently, is a prerequisite to our success. Their creativity 
+makes us smarter, more innovative, and more successful.  And that makes our 
+nation safer and more secure against the array of adversaries and the foreign 
+threats we face.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Haines emphasized the agency can do better, outlined its work to date and “what we’re doing to change the situation.”&lt;/p&gt;
+
+&lt;p&gt;“In the IC we know how to work together to support the nation’s objectives. Congress created ODNI to do this, and we are bringing that approach to our efforts to increase diversity, equity, inclusion and accessibility,” said Haines. “This spirit is quintessentially American - to recognize our imperfections and decide we can be better – to see we have the power to make ourselves better – to work toward a brighter vision of what might be, what could be, and what will be. We are resolute in this purpose and I know we will be successful.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dni.gov/files/ODNI/documents/2021-10-27-DEIA-Opening-Statement.pdf&quot;&gt;Full statement.&lt;/a&gt; (.pdf)&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Inclusion&quot;, &quot;Security&quot;]" /><summary type="html">In an opening statement to U.S. House Permanent Select Committee on Intelligence, Director of National Intelligence Avril Haines shared the agency’s “work we have ahead of us to advance diversity, equity, inclusion, and accessibility.”</summary></entry><entry><title type="html">Open security controls: NIST officially releases OSCAL 1.0.0</title><link href="/2021-06-08-nist-officially-releases-oscal-1/" rel="alternate" type="text/html" title="Open security controls: NIST officially releases OSCAL 1.0.0" /><published>2021-06-08T00:00:00-07:00</published><updated>2021-11-01T15:51:49-07:00</updated><id>/nist-officially-releases-oscal-1</id><content type="html" xml:base="/2021-06-08-nist-officially-releases-oscal-1/">&lt;p&gt;The National Institute of Standards and Technology officially released &lt;a href=&quot;https://pages.nist.gov/OSCAL/&quot;&gt;Open Security Controls Assessment Language 1.0.0&lt;/a&gt;, a federal government effort to standardize authorization packages and streamline security reviews using a common machine-readable language.&lt;/p&gt;
+
+&lt;p&gt;According to the &lt;a href=&quot;https://www.fedramp.gov/blog/2021-06-08-NISTs-OSCAL-1-0-0-Release/&quot;&gt;FedRAMP blog&lt;/a&gt; announcing the benefits of the release:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cloud service providers can “create their System Security Plans more rapidly and accurately, validating much of their content before submission to the government for review.”&lt;/li&gt;
+  &lt;li&gt;Federal agencies can “expedite their reviews of the FedRAMP security authorization packages.”&lt;/li&gt;
+  &lt;li&gt;Third Party Assessment Organizations (3PAOs) can “automate the planning, execution, and reporting of cloud assessment activities.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;“The idea of developing OSCAL was fueled by my frustration around the lack of transparency into cloud services’ security posture, in particular, from the cloud consumers’ perspective,” &lt;a href=&quot;https://www.nist.gov/blogs/cybersecurity-insights/foundation-interoperable-and-portable-security-automation-revealed&quot;&gt;said&lt;/a&gt; Michaela Iorga on the NIST blog. “From the beginning, OSCAL was envisioned to be the foundation for interoperable and portable security automation in support of Authorization to Operate processes for all types of systems, not just cloud-based systems – a very challenging task. Because of this challenge, our NIST team partnered in 2016 with GSA/FedRAMP to research and develop OSCAL – the standardized, openly-available, foundational representation of the security information in support of security automation and of risk management frameworks in general.”&lt;/p&gt;
+
+&lt;p&gt;More:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/usnistgov/OSCAL/releases/tag/v1.0.0&quot;&gt;OSCAL 1.0.0 release notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/usnistgov/OSCAL&quot;&gt;OSCAL GitHub repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.nist.gov/OSCAL/&quot;&gt;OSCAL website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Security&quot;, &quot;Open&quot;]" /><summary type="html">The National Institute of Standards and Technology officially released Open Security Controls Assessment Language 1.0.0, a federal government effort to standardize authorization packages and streamline security reviews using a common machine-readable language.</summary></entry><entry><title type="html">The federal government is giving away free .gov domains to all official U.S. government entities</title><link href="/radar/federal-government-is-giving-away-free-gov-domains-to-all-official-us-government-entities" rel="alternate" type="text/html" title="The federal government is giving away free .gov domains to all official U.S. government entities" /><published>2021-04-21T00:00:00-07:00</published><updated>2021-11-01T20:59:00-07:00</updated><id>/radar/federal-government-is-giving-away-free-gov-domains-to-all-official-us-government-entities</id><content type="html" xml:base="/radar/federal-government-is-giving-away-free-gov-domains-to-all-official-us-government-entities">&lt;p&gt;The DotGov Program, which &lt;a href=&quot;https://www.iana.org/domains/root/db/gov.html&quot;&gt;administers .gov top-level domain&lt;/a&gt; assignments to official U.S. government entities, now offers the service for free. Price for access to an official .gov domain previously was $400 per year, which many local governments deemed too expensive and prohibitive to obtain.&lt;/p&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;https://home.dotgov.gov/2021/4/27/a-new-day-for-gov/#a-new-price-for-gov&quot;&gt;announcement&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There’s perhaps never been a more important time for the public to know where to get official government information online. So, in order to remove unnecessary barriers and reduce the credibility of malicious impersonation attempts, .gov domains will be available at no cost for qualifying organizations beginning today.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Who is &lt;a href=&quot;https://home.dotgov.gov/registration/requirements/&quot;&gt;eligible&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Only U.S.-based government and public sector organizations are eligible to obtain a .gov domain. This includes any federal, state, local, or territorial government entity, or other publicly controlled entity. It also includes any tribal government recognized by the federal government or a state government.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The program is now managed by the &lt;a href=&quot;https://www.cisa.gov/&quot;&gt;Cybersecurity and Infrastructure Security Agency&lt;/a&gt; as ordered by the recently enacted &lt;a href=&quot;https://www.congress.gov/bill/116th-congress/house-bill/133/text/enr#:~:text=dotgov&quot;&gt;DOTGOV Act&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Governments interested in securing a free .gov domain can &lt;a href=&quot;https://home.dotgov.gov/registration/&quot;&gt;register at the DotGov website&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;]" /><summary type="html">The DotGov Program, which administers .gov top-level domain assignments to official U.S. government entities, now offers the service for free. Price for access to an official .gov domain previously was $400 per year, which many local governments deemed too expensive and prohibitive to obtain.</summary></entry><entry><title type="html">How NASA and the open source community helped a helicopter achieve lift-off on Mars</title><link href="/radar/how-nasa-and-the-open-source-community-helped-a-helicopter-achieve-lift-off-on-mars" rel="alternate" type="text/html" title="How NASA and the open source community helped a helicopter achieve lift-off on Mars" /><published>2021-04-19T00:00:00-07:00</published><updated>2021-11-01T15:51:53-07:00</updated><id>/radar/how-nasa-and-the-open-source-community-helped-a-helicopter-achieve-lift-off-on-mars</id><content type="html" xml:base="/radar/how-nasa-and-the-open-source-community-helped-a-helicopter-achieve-lift-off-on-mars">&lt;p&gt;GitHub has a great write-up of how open source community contributions played a key role in helping NASA’s Ingenuity helicopter achieve lift-off on Mars.&lt;/p&gt;
+
+&lt;p&gt;From GitHub’s &lt;a href=&quot;https://github.com/readme/nasa-ingenuity-helicopter&quot;&gt;The README Project&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The team that built Ingenuity is much bigger than JPL’s 6,000 employees. Behind the 4-lb helicopter were contractors from recognizable companies like AeroVironment, Lockheed Martin, and Qualcomm. And behind its expansive software were thousands of open source developers around the world, unaware of the gravity of their contributions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Ingenuity helicopter runs an embedded Linux distribution on its navigation computer. Much of its software is written in C++ using JPL’s open source flight control framework &lt;a href=&quot;https://github.com/nasa/fprime&quot;&gt;F Prime&lt;/a&gt; (F´). Meanwhile, the Python ecosystem played a key role in everything from ground control to flight modeling to data processing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nearly 12,000 people contributed code, documentation, graphic design, and more to the open source software that made Ingenuity’s launch possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;GitHub worked with NASA’s Jet Propulsion Laboratory to create a &lt;a href=&quot;https://github.blog/2021-04-19-open-source-goes-to-mars/&quot;&gt;Mars 2020 Helicopter Mission badge&lt;/a&gt; for display on developer profiles who contributed to the effort.&lt;/p&gt;
+
+&lt;p&gt;More on the historic achievement at the &lt;a href=&quot;https://www.nasa.gov/press-release/nasa-s-ingenuity-mars-helicopter-succeeds-in-historic-first-flight&quot;&gt;NASA website&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Open&quot;]" /><summary type="html">GitHub has a great write-up of how open source community contributions played a key role in helping NASA’s Ingenuity helicopter achieve lift-off on Mars.</summary></entry><entry><title type="html">U.S. Air Force is doing a brand review ‘to ensure an inclusive and professional environment’</title><link href="/radar/air-force-brand-review-inclusive-professional-environment" rel="alternate" type="text/html" title="U.S. Air Force is doing a brand review ‘to ensure an inclusive and professional environment’" /><published>2021-01-05T00:00:00-08:00</published><updated>2021-11-02T08:26:15-07:00</updated><id>/radar/air-force-brand-review-inclusive-professional-environment</id><content type="html" xml:base="/radar/air-force-brand-review-inclusive-professional-environment">&lt;p&gt;From the &lt;a href=&quot;https://www.spaceforce.mil/News/Article/2462804/department-of-the-air-force-directs-commanders-to-review-unit-emblems-mottos-ni/&quot;&gt;announcement&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Department of the Air Force directed commanders to conduct a comprehensive review of official and unofficial unit emblems, morale patches, mottos, nicknames, coins and other forms of unit recognition and identity to ensure an inclusive and professional environment within 60 days from Dec. 23, 2020.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Commanders, at the squadron level and above, will remove any visual representation, symbols or language derogatory to any race, gender, sexual orientation, ethnicity, religion, age or disability status to ensure an inclusive and professional environment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The directive came in the form of a memorandum from Secretary of the Air Force Barbara Barrett, Air Force Chief of Staff Charles Q. Brown, Jr., and Chief of Space Operations John W. Raymond.
+“It is critical for the Department of the Air Force to embody an environment of dignity, respect and inclusivity for all Airmen and Guardians,” the memo stated. “Our core values demand we hold ourselves to high standards and maintain a culture of respect and trust in our chain of command.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;According to &lt;a href=&quot;https://static.e-publishing.af.mil/production/1/af_ho/publication/afi84-105/afi84-105.pdf&quot;&gt;Air Force Instruction 84-105, “Organizational Lineage, Honors and Heraldry,”&lt;/a&gt; emblem designs and mottos should reflect favorably on the United States Air Force, be original, distinctive, dignified, in good taste and non-controversial.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Their continued use (of derogatory symbols and language) ostracizes our teammates undermining unit cohesion and impeding our mission readiness and success … Our diversity of experience, culture, demographics and perspectives is a force multiplier and essential to our success in this dynamic global environment … We must ensure all our Airmen and Guardians are valued and respected,” the memo emphasized.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Commanders should consider emblem and motto guidance in AFI 84-105 and consult their historians, staff judge advocates and equal opportunity specialists during the review.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Inclusion&quot;]" /><summary type="html">From the announcement:</summary></entry></feed>

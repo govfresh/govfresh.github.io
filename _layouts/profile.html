@@ -1,0 +1,99 @@
+---
+layout: profile
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+
+        {% if page.parent == "books" %}
+        <p>By {{ page.author }}</p>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.review-link %}
+        <p><a href="{{ site.baseurl }}/reviews/{{ page.review-link }}">Full review</a></p>
+        {% endif %}
+
+        {% if page.parent == "podcasts" %}
+        <p>Host: {{ page.author }}</p>
+        {% endif %}
+
+        {% if page.org %}
+        <p>Organizer: <a href="{{ page.org-link }}">{{ page.org }}</a></p>
+        {% endif %}
+
+        {% if page.parent == "podcasts" %}
+        <div class="alert alert-secondary">
+          <h2>Listen</h2>
+          {% include social.html %}
+        </div>
+        {% endif %}
+
+        {% if page.amazon %}
+        <p><a href="{{ site.baseurl }}{{ page.amazon }}" class="btn btn-primary"><i
+              class="fa-solid fa-cart-shopping"></i> Buy</a></p>
+        {% endif %}
+
+        {% if page.donate %}
+        <p><a href="{{ page.donate }}" class="btn btn-primary"><i class="fa-solid fa-circle-dollar-to-slot"></i></i>
+            Support</a></p>
+        {% endif %}
+
+        {% if page.parent == "labs" %}
+        <p><a href="{{ page.website }}" class="btn btn-primary"><i class="fa-solid fa-flask"></i></i> Visit
+            project</a></p>
+        {% endif %}
+
+        {% if page.parent == "pitches" %}
+        <p><a href="{{ page.website }}" class="btn btn-primary">Visit {{ page.title }} </a></p>
+        {% endif %}
+
+        {% if page.parent == "orgs" or page.parent == "gamechangers" or page.parent == "events" or page.parent == "team" or page.parent == "pitches" or page.parent == "podcasts" %}
+        <h2>Connect with {{ page.shortname }}</h2>
+        {% include social.html size="small" %}
+        {% endif %}
+
+        {% if page.parent == "books" %}
+        <h2>Book links</h2>
+        {% include social.html size="small" %}
+        {% endif %}
+
+        {% if page.parent == "pitches" %}
+        <div class="alert alert-secondary">
+          <p><i class="fas fa-asterisk"></i> This is a sponsored page, and we are grateful to
+            <strong>{{ page.title }}</strong> for <a href="{{ site.baseurl }}/support">supporting GovFresh.
+            </a></p>
+        </div>
+        {% endif %}
+
+        {% if page.parent == "books" %}
+        {% include disclosure.html %}
+        {% endif %}
+
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+        {% include image.html %}
+        {% include topics.html %}
+      </div>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
+      </div>
+    </div>
+  </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

@@ -1,0 +1,45 @@
+<div class="home-include">
+    {% assign count = 0 %}
+    {% assign title = page.title %}
+    {% for x in site.pages %}
+    {% for loop in site.pages %}
+    {% if loop.order %}
+    {% assign order = loop.order | plus:0 %}
+    {% if order == count %}
+    {% if include.show-only %}
+    {% if loop.parent == page.parent %}
+    <div class="preview">
+        <h2>{{ loop.title }}</h2>
+        <p class="lead">{{ loop.description }}</p>
+        {% if true %}
+        {% include cards.html page=loop.parent page-title=title %}
+        {% endif %}
+        {% if loop.permalink %}
+        {% assign permalink = loop.permalink %}
+        {% else %}
+        {% assign permalink = loop.parent %}
+        {% endif %}
+        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ loop.title }}</a>
+    </div>
+    {% endif %}
+    {% assign count = count | plus:1 %}
+    {% else %}
+    <div class="preview">
+        <h2>{{ loop.title }}</h2>
+        <p class="lead">{{ loop.description }}</p>
+        {% assign page = loop %}
+        {% include cards.html page-title=title %}
+        {% if loop.permalink %}
+        {% assign permalink = loop.permalink %}
+        {% else %}
+        {% assign permalink = loop.parent %}
+        {% endif %}
+        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ loop.title }}</a>
+        {% assign count = count | plus:1 %}
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>

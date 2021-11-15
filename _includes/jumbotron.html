@@ -1,0 +1,101 @@
+{% if page.parent == "thoughts" or page.parent == "reviews" %}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="display-4">{{ page.title }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                {% if page.description %}
+                <p class="lead">{{ page.description }}</p>
+                {% endif %}
+                {% if page.author %}
+                {% for author in page.author %}
+                {% assign author_data = site.people | where:"author", author | first %}
+                {% if author_data.content.size > 1 %}
+                <p>
+                    {% if author_data.img %}<img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
+                        alt="Photo of {{ author_data.title }}" title="{{ author_data.title }}"
+                        class="author rounded-circle" />
+                    {% endif %} By <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
+                    &middot;
+                    {% include date.html %}
+                </p>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% elsif page.parent == "radar" %}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="display-5">{{ page.title }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {% if page.author %}
+                {% for author in page.author %}
+                {% assign author_data = site.people | where:"author", author | first %}
+                {% if author_data.content.size > 1 %}
+                <p>
+                    Posted by <a href="{{ site.baseurl }}{{ author_data.url }}"> {{ author_data.title }}</a>
+                    &middot;
+                    {% include date.html %}
+                </p>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% elsif page.layout == "home" %}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h1 class="display-3">{{ page.description }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% else %}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="display-4">{{ page.title }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9">
+                {% if page.description %}
+                <p class="lead">{{ page.description }}</p>
+                {% endif %}
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}

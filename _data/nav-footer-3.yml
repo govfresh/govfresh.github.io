@@ -1,0 +1,20 @@
+docs_list_title: nav-footer-3
+docs:
+
+ - title: Pitches
+   url: /pitches/
+
+ - title: Code of conduct
+   url: /conduct/
+
+ - title: Disclosure
+   url: /disclosure/
+
+ - title: Privacy
+   url: /privacy/
+
+ - title: Colophon
+   url: /colophon/
+
+ - title: Archives
+   url: https://govfresharchives.wordpress.com

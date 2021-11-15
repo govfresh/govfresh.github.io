@@ -1,0 +1,17 @@
+{% if page.categories %}
+{% if post %}
+{% assign categories = post.categories %}
+{% else %}
+{% assign categories = page.categories %}
+{% endif %}
+<div class="categories">
+    <ul class="nav nav-pills">
+        {% for category in categories %}
+        <li class="nav-item">
+            <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="nav-link">{{ category }}</a>
+        </li>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}

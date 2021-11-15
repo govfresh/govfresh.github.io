@@ -1,0 +1,51 @@
+---
+layout: thoughts
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                {% if page.img %}
+                <div class="img">
+                    <div class="thoughts-feat">
+                        {{ page.img }}
+                    </div>
+                    {% if page.img-caption %}
+                    <p class="img-caption">
+                        {% if page.img-link %}
+                        <a href="{{ site.baseurl }}{{ page.img-link }}">
+                            {% endif %}
+                            {{ page.img-caption }}
+                            {% if page.img-link %}
+                        </a>
+                        {% endif %}
+                    </p>
+                    {% endif %}
+                </div>
+                {% endif %}
+                {{ content }}
+                {% include updated.html %}
+                {% include license.html %}
+                {% include bio.html %}
+                {% include subscribe.html %}
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                {% include topics.html %}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                {% include previews.html show-only="true" %}
+            </div>
+        </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

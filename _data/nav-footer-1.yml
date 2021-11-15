@@ -1,0 +1,29 @@
+docs_list_title: nav-footer-1
+docs:
+
+ - title: About
+   url: /about/
+
+ - title: Support
+   url: /support/
+
+ - title: Services
+   url: /services/
+
+ - title: Team
+   url: /team/
+
+ - title: Labs
+   url: /labs/
+
+ - title: Subscribe
+   url: /subscribe/
+
+ - title: Connect
+   url: /connect/
+
+ - title: Suggest
+   url: /suggest/
+
+ - title: Contact
+   url: /contact/

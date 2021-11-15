@@ -1,0 +1,31 @@
+---
+layout: radar
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                {{ content }}
+                {% include updated.html %}
+                {% include subscribe.html %}
+            </div>
+            <div class="col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                {% include topics.html %}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                {% include previews.html show-only="true" %}
+            </div>
+        </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

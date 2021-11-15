@@ -1,0 +1,132 @@
+<!-- Footer -->
+
+{% if include.size == "footer" %}
+{% for item in site.data.connect.docs %}
+{% if item.url  %}
+<a href="{{ item.url }}" aria-label="{{ item.name }}"><i class="{{ item.icon }} {{ site.data.connect.sm }}"></i></a>
+{% endif %}
+{% endfor %}
+
+<!-- Profile -->
+
+{% elsif include.size == "small" %}
+<p class="social">
+        {% if author_data %}
+        {% assign page = author_data %}
+        {% endif %}
+        {% if page.website %}
+        <a href="{{ page.website }}" aria-label="Website"><i
+                        class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.email %}
+        <a href="mailto:{{ page.email }}" aria-label="Email"><i
+                        class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.subscribe %}
+        <a href="{{ page.subscribe }}" aria-label="Subscribe"><i
+                        class="{{ site.data.connect.subscribe }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.patreon %}
+        <a href="{{ page.patreon }}" aria-label="Patreon"><i
+                        class="{{ site.data.connect.patreon }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.twitter %}
+        <a href="{{ page.twitter }}" aria-label="Twitter"><i
+                        class="{{ site.data.connect.twitter }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.linkedin %}
+        <a href="{{ page.linkedin }}" aria-label="LinkedIn"><i
+                        class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.facebook %}
+        <a href="{{ page.facebook }}" aria-label="Facebook"><i
+                        class="{{ site.data.connect.facebook }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.github %}
+        <a href="{{ page.github }}" aria-label="GitHub"><i
+                        class="{{ site.data.connect.github }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.medium %}
+        <a href="{{ page.medium }}" aria-label="Medium"><i
+                        class="{{ site.data.connect.medium }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.youtube %}
+        <a href="{{ page.youtube }}" aria-label="YouTube"><i
+                        class="{{ site.data.connect.youtube }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.vimeo %}
+        <a href="{{ page.vimeo }}" aria-label="Vimeo"><i
+                        class="{{ site.data.connect.vimeo }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.instagram %}
+        <a href="{{ page.instagram }}" aria-label="Instagram"><i
+                        class="{{ site.data.connect.instagram }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.flickr %}
+        <a href="{{ page.flickr }}" aria-label="Flickr"><i
+                        class="{{ site.data.connect.flickr }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.figma %}
+        <a href="{{ page.figma }}" aria-label="Figma"><i
+                        class="{{ site.data.connect.figma }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.tumblr %}
+        <a href="{{ page.tumblr }}" aria-label="Tumblr"><i
+                        class="{{ site.data.connect.tubmlr }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.library %}
+        <a href="{{ page.library }}" aria-label="Library"><i
+                        class="{{ site.data.connect.library }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.goodreads %}
+        <a href="{{ page.goodreads }}" aria-label="GoodReads"><i
+                        class="{{ site.data.connect.goodreads}} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.amazon %}
+        <a href="{{ page.amazon }}" aria-label="Amazon"><i
+                        class="{{ site.data.connect.amazon }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.apple %}
+        <a href="{{ page.apple }}" aria-label="Apple"><i
+                        class="{{ site.data.connect.apple }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.spotify %}
+        <a href="{{ page.spotify }}" aria-label="Spotify"><i
+                        class="{{ site.data.connect.spotify }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if page.rss %}
+        <a href="{{ page.rss }}" aria-label="RSS"><i
+                        class="{{ site.data.connect.rss }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+</p>
+
+{% elsif page.parent == "podcasts" %}
+<!-- Podcasts -->
+
+<p class="social">
+        {% if page.apple %}
+        <a href="{{ page.apple }}" aria-label="Apple Podcasts"><i
+                        class="{{ site.data.connect.apple }} {{ site.data.connect.lg }}"></i></a>
+        {% endif %}
+        {% if page.spotify %}
+        <a href="{{ page.spotify }}" aria-label="Spotify"><i
+                        class="{{ site.data.connect.spotify }} {{ site.data.connect.lg }}"></i></a>
+        {% endif %}
+</p>
+
+<!-- Connect -->
+
+{% else %}
+{% for item in site.data.connect.docs %}
+<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
+        <div class="card">
+                <div class="card-body">
+                        <a href="{{ item.url }}" class="stretched-link">
+                                <p><i class="{{ item.icon }} {{ site.data.connect.lg }}"></i></p>
+                                <p class="card-title">{{ item.name }}</p>
+                        </a>
+                </div>
+        </div>
+</div>
+{% endfor %}
+{% endif %}

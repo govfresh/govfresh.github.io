@@ -1,0 +1,14 @@
+docs_list_title: nav
+docs:
+
+- title: Features
+  url: /features/
+
+- title: Labs
+  url: /labs/
+
+- title: Evergreen
+  url: /evergreen/
+  
+- title: <i class="fas fa-search"></i>
+  url: /search/

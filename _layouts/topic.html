@@ -1,0 +1,236 @@
+---
+layout: topic
+---
+
+{% assign radar = site.posts | where: "categories", page.title %}
+{% assign thoughts = site.thoughts | where: "categories", page.title %}
+{% assign reviews = site.reviews | where: "categories", page.title %}
+{% assign books = site.books | where: "categories", page.title %}
+{% assign orgs = site.orgs | where: "categories", page.title %}
+{% assign events = site.events | where: "categories", page.title %}
+{% assign pitches = site.pitches | where: "categories", page.title %}
+{% assign labs = site.labs | where: "categories", page.title %}
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+
+        <!-- Pitches -->
+
+        {% if pitches != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Pitches</h2>
+            </div>
+        </div>
+        <div class="card-deck pitches">
+            {% for page in pitches %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if page.img %}
+                        <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link"><img class="card-img-top"
+                                src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                                alt="{{ item.img-alt }}" title="{{ page.img-alt }}"></a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Radar -->
+
+        {% if radar != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Radar</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-deck">
+                    {% for page in radar %}
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-satellite-dish {{ site.data.connect.lg }}"></i>
+                                <h3><a href="{{ site.baseurl }}{{ page.url }}"
+                                        class="stretched-link">{{ page.title }}</a>
+                                </h3>
+                                <p class="date">{{ page.date | date: "%B %-d, %Y" }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Thoughts -->
+
+        {% if thoughts != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Thoughts</h2>
+            </div>
+        </div>
+        <div class="card-deck thoughts">
+            {% for page in thoughts %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+                <div class="card thoughts">
+                    <div class="card-body">
+                        <div class="thoughts-feat">
+                            {{ page.img }}
+                        </div>
+                        <h4><a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a></h4>
+                        <p>By {{ page.author }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Reviews -->
+
+        {% if reviews != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Reviews</h2>
+            </div>
+        </div>
+        <div class="card-deck">
+            {% for page in reviews %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if page.img %}
+                        <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
+                            alt="{{ page.img-alt }}" title=" 
+                            {{ page.img-alt }}">
+                        {% endif %}
+                        <h4><a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a></h4>
+                        <p>{{ page.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Books -->
+
+        {% if books != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Books</h2>
+            </div>
+        </div>
+        <div class="card-deck">
+            {% for page in books %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if page.img %}
+                        <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
+                            alt="{{ page.img-alt }}">
+                        {% endif %}
+                        <h5 class="h7"><a href="{{ site.baseurl }}{{ page.url }}"
+                                class="stretched-link">{{ page.title }}</a>
+                        </h5>
+                        <p>By {{ page.author }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Orgs -->
+
+        {% if orgs != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Organizations</h2>
+            </div>
+        </div>
+        <div class="card-deck">
+            {% for page in orgs %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if page.img %}
+                        <img class="card-img-top"
+                            src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                            alt="{{ page.img-alt }}">
+                        {% endif %}
+                        <h4><a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a></h4>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Events -->
+
+        {% if events != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Events</h2>
+            </div>
+        </div>
+        <div class="card-deck">
+            {% for page in events %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if page.img %}
+                        <img class="card-img-top"
+                            src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                            alt="{{ item.img-alt }}"">
+                        {% endif %}
+                        <h4><a href=" {{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if labs != empty %}
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Labs</h2>
+            </div>
+        </div>
+        <div class="card-deck">
+            {% for page in site.labs %}
+            {% if page.title != title %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="icon">
+                            <i class="{{ page.icon }} {{ site.data.connect.lg }}"></i>
+                        </div>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
+                        </h3>
+                        <p class="description">{{ page.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+</main>
+{% include analytics.html %}
+{% include footer.html %}

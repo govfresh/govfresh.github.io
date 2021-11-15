@@ -1,0 +1,380 @@
+<div class="cards-include">
+    {% if include.page %}
+    {% assign pull = include.page %}
+    {% else %}
+    {% assign pull = page.parent %}
+    {% endif %}
+    {% if include.page-title && include.page-title == "Government. Fresh." %}
+    {% assign title = include.page-title %}
+    {% else %}
+    {% assign title = page.title %}
+    {% endif %}
+
+    <!-- Books -->
+
+    {% if pull == "books" %}
+    <div class="card-deck books book randomize">
+        {% assign limit = site.books-number | plus:0 %}
+        {% assign amount = 1 %}
+        {% for x in site.books %}
+        {% assign item = x %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h5 class="h7"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a>
+                    </h5>
+                    <p>{{ item.author }}</p>
+                </div>
+            </div>
+        </div>
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h5 class="h7"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a>
+                    </h5>
+                    <p>{{ item.author }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if title != item.title %}
+        {% assign amount = amount | plus:1 %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Radar -->
+
+    {% if pull == "radar" %}
+    <div class="card-deck">
+        {% assign limit = site.radar-number | plus:0 %}
+        {% assign amount = 1 %}
+        {% for item in site.posts %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                    <p><small>{{ item.date | date: "%B %-d, %Y" }}</small></p>
+                </div>
+            </div>
+        </div>
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                    <p>{{ item.date | date: "%B %-d, %Y" }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if title != item.title %}
+        {% assign amount = amount | plus:1 %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Thoughts -->
+
+    {% if pull == "thoughts" %}
+    <div class="card-deck thoughts">
+        {% assign limit = site.thoughts-number | plus:0 %}
+        {% assign amount = 1 %}
+        {% for item in site.thoughts reversed %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+            <div class="card thoughts">
+                <div class="card-body">
+                    <div class="thoughts-feat">
+                        {{ item.img }}
+                    </div>
+                    <h3 class="h2"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h3>
+                    <p>By {{ item.author }}</p>
+                </div>
+            </div>
+        </div>
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+            <div class="card thoughts">
+                <div class="card-body">
+                    <div class="thoughts-feat">
+                        {{ item.img }}
+                    </div>
+                    <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+                    <p>By {{ item.author }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if title != item.title %}
+        {% assign amount = amount | plus:1 %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Gamechangers -->
+
+    {% if pull == "gamechangers" %}
+    <div class="card-deck gamechangers randomize">
+        {% assign limit = site.gamechangers-number | plus:0 %}
+        {% assign amount = 1 %}
+        {% assign seed = site.time | date: "%s%N" %}
+        {% assign mod = site.gamechangers.size %}
+        {% assign random = seed | modulo: mod %}
+        {% for x in site.gamechangers %}
+        {% unless page.gamechangers %}
+        {% assign index = random | plus:amount %}
+        {% if index >= site.gamechangers.size %}
+        {% assign random = 0 | minus: amount %}
+        {% endif %}
+        {% assign index = random | plus:amount %}
+        {% assign item = site.gamechangers[index] %}
+        {% else %}
+        {% assign item = x %}
+        {% endunless %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if title != item.title %}
+        {% assign amount = amount | plus:1 %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Reviews -->
+
+    {% if pull == "reviews" %}
+    <div class="card-deck book">
+        {% assign limit = site.reviews-number | plus:0 %}
+        {% assign amount = 1 %}
+        {% for item in site.reviews reversed %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if title != item.title %}
+        {% assign amount = amount | plus:1 %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Events -->
+
+    {% if pull == "events" %}
+    <div class="card-deck">
+        {% assign limit = site.events-number | plus:0 %}
+        {% assign amount = 1 %}
+        {% for item in site.events %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                </div>
+            </div>
+        </div>
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if title != item.title %}
+        {% assign amount = amount | plus:1 %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- People -->
+
+    {% if pull == "people" %}
+    <div class="card-deck people">
+        {% for item in site.people %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Pitches -->
+
+    {% if pull == "pitches" %}
+    <div class="card-deck pitches">
+        {% for item in site.pitches %}
+        {% if item.title != title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}"></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Podcasts -->
+
+    {% if pull == "podcasts" %}
+    <div class="card-deck books book">
+        {% for item in site.podcasts %}
+        {% if item.title != title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}"></a>
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</div>
+
+<!-- Orgs -->
+
+{% if pull == "orgs" %}
+<div class="card-deck orgs randomize">
+    {% assign limit = site.orgs-number | plus:0 %}
+    {% assign amount = 1 %}
+    {% for item in site.orgs %}
+    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img %}
+                <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                    alt="{{ item.img-alt }}">
+                {% endif %}
+                <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+            </div>
+        </div>
+    </div>
+    {% elsif page.short != "true" and title != "Government. Fresh." %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img %}
+                <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                    alt="{{ item.img-alt }}">
+                {% endif %}
+                <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if title != item.title %}
+    {% assign amount = amount | plus:1 %}
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
+
+
+{% include random.html %}

@@ -1,0 +1,216 @@
+# General
+title: GovFresh
+email:
+description: Public service with and by the people.
+#baseurl: ""
+#url: ""
+
+# Build settings
+theme:
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-last-modified-at
+  - jekyll-redirect-from
+
+# Date/time
+date: "%B %-d, %Y"
+timezone: America/Los_Angeles
+
+# Number limits
+thoughts-number: 3
+reviews-number: 4
+radar-number: 7
+gamechangers-number: 4
+books-number: 7
+events-number: 4
+orgs-number: 4
+pitches-number: 4
+
+# Defaults
+defaults:
+  - scope:
+      path: "_reviews"
+      type: "reviews"
+    values:
+      folder: "Reviews"
+      img-path: "books"
+      parent: "reviews"
+      layout: "review"
+      short: "true"
+  - scope:
+      path: "_thoughts"
+      type: "thoughts"
+    values:
+      folder: "Thoughts"
+      img-path: "posts"
+      parent: "thoughts"
+      layout: "thoughts"
+      short: "true"
+  - scope:
+      path: "_events"
+      type: "events"
+    values:
+      folder: "Events"
+      img-path: "events"
+      parent: "events"
+      layout: "profile"
+      short: "true"
+  - scope:
+      path: "_books"
+      type: "books"
+    values:
+      folder: "Book club"
+      img-path: "books"
+      parent: "books"
+      layout: "profile"
+      short: "true"
+  - scope:
+      path: "_gamechangers"
+      type: "gamechangers"
+    values:
+      folder: "Gamechangers"
+      img-path: "people"
+      parent: "gamechangers"
+      layout: "profile"
+      short: "true"
+  - scope:
+      path: "_orgs"
+      type: "orgs"
+    values:
+      folder: "Organizations"
+      img-path: "orgs"
+      parent: "orgs"
+      layout: "profile"
+      short: "true"
+  - scope:
+      path: "_people"
+      type: "people"
+    values:
+      folder: "Team"
+      img-path: "people"
+      parent: "team"
+      layout: "profile"
+      short: "true"
+  - scope:
+      path: ""
+      type: ""
+    values:
+      folder: ""
+      img-path: ""
+      parent: ""
+      layout: "cards"
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      folder: "Radar"
+      img-path: "posts"
+      parent: "radar"
+      layout: "radar"
+      short: "true"
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "topic"
+  - scope:
+      path: "_pitches"
+      type: "pitches"
+    values:
+      folder: "Pitches"
+      img-path: "orgs"
+      parent: "pitches"
+      layout: "profile"
+      short: "true"
+  - scope:
+      path: "_podcasts"
+      type: "podcasts"
+    values:
+      folder: "Podcasts"
+      img-path: "podcasts"
+      parent: "podcasts"
+      layout: "profile"
+      short: "true"
+  - scope:
+      path: ""
+      type: ""
+    values:
+      folder: "Media"
+      img-path: 
+      parent: "media"
+      layout: 
+      short: 
+  - scope:
+      path: ""
+      type: ""
+    values:
+      folder: "Playlist"
+      img-path: 
+      parent: "playlist"
+      layout: 
+      short: 
+  - scope:
+      path: "_labs"
+      type: "labs"
+    values:
+      folder: "Labs"
+      img-path: "labs"
+      parent: "labs"
+      layout: "profile"
+      short: "true"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: :title
+  gamechangers:
+    output: true
+    permalink: /gamechangers/:title
+  reviews:
+    output: true
+    permalink: /reviews/:title
+  people:
+    output: true
+    permalink: people/:title
+  books:
+    output: true
+    permalink: /books/:title
+  thoughts:
+    output: true
+    permalink: /thoughts/:title
+  events:
+    output: true
+    permalink: /event/:title
+  orgs:
+    output: true
+    permalink: /orgs/:title
+  posts:
+    output: true
+    permalink: /radar/:title
+  topics:
+    output: true
+    permalink: topics/:title
+  pitches:
+    output: true
+    permalink: pitches/:title
+  podcasts:
+    output: true
+    permalink: podcasts/:title
+  labs:
+    output: true
+    permalink: labs/:title
+
+# Pagination
+paginate: 6
+paginate_path: "/radar/:num"
+
+# Exclude
+exclude:
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock

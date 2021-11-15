@@ -1,0 +1,32 @@
+docs_list_title: nav-footer-2
+docs:
+
+ - title: Radar
+   url: /radar/
+
+ - title: Thoughts
+   url: /thoughts/
+
+ - title: Gamechangers
+   url: /gamechangers/
+
+ - title: Reviews
+   url: /reviews/
+
+ - title: Podcasts
+   url: /podcasts/
+
+ - title: Book club
+   url: /books/
+
+ - title: Playlist
+   url: /playlist/
+
+ - title: Events
+   url: /events/
+
+ - title: Organizations
+   url: /orgs/
+
+ - title: Media
+   url: /media/
