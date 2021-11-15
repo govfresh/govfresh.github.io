@@ -2,16 +2,6 @@
   
     {
 
-      "title"    : "Voting isn’t easy if you can’t see the ballot",
-      "url"      : "/radar/voting-seeing-ballot",
-      "category" : "DigitalInclusion",
-      "tags"     : "",
-      "date"     : "2021-11-15 00:00:00 -0800"
-
-    } ,
-  
-    {
-
       "title"    : "NIST wants public feedback on cybersecurity labeling for consumer software",
       "url"      : "/radar/nist-public-input-cybersecurity-consumer-software-labeling",
       "category" : "DigitalSecurity",
