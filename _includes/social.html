@@ -12,80 +12,100 @@
 {% elsif include.size == "small" %}
 <p class="social">
         {% if author_data %}
-        {% assign page = author_data %}
+        {% assign data = author_data %}
+        {% else %}
+        {% assign data = page %}
         {% endif %}
-        {% if page.website %}
-        <a href="{{ page.website }}" aria-label="Website"><i
+        {% if data.website %}
+        <a href="{{ data.website }}" aria-label="Website"><i
                         class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.email %}
-        <a href="mailto:{{ page.email }}" aria-label="Email"><i
+        {% if data.email %}
+        <a href="mailto:{{ data.email }}" aria-label="Email"><i
                         class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.subscribe %}
-        <a href="{{ page.subscribe }}" aria-label="Subscribe"><i
+        {% if data.subscribe %}
+        <a href="{{ data.subscribe }}" aria-label="Subscribe"><i
                         class="{{ site.data.connect.subscribe }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.patreon %}
-        <a href="{{ page.patreon }}" aria-label="Patreon"><i
+        {% if data.patreon %}
+        <a href="{{ data.patreon }}" aria-label="Patreon"><i
                         class="{{ site.data.connect.patreon }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.twitter %}
-        <a href="{{ page.twitter }}" aria-label="Twitter"><i
+        {% if data.twitter %}
+        <a href="{{ data.twitter }}" aria-label="Twitter"><i
                         class="{{ site.data.connect.twitter }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.linkedin %}
-        <a href="{{ page.linkedin }}" aria-label="LinkedIn"><i
+        {% if data.linkedin %}
+        <a href="{{ data.linkedin }}" aria-label="LinkedIn"><i
                         class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.facebook %}
-        <a href="{{ page.facebook }}" aria-label="Facebook"><i
+        {% if data.facebook %}
+        <a href="{{ data.facebook }}" aria-label="Facebook"><i
                         class="{{ site.data.connect.facebook }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.github %}
-        <a href="{{ page.github }}" aria-label="GitHub"><i
+        {% if data.github %}
+        <a href="{{ data.github }}" aria-label="GitHub"><i
                         class="{{ site.data.connect.github }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.medium %}
-        <a href="{{ page.medium }}" aria-label="Medium"><i
+        {% if data.medium %}
+        <a href="{{ data.medium }}" aria-label="Medium"><i
                         class="{{ site.data.connect.medium }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.youtube %}
-        <a href="{{ page.youtube }}" aria-label="YouTube"><i
+        {% if data.youtube %}
+        <a href="{{ data.youtube }}" aria-label="YouTube"><i
                         class="{{ site.data.connect.youtube }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.vimeo %}
-        <a href="{{ page.vimeo }}" aria-label="Vimeo"><i
+        {% if data.vimeo %}
+        <a href="{{ data.vimeo }}" aria-label="Vimeo"><i
                         class="{{ site.data.connect.vimeo }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.instagram %}
-        <a href="{{ page.instagram }}" aria-label="Instagram"><i
+        {% if data.instagram %}
+        <a href="{{ data.instagram }}" aria-label="Instagram"><i
                         class="{{ site.data.connect.instagram }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.flickr %}
-        <a href="{{ page.flickr }}" aria-label="Flickr"><i
+        {% if data.flickr %}
+        <a href="{{ data.flickr }}" aria-label="Flickr"><i
                         class="{{ site.data.connect.flickr }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.figma %}
-        <a href="{{ page.figma }}" aria-label="Figma"><i
+        {% if data.figma %}
+        <a href="{{ data.figma }}" aria-label="Figma"><i
                         class="{{ site.data.connect.figma }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.tumblr %}
-        <a href="{{ page.tumblr }}" aria-label="Tumblr"><i
+        {% if data.tumblr %}
+        <a href="{{ data.tumblr }}" aria-label="Tumblr"><i
                         class="{{ site.data.connect.tubmlr }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.library %}
-        <a href="{{ page.library }}" aria-label="Library"><i
+        {% if data.library %}
+        <a href="{{ data.library }}" aria-label="Library"><i
                         class="{{ site.data.connect.library }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.goodreads %}
-        <a href="{{ page.goodreads }}" aria-label="GoodReads"><i
+        {% if data.goodreads %}
+        <a href="{{ data.goodreads }}" aria-label="GoodReads"><i
                         class="{{ site.data.connect.goodreads}} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
-        {% if page.amazon %}
-        <a href="{{ page.amazon }}" aria-label="Amazon"><i
+        {% if data.amazon %}
+        <a href="{{ data.amazon }}" aria-label="Amazon"><i
                         class="{{ site.data.connect.amazon }} {{ site.data.connect.sm }}"></i></a>
         {% endif %}
+        {% if data.apple %}
+        <a href="{{ data.apple }}" aria-label="Apple"><i
+                        class="{{ site.data.connect.apple }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if data.spotify %}
+        <a href="{{ data.spotify }}" aria-label="Spotify"><i
+                        class="{{ site.data.connect.spotify }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+        {% if data.rss %}
+        <a href="{{ data.rss }}" aria-label="RSS"><i
+                        class="{{ site.data.connect.rss }} {{ site.data.connect.sm }}"></i></a>
+        {% endif %}
+</p>
+
+<!-- Podcasts -->
+
+{% elsif include.size == "podcast" %}
+<p>
         {% if page.apple %}
         <a href="{{ page.apple }}" aria-label="Apple"><i
                         class="{{ site.data.connect.apple }} {{ site.data.connect.sm }}"></i></a>
@@ -93,24 +113,6 @@
         {% if page.spotify %}
         <a href="{{ page.spotify }}" aria-label="Spotify"><i
                         class="{{ site.data.connect.spotify }} {{ site.data.connect.sm }}"></i></a>
-        {% endif %}
-        {% if page.rss %}
-        <a href="{{ page.rss }}" aria-label="RSS"><i
-                        class="{{ site.data.connect.rss }} {{ site.data.connect.sm }}"></i></a>
-        {% endif %}
-</p>
-
-{% elsif page.parent == "podcasts" %}
-<!-- Podcasts -->
-
-<p class="social">
-        {% if page.apple %}
-        <a href="{{ page.apple }}" aria-label="Apple Podcasts"><i
-                        class="{{ site.data.connect.apple }} {{ site.data.connect.lg }}"></i></a>
-        {% endif %}
-        {% if page.spotify %}
-        <a href="{{ page.spotify }}" aria-label="Spotify"><i
-                        class="{{ site.data.connect.spotify }} {{ site.data.connect.lg }}"></i></a>
         {% endif %}
 </p>
 

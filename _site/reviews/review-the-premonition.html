@@ -230,7 +230,7 @@ July 6, 2021
 
 
                 <p><strong>Book:
-                        <a href="/books//the-premonition"> The Premonition</a></strong>
+                        <a href="/books/the-premonition"> The Premonition</a></strong>
                 </p>
                 <!-- -->
                 <p><small>This work by
@@ -239,66 +239,6 @@ July 6, 2021
             href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International
             License</a>.</small>
 </p>
-                
-
-<div class="author-bio">
-        <h2>About Luke Fretwell</h2>
-        <p>Luke Fretwell is founder of [GovFresh](https://govfresh.com). He is the co-founder and CEO of [ProudCity](https://proudcity.com).
-
-</p>
-        <!-- Footer -->
-
-
-<p class="social">
-        
-        
-        <a href="https://lukefretwell.com" aria-label="Website"><i
-                        class="fas fa-window-maximize fa-lg"></i></a>
-        
-        
-        <a href="mailto:luke@govfresh.com" aria-label="Email"><i
-                        class=" fas fa-at fa-lg"></i></a>
-        
-        
-        <a href="https://govfresh.com/subscribe" aria-label="Subscribe"><i
-                        class="fa-solid fa-envelope-open-text fa-lg"></i></a>
-        
-        
-        <a href="https://patreon.com/govfresh" aria-label="Patreon"><i
-                        class="fab fa-patreon fa-lg"></i></a>
-        
-        
-        <a href="https://twitter.com/lukefretwell" aria-label="Twitter"><i
-                        class="fab fa-twitter fa-lg"></i></a>
-        
-        
-        <a href="https://www.linkedin.com/in/lukefretwell" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin fa-lg"></i></a>
-        
-        
-        
-        <a href="https://github.com/lukefretwell" aria-label="GitHub"><i
-                        class="fab fa-github fa-lg"></i></a>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-</p>
-
-
-</div>
-
-
                 <div class="alert alert-secondary">
     <h4 class="h2">Subscribe</h4>
     <p><a href="/subscribe/">Subscribe</a> to the GovFresh newsletter or <a
@@ -308,16 +248,21 @@ July 6, 2021
 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 book">
-                <a href="/people">
-                    <img src="/assets/img/people/luke-fretwell.jpg"
-                        alt="">
+                <a href="/books/the-premonition">
+                    <img src="/assets/img/books/the-premonition.jpg"
+                        alt="The Premonition">
                 </a>
-                <h5></h5>
-                <p>By </p>
+                <h5>The Premonition</h5>
+                <p>By Michael Lewis</p>
                 
 
 <div class="categories">
     <ul class="nav nav-pills">
+        
+        <li class="nav-item">
+            <a href="/topics/culture" class="nav-link">Culture</a>
+        </li>
+        
         
     </ul>
 </div>
@@ -421,6 +366,118 @@ July 6, 2021
     
     
     
+    
+    <div class="preview">
+        
+        <h2>Reviews</h2>
+        <p class="lead">GovFresh book reviews.</p>
+        
+        <div class="cards-include">
+    
+    
+
+    <!-- Books -->
+
+    
+
+    <!-- Radar -->
+
+    
+
+    <!-- Thoughts -->
+
+    
+
+    <!-- Gamechangers -->
+
+    
+
+    <!-- Reviews -->
+
+    
+    <div class="card-deck book">
+        
+        
+        
+        
+        
+        
+        
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    
+                    <img class="card-img-top" src="/assets/img/books/civic-technologists-practice-guide.webp"
+                        alt="">
+                    
+                    <h4><a href="/reviews/review-civic-technologists-practice-guide" class="stretched-link">Review: A Civic Technologist's Practice Guide</a></h4>
+                    <p class="description">A must-read for the entire civic spectrum.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    
+                    <img class="card-img-top" src="/assets/img/books/click-here-to-kill-everybody.webp"
+                        alt="">
+                    
+                    <h4><a href="/reviews/review-click-here-to-kill-everybody" class="stretched-link">Review: Click Here to Kill Everybody</a></h4>
+                    <p class="description">The must-read security book for every government leader, elected and administrative.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+
+    <!-- Events -->
+
+    
+
+    <!-- People -->
+
+    
+
+    <!-- Pitches -->
+
+    
+
+    <!-- Podcasts -->
+
+    
+
+</div>
+
+<!-- Orgs -->
+
+
+
+
+<script>
+    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
+    var randomized = new Array();
+    document.querySelector('div.randomize').innerHTML = '';
+    let length = elements.length;
+    for (let index = 0; index < length; index++) {
+        let i = Math.floor(Math.random() * elements.length);
+        console.log(elements);
+        randomized.push(elements[i])
+        elements.splice(i, 1);
+    }
+    randomized.forEach(element => {
+        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+    });
+</script>
+        
+        <a href="/reviews/" class="btn btn-primary">Reviews</a>
+    </div>
     
     
     
