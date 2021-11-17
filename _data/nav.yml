@@ -1,9 +1,18 @@
 docs_list_title: nav
 docs:
 
-- title: Features
-  url: /features/
+- title: Radar
+  url: /radar/
 
+- title: Thoughts
+  url: /thoughts/
+
+- title: Gamechangers
+  url: /gamechangers/
+
+- title: Reviews
+  url: /reviews/
+ 
 - title: Labs
   url: /labs/
 

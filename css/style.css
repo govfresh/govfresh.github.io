@@ -28,6 +28,7 @@
     --size-11: 12.5rem;
     --size-12: 18.75rem;
     --size-13: 0.0625rem;
+    --size-14: 15rem;
 }
 
 /* General */
@@ -43,25 +44,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
     color: var(--color-2);
     font-family: var(--font-1) !important;
     font-weight: var(--weight-2);
-    letter-spacing: -.03em;
-}
-
-h1 {
-    background: var(--gradient-1);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    letter-spacing: -.02em;
 }
 
 a, a:visited, a:hover {
     color: var(--color-1);
-}
-
-/* Images */
-
-img {
-    height: auto;
-    max-width: 100%;
 }
 
 /* Theme */
@@ -142,7 +129,6 @@ a.navbar-brand:hover {
 .thoughts-feat svg {
     fill: var(--color-4);
     min-height: var(--size-11);
-    vertical-align: middle;
     width: 20%;
 }
 
@@ -224,6 +210,7 @@ blockquote {
 
 .pagination li.page-item {
     font-family: var(--font-1);
+    font-size: var(--size-3);
 }
 
 .page-item.active .page-link {
@@ -238,6 +225,11 @@ blockquote {
 
 /* Images */
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 .img {
     margin-bottom: var(--size-5);
 }
@@ -247,26 +239,27 @@ p.img-caption {
     padding: var(--size-3) var(--size-1);
 }
 
-/* Books */
-
-.book img, .book-main img {
-    box-shadow: var(--size-2) var(--size-2) var(--size-3) var(--color-3);
-    border: var(--size-13) solid var(--color-2);
-    margin-bottom: var(--size-5);
-}
-
 img.shadow {
     box-shadow: var(--size-2) var(--size-2) var(--size-3) var(--color-2);
     border: var(--size-13) solid var(--color-2);
     margin-bottom: var(--size-5);
 }
 
-.book-main img {
-    max-width: var(--size-12);
+img.line {
+    border: var(--size-13) solid var(--color-2);
+    margin-bottom: var(--size-5);
 }
 
-.books img {
+img.sm {
     max-width: var(--size-11);
+}
+
+img.md {
+    max-width: var(--size-14);
+}
+
+img.lg {
+    max-width: var(--size-12);
 }
 
 /* Breadcrumb */
@@ -298,11 +291,69 @@ img.author {
     padding-top: var(--size-3);
 }
 
+/* Parent */
+
+body.reviews {
+    --color-1: #0e4f5c;
+    --color-5: #6499af;
+    --color-6: #e7f2f5;
+    --gradient-1: linear-gradient(135deg, #0e4f5c 13%, #6499af 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #e7f2f5 73%);
+}
+
+body.radar {
+    --color-1: #b50909;
+    --color-5: #e52207;
+    --color-6: #fde0db;
+    --gradient-1: linear-gradient(135deg, #b50909 13%, #e52207 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #fde0db 73%);
+}
+
+body.thoughts {
+    --color-1: #345d96;
+    --color-5: #4a77b4;
+    --color-6: #ecf1f7;
+    --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
+}
+
+body.gamechangers {
+    --color-1: #7a591a;
+    --color-5: #c2850c;
+    --color-6: #fef0c8;
+    --gradient-1: linear-gradient(135deg, #7a591a 13%, #c2850c 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #fef0c8 73%);
+}
+
+body.labs {
+    --color-1: #8b4566;
+    --color-5: #c84281;
+    --color-6: #f9f0f2;
+    --gradient-1: linear-gradient(135deg, #8b4566 13%, #c84281 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
+}
+
+body.evergreen {
+    --color-1: #0f6460;
+    --color-5: #008480;
+    --color-6: #d5fbf3;
+    --gradient-1: linear-gradient(135deg, #0f6460 13%, #008480 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #d5fbf3 73%);
+}
+
 /* Previews */
 
-.preview {
-    padding-bottom: var(--size-3);
-    padding-top: var(--size-3);
+.home-include .preview {
+    padding-bottom: var(--size-6);
+    padding-top: var(--size-6);
+    border-bottom: var(--size-3) solid var(--color-1);
+}
+
+.preview-include .preview {
+    margin-top: var(--size-6);
+    padding-bottom: var(--size-6);
+    padding-top: var(--size-6);
+    border-top: var(--size-3) solid var(--color-1);
 }
 
 /* Social */
@@ -341,6 +392,10 @@ img.author {
     border-bottom-left-radius: var(--size-8);
     border: var(--size-13) solid var(--color-5);
     border-bottom: var(--size-8) solid var(--color-5);
+}
+
+.alert-secondary .fa-3x {
+    margin: var(--size-3) var(--size-3) var(--size-3) var(--size-1);
 }
 
 .alert2 {
@@ -396,6 +451,11 @@ a.btn-primary:hover, .categories a.nav-link:hover, .categories a.nav-link:hover 
     border-top: var(--size-7) solid var(--color-5);
     border-radius: var(--size-10) var(--size-1) var(--size-10) var(--size-1);
     transition: 1s ease-in-out;
+}
+
+.nav-pills {
+    padding-bottom: var(--size-3);
+    padding-top: var(--size-3);
 }
 
 /* Footer */

@@ -13,30 +13,31 @@ layout: home
     <!-- TLDR -->
 
     {% if page.tldr-title %}
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>{{ page.tldr-title }}</h2>
-                <p class="lead">{{ page.tldr-description }}</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card-deck thoughts">
-                    {% for item in site.data.icons.docs %}
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card icons">
-                            <div class="card-body">
-                                <div class="icon">
-                                    <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
+                <div class="home-include">
+                    <div class="preview">
+                        <h2>{{ page.tldr-title }}</h2>
+                        <p class="lead">{{ page.tldr-description }}</p>
+                        <div class="card-deck thoughts">
+                            {% for item in site.data.icons.docs %}
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                                <div class="card icons">
+                                    <div class="card-body">
+                                        <div class="icon">
+                                            <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
+                                        </div>
+                                        <h3><a href="{{ site.baseurl }}{{ item.url }}"
+                                                class="stretched-link">{{ item.title }}</a></h3>
+                                        <p class="description">{{ item.description }}</p>
+                                    </div>
                                 </div>
-                                <h3><a href="{{ site.baseurl }}{{ item.url }}"
-                                        class="stretched-link">{{ item.title }}</a></h3>
-                                <p class="description">{{ item.description }}</p>
                             </div>
+                            {% endfor %}
                         </div>
                     </div>
-                    {% endfor %}
                 </div>
             </div>
         </div>

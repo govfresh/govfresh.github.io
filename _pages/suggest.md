@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Suggest
-description: Help us make GovFresh better.
+description: Help make GovFresh better.
 permalink: /suggest/
 ---
 

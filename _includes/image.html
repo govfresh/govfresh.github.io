@@ -10,11 +10,23 @@
 {% endif %}
 {% endif %}
 
+{% if page.parent == "events" or page.parent == "orgs" %}
+{% if page.img %}
+<div class="img">
+    <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}"
+        type="{{ page.folder }}" class="lg line">
+    {% if page.img-caption %}
+    <p class="img-caption">{{ page.img-caption }}</p>
+    {% endif %}
+</div>
+{% endif %}
+{% endif %}
+
 {% if page.parent == "podcasts" or page.parent == "books" %}
 {% if page.img %}
 <div class="img">
     <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}"
-        type="{{ page.folder }}" class="shadow">
+        type="{{ page.folder }}" class="shadow lg">
     {% if page.img-caption %}
     <p class="img-caption">{{ page.img-caption }}</p>
     {% endif %}

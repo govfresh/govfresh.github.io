@@ -13,7 +13,7 @@
     <!-- Books -->
 
     {% if pull == "books" %}
-    <div class="card-deck books book randomize">
+    <div class="card-deck randomize">
         {% assign limit = site.books-number | plus:0 %}
         {% assign amount = 1 %}
         {% for x in site.books %}
@@ -23,8 +23,8 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                        alt="{{ item.img-alt }}">
+                    <img class="card-img-top shadow sm"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
                     <h5 class="h7"><a href="{{ site.baseurl }}{{ item.url }}"
                             class="stretched-link">{{ item.title }}</a>
@@ -38,8 +38,8 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                        alt="{{ item.img-alt }}">
+                    <img class="card-img-top shadow sm"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
                     <h5 class="h7"><a href="{{ site.baseurl }}{{ item.url }}"
                             class="stretched-link">{{ item.title }}</a>
@@ -156,7 +156,7 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top"
+                    <img class="card-img-top lg"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
@@ -170,7 +170,7 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top"
+                    <img class="card-img-top lg"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
@@ -199,8 +199,8 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                        alt="{{ item.img-alt }}">
+                    <img class="card-img-top md shadow"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
                     <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
                     <p class="description">{{ item.description }}</p>
@@ -212,8 +212,8 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                        alt="{{ item.img-alt }}">
+                    <img class="card-img-top md shadow"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
                     <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
                     <p class="description">{{ item.description }}</p>
@@ -240,7 +240,7 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top"
+                    <img class="card-img-top lg line"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
@@ -253,7 +253,7 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top"
+                    <img class="card-img-top lg line"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
@@ -278,7 +278,7 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <img class="card-img-top"
+                    <img class="card-img-top lg"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
@@ -300,7 +300,7 @@
             <div class="card">
                 <div class="card-body">
                     {% if item.img %}
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img class="card-img-top"
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img class="card-img-top lg"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}"></a>
                     {% endif %}
@@ -315,14 +315,15 @@
     <!-- Podcasts -->
 
     {% if pull == "podcasts" %}
-    <div class="card-deck books book">
+    <div class="card-deck">
         {% for item in site.podcasts %}
         {% if item.title != title %}
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body sm shadow">
                     {% if item.img %}
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img class="card-img-top"
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img
+                        class="card-img-top lg shadow"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}"></a>
                     {% endif %}
@@ -349,7 +350,8 @@
         <div class="card">
             <div class="card-body">
                 {% if item.img %}
-                <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                <img class="card-img-top lg line"
+                    src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                     alt="{{ item.img-alt }}">
                 {% endif %}
                 <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
@@ -361,7 +363,8 @@
         <div class="card">
             <div class="card-body">
                 {% if item.img %}
-                <img class="card-img-top" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                <img class="card-img-top lg line"
+                    src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                     alt="{{ item.img-alt }}">
                 {% endif %}
                 <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
@@ -375,6 +378,5 @@
     {% endfor %}
 </div>
 {% endif %}
-
 
 {% include random.html %}

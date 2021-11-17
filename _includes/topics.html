@@ -1,4 +1,5 @@
 {% if page.categories %}
+<h2 class="h3">Topics</h2>
 {% if post %}
 {% assign categories = post.categories %}
 {% else %}
@@ -8,10 +9,11 @@
     <ul class="nav nav-pills">
         {% for category in categories %}
         <li class="nav-item">
-            <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="nav-link">{{ category }}</a>
+            <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="nav-link btn-sm">{{ category }}</a>
         </li>
         {% unless forloop.last %}&nbsp;{% endunless %}
         {% endfor %}
     </ul>
 </div>
+<p><a href="{{ site.baseurl }}/topics/">All topics</a></p>
 {% endif %}

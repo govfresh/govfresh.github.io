@@ -1,7 +1,7 @@
 ---
 layout: cards
 title: Thoughts
-description: Ideas, opinions.
+description: Ideas, opinions, observations.
 permalink: /thoughts/
 parent: thoughts
 order: 1

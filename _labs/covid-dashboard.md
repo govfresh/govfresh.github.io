@@ -6,6 +6,7 @@ icon: "fa-solid fa-mask-face"
 website: https://dashboard.govfresh.com/covid
 permalink: 
 category:
+  - Data
   - Design
   - Digital
   - Hacking
