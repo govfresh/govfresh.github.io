@@ -103,6 +103,12 @@ a.navbar-brand:hover {
 
 /* Cards */
 
+.clean .card {
+    margin: var(--size-1);
+    padding: var(--size-1);
+    border: none;
+}
+
 .card {
     margin-bottom: var(--size-3) !important;
 }
@@ -110,72 +116,6 @@ a.navbar-brand:hover {
 .card-deck .col, .card-deck .col-1, .card-deck .col-10, .card-deck .col-11, .card-deck .col-12, .card-deck .col-2, .card-deck .col-3, .card-deck .col-4, .card-deck .col-5, .card-deck .col-6, .card-deck .col-7, .card-deck .col-8, .card-deck .col-9, .card-deck .col-auto, .card-deck .col-lg, .card-deck .col-lg-1, .card-deck .col-lg-10, .card-deck .col-lg-11, .card-deck .col-lg-12, .card-deck .col-lg-2, .card-deck .col-lg-3, .card-deck .col-lg-4, .card-deck .col-lg-5, .card-deck .col-lg-6, .card-deck .col-lg-7, .card-deck .col-lg-8, .card-deck .col-lg-9, .card-deck .col-lg-auto, .card-deck .col-md, .card-deck .col-md-1, .card-deck .col-md-10, .card-deck .col-md-11, .card-deck .col-md-12, .card-deck .col-md-2, .card-deck .col-md-3, .card-deck .col-md-4, .card-deck .col-md-5, .card-deck .col-md-6, .card-deck .col-md-7, .card-deck .col-md-8, .card-deck .col-md-9, .card-deck .col-md-auto, .card-deck .col-sm, .card-deck .col-sm-1, .card-deck .col-sm-10, .card-deck .col-sm-11, .card-deck .col-sm-12, .card-deck .col-sm-2, .card-deck .col-sm-3, .card-deck .col-sm-4, .card-deck .col-sm-5, .card-deck .col-sm-6, .card-deck .col-sm-7, .card-deck .col-sm-8, .card-deck .col-sm-9, .card-deck .col-sm-auto, .card-deck .col-xl, .card-deck .col-xl-1, .card-deck .col-xl-10, .card-deck .col-xl-11, .card-deck .col-xl-12, .card-deck .col-xl-2, .card-deck .col-xl-3, .card-deck .col-xl-4, .card-deck .col-xl-5, .card-deck .col-xl-6, .card-deck .col-xl-7, .card-deck .col-xl-8, .card-deck .col-xl-9, .card-deck .col-xl-auto {
     padding-left: var(--color-1) !important;
     padding-right: var(--color-1) !important;
-}
-
-.thoughts-feat {
-    background-color: var(--color-1);
-    background: var(--gradient-1);
-    border-right: var(--size-8) solid var(--color-6);
-    border-top: var(--size-8) solid var(--color-6);
-    border-left: var(--size-8) solid var(--color-1);
-    border-bottom: var(--size-8) solid var(--color-1);
-    border-radius: var(--size-1) var(--size-9) var(--size-1) var(--size-9);
-    color: var(--color-4);
-    padding: var(--size-4);
-    margin-bottom: var(--size-3);
-    text-align: center;
-}
-
-.thoughts-feat svg {
-    fill: var(--color-4);
-    min-height: var(--size-11);
-    width: 20%;
-}
-
-.orgs img, .pitches img {
-    max-width: var(--size-12);
-}
-
-.orgs img {
-    margin-bottom: var(--size-3);
-}
-
-.orgs img, img[type="Organizations"], .pitches img, img[type="Pitches"] {
-    border: var(--size-13) solid var(--color-2);
-    border-radius: var(--size-7);
-}
-
-.gamechangers .card, .thoughts .card, .people .card, .pitches .card, .icons .card {
-    margin: var(--size-1);
-    padding: var(--size-1);
-    border: none;
-}
-
-.gamechangers img, img[type="Gamechangers"], .people img, img[type="Team"] {
-    border-left: var(--size-8) solid var(--color-1);
-    border-bottom: var(--size-8) solid var(--color-1);
-    border-right: var(--size-8) solid var(--color-6);
-    border-top: var(--size-8) solid var(--color-6);
-    border-radius: var(--size-1) var(--size-9) var(--size-1) var(--size-9);
-}
-
-.gamechangers .card img, .people .card img {
-    margin-bottom: var(--size-3);
-    margin-top: var(--size-3);
-}
-
-.icon {
-    background-color: var(--color-1);
-    background: var(--gradient-1);
-    border-right: var(--size-8) solid var(--color-6);
-    border-top: var(--size-8) solid var(--color-6);
-    border-left: var(--size-8) solid var(--color-1);
-    border-bottom: var(--size-8) solid var(--color-1);
-    border-radius: var(--size-1) var(--size-10) var(--size-1) var(--size-10);
-    color: var(--color-4);
-    padding: var(--size-6) var(--size-5);
-    margin-bottom: var(--size-3);
-    text-align: center;
 }
 
 /* Jumbotron */
@@ -260,6 +200,53 @@ img.md {
 
 img.lg {
     max-width: var(--size-12);
+}
+
+.fancy-2 img, img[type="Gamechangers"], .fancy-2 img, img[type="Team"] {
+    border-left: var(--size-8) solid var(--color-1);
+    border-bottom: var(--size-8) solid var(--color-1);
+    border-right: var(--size-8) solid var(--color-6);
+    border-top: var(--size-8) solid var(--color-6);
+    border-radius: var(--size-1) var(--size-9) var(--size-1) var(--size-9);
+}
+
+.fancy-2 img, .fancy-2 img {
+    margin-bottom: var(--size-3);
+    margin-top: var(--size-3);
+}
+
+.fancy-feat {
+    background-color: var(--color-1);
+    background: var(--gradient-1);
+    border-right: var(--size-8) solid var(--color-6);
+    border-top: var(--size-8) solid var(--color-6);
+    border-left: var(--size-8) solid var(--color-1);
+    border-bottom: var(--size-8) solid var(--color-1);
+    border-radius: var(--size-1) var(--size-9) var(--size-1) var(--size-9);
+    color: var(--color-4);
+    padding: var(--size-4);
+    margin-bottom: var(--size-3);
+    text-align: center;
+}
+
+.fancy-feat svg {
+    fill: var(--color-4);
+    min-height: var(--size-11);
+    width: 20%;
+}
+
+.icon {
+    background-color: var(--color-1);
+    background: var(--gradient-1);
+    border-right: var(--size-8) solid var(--color-6);
+    border-top: var(--size-8) solid var(--color-6);
+    border-left: var(--size-8) solid var(--color-1);
+    border-bottom: var(--size-8) solid var(--color-1);
+    border-radius: var(--size-1) var(--size-10) var(--size-1) var(--size-10);
+    color: var(--color-4);
+    padding: var(--size-6) var(--size-5);
+    margin-bottom: var(--size-3);
+    text-align: center;
 }
 
 /* Breadcrumb */
@@ -347,6 +334,7 @@ body.evergreen {
     padding-bottom: var(--size-6);
     padding-top: var(--size-6);
     border-bottom: var(--size-3) solid var(--color-1);
+    border-bottom-left-radius: var(--size-8);
 }
 
 .preview-include .preview {
@@ -354,6 +342,7 @@ body.evergreen {
     padding-bottom: var(--size-6);
     padding-top: var(--size-6);
     border-top: var(--size-3) solid var(--color-1);
+    border-bottom-left-radius: var(--size-8);
 }
 
 /* Social */

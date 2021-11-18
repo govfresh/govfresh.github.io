@@ -1,5 +1,4 @@
 {% if page.categories %}
-<h2 class="h3">Topics</h2>
 {% if post %}
 {% assign categories = post.categories %}
 {% else %}
@@ -15,5 +14,4 @@
         {% endfor %}
     </ul>
 </div>
-<p><a href="{{ site.baseurl }}/topics/">All topics</a></p>
 {% endif %}

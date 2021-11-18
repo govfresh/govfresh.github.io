@@ -7,7 +7,7 @@ layout: default
 <!-- Labs -->
 
 <div class="col-sm-12">
-    <div class="card-deck thoughts">
+    <div class="card-deck clean">
         {% for page in site.labs %}
         {% if page.title != title %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
@@ -30,11 +30,11 @@ layout: default
 {% elsif page.title == "Topics" %}
 
 <div class="col-sm-12">
-    <div class="card-deck thoughts">
+    <div class="card-deck clean">
         {% for page in site.topics %}
         {% if page.title != 'Template' %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card thoughts">
+            <div class="card">
                 <div class="card-body">
                     <div class="icon">
                         <i class="{{ page.icon }} {{ site.data.connect.lg }}"></i>
@@ -56,14 +56,14 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <div class="card-deck thoughts">
+            <div class="card-deck clean">
                 {% for item in site.data.icons.docs %}
                 {% if item.title == page.title %}
                 {% for page in item.pages %}
                 {% for website in site.pages %}
                 {% if website.parent == page %}
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                    <div class="card thoughts">
+                    <div class="card">
                         <div class="card-body">
                             <div class="icon">
                                 <i class="{{ website.icon }} {{ site.data.connect.lg }}"></i>

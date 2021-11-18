@@ -2,6 +2,16 @@
   
     {
 
+      "title"    : "Data Coalition makes recommendations to the Chief Data Officers Council",
+      "url"      : "/radar/data-coalition-recommendations-chief-data-officers-council",
+      "category" : "DigitalData",
+      "tags"     : "",
+      "date"     : "2021-11-17 00:00:00 -0800"
+
+    } ,
+  
+    {
+
       "title"    : "NIST wants public feedback on cybersecurity labeling for consumer software",
       "url"      : "/radar/nist-public-input-cybersecurity-consumer-software-labeling",
       "category" : "DigitalSecurity",

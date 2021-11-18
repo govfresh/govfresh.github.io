@@ -29,6 +29,7 @@ books-number: 7
 events-number: 4
 orgs-number: 4
 pitches-number: 4
+labs-number: 3
 
 # Defaults
 defaults:
@@ -136,12 +137,21 @@ defaults:
       layout: "profile"
       short: "true"
   - scope:
+      path: "_labs"
+      type: "labs"
+    values:
+      folder: "Labs"
+      img-path: "labs"
+      parent: "labs"
+      layout: "profile"
+      short: "true"
+  - scope:
       path: ""
       type: ""
     values:
-      folder: "Media"
+      folder: "Feeds"
       img-path: 
-      parent: "media"
+      parent: "feeds"
       layout: 
       short: 
   - scope:
@@ -153,15 +163,6 @@ defaults:
       parent: "playlist"
       layout: 
       short: 
-  - scope:
-      path: "_labs"
-      type: "labs"
-    values:
-      folder: "Labs"
-      img-path: "labs"
-      parent: "labs"
-      layout: "profile"
-      short: "true"
 
 # Collections
 collections:
@@ -206,7 +207,7 @@ collections:
     permalink: labs/:title
 
 # Pagination
-paginate: 6
+paginate: 9
 paginate_path: "/radar/:num"
 
 # Exclude
