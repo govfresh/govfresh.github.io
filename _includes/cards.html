@@ -404,6 +404,30 @@
     </div>
     {% endif %}
 
+    <!-- Innovations -->
+
+    {% if pull == "innovations" %}
+    <div class="card-deck">
+        {% for item in site.innovations %}
+        {% if item.title != title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top lg line"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h4><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h4>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
 </div>
 
 {% include random.html %}

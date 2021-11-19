@@ -39,6 +39,10 @@ orgs-title: Organizations
 orgs-description: Government agencies, non-profits.
 orgs-link: /orgs/
 orgs-link-text: Organizations
+innovations-title: Innovations
+innovations-description: Government and civic projects we love.
+innovations-link: /innovations/
+innovations-link-text: Innovations
 categories-parent: categories
 categories-title: Categories
 categories-description: Featured topics.

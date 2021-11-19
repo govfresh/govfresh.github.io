@@ -2,6 +2,26 @@
   
     {
 
+      "title"    : "Federal government publishes cybersecurity incident and vulnerability playbooks",
+      "url"      : "/radar/federal-government-cybersecurity-incident-vulnerability-response-playbooks",
+      "category" : "DigitalSecurity",
+      "tags"     : "",
+      "date"     : "2021-11-18 00:00:00 -0800"
+
+    } ,
+  
+    {
+
+      "title"    : "Defense Innovation Unit publishes responsible AI guidelines",
+      "url"      : "/radar/diu-responsible-ai-guidelines",
+      "category" : "DigitalInclusionSecurity",
+      "tags"     : "",
+      "date"     : "2021-11-18 00:00:00 -0800"
+
+    } ,
+  
+    {
+
       "title"    : "Data Coalition makes recommendations to the Chief Data Officers Council",
       "url"      : "/radar/data-coalition-recommendations-chief-data-officers-council",
       "category" : "DigitalData",

@@ -26,7 +26,11 @@ layout: profile
         <p>Host: {{ page.author }}</p>
         {% endif %}
 
-        {% if page.org %}
+        {% if page.parent == "innovations" %}
+        <p>Organization: <a href="{{ page.org-link }}">{{ page.org }}</a></p>
+        {% endif %}
+
+        {% if page.parent == "events" %}
         <p>Organizer: <a href="{{ page.org-link }}">{{ page.org }}</a></p>
         {% endif %}
 
@@ -49,6 +53,11 @@ layout: profile
 
         {% if page.parent == "labs" %}
         <p><a href="{{ page.website }}" class="btn btn-primary"><i class="fa-solid fa-flask"></i></i> Visit
+            project</a></p>
+        {% endif %}
+
+        {% if page.parent == "innovations" %}
+        <p><a href="{{ page.website }}" class="btn btn-primary"><i class="fa-solid fa-lightbulb"></i></i> Visit
             project</a></p>
         {% endif %}
 

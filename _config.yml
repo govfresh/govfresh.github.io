@@ -30,6 +30,7 @@ events-number: 4
 orgs-number: 4
 pitches-number: 4
 labs-number: 3
+innovations-number: 4
 
 # Defaults
 defaults:
@@ -146,6 +147,15 @@ defaults:
       layout: "profile"
       short: "true"
   - scope:
+      path: "_innovations"
+      type: "innovations"
+    values:
+      folder: "Innovations"
+      img-path: "innovations"
+      parent: "innovations"
+      layout: "profile"
+      short: "true"
+  - scope:
       path: ""
       type: ""
     values:
@@ -205,9 +215,12 @@ collections:
   labs:
     output: true
     permalink: labs/:title
+  innovations:
+    output: true
+    permalink: innovations/:title
 
 # Pagination
-paginate: 9
+paginate: 12
 paginate_path: "/radar/:num"
 
 # Exclude
