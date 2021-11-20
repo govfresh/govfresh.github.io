@@ -4,7 +4,22 @@ description: "Public service in the digital age"
 img: proudly-serving.png
 img-alt: "Cover of 'Proudly Serving: Public service in the digital age'"
 author: Rebecca Woodbury, Marlena Medford, Luke Fretwell
+email: proudlyservingbook@gmail.com
 website: https://proudlyservingbook.com
+subscribe: https://proudlyserving.substack.com/
+patreon: 
+twitter: https://twitter.com/proudly_serving
+medium: 
+figma: https://www.figma.com/@proudlyserving
+youtube: 
+vimeo: 
+linkedin: https://www.linkedin.com/company/proudlyserving
+instagram: 
+facebook: 
+github: https://github.com/proudlyserving/book
+flickr: 
+tumblr: 
+rss: https://proudlyservingbook.com/feed
 library: 
 goodreads: 
 amazon: 

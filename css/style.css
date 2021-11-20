@@ -305,7 +305,7 @@ img.author {
 }
 
 .gamechangers {
-    --color-1: #7a591a !important;
+    --color-1: #7a591a;
     --color-5: #c2850c;
     --color-6: #fef0c8;
     --gradient-1: linear-gradient(135deg, #7a591a 13%, #c2850c 73%);
