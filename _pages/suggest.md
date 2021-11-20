@@ -9,7 +9,7 @@ Two ways to send suggestions.
 
 ## GitHub
 
-* [Submit an issue](https://github.com/govfresh/govfresh/issues/new/choose) to our GitHub repository. 
+* [Submit an issue](https://github.com/govfresh/govfresh.github.io/issues/new/choose) to our GitHub repository. 
 
 ## Form
 
