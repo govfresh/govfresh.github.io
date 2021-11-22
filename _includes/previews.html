@@ -1,3 +1,4 @@
+{{ site.url }}
 <div class="preview-include">
     {% assign title = page.title %}
     {% for x in site.pages %}
@@ -11,7 +12,7 @@
         {% if true %}
         {% include cards.html page=loop.parent page-title=title %}
         {% endif %}
-        <a href="{{ site.baseurl }}{{ loop.permalink }}" class="btn btn-primary">{{ loop.title }}</a>
+        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary">{{ loop.title }}</a>
     </div>
     {% endif %}
     {% else %}
@@ -20,7 +21,7 @@
         <p class="lead">{{ loop.description }}</p>
         {% assign page = loop %}
         {% include cards.html page-title=title %}
-        <a href="{{ site.baseurl }}{{ loop.permalink }}" class="btn btn-primary">{{ loop.title }}</a>
+        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary">{{ loop.title }}</a>
     </div>
     {% endif %}
     {% endfor %}

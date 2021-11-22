@@ -422,6 +422,29 @@
     </div>
     {% endif %}
 
+    <!-- Labs -->
+
+    {% if pull == "labs" %}
+    <div class="card-deck clean">
+        {% for item in site.labs %}
+        {% if item.title != title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <div class="icon">
+                        <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
+                    </div>
+                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h2>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
     <!-- Innovations -->
 
     {% if pull == "innovations" %}

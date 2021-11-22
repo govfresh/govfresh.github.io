@@ -27,6 +27,7 @@ amazon: &amazon "fab fa-amazon"
 apple: &apple "fab fa-apple"
 spotify: &spotify "fab fa-spotify"
 rss: &rss "fas fa-rss"
+discord: &discord "fab fa-discord"
 
 # Site social media links
 
@@ -48,6 +49,10 @@ docs:
   - name: Patreon
     url: https://www.patreon.com/govfresh?fan_landing=true
     icon: *patreon
+
+  - name: Discord
+    url: https://discord.gg/invite/e2uApCj8nx
+    icon: *discord
 
   - name: Twitter 
     url: https://twitter.com/govfresh
