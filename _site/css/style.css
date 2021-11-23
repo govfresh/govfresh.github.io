@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Work-Sans;
-    src: url('/assets/fonts/WorkSans-VariableFont_wght.ttf');
+    font-family: "Public Sans";
+    src: url('/assets/fonts/PublicSans.ttf');
 }
 
 :root {
@@ -33,7 +33,87 @@
 
 /* General */
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.6rem !important;
+    }
+
+    h2 {
+        font-size: 2rem !important;
+
+    }
+
+    h3 {
+        font-size: 1.4rem !important;
+    }
+
+    p.lead {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    h1 {
+        font-size: 4.1rem !important;
+    }
+
+    h2 {
+        font-size: 2.2rem !important;
+
+    }
+
+    h3 {
+        font-size: 1.6rem !important;
+    }
+
+    p.lead {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    h1 {
+        font-size: 4.3rem !important;
+    }
+
+    h2 {
+        font-size: 2.4rem !important;
+
+    }
+
+    h3 {
+        font-size: 1.8rem !important;
+    }
+
+    p.lead {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    h1 {
+        font-size: 4.5rem !important;
+    }
+
+    h2 {
+        font-size: 2.6rem !important;
+
+    }
+
+    h3 {
+        font-size: 2rem !important;
+    }
+
+    p.lead {
+        font-size: 2rem;
+    }
+}
+
 body {
+    transition: 1s;
     color: var(--color-2);
     font-family: var(--font-1);
     font-size: var(--size-4);

@@ -4,9 +4,8 @@ shortname: "USWDS"
 description: "A design system for the federal government."
 org: General Services Administration
 org-link: https://gsa.gov/
-img: uswds.png
-#  - <?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="299" height="283" viewBox="0 0 299 283"> <g fill="none" fill-rule="evenodd"> <polygon fill="#81AEFC" points="298.45 169.342 193.773 169.335 246.104 8.944"/> <polygon fill="#4D52AF" points="233.844 0 201.49 99.116 64.451 0"/> <polygon fill="#EE601D" points="4.458 183.269 89.148 122.016 141.5 282.401"/> <polygon fill="#F6BD9C" points="52.346 8.624 137.027 69.889 0 169.023"/> <polygon fill="#E6E6E6" points="156.817 282.475 124.476 183.354 293.859 183.343"/> </g></svg>
-img-feat: uswds.png
+img: uswds.svg
+img-feat: uswds.svg
 img-alt: "U.S. Web Design System logo"
 email: uswds@support.digitalgov.gov
 website: https://designsystem.digital.gov/
