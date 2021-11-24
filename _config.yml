@@ -20,6 +20,9 @@ plugins:
 date: "%B %-d, %Y"
 timezone: America/Los_Angeles
 
+last-modified-at:
+    date-format: '%B %d, %Y at %I:%M %P %Z'
+
 # Number limits
 thoughts-number: 3
 reviews-number: 4
