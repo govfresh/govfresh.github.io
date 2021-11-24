@@ -28,7 +28,7 @@
                     <img class="card-img-top shadow sm"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
-                    <h3 class="h5"><a href="{{ site.baseurl }}{{ item.url }}"
+                    <h3 class="h6"><a href="{{ site.baseurl }}{{ item.url }}"
                             class="stretched-link">{{ item.title }}</a>
                     </h3>
                     <p>{{ item.author }}</p>
@@ -46,9 +46,9 @@
                     <img class="card-img-top shadow sm"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
-                    <h3 class="h5"><a href="{{ site.baseurl }}{{ item.url }}"
+                    <h2 class="h6"><a href="{{ site.baseurl }}{{ item.url }}"
                             class="stretched-link">{{ item.title }}</a>
-                    </h3>
+                    </h2>
                     <p>{{ item.author }}</p>
                 </div>
             </div>
@@ -89,7 +89,8 @@
             <div class="card">
                 <div class="card-body">
                     <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                     <p>{{ item.date | date: "%B %-d, %Y" }}</p>
                 </div>
             </div>
@@ -133,7 +134,8 @@
                     <div class="fancy-feat">
                         {{ item.img }}
                     </div>
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h2 class="h3"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                     <p>By {{ item.author }}</p>
                 </div>
             </div>
@@ -199,7 +201,8 @@
                             alt="{{ item.img-alt }}">
                     </div>
                     {% endif %}
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h2 class="h3"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                     <p class="description">{{ item.description }}</p>
                 </div>
             </div>
@@ -229,7 +232,8 @@
                     <img class="card-img-top md shadow"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
-                    <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+                    <h3 class="h5"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h3>
                     <p class="description">{{ item.description }}</p>
                 </div>
             </div>
@@ -245,7 +249,8 @@
                     <img class="card-img-top md shadow"
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                     {% endif %}
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h2 class="h5"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                     <p class="description">{{ item.description }}</p>
                 </div>
             </div>
@@ -263,7 +268,7 @@
     <!-- Events secondary -->
 
     {% if pull == "events" %}
-    <div class="card-deck">
+    <div class="card-deck randomize">
         {% assign limit = site.events-number | plus:0 %}
         {% assign amount = 1 %}
         {% for item in site.events %}
@@ -292,7 +297,8 @@
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                 </div>
             </div>
         </div>
@@ -330,7 +336,7 @@
     <!-- Pitches -->
 
     {% if pull == "pitches" %}
-    <div class="card-deck">
+    <div class="card-deck randomize">
         {% for item in site.pitches %}
         {% if item.title != title %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
@@ -355,7 +361,7 @@
     <!-- Podcasts -->
 
     {% if pull == "podcasts" %}
-    <div class="card-deck">
+    <div class="card-deck randomize">
         {% for item in site.podcasts %}
         {% if item.title != title %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
@@ -367,7 +373,8 @@
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}"></a>
                     {% endif %}
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                 </div>
             </div>
         </div>
@@ -410,7 +417,8 @@
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                 </div>
             </div>
         </div>
@@ -447,12 +455,14 @@
 
     <!-- Innovations -->
 
-    <!-- Innovations primary -->
+    <!-- Innovations secondary -->
 
     {% if pull == "innovations" %}
-    <div class="card-deck">
+    <div class="card-deck randomize">
+        {% assign limit = site.innovations-number | plus:0 %}
+        {% assign amount = 1 %}
         {% for item in site.innovations %}
-        {% if item.title != title %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card">
                 <div class="card-body">
@@ -461,7 +471,25 @@
                         src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                         alt="{{ item.img-alt }}">
                     {% endif %}
-                    <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                    <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Innovations primary -->
+
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <img class="card-img-top lg line"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}">
+                    {% endif %}
+                    <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
                     <p class="description">{{ item.description }}</p>
                 </div>
             </div>
@@ -485,7 +513,8 @@
                         <div class="icon">
                             <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
                         </div>
-                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
                         <p class="description">{{ item.description }}</p>
                     </div>
                 </div>
