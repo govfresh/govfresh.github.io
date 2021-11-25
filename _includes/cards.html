@@ -335,10 +335,32 @@
 
     <!-- Pitches -->
 
+    <!-- Podcasts secondary -->
+
     {% if pull == "pitches" %}
     <div class="card-deck randomize">
+        {% assign limit = site.pitches-number | plus:0 %}
+        {% assign amount = 1 %}
         {% for item in site.pitches %}
-        {% if item.title != title %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                        <img class="card-img-top md line"
+                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                            alt="{{ item.img-alt }}"></a>
+                    {% endif %}
+                    <h3 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Podcasts primary -->
+
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
             <div class="card">
                 <div class="card-body">
@@ -360,10 +382,32 @@
 
     <!-- Podcasts -->
 
+    <!-- Podcasts secondary -->
+
     {% if pull == "podcasts" %}
     <div class="card-deck randomize">
+        {% assign limit = site.podcasts-number | plus:0 %}
+        {% assign amount = 1 %}
         {% for item in site.podcasts %}
-        {% if item.title != title %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img
+                        class="card-img-top lg shadow"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                        alt="{{ item.img-alt }}"></a>
+                    {% endif %}
+                    <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
+                            class="stretched-link">{{ item.title }}</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Podcasts primary -->
+
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card">
                 <div class="card-body">
@@ -432,10 +476,30 @@
 
     <!-- Labs -->
 
+    <!-- Labs secondary -->
+
     {% if pull == "labs" %}
     <div class="card-deck clean">
+        {% assign limit = site.labs-number | plus:0 %}
+        {% assign amount = 1 %}
         {% for item in site.labs %}
-        {% if item.title != title %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <div class="icon">
+                        <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
+                    </div>
+                    <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h3>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Labs primary -->
+
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card">
                 <div class="card-body">
