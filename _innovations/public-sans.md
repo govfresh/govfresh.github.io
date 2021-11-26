@@ -24,6 +24,7 @@ permalink:
 category:
   - Design
   - Digital
+  - Open
 ---
 
 A strong, neutral typeface for interfaces, text, and headings. Developed by the U.S. Web Design System.
