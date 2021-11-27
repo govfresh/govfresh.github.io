@@ -1,0 +1,52 @@
+I"?<p>The Electronic Frontier Foundation’s <a href="https://www.eff.org/how-to-fix-the-internet-podcast">How to Fix the Internet</a> podcast has an excellent interview that touches on how government can be great stewards of public service technology by better supporting open source software.</p>
+
+<p>Open Tech Strategies partner James Vasile talked with EFF Executive Director Cindy Cohn and Special Advisor Danny O’Brien on the episode <a href="https://www.eff.org/deeplinks/2021/11/podcast-episode-revolution-will-be-open-source">The Revolution Will Be Open Source</a>.</p>
+
+<p>Key excerpt from the transcription:</p>
+
+<blockquote>
+  <p><strong>Danny:</strong> I’m always surprised by actually how little government support open source and free software projects. And I think it’s maybe because the open source community got there first. That traditionally, people look to governments for the provision of public goods. And here we have a system that’s actually doing a pretty good job separate from that system providing for public goods. But do you think there’s a role for governments not only in financially supporting projects, but maybe also using free software and open source software themselves?</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>James:</strong> Yeah, absolutely. I mean, so there’s a couple places where government could plug in. We see uptake of open source software in government at much lower levels than in the mainstream tech industry.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Danny:</strong> Interesting.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>James:</strong> And I’ve done a lot of work with a lot of government agencies trying to help them figure that out and get them over the hump. And there are a lot of institutional barriers, there’s a lot of cultural barriers, but the thing that could move it is leadership from the top, is rules about procurement that require a certain consideration for open source, approaches to open source that are not just about it has to have a license that is open, it has to actually have practices that are open, that actually make a thing susceptible to the dynamics of open source.</p>
+</blockquote>
+
+<blockquote>
+  <p>And we don’t have any of that in this country. We don’t have much movement on that. California, I think, is doing better than other states, but there’s not a lot of work in most states. And at the federal level, you have AT&amp;F pushing along this way, but you don’t have any requirements. You don’t have agencies saying, Everything we do is going to be open.”</p>
+</blockquote>
+
+<blockquote>
+  <p>And to some degree, that doesn’t really make a lot of sense. If software is going to be funded by public money, shouldn’t it be a public good? Shouldn’t it be a thing that everyone should have access to, that everyone can use, can share, can learn from, can contribute to the general welfare of anybody in the country? I always-</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Cindy:</strong> Well, I just love this idea and I love it for some other tactical reasons, which is of course we spend a lot of time trying to get access to the software used to surveil people by the cops. We’ve just seen a tool called ShotSpotter be revealed to be really poorly created to try to do the thing that it does, because when we get a look at the source code in some of these things and how it works, we realize that so many things that the government buys, especially in the context of surveillance are really snake oil.</p>
+</blockquote>
+
+<blockquote>
+  <p>They’re not very good at what they’re trying to do. And it gets even harder when you’re talking about machine learning systems. So to me, a government rule that requires transparency of the code that the government is relying on to do the things they do, now that could work for some proprietary systems, but it’s going to be such a smooth ride for the open source systems because they start that way.</p>
+</blockquote>
+
+<blockquote>
+  <p>That could be, I think, a really important step forward around transparency that would have this tremendous benefit to the open source community, but frankly would help us in all other situations in which we find the government is using code and then hiding behind trade secrets or proprietary agreements that they have with vendors to stop the public from having access, even in situations in which somebody’s going to go to jail as a result.</p>
+</blockquote>
+
+<blockquote>
+  <p>So I think this is a tremendous idea. It’s certainly something that we’ve pushed a little bit, but reframing this as a transparency goal to me is one of the things that could be really terrific about our fixed future.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>James:</strong> Yeah. You should not have to request that software, it should just be downloadable. It should have been reviewed by the public before it gets put into service. And there’s no actual good reason why we can’t do that.</p>
+</blockquote>
+
+<p>Full episode: <a href="https://www.eff.org/deeplinks/2021/11/podcast-episode-revolution-will-be-open-source">The Revolution Will Be Open Source</a></p>
+:ET
