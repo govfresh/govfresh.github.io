@@ -335,10 +335,10 @@
 
     <!-- Pitches -->
 
-    <!-- Podcasts secondary -->
+    <!-- Pitches secondary -->
 
     {% if pull == "pitches" %}
-    <div class="card-deck randomize">
+    <div class="card-deck clean randomize">
         {% assign limit = site.pitches-number | plus:0 %}
         {% assign amount = 1 %}
         {% for item in site.pitches %}
@@ -352,13 +352,11 @@
                             src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                             alt="{{ item.img-alt }}"></a>
                     {% endif %}
-                    <h3 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                            class="stretched-link">{{ item.title }}</a></h3>
                 </div>
             </div>
         </div>
 
-        <!-- Podcasts primary -->
+        <!-- Pitches primary -->
 
         {% elsif page.short != "true" and title != "Government. Fresh." %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
@@ -370,8 +368,6 @@
                             src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
                             alt="{{ item.img-alt }}"></a>
                     {% endif %}
-                    <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                            class="stretched-link">{{ item.title }}</a></h2>
                 </div>
             </div>
         </div>

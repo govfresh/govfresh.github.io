@@ -1,7 +1,7 @@
 :root {
     --color-1: #5b029c;
     --color-2: #212121;
-    --color-3: #cac9c0;
+    --color-3: #c9c9c9;
     --color-4: #ffffff;
     --color-5: #b548ff;
     --color-6: #f7ecff;
@@ -358,8 +358,8 @@ img.shadow {
 }
 
 img.line {
-    border: var(--size-13) solid var(--color-2);
-    margin-bottom: var(--size-5);
+    border: var(--size-13) solid var(--color-3);
+    margin-bottom: var(--size-10);
 }
 
 img.sm {
