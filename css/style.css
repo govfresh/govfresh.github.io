@@ -516,7 +516,7 @@ img.author {
     border-bottom-left-radius: var(--size-8);
 }
 
-.home-include .preview:not(.home-include .preview:last-child) {
+.home-include .preview:not(.home-include .preview:last-child), .preview.tldr {
     border-bottom: var(--size-3) solid var(--color-1);
 }
 

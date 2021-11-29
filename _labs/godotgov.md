@@ -3,7 +3,7 @@ title: "GoDotGov"
 shortname: "GoDotGov"
 description: "Get your .gov domain."
 icon: "fa-solid fa-arrow-pointer"
-website: https://godotgov.govfresh.com/
+website: https://dotgov.govfresh.com/
 permalink: 
 category:
   - Digital

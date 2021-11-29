@@ -65,7 +65,7 @@ layout: profile
         <p><a href="{{ page.website }}" class="btn btn-primary">Visit {{ page.title }} </a></p>
         {% endif %}
 
-        {% if page.parent == "orgs" or page.parent == "gamechangers" or page.parent == "events" or page.parent == "team" or page.parent == "pitches" or page.parent == "podcasts" or page.parent == "innovations" %}
+        {% if page.parent == "orgs" or page.parent == "gamechangers" or page.parent == "events" or page.parent == "team" or page.parent == "pitches" or page.parent == "podcasts" or page.parent == "innovations" or page.parent == "labs" %}
         <h2>Connect with {{ page.shortname }}</h2>
         {% include social.html size="small" %}
         {% endif %}
