@@ -19,4 +19,7 @@ A dashboard of U.S. state-by-state COVID-19 updates, including:
 * Mask mandate status
 * Vaccination locations
 
-Data pulled from U.S. Census Bureau and Centers for Disease Control APIs.
+API data pulled from:
+
+* U.S. Census Bureau
+* Centers for Disease Control
