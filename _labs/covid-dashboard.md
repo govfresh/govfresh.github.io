@@ -3,7 +3,7 @@ title: "COVID Dashboard"
 shortname: "COVID Dashboard"
 description: "State COVID-19 updates."
 icon: "fa-solid fa-mask-face"
-website: https://dashboard.govfresh.com/covid
+website: https://covid.govfresh.com
 permalink: 
 category:
   - Data
