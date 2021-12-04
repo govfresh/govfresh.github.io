@@ -1,4 +1,4 @@
-I"ò<h2 id="cms">CMS</h2>
+I"‰<h2 id="cms">CMS</h2>
 
 <ul>
   <li><a href="https://jekyllrb.com/">Jekyll</a></li>
@@ -18,12 +18,18 @@
 
 <h2 id="fonts">Fonts</h2>
 
-<p>TBD</p>
+<ul>
+  <li><a href="https://public-sans.digital.gov/">Public Sans</a></li>
+</ul>
 
 <h2 id="icons">Icons</h2>
 
 <ul>
   <li><a href="https://fontawesome.com/">Font Awesome</a></li>
-  <li><a href="https://thenounproject.com">Noun Project</a></li>
+  <li><a href="https://thenounproject.com">Noun Project</a>
+    <ul>
+      <li>Covid by Roman Lychkov from NounProject.com</li>
+    </ul>
+  </li>
 </ul>
 :ET

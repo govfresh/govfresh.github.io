@@ -4,6 +4,7 @@ shortname: "Go .gov"
 description: "Get your .gov domain."
 icon: "fa-solid fa-arrow-pointer"
 website: https://dotgov.govfresh.com/
+github: https://github.com/govfresh/dotgov
 permalink: 
 category:
   - Digital
