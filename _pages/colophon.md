@@ -19,10 +19,10 @@ permalink: /colophon/
 
 ## Fonts
 
-TBD
-
+* [Public Sans](https://public-sans.digital.gov/)
 
 ## Icons
 
 * [Font Awesome](https://fontawesome.com/)
 * [Noun Project](https://thenounproject.com)
+  * Covid by Roman Lychkov from NounProject.com
