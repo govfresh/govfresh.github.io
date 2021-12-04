@@ -9,11 +9,8 @@
     {% else %}
     {% assign title = page.title %}
     {% endif %}
-
     <!-- Books -->
-
     <!-- Books secondary -->
-
     {% if pull == "books" %}
     <div class="preview-include">
         <div class="card-deck randomize">
@@ -26,31 +23,25 @@
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top shadow sm"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                            alt="{{ item.img-alt }}">
+                        <img class="card-img-top shadow sm" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                         {% endif %}
-                        <h3 class="h6"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a>
+                        <h3 class="h6">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                         </h3>
                         <p>{{ item.author }}</p>
                     </div>
                 </div>
             </div>
-
             <!-- Books primary -->
-
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top shadow sm"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                            alt="{{ item.img-alt }}">
+                        <img class="card-img-top shadow sm" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                         {% endif %}
-                        <h2 class="h6"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a>
+                        <h2 class="h6">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                         </h2>
                         <p>{{ item.author }}</p>
                     </div>
@@ -63,11 +54,8 @@
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- Radar -->
-
         <!-- Radar secondary -->
-
         {% if pull == "radar" %}
         <div class="card-deck">
             {% assign limit = site.radar-number | plus:0 %}
@@ -78,22 +66,24 @@
                 <div class="card">
                     <div class="card-body">
                         <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                        <h3 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h3>
-                        <p><small>{{ item.date | date: "%B %-d, %Y" }}</small></p>
+                        <h3 class="h4">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        <p>
+                            <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                        </p>
                     </div>
                 </div>
             </div>
-
             <!-- Radar primary -->
-
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                        <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
+                        <h2 class="h4">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h2>
                         <p>{{ item.date | date: "%B %-d, %Y" }}</p>
                     </div>
                 </div>
@@ -105,11 +95,8 @@
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- Thoughts -->
-
         <!-- Thoughts secondary -->
-
         {% if pull == "thoughts" %}
         <div class="card-deck clean">
             {% assign limit = site.thoughts-number | plus:0 %}
@@ -122,14 +109,14 @@
                         <div class="fancy-feat">
                             {{ item.img }}
                         </div>
-                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+                        <h3>
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
                         <p>By {{ item.author }}</p>
                     </div>
                 </div>
             </div>
-
             <!-- Thoughts primary -->
-
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                 <div class="card">
@@ -137,8 +124,9 @@
                         <div class="fancy-feat">
                             {{ item.img }}
                         </div>
-                        <h2 class="h3"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
+                        <h2 class="h3">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h2>
                         <p>By {{ item.author }}</p>
                     </div>
                 </div>
@@ -150,9 +138,7 @@
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- Gamechangers -->
-
         {% if pull == "gamechangers" %}
         <div class="card-deck clean randomize">
             {% assign limit = site.gamechangers-number | plus:0 %}
@@ -171,41 +157,36 @@
             {% else %}
             {% assign item = x %}
             {% endunless %}
-
             <!-- Gamechangers secondary -->
-
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
                         <div class="img fancy-2">
-                            <img class="card-img-top lg"
-                                src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                alt="{{ item.img-alt }}">
+                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         </div>
                         {% endif %}
-                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+                        <h3>
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
                         <p class="description">{{ item.description }}</p>
                     </div>
                 </div>
             </div>
-
             <!-- Gamechangers primary -->
-
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
                         <div class="img fancy-2">
-                            <img class="card-img-top lg"
-                                src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                alt="{{ item.img-alt }}">
+                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         </div>
                         {% endif %}
-                        <h2 class="h3"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
+                        <h2 class="h3">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h2>
                         <p class="description">{{ item.description }}</p>
                     </div>
                 </div>
@@ -217,11 +198,8 @@
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- Reviews -->
-
         <!-- Reviews secondary -->
-
         {% if pull == "reviews" %}
         <div class="card-deck book">
             {% assign limit = site.reviews-number | plus:0 %}
@@ -232,30 +210,26 @@
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top md shadow"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                            alt="{{ item.img-alt }}">
+                        <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                         {% endif %}
-                        <h3 class="h5"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h3>
+                        <h3 class="h5">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
                         <p class="description">{{ item.description }}</p>
                     </div>
                 </div>
             </div>
-
             <!-- Reviews primary -->
-
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top md shadow"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                            alt="{{ item.img-alt }}">
+                        <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                         {% endif %}
-                        <h2 class="h5"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
+                        <h2 class="h5">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h2>
                         <p class="description">{{ item.description }}</p>
                     </div>
                 </div>
@@ -267,11 +241,8 @@
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- Events -->
-
         <!-- Events secondary -->
-
         {% if pull == "events" %}
         <div class="card-deck randomize">
             {% assign limit = site.events-number | plus:0 %}
@@ -282,28 +253,25 @@
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top lg line"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}">
+                        <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         {% endif %}
-                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+                        <h3>
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
                     </div>
                 </div>
             </div>
-
             <!-- Events primary -->
-
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top lg line"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}">
+                        <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         {% endif %}
-                        <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
+                        <h2 class="h4">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -314,9 +282,7 @@
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- People -->
-
         {% if pull == "people" %}
         <div class="card-deck clean">
             {% for item in site.people %}
@@ -325,23 +291,20 @@
                     <div class="card-body">
                         {% if item.img %}
                         <div class="img fancy-2">
-                            <img class="card-img-top lg"
-                                src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                alt="{{ item.img-alt }}">
+                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         </div>
                         {% endif %}
-                        <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h2>
+                        <h2>
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h2>
                     </div>
                 </div>
             </div>
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- Pitches -->
-
         <!-- Pitches secondary -->
-
         {% if pull == "pitches" %}
         <div class="card-deck clean randomize">
             {% assign limit = site.pitches-number | plus:0 %}
@@ -353,25 +316,21 @@
                     <div class="card-body">
                         {% if item.img %}
                         <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
-                            <img class="card-img-top md line"
-                                src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                alt="{{ item.img-alt }}"></a>
+                            <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                        </a>
                         {% endif %}
                     </div>
                 </div>
             </div>
-
             <!-- Pitches primary -->
-
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
                         <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
-                            <img class="card-img-top md line"
-                                src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                alt="{{ item.img-alt }}"></a>
+                            <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                        </a>
                         {% endif %}
                     </div>
                 </div>
@@ -381,11 +340,8 @@
             {% endfor %}
         </div>
         {% endif %}
-
         <!-- Podcasts -->
-
         <!-- Podcasts secondary -->
-
         {% if pull == "podcasts" %}
         <div class="card-deck randomize">
             {% assign limit = site.podcasts-number | plus:0 %}
@@ -396,224 +352,209 @@
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img
-                            class="card-img-top lg shadow"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}"></a>
-                        {% endif %}
-                        <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
-                    </div>
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
+                        <img class="card-img-top lg shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                    </a>
+                    {% endif %}
+                    <h2 class="h4">
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h2>
                 </div>
             </div>
-
-            <!-- Podcasts primary -->
-
-            {% elsif page.short != "true" and title != "Government. Fresh." %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card">
-                    <div class="card-body">
-                        {% if item.img %}
-                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><img
-                            class="card-img-top lg shadow"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}"></a>
-                        {% endif %}
-                        <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
-                    </div>
-                </div>
+        </div>
+        <!-- Podcasts primary -->
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    {% if item.img %}
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
+                    <img class="card-img-top lg shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                </a>
+                {% endif %}
+                <h2 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h2>
             </div>
-            {% endif %}
+        </div>
+    </div>
+    {% endif %}
             {% assign amount = amount | plus:1 %}
             {% endfor %}
-        </div>
-        {% endif %}
-
-        <!-- Orgs -->
-
-        <!-- Orgs secondary -->
-
-        {% if pull == "orgs" %}
-        <div class="card-deck randomize">
-            {% assign limit = site.orgs-number | plus:0 %}
+</div>
+{% endif %}
+<!-- Orgs -->
+<!-- Orgs secondary -->
+{% if pull == "orgs" %}
+<div class="card-deck randomize">
+    {% assign limit = site.orgs-number | plus:0 %}
             {% assign amount = 1 %}
             {% for item in site.orgs %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card">
-                    <div class="card-body">
-                        {% if item.img %}
-                        <img class="card-img-top md line"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}">
-                        {% endif %}
-                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
-                    </div>
-                </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img %}
+                <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                {% endif %}
+                <h3>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h3>
             </div>
-
-            <!-- Orgs primary -->
-
-            {% elsif page.short != "true" and title != "Government. Fresh." %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card">
-                    <div class="card-body">
-                        {% if item.img %}
-                        <img class="card-img-top md line"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}">
-                        {% endif %}
-                        <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <!-- Orgs primary -->
+    {% elsif page.short != "true" and title != "Government. Fresh." %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img %}
+                <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                {% endif %}
+                <h2 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h2>
             </div>
-            {% endif %}
+        </div>
+    </div>
+    {% endif %}
             {% if title != item.title %}
             {% endif %}
             {% assign amount = amount | plus:1 %}
             {% endfor %}
-        </div>
-        {% endif %}
-
-        <!-- Labs -->
-
-        <!-- Labs secondary -->
-
-        {% if pull == "labs" %}
-        <div class="card-deck clean">
-            {% assign limit = site.labs-number | plus:0 %}
+</div>
+{% endif %}
+<!-- Labs -->
+<!-- Labs secondary -->
+{% if pull == "labs" %}
+<div class="card-deck clean">
+    {% assign limit = site.labs-number | plus:0 %}
             {% assign amount = 1 %}
             {% for item in site.labs %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="icon">
-                            <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-                        </div>
-                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                        </h3>
-                        <p class="description">{{ item.description }}</p>
-                    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">
+                    <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
                 </div>
+                <h3>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h3>
+                <p class="description">{{ item.description }}</p>
             </div>
-
-            <!-- Labs primary -->
-
-            {% elsif page.short != "true" and title != "Government. Fresh." %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="icon">
-                            <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-                        </div>
-                        <h2><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                        </h2>
-                        <p class="description">{{ item.description }}</p>
-                    </div>
+        </div>
+    </div>
+    <!-- Labs primary -->
+    {% elsif page.short != "true" and title != "Government. Fresh." %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">
+                    <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
                 </div>
+                <h2>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h2>
+                <p class="description">{{ item.description }}</p>
             </div>
-            {% endif %}
+        </div>
+    </div>
+    {% endif %}
             {% assign amount = amount | plus:1 %}
             {% endfor %}
-        </div>
-        {% endif %}
-
-        <!-- Innovations -->
-
-        <!-- Innovations secondary -->
-
-        {% if pull == "innovations" %}
-        <div class="card-deck randomize">
-            {% assign limit = site.innovations-number | plus:0 %}
+</div>
+{% endif %}
+<!-- Innovations -->
+<!-- Innovations secondary -->
+{% if pull == "innovations" %}
+<div class="card-deck randomize">
+    {% assign limit = site.innovations-number | plus:0 %}
             {% assign amount = 1 %}
             {% for item in site.innovations %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card">
-                    <div class="card-body">
-                        {% if item.img %}
-                        <img class="card-img-top lg line"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}">
-                        {% endif %}
-                        <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
-                        <p class="description">{{ item.description }}</p>
-                    </div>
-                </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img %}
+                <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                {% endif %}
+                <h3>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h3>
+                <p class="description">{{ item.description }}</p>
             </div>
-
-            <!-- Innovations primary -->
-
-            {% elsif page.short != "true" and title != "Government. Fresh." %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                <div class="card">
-                    <div class="card-body">
-                        {% if item.img %}
-                        <img class="card-img-top lg line"
-                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                            alt="{{ item.img-alt }}">
-                        {% endif %}
-                        <h2 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                class="stretched-link">{{ item.title }}</a></h2>
-                        <p class="description">{{ item.description }}</p>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <!-- Innovations primary -->
+    {% elsif page.short != "true" and title != "Government. Fresh." %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img %}
+                <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                {% endif %}
+                <h2 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h2>
+                <p class="description">{{ item.description }}</p>
             </div>
-            {% endif %}
+        </div>
+    </div>
+    {% endif %}
             {% assign amount = amount | plus: 1 %}
             {% endfor %}
-        </div>
-        {% endif %}
-
-        <!-- TLDR -->
-
-        {% if pull == "tldr" %}
-        <div class="preview tldr">
-            <h2>{{ page.tldr-title }}</h2>
-            <p class="lead">{{ page.tldr-description }}</p>
-            <div class="card-deck clean">
-                {% for item in site.data.icons.docs %}
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="icon">
-                                <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-                            </div>
-                            <h3><a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                            </h3>
-                            <p class="description">{{ item.description }}</p>
-                        </div>
+</div>
+{% endif %}
+<!-- TLDR -->
+{% if pull == "tldr" %}
+<div class="preview tldr">
+    <h2>{{ page.tldr-title }}</h2>
+    <p class="lead">{{ page.tldr-description }}</p>
+    <div class="card-deck clean">
+        {% for item in site.data.icons.docs %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <div class="icon">
+                        <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
                     </div>
+                    <h3>
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h3>
+                    <p class="description">{{ item.description }}</p>
                 </div>
-                {% endfor %}
             </div>
         </div>
-        {% endif %}
-
-        <!-- Feeds -->
-
-        {% if pull == "feeds" %}
-        <div class="col-12">
-            <div class="card-deck">
-                {% for item in site.data.feeds.docs %}
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fa-solid fa-newspaper {{ site.data.connect.md }}"></i>
-                            <h2 class="h4"><a href="{{ item.url }}">{{ item.title }}</a></h2>
-                            <p>{{ item.description }}</p>
-                            <p><small><i class="fa-solid fa-tag"></i> {{item.categories | join: ', '}}</small></p>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
+        {% endfor %}
     </div>
-
-    {% include random.html %}
+</div>
+{% endif %}
+<!-- Feeds -->
+{% if pull == "feeds" %}
+<div class="col-12">
+    <div class="card-deck">
+        {% for item in site.data.feeds.docs %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fa-solid fa-newspaper {{ site.data.connect.md }}"></i>
+                    <h2 class="h4">
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    </h2>
+                    <p>{{ item.description }}</p>
+                    <p>
+                        <small>
+                            <i class="fa-solid fa-tag"></i>
+                            {{item.categories | join: ', '}}
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+</div>
+{% include random.html %}
