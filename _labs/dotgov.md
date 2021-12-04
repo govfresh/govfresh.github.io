@@ -14,4 +14,4 @@ A campaign to encourage U.S. government entities to register official government
 
 API data pulled from:
 
-* [DotGov](https://home.dotgov.gov/data/)
+* DotGov
