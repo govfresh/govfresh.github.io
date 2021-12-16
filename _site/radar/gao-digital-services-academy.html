@@ -95,57 +95,57 @@
 
 <body class="radar">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">GovFresh</a><sup>BETA</sup>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="">GovFresh</a>
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    >
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-sm-auto">
             
             
-            <a class="nav-item nav-link "
-                href="/radar/">Radar</a>
+            <a class="nav-item nav-link " href="/radar/">Radar</a>
             
             
             
-            <a class="nav-item nav-link "
-                href="/thoughts/">Thoughts</a>
+            <a class="nav-item nav-link " href="/thoughts/">Thoughts</a>
             
             
             
-            <a class="nav-item nav-link "
-                href="/gamechangers/">Gamechangers</a>
+            <a class="nav-item nav-link " href="/gamechangers/">Gamechangers</a>
             
             
             
-            <a class="nav-item nav-link "
-                href="/reviews/">Reviews</a>
+            <a class="nav-item nav-link " href="/reviews/">Reviews</a>
             
             
             
-            <a class="nav-item nav-link "
-                href="/labs/">Labs</a>
+            <a class="nav-item nav-link " href="/labs/">Labs</a>
             
             
             
-            <a class="nav-item nav-link "
-                href="/pitches/">Pitches</a>
+            <a class="nav-item nav-link " href="/pitches/">Pitches</a>
             
             
             
-            <a class="nav-item nav-link "
-                href="/evergreen/">Evergreen</a>
+            <a class="nav-item nav-link " href="/evergreen/">Evergreen</a>
             
             
             
-            <a class="nav-item nav-link "
-                href="/search/"><i class="fas fa-search"></i></a>
+            <a class="nav-item nav-link " href="/search/"><i class="fas fa-search"></i></a>
             
             
+            <div class="dark-toggle"></div>
         </div>
-    </div>
-</nav>
+    </nav>
+
     <ul class="nav">
         <li class="nav-item"><a href="/radar/" class="nav-link">Radar</a></li>
     </ul>
@@ -215,29 +215,33 @@ November 27, 2021
             <div class="col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 
 
-<div class="">
-    <ul class="list-unstyled">
+<ul class="list-unstyled">
+    
+    <li class="">
+        <small>
+            <i class="fa-solid fa-tag"></i>
+            <a href="/topics/data" class="">Data</a>
+        </small>
+    </li>
+    
         
-        <li class="">
-            <small><i class="fa-solid fa-tag"></i> <a href="/topics/data"
-                    class="">Data</a></small>
-        </li>
+    <li class="">
+        <small>
+            <i class="fa-solid fa-tag"></i>
+            <a href="/topics/digital" class="">Digital</a>
+        </small>
+    </li>
+    
         
+    <li class="">
+        <small>
+            <i class="fa-solid fa-tag"></i>
+            <a href="/topics/security" class="">Security</a>
+        </small>
+    </li>
+    
         
-        <li class="">
-            <small><i class="fa-solid fa-tag"></i> <a href="/topics/digital"
-                    class="">Digital</a></small>
-        </li>
-        
-        
-        <li class="">
-            <small><i class="fa-solid fa-tag"></i> <a href="/topics/security"
-                    class="">Security</a></small>
-        </li>
-        
-        
-    </ul>
-</div>
+</ul>
 
 
             </div>
@@ -4939,15 +4943,20 @@ November 27, 2021
     </div>
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches){
+        document.querySelector('html').setAttribute('class','dark');
+        document.querySelector('div.dark-toggle').innerHTML = '<i class="fa-solid fa-moon"></i>';
+    }
+    document.querySelector('div.dark-toggle').onclick = function () {
+        document.querySelector('div.dark-toggle').innerHTML = (document.querySelector('div.dark-toggle').innerHTML.includes('sun')) ? '<i class="fa-solid fa-moon"></i>':'<i class="fa-solid fa-sun"></i>';
+        document.querySelector('html').classList.toggle('dark');
+    }
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-</script>
+
 </body>
 
 </html>

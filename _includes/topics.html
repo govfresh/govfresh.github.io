@@ -4,16 +4,15 @@
 {% else %}
 {% assign categories = page.categories %}
 {% endif %}
-<div class="">
-    <ul class="list-unstyled">
-        {% for category in categories %}
-        <li class="">
-            <small><i class="fa-solid fa-tag"></i> <a href="{{ site.baseurl }}/topics/{{ category|slugify }}"
-                    class="">{{ category }}</a></small>
-        </li>
-        {% unless forloop.last %}{% endunless %}
+<ul class="list-unstyled">
+    {% for category in categories %}
+    <li class="">
+        <small>
+            <i class="fa-solid fa-tag"></i>
+            <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="">{{ category }}</a>
+        </small>
+    </li>
+    {% unless forloop.last %}{% endunless %}
         {% endfor %}
-    </ul>
-</div>
-
+</ul>
 {% endif %}

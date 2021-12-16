@@ -16,9 +16,7 @@ layout: topic
 {% include breadcrumb.html %}
 <main>
     {% include jumbotron.html %}
-
     <!-- Pitches -->
-
     {% if pitches != empty %}
     <div class="container pitches">
         <div class="row">
@@ -33,9 +31,8 @@ layout: topic
                                     <div class="card-body">
                                         {% if item.img %}
                                         <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
-                                            <img class="card-img-top md line"
-                                                src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                                alt="{{ item.img-alt }}"></a>
+                                            <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                                        </a>
                                         {% endif %}
                                     </div>
                                 </div>
@@ -49,9 +46,7 @@ layout: topic
         </div>
     </div>
     {% endif %}
-
     <!-- Radar -->
-
     {% if radar != empty %}
     <div class="container radar">
         <div class="row">
@@ -65,9 +60,12 @@ layout: topic
                                 <div class="card">
                                     <div class="card-body">
                                         <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                                        <h3 class="h4"><a href="{{ site.baseurl }}{{ item.url }}"
-                                                class="stretched-link">{{ item.title }}</a></h3>
-                                        <p><small>{{ item.date | date: "%B %-d, %Y" }}</small></p>
+                                        <h3 class="h4">
+                                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                                        </h3>
+                                        <p>
+                                            <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -80,9 +78,7 @@ layout: topic
         </div>
     </div>
     {% endif %}
-
     <!-- Thoughts -->
-
     {% if thoughts != empty %}
     <div class="container thoughts">
         <div class="row">
@@ -98,8 +94,8 @@ layout: topic
                                         <div class="fancy-feat">
                                             {{ item.img }}
                                         </div>
-                                        <h3><a href="{{ site.baseurl }}{{ item.url }}"
-                                                class="stretched-link">{{ item.title }}</a>
+                                        <h3>
+                                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                                         </h3>
                                         <p>By {{ item.author }}</p>
                                     </div>
@@ -114,9 +110,7 @@ layout: topic
         </div>
     </div>
     {% endif %}
-
     <!-- Reviews -->
-
     {% if reviews != empty %}
     <div class="container reviews">
         <div class="row">
@@ -130,12 +124,11 @@ layout: topic
                                 <div class="card">
                                     <div class="card-body">
                                         {% if item.img %}
-                                        <img class="card-img-top md shadow"
-                                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                                            alt="{{ item.img-alt }}">
+                                        <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                                         {% endif %}
-                                        <h3 class="h5"><a href="{{ site.baseurl }}{{ item.url }}"
-                                                class="stretched-link">{{ item.title }}</a></h3>
+                                        <h3 class="h5">
+                                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                                        </h3>
                                         <p class="description">{{ item.description }}</p>
                                     </div>
                                 </div>
@@ -149,9 +142,7 @@ layout: topic
         </div>
     </div>
     {% endif %}
-
     <!-- Books -->
-
     {% if books != empty %}
     <div class="container books">
         <div class="row">
@@ -165,12 +156,10 @@ layout: topic
                                 <div class="card">
                                     <div class="card-body">
                                         {% if item.img %}
-                                        <img class="card-img-top shadow sm"
-                                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-                                            alt="{{ item.img-alt }}">
+                                        <img class="card-img-top shadow sm" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                                         {% endif %}
-                                        <h3 class="h6"><a href="{{ site.baseurl }}{{ item.url }}"
-                                                class="stretched-link">{{ item.title }}</a>
+                                        <h3 class="h6">
+                                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                                         </h3>
                                         <p>{{ item.author }}</p>
                                     </div>
@@ -185,9 +174,7 @@ layout: topic
         </div>
     </div>
     {% endif %}
-
     <!-- Orgs -->
-
     {% if orgs != empty %}
     <div class="container">
         <div class="row orgs">
@@ -201,12 +188,10 @@ layout: topic
                                 <div class="card">
                                     <div class="card-body">
                                         {% if item.img %}
-                                        <img class="card-img-top md line"
-                                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                            alt="{{ item.img-alt }}">
+                                        <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                                         {% endif %}
-                                        <h3><a href="{{ site.baseurl }}{{ item.url }}"
-                                                class="stretched-link">{{ item.title }}</a>
+                                        <h3>
+                                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -220,9 +205,7 @@ layout: topic
         </div>
     </div>
     {% endif %}
-
     <!-- Events -->
-
     {% if events != empty %}
     <div class="container events">
         <div class="row">
@@ -236,12 +219,10 @@ layout: topic
                                 <div class="card">
                                     <div class="card-body">
                                         {% if item.img %}
-                                        <img class="card-img-top lg line"
-                                            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-                                            alt="{{ item.img-alt }}">
+                                        <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                                         {% endif %}
-                                        <h3><a href="{{ site.baseurl }}{{ item.url }}"
-                                                class="stretched-link">{{ item.title }}</a>
+                                        <h3>
+                                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -266,14 +247,14 @@ layout: topic
                         <div class="card-deck clean">
                             {% for item in site.labs %}
                             {% if item.title != title %}
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="icon">
                                             <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
                                         </div>
-                                        <h3><a href="{{ site.baseurl }}{{ item.url }}"
-                                                class="stretched-link">{{ item.title }}</a>
+                                        <h3>
+                                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                                         </h3>
                                         <p class="description">
                                             {{ item.description }}
@@ -290,7 +271,6 @@ layout: topic
         </div>
     </div>
     {% endif %}
-
 </main>
 {% include analytics.html %}
 {% include footer.html %}
