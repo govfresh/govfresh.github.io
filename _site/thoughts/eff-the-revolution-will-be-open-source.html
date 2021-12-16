@@ -87,7 +87,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The revolution will be open source" />
 <script type="application/ld+json">
-{"headline":"The revolution will be open source","dateModified":"2021-11-27T10:36:06-08:00","datePublished":"2021-11-27T00:00:00-08:00","author":{"@type":"Person","name":"Luke Fretwell"},"url":"http://localhost:4000/thoughts/eff-the-revolution-will-be-open-source","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/thoughts/eff-the-revolution-will-be-open-source"},"description":"Government software is a public good.","@context":"https://schema.org"}</script>
+{"dateModified":"2021-11-27T10:36:06-08:00","datePublished":"2021-11-27T00:00:00-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/thoughts/eff-the-revolution-will-be-open-source"},"author":{"@type":"Person","name":"Luke Fretwell"},"url":"http://localhost:4000/thoughts/eff-the-revolution-will-be-open-source","@type":"BlogPosting","description":"Government software is a public good.","headline":"The revolution will be open source","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -95,7 +95,7 @@
 
 <body class="thoughts">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="">GovFresh</a>
+    <a class="navbar-brand" href="/">GovFresh</a>
     <button
         class="navbar-toggler"
         type="button"
@@ -587,7 +587,6 @@ November 27, 2021
     let length = elements.length;
     for (let index = 0; index < length; index++) {
         let i = Math.floor(Math.random() * elements.length);
-        console.log(elements);
         randomized.push(elements[i])
         elements.splice(i, 1);
     }
@@ -595,6 +594,7 @@ November 27, 2021
         document.querySelector('div.randomize').innerHTML += element.outerHTML;
     });
 </script>
+
 
         
         <a href="/thoughts" class="btn btn-primary">Thoughts</a>
@@ -4971,14 +4971,18 @@ November 27, 2021
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script>
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches){
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches&&localStorage.getItem('color-theme')=='dark'){
         document.querySelector('html').setAttribute('class','dark');
-        document.querySelector('div.dark-toggle').innerHTML = '<i class="fa-solid fa-moon"></i>';
+        document.querySelector('div.dark-toggle').innerHTML = '<i class="fa-solid fa-sun"></i>';
+        localStorage.setItem('color-theme', 'dark');
     }
     document.querySelector('div.dark-toggle').onclick = function () {
         document.querySelector('div.dark-toggle').innerHTML = (document.querySelector('div.dark-toggle').innerHTML.includes('sun')) ? '<i class="fa-solid fa-moon"></i>':'<i class="fa-solid fa-sun"></i>';
         document.querySelector('html').classList.toggle('dark');
+        localStorage.setItem('color-theme', document.querySelector('html').classList.contains('dark') ? 'dark' : 'light');
     }
+    document.querySelector('html').classList.add(localStorage.getItem('color-theme'));
+    document.querySelector('div.dark-toggle').innerHTML = (localStorage.getItem('color-theme')=='light') ? '<i class="fa-solid fa-moon"></i>':'<i class="fa-solid fa-sun"></i>';
 </script>
 
 </body>

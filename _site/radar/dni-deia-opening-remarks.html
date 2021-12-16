@@ -87,7 +87,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="National Intelligence director speaks on diversity, equity, inclusion, accessibility efforts" />
 <script type="application/ld+json">
-{"headline":"National Intelligence director speaks on diversity, equity, inclusion, accessibility efforts","dateModified":"2021-11-15T13:24:01-08:00","datePublished":"2021-10-28T00:00:00-07:00","author":{"@type":"Person","name":"Luke Fretwell"},"url":"http://localhost:4000/radar/dni-deia-opening-remarks","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/radar/dni-deia-opening-remarks"},"description":"Director of National Intelligence Avril Haines shared the agency’s diversity, equity, inclusion, and accessibility efforts in testimony to the U.S. House Permanent Select Committee on Intelligence.","@context":"https://schema.org"}</script>
+{"dateModified":"2021-11-15T13:24:01-08:00","datePublished":"2021-10-28T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/radar/dni-deia-opening-remarks"},"author":{"@type":"Person","name":"Luke Fretwell"},"url":"http://localhost:4000/radar/dni-deia-opening-remarks","@type":"BlogPosting","description":"Director of National Intelligence Avril Haines shared the agency’s diversity, equity, inclusion, and accessibility efforts in testimony to the U.S. House Permanent Select Committee on Intelligence.","headline":"National Intelligence director speaks on diversity, equity, inclusion, accessibility efforts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -95,7 +95,7 @@
 
 <body class="radar">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="">GovFresh</a>
+    <a class="navbar-brand" href="/">GovFresh</a>
     <button
         class="navbar-toggler"
         type="button"
@@ -545,7 +545,6 @@ threats we face.”</p>
     let length = elements.length;
     for (let index = 0; index < length; index++) {
         let i = Math.floor(Math.random() * elements.length);
-        console.log(elements);
         randomized.push(elements[i])
         elements.splice(i, 1);
     }
@@ -553,6 +552,7 @@ threats we face.”</p>
         document.querySelector('div.randomize').innerHTML += element.outerHTML;
     });
 </script>
+
 
         
         <a href="/radar" class="btn btn-primary">Radar</a>
@@ -4961,14 +4961,18 @@ threats we face.”</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script>
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches){
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches&&localStorage.getItem('color-theme')=='dark'){
         document.querySelector('html').setAttribute('class','dark');
-        document.querySelector('div.dark-toggle').innerHTML = '<i class="fa-solid fa-moon"></i>';
+        document.querySelector('div.dark-toggle').innerHTML = '<i class="fa-solid fa-sun"></i>';
+        localStorage.setItem('color-theme', 'dark');
     }
     document.querySelector('div.dark-toggle').onclick = function () {
         document.querySelector('div.dark-toggle').innerHTML = (document.querySelector('div.dark-toggle').innerHTML.includes('sun')) ? '<i class="fa-solid fa-moon"></i>':'<i class="fa-solid fa-sun"></i>';
         document.querySelector('html').classList.toggle('dark');
+        localStorage.setItem('color-theme', document.querySelector('html').classList.contains('dark') ? 'dark' : 'light');
     }
+    document.querySelector('html').classList.add(localStorage.getItem('color-theme'));
+    document.querySelector('div.dark-toggle').innerHTML = (localStorage.getItem('color-theme')=='light') ? '<i class="fa-solid fa-moon"></i>':'<i class="fa-solid fa-sun"></i>';
 </script>
 
 </body>

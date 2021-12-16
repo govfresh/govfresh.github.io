@@ -457,7 +457,7 @@ img.author {
 
 /* Parent */
 
-.reviews {
+html:not(html.dark) .reviews {
     --color-1: #0e4f5c;
     --color-5: #6499af;
     --color-6: #e7f2f5;
@@ -465,7 +465,7 @@ img.author {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #e7f2f5 73%);
 }
 
-.radar {
+html:not(html.dark) .radar {
     --color-1: #b50909;
     --color-5: #e52207;
     --color-6: #fde0db;
@@ -473,15 +473,7 @@ img.author {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #fde0db 73%);
 }
 
-.thoughts {
-    --color-1: #345d96;
-    --color-5: #4a77b4;
-    --color-6: #ecf1f7;
-    --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
-}
-
-.gamechangers {
+html:not(html.dark) .gamechangers {
     --color-1: #7a591a;
     --color-5: #c2850c;
     --color-6: #fef0c8;
@@ -489,15 +481,7 @@ img.author {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #fef0c8 73%);
 }
 
-.labs {
-    --color-1: #8b4566;
-    --color-5: #c84281;
-    --color-6: #f9f0f2;
-    --gradient-1: linear-gradient(135deg, #8b4566 13%, #c84281 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
-}
-
-.evergreen {
+html:not(html.dark) .evergreen {
     --color-1: #0f6460;
     --color-5: #008480;
     --color-6: #d5fbf3;
@@ -1099,23 +1083,7 @@ img.author {
 
 /* Parent */
 
-.reviews {
-    --color-1: #0e4f5c;
-    --color-5: #6499af;
-    --color-6: #e7f2f5;
-    --gradient-1: linear-gradient(135deg, #0e4f5c 13%, #6499af 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #e7f2f5 73%);
-}
-
-.radar {
-    --color-1: #b50909;
-    --color-5: #e52207;
-    --color-6: #fde0db;
-    --gradient-1: linear-gradient(135deg, #b50909 13%, #e52207 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #fde0db 73%);
-}
-
-.thoughts {
+html:not(html.dark) .thoughts {
     --color-1: #345d96;
     --color-5: #4a77b4;
     --color-6: #ecf1f7;
@@ -1123,28 +1091,12 @@ img.author {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
 }
 
-.gamechangers {
-    --color-1: #7a591a;
-    --color-5: #c2850c;
-    --color-6: #fef0c8;
-    --gradient-1: linear-gradient(135deg, #7a591a 13%, #c2850c 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #fef0c8 73%);
-}
-
-.labs {
+html:not(html.dark) .labs {
     --color-1: #8b4566;
     --color-5: #c84281;
     --color-6: #f9f0f2;
     --gradient-1: linear-gradient(135deg, #8b4566 13%, #c84281 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
-}
-
-.evergreen {
-    --color-1: #0f6460;
-    --color-5: #008480;
-    --color-6: #d5fbf3;
-    --gradient-1: linear-gradient(135deg, #0f6460 13%, #008480 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #d5fbf3 73%);
 }
 
 .innovations {
@@ -1324,4 +1276,8 @@ div.dark-toggle>i {
     color: white;
     margin-left: .75rem;
     padding-top: .75rem;
+}
+
+html.dark .fancy-feat svg {
+    fill: white;
 }
