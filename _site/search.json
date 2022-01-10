@@ -2,6 +2,36 @@
   
     {
 
+      "title"    : "California is working with six states to re-use code from its vaccine records portal",
+      "url"      : "/radar/california-digital-vaccine-record",
+      "category" : "DigitalOpen",
+      "tags"     : "",
+      "date"     : "2022-01-09 00:00:00 -0800"
+
+    } ,
+  
+    {
+
+      "title"    : "CDO Council retrospects 2021, publishes data playbook",
+      "url"      : "/radar/cdo-council-2021-playbook",
+      "category" : "DataDigital",
+      "tags"     : "",
+      "date"     : "2022-01-03 00:00:00 -0800"
+
+    } ,
+  
+    {
+
+      "title"    : "Public gives NASA ideas for engaging untapped communities",
+      "url"      : "/radar/nasa-engagement-underserved-communities",
+      "category" : "CommunityData",
+      "tags"     : "",
+      "date"     : "2021-12-09 00:00:00 -0800"
+
+    } ,
+  
+    {
+
       "title"    : "GAO recommends the creation of a federal digital service academy",
       "url"      : "/radar/gao-digital-services-academy",
       "category" : "DataDigitalSecurity",
