@@ -1,0 +1,39 @@
+I"+<p>At the height of the COVID-19 pandemic, my 13 year-old son was finishing his daily distance learning school work too quickly and had too much time on his hands. Rather than watch him spend hours playing Minecraft or watching YouTube, in a moment of parental despair, I told him he just needed to start coding more.</p>
+
+<p>Over the years, we’ve worked together on learning to code, starting with Scratch then HTML. He’s very much a product of his generation, with tools and information at his disposal coupled with an autodidactic mindset.</p>
+
+<p>Armed with those, I quickly realized he’s progressed more than I imagined.</p>
+
+<p>One afternoon, we took the dog for a walk, and I explained to him how application programming interfaces worked. I told him if he learned how to pull APIs onto a web page or app, he could easily build fun projects. I said that there are tons of interesting APIs, especially ones managed by government.</p>
+
+<p>After the walk, we set up his workstation in my office, and he proceeded to learn about APIs.</p>
+
+<p>“OK, I figured it out,” he says about an hour later.</p>
+
+<p>I walked over to his side of the office and looked at his screen, thinking he’d found some API resources and now understood the general concepts of how they work.</p>
+
+<p>What I saw was a dropdown form field on a blank, white web page. He clicked on the dropdown, which displayed a list all of the U.S. states. He selected California, where we live. Below the dropdown were two lines of text: one for the state’s population and another for the number of people who had been vaccinated.</p>
+
+<p>“I’m using the Census population and CDC vaccine APIs,” he said.</p>
+
+<p>He figured out in an hour what I thought would keep him busy for a few days.</p>
+
+<p>To keep him occupied, we started working on a dashboard of COVID information based on other API data provided by the U.S. Census Bureau and Centers for Disease Control and Prevention. We moved it to GitHub and used Bootstrap and Font Awesome to further build out the front end and make it look as aesthetically pleasing as the two of us could make it.</p>
+
+<p>When I mentioned that it would be nice to include a list of vaccination sites, he pulled in location data from the Google Maps API.</p>
+
+<p>Ultimately, we built a <a href="https://covid.govfresh.com/">COVID Dashboard</a> (<a href="https://github.com/govfresh/covid">repository</a>) of U.S. state-by-state COVID-19 updates that includes:</p>
+
+<ul>
+  <li>Total vaccination rates</li>
+  <li>Number of vaccinations yesterday</li>
+  <li>Mask mandate status</li>
+  <li>Vaccination locations</li>
+</ul>
+
+<p>When I look at the silver linings of the pandemic, this is one of them.</p>
+
+<p>I’m also reminded that, when you let them, kids will never stop surprising you.</p>
+
+<p>Stay tuned for more father-son civic hacking.</p>
+:ET

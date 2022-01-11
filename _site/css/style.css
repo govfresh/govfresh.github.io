@@ -319,6 +319,10 @@ main h2 {
     padding-top: var(--size-3);
 }
 
+main .post p, main .post ul {
+    padding-bottom: var(--size-3);
+}
+
 blockquote {
     border-left: var(--size-7) solid var(--color-1);
     margin-left: var(--size-5);

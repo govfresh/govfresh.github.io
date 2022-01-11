@@ -23,4 +23,4 @@ A dashboard of U.S. state-by-state COVID-19 updates, including:
 API data pulled from:
 
 * U.S. Census Bureau
-* Centers for Disease Control
+* Centers for Disease Control and Prevention

@@ -2,8 +2,8 @@
 author: Luke Fretwell
 title: Luke Fretwell
 shortname: Luke
-img: luke-fretwell.jpg
-img-feat: luke-fretwell.jpg
+img: luke-fretwell.png
+img-feat: luke-fretwell.png
 email: luke@govfresh.com
 website: https://lukefretwell.com
 subscribe: https://govfresh.com/subscribe

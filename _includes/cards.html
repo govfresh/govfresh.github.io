@@ -116,6 +116,7 @@
                     </div>
                 </div>
             </div>
+            {% assign amount = amount | plus:1 %}
             <!-- Thoughts primary -->
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
@@ -131,10 +132,8 @@
                     </div>
                 </div>
             </div>
-            {% endif %}
-            {% if title != item.title %}
-            {% endif %}
             {% assign amount = amount | plus:1 %}
+            {% endif %}
             {% endfor %}
         </div>
         {% endif %}
