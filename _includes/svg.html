@@ -1,0 +1,14 @@
+<div class="path" style="display: none;">{{include.path}}</div>
+<div class="svg"></div>
+<script>
+    const path = document.querySelector('div.path').innerText;
+    var req = new XMLHttpRequest();
+    req.open('GET', path, true);
+    req.onload = function(){
+        if (this.status>=200&&this.status<300)
+            document.querySelector('div.svg').innerHTML = this.response;
+            else
+            throw MediaError(path.concat(' does not exist in this file system.'))
+    };
+    req.send();
+</script>
