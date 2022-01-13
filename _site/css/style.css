@@ -295,6 +295,29 @@ a.navbar-brand:hover {
     padding-right: var(--color-1) !important;
 }
 
+.card-group {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+.card h5, .card .h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.card-body {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+div.card-body>i {
+    color: var(--color-1);
+}
+
+.card-footer {
+    background-color: var(--color-6);
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -606,6 +629,64 @@ a.btn-primary:hover, .categories a.nav-link:hover, .categories a.nav-link:hover 
     border-top: var(--size-7) solid var(--color-5);
     border-radius: var(--size-10) var(--size-1) var(--size-10) var(--size-1);
     color: var(--color-4);
+}
+
+/* Accordions */
+
+.accordion {
+    margin-top: var(--size-5);
+}
+
+.accordion .card {
+    border: var(--size-1) var(--color-1) solid !important;
+}
+
+.accordion .card-header {
+    background-color: var(--color-4);
+}
+
+.accordion h3 {
+    margin: var(--size-1);
+    padding: var(--size-1);
+}
+
+/* Buttons */
+
+button.btn-link {
+    color: var(--color-1);
+    font-size: var(--size-4);
+    font-weight: var(--weight-2);
+
+}
+
+/* Forms */
+
+.form-control {
+    color: var(--color-2);
+    border: var(--size-13) solid var(--color-3);
+}
+
+label {
+    padding-bottom: .5rem;
+}
+
+body.home label {
+    padding-top: .5rem;
+}
+
+/* Buttons */
+
+.btn-outline-dark {
+    background-color: var(--color-1);
+    border-color: var(--color-1);
+    color: var(--color-4) !important;
+    transition: .5s;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--color-5);
+    border-color: var(--color-5);
+    color: var(--color-4) !important;
 }
 
 /* Footer */
