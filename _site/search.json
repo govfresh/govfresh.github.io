@@ -2,6 +2,16 @@
   
     {
 
+      "title"    : "U.S. government, technology community advance open source security collaboration efforts",
+      "url"      : "/radar/white-house-open-source-security-summit",
+      "category" : "DigitalOpenSecurity",
+      "tags"     : "",
+      "date"     : "2022-01-14 00:00:00 -0800"
+
+    } ,
+  
+    {
+
       "title"    : "California is working with six states to re-use code from its vaccine records portal",
       "url"      : "/radar/california-digital-vaccine-record",
       "category" : "DigitalOpen",

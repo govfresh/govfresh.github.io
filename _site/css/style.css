@@ -337,12 +337,12 @@ main a:hover {
     text-decoration: none;
 }
 
-main h2 {
+.post h2, .post h3, .post h4 {
     padding-bottom: var(--size-3);
     padding-top: var(--size-3);
 }
 
-main .post p, main .post ul {
+.post p, .post ul {
     padding-bottom: var(--size-3);
 }
 
