@@ -488,7 +488,7 @@ img.author {
 .author-bio {
     border-top: var(--size-13) solid var(--color-6);
     margin-top: var(--size-5);
-    padding-top: var(--size-3);
+    padding-top: var(--size-5);
 }
 
 /* Parent */

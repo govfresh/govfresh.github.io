@@ -1,5 +1,5 @@
 ---
-title: "Making a playbook for chief data officers more accessible"
+title: "Making a chief data officers playbook more accessible"
 date: 2022-01-14
 description: "And suggestions for the CDO Council."
 author: Luke Fretwell
@@ -20,10 +20,15 @@ What struck me as odd -- especially coming from an organization that should alwa
 
 Disappointed by this, I built a [web-based version](https://cdoplaybook.govfresh.com) ([repository](https://github.com/govfresh/cdo-playbook)) to make it more accessible to everyone.
 
+## Recommendations to the CDO Council
+
 In the future, I hope the CDO Council -- and every government agency -- publishes information like this in open, accessible and, ideally, machine-readable formats. My hope is that [my version of the CDO playbook](https://cdoplaybook.govfresh.com), while not perfect, is an example of how to do this.
+
+I also would like to see the CDO Council add RSS functionality to its website (as a data-driven approach to sharing updates). While a seemingly trivial point, the federal government desperately needs a simple, standard strategy for publishing information, particularly blogs and news, in a more API-like format.
 
 Other suggestions for the CDO Council:
 
-* Move the playbook to a public repository, as a living document that others can fork or contribute to (similar to the [Digital Services Playbook](https://playbook.cio.gov/))
+* Move the playbook to a public repository, as a living document that others can re-purpose or contribute to (similar to the [Digital Services Playbook](https://playbook.cio.gov/)).
 * Add a fifth play focused on privacy/security.
-* Add RSS functionality to the CDO Council website (as a data-driven approach to sharing updates). While a seemingly trivial point, the federal government desperately needs a simple, standard strategy for publishing information in a more API-like format.
+* Strongly recommend all federal agencies have an RSS strategy.
+* Strongly recommend an end to government use of PDFs (unless they are accompanied by an open alternative).

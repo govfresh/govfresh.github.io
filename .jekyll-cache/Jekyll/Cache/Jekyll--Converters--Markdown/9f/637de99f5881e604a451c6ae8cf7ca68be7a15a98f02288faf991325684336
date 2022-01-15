@@ -1,15 +1,0 @@
-I"<p>At the beginning of 2022, the U.S. Chief Data Officers Council <a href="/radar/cdo-council-2021-playbook">published a playbook</a> to help CDOs “lead data-driven transformation” within their agencies.</p>
-
-<p>What struck me as odd – especially coming from an organization that should always default to an open, data-driven approach to everything it does – was that the playbook itself came in only one format: A very unstructured, inaccessible PDF.</p>
-
-<p>Disappointed by this, I built a <a href="https://cdoplaybook.govfresh.com">web-based version</a> (<a href="https://github.com/govfresh/cdo-playbook">repository</a>) to make it more accessible to everyone.</p>
-
-<p>In the future, I hope the CDO Council publish information in open, accessible formats. My hope is that this is an example of how to do this.</p>
-
-<p>Other suggestions for the CDO Council:</p>
-
-<ul>
-  <li>Add a fifth play focused on privacy/security.</li>
-  <li>Add RSS functionality to the website (as a data-driven approach to sharing updates)</li>
-</ul>
-:ET
