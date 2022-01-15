@@ -5,10 +5,9 @@
     var req = new XMLHttpRequest();
     req.open('GET', path, true);
     req.onload = function(){
-        if (this.status>=200&&this.status<300)
-            document.querySelector('div.svg').innerHTML = this.response;
-            else
-            throw MediaError(path.concat(' does not exist in this file system.'))
+        if (this.status>=200&&this.status<300){
+            var svg = this.response;
+            document.querySelector('div.svg').innerHTML = svg;}
     };
     req.send();
 </script>

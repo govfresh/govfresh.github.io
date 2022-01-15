@@ -337,6 +337,10 @@ main a:hover {
     text-decoration: none;
 }
 
+.footer-connect a, .social a {
+    text-decoration: none !important;
+}
+
 .post h2, .post h3, .post h4 {
     padding-bottom: var(--size-3);
     padding-top: var(--size-3);

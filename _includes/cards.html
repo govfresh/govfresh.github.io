@@ -431,6 +431,7 @@
             {% assign amount = 1 %}
             {% for item in site.labs %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+            {% assign amount = amount | plus:1 %}
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
         <div class="card">
             <div class="card-body">
@@ -446,6 +447,7 @@
     </div>
     <!-- Labs primary -->
     {% elsif page.short != "true" and title != "Government. Fresh." %}
+            {% assign amount = amount | plus:1 %}
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
         <div class="card">
             <div class="card-body">
@@ -460,7 +462,6 @@
         </div>
     </div>
     {% endif %}
-            {% assign amount = amount | plus:1 %}
             {% endfor %}
 </div>
 {% endif %}
