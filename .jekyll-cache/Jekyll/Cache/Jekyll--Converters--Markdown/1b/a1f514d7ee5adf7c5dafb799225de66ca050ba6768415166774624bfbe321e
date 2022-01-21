@@ -1,0 +1,16 @@
+I"�<p>I’m a huge proponent that all government websites should end with the .gov extension. There are thousands of local government websites that should be leveraging the U.S. government’s <a href="https://dotgov.gov">DotGov</a> domain name services that currently don’t.</p>
+
+<p>The implications are that it’s difficult for the public to validate whether a website is official or not. At <a href="https://proudcity.com">ProudCity</a>, we’ve heard numerous stories of rogue websites created by community members that appear to be official, but are not.</p>
+
+<p>Much like the HTTPS protocol, which verifies that a website is encrypted, we must build a standard that validates a website is officially operated by a government entity. While there is a role that browsers play, universal adoption of the .gov extension is fundamental to this.</p>
+
+<p>The good news is that we’re hearing there’s an increased demand for DotGov services. But, given the volume of government websites that need to adopt .gov domains, we still need increased advocacy and an overall inviting user experience.</p>
+
+<p>I’ve always felt the DotGov program could be less bureacratic in its presentation and make a more welcoming and compelling case for its adoption.</p>
+
+<p>As we did with the <a href="/thoughts/coding-covid-dashboard">COVID dashboard</a>, my son and I built an <a href="https://dotgov.govfresh.com">alternative DotGov digital front door</a> that attempts to do just this.  To prototype a different approach, he created a .gov domain look-up tool that pulls from the <a href="https://home.dotgov.gov/data/">data provided by DotGov</a>, and I wrote copy and designed a simple page to to accompany this.</p>
+
+<p>Hopefully, this is an inspiration to those who manage the DotGov service that we can .</p>
+
+<p>If you are responsible for an official government website, <a href="https://dotgov.govfresh.com">it’s time to go .gov</a>.</p>
+:ET

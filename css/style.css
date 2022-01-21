@@ -1,3 +1,47 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Public Sans Thin";
+    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Thin.woff2") format("woff2"),
+        url("/assets/fonts/public-sans/webfonts/PublicSans-Thin.woff2") format("woff");
+}
+
+@font-face {
+
+    font-family: "Public Sans Light";
+    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Light.woff2") format("woff2"),
+        url("/assets/fonts/public-sans/webfonts/PublicSans-Light.woff") format("woff");
+}
+
+@font-face {
+
+    font-family: "Public Sans Regular";
+    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Regular.woff2") format("woff2"),
+        url("/assets/fonts/public-sans/webfonts/PublicSans-Regular.woff") format("woff");
+}
+
+@font-face {
+
+    font-family: "Public Sans Medium";
+    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Medium.woff2") format("woff2"),
+        url("/assets/fonts/public-sans/webfonts/PublicSans-Medium.woff") format("woff");
+
+}
+
+@font-face {
+    font-family: "Public Sans Bold";
+    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Bold.woff2") format("woff2"),
+        url("/assets/fonts/public-sans/webfonts/PublicSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Public Sans Black";
+    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Black.woff2") format("woff2"),
+        url("/assets/fonts/public-sans/webfonts/PublicSans-Black.woff") format("woff");
+}
+
+/* Root settings */
+
 :root {
     --color-1: #5b029c;
     --color-2: #212121;
@@ -26,12 +70,7 @@
     --size-14: 15rem;
 }
 
-body {
-    background-color: var(--color-4);
-}
-
-
-/* General */
+/* Responsive typography */
 
 @media (max-width: 768px) {
     h1 {
@@ -209,6 +248,12 @@ body {
 
 }
 
+/* General */
+
+body {
+    background-color: var(--color-4);
+}
+
 body {
     transition: 1s;
     color: var(--color-2);
@@ -217,15 +262,15 @@ body {
     font-weight: var(--weight-1);
 }
 
+a, a:visited, a:hover {
+    color: var(--color-1);
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     color: var(--color-2);
     font-family: var(--font-1) !important;
     font-weight: var(--weight-2);
     letter-spacing: -.02em;
-}
-
-a, a:visited, a:hover {
-    color: var(--color-1);
 }
 
 /* Theme */
@@ -440,6 +485,7 @@ img.lg {
     padding: var(--size-4);
     margin-bottom: var(--size-3);
     text-align: center;
+    padding-top: var(--size-6);
 }
 
 .fancy-feat svg {
@@ -493,6 +539,14 @@ img.author {
 
 /* Parent */
 
+html:not(html.dark) .thoughts {
+    --color-1: #345d96;
+    --color-5: #4a77b4;
+    --color-6: #ecf1f7;
+    --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
+}
+
 html:not(html.dark) .reviews {
     --color-1: #0e4f5c;
     --color-5: #6499af;
@@ -525,12 +579,20 @@ html:not(html.dark) .evergreen {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #d5fbf3 73%);
 }
 
-.innovations {
+html:not(html.dark) .innovations {
     --color-1: #6b5947;
     --color-5: #8e704f;
     --color-6: #f5f0e6;
     --gradient-1: linear-gradient(135deg, #6b5947 13%, #8e704f 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #f5f0e6 73%);
+}
+
+html:not(html.dark) .labs {
+    --color-1: #8b4566;
+    --color-5: #c84281;
+    --color-6: #f9f0f2;
+    --gradient-1: linear-gradient(135deg, #8b4566 13%, #c84281 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
 }
 
 /* Previews */
