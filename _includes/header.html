@@ -1,50 +1,43 @@
 <!doctype html>
 <html lang="en">
-
-<!--
+    <!--
   _____         ____            __ 
  / ___/__ _  __/ __/______ ___ / / 
 / (_ / _ \ |/ / _// __/ -_|_-</ _ \
 \___/\___/___/_/ /_/  \__/___/_//_/
 
 -->
-
-<head>
-  <!-- Meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ page.description }}">
-  <meta name="keywords" content="">
-  <meta name="author" content="{{ site.name }}">
-
-  <!-- Title -->
-  <title>{{ page.title }} - {{ site.title }}</title>
-
-  <!-- Favicon -->
-  {% include favicon.html %}
-
-  <!-- Social media -->
-  <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:image" content="{{ site.baseurl }}/assets/img/avatar.png">
-
-  <!-- CSS -->
-  {% include style.html %}
-
-  <!-- Fonts -->
-  {% include fonts.html %}
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="keywords" content="">
+        <meta name="author" content="{{ site.name }}">
+        <!-- Title -->
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <!-- Favicon -->
+        {% include favicon.html %}
+        <!-- Social media -->
+        <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:description" content="{{ page.description }}">
+        {% if page.img-feat %}
+        <meta property="og:image" content="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
+        {% else %}
+        <meta property="og:image" content="{{ site.baseurl }}/assets/img/avatar.png">
+        {% endif %}
+        <!-- CSS -->
+        {% include style.html %}
+        <!-- Fonts -->
+        {% include fonts.html %}
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-  <!-- SEO -->
-  {% seo %}
-
-</head>
-
-<body class="{{ page.parent }}">
+        <!-- SEO -->
+        {% seo %}
+    </head>
+    <body class="{{ page.parent }}">
