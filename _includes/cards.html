@@ -112,7 +112,12 @@
                         <h3>
                             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                         </h3>
-                        <p>By {{ item.author }}</p>
+                        {% if item.description %}
+                        <p>{{ item.description }}</p>
+                        {% endif %}
+                        {% if item.author %}
+                        <p class="small">By {{ item.author }}</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -128,7 +133,12 @@
                         <h2 class="h3">
                             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                         </h2>
-                        <p>By {{ item.author }}</p>
+                        {% if item.description %}
+                        <p>{{ item.description }}</p>
+                        {% endif %}
+                        {% if item.author %}
+                        <p class="small">By {{ item.author }}</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>

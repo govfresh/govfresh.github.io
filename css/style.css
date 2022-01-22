@@ -421,6 +421,13 @@ blockquote {
     color: var(--color-2);
 }
 
+/* Lists */
+
+.list-group-item {
+    border: none;
+    padding: var(--size-4) var(--size-3) var(--size-4) var(--size-1);
+}
+
 /* Images */
 
 img {

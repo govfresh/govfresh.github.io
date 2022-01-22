@@ -1,14 +1,10 @@
 {% if page.parent == "thoughts" or page.parent == "reviews" %}
-
 <div class="jumbotron">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
                 <h1 class="h2">{{ page.title }}</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-8">
                 {% if page.description %}
                 <p class="lead">{{ page.description }}</p>
                 {% endif %}
@@ -17,10 +13,15 @@
                 {% assign author_data = site.people | where:"author", author | first %}
                 {% if author_data.content.size > 1 %}
                 <p>
-                    {% if author_data.img %}<img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
-                        alt="Photo of {{ author_data.title }}" title="{{ author_data.title }}"
-                        class="author rounded-circle" />
-                    {% endif %} By <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
+                    {% if author_data.img %}
+                    <img
+                        src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
+                        alt="Photo of {{ author_data.title }}"
+                        title="{{ author_data.title }}"
+                        class="author rounded-circle"
+                    >
+                    {% endif %} By
+                    <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
                     &middot;
                     {% include date.html %}
                 </p>
@@ -28,14 +29,11 @@
                 {% endfor %}
                 {% endif %}
             </div>
-            <div class="col-sm-4">
-            </div>
+            <div class="col-sm-1"></div>
         </div>
     </div>
 </div>
-
 {% elsif page.layout == "radar" %}
-
 <div class="jumbotron">
     <div class="container">
         <div class="row">
@@ -50,7 +48,8 @@
                 {% assign author_data = site.people | where:"author", author | first %}
                 {% if author_data.content.size > 1 %}
                 <p>
-                    Posted by <a href="{{ site.baseurl }}{{ author_data.url }}"> {{ author_data.title }}</a>
+                    Posted by
+                    <a href="{{ site.baseurl }}{{ author_data.url }}"> {{ author_data.title }}</a>
                     &middot;
                     {% include date.html %}
                 </p>
@@ -61,9 +60,7 @@
         </div>
     </div>
 </div>
-
 {% elsif page.layout == "home" %}
-
 <div class="jumbotron">
     <div class="container">
         <div class="row">
@@ -72,14 +69,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4">
-            </div>
+            <div class="col-sm-4"></div>
         </div>
     </div>
 </div>
-
 {% else %}
-
 <div class="jumbotron">
     <div class="container">
         <div class="row">
@@ -93,8 +87,7 @@
                 <p class="lead">{{ page.description }}</p>
                 {% endif %}
             </div>
-            <div class="col-sm-3">
-            </div>
+            <div class="col-sm-3"></div>
         </div>
     </div>
 </div>

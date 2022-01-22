@@ -4,11 +4,10 @@
 {% else %}
 {% assign categories = page.categories %}
 {% endif %}
-<ul class="list-unstyled">
+<ul class="list-group list-group-horizontal">
     {% for category in categories %}
-    <li class="">
+    <li class="list-group-item">
         <small>
-            <i class="fa-solid fa-tag"></i>
             <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="">{{ category }}</a>
         </small>
     </li>
