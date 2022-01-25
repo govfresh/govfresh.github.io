@@ -37,12 +37,9 @@
 <div class="jumbotron">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
                 <h1 class="h3">{{ page.title }}</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
                 {% if page.author %}
                 {% for author in page.author %}
                 {% assign author_data = site.people | where:"author", author | first %}
@@ -57,6 +54,7 @@
                 {% endfor %}
                 {% endif %}
             </div>
+            <div class="col-sm-1"></div>
         </div>
     </div>
 </div>
