@@ -75,6 +75,7 @@
                     </div>
                 </div>
             </div>
+            {% assign amount = amount | plus:1 %}
             <!-- Radar primary -->
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
@@ -88,10 +89,10 @@
                     </div>
                 </div>
             </div>
+            {% assign amount = amount | plus:1 %}
             {% endif %}
             {% if title != item.title %}
             {% endif %}
-            {% assign amount = amount | plus:1 %}
             {% endfor %}
         </div>
         {% endif %}
