@@ -390,7 +390,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/radar/nasa-2022-spinoffs</loc>
-<lastmod>2022-01-24T19:18:20-08:00</lastmod>
+<lastmod>2022-01-24T19:19:20-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/radar/2021-asci-federal-government-report</loc>
+<lastmod>2022-01-25T17:31:07-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reviews/review-click-here-to-kill-everybody</loc>
@@ -443,6 +447,10 @@
 <url>
 <loc>http://localhost:4000/topics/culture</loc>
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/topics/customer-experience</loc>
+<lastmod>2022-01-25T16:59:33-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/data</loc>
