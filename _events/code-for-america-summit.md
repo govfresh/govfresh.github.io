@@ -1,5 +1,6 @@
 ---
 title: Code for America Summit
+description: The Code for America Summit brings changemakers into one room―public servants, advocates, technologists, and organizers break through some of the governments’ biggest challenges by removing barriers and expanding government access to serve all Americans.
 shortname: CFA Summit
 website: https://summit.codeforamerica.org/
 org: Code for America

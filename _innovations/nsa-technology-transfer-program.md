@@ -1,7 +1,7 @@
 ---
 title: "NSA Technology Transfer Program"
-shortname: "NSA TTP"
 description: "Transfers NSA-developed technology to industry, academia and other research organizations, benefitting the economy and the Agency mission."
+shortname: "NSA TTP"
 org: National Security Agency
 org-link: https://census.gov/
 img: nsa-technology-transfer-program.png
@@ -21,7 +21,6 @@ github:
 flickr: 
 tumblr: 
 rss: 
-permalink: 
 category:
   - Digital
   - Open

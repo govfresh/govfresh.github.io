@@ -21,7 +21,6 @@ flickr:
 tumblr: 
 rss: 
 team: 
-gamechangers: yes
 ---
 
 When Shari Davis speaks, they do so with a conviction that is impossible to question their deep commitment to equity in democracy. 

@@ -1,5 +1,6 @@
 ---
 title: DotGov Design
+description: Focuses on designers working with or inside government and civic tech initiatives.
 shortname: DotGov Design
 website: https://dc.aiga.org/programs-initiatives/dotgovdesign/
 org: AIGA DC

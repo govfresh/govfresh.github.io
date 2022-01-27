@@ -1,7 +1,7 @@
 ---
 title: "NASA Technology Transfer Program"
-shortname: "T2"
 description: "Bringing NASA technology down to earth."
+shortname: "T2"
 org: National Aeronautics and Space Administration
 org-link: https://nasa.gov/
 img: nasa-technology-transfer-program.svg
@@ -22,7 +22,6 @@ github:
 flickr: 
 tumblr: 
 rss: 
-permalink: 
 category:
   - Digital
   - Open

@@ -1,7 +1,7 @@
 ---
 title: "Public Sans"
-shortname: "Public Sans"
 description: "A font for government, by government."
+shortname: "Public Sans"
 org: General Services Administration
 org-link: https://gsa.gov/
 img: public-sans.png
@@ -20,7 +20,6 @@ github: https://github.com/uswds/public-sans
 flickr: 
 tumblr: 
 rss: 
-permalink: 
 category:
   - Design
   - Digital

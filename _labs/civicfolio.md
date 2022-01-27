@@ -5,7 +5,6 @@ description: "A portfolio website theme for civic technologists."
 icon: "fa-solid fa-arrow-pointer"
 website: https://civicfolio.govfresh.com/
 github: https://github.com/govfresh/civicfolio
-permalink: 
 category:
   - Digital
   - Hacking

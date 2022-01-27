@@ -1,7 +1,7 @@
 ---
 title: "U.S. Web Design System"
-shortname: "USWDS"
 description: "A design system for the federal government."
+shortname: "USWDS"
 org: General Services Administration
 org-link: https://gsa.gov/
 img: uswds.svg
@@ -21,7 +21,6 @@ github: https://github.com/uswds/uswds
 flickr: 
 tumblr: 
 rss: 
-permalink: 
 category:
   - Design
   - Digital

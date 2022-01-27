@@ -1,0 +1,16 @@
+I"�<p>In-Q-Tel built a “nutrition label” prototype for open source software that gives developers insight into the health of a project.</p>
+
+<p>In-Q-Tel <a href="https://www.iqt.org/open-source-software-nutrition-labels-an-ai-assurance-application/">asks</a>:</p>
+
+<blockquote>
+  <p>If software developers and software program managers had access to information about the health and security of specific open source software packages – like shoppers in a grocery store looking at food nutrition labels – would they be empowered to make better choices about which software packages to use?</p>
+</blockquote>
+
+<p>For context, In-Q-Tel created a <a href="https://trui4.csb.app/">nutrition label for FakeFinder</a>, an open source tool that analyzes whether videos contain deepfakes.</p>
+
+<p>Indicators used to determine project health include package contributor totals, funding resources, update recency data and package health scores. Other metrics include license type, total contributors, total maintainers, total dependencies, total versions,</p>
+
+<p>The tool was built using React, TypeScript and LineUp.</p>
+
+<p>Code for the OSS nutrition label is available at the <a href="https://github.com/IQTLabs/OSSNutritionLabelPrototypes">GitHub repository</a>.</p>
+:ET

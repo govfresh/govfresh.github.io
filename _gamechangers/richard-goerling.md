@@ -21,7 +21,6 @@ flickr:
 tumblr: 
 rss: 
 team: 
-gamechangers: yes
 ---
 
 Richard Goerling is bringing needed presence to the people who have taken an oath to serve and protect us.

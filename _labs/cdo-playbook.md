@@ -5,7 +5,6 @@ description: "A web version of the official U.S. government CDO playbook."
 icon: "fa-solid fa-database"
 website: https://cdoplaybook.govfresh.com/
 github: https://github.com/govfresh/cdo-playbook
-permalink: 
 category:
   - Data
   - Digital

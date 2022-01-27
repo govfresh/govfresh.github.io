@@ -1,7 +1,7 @@
 ---
 title: "The Opportunity Project"
-shortname: "TOP"
 description: "Use government data to build digital tools with, by, and for the people."
+shortname: "TOP"
 org: U.S. Census Bureau
 org-link: https://census.gov/
 img: top.png
@@ -21,7 +21,6 @@ github: https://github.com/uscensusbureau/the-opportunity-project
 flickr: 
 tumblr: 
 rss: 
-permalink: 
 category:
   - Data
   - Design

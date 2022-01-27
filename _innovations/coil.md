@@ -1,7 +1,7 @@
 ---
 title: "Census Open Innovation Labs"
-shortname: "COIL"
 description: "Trailblazing open government through cross-sector collaboration, design, and technology."
+shortname: "COIL"
 org: U.S. Census Bureau
 org-link: https://census.gov/
 img: coil.png
@@ -21,7 +21,6 @@ github:
 flickr: 
 tumblr: 
 rss: 
-permalink: 
 category:
   - Data
   - Design

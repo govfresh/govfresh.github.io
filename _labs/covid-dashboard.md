@@ -5,7 +5,6 @@ description: "State COVID-19 updates."
 icon: "fa-solid fa-mask-face"
 website: https://covid.govfresh.com
 github: https://github.com/govfresh/covid
-permalink: 
 category:
   - Data
   - Design

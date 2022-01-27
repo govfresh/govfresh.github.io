@@ -1,0 +1,12 @@
+I"�<p>In-Q-Tel built a nutrition label for open source software  on create a prototype “Nutrition Label” for open source software.</p>
+
+<p>In-Q-Tel <a href="https://www.iqt.org/open-source-software-nutrition-labels-an-ai-assurance-application/">asks</a>:</p>
+
+<blockquote>
+  <p>If software developers and software program managers had access to information about the health and security of specific open source software packages – like shoppers in a grocery store looking at food nutrition labels – would they be empowered to make better choices about which software packages to use?</p>
+</blockquote>
+
+<p>In-Q-Tel created a <a href="https://trui4.csb.app/">nutrition label for FakeFinder</a>, an open source tool that analyzes whether a video contain deepfakes.</p>
+
+<p>The prototype code is available at the <a href="https://github.com/IQTLabs/OSSNutritionLabelPrototypes">GitHub repository</a>.</p>
+:ET

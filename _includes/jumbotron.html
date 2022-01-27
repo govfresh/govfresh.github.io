@@ -34,7 +34,7 @@
     </div>
 </div>
 {% elsif page.layout == "radar" %}
-<div class="jumbotron">
+<div class="jumbotron radar">
     <div class="container">
         <div class="row">
             <div class="col-sm-1"></div>
@@ -42,7 +42,7 @@
                 <h1 class="h3">{{ page.title }}</h1>
                 {% if page.author %}
                 {% for author in page.author %}
-                {% assign author_data = site.people | where:"author", author | first %}
+                {% assign author_data = site.people | where:"title", author | first %}
                 {% if author_data.content.size > 1 %}
                 <p>
                     Posted by
