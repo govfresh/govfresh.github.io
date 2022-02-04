@@ -1,0 +1,20 @@
+I"�<p>Say hello to <a href="https://civicfolio.govfresh.com">CivicFolio</a>, a portfolio website theme for civic technologists.</p>
+
+<p>The genesis of this project came from a series of conversations <a href="https://www.linkedin.com/in/cnwagwu/">Chizobam Nwagwu</a> and I had about how folks at the beginning of their careers can build an online presence for themselves in the context of learning and adopting basic civic technology tools, projects and principles.</p>
+
+<p>CivicFolio aims to help civic-interested designers and technologists build their portfolio websites while learning (by doing) the basic principles of civic technology:</p>
+
+<ul>
+  <li>Working in public</li>
+  <li>Building inclusive, accessible websites</li>
+  <li>Using open, collaborative tools and technologies</li>
+</ul>
+
+<p>Over the course of the past few months – with feedback from Chizo – I built out a prototype that would start to address this. While it’s not perfect – and never will be – it’s hopefully a foundation for helping folks get started.</p>
+
+<p>CivicFolio uses the <a href="https://public-sans.digital.gov/">U.S. Web Design System</a> and <a href="https://public-sans.digital.gov/">Public Sans</a> for the front-end and <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a> for content management and hosting.</p>
+
+<p>There’s <a href="https://github.com/govfresh/civicfolio/wiki">documentation</a> to help you get started. If needed, we’ll provide <a href="https://github.com/govfresh/civicfolio/wiki/Support">support</a> as be as we can.</p>
+
+<p><a href="https://civicfolio.govfresh.com">Visit the demo web</a> and the <a href="https://github.com/govfresh/civicfolio">project repository</a>.</p>
+:ET

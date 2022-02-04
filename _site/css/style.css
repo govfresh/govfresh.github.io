@@ -255,7 +255,6 @@ body {
 }
 
 body {
-    transition: 1s;
     color: var(--color-2);
     font-family: var(--font-1);
     font-size: var(--size-4);

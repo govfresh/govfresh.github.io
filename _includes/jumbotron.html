@@ -10,7 +10,7 @@
                 {% endif %}
                 {% if page.author %}
                 {% for author in page.author %}
-                {% assign author_data = site.people | where:"author", author | first %}
+                {% assign author_data = site.people | where:"title", author | first %}
                 {% if author_data.content.size > 1 %}
                 <p>
                     {% if author_data.img %}
