@@ -32,4 +32,8 @@ CivicFolio uses the [U.S. Web Design System](https://public-sans.digital.gov/) a
 
 As a point of reference, [my personal website](https://lukefretwell.com) is now powered by CivicFolio.
 
+Takeaways from Chizo:
+
+> "I really enjoyed the process of learning how to use GitHub for project management. It was actually really interesting learning about and applying best practices for setting up parameters for people to engage with your open source project (i.e., designing contributing guides or issue/pull request templates)."
+
 [Visit the demo web](https://civicfolio.govfresh.com) and the [project repository](https://github.com/govfresh/civicfolio).
