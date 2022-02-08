@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-03T18:21:06-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Public service with and by the people.</subtitle><entry><title type="html">California shares beta version of its new design system</title><link href="http://localhost:4000/radar/california-design-system-beta" rel="alternate" type="text/html" title="California shares beta version of its new design system" /><published>2022-01-31T00:00:00-08:00</published><updated>2022-01-31T16:21:26-08:00</updated><id>http://localhost:4000/radar/california-design-system-beta</id><content type="html" xml:base="http://localhost:4000/radar/california-design-system-beta">&lt;p&gt;The state of California launched a beta version of its new design system, that aims to make it “easy for state digital teams to build accessible, consistent, and performant services and products to meet Californians’ needs.”&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-07T16:16:27-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Public service with and by the people.</subtitle><entry><title type="html">Defense Department: Choose ‘OSS solutions before buying proprietary’</title><link href="http://localhost:4000/radar/dod-open-source-software-memo" rel="alternate" type="text/html" title="Defense Department: Choose ‘OSS solutions before buying proprietary’" /><published>2022-02-07T00:00:00-08:00</published><updated>2022-02-07T16:16:26-08:00</updated><id>http://localhost:4000/radar/dod-open-source-software-memo</id><content type="html" xml:base="http://localhost:4000/radar/dod-open-source-software-memo">&lt;p&gt;The U.S. Defense Department released a memo that gives agency direction on open source software usage, citing a preference for and the benefits of its adoption.&lt;/p&gt;
+
+&lt;p&gt;From the January 24 &lt;a href=&quot;https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf&quot;&gt;memo&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Department must follow an “Adopt, Buy, Create” approach to software preferentially adopting existing government or OSS solutions before buying proprietary offerings, and only creating new non-commercial software when no off-the-shelf solutions are adequate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As “an experiment in open source,” the Defense Department &lt;a href=&quot;https://www.defense.gov/News/Releases/Release/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/&quot;&gt;launched Code.mil&lt;/a&gt; in 2017.&lt;/p&gt;
+
+&lt;p&gt;“This is a direct avenue for the department to tap into a worldwide community of developers to collectively speed up and strengthen the software development process,” said the Defense Deparment at the time.&lt;/p&gt;
+
+&lt;p&gt;“Modern software is open sourced software (OSS),” says the Defense Department on its &lt;a href=&quot;https://code.mil/&quot;&gt;Code.mil&lt;/a&gt; website. “The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of OSS.”&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">The U.S. Defense Department released a memo that gives agency direction on open source software usage, citing a preference for and the benefits of its adoption.</summary></entry><entry><title type="html">California shares beta version of its new design system</title><link href="http://localhost:4000/radar/california-design-system-beta" rel="alternate" type="text/html" title="California shares beta version of its new design system" /><published>2022-01-31T00:00:00-08:00</published><updated>2022-01-31T16:21:26-08:00</updated><id>http://localhost:4000/radar/california-design-system-beta</id><content type="html" xml:base="http://localhost:4000/radar/california-design-system-beta">&lt;p&gt;The state of California launched a beta version of its new design system, that aims to make it “easy for state digital teams to build accessible, consistent, and performant services and products to meet Californians’ needs.”&lt;/p&gt;
 
 &lt;p&gt;About the project:&lt;/p&gt;
 
@@ -127,30 +139,4 @@ appreciated and with challenges that are critical to overcome to properly serve 
   &lt;p&gt;One potential method for developing digital services staff, discussed by the roundtable participants, is the creation of a digital service academy—similar to military academies—to train future civil servants in the digital skills needed to modernize government. Considerations for a digital service academy include the kinds of skills that would be taught and the composition and size of a graduating class, according to roundtable participants. Further, they said digital services staff would need proficiency in both digital skills as well understanding the functions of government to meet agencies’ needs.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Report: &lt;a href=&quot;https://www.gao.gov/products/gao-22-105388&quot;&gt;Digital Services: Considerations for a Federal Academy to Develop a Pipeline of Digital Staff&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Data&quot;, &quot;Digital&quot;, &quot;Security&quot;]" /><summary type="html">To help the federal government address challenges in technical hiring, managing and staff retention, the U.S. Government Accountability Office recommends the creation of a digital service academy.</summary></entry><entry><title type="html">Census to host Open Innovation for All virtual summit</title><link href="http://localhost:4000/radar/top-open-innovation-summit-2021" rel="alternate" type="text/html" title="Census to host Open Innovation for All virtual summit" /><published>2021-11-26T00:00:00-08:00</published><updated>2021-11-26T17:34:01-08:00</updated><id>http://localhost:4000/radar/top-open-innovation-summit-2021</id><content type="html" xml:base="http://localhost:4000/radar/top-open-innovation-summit-2021">&lt;p&gt;The U.S. Census Bureau and Census Open Innovation Labs will host &lt;a href=&quot;https://emamo.com/event/TOPSummit2021&quot;&gt;The Opportunity Project Summit: Open Innovation for All&lt;/a&gt; December 13-15. The event is virtual and free to all.&lt;/p&gt;
-
-&lt;p&gt;From TOP:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Much of the Summit will showcase the work of hundreds of participants in this year’s The Opportunity Project (TOP) sprints. TOP is a leading federal innovation model that brings cross-sector partners together to solve problems for people nationwide, using federal open data.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This year, 7 federal agencies (the U.S. Census Bureau, HHS, NOAA, MBDA, Treasury, CFPB, and HUD) and 2 cities (New York and Coral Gables, FL) led TOP sprints focused on the World Post-COVID-19. We’ll feature the resulting new products and announce more than $300,000 in awards to the winners of the Open Data for Good Grand Challenge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Talks include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Data Tools Helping to Illuminate New Economic Patterns&lt;/li&gt;
-  &lt;li&gt;TED-Style Talks: Data Art and Non-traditional Tech Education&lt;/li&gt;
-  &lt;li&gt;A Data- and Human-Centered Conversation on Addressing Homelessness&lt;/li&gt;
-  &lt;li&gt;“Equidad e inclusividad”: Technology to Support Language Access and Minority Inclusion&lt;/li&gt;
-  &lt;li&gt;TED-Style Talks: Technology and Justice, the New Economy and the American Dream&lt;/li&gt;
-  &lt;li&gt;What Is Data Equity? A Plain-language Discussion&lt;/li&gt;
-  &lt;li&gt;Let’s Get “Climate Smart”: How Tech Can Boost Community Resilience to Climate Change&lt;/li&gt;
-  &lt;li&gt;Government Tech Funding 101&lt;/li&gt;
-  &lt;li&gt;Interactive Workshop: Bureaucracy Hacking Masterclass&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://emamo.com/event/TOPSummit2021&quot;&gt;Register&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;, &quot;Security&quot;]" /><summary type="html">The U.S. Census Bureau and Census Open Innovation Labs will host The Opportunity Project Summit: Open Innovation for All December 13-15. The event is virtual and free to all.</summary></entry></feed>
+&lt;p&gt;Report: &lt;a href=&quot;https://www.gao.gov/products/gao-22-105388&quot;&gt;Digital Services: Considerations for a Federal Academy to Develop a Pipeline of Digital Staff&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Data&quot;, &quot;Digital&quot;, &quot;Security&quot;]" /><summary type="html">To help the federal government address challenges in technical hiring, managing and staff retention, the U.S. Government Accountability Office recommends the creation of a digital service academy.</summary></entry></feed>
