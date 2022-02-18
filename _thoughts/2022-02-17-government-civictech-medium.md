@@ -35,6 +35,10 @@ Byrne-Haber writes:
 
 > "As an assistive technology user, the experience is just flat-out awful, bordering on some of the worst I have ever seen. This is an even stronger statement when you remember I’ve seen some pretty atrocious experiences in my eighteen years working in disability inclusion and accessibility."
 
+Note, Byrne-Haber does publish to Medium but also maintains an accessible, free version of posts on [her personal website](https://sheribyrnehaber.com):
+
+> "Most of the money I earn from Medium (not a ton, but enough to get a 1099 at the end of the year) supports an accessible, free version of my blog at sheribyrnehaber.com. At sheribyrnehaber.com, users can browse my multi-year blog backlog without limits, use a vastly better tagging and search mechanism than the one Medium provides, and use assistive technology to their heart’s content without barriers."
+
 Surprisingly, a number of digital government services agencies and civic technologists host their blogs or post articles to Medium.
 
 The federal government's primary digital service organization -- the U.S. Digital Service -- has [its blog on Medium](https://usdigitalservice.medium.com/). For an agency whose mission is "to deliver better government services to the American people through technology and design" and an administration that is [adamant about being more inclusive](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/06/25/executive-order-on-diversity-equity-inclusion-and-accessibility-in-the-federal-workforce/), its disuse of Medium is something that should be included in its go-forward strategy. 
