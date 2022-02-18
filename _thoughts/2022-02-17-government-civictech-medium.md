@@ -14,7 +14,7 @@ category:
   - Digital
 ---
 
-[Medium](https://medium.com) is a platform that lets anyone -- individuals or organizations -- freely publish articles for public consumption. There are two fundamental civic problems with government agencies using it as a publishing platform:
+[Medium](https://medium.com) is a platform that lets anyone -- individuals or organizations -- freely publish articles for public consumption. There are two fundamental civic problems with government agencies using it to publish information:
 
 * Content is paywalled after a limited number of article views.
 * Medium's accessibility conformance is dismal.
