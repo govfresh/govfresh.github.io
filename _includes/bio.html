@@ -1,9 +1,11 @@
 {% if page.author %}
 {% for author in page.author %}
+{% for author_data in site.people | where: "title", author %}
 <div class="author-bio">
-        <h2>About {{ author_data.title }}</h2>
-        <p>{{ author_data.content | markdownify }}</p>
-        {% include social.html size="small" %}
+    <h2>About {{ author_data.title }}</h2>
+    <p>{{ author_data.content | markdownify }}</p>
+    {% include social.html size="small" %}
 </div>
+{% endfor %}
 {% endfor %}
 {% endif %}

@@ -21,102 +21,103 @@ layout: profile
                     <a href="{{ site.baseurl }}/reviews/{{ page.review-link }}">Full review</a>
                 </p>
                 {% endif %}
-
-        {% if page.parent == "podcasts" %}
-                <p>Host: {{ page.author }}</p>
-                {% endif %}
+                <div>
+                    {% if page.parent == "podcasts" %}
+                    <p>Host: {{ page.author }}</p>
+                    {% endif %}
 
         {% if page.parent == "innovations" %}
-                <p>
-                    Host organization:
-                    <a href="{{ page.org-link }}">{{ page.org }}</a>
-                </p>
-                {% endif %}
+                    <p>
+                        Host organization:
+                        <a href="{{ page.org-link }}">{{ page.org }}</a>
+                    </p>
+                    {% endif %}
 
         {% if page.parent == "events" %}
-                <p>
-                    Organizer:
-                    <a href="{{ page.org-link }}">{{ page.org }}</a>
-                </p>
-                {% endif %}
+                    <p>
+                        Organizer:
+                        <a href="{{ page.org-link }}">{{ page.org }}</a>
+                    </p>
+                    {% endif %}
 
         {% if page.parent == "podcasts" %}
-                <div class="alert alert-secondary">
-                    <h2>Listen</h2>
-                    {% include social.html size="podcast" %}
-                </div>
-                {% endif %}
+                    <div class="alert alert-secondary">
+                        <h2>Listen</h2>
+                        {% include social.html size="podcast" %}
+                    </div>
+                    {% endif %}
 
         {% if page.amazon %}
-                <p>
-                    <a href="{{ site.baseurl }}{{ page.amazon }}" class="btn btn-primary">
-                        Buy
-                    </a>
-                </p>
-                {% endif %}
+                    <p>
+                        <a href="{{ site.baseurl }}{{ page.amazon }}" class="btn btn-primary">
+                            Buy
+                        </a>
+                    </p>
+                    {% endif %}
 
         {% if page.donate %}
-                <p>
-                    <a href="{{ page.donate }}" class="btn btn-primary">
-                        Support
-                    </a>
-                </p>
-                {% endif %}
+                    <p>
+                        <a href="{{ page.donate }}" class="btn btn-primary">
+                            Support
+                        </a>
+                    </p>
+                    {% endif %}
 
         {% if page.parent == "labs" %}
-                <p>
-                    <a href="{{ page.website }}" class="btn btn-primary">
-                        Visit
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">
+                            Visit
             project
-                    </a>
-                </p>
-                {% endif %}
+                        </a>
+                    </p>
+                    {% endif %}
 
         {% if page.parent == "innovations" %}
-                <p>
-                    <a href="{{ page.website }}" class="btn btn-primary">
-                        Visit
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">
+                            Visit
             project
-                    </a>
-                </p>
-                {% endif %}
+                        </a>
+                    </p>
+                    {% endif %}
 
         {% if page.parent == "pitches" %}
-                <p>
-                    <a href="{{ page.website }}" class="btn btn-primary">Visit {{ page.title }}</a>
-                </p>
-                {% endif %}
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">Visit {{ page.title }}</a>
+                    </p>
+                    {% endif %}
 
         {% if page.parent == "orgs" or page.parent == "gamechangers" or page.parent == "events" or page.parent == "team" or page.parent == "pitches" or page.parent == "podcasts" or page.parent == "innovations" or page.parent == "labs" %}
-                <h2>Connect with {{ page.shortname }}</h2>
-                {% include social.html size="small" %}
+                    <h2>Connect with {{ page.shortname }}</h2>
+                    {% include social.html size="small" %}
     {% include topics.html %}
     {% endif %}
 
         {% if page.parent == "books" %}
-                <h2>Book links</h2>
-                {% include social.html size="small" %}
+                    <h2>Book links</h2>
+                    {% include social.html size="small" %}
     {% include topics.html %}
     {% endif %}
 
         {% if page.parent == "pitches" %}
-                <div class="alert alert-secondary">
-                    <p>
-                        <i class="fas fa-asterisk"></i>
-                        This is a sponsored page, and we are grateful to
-                        <strong>{{ page.title }}</strong>
-                        for
-                        <a href="{{ site.baseurl }}/support">
-                            supporting GovFresh.
-                        </a>
-                    </p>
-                </div>
-                {% endif %}
+                    <div class="alert alert-secondary">
+                        <p>
+                            <i class="fas fa-asterisk"></i>
+                            This is a sponsored page, and we are grateful to
+                            <strong>{{ page.title }}</strong>
+                            for
+                            <a href="{{ site.baseurl }}/support">
+                                supporting GovFresh.
+                            </a>
+                        </p>
+                    </div>
+                    {% endif %}
 
         {% if page.parent == "books" %}
         {% include disclosure.html %}
         {% include topics.html %}
         {% endif %}
+                </div>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
                 {% include image.html %}
@@ -130,6 +131,21 @@ layout: profile
             </div>
         </div>
     </div>
+    {% if page.team == "true" %}
+    <div class="container">
+        ???
+        
+        {% for thought in site.thoughts | where: "author", page.title %}
+        <!-- THOUGHT -->
+        {% endfor %}
+        {% for review in site.reviews | where: "author", page.title %}
+        <!-- REVIEW -->
+        {% endfor %}
+        {% for post in site.posts | where: "author", page.title %}
+        <!-- POST -->
+        {% endfor %}
+    </div>
+    {% endif %}
 </main>
 {% include analytics.html %}
 {% include footer.html %}
