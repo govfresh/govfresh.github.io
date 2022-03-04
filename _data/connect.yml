@@ -8,7 +8,7 @@ lg: "fa-3x"
 
 website: &website "fas fa-window-maximize"
 email: &email "fas fa-at"
-subscribe: &subscribe "fa-solid fa-envelope-open-text"
+subscribe: &subscribe "fa-solid fa-envelope"
 patreon: &patreon "fab fa-patreon"
 twitter: &twitter "fab fa-twitter"
 linkedin: &linkedin "fab fa-linkedin"

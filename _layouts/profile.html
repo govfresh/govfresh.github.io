@@ -13,10 +13,10 @@ layout: profile
                 {% if page.parent == "books" %}
                 <p>By {{ page.author }}</p>
                 {% endif %}
-
-        {{ content }}
-
-        {% if page.review-link %}
+                <div class="post">
+                    {{ content }}
+                </div>
+                {% if page.review-link %}
                 <p>
                     <a href="{{ site.baseurl }}/reviews/{{ page.review-link }}">Full review</a>
                 </p>
@@ -131,19 +131,73 @@ layout: profile
             </div>
         </div>
     </div>
-    {% if page.team == "true" %}
+    {% if page.team %}
     <div class="container">
-        ???
-        
-        {% for thought in site.thoughts | where: "author", page.title %}
-        <!-- THOUGHT -->
-        {% endfor %}
-        {% for review in site.reviews | where: "author", page.title %}
-        <!-- REVIEW -->
-        {% endfor %}
-        {% for post in site.posts | where: "author", page.title %}
-        <!-- POST -->
-        {% endfor %}
+        {% assign thoughts = site.thoughts | where: "author", page.title %}
+        {% if thoughts.size > 0 %}
+        <h2>Thoughts</h2>
+        <div class="card-deck clean">
+            {% for item in thoughts %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="fancy-feat">
+                            {{ item.img }}
+                        </div>
+                        <h3>
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        {% if item.description %}
+                        <p>{{ item.description }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% assign reviews = site.reviews | where: "author", page.title %}
+        {% if reviews.size > 0 %}
+        <h2>Reviews</h2>
+        <div class="card-deck">
+            {% for item in reviews %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if item.img %}
+                        <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
+                        {% endif %}
+                        <h3 class="h5">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        <p class="description">{{ item.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% assign posts = site.posts | where: "author", page.title %}
+        {% if posts.size > 0 %}
+        <h2>Radar</h2>
+        <div class="card-deck">
+            {% for item in posts %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                        <h3 class="h4">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        <p>
+                            <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
     {% endif %}
 </main>

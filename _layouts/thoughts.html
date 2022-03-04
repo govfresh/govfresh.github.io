@@ -43,12 +43,12 @@ layout: thoughts
                 {% assign author_data = site.people | where:"title", author | first %}
                 {% if author_data.content.size > 1 %}
                     {% if author_data.img %}
-                <div class="img fancy-2">
+                <div class="img">
                     <img
                         src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
                         alt="Photo of {{ author_data.title }}"
                         title="{{ author_data.title }} headshot"
-                        class="sm"
+                        class="xs rounded-circle"
                     >
                 </div>
                 {% endif %}

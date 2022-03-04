@@ -16,11 +16,5 @@ docs:
 - title: Labs
   url: /labs/
 
-- title: Pitches
-  url: /pitches/
-
 - title: Evergreen
   url: /evergreen/
-
-- title: <i class="fas fa-search"></i>
-  url: /search/

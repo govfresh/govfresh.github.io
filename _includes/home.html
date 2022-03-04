@@ -1,7 +1,4 @@
 <div class="home-include">
-    {% if page.tldr-title %}
-    {% include cards.html page="tldr" %}
-    {% endif %}
     {% assign count = 0 %}
     {% assign title = page.title %}
     {% for x in site.pages %}
@@ -11,7 +8,7 @@
     {% if order == count %}
     {% if include.show-only %}
     {% if loop.parent == page.parent %}
-    <div class="preview" {{ loop.parent }}>
+    <div class="preview {{ loop.parent }}">
         <h2>{{ loop.title }}</h2>
         <p class="lead">{{ loop.description }}</p>
         {% if true %}
@@ -45,4 +42,7 @@
     {% endif %}
     {% endfor %}
     {% endfor %}
+    <div class="preview tldr">
+        {% include cards.html page="tldr" %}
+    </div>
 </div>

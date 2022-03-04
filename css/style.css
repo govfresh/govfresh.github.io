@@ -2,42 +2,57 @@
 
 @font-face {
     font-family: "Public Sans Thin";
-    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Thin.woff2") format("woff2"),
-        url("/assets/fonts/public-sans/webfonts/PublicSans-Thin.woff2") format("woff");
+    src: url("/fonts/public-sans/PublicSans-Thin.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-Thin.woff") format("woff");
 }
 
 @font-face {
-
     font-family: "Public Sans Light";
-    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Light.woff2") format("woff2"),
-        url("/assets/fonts/public-sans/webfonts/PublicSans-Light.woff") format("woff");
+    src: url("/fonts/public-sans/PublicSans-Light.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-Light.woff") format("woff");
 }
 
 @font-face {
-
     font-family: "Public Sans Regular";
-    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Regular.woff2") format("woff2"),
-        url("/assets/fonts/public-sans/webfonts/PublicSans-Regular.woff") format("woff");
+    src: url("/fonts/public-sans/PublicSans-Regular.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-Regular.woff") format("woff");
 }
 
 @font-face {
-
     font-family: "Public Sans Medium";
-    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Medium.woff2") format("woff2"),
-        url("/assets/fonts/public-sans/webfonts/PublicSans-Medium.woff") format("woff");
+    src: url("/fonts/public-sans/PublicSans-Medium.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-Medium.woff") format("woff");
 
 }
 
 @font-face {
     font-family: "Public Sans Bold";
-    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Bold.woff2") format("woff2"),
-        url("/assets/fonts/public-sans/webfonts/PublicSans-Bold.woff") format("woff");
+    src: url("/fonts/public-sans/PublicSans-Bold.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Public Sans Extra Bold";
+    src: url("/fonts/public-sans/PublicSans-ExtraBold.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-ExtraBold.woff") format("woff");
 }
 
 @font-face {
     font-family: "Public Sans Black";
-    src: url("/assets/fonts/public-sans/webfonts/PublicSans-Black.woff2") format("woff2"),
-        url("/assets/fonts/public-sans/webfonts/PublicSans-Black.woff") format("woff");
+    src: url("/fonts/public-sans/PublicSans-Black.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url("/fonts/lora/lora-variablefont_wght-webfont.woff2") format("woff2"),
+        url("/fonts/lora/lora-variablefont_wght-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Lora Italic";
+    src: url("/fonts/lora/lora-italic-variablefont_wght-webfont.woff2") format("woff2"),
+        url("/fonts/lora/lora-italic-variablefont_wght-webfont.woff") format("woff");
 }
 
 /* Root settings */
@@ -51,23 +66,28 @@
     --color-6: #f7ecff;
     --gradient-1: linear-gradient(135deg, rgba(91, 2, 156, 1) 13%, rgba(181, 72, 255, 1) 73%);
     --gradient-2: linear-gradient(135deg, rgba(255, 255, 255, 0.15168065517222518) 13%, rgba(181, 72, 255, 0.05644264541754207) 73%);
-    --font-1: "Public Sans", sans-serif;
-    --weight-1: 400;
-    --weight-2: 700;
+    --font-1: "Public Sans Regular", sans-serif;
+    --font-2: "Lora", serif;
+    --font-3: "Public Sans Extra Bold", sans-serif;
+    --font-4: "Public Sans Bold", sans-serif;
+    --font-5: "Public Sans Regular", sans-serif;
+    --font-6: "Public Sans Thin", sans-serif;
+    --font-7: "Public Sans Light", sans-serif;
     --size-1: 0;
-    --size-2: .5rem;
-    --size-3: 1rem;
-    --size-4: 1.2rem;
-    --size-5: 2rem;
-    --size-6: 3rem;
-    --size-7: .25rem;
-    --size-8: .625rem;
-    --size-9: 4.675rem;
-    --size-10: 1.5625rem;
-    --size-11: 12.5rem;
-    --size-12: 18.75rem;
-    --size-13: 0.0625rem;
+    --size-2: 0.0625rem;
+    --size-3: .25rem;
+    --size-4: .5rem;
+    --size-5: .625rem;
+    --size-6: 1rem;
+    --size-7: 1.2rem;
+    --size-8: 1.5625rem;
+    --size-9: 2rem;
+    --size-10: 3rem;
+    --size-11: 4.675rem;
+    --size-12: 10rem;
+    --size-13: 12.5rem;
     --size-14: 15rem;
+    --size-15: 18.75rem;
 }
 
 /* Responsive typography */
@@ -83,7 +103,7 @@
     }
 
     h3 {
-        font-size: 1.4rem !important;
+        font-size: 1.3rem !important;
     }
 
     p.lead {
@@ -95,23 +115,23 @@
     }
 
     .h2 {
-        font-size: 2.6rem !important;
-    }
-
-    .h3 {
         font-size: 1.8rem !important;
     }
 
-    .h4 {
+    .h3 {
         font-size: 1.6rem !important;
     }
 
-    .h5 {
+    .h4 {
         font-size: 1.4rem !important;
     }
 
+    .h5 {
+        font-size: 1.2rem !important;
+    }
+
     .h6 {
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
     }
 }
 
@@ -127,7 +147,7 @@
     }
 
     h3 {
-        font-size: 1.6rem !important;
+        font-size: 1.4rem !important;
     }
 
     p.lead {
@@ -143,7 +163,7 @@
     }
 
     .h3 {
-        font-size: 2rem !important;
+        font-size: 1.6rem !important;
     }
 
     .h4 {
@@ -171,7 +191,7 @@
     }
 
     h3 {
-        font-size: 1.8rem !important;
+        font-size: 1.6rem !important;
     }
 
     p.lead {
@@ -183,11 +203,11 @@
     }
 
     .h2 {
-        font-size: 3.8rem !important;
+        font-size: 3rem !important;
     }
 
     .h3 {
-        font-size: 2.4rem !important;
+        font-size: 2rem !important;
     }
 
     .h4 {
@@ -215,7 +235,7 @@
     }
 
     h3 {
-        font-size: 1.8rem !important;
+        font-size: 1.6rem !important;
     }
 
     p.lead {
@@ -227,11 +247,11 @@
     }
 
     .h2 {
-        font-size: 3.8rem !important;
+        font-size: 3rem !important;
     }
 
     .h3 {
-        font-size: 2.4rem !important;
+        font-size: 2rem !important;
     }
 
     .h4 {
@@ -257,19 +277,28 @@ body {
 body {
     color: var(--color-2);
     font-family: var(--font-1);
-    font-size: var(--size-4);
-    font-weight: var(--weight-1);
+    font-size: var(--size-7);
 }
 
 a, a:visited, a:hover {
     color: var(--color-1);
 }
 
+/* Headings */
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     color: var(--color-2);
-    font-family: var(--font-1) !important;
-    font-weight: var(--weight-2);
     letter-spacing: -.02em;
+}
+
+h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited, .h1 a, .h1 a:visited, .h2 a, .h2 a:visited, .h3 a, .h3 a:visited, .h4 a, .h4 a:visited, .h5 a, .h5 a:visited, .h6 a, .h6 a:visited, .display-1 a, .display-1 a:visited, .display-2 a, .display-2 a:visited, .display-3 a, .display-3 a:visited, .display-4 a, .display-4 a:visited, .display-5 a, .display-5 a:visited, .display-6 a, .display-6 a:visited {
+    text-decoration: dotted !important;
+}
+
+/* Styles with bold */
+
+.nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: var(--font-3) !important;
 }
 
 /* Theme */
@@ -278,13 +307,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
     background: var(--gradient-1);
 }
 
+/* Logo */
+
+.logo {
+    background: var(--gradient-1);
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin: var(--size-6);
+}
+
 /* Navbar */
 
 .navbar {
     color: var(--color-4);
     border-radius: var(--color-1);
-    border-bottom-left-radius: var(--size-8);
-    border-bottom: var(--size-8) solid var(--color-5);
+    border-bottom-left-radius: var(--size-5);
+    border-bottom: var(--size-5) solid var(--color-5);
+    border-top: var(--size-2) solid var(--color-5);
 }
 
 a.navbar-brand:hover {
@@ -306,18 +349,17 @@ a.navbar-brand:hover {
 
 .navbar a, .navbar li.active a, .navbar li.active a:visited {
     color: var(--color-4) !important;
-    font-weight: var(--weight-1);
+    font-family: var(--font-5);
 }
 
 .navbar-brand {
     font-family: var(--font-1);
-    font-weight: var(--weight-2) !important;
     text-transform: uppercase;
 }
 
 .lead {
-    font-family: var(--font-1);
-    font-size: var(--size-5);
+    font-family: var(--font-2);
+    font-size: var(--size-9);
     color: var(--color-2);
     font-weight: var(--weight-1);
 }
@@ -331,7 +373,11 @@ a.navbar-brand:hover {
 }
 
 .card {
-    margin-bottom: var(--size-3) !important;
+    margin-bottom: var(--size-6) !important;
+}
+
+.card p, .feature p {
+    font-family: var(--font-2);
 }
 
 .card-deck .col, .card-deck .col-1, .card-deck .col-10, .card-deck .col-11, .card-deck .col-12, .card-deck .col-2, .card-deck .col-3, .card-deck .col-4, .card-deck .col-5, .card-deck .col-6, .card-deck .col-7, .card-deck .col-8, .card-deck .col-9, .card-deck .col-auto, .card-deck .col-lg, .card-deck .col-lg-1, .card-deck .col-lg-10, .card-deck .col-lg-11, .card-deck .col-lg-12, .card-deck .col-lg-2, .card-deck .col-lg-3, .card-deck .col-lg-4, .card-deck .col-lg-5, .card-deck .col-lg-6, .card-deck .col-lg-7, .card-deck .col-lg-8, .card-deck .col-lg-9, .card-deck .col-lg-auto, .card-deck .col-md, .card-deck .col-md-1, .card-deck .col-md-10, .card-deck .col-md-11, .card-deck .col-md-12, .card-deck .col-md-2, .card-deck .col-md-3, .card-deck .col-md-4, .card-deck .col-md-5, .card-deck .col-md-6, .card-deck .col-md-7, .card-deck .col-md-8, .card-deck .col-md-9, .card-deck .col-md-auto, .card-deck .col-sm, .card-deck .col-sm-1, .card-deck .col-sm-10, .card-deck .col-sm-11, .card-deck .col-sm-12, .card-deck .col-sm-2, .card-deck .col-sm-3, .card-deck .col-sm-4, .card-deck .col-sm-5, .card-deck .col-sm-6, .card-deck .col-sm-7, .card-deck .col-sm-8, .card-deck .col-sm-9, .card-deck .col-sm-auto, .card-deck .col-xl, .card-deck .col-xl-1, .card-deck .col-xl-10, .card-deck .col-xl-11, .card-deck .col-xl-12, .card-deck .col-xl-2, .card-deck .col-xl-3, .card-deck .col-xl-4, .card-deck .col-xl-5, .card-deck .col-xl-6, .card-deck .col-xl-7, .card-deck .col-xl-8, .card-deck .col-xl-9, .card-deck .col-xl-auto {
@@ -367,7 +413,7 @@ div.card-body>i {
 .jumbotron {
     background: var(--color-4);
     background: var(--gradient-2);
-    border-bottom: var(--size-13) solid var(--color-6);
+    border-bottom: var(--size-2) solid var(--color-6);
     border-radius: var(--color-1);
 }
 
@@ -386,28 +432,29 @@ main a:hover {
 }
 
 .post h2, .post h3, .post h4 {
-    padding-bottom: var(--size-3);
-    padding-top: var(--size-3);
+    padding-bottom: var(--size-6);
+    padding-top: var(--size-6);
 }
 
 .post p, .post ul {
-    padding-bottom: var(--size-3);
+    font-family: var(--font-2);
+    padding-bottom: var(--size-6);
 }
 
 blockquote {
-    border-left: var(--size-7) solid var(--color-1);
-    margin-left: var(--size-5);
-    padding-left: var(--size-5);
-    padding-right: var(--size-5);
-    margin-bottom: var(--size-5);
-    margin-top: var(--size-5);
+    border-left: var(--size-3) solid var(--color-1);
+    margin-left: var(--size-9);
+    padding-left: var(--size-9);
+    padding-right: var(--size-9);
+    margin-bottom: var(--size-9);
+    margin-top: var(--size-9);
 }
 
 /* Pagination */
 
 .pagination li.page-item {
     font-family: var(--font-1);
-    font-size: var(--size-3);
+    font-size: var(--size-6);
 }
 
 .page-item.active .page-link {
@@ -424,7 +471,13 @@ blockquote {
 
 .list-group-item {
     border: none;
-    padding: var(--size-4) var(--size-3) var(--size-4) var(--size-1);
+    padding: var(--size-7) var(--size-6) var(--size-7) var(--size-1);
+}
+
+/* Feature */
+
+.feature {
+    padding: var(--size-6) var(--size-1) var(--size-6) var(--size-1);
 }
 
 /* Images */
@@ -435,27 +488,35 @@ img {
 }
 
 .img {
-    margin-bottom: var(--size-10);
+    margin-bottom: var(--size-8);
 }
 
 p.img-caption {
-    font-size: var(--size-3);
-    padding: var(--size-3) var(--size-1);
+    font-size: var(--size-6);
+    padding: var(--size-6) var(--size-1);
 }
 
 img.shadow {
-    box-shadow: var(--size-2) var(--size-2) var(--size-3) var(--color-2);
-    border: var(--size-13) solid var(--color-2);
-    margin-bottom: var(--size-5);
+    box-shadow: var(--size-4) var(--size-4) var(--size-6) var(--color-2);
+    border: var(--size-2) solid var(--color-2);
+    margin-bottom: var(--size-9);
 }
 
 img.line {
-    border: var(--size-13) solid var(--color-3);
-    margin-bottom: var(--size-10);
+    border: var(--size-2) solid var(--color-3);
+    margin-bottom: var(--size-8);
+}
+
+img.xxs {
+    max-width: var(--size-11);
+}
+
+img.xs {
+    max-width: var(--size-12);
 }
 
 img.sm {
-    max-width: var(--size-11);
+    max-width: var(--size-13);
 }
 
 img.md {
@@ -463,54 +524,74 @@ img.md {
 }
 
 img.lg {
-    max-width: var(--size-12);
+    max-width: var(--size-15);
 }
 
 .fancy-2 img, img[type="Gamechangers"], .fancy-2 img, img[type="Team"] {
-    border-left: var(--size-8) solid var(--color-1);
-    border-bottom: var(--size-8) solid var(--color-1);
-    border-right: var(--size-8) solid var(--color-6);
-    border-top: var(--size-8) solid var(--color-6);
+    border-left: var(--size-4) solid var(--color-1);
+    border-bottom: var(--size-4) solid var(--color-1);
+    border-right: var(--size-4) solid var(--color-6);
+    border-top: var(--size-4) solid var(--color-6);
     border-radius: var(--size-1) var(--size-9) var(--size-1) var(--size-9);
 }
 
+.fancy-3 img {
+    border-left: var(--size-3) solid var(--color-1);
+    border-bottom: var(--size-3) solid var(--color-1);
+    border-right: var(--size-3) solid var(--color-6);
+    border-top: var(--size-3) solid var(--color-6);
+    border-radius: var(--size-1) var(--size-7) var(--size-1) var(--size-7);
+}
+
 .fancy-2 img, .fancy-2 img {
-    margin-bottom: var(--size-2);
-    margin-top: var(--size-2);
+    margin-bottom: var(--size-4);
+    margin-top: var(--size-4);
 }
 
 .fancy-feat {
     background-color: var(--color-1);
     background: var(--gradient-1);
-    border-right: var(--size-8) solid var(--color-6);
-    border-top: var(--size-8) solid var(--color-6);
-    border-left: var(--size-8) solid var(--color-1);
-    border-bottom: var(--size-8) solid var(--color-1);
+    border-right: var(--size-4) solid var(--color-6);
+    border-top: var(--size-4) solid var(--color-6);
+    border-left: var(--size-4) solid var(--color-1);
+    border-bottom: var(--size-4) solid var(--color-1);
     border-radius: var(--size-1) var(--size-9) var(--size-1) var(--size-9);
     color: var(--color-4);
-    padding: var(--size-4);
-    margin-bottom: var(--size-3);
+    padding: var(--size-7);
+    margin-bottom: var(--size-6);
     text-align: center;
-    padding-top: var(--size-6);
+    padding-top: var(--size-10);
 }
 
 .fancy-feat svg {
     fill: var(--color-4);
-    min-height: var(--size-11);
-    width: 20%;
+    min-height: var(--size-13);
+    width: 30%;
+}
+
+.card-deck .fancy-feat svg {
+    fill: var(--color-4);
+    min-height: var(--size-13);
+    width: 35%;
+}
+
+.feature .fancy-feat svg {
+    fill: var(--color-4);
+    min-height: var(--size-14);
+    width: 45%;
 }
 
 .icon {
     background-color: var(--color-1);
     background: var(--gradient-1);
-    border-right: var(--size-8) solid var(--color-6);
-    border-top: var(--size-8) solid var(--color-6);
-    border-left: var(--size-8) solid var(--color-1);
-    border-bottom: var(--size-8) solid var(--color-1);
-    border-radius: var(--size-1) var(--size-10) var(--size-1) var(--size-10);
+    border-right: var(--size-5) solid var(--color-6);
+    border-top: var(--size-5) solid var(--color-6);
+    border-left: var(--size-5) solid var(--color-1);
+    border-bottom: var(--size-5) solid var(--color-1);
+    border-radius: var(--size-1) var(--size-9) var(--size-1) var(--size-9);
     color: var(--color-4);
-    padding: var(--size-6) var(--size-5);
-    margin-bottom: var(--size-3);
+    padding: var(--size-10) var(--size-9);
+    margin-bottom: var(--size-6);
     text-align: center;
 }
 
@@ -523,27 +604,34 @@ img.lg {
 .nav {
     background-color: var(--color-6);
     border-radius: var(--size-1);
-    border-top-left-radius: var(--size-8);
-    border-top: var(--size-8) solid var(--color-5);
-    font-weight: var(--weight-2);
+    border-top-left-radius: var(--size-5);
+    border-top: var(--size-5) solid var(--color-5);
     margin-bottom: var(--size-1);
-    margin-top: var(--size-13);
+    margin-top: var(--size-2);
 }
 
 /* Author */
 
 img.author {
-    max-width: var(--size-9);
-    margin-right: var(--size-2);
+    max-width: var(--size-11);
+    margin-right: var(--size-4);
 }
 
 .author-bio {
-    border-top: var(--size-13) solid var(--color-6);
-    margin-top: var(--size-5);
-    padding-top: var(--size-5);
+    border-top: var(--size-2) solid var(--color-6);
+    margin-top: var(--size-9);
+    padding-top: var(--size-9);
 }
 
 /* Parent */
+
+html:not(html.dark) .papers {
+    --color-1: #000000;
+    --color-5: #212121;
+    --color-6: #f1f1f1;
+    --gradient-1: linear-gradient(135deg, #000000 13%, #212121 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #f1f1f1 73%);
+}
 
 html:not(html.dark) .thoughts {
     --color-1: #345d96;
@@ -552,6 +640,8 @@ html:not(html.dark) .thoughts {
     --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
 }
+
+
 
 html:not(html.dark) .reviews {
     --color-1: #0e4f5c;
@@ -601,35 +691,43 @@ html:not(html.dark) .labs {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
 }
 
+html:not(html.dark) .general {
+    --color-1: #5b029c;
+    --color-5: #b548ff;
+    --color-6: #f7ecff;
+    --gradient-1: linear-gradient(135deg, #5b029c 13%, #b548ff 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #f7ecff 73%);
+}
+
 /* Previews */
 
 .home-include .preview {
-    padding-bottom: var(--size-6);
-    padding-top: var(--size-6);
-    border-bottom-left-radius: var(--size-8);
+    padding-bottom: var(--size-10);
+    padding-top: var(--size-10);
+    border-bottom-left-radius: var(--size-5);
 }
 
-.home-include .preview:not(.home-include .preview:last-child), .preview.tldr {
-    border-bottom: var(--size-3) solid var(--color-1);
+.home-include .preview:not(.home-include .preview:last-child), .preview.general {
+    border-bottom: var(--size-6) solid var(--color-1);
 }
 
 .preview-include .preview {
-    margin-top: var(--size-6);
-    padding-bottom: var(--size-6);
-    padding-top: var(--size-6);
-    border-top: var(--size-3) solid var(--color-1);
-    border-top-left-radius: var(--size-8);
+    margin-top: var(--size-10);
+    padding-bottom: var(--size-10);
+    padding-top: var(--size-10);
+    border-top: var(--size-6) solid var(--color-1);
+    border-top-left-radius: var(--size-5);
 }
 
 /* Social */
 
 .social {
-    margin-top: var(--size-4);
+    margin-top: var(--size-7);
 }
 
 .social a, .social a:active, .social a:visited {
     color: var(--color-2);
-    margin-right: var(--size-3);
+    margin-right: var(--size-6);
 }
 
 /* Alerts */
@@ -638,75 +736,78 @@ html:not(html.dark) .labs {
     border-radius: var(--color-1);
 }
 
+.alert p {
+    font-family: var(--font-1) !important;
+}
+
 .alert-light {
     background-color: var(--color-6);
     color: var(--color-2);
-    margin-bottom: var(--size-13);
-    margin-top: var(--size-5);
-    padding-top: var(--size-5);
-    border-bottom-left-radius: var(--size-8);
-    border-bottom: var(--size-8) solid var(--color-5);
+    margin-bottom: var(--size-2);
+    margin-top: var(--size-9);
+    padding-top: var(--size-9);
+    border-bottom-left-radius: var(--size-5);
+    border-bottom: var(--size-5) solid var(--color-5);
 }
 
 .alert-secondary {
     background-color: var(--color-6);
     color: var(--color-2);
-    margin-bottom: var(--size-6);
-    margin-top: var(--size-6);
-    padding-top: var(--size-5);
-    border-bottom-left-radius: var(--size-8);
-    border: var(--size-13) solid var(--color-5);
-    border-bottom: var(--size-8) solid var(--color-5);
+    margin-bottom: var(--size-10);
+    margin-top: var(--size-10);
+    padding-top: var(--size-9);
+    border-bottom-left-radius: var(--size-5);
+    border: var(--size-2) solid var(--color-5);
+    border-bottom: var(--size-5) solid var(--color-5);
 }
 
 .alert-secondary .fa-3x {
-    margin: var(--size-3) var(--size-3) var(--size-3) var(--size-1);
+    margin: var(--size-6) var(--size-6) var(--size-6) var(--size-1);
 }
 
 .alert2 {
-    margin-bottom: var(--size-5) !important;
+    margin-bottom: var(--size-9) !important;
     margin-top: var(--size-1) !important;
 }
 
 /* Buttons / nav pills */
 
 .btn-sm {
-    padding: var(--size-2) !important;
-    font-size: var(--size-3) !important;
+    padding: var(--size-4) !important;
+    font-size: var(--size-6) !important;
 }
 
 .btn-primary, a.btn-primary, a.btn-primary:active, a.btn-primary:hover, a.btn-primary:visited {
     background-color: var(--color-1);
     color: var(--color-4);
     font-family: var(--font-1);
-    font-size: var(--size-4);
-    font-weight: var(--weight-2);
-    margin-bottom: var(--size-2);
-    margin-top: var(--size-2);
+    font-size: var(--size-7);
+    margin-bottom: var(--size-4);
+    margin-top: var(--size-4);
     text-decoration: none;
-    border-left: var(--size-7) solid var(--color-5);
-    border-bottom: var(--size-7) solid var(--color-5);
-    border-right: var(--size-7) solid var(--color-5);
-    border-top: var(--size-7) solid var(--color-5);
-    border-radius: var(--size-10) var(--size-1) var(--size-10) var(--size-1);
+    border-left: var(--size-3) solid var(--color-5);
+    border-bottom: var(--size-3) solid var(--color-5);
+    border-right: var(--size-3) solid var(--color-5);
+    border-top: var(--size-3) solid var(--color-5);
+    border-radius: var(--size-6) var(--size-1) var(--size-6) var(--size-1);
     transition: 1s ease-in-out;
 }
 
 a.btn-primary:hover, .categories a.nav-link:hover, .categories a.nav-link:hover {
     background-color: var(--color-5);
     background: var(--color-5);
-    border-left: var(--size-7) solid var(--color-5);
-    border-bottom: var(--size-7) solid var(--color-5);
-    border-right: var(--size-7) solid var(--color-5);
-    border-top: var(--size-7) solid var(--color-5);
-    border-radius: var(--size-10) var(--size-1) var(--size-10) var(--size-1);
+    border-left: var(--size-3) solid var(--color-5);
+    border-bottom: var(--size-3) solid var(--color-5);
+    border-right: var(--size-3) solid var(--color-5);
+    border-top: var(--size-3) solid var(--color-5);
+    border-radius: var(--size-6) var(--size-1) var(--size-6) var(--size-1);
     color: var(--color-4);
 }
 
 /* Accordions */
 
 .accordion {
-    margin-top: var(--size-5);
+    margin-top: var(--size-9);
 }
 
 .accordion .card {
@@ -726,7 +827,7 @@ a.btn-primary:hover, .categories a.nav-link:hover, .categories a.nav-link:hover 
 
 button.btn-link {
     color: var(--color-1);
-    font-size: var(--size-4);
+    font-size: var(--size-7);
     font-weight: var(--weight-2);
 
 }
@@ -735,7 +836,7 @@ button.btn-link {
 
 .form-control {
     color: var(--color-2);
-    border: var(--size-13) solid var(--color-3);
+    border: var(--size-2) solid var(--color-3);
 }
 
 label {
@@ -764,13 +865,13 @@ body.home label {
 /* Footer */
 
 .footer {
-    border-top: var(--size-13) solid var(--color-4);
+    border-top: var(--size-2) solid var(--color-4);
     margin-top: var(--color-1);
-    padding-bottom: var(--size-5);
-    padding-top: var(--size-5);
-    border-top-left-radius: var(--size-8);
-    border-top: var(--size-8) solid var(--color-5);
-    font-size: var(--size-3);
+    padding-bottom: var(--size-9);
+    padding-top: var(--size-9);
+    border-top-left-radius: var(--size-5);
+    border-top: var(--size-5) solid var(--color-5);
+    font-size: var(--size-6);
 }
 
 .footer p, .footer li {
@@ -780,7 +881,7 @@ body.home label {
 }
 
 .footer ul {
-    padding-bottom: var(--size-4);
+    padding-bottom: var(--size-7);
 }
 
 .footer a, .footer a:visited, .footer, .footer h5 {
@@ -789,12 +890,37 @@ body.home label {
 
 .footer-connect a, .footer-connect a:visited, .footer-connect a:hover {
     color: var(--color-4);
-    margin: var(--size-1) var(--size-3) var(--size-3) var(--size-1);
+    margin: var(--size-1) var(--size-6) var(--size-6) var(--size-1);
 }
 
 .footer-connect {
-    padding-bottom: var(--size-3);
-    padding-top: var(--size-3);
+    padding-bottom: var(--size-6);
+    padding-top: var(--size-6);
+}
+
+h2.big {
+    font-size: 3.6rem !important;
+    padding-bottom: var(--size-4);
+}
+
+p.small {
+    font-family: var(--font-1);
+}
+
+/* Badge */
+
+.badge {
+    border-radius: var(--size-3);
+    font-family: var(--font-5) !important;
+    margin-bottom: var(--size-6) !important;
+    margin-top: var(--size-4) !important;
+    padding: var(--size-4);
+}
+
+.badge-light {
+    background: var(--color-6);
+    border: var(--size-3) solid var(--color-6);
+    color: var(--color-1);
 }
 
 /* Dark mode */
@@ -826,8 +952,6 @@ html.dark .navbar a, html.dark .navbar sup, html.dark footer *, html.dark a.btn.
 div.dark-toggle>i {
     cursor: pointer;
     color: white;
-    margin-left: .75rem;
-    padding-top: .75rem;
 }
 
 html.dark .fancy-feat svg {
@@ -836,4 +960,8 @@ html.dark .fancy-feat svg {
 
 html.dark .pagination>li>* {
     background-color: var(--color-4) !important;
+}
+
+div.dark-toggle {
+    display: inline;
 }

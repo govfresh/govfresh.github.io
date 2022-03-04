@@ -12,6 +12,7 @@ img-link: https://thenounproject.com/icon/stop-sign-651816/
 category:
   - Design
   - Digital
+feature: "true"
 ---
 
 [Medium](https://medium.com) is a platform that lets anyone -- individuals or organizations -- freely publish articles for public consumption. There are two fundamental civic problems with government agencies using it to publish information:

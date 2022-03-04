@@ -117,7 +117,7 @@
                         <p>{{ item.description }}</p>
                         {% endif %}
                         {% if item.author %}
-                        <p class="small">By {{ item.author }}</p>
+                        <p class="small">{{ item.author }}</p>
                         {% endif %}
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         <p>{{ item.description }}</p>
                         {% endif %}
                         {% if item.author %}
-                        <p class="small">By {{ item.author }}</p>
+                        <p class="small">{{ item.author }}</p>
                         {% endif %}
                     </div>
                 </div>
@@ -153,28 +153,15 @@
         <div class="card-deck clean randomize">
             {% assign limit = site.gamechangers-number | plus:0 %}
             {% assign amount = 1 %}
-            {% assign seed = site.time | date: "%s%N" %}
-            {% assign mod = site.gamechangers.size %}
-            {% assign random = seed | modulo: mod %}
-            {% for x in site.gamechangers %}
-            {% unless page.gamechangers %}
-            {% assign index = random | plus:amount %}
-            {% if index >= site.gamechangers.size %}
-            {% assign random = 0 | minus: amount %}
-            {% endif %}
-            {% assign index = random | plus:amount %}
-            {% assign item = site.gamechangers[index] %}
-            {% else %}
-            {% assign item = x %}
-            {% endunless %}
+            {% for item in site.gamechangers %}
             <!-- Gamechangers secondary -->
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
                         <div class="img fancy-2">
-                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                            <img class="card-img-top sm" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         </div>
                         {% endif %}
                         <h3>
@@ -184,14 +171,15 @@
                     </div>
                 </div>
             </div>
+            {% assign amount = amount | plus:1 %}
             <!-- Gamechangers primary -->
             {% elsif page.short != "true" and title != "Government. Fresh." %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
                         <div class="img fancy-2">
-                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                            <img class="card-img-top md" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         </div>
                         {% endif %}
                         <h2 class="h3">
@@ -201,10 +189,10 @@
                     </div>
                 </div>
             </div>
+            {% assign amount = amount | plus:1 %}
             {% endif %}
             {% if title != item.title %}
             {% endif %}
-            {% assign amount = amount | plus:1 %}
             {% endfor %}
         </div>
         {% endif %}
@@ -519,26 +507,24 @@
 {% endif %}
 <!-- TLDR -->
 {% if pull == "tldr" %}
-<div class="preview tldr">
-    <h2>{{ page.tldr-title }}</h2>
-    <p class="lead">{{ page.tldr-description }}</p>
-    <div class="card-deck clean">
-        {% for item in site.data.icons.docs %}
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card">
-                <div class="card-body">
-                    <div class="icon">
-                        <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-                    </div>
-                    <h3>
-                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                    </h3>
-                    <p class="description">{{ item.description }}</p>
+<h2>TL;DR</h2>
+<p class="lead">Too long, didn't read</p>
+<div class="card-deck clean">
+    {% for item in site.data.icons.docs %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">
+                    <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
                 </div>
+                <h3>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h3>
+                <p class="description">{{ item.description }}</p>
             </div>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
 </div>
 {% endif %}
 <!-- Feeds -->

@@ -5,13 +5,48 @@ layout: home
 {% include header.html %}
 {% include nav.html %}
 <main>
-
     <!-- Jumbotron -->
-
-    {% include jumbotron.html %}
-
+    <!--{% include jumbotron.html %}-->
     <!-- Previews -->
-
+    <div class="container-fluid">
+        <div class="home-include">
+            <div class="preview general feature">
+                <div class="row">
+                    {% assign item = site.thoughts | where: "feature", "true" | reverse | first %}
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4">
+                        <div class="fancy-feat">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img }}</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <!--<span class="badge badge-light">Feature</span>-->
+                        <h2 class="big">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
+                        </h2>
+                        <p>{{ item.description }}</p>
+                        {% if item.author %}
+                        <p>
+                            {% assign author_data = site.people | where:"title", item.author | first %}
+                            {% if author_data.img %}
+                            <div class="img">
+                                <img
+                                    src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
+                                    alt="Photo of {{ author_data.title }}"
+                                    title="{{ author_data.title }} headshot"
+                                    class="xxs rounded-circle mr-2"
+                                >
+                                <span class="small">{{ item.author }}</span>
+                            </div>
+                            {% endif %}
+                        </p>
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -19,7 +54,6 @@ layout: home
             </div>
         </div>
     </div>
-
 </main>
 {% include analytics.html %}
 {% include footer.html %}

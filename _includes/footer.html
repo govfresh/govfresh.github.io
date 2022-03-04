@@ -8,7 +8,9 @@
                     <ul class="list-unstyled">
                         {% for item in site.data.nav-footer-1.docs %}
                         {% if item.url %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        <li>
+                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                        </li>
                         {% endif %}
                         {% endfor %}
                     </ul>
@@ -18,7 +20,9 @@
                     <ul class="list-unstyled">
                         {% for item in site.data.nav-footer-2.docs %}
                         {% if item.url %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        <li>
+                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                        </li>
                         {% endif %}
                         {% endfor %}
                     </ul>
@@ -40,7 +44,9 @@
                     <ul class="list-unstyled">
                         {% for item in site.data.nav-footer-3.docs %}
                         {% if item.url %}
-                        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                        <li>
+                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                        </li>
                         {% endif %}
                         {% endfor %}
                     </ul>
@@ -59,14 +65,15 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p><a href="{{ site.baseurl }}">{{ site.title }}</a></p>
+                    <p>
+                        <a href="{{ site.baseurl }}">{{ site.title }}</a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
 </footer>
 {% include js.html %}
 </body>
-
 </html>
