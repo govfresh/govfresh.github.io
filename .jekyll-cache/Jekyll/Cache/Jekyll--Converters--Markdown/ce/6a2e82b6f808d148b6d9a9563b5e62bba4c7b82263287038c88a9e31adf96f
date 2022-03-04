@@ -1,0 +1,44 @@
+I"�<p><a href="https://opendataday.org">Open Data Day</a> is an annual event where government data enthusiasts – from public sector data professinals to civic hackers – get together and learn from and play with data.</p>
+
+<p>This is, or should be, one of the core global events that serves as a reflection of the health of open government and general civic technology movements. The activity related to these is an indicator of whether government data leaders get the cultural importance of open data and its impact on what collaborative government should be. It’s also a litmus test for civic hackers, and even an entree to recruitment into public sector technology jobs.</p>
+
+<p>While Open Data Day is set for tomorrow, and it there are activities scheduled throughout the globe, a review of how government is officially showing up on the open data front should give us all pause.</p>
+
+<p>As we venture into tomorrow’s activities, here are a few thoughts about the open data movement and what can be done to revive its health.</p>
+
+<h2 id="overhaul-datagov">Overhaul Data.gov</h2>
+
+<p><a href="https://data.gov">Data.gov</a>, managed by the U.S. General Services Administration, is the central repository for official government data – federal, state and local. While GSA doesn’t have enforcement authority over agency open data publishing, it does play a major role in projecting the health of the federal government’s open data efforts.</p>
+
+<p>Data.gov has changed very little since its inception, both on the technical and user experience fronts. Its upkeep has been dismal. The homepage alone features data sets from 2021 and a Twitter stream last updated November 2021. The site has a number of broken links and many of the data pages link out to external resources, many of which are not well maintained.</p>
+
+<p>It appears that even GSA has little faith in Data.gov as, for example in the case of <a href="https://www.usa.gov/developer">USA.gov open data</a>, it’s using GitHub to publish data.</p>
+
+<p>In general, though, the federal government open data experience leads you down a labyrinth of dead ends, antiquated data or confusing status of how well the information is being maintained.</p>
+
+<p>So, it’s time to rethink Data.gov with new technology, new design, new stakeholders and a new approach to its development.</p>
+
+<h2 id="re-think-open-data-portals">Re-think open data portals</h2>
+
+<p>At the dawn of the open data movement, there were early entrants – particularly Socrata and CKAN – that ultimately dominated the open data portal market. The former is a private company now owned by Tyler Technologies, and the latter an open source, community-driven approach. Both were heavily adopted and retained the general aesthetics and functionality of one another.</p>
+
+<p>Both of those approaches have changed little over the past decade, but data technologies and products have, offering a much simpler way to publish and access data.</p>
+
+<p>Its time we rethink what an open data portal is and how</p>
+
+<h2 id="more-leadership-from-the-cdo-council">More leadership from the CDO Council</h2>
+
+<p><a href="https://www.cdo.gov/">CDO Council</a>. While it has a website and blog, there’s no .</p>
+
+<h2 id="open-engagement-from-government-data-community">Open engagement from government data community</h2>
+
+<p>All gov CDOs need to create an open community of practice that includes the general public.</p>
+
+<p>https://digital.gov/communities/open-data/</p>
+
+<h2 id="open-data-day-2023">Open Data Day 2023</h2>
+
+<p>My hope is that those responsible for or serious about government data will think holistically about how we manage and publish government data. Open data is much like accessibility or security. We bake it into our processes, and it’s not an afterthought. If your role is data in government, and you’re not baking open data into it, then you’re only doing half your job.</p>
+
+<p>Looking forward to seeing how things progress before Open Data Day 2023.</p>
+:ET

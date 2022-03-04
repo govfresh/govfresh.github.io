@@ -234,7 +234,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/innovations/</loc>
-<lastmod>2021-12-04T08:56:26-08:00</lastmod>
+<lastmod>2022-03-04T10:27:12-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/labs/</loc>
@@ -250,11 +250,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/papers/</loc>
-<lastmod>2022-02-23T20:16:38-08:00</lastmod>
+<lastmod>2022-03-04T10:27:12-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/pitches/</loc>
-<lastmod>2021-12-04T08:56:26-08:00</lastmod>
+<lastmod>2022-03-04T10:27:12-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/playlist/</loc>
@@ -270,7 +270,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/radar</loc>
-<lastmod>2021-11-15T13:24:01-08:00</lastmod>
+<lastmod>2022-03-04T10:27:12-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reviews/</loc>
@@ -302,7 +302,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/</loc>
-<lastmod>2021-11-16T21:37:44-08:00</lastmod>
+<lastmod>2022-03-04T10:27:12-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/</loc>
@@ -310,7 +310,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/papers/government-open-source-security</loc>
-<lastmod>2022-02-23T20:28:51-08:00</lastmod>
+<lastmod>2022-03-04T10:27:12-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/people/lukefretwell</loc>
@@ -462,7 +462,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/government-civictech-medium</loc>
-<lastmod>2022-02-17T16:29:32-08:00</lastmod>
+<lastmod>2022-03-04T10:27:12-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/thoughts/open-data-day-2022</loc>
+<lastmod>2022-03-04T13:12:27-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/business</loc>
