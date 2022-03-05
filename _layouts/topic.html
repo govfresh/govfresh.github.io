@@ -91,7 +91,7 @@ layout: topic
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="fancy-feat">
+                                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
                                             {{ item.img }}
                                         </div>
                                         <h3>

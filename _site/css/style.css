@@ -575,6 +575,10 @@ img.lg {
     width: 35%;
 }
 
+.feature .fancy-feat {
+    min-height: 400px;
+}
+
 .feature .fancy-feat svg {
     fill: var(--color-4);
     min-height: var(--size-14);
@@ -689,14 +693,6 @@ html:not(html.dark) .labs {
     --color-6: #f9f0f2;
     --gradient-1: linear-gradient(135deg, #8b4566 13%, #c84281 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
-}
-
-html:not(html.dark) .general {
-    --color-1: #5b029c;
-    --color-5: #b548ff;
-    --color-6: #f7ecff;
-    --gradient-1: linear-gradient(135deg, #5b029c 13%, #b548ff 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #f7ecff 73%);
 }
 
 /* Previews */

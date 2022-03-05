@@ -107,7 +107,7 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
-                        <div class="fancy-feat">
+                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern {% endif %}">
                             {{ item.img }}
                         </div>
                         <h3>
@@ -128,7 +128,7 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
-                        <div class="fancy-feat">
+                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern {% endif %}">
                             {{ item.img }}
                         </div>
                         <h2 class="h3">
@@ -156,12 +156,12 @@
             {% for item in site.gamechangers %}
             <!-- Gamechangers secondary -->
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
                         <div class="img fancy-2">
-                            <img class="card-img-top sm" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         </div>
                         {% endif %}
                         <h3>
@@ -174,12 +174,12 @@
             {% assign amount = amount | plus:1 %}
             <!-- Gamechangers primary -->
             {% elsif page.short != "true" and title != "Government. Fresh." %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
                         <div class="img fancy-2">
-                            <img class="card-img-top md" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                         </div>
                         {% endif %}
                         <h2 class="h3">
@@ -208,7 +208,7 @@
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
+                        <img class="card-img-top sm shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                         {% endif %}
                         <h3 class="h5">
                             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
@@ -223,7 +223,7 @@
                 <div class="card">
                     <div class="card-body">
                         {% if item.img %}
-                        <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
+                        <img class="card-img-top sm shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
                         {% endif %}
                         <h2 class="h5">
                             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>

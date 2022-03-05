@@ -15,11 +15,11 @@ layout: home
                     {% assign item = site.thoughts | where: "feature", "true" | reverse | first %}
                     <div class="col-sm-1"></div>
                     <div class="col-sm-4">
-                        <div class="fancy-feat">
+                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
                             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img }}</a>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-lg-5">
                         <!--<span class="badge badge-light">Feature</span>-->
                         <h2 class="big">
                             <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
