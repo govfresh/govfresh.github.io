@@ -25,4 +25,5 @@ permalink: /colophon/
 
 * [Font Awesome](https://fontawesome.com/)
 * [Noun Project](https://thenounproject.com)
-  * Covid by Roman Lychkov from NounProject.com
+  * [Covid](https://thenounproject.com/icon/covid-3674642/) by Roman Lychkov from NounProject.com
+  * [Laurel Wreath](https://thenounproject.com/icon/laurel-wreath-1983490/) by Alice Noir from NounProject.com
