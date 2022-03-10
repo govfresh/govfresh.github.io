@@ -133,6 +133,10 @@
     .h6 {
         font-size: 1rem !important;
     }
+
+    .logo {
+        font-size: var(--size-10);
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -177,6 +181,10 @@
     .h6 {
         font-size: 1.2rem !important;
     }
+
+    .logo {
+        font-size: var(--size-10);
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -220,6 +228,10 @@
 
     .h6 {
         font-size: 1.2rem !important;
+    }
+
+    .logo {
+        font-size: var(--size-9);
     }
 }
 
@@ -266,6 +278,9 @@
         font-size: 1.2rem !important;
     }
 
+    .logo {
+        font-size: var(--size-10);
+    }
 }
 
 /* General */
@@ -310,7 +325,14 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
 /* Logo */
 
 .logo {
-    background: var(--gradient-1);
+    font-family: var(--font-3);
+}
+
+.logo a, .logo a:visited, .logo a:hover {
+    color: var(--color-4);
+    padding: var(--size-3) !important;
+    text-decoration: none;
+    letter-spacing: -.03rem;
 }
 
 .logo img {
