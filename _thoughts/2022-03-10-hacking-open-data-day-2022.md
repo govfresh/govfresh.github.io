@@ -34,6 +34,8 @@ Each agency profile page (example [USDA](https://usa.govfresh.com/government/?na
 * list of the subagencies (if any)
 * latest published Federal Register documents
 
+While playing with the data, it would be great to see National Archives and the Federal Register update the agency logos and standardize the descriptions. Many images are missing or of poor quality, and the agency descriptions could be better scripted.
+
 Going forward, we'll use [USA.GovFresh](https://usa.govfresh.com) as a place to build together and learn about government in the context of coding and public data.
 
 If you have ideas for us, add them to the [GitHub issues queue](https://github.com/govfresh/usa/issues).
