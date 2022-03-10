@@ -1,0 +1,23 @@
+I"<p>For <a href="https://opendataday.org">Open Data Day</a> 2022, my son and I set up <a href="https://usa.govfresh.com">USA.GovFresh</a>.</p>
+
+<p>We started with a <a href="https://usa.govfresh.com/government">government</a> section that displays all of the U.S. federal agencies, pulling data from the <a href="https://www.federalregister.gov/api/v1/agencies/">Federal Register agency API</a>.</p>
+
+<p>The main government page displays all top-level agencies and other independent organizations maintained by the federal government.</p>
+
+<p>Each agency profile page (example <a href="https://usa.govfresh.com/government/?name=agriculture-department">USDA</a>) contains:</p>
+
+<ul>
+  <li>organization logo</li>
+  <li>short description</li>
+  <li>website link</li>
+  <li>parent agency link (if any)</li>
+  <li>a list of the subagencies (if any)</li>
+  <li>the latest published Federal Register documents</li>
+</ul>
+
+<p>Going forward, we’ll use <a href="https://usa.govfresh.com">USA.GovFresh</a> as a place to build together and learn about government in the context of coding and public data.</p>
+
+<p>If you have ideas for us, please add them to the <a href="https://github.com/govfresh/usa/issues">GitHub issues queue</a>.</p>
+
+<p><a href="https://usa.govfresh.com">Visit USA.GovFresh.</a></p>
+:ET
