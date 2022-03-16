@@ -9,7 +9,7 @@ category:
   - Open
 ---
 
-The National Science Foundation wants proposals to support a new agnecy program "to harness the power of open-source development for the creation of new technology solutions to problems of national and societal importance."
+The National Science Foundation wants proposals to support a new agency program "to harness the power of open-source development for the creation of new technology solutions to problems of national and societal importance."
 
 The program is called [Pathways to Enable Open-Source Ecosystems](https://beta.nsf.gov/funding/opportunities/pathways-enable-open-source-ecosystems-pose).
 
