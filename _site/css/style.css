@@ -667,7 +667,13 @@ html:not(html.dark) .thoughts {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
 }
 
-
+html:not(html.dark) .signal {
+    --color-1: #005ea2;
+    --color-5: #0076d6;
+    --color-6: #e8f5ff;
+    --gradient-1: linear-gradient(135deg, #005ea2 13%, #0076d6 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #e8f5ff 73%);
+}
 
 html:not(html.dark) .reviews {
     --color-1: #0e4f5c;

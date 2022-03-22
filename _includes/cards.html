@@ -196,6 +196,53 @@
             {% endfor %}
         </div>
         {% endif %}
+        <!-- Signal -->
+        {% if pull == "signal" %}
+        <div class="card-deck clean randomize">
+            {% assign limit = site.signal-number | plus:0 %}
+            {% assign amount = 1 %}
+            {% for item in site.signal %}
+            <!-- Signal secondary -->
+            {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if item.img %}
+                        <div class="img fancy-2">
+                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                        </div>
+                        {% endif %}
+                        <h3>
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        <p class="description">{{ item.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% assign amount = amount | plus:1 %}
+            <!-- Signal primary -->
+            {% elsif page.short != "true" and title != "Government. Fresh." %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if item.img %}
+                        <div class="img fancy-2">
+                            <img class="card-img-top lg" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                        </div>
+                        {% endif %}
+                        <h2 class="h3">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            {% assign amount = amount | plus:1 %}
+            {% endif %}
+            {% if title != item.title %}
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
         <!-- Reviews -->
         <!-- Reviews secondary -->
         {% if pull == "reviews" %}

@@ -35,6 +35,7 @@ podcasts-number: 4
 labs-number: 3
 innovations-number: 4
 papers-number: 3
+signal-number: 3
 
 # Defaults
 defaults:
@@ -46,6 +47,15 @@ defaults:
       img-path: "books"
       parent: "reviews"
       layout: "review"
+      short: "true"
+  - scope:
+      path: "_signal"
+      type: "signal"
+    values:
+      folder: "Signal"
+      img-path: "people"
+      parent: "signal"
+      layout: "signal"
       short: "true"
   - scope:
       path: "_thoughts"
@@ -210,6 +220,9 @@ collections:
   thoughts:
     output: true
     permalink: /thoughts/:title
+  signal:
+    output: true
+    permalink: /signal/:title
   events:
     output: true
     permalink: /event/:title

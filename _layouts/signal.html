@@ -1,0 +1,222 @@
+---
+layout: signal
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.description %}
+                    <p class="lead">{{ page.description }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                <h2>Who</h2>
+                <ul class="list-unstyled">
+                    <li>{{ page.name }}</li>
+                    <li>{{ page.position }}</li>
+                    <li>{{ page.org }}</li>
+                </ul>
+                {% if page.parent == "books" %}
+                <p>By {{ page.author }}</p>
+                {% endif %}
+                <div class="post">
+                    {{ content }}
+                </div>
+                {% if page.review-link %}
+                <p>
+                    <a href="{{ site.baseurl }}/reviews/{{ page.review-link }}">Full review</a>
+                </p>
+                {% endif %}
+                <div>
+                    {% if page.parent == "podcasts" %}
+                    <p>Host: {{ page.author }}</p>
+                    {% endif %}
+
+        {% if page.parent == "innovations" %}
+                    <p>
+                        Host organization:
+                        <a href="{{ page.org-link }}">{{ page.org }}</a>
+                    </p>
+                    {% endif %}
+
+        {% if page.parent == "events" %}
+                    <p>
+                        Organizer:
+                        <a href="{{ page.org-link }}">{{ page.org }}</a>
+                    </p>
+                    {% endif %}
+
+        {% if page.parent == "podcasts" %}
+                    <div class="alert alert-secondary">
+                        <h2>Listen</h2>
+                        {% include social.html size="podcast" %}
+                    </div>
+                    {% endif %}
+
+        {% if page.amazon %}
+                    <p>
+                        <a href="{{ site.baseurl }}{{ page.amazon }}" class="btn btn-primary">
+                            Buy
+                        </a>
+                    </p>
+                    {% endif %}
+
+        {% if page.donate %}
+                    <p>
+                        <a href="{{ page.donate }}" class="btn btn-primary">
+                            Support
+                        </a>
+                    </p>
+                    {% endif %}
+
+        {% if page.parent == "labs" %}
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">
+                            Visit
+            project
+                        </a>
+                    </p>
+                    {% endif %}
+
+        {% if page.parent == "innovations" %}
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">
+                            Visit
+            project
+                        </a>
+                    </p>
+                    {% endif %}
+
+        {% if page.parent == "pitches" %}
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">Visit {{ page.title }}</a>
+                    </p>
+                    {% endif %}
+
+        {% if page.parent == "orgs" or page.parent == "signal" or page.parent == "gamechangers" or page.parent == "events" or page.parent == "team" or page.parent == "pitches" or page.parent == "podcasts" or page.parent == "innovations" or page.parent == "labs" %}
+                    <h2>Connect with {{ page.shortname }}</h2>
+                    {% include social.html size="small" %}
+    {% include topics.html %}
+    {% endif %}
+
+        {% if page.parent == "books" %}
+                    <h2>Book links</h2>
+                    {% include social.html size="small" %}
+    {% include topics.html %}
+    {% endif %}
+
+        {% if page.parent == "pitches" %}
+                    <div class="alert alert-secondary">
+                        <p>
+                            <i class="fas fa-asterisk"></i>
+                            This is a sponsored page, and we are grateful to
+                            <strong>{{ page.title }}</strong>
+                            for
+                            <a href="{{ site.baseurl }}/support">
+                                supporting GovFresh.
+                            </a>
+                        </p>
+                    </div>
+                    {% endif %}
+
+        {% if page.parent == "books" %}
+        {% include disclosure.html %}
+        {% include topics.html %}
+        {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                {% include image.html %}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                {% include previews.html show-only="true" %}
+            </div>
+        </div>
+    </div>
+    {% if page.team %}
+    <div class="container">
+        {% assign thoughts = site.thoughts | where: "author", page.title %}
+        {% if thoughts.size > 0 %}
+        <h2>Thoughts</h2>
+        <div class="card-deck clean">
+            {% for item in thoughts %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
+                            {{ item.img }}
+                        </div>
+                        <h3>
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        {% if item.description %}
+                        <p>{{ item.description }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% assign reviews = site.reviews | where: "author", page.title %}
+        {% if reviews.size > 0 %}
+        <h2>Reviews</h2>
+        <div class="card-deck">
+            {% for item in reviews %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        {% if item.img %}
+                        <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
+                        {% endif %}
+                        <h3 class="h5">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        <p class="description">{{ item.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% assign posts = site.posts | where: "author", page.title %}
+        {% if posts.size > 0 %}
+        <h2>Radar</h2>
+        <div class="card-deck">
+            {% for item in posts %}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                        <h3 class="h4">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                        </h3>
+                        <p>
+                            <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</main>
+{% include analytics.html %}
+{% include footer.html %}

@@ -1,8 +1,12 @@
 {% if page.parent == "events" or page.parent == "orgs" or page.parent == "pitches" or page.parent == "innovations" %}
 {% if page.img %}
 <div class="img">
-    <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}"
-        type="{{ page.folder }}" class="lg line">
+    <img
+        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
+        alt="{{ page.img-alt }}"
+        type="{{ page.folder }}"
+        class="lg line"
+    >
     {% if page.img-caption %}
     <p class="img-caption">{{ page.img-caption }}</p>
     {% endif %}
@@ -13,8 +17,12 @@
 {% if page.parent == "podcasts" or page.parent == "books" %}
 {% if page.img %}
 <div class="img">
-    <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}"
-        type="{{ page.folder }}" class="shadow lg">
+    <img
+        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
+        alt="{{ page.img-alt }}"
+        type="{{ page.folder }}"
+        class="shadow lg"
+    >
     {% if page.img-caption %}
     <p class="img-caption">{{ page.img-caption }}</p>
     {% endif %}
@@ -22,11 +30,10 @@
 {% endif %}
 {% endif %}
 
-{% if page.parent == "gamechangers" or page.parent == "team" %}
+{% if page.parent == "gamechangers" or page.parent == "signal" or page.parent == "team" %}
 {% if page.img %}
 <div class="img fancy-2">
-    <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}"
-        type="{{ page.folder }}">
+    <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}" type="{{ page.folder }}">
     {% if page.img-caption %}
     <p class="img-caption">{{ page.img-caption }}</p>
     {% endif %}
