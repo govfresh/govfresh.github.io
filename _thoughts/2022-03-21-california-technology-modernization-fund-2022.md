@@ -19,7 +19,7 @@ feature: "true"
 
 As part of Governor Gavin Newsom’s 2021-22 budget, the California Department of Technology has received $25 million "to demonstrate how investments in agile IT solutions can rapidly improve government services."
 
-From the state's [technology modernization fund](https://cdt.ca.gov/tmf/):
+From the state's [technology modernization fund website](https://cdt.ca.gov/tmf/):
 
 > The TMF was established to make immediate investments in IT that will yield quick and meaningful results for the people of California. CDT invites California state departments or entities to submit business challenges that require an IT solution to modernize government and improve digital services for California residents and state employees. This will enable departments to deliver timely business modernization wins through a high-value proof of concept, fulfill an immediate need, and optimize services for digital government. A strong commitment from the department’s business and IT leadership and team capability are required to be successful.
 
@@ -47,13 +47,13 @@ Lessons from Alpha are showing up elsewhere, from the state's new [cannabis port
 
 Aside from a few government technology trade press articles, Alpha's work remains mostly a footnote. And as it morphed into ODI, despite having an amazing team, it has yet to find its place within the state's larger innovation ecosystem.
 
-Alpha's culture, tools, technology and systems thinking approach to operations is something California's TMF should adopt if it's going to realize a return on that $25 million investment.
+Alpha's culture, tools, technology and systems thinking approach to operations is something California's TMF participants should adopt if it's going to realize a return on that $25 million investment.
 
 Hopefully, there's at least one state entity who will use that funding, seek out Alpha members still with ODI, and be the next Alpha.
 
 ## The $25 million answer
 
-Alpha can scale and revolutionize how we deliver government digital services to the people of California.
+Alpha can scale and revolutionize how we deliver government digital services to the people of California. We just need our technology leaders to be ready to openly embrace new tools and ways of operating.
 
 During its send-off event, California's technology leaders heard presentations by team members on how it was executed, lessons learned and the potential for other Alphas throughout the state.
 
