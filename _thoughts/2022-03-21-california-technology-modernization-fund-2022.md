@@ -51,6 +51,22 @@ Alpha's culture, tools, technology and systems thinking approach to operations i
 
 Hopefully, there's at least one state entity who will use that funding, seek out Alpha members still with ODI, and be the next Alpha.
 
+## Alpha mode
+
+Adopting Alpha mode isn't easy and not for the organizational faint-hearted, particularly for well-established bureaucracies or technology leaders complacent in dated tools and practices.
+
+Going Alpha must include:
+
+* Embracing a truly open, agile, emotionally intelligent, passionate culture
+* Becoming a learning organization
+* Working in the open (public issues, project boards and documentation)
+* Adopting asynchronous, collaborative tools (GitHub, Slack)
+* Continuously sharing the narrative publicly (regularly done/doing reports)
+
+While these may seem unimportant, the were integral in the success of Alpha's open, agile culture. Implementing them effectively took time and patience, even during an intense period of work.
+
+While they seem trivial, they will not only inspire the individual projects, they will eventually change the DNA of your entire organization.
+
 ## The $25 million answer
 
 Alpha can scale and revolutionize how we deliver government digital services to the people of California. We just need our technology leaders to be ready to openly embrace new tools and ways of operating.
