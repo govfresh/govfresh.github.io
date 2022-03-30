@@ -312,7 +312,7 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
 
 /* Styles with bold */
 
-.nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+.breadcrumb, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     font-family: var(--font-3) !important;
 }
 
@@ -335,7 +335,7 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     letter-spacing: -.03rem !important;
 }
 
-.logo img {
+.logo svg {
     width: 100%;
     height: auto;
     max-width: 200px;
@@ -623,11 +623,11 @@ img.lg {
 
 /* Breadcrumb */
 
-.nav-link.active, .nav-link+.nav-item::before, .nav a, .nav-link a:visited {
+.nav-link.active, .nav-link+.breadcrumb-item::before, .breadcrumb a, .nav-link a:visited {
     color: var(--color-2);
 }
 
-.nav {
+.breadcrumb {
     background-color: var(--color-6);
     border-radius: var(--size-1);
     border-top-left-radius: var(--size-5);
