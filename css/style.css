@@ -873,14 +873,14 @@ body.home label {
 
 /* External links */
 
-/* Link */
+/* Link 
 a[target="_blank"]:after {
     content: "";
     padding-right: var(--size-8);
     background-image: url(/assets/font-awesome/svgs/solid/up-right-from-square.svg);
     background-position: 100% 50%;
     background-repeat: no-repeat;
-}
+}*/
 
 /* Doc */
 a[href$=".doc"], a[href$=".docx"] {
