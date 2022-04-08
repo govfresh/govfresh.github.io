@@ -5,17 +5,17 @@ description: "A podcast exploring the government of the future and how it can be
 img: thegovweneed.png
 img-feat: thegovweneed.png
 img-alt: "The Government We Need logo"
-author: Jessica MacLeod, Luke Fretwell
-website: https://thegovweneed.com
+author: Luke Fretwell
+website: https://thegovweneed.govfresh.com
 twitter: https://twitter.com/thegovweneed
-medium: https://medium.com/the-government-we-need
+medium: 
 figma: 
 youtube: https://www.youtube.com/channel/UCcFSSqWff_oDL3XwD4rs4uw
 vimeo: 
 linkedin: https://linkedin.com/company/thegovweneed
 instagram: https://instagram.com/thegovweneed
 facebook: https://facebook.com/thegovweneed
-github: https://github.com/thegovweneed
+github: 
 flickr: 
 tumblr: 
 rss: https://thegovweneed.com/episodes/atom.xml
