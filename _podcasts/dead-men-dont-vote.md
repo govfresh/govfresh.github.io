@@ -1,7 +1,7 @@
 ---
 title: "Dead Men Don’t Vote"
 shortname: "Dead Men Don’t Vote"
-description: "How To Citizen with Baratunde reimagines “citizen” as a verb and reminds us how to wield our collective power."
+description: "An elections podcast from the Trust the Vote project."
 img: dead-men-dont-vote.jpeg
 img-feat: dead-men-dont-vote.jpeg
 img-alt: "Dead Men Don’t Vote logo"
