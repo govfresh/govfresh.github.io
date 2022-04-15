@@ -7,7 +7,7 @@ img-feat: dead-men-dont-vote.jpeg
 img-alt: "Dead Men Don’t Vote logo"
 author: Gregory Miller, Cameron Quinn, John Sebes
 website: https://trustthevote.org/podcast/
-twitter: 
+twitter: https://twitter.com/deadmendontvote
 medium: 
 figma: 
 youtube: 
