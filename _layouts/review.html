@@ -10,6 +10,13 @@ layout: review
     <div class="container">
         <div class="row post">
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <div class="d-md-none book">
+                    <a href="{{ site.baseurl }}/{{ page.img-path }}{{ page.book-link }}">
+                        <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.book-title }}" class="md shadow">
+                    </a>
+                    <h5>{{ page.book-title }}</h5>
+                    <p>By {{ page.book-author }}</p>
+                </div>
                 {{ content }}
                 <p>
                     <strong>
@@ -20,15 +27,14 @@ layout: review
                 {% include updated.html %}
                 {% include subscribe.html %}
                 {% include license.html %}
+                {% include topics.html %}
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 book">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 book d-none d-md-block">
                 <a href="{{ site.baseurl }}/{{ page.img-path }}{{ page.book-link }}">
                     <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.book-title }}" class="md shadow">
                 </a>
                 <h5>{{ page.book-title }}</h5>
                 <p>By {{ page.book-author }}</p>
-                <p>&nbsp;</p>
-                {% include topics.html %}
             </div>
         </div>
     </div>

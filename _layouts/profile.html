@@ -10,6 +10,9 @@ layout: profile
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                <div class="d-md-none">
+                    {% include image.html %}
+                </div>
                 {% if page.parent == "books" %}
                 <p>By {{ page.author }}</p>
                 {% endif %}
@@ -90,13 +93,12 @@ layout: profile
         {% if page.parent == "orgs" or page.parent == "signal" or page.parent == "gamechangers" or page.parent == "events" or page.parent == "team" or page.parent == "pitches" or page.parent == "podcasts" or page.parent == "innovations" or page.parent == "labs" %}
                     <h2>Connect with {{ page.shortname }}</h2>
                     {% include social.html size="small" %}
-    {% include topics.html %}
-    {% endif %}
+                    {% include topics.html %}
+                    {% endif %}
 
         {% if page.parent == "books" %}
                     <h2>Book links</h2>
                     {% include social.html size="small" %}
-    {% include topics.html %}
     {% endif %}
 
         {% if page.parent == "pitches" %}
@@ -111,6 +113,7 @@ layout: profile
                             </a>
                         </p>
                     </div>
+                    {% include topics.html %}
                     {% endif %}
 
         {% if page.parent == "books" %}
@@ -119,7 +122,7 @@ layout: profile
         {% endif %}
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 d-none d-md-block">
                 {% include image.html %}
             </div>
         </div>

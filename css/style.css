@@ -877,14 +877,15 @@ body.home label {
 
 /* External links */
 
-/* Link 
-a[target="_blank"]:after {
+/* Link */
+
+/* main a[href^="https://"]:after, main a[href^="https://"]:after {
     content: "";
-    padding-right: var(--size-8);
     background-image: url(/assets/font-awesome/svgs/solid/up-right-from-square.svg);
     background-position: 100% 50%;
     background-repeat: no-repeat;
-}*/
+    padding-right: var(--size-8);
+} */
 
 /* Doc */
 a[href$=".doc"], a[href$=".docx"] {
@@ -945,15 +946,15 @@ a[href$=".png"], a[href$=".jpg"] {
 /* Selection */
 
 ::selection {
-    background: var(--color-6);
+    background: var(--color-1);
     /* WebKit/Blink Browsers */
-    color: var(--color-2);
+    color: var(--color-4;
 }
 
 ::-moz-selection {
-    background: var(--color-6);
+    background: var(--color-1);
     /* Gecko Browsers */
-    color: var(--color-2);
+    color: var(--color-4);
 }
 
 /* Buttons */

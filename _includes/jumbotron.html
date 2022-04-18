@@ -37,7 +37,11 @@
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
-                <h1 class="h2">{{ page.title }}</h1>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="h2">{{ page.title }}</h1>
+                    </div>
+                </div>
                 {% if page.author %}
                 {% for author in page.author %}
                 {% assign author_data = site.people | where:"title", author | first %}
@@ -55,6 +59,30 @@
             <div class="col-sm-1"></div>
         </div>
     </div>
+</div>
+{% elsif page.layout == "thoughts" %}
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>{{ page.title }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9">
+                {% if page.description %}
+                <p class="lead">{{ page.description }}</p>
+                {% endif %}
+                <p class="small">
+                    {% if page.date %}
+                {% include date.html %}
+                {% endif %}
+                </p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</div>
 </div>
 {% elsif page.layout == "home" %}
 <div class="jumbotron">
