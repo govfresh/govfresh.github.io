@@ -985,9 +985,6 @@ a[href$=".png"], a[href$=".jpg"] {
 
 /* Footer */
 
-footer {
-    margin-top: var(--size-9);
-}
 .footer {
     border-top: var(--size-2) solid var(--color-4);
     margin-top: var(--color-1);
