@@ -948,7 +948,7 @@ a[href$=".png"], a[href$=".jpg"] {
 ::selection {
     background: var(--color-1);
     /* WebKit/Blink Browsers */
-    color: var(--color-4;
+    color: var(--color-4);
 }
 
 ::-moz-selection {
@@ -1009,7 +1009,7 @@ a[href$=".png"], a[href$=".jpg"] {
 }
 
 h2.big {
-    font-size: 3.6rem !important;
+    font-size: var(--size-10) !important;
     padding-bottom: var(--size-4);
 }
 

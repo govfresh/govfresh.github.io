@@ -946,15 +946,15 @@ a[href$=".png"], a[href$=".jpg"] {
 /* Selection */
 
 ::selection {
-    background: var(--color-6);
+    background: var(--color-1);
     /* WebKit/Blink Browsers */
-    color: var(--color-2);
+    color: var(--color-4);
 }
 
 ::-moz-selection {
-    background: var(--color-6);
+    background: var(--color-1);
     /* Gecko Browsers */
-    color: var(--color-2);
+    color: var(--color-4);
 }
 
 /* Buttons */
@@ -1009,7 +1009,7 @@ a[href$=".png"], a[href$=".jpg"] {
 }
 
 h2.big {
-    font-size: 3.6rem !important;
+    font-size: var(--size-10) !important;
     padding-bottom: var(--size-4);
 }
 
