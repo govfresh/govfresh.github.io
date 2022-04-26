@@ -95,7 +95,12 @@
         <i class="{{ site.data.connect.library }} {{ site.data.connect.sm }}"></i>
     </a>
     {% endif %}
-        {% if data.goodreads %}
+    {% if data.bookshop %}
+    <a href="{{ data.bookshop }}" aria-label="Bookshop">
+        <i class="{{ site.data.connect.bookshop }} {{ site.data.connect.sm }}"></i>
+    </a>
+    {% endif %}
+    {% if data.goodreads %}
     <a href="{{ data.goodreads }}" aria-label="GoodReads">
         <i class="{{ site.data.connect.goodreads}} {{ site.data.connect.sm }}"></i>
     </a>

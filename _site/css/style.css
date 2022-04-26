@@ -875,7 +875,11 @@ body.home label {
     padding-top: .5rem;
 }
 
-/* External links */
+/* Links */
+
+.no-underline a {
+    text-decoration: none;
+}
 
 /* Link */
 
@@ -972,6 +976,13 @@ a[href$=".png"], a[href$=".jpg"] {
     color: var(--color-4) !important;
 }
 
+/* Subscribe */
+
+.subscribe img {
+    max-width: 50px;
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 
 .footer {
@@ -1006,6 +1017,11 @@ a[href$=".png"], a[href$=".jpg"] {
 .footer-connect {
     padding-bottom: var(--size-6);
     padding-top: var(--size-6);
+}
+
+.footer img {
+    margin-bottom: 1.5rem;
+    max-width: 200px;
 }
 
 h2.big {
