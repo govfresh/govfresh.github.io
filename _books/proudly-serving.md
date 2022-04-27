@@ -21,6 +21,7 @@ flickr:
 tumblr: 
 rss: https://proudlyservingbook.com/feed
 library: 
+bookshop: 
 goodreads: 
 amazon: 
 review-link: 

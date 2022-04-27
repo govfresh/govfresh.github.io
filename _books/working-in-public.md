@@ -5,6 +5,7 @@ img: working-in-public.jpg
 author:  Nadia Eghbal
 website: 
 library: https://www.worldcat.org/title/working-in-public-the-making-and-maintenance-of-open-source-software/oclc/1183029492?loc=
+bookshop: 
 goodreads: https://www.goodreads.com/en/book/show/54140556-working-in-public
 amazon: https://www.amazon.com/gp/product/0578675862/ref=as_li_tl?ie=UTF8&tag=govfresh-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0578675862&linkId=56e670c065d0fa93d83fbc2e90f1c21d
 review-link: 

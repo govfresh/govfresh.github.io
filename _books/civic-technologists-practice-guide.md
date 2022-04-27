@@ -6,6 +6,7 @@ img-alt: "Cover of 'A Civic Technologist's Practice Guide'"
 author: Cyd Harrell
 website: https://cydharrell.com/book/
 library: 
+bookshop: https://bookshop.org/books/a-civic-technologist-s-practice-guide/9781735286501
 goodreads: https://www.goodreads.com/book/show/55225556-a-civic-technologist-s-practice-guide
 amazon: https://www.amazon.com/gp/product/1735286508/ref=as_li_tl?ie=UTF8&tag=govfresh-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1735286508&linkId=92f898a6863c2de99ddbefd717e02bdc
 review-link: review-civic-technologists-practice-guide

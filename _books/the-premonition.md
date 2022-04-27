@@ -5,6 +5,7 @@ img: the-premonition.jpg
 author:  Michael Lewis
 website: https://wwnorton.com/books/9780393881554
 library: https://www.worldcat.org/title/premonition-a-pandemic-story/oclc/1235820893?loc=
+bookshop: https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897/9780393881554
 goodreads: https://www.goodreads.com/book/show/56790170-the-premonition
 amazon: https://www.amazon.com/gp/product/0393881555/ref=as_li_tl?ie=UTF8&tag=govfresh-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0393881555&linkId=10adff7ccd2c316606f67653f524844d
 review-link: review-the-premonition
