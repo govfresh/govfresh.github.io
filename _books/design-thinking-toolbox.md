@@ -5,7 +5,7 @@ img: design-thinking-toolbox.jpg
 author:   Michael Lewrick, Patrick Link, Larry Leifer
 website: https://en.dt-toolbook.com/
 library: https://www.worldcat.org/title/the-design-thinking-toolbox-a-guide-to-mastering-the-most-popular-and-valuable-innovation-methods/oclc/1267921704?loc=
-bookshop: https://bookshop.org/books/the-design-thinking-toolbox-a-guide-to-mastering-the-most-popular-and-valuable-innovation-methods/9781119629191
+bookshop: https://bookshop.org/a/83650/9781119629191
 goodreads: https://www.goodreads.com/book/show/45989107-the-design-thinking-toolbox
 amazon: https://www.amazon.com/gp/product/1119629195/ref=as_li_tl?ie=UTF8&tag=govfresh-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1119629195&linkId=f35ea4a37e9f002285afbe1caf38348a
 review-link: 

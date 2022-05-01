@@ -41,7 +41,7 @@ To keep him occupied, we started working on a dashboard of COVID information bas
 
 When I mentioned that it would be nice to include a list of vaccination sites, he pulled in location data from the Google Maps API.
 
-Ultimately, we built a [COVID Dashboard](https://covid.govfresh.com/) ([repository](https://github.com/govfresh/covid)) of U.S. state-by-state COVID-19 updates that includes:
+Ultimately, we built a [COVID Dashboard](https://usa.govfresh.com/covid/) ([repository](https://github.com/govfresh/usa/tree/main/covid)) of U.S. state-by-state COVID-19 updates that includes:
 
 * Total vaccination rates
 * Number of vaccinations yesterday

@@ -1,6 +1,7 @@
 /*!
- * Font Awesome Free 6.0.0-beta2 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2022 Fonticons, Inc.
  */
 (function () {
   'use strict';
@@ -10,14 +11,9 @@
 
     if (Object.getOwnPropertySymbols) {
       var symbols = Object.getOwnPropertySymbols(object);
-
-      if (enumerableOnly) {
-        symbols = symbols.filter(function (sym) {
-          return Object.getOwnPropertyDescriptor(object, sym).enumerable;
-        });
-      }
-
-      keys.push.apply(keys, symbols);
+      enumerableOnly && (symbols = symbols.filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+      })), keys.push.apply(keys, symbols);
     }
 
     return keys;
@@ -25,19 +21,12 @@
 
   function _objectSpread2(target) {
     for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i] != null ? arguments[i] : {};
-
-      if (i % 2) {
-        ownKeys(Object(source), true).forEach(function (key) {
-          _defineProperty(target, key, source[key]);
-        });
-      } else if (Object.getOwnPropertyDescriptors) {
-        Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
-      } else {
-        ownKeys(Object(source)).forEach(function (key) {
-          Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
-        });
-      }
+      var source = null != arguments[i] ? arguments[i] : {};
+      i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
     }
 
     return target;
@@ -46,17 +35,59 @@
   function _typeof(obj) {
     "@babel/helpers - typeof";
 
-    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
-      _typeof = function (obj) {
-        return typeof obj;
-      };
-    } else {
-      _typeof = function (obj) {
-        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-      };
+    return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
+      return typeof obj;
+    } : function (obj) {
+      return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    }, _typeof(obj);
+  }
+
+  function _wrapRegExp() {
+    _wrapRegExp = function (re, groups) {
+      return new BabelRegExp(re, void 0, groups);
+    };
+
+    var _super = RegExp.prototype,
+        _groups = new WeakMap();
+
+    function BabelRegExp(re, flags, groups) {
+      var _this = new RegExp(re, flags);
+
+      return _groups.set(_this, groups || _groups.get(re)), _setPrototypeOf(_this, BabelRegExp.prototype);
     }
 
-    return _typeof(obj);
+    function buildGroups(result, re) {
+      var g = _groups.get(re);
+
+      return Object.keys(g).reduce(function (groups, name) {
+        return groups[name] = result[g[name]], groups;
+      }, Object.create(null));
+    }
+
+    return _inherits(BabelRegExp, RegExp), BabelRegExp.prototype.exec = function (str) {
+      var result = _super.exec.call(this, str);
+
+      return result && (result.groups = buildGroups(result, this)), result;
+    }, BabelRegExp.prototype[Symbol.replace] = function (str, substitution) {
+      if ("string" == typeof substitution) {
+        var groups = _groups.get(this);
+
+        return _super[Symbol.replace].call(this, str, substitution.replace(/\$<([^>]+)>/g, function (_, name) {
+          return "$" + groups[name];
+        }));
+      }
+
+      if ("function" == typeof substitution) {
+        var _this = this;
+
+        return _super[Symbol.replace].call(this, str, function () {
+          var args = arguments;
+          return "object" != typeof args[args.length - 1] && (args = [].slice.call(args)).push(buildGroups(args, _this)), substitution.apply(this, args);
+        });
+      }
+
+      return _super[Symbol.replace].call(this, str, substitution);
+    }, _wrapRegExp.apply(this, arguments);
   }
 
   function _classCallCheck(instance, Constructor) {
@@ -78,6 +109,9 @@
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps) _defineProperties(Constructor.prototype, protoProps);
     if (staticProps) _defineProperties(Constructor, staticProps);
+    Object.defineProperty(Constructor, "prototype", {
+      writable: false
+    });
     return Constructor;
   }
 
@@ -94,6 +128,33 @@
     }
 
     return obj;
+  }
+
+  function _inherits(subClass, superClass) {
+    if (typeof superClass !== "function" && superClass !== null) {
+      throw new TypeError("Super expression must either be null or a function");
+    }
+
+    subClass.prototype = Object.create(superClass && superClass.prototype, {
+      constructor: {
+        value: subClass,
+        writable: true,
+        configurable: true
+      }
+    });
+    Object.defineProperty(subClass, "prototype", {
+      writable: false
+    });
+    if (superClass) _setPrototypeOf(subClass, superClass);
+  }
+
+  function _setPrototypeOf(o, p) {
+    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+      o.__proto__ = p;
+      return o;
+    };
+
+    return _setPrototypeOf(o, p);
   }
 
   function _slicedToArray(arr, i) {
@@ -117,7 +178,7 @@
   }
 
   function _iterableToArrayLimit(arr, i) {
-    var _i = arr && (typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]);
+    var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
 
     if (_i == null) return;
     var _arr = [];
@@ -173,11 +234,6 @@
 
   var noop = function noop() {};
 
-  var _GLOBAL = {};
-  var _SET_TIMEOUT = undefined; // eslint-disable-line no-undef-init
-
-  var _SET_IMMEDIATE = undefined; // eslint-disable-line no-undef-init
-
   var _WINDOW = {};
   var _DOCUMENT = {};
   var _MUTATION_OBSERVER = null;
@@ -187,9 +243,6 @@
   };
 
   try {
-    if (typeof global !== 'undefined') _GLOBAL = global;
-    if (typeof setTimeout === 'function') _SET_TIMEOUT = setTimeout;
-    if (typeof setImmediate === 'function') _SET_IMMEDIATE = setImmediate;
     if (typeof window !== 'undefined') _WINDOW = window;
     if (typeof document !== 'undefined') _DOCUMENT = document;
     if (typeof MutationObserver !== 'undefined') _MUTATION_OBSERVER = MutationObserver;
@@ -199,10 +252,6 @@
   var _ref = _WINDOW.navigator || {},
       _ref$userAgent = _ref.userAgent,
       userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
-
-  var GLOBAL = _GLOBAL;
-  var SET_TIMEOUT = _SET_TIMEOUT;
-  var SET_IMMEDIATE = _SET_IMMEDIATE;
   var WINDOW = _WINDOW;
   var DOCUMENT = _DOCUMENT;
   var MUTATION_OBSERVER = _MUTATION_OBSERVER;
@@ -210,289 +259,6 @@
   var IS_BROWSER = !!WINDOW.document;
   var IS_DOM = !!DOCUMENT.documentElement && !!DOCUMENT.head && typeof DOCUMENT.addEventListener === 'function' && typeof DOCUMENT.createElement === 'function';
   var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
-
-  var PENDING = 'pending';
-  var SETTLED = 'settled';
-  var FULFILLED = 'fulfilled';
-  var REJECTED = 'rejected';
-
-  var NOOP = function NOOP() {};
-
-  var isNode = typeof GLOBAL !== 'undefined' && typeof GLOBAL.process !== 'undefined' && typeof GLOBAL.process.emit === 'function';
-  var asyncSetTimer = typeof SET_IMMEDIATE !== 'undefined' ? SET_IMMEDIATE : SET_TIMEOUT;
-  var asyncQueue = [];
-  var asyncTimer;
-
-  function asyncFlush() {
-    // run promise callbacks
-    for (var i = 0; i < asyncQueue.length; i++) {
-      asyncQueue[i][0](asyncQueue[i][1]);
-    } // reset async asyncQueue
-
-
-    asyncQueue = [];
-    asyncTimer = false;
-  }
-
-  function asyncCall(callback, arg) {
-    asyncQueue.push([callback, arg]);
-
-    if (!asyncTimer) {
-      asyncTimer = true;
-      asyncSetTimer(asyncFlush, 0);
-    }
-  }
-
-  function invokeResolver(resolver, promise) {
-    function resolvePromise(value) {
-      resolve(promise, value);
-    }
-
-    function rejectPromise(reason) {
-      reject(promise, reason);
-    }
-
-    try {
-      resolver(resolvePromise, rejectPromise);
-    } catch (e) {
-      rejectPromise(e);
-    }
-  }
-
-  function invokeCallback(subscriber) {
-    var owner = subscriber.owner;
-    var settled = owner._state;
-    var value = owner._data;
-    var callback = subscriber[settled];
-    var promise = subscriber.then;
-
-    if (typeof callback === 'function') {
-      settled = FULFILLED;
-
-      try {
-        value = callback(value);
-      } catch (e) {
-        reject(promise, e);
-      }
-    }
-
-    if (!handleThenable(promise, value)) {
-      if (settled === FULFILLED) {
-        resolve(promise, value);
-      }
-
-      if (settled === REJECTED) {
-        reject(promise, value);
-      }
-    }
-  }
-
-  function handleThenable(promise, value) {
-    var resolved;
-
-    try {
-      if (promise === value) {
-        throw new TypeError('A promises callback cannot return that same promise.');
-      }
-
-      if (value && (typeof value === 'function' || _typeof(value) === 'object')) {
-        // then should be retrieved only once
-        var then = value.then;
-
-        if (typeof then === 'function') {
-          then.call(value, function (val) {
-            if (!resolved) {
-              resolved = true;
-
-              if (value === val) {
-                fulfill(promise, val);
-              } else {
-                resolve(promise, val);
-              }
-            }
-          }, function (reason) {
-            if (!resolved) {
-              resolved = true;
-              reject(promise, reason);
-            }
-          });
-          return true;
-        }
-      }
-    } catch (e) {
-      if (!resolved) {
-        reject(promise, e);
-      }
-
-      return true;
-    }
-
-    return false;
-  }
-
-  function resolve(promise, value) {
-    if (promise === value || !handleThenable(promise, value)) {
-      fulfill(promise, value);
-    }
-  }
-
-  function fulfill(promise, value) {
-    if (promise._state === PENDING) {
-      promise._state = SETTLED;
-      promise._data = value;
-      asyncCall(publishFulfillment, promise);
-    }
-  }
-
-  function reject(promise, reason) {
-    if (promise._state === PENDING) {
-      promise._state = SETTLED;
-      promise._data = reason;
-      asyncCall(publishRejection, promise);
-    }
-  }
-
-  function publish(promise) {
-    promise._then = promise._then.forEach(invokeCallback);
-  }
-
-  function publishFulfillment(promise) {
-    promise._state = FULFILLED;
-    publish(promise);
-  }
-
-  function publishRejection(promise) {
-    promise._state = REJECTED;
-    publish(promise);
-
-    if (!promise._handled && isNode) {
-      GLOBAL.process.emit('unhandledRejection', promise._data, promise);
-    }
-  }
-
-  function notifyRejectionHandled(promise) {
-    GLOBAL.process.emit('rejectionHandled', promise);
-  }
-
-  var P = /*#__PURE__*/function () {
-    function P(resolver) {
-      _classCallCheck(this, P);
-
-      if (typeof resolver !== 'function') {
-        throw new TypeError('Promise resolver ' + resolver + ' is not a function');
-      }
-
-      if (this instanceof P === false) {
-        throw new TypeError('Failed to construct \'Promise\': Please use the \'new\' operator, this object constructor cannot be called as a function.');
-      }
-
-      this._then = [];
-      this._state = PENDING;
-      this._data = undefined;
-      this._handled = false;
-      invokeResolver(resolver, this);
-    }
-
-    _createClass(P, [{
-      key: "then",
-      value: function then(onFulfillment, onRejection) {
-        var subscriber = {
-          owner: this,
-          then: new this.constructor(NOOP),
-          fulfilled: onFulfillment,
-          rejected: onRejection
-        };
-
-        if ((onRejection || onFulfillment) && !this._handled) {
-          this._handled = true;
-
-          if (this._state === REJECTED && isNode) {
-            asyncCall(notifyRejectionHandled, this);
-          }
-        }
-
-        if (this._state === FULFILLED || this._state === REJECTED) {
-          // already resolved, call callback async
-          asyncCall(invokeCallback, subscriber);
-        } else {
-          // subscribe
-          this._then.push(subscriber);
-        }
-
-        return subscriber.then;
-      }
-    }, {
-      key: "catch",
-      value: function _catch(onRejection) {
-        return this.then(null, onRejection);
-      }
-    }], [{
-      key: "all",
-      value: function all(promises) {
-        if (!Array.isArray(promises)) {
-          throw new TypeError('You must pass an array to Promise.all().');
-        }
-
-        return new P(function (resolve, reject) {
-          var results = [];
-          var remaining = 0;
-
-          function resolver(index) {
-            remaining++;
-            return function (value) {
-              results[index] = value;
-
-              if (! --remaining) {
-                resolve(results);
-              }
-            };
-          }
-
-          for (var i = 0, promise; i < promises.length; i++) {
-            promise = promises[i];
-
-            if (promise && typeof promise.then === 'function') {
-              promise.then(resolver(i), reject);
-            } else {
-              results[i] = promise;
-            }
-          }
-
-          if (!remaining) {
-            resolve(results);
-          }
-        });
-      }
-    }, {
-      key: "resolve",
-      value: function resolve(value) {
-        if (value && _typeof(value) === 'object' && value.constructor === P) {
-          return value;
-        }
-
-        return new P(function (resolve) {
-          resolve(value);
-        });
-      }
-    }, {
-      key: "reject",
-      value: function reject(reason) {
-        return new P(function (resolve, reject) {
-          reject(reason);
-        });
-      }
-    }]);
-
-    return P;
-  }();
-
-  var PromisePonyfill = {
-    provides: function provides(providers) {
-      if (typeof providers.Promise === 'undefined') {
-        providers.Promise = P;
-      }
-    }
-  };
 
   var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
   var UNITS_IN_GRID = 16;
@@ -539,10 +305,28 @@
     'brands': 'fab',
     'kit': 'fak'
   };
+  var PREFIX_TO_LONG_STYLE = {
+    'fab': 'fa-brands',
+    'fad': 'fa-duotone',
+    'fak': 'fa-kit',
+    'fal': 'fa-light',
+    'far': 'fa-regular',
+    'fas': 'fa-solid',
+    'fat': 'fa-thin'
+  };
+  var LONG_STYLE_TO_PREFIX = {
+    'fa-brands': 'fab',
+    'fa-duotone': 'fad',
+    'fa-kit': 'fak',
+    'fa-light': 'fal',
+    'fa-regular': 'far',
+    'fa-solid': 'fas',
+    'fa-thin': 'fat'
+  };
   var ICON_SELECTION_SYNTAX_PATTERN = /fa[srltdbk\-\ ]/; // eslint-disable-line no-useless-escape
 
   var LAYERS_TEXT_CLASSNAME = 'fa-layers-text';
-  var FONT_FAMILY_PATTERN = /Font ?Awesome ?([6 ]*)(Solid|Regular|Light|Thin|Duotone|Brands|Free|Pro|Kit)?.*/i; // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+  var FONT_FAMILY_PATTERN = /Font ?Awesome ?([56 ]*)(Solid|Regular|Light|Thin|Duotone|Brands|Free|Pro|Kit)?.*/i; // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
 
   var FONT_WEIGHT_TO_PREFIX = {
     '900': 'fas',
@@ -555,12 +339,12 @@
   var oneToTwenty = oneToTen.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
   var ATTRIBUTES_WATCHED_FOR_MUTATION = ['class', 'data-prefix', 'data-icon', 'data-fa-transform', 'data-fa-mask'];
   var DUOTONE_CLASSES = {
-    GROUP: 'group',
+    GROUP: 'duotone-group',
     SWAP_OPACITY: 'swap-opacity',
     PRIMARY: 'primary',
     SECONDARY: 'secondary'
   };
-  var RESERVED_CLASSES = ['2xs', 'xs', 'sm', 'lg', 'xl', '2xl', 'beat', 'border', 'fade', 'flash', 'flip-both', 'flip-horizontal', 'flip-vertical', 'flip', 'fw', 'inverse', 'layers-counter', 'layers-text', 'layers', 'li', 'pull-left', 'pull-right', 'pulse', 'rotate-180', 'rotate-270', 'rotate-90', 'rotate-by', 'spin-pulse', 'spin-reverse', 'spin', 'stack-1x', 'stack-2x', 'stack', 'ul', DUOTONE_CLASSES.GROUP, DUOTONE_CLASSES.SWAP_OPACITY, DUOTONE_CLASSES.PRIMARY, DUOTONE_CLASSES.SECONDARY].concat(oneToTen.map(function (n) {
+  var RESERVED_CLASSES = [].concat(_toConsumableArray(Object.keys(STYLE_TO_PREFIX)), ['2xs', 'xs', 'sm', 'lg', 'xl', '2xl', 'beat', 'border', 'fade', 'beat-fade', 'bounce', 'flip-both', 'flip-horizontal', 'flip-vertical', 'flip', 'fw', 'inverse', 'layers-counter', 'layers-text', 'layers', 'li', 'pull-left', 'pull-right', 'pulse', 'rotate-180', 'rotate-270', 'rotate-90', 'rotate-by', 'shake', 'spin-pulse', 'spin-reverse', 'spin', 'stack-1x', 'stack-2x', 'stack', 'ul', DUOTONE_CLASSES.GROUP, DUOTONE_CLASSES.SWAP_OPACITY, DUOTONE_CLASSES.PRIMARY, DUOTONE_CLASSES.SECONDARY]).concat(oneToTen.map(function (n) {
     return "".concat(n, "x");
   })).concat(oneToTwenty.map(function (n) {
     return "w-".concat(n);
@@ -579,7 +363,6 @@
   function coerce(val) {
     // Getting an empty string will occur if the attribute is set on the HTML tag but without a value
     // We'll assume that this is an indication that it should be toggled to true
-    // For example <script data-search-pseudo-elements src="..."></script>
     if (val === '') return true;
     if (val === 'false') return false;
     if (val === 'true') return true;
@@ -780,7 +563,7 @@
     return val;
   }
 
-  var baseStyles = "svg:not(:root).svg-inline--fa{overflow:visible;-webkit-box-sizing:content-box;box-sizing:content-box}.svg-inline--fa{display:inline-block;display:var(--fa-display,inline-block);height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-2xs{vertical-align:.1em}.svg-inline--fa.fa-xs{vertical-align:0}.svg-inline--fa.fa-sm{vertical-align:-.0714285705em}.svg-inline--fa.fa-lg{vertical-align:-.2em}.svg-inline--fa.fa-xl{vertical-align:-.25em}.svg-inline--fa.fa-2xl{vertical-align:-.3125em}.svg-inline--fa.fa-pull-left{margin-right:.3em;margin-right:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;margin-left:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-li{width:2em;width:var(--fa-li-width,2em);top:.25em}.svg-inline--fa.fa-fw{width:1.25em;width:var(--fa-fw-width,1.25em)}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;background-color:var(--fa-counter-background-color,#ff253a);border-radius:1em;border-radius:var(--fa-counter-border-radius,1em);-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;color:var(--fa-inverse,#fff);line-height:1;line-height:var(--fa-counter-line-height,1);max-width:5em;max-width:var(--fa-counter-max-width,5em);min-width:1.5em;min-width:var(--fa-counter-min-width,1.5em);overflow:hidden;padding:.25em .5em;padding:var(--fa-counter-padding,.25em .5em);right:0;right:var(--fa-right,0);text-overflow:ellipsis;top:0;top:var(--fa-top,0);-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform:scale(var(--fa-counter-scale,.25));transform:scale(var(--fa-counter-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;bottom:var(--fa-bottom,0);right:0;right:var(--fa-right,0);top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;bottom:var(--fa-bottom,0);left:0;left:var(--fa-left,0);right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{top:0;top:var(--fa-top,0);right:0;right:var(--fa-right,0);-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;left:var(--fa-left,0);right:auto;top:0;top:var(--fa-top,0);-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top left;transform-origin:top left}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-2xs{font-size:.625em;line-height:.1em;vertical-align:.225em}.fa-xs{font-size:.75em;line-height:.0833333337em;vertical-align:.125em}.fa-sm{font-size:.875em;line-height:.0714285718em;vertical-align:.0535714295em}.fa-lg{font-size:1.25em;line-height:.05em;vertical-align:-.075em}.fa-xl{font-size:1.5em;line-height:.0416666682em;vertical-align:-.125em}.fa-2xl{font-size:2em;line-height:.03125em;vertical-align:-.1875em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;margin-left:var(--fa-li-margin,2.5em);padding-left:0}.fa-ul>li{position:relative}.fa-li{left:calc(2em * -1);left:calc(var(--fa-li-width,2em) * -1);position:absolute;text-align:center;width:2em;width:var(--fa-li-width,2em);line-height:inherit}.fa-border{border-color:#eee;border-color:var(--fa-border-color,#eee);border-radius:.1em;border-radius:var(--fa-border-radius,.1em);border-style:solid;border-style:var(--fa-border-style,solid);border-width:.08em;border-width:var(--fa-border-width,.08em);padding:.2em .25em .15em;padding:var(--fa-border-padding,.2em .25em .15em)}.fa-pull-left{float:left;margin-right:.3em;margin-right:var(--fa-pull-margin,.3em)}.fa-pull-right{float:right;margin-left:.3em;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{-webkit-animation-name:fa-beat;animation-name:fa-beat;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-fade{-webkit-animation-name:fa-fade;animation-name:fa-fade;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:cubic-bezier(.4,0,.6,1);animation-timing-function:cubic-bezier(.4,0,.6,1);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-flash{-webkit-animation-name:fa-flash;animation-name:fa-flash;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:cubic-bezier(.4,0,.6,1);animation-timing-function:cubic-bezier(.4,0,.6,1);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-flip{-webkit-animation-name:fa-flip;animation-name:fa-flip;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-spin{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-duration:var(--fa-animation-duration,2s);animation-duration:var(--fa-animation-duration,2s);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin-reverse{--fa-animation-direction:reverse}.fa-pulse,.fa-spin-pulse{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-direction:normal;animation-direction:normal;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:steps(8);animation-timing-function:steps(8);-webkit-animation-timing-function:var(--fa-animation-timing,steps(8));animation-timing-function:var(--fa-animation-timing,steps(8))}@media (prefers-reduced-motion:reduce){.fa-beat,.fa-fade,.fa-flash,.fa-flip,.fa-pulse,.fa-spin,.fa-spin-pulse{-webkit-animation-delay:-1ms;animation-delay:-1ms;-webkit-animation-duration:1ms;animation-duration:1ms;-webkit-animation-iteration-count:1;animation-iteration-count:1;-webkit-transition-delay:0s;transition-delay:0s;-webkit-transition-duration:0s;transition-duration:0s}}@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(1.25);transform:scale(1.25);-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(1.25);transform:scale(1.25);-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@-webkit-keyframes fa-fade{50%{opacity:.4;opacity:var(--fa-fade-opacity,.4)}}@keyframes fa-fade{50%{opacity:.4;opacity:var(--fa-fade-opacity,.4)}}@-webkit-keyframes fa-flash{0%,100%{opacity:.4;opacity:var(--fa-flash-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(1.125);transform:scale(1.125);-webkit-transform:scale(var(--fa-flash-scale,1.125));transform:scale(var(--fa-flash-scale,1.125))}}@keyframes fa-flash{0%,100%{opacity:.4;opacity:var(--fa-flash-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(1.125);transform:scale(1.125);-webkit-transform:scale(var(--fa-flash-scale,1.125));transform:scale(var(--fa-flash-scale,1.125))}}@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(0,1,0,-180deg);transform:rotate3d(0,1,0,-180deg);-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@keyframes fa-flip{50%{-webkit-transform:rotate3d(0,1,0,-180deg);transform:rotate3d(0,1,0,-180deg);-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}.fa-rotate-by{-webkit-transform:rotate(none);transform:rotate(none);-webkit-transform:rotate(var(--fa-rotate-angle,none));transform:rotate(var(--fa-rotate-angle,none))}.fa-stack{display:inline-block;vertical-align:middle;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;z-index:auto;z-index:var(--fa-stack-z-index,auto)}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff;color:var(--fa-inverse,#fff)}.fa-sr-only,.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.fa-sr-only-focusable:not(:focus),.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.svg-inline--fa .fa-primary{fill:currentColor;fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:currentColor;fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fa-duotone.fa-inverse,.fad.fa-inverse{color:#fff;color:var(--fa-inverse,#fff)}";
+  var baseStyles = ":host,:root{--fa-font-solid:normal 900 1em/1 \"Font Awesome 6 Solid\";--fa-font-regular:normal 400 1em/1 \"Font Awesome 6 Regular\";--fa-font-light:normal 300 1em/1 \"Font Awesome 6 Light\";--fa-font-thin:normal 100 1em/1 \"Font Awesome 6 Thin\";--fa-font-duotone:normal 900 1em/1 \"Font Awesome 6 Duotone\";--fa-font-brands:normal 400 1em/1 \"Font Awesome 6 Brands\"}svg:not(:host).svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible;box-sizing:content-box}.svg-inline--fa{display:var(--fa-display,inline-block);height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-2xs{vertical-align:.1em}.svg-inline--fa.fa-xs{vertical-align:0}.svg-inline--fa.fa-sm{vertical-align:-.0714285705em}.svg-inline--fa.fa-lg{vertical-align:-.2em}.svg-inline--fa.fa-xl{vertical-align:-.25em}.svg-inline--fa.fa-2xl{vertical-align:-.3125em}.svg-inline--fa.fa-pull-left{margin-right:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-pull-right{margin-left:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-li{width:var(--fa-li-width,2em);top:.25em}.svg-inline--fa.fa-fw{width:var(--fa-fw-width,1.25em)}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:var(--fa-counter-background-color,#ff253a);border-radius:var(--fa-counter-border-radius,1em);box-sizing:border-box;color:var(--fa-inverse,#fff);line-height:var(--fa-counter-line-height,1);max-width:var(--fa-counter-max-width,5em);min-width:var(--fa-counter-min-width,1.5em);overflow:hidden;padding:var(--fa-counter-padding,.25em .5em);right:var(--fa-right,0);text-overflow:ellipsis;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-counter-scale,.25));transform:scale(var(--fa-counter-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:var(--fa-bottom,0);right:var(--fa-right,0);top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:var(--fa-bottom,0);left:var(--fa-left,0);right:auto;top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{top:var(--fa-top,0);right:var(--fa-right,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:var(--fa-left,0);right:auto;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top left;transform-origin:top left}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-2xs{font-size:.625em;line-height:.1em;vertical-align:.225em}.fa-xs{font-size:.75em;line-height:.0833333337em;vertical-align:.125em}.fa-sm{font-size:.875em;line-height:.0714285718em;vertical-align:.0535714295em}.fa-lg{font-size:1.25em;line-height:.05em;vertical-align:-.075em}.fa-xl{font-size:1.5em;line-height:.0416666682em;vertical-align:-.125em}.fa-2xl{font-size:2em;line-height:.03125em;vertical-align:-.1875em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:var(--fa-li-margin,2.5em);padding-left:0}.fa-ul>li{position:relative}.fa-li{left:calc(var(--fa-li-width,2em) * -1);position:absolute;text-align:center;width:var(--fa-li-width,2em);line-height:inherit}.fa-border{border-color:var(--fa-border-color,#eee);border-radius:var(--fa-border-radius,.1em);border-style:var(--fa-border-style,solid);border-width:var(--fa-border-width,.08em);padding:var(--fa-border-padding,.2em .25em .15em)}.fa-pull-left{float:left;margin-right:var(--fa-pull-margin,.3em)}.fa-pull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{-webkit-animation-name:fa-beat;animation-name:fa-beat;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-bounce{-webkit-animation-name:fa-bounce;animation-name:fa-bounce;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1))}.fa-fade{-webkit-animation-name:fa-fade;animation-name:fa-fade;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-beat-fade{-webkit-animation-name:fa-beat-fade;animation-name:fa-beat-fade;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-flip{-webkit-animation-name:fa-flip;animation-name:fa-flip;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-shake{-webkit-animation-name:fa-shake;animation-name:fa-shake;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-delay:var(--fa-animation-delay,0);animation-delay:var(--fa-animation-delay,0);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,2s);animation-duration:var(--fa-animation-duration,2s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin-reverse{--fa-animation-direction:reverse}.fa-pulse,.fa-spin-pulse{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,steps(8));animation-timing-function:var(--fa-animation-timing,steps(8))}@media (prefers-reduced-motion:reduce){.fa-beat,.fa-beat-fade,.fa-bounce,.fa-fade,.fa-flip,.fa-pulse,.fa-shake,.fa-spin,.fa-spin-pulse{-webkit-animation-delay:-1ms;animation-delay:-1ms;-webkit-animation-duration:1ms;animation-duration:1ms;-webkit-animation-iteration-count:1;animation-iteration-count:1;transition-delay:0s;transition-duration:0s}}@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@-webkit-keyframes fa-bounce{0%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}100%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}}@keyframes fa-bounce{0%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}100%{-webkit-transform:scale(1,1) translateY(0);transform:scale(1,1) translateY(0)}}@-webkit-keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@-webkit-keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@-webkit-keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}24%,8%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}100%,40%{-webkit-transform:rotate(0);transform:rotate(0)}}@keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}24%,8%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}100%,40%{-webkit-transform:rotate(0);transform:rotate(0)}}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}.fa-rotate-by{-webkit-transform:rotate(var(--fa-rotate-angle,none));transform:rotate(var(--fa-rotate-angle,none))}.fa-stack{display:inline-block;vertical-align:middle;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;z-index:var(--fa-stack-z-index,auto)}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:var(--fa-inverse,#fff)}.fa-sr-only,.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.fa-sr-only-focusable:not(:focus),.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fa-duotone.fa-inverse,.fad.fa-inverse{color:var(--fa-inverse,#fff)}";
 
   function css() {
     var dfp = DEFAULT_FAMILY_PREFIX;
@@ -1029,7 +812,7 @@
     /**
      * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
      * of new styles we needed to differentiate between them. Prefix `fa` is now an alias
-     * for `fas` so we'll easy the upgrade process for our users by automatically defining
+     * for `fas` so we'll ease the upgrade process for our users by automatically defining
      * this as well.
      */
 
@@ -1039,11 +822,287 @@
     }
   }
 
+  var duotonePathRe = [/*#__PURE__*/_wrapRegExp(/path d="((?:(?!")[\s\S])+)".*path d="((?:(?!")[\s\S])+)"/, {
+    d1: 1,
+    d2: 2
+  }), /*#__PURE__*/_wrapRegExp(/path class="((?:(?!")[\s\S])+)".*d="((?:(?!")[\s\S])+)".*path class="((?:(?!")[\s\S])+)".*d="((?:(?!")[\s\S])+)"/, {
+    cls1: 1,
+    d1: 2,
+    cls2: 3,
+    d2: 4
+  }), /*#__PURE__*/_wrapRegExp(/path class="((?:(?!")[\s\S])+)".*d="((?:(?!")[\s\S])+)"/, {
+    cls1: 1,
+    d1: 2
+  })];
+
+  var styles = namespace.styles,
+      shims = namespace.shims;
+  var LONG_STYLE = Object.values(PREFIX_TO_LONG_STYLE);
+  var _defaultUsablePrefix = null;
+  var _byUnicode = {};
+  var _byLigature = {};
+  var _byOldName = {};
+  var _byOldUnicode = {};
+  var _byAlias = {};
+  var PREFIXES = Object.keys(PREFIX_TO_STYLE);
+
+  function isReserved(name) {
+    return ~RESERVED_CLASSES.indexOf(name);
+  }
+
+  function getIconName(familyPrefix, cls) {
+    var parts = cls.split('-');
+    var prefix = parts[0];
+    var iconName = parts.slice(1).join('-');
+
+    if (prefix === familyPrefix && iconName !== '' && !isReserved(iconName)) {
+      return iconName;
+    } else {
+      return null;
+    }
+  }
+  var build = function build() {
+    var lookup = function lookup(reducer) {
+      return reduce(styles, function (o, style, prefix) {
+        o[prefix] = reduce(style, reducer, {});
+        return o;
+      }, {});
+    };
+
+    _byUnicode = lookup(function (acc, icon, iconName) {
+      if (icon[3]) {
+        acc[icon[3]] = iconName;
+      }
+
+      if (icon[2]) {
+        var aliases = icon[2].filter(function (a) {
+          return typeof a === 'number';
+        });
+        aliases.forEach(function (alias) {
+          acc[alias.toString(16)] = iconName;
+        });
+      }
+
+      return acc;
+    });
+    _byLigature = lookup(function (acc, icon, iconName) {
+      acc[iconName] = iconName;
+
+      if (icon[2]) {
+        var aliases = icon[2].filter(function (a) {
+          return typeof a === 'string';
+        });
+        aliases.forEach(function (alias) {
+          acc[alias] = iconName;
+        });
+      }
+
+      return acc;
+    });
+    _byAlias = lookup(function (acc, icon, iconName) {
+      var aliases = icon[2];
+      acc[iconName] = iconName;
+      aliases.forEach(function (alias) {
+        acc[alias] = iconName;
+      });
+      return acc;
+    }); // If we have a Kit, we can't determine if regular is available since we
+    // could be auto-fetching it. We'll have to assume that it is available.
+
+    var hasRegular = 'far' in styles || config.autoFetchSvg;
+    var shimLookups = reduce(shims, function (acc, shim) {
+      var maybeNameMaybeUnicode = shim[0];
+      var prefix = shim[1];
+      var iconName = shim[2];
+
+      if (prefix === 'far' && !hasRegular) {
+        prefix = 'fas';
+      }
+
+      if (typeof maybeNameMaybeUnicode === 'string') {
+        acc.names[maybeNameMaybeUnicode] = {
+          prefix: prefix,
+          iconName: iconName
+        };
+      }
+
+      if (typeof maybeNameMaybeUnicode === 'number') {
+        acc.unicodes[maybeNameMaybeUnicode.toString(16)] = {
+          prefix: prefix,
+          iconName: iconName
+        };
+      }
+
+      return acc;
+    }, {
+      names: {},
+      unicodes: {}
+    });
+    _byOldName = shimLookups.names;
+    _byOldUnicode = shimLookups.unicodes;
+    _defaultUsablePrefix = getCanonicalPrefix(config.styleDefault);
+  };
+  onChange(function (c) {
+    _defaultUsablePrefix = getCanonicalPrefix(c.styleDefault);
+  });
+  build();
+  function byUnicode(prefix, unicode) {
+    return (_byUnicode[prefix] || {})[unicode];
+  }
+  function byLigature(prefix, ligature) {
+    return (_byLigature[prefix] || {})[ligature];
+  }
+  function byAlias(prefix, alias) {
+    return (_byAlias[prefix] || {})[alias];
+  }
+  function byOldName(name) {
+    return _byOldName[name] || {
+      prefix: null,
+      iconName: null
+    };
+  }
+  function byOldUnicode(unicode) {
+    var oldUnicode = _byOldUnicode[unicode];
+    var newUnicode = byUnicode('fas', unicode);
+    return oldUnicode || (newUnicode ? {
+      prefix: 'fas',
+      iconName: newUnicode
+    } : null) || {
+      prefix: null,
+      iconName: null
+    };
+  }
+  function getDefaultUsablePrefix() {
+    return _defaultUsablePrefix;
+  }
+  var emptyCanonicalIcon = function emptyCanonicalIcon() {
+    return {
+      prefix: null,
+      iconName: null,
+      rest: []
+    };
+  };
+  function getCanonicalPrefix(styleOrPrefix) {
+    var style = PREFIX_TO_STYLE[styleOrPrefix];
+    var prefix = STYLE_TO_PREFIX[styleOrPrefix] || STYLE_TO_PREFIX[style];
+    var defined = styleOrPrefix in namespace.styles ? styleOrPrefix : null;
+    return prefix || defined || null;
+  }
+  function getCanonicalIcon(values) {
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    var _params$skipLookups = params.skipLookups,
+        skipLookups = _params$skipLookups === void 0 ? false : _params$skipLookups;
+    var givenPrefix = null;
+    var canonical = values.reduce(function (acc, cls) {
+      var iconName = getIconName(config.familyPrefix, cls);
+
+      if (styles[cls]) {
+        cls = LONG_STYLE.includes(cls) ? LONG_STYLE_TO_PREFIX[cls] : cls;
+        givenPrefix = cls;
+        acc.prefix = cls;
+      } else if (PREFIXES.indexOf(cls) > -1) {
+        givenPrefix = cls;
+        acc.prefix = getCanonicalPrefix(cls);
+      } else if (iconName) {
+        acc.iconName = iconName;
+      } else if (cls !== config.replacementClass) {
+        acc.rest.push(cls);
+      }
+
+      if (!skipLookups && acc.prefix && acc.iconName) {
+        var shim = givenPrefix === 'fa' ? byOldName(acc.iconName) : {};
+        var aliasIconName = byAlias(acc.prefix, acc.iconName);
+
+        if (shim.prefix) {
+          givenPrefix = null;
+        }
+
+        acc.iconName = shim.iconName || aliasIconName || acc.iconName;
+        acc.prefix = shim.prefix || acc.prefix;
+
+        if (acc.prefix === 'far' && !styles['far'] && styles['fas'] && !config.autoFetchSvg) {
+          // Allow a fallback from the regular style to solid if regular is not available
+          // but only if we aren't auto-fetching SVGs
+          acc.prefix = 'fas';
+        }
+      }
+
+      return acc;
+    }, emptyCanonicalIcon());
+
+    if (canonical.prefix === 'fa' || givenPrefix === 'fa') {
+      // The fa prefix is not canonical. So if it has made it through until this point
+      // we will shift it to the correct prefix.
+      canonical.prefix = getDefaultUsablePrefix() || 'fas';
+    }
+
+    return canonical;
+  }
+
+  var Library = /*#__PURE__*/function () {
+    function Library() {
+      _classCallCheck(this, Library);
+
+      this.definitions = {};
+    }
+
+    _createClass(Library, [{
+      key: "add",
+      value: function add() {
+        var _this = this;
+
+        for (var _len = arguments.length, definitions = new Array(_len), _key = 0; _key < _len; _key++) {
+          definitions[_key] = arguments[_key];
+        }
+
+        var additions = definitions.reduce(this._pullDefinitions, {});
+        Object.keys(additions).forEach(function (key) {
+          _this.definitions[key] = _objectSpread2(_objectSpread2({}, _this.definitions[key] || {}), additions[key]);
+          defineIcons(key, additions[key]);
+          var longPrefix = PREFIX_TO_LONG_STYLE[key];
+          if (longPrefix) defineIcons(longPrefix, additions[key]);
+          build();
+        });
+      }
+    }, {
+      key: "reset",
+      value: function reset() {
+        this.definitions = {};
+      }
+    }, {
+      key: "_pullDefinitions",
+      value: function _pullDefinitions(additions, definition) {
+        var normalized = definition.prefix && definition.iconName && definition.icon ? {
+          0: definition
+        } : definition;
+        Object.keys(normalized).map(function (key) {
+          var _normalized$key = normalized[key],
+              prefix = _normalized$key.prefix,
+              iconName = _normalized$key.iconName,
+              icon = _normalized$key.icon;
+          var aliases = icon[2];
+          if (!additions[prefix]) additions[prefix] = {};
+
+          if (aliases.length > 0) {
+            aliases.forEach(function (alias) {
+              if (typeof alias === 'string') {
+                additions[prefix][alias] = icon;
+              }
+            });
+          }
+
+          additions[prefix][iconName] = icon;
+        });
+        return additions;
+      }
+    }]);
+
+    return Library;
+  }();
+
   var _plugins = [];
   var _hooks = {};
-  var providers = {
-    Promise: typeof Promise !== 'undefined' ? Promise : undefined
-  };
+  var providers = {};
   var defaultProviderKeys = Object.keys(providers);
   function registerPlugins(nextPlugins, _ref) {
     var obj = _ref.mixoutsTo;
@@ -1119,239 +1178,6 @@
     return providers[hook] ? providers[hook].apply(null, args) : undefined;
   }
 
-  var styles = namespace.styles,
-      shims = namespace.shims;
-  var _defaultUsablePrefix = null;
-  var _byUnicode = {};
-  var _byLigature = {};
-  var _byOldName = {};
-  var _byAlias = {};
-  var PREFIXES = Object.keys(PREFIX_TO_STYLE);
-
-  function isReserved(name) {
-    return ~RESERVED_CLASSES.indexOf(name);
-  }
-
-  function getIconName(familyPrefix, cls) {
-    var parts = cls.split('-');
-    var prefix = parts[0];
-    var iconName = parts.slice(1).join('-');
-
-    if (prefix === familyPrefix && iconName !== '' && !isReserved(iconName)) {
-      return iconName;
-    } else {
-      return null;
-    }
-  }
-  var build = function build() {
-    var lookup = function lookup(reducer) {
-      return reduce(styles, function (o, style, prefix) {
-        o[prefix] = reduce(style, reducer, {});
-        return o;
-      }, {});
-    };
-
-    _byUnicode = lookup(function (acc, icon, iconName) {
-      if (icon[3]) {
-        acc[icon[3]] = iconName;
-      }
-
-      if (icon[2]) {
-        var aliases = icon[2].filter(function (a) {
-          return typeof a === 'number';
-        });
-        aliases.forEach(function (alias) {
-          acc[alias.toString(16)] = iconName;
-        });
-      }
-
-      return acc;
-    });
-    _byLigature = lookup(function (acc, icon, iconName) {
-      acc[iconName] = iconName;
-
-      if (icon[2]) {
-        var aliases = icon[2].filter(function (a) {
-          return typeof a === 'string';
-        });
-        aliases.forEach(function (alias) {
-          acc[alias] = iconName;
-        });
-      }
-
-      return acc;
-    });
-    _byAlias = lookup(function (acc, icon, iconName) {
-      var aliases = icon[2];
-      acc[iconName] = iconName;
-      aliases.forEach(function (alias) {
-        acc[alias] = iconName;
-      });
-      return acc;
-    }); // If we have a Kit, we can't determine if regular is available since we
-    // could be auto-fetching it. We'll have to assume that it is available.
-
-    var hasRegular = 'far' in styles || config.autoFetchSvg;
-    _byOldName = reduce(shims, function (acc, shim) {
-      var oldName = shim[0];
-      var prefix = shim[1];
-      var iconName = shim[2];
-
-      if (prefix === 'far' && !hasRegular) {
-        prefix = 'fas';
-      }
-
-      acc[oldName] = {
-        prefix: prefix,
-        iconName: iconName
-      };
-      return acc;
-    }, {});
-    _defaultUsablePrefix = getCanonicalPrefix(config.styleDefault);
-  };
-  onChange(function (c) {
-    _defaultUsablePrefix = getCanonicalPrefix(c.styleDefault);
-  });
-  build();
-  function byUnicode(prefix, unicode) {
-    return (_byUnicode[prefix] || {})[unicode];
-  }
-  function byLigature(prefix, ligature) {
-    return (_byLigature[prefix] || {})[ligature];
-  }
-  function byAlias(prefix, alias) {
-    return (_byAlias[prefix] || {})[alias];
-  }
-  function byOldName(name) {
-    return _byOldName[name] || {
-      prefix: null,
-      iconName: null
-    };
-  }
-  function getDefaultUsablePrefix() {
-    return _defaultUsablePrefix;
-  }
-  var emptyCanonicalIcon = function emptyCanonicalIcon() {
-    return {
-      prefix: null,
-      iconName: null,
-      rest: []
-    };
-  };
-  function getCanonicalPrefix(styleOrPrefix) {
-    var style = PREFIX_TO_STYLE[styleOrPrefix];
-    var prefix = STYLE_TO_PREFIX[styleOrPrefix] || STYLE_TO_PREFIX[style];
-    var defined = styleOrPrefix in namespace.styles ? styleOrPrefix : null;
-    return prefix || defined || null;
-  }
-  function getCanonicalIcon(values) {
-    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-    var _params$skipLookups = params.skipLookups,
-        skipLookups = _params$skipLookups === void 0 ? false : _params$skipLookups;
-    var givenPrefix = null;
-    var canonical = values.reduce(function (acc, cls) {
-      var iconName = getIconName(config.familyPrefix, cls);
-
-      if (styles[cls]) {
-        givenPrefix = cls;
-        acc.prefix = cls;
-      } else if (PREFIXES.indexOf(cls) > -1) {
-        givenPrefix = cls;
-        acc.prefix = getCanonicalPrefix(cls);
-      } else if (iconName) {
-        acc.iconName = iconName;
-      } else if (cls !== config.replacementClass) {
-        acc.rest.push(cls);
-      }
-
-      if (!skipLookups && acc.prefix && acc.iconName) {
-        var shim = givenPrefix === 'fa' ? byOldName(acc.iconName) : {};
-        var aliasIconName = byAlias(acc.prefix, acc.iconName);
-
-        if (shim.prefix) {
-          givenPrefix = null;
-        }
-
-        acc.iconName = shim.iconName || aliasIconName || acc.iconName;
-        acc.prefix = shim.prefix || acc.prefix;
-
-        if (acc.prefix === 'far' && !styles['far'] && styles['fas']) {
-          // Allow a fallback from the regular style to solid if regular is not available
-          acc.prefix = 'fas';
-        }
-      }
-
-      return acc;
-    }, emptyCanonicalIcon());
-
-    if (canonical.prefix === 'fa' || givenPrefix === 'fa') {
-      // The fa prefix is not canonical. So if it has made it through until this point
-      // we will shift it to the correct prefix.
-      canonical.prefix = getDefaultUsablePrefix() || 'fas';
-    }
-
-    return canonical;
-  }
-
-  var Library = /*#__PURE__*/function () {
-    function Library() {
-      _classCallCheck(this, Library);
-
-      this.definitions = {};
-    }
-
-    _createClass(Library, [{
-      key: "add",
-      value: function add() {
-        var _this = this;
-
-        for (var _len = arguments.length, definitions = new Array(_len), _key = 0; _key < _len; _key++) {
-          definitions[_key] = arguments[_key];
-        }
-
-        var additions = definitions.reduce(this._pullDefinitions, {});
-        Object.keys(additions).forEach(function (key) {
-          _this.definitions[key] = _objectSpread2(_objectSpread2({}, _this.definitions[key] || {}), additions[key]);
-          defineIcons(key, additions[key]);
-          build();
-        });
-      }
-    }, {
-      key: "reset",
-      value: function reset() {
-        this.definitions = {};
-      }
-    }, {
-      key: "_pullDefinitions",
-      value: function _pullDefinitions(additions, definition) {
-        var normalized = definition.prefix && definition.iconName && definition.icon ? {
-          0: definition
-        } : definition;
-        Object.keys(normalized).map(function (key) {
-          var _normalized$key = normalized[key],
-              prefix = _normalized$key.prefix,
-              iconName = _normalized$key.iconName,
-              icon = _normalized$key.icon;
-          var aliases = icon[2];
-          if (!additions[prefix]) additions[prefix] = {};
-
-          if (aliases.length > 0) {
-            aliases.forEach(function (alias) {
-              if (typeof alias === 'string') {
-                additions[prefix][alias] = icon;
-              }
-            });
-          }
-
-          additions[prefix][iconName] = icon;
-        });
-        return additions;
-      }
-    }]);
-
-    return Library;
-  }();
-
   function findIconDefinition(iconLookup) {
     if (iconLookup.prefix === 'fa') {
       iconLookup.prefix = 'fas';
@@ -1378,7 +1204,7 @@
         callProvided('pseudoElements2svg', params);
         return callProvided('i2svg', params);
       } else {
-        return providers.Promise.reject('Operation requires a DOM of some kind.');
+        return Promise.reject('Operation requires a DOM of some kind.');
       }
     },
     watch: function watch() {
@@ -1749,14 +1575,6 @@
     return val;
   }
 
-  function MissingIcon(error) {
-    this.name = 'MissingIcon';
-    this.message = error || 'Icon unavailable';
-    this.stack = new Error().stack;
-  }
-  MissingIcon.prototype = Object.create(Error.prototype);
-  MissingIcon.prototype.constructor = MissingIcon;
-
   var styles$1 = namespace.styles;
   function asFoundIcon(icon) {
     var width = icon[0];
@@ -1807,6 +1625,18 @@
       icon: element
     };
   }
+  var missingIconResolutionMixin = {
+    found: false,
+    width: 512,
+    height: 512
+  };
+
+  function maybeNotifyMissing(iconName, prefix) {
+    if (!PRODUCTION && !config.showMissingIcons && iconName) {
+      console.error("Icon with name \"".concat(iconName, "\" and prefix \"").concat(prefix, "\" is missing."));
+    }
+  }
+
   function findIcon(iconName, prefix) {
     var givenPrefix = prefix;
 
@@ -1814,7 +1644,7 @@
       prefix = getDefaultUsablePrefix();
     }
 
-    return new providers.Promise(function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
       var val = {
         found: false,
         width: 512,
@@ -1833,11 +1663,10 @@
         return resolve(asFoundIcon(icon));
       }
 
-      if (iconName && prefix && !config.showMissingIcons) {
-        reject(new MissingIcon("Icon is missing for prefix ".concat(prefix, " with icon name ").concat(iconName)));
-      } else {
-        resolve(val);
-      }
+      maybeNotifyMissing(iconName, prefix);
+      resolve(_objectSpread2(_objectSpread2({}, missingIconResolutionMixin), {}, {
+        icon: config.showMissingIcons && iconName ? callProvided('missingIconAbstract') || {} : {}
+      }));
     });
   }
 
@@ -1847,7 +1676,7 @@
     mark: noop$1,
     measure: noop$1
   };
-  var preamble = "FA \"6.0.0-beta2\"";
+  var preamble = "FA \"6.1.1\"";
 
   var begin = function begin(name) {
     p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -1935,14 +1764,18 @@
   var mutators = {
     replace: function replace(mutation) {
       var node = mutation[0];
-      var nodeTagName = node.tagName.toLowerCase();
 
       if (node.parentNode) {
         mutation[1].forEach(function (abstract) {
           node.parentNode.insertBefore(convertSVG(abstract), node);
         });
-        var comment = DOCUMENT.createComment(config.keepOriginalSource && nodeTagName.toLowerCase() !== 'svg' ? nodeAsComment(node) : '');
-        node.parentNode.replaceChild(comment, node);
+
+        if (node.getAttribute(DATA_FA_I2SVG) === null && config.keepOriginalSource) {
+          var comment = DOCUMENT.createComment(nodeAsComment(node));
+          node.parentNode.replaceChild(comment, node);
+        } else {
+          node.remove();
+        }
       }
     },
     nest: function nest(mutation) {
@@ -1956,29 +1789,32 @@
 
       var forSvg = new RegExp("".concat(config.familyPrefix, "-.*"));
       delete abstract[0].attributes.id;
-      var splitClasses = abstract[0].attributes.class.split(' ').reduce(function (acc, cls) {
-        if (cls === config.replacementClass || cls.match(forSvg)) {
-          acc.toSvg.push(cls);
-        } else {
-          acc.toNode.push(cls);
-        }
 
-        return acc;
-      }, {
-        toNode: [],
-        toSvg: []
-      });
-      abstract[0].attributes.class = splitClasses.toSvg.join(' ');
+      if (abstract[0].attributes.class) {
+        var splitClasses = abstract[0].attributes.class.split(' ').reduce(function (acc, cls) {
+          if (cls === config.replacementClass || cls.match(forSvg)) {
+            acc.toSvg.push(cls);
+          } else {
+            acc.toNode.push(cls);
+          }
+
+          return acc;
+        }, {
+          toNode: [],
+          toSvg: []
+        });
+        abstract[0].attributes.class = splitClasses.toSvg.join(' ');
+
+        if (splitClasses.toNode.length === 0) {
+          node.removeAttribute('class');
+        } else {
+          node.setAttribute('class', splitClasses.toNode.join(' '));
+        }
+      }
+
       var newInnerHTML = abstract.map(function (a) {
         return toHtml(a);
       }).join('\n');
-
-      if (splitClasses.toNode.length === 0) {
-        node.removeAttribute('class');
-      } else {
-        node.setAttribute('class', splitClasses.toNode.join(' '));
-      }
-
       node.setAttribute(DATA_FA_I2SVG, '');
       node.innerHTML = newInnerHTML;
     }
@@ -2218,7 +2054,7 @@
 
   function onTree(root) {
     var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
-    if (!IS_DOM) return providers.Promise.resolve();
+    if (!IS_DOM) return Promise.resolve();
     var htmlClassList = DOCUMENT.documentElement.classList;
 
     var hclAdd = function hclAdd(suffix) {
@@ -2235,7 +2071,7 @@
     })).join(', ');
 
     if (prefixesDomQuery.length === 0) {
-      return providers.Promise.resolve();
+      return Promise.resolve();
     }
 
     var candidates = [];
@@ -2249,7 +2085,7 @@
       hclAdd('pending');
       hclRemove('complete');
     } else {
-      return providers.Promise.resolve();
+      return Promise.resolve();
     }
 
     var mark = perf.begin('onTree');
@@ -2270,8 +2106,8 @@
 
       return acc;
     }, []);
-    return new providers.Promise(function (resolve, reject) {
-      providers.Promise.all(mutations).then(function (resolvedMutations) {
+    return new Promise(function (resolve, reject) {
+      Promise.all(mutations).then(function (resolvedMutations) {
         perform(resolvedMutations, function () {
           hclAdd('active');
           hclAdd('complete');
@@ -2280,9 +2116,9 @@
           mark();
           resolve();
         });
-      }).catch(function () {
+      }).catch(function (e) {
         mark();
-        reject();
+        reject(e);
       });
     });
   }
@@ -2412,8 +2248,13 @@
             mask = nodeMeta.mask,
             maskId = nodeMeta.maskId,
             extra = nodeMeta.extra;
-        return new providers$$1.Promise(function (resolve, reject) {
-          providers$$1.Promise.all([findIcon(iconName, prefix), findIcon(mask.iconName, mask.prefix)]).then(function (_ref) {
+        return new Promise(function (resolve, reject) {
+          Promise.all([findIcon(iconName, prefix), mask.iconName ? findIcon(mask.iconName, mask.prefix) : Promise.resolve({
+            found: false,
+            width: 512,
+            height: 512,
+            icon: {}
+          })]).then(function (_ref) {
             var _ref2 = _slicedToArray(_ref, 2),
                 main = _ref2[0],
                 mask = _ref2[1];
@@ -2427,14 +2268,13 @@
               iconName: iconName,
               transform: transform,
               symbol: symbol,
-              mask: mask,
               maskId: maskId,
               title: title,
               titleId: titleId,
               extra: extra,
               watchable: true
             })]);
-          });
+          }).catch(reject);
         });
       };
 
@@ -2595,7 +2435,7 @@
           extra.attributes['aria-hidden'] = 'true';
         }
 
-        return providers.Promise.resolve([node, makeLayersTextAbstract({
+        return Promise.resolve([node, makeLayersTextAbstract({
           content: node.innerHTML,
           width: width,
           height: height,
@@ -2623,7 +2463,7 @@
 
   function replaceForPosition(node, position) {
     var pendingAttribute = "".concat(DATA_FA_PSEUDO_ELEMENT_PENDING).concat(position.replace(':', '-'));
-    return new providers.Promise(function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
       if (node.getAttribute(pendingAttribute) !== null) {
         // This node is already being processed
         return resolve();
@@ -2653,9 +2493,20 @@
             hexValue = _hexValueFromContent.value,
             isSecondary = _hexValueFromContent.isSecondary;
 
+        var isV4 = fontFamily[0].startsWith('FontAwesome');
         var iconName = byUnicode(prefix, hexValue);
-        var iconIdentifier = iconName; // Only convert the pseudo element in this ::before/::after position into an icon if we haven't
+        var iconIdentifier = iconName;
+
+        if (isV4) {
+          var iconName4 = byOldUnicode(hexValue);
+
+          if (iconName4.iconName && iconName4.prefix) {
+            iconName = iconName4.iconName;
+            prefix = iconName4.prefix;
+          }
+        } // Only convert the pseudo element in this ::before/::after position into an icon if we haven't
         // already done so with the same prefix and iconName
+
 
         if (iconName && !isSecondary && (!alreadyProcessedPseudoElement || alreadyProcessedPseudoElement.getAttribute(DATA_PREFIX) !== prefix || alreadyProcessedPseudoElement.getAttribute(DATA_ICON) !== iconIdentifier)) {
           node.setAttribute(pendingAttribute, iconIdentifier);
@@ -2703,7 +2554,7 @@
   }
 
   function replace(node) {
-    return providers.Promise.all([replaceForPosition(node, '::before'), replaceForPosition(node, '::after')]);
+    return Promise.all([replaceForPosition(node, '::before'), replaceForPosition(node, '::after')]);
   }
 
   function processable(node) {
@@ -2712,11 +2563,11 @@
 
   function searchPseudoElements(root) {
     if (!IS_DOM) return;
-    return new providers.Promise(function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
       var operations = toArray(root.querySelectorAll('*')).filter(processable).map(replace);
       var end = perf.begin('searchPseudoElements');
       disableObservation();
-      providers.Promise.all(operations).then(function () {
+      Promise.all(operations).then(function () {
         end();
         enableObservation();
         resolve();
@@ -3041,8 +2892,7 @@
       providers.missingIconAbstract = function () {
         var gChildren = [];
         var FILL = {
-          fill: 'currentColor',
-          test: 2
+          fill: 'currentColor'
         };
         var ANIMATION_BASE = {
           attributeType: 'XML',
@@ -3120,6 +2970,9 @@
 
         return {
           tag: 'g',
+          attributes: {
+            'class': 'missing'
+          },
           children: gChildren
         };
       };
@@ -3139,7 +2992,7 @@
     }
   };
 
-  var plugins = [PromisePonyfill, InjectCSS, ReplaceElements, Layers, LayersCounter, LayersText, PseudoElements, MutationObserver$1, PowerTransforms, Masks, MissingIconIndicator, SvgSymbols];
+  var plugins = [InjectCSS, ReplaceElements, Layers, LayersCounter, LayersText, PseudoElements, MutationObserver$1, PowerTransforms, Masks, MissingIconIndicator, SvgSymbols];
 
   registerPlugins(plugins, {
     mixoutsTo: api

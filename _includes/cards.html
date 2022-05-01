@@ -13,7 +13,7 @@
     <!-- Books secondary -->
     {% if pull == "books" %}
     <div class="preview-include">
-        <div class="card-deck randomize">
+        <div class="card-deck">
             {% assign limit = site.books-number | plus:0 %}
             {% assign amount = 1 %}
             {% for x in site.books %}
@@ -32,6 +32,7 @@
                     </div>
                 </div>
             </div>
+            {% assign amount = amount | plus:1 %}
             <!-- Books primary -->
             {% elsif page.short != "true" and title != "Government. Fresh." %}
             <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
@@ -47,10 +48,10 @@
                     </div>
                 </div>
             </div>
+            {% assign amount = amount | plus:1 %}
             {% endif %}
             {% if title != item.title %}
             {% endif %}
-            {% assign amount = amount | plus:1 %}
             {% endfor %}
         </div>
         {% endif %}

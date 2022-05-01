@@ -5,7 +5,7 @@ img: dignity-in-a-digital-age.jpg
 author:  Ro Khanna
 website: https://www.simonandschuster.com/books/Dignity-in-a-Digital-Age/Ro-Khanna/9781982163341
 library: https://www.worldcat.org/title/dignity-in-a-digital-age-making-tech-work-for-all-of-us/oclc/1277128433&referer=brief_results
-bookshop: https://bookshop.org/books/dignity-in-a-digital-age-making-tech-work-for-all-of-us-9781797138312/9781982163341
+bookshop: https://bookshop.org/a/83650/9781982163341
 goodreads: https://www.goodreads.com/book/show/58438571-dignity-in-a-digital-age
 amazon: https://www.amazon.com/Dignity-Digital-Age-Making-Tech/dp/1982163348/ref=sr_1_1?crid=VUET80A62JK3&keywords=Dignity+in+a+Digital+Age&qid=1650920748&sprefix=dignity+in+a+digital+age%2Caps%2C534&sr=8-1
 review-link: 

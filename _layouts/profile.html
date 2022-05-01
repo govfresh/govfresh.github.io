@@ -50,15 +50,21 @@ layout: profile
                     </div>
                     {% endif %}
 
-        {% if page.bookshop %}
+                {% if page.bookshop %}
                     <p>
                         <a href="{{ page.bookshop }}" class="btn btn-primary">
                             Buy
                         </a>
                     </p>
+                    {% elsif page.amazon %}
+                    <p>
+                        <a href="{{ page.amazon }}" class="btn btn-primary">
+                            Buy
+                        </a>
+                    </p>
                     {% endif %}
 
-        {% if page.donate %}
+                {% if page.donate %}
                     <p>
                         <a href="{{ page.donate }}" class="btn btn-primary">
                             Support
@@ -66,11 +72,10 @@ layout: profile
                     </p>
                     {% endif %}
 
-        {% if page.parent == "labs" %}
+                 {% if page.parent == "labs" %}
                     <p>
                         <a href="{{ page.website }}" class="btn btn-primary">
-                            Visit
-            project
+                            Visit project
                         </a>
                     </p>
                     {% endif %}
