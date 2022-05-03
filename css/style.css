@@ -664,7 +664,7 @@ html:not(html.dark) .papers {
 }
 
 html:not(html.dark) .thoughts {
-    --color-1: #345d96;
+    --color-1: #345e98;
     --color-5: #4a77b4;
     --color-6: #ecf1f7;
     --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
