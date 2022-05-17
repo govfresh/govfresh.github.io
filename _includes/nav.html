@@ -43,12 +43,21 @@
             {% endfor %}
         </div>
         <div class="navbar-nav nav-icons ml-auto mt-auto">
-            <a class="nav-item nav-link" href="{{ site.baseurl }}/subscribe/">
-                <i class="fa-solid fa-envelope"></i>
+            {% if site.data.connect.linkedin %}
+            <a class="nav-item nav-link" aria-label="Subscribe" href="{{ site.baseurl }}/subscribe/">
+                <i class="{{ site.data.connect.subscribe }}"></i>
             </a>
-            <a class="nav-item nav-link" href="https://twitter.com/govfresh">
-                <i class="fab fa-twitter"></i>
+            {% endif %}
+            {% if site.data.connect.twitter %}
+            <a class="nav-item nav-link" aria-label="Twitter" href="https://twitter.com/govfresh">
+                <i class="{{ site.data.connect.twitter }}"></i>
             </a>
+            {% endif %}
+            {% if site.data.connect.linkedin %}
+            <a class="nav-item nav-link" href="https://www.linkedin.com/company/govfresh" aria-label="LinkedIn">
+                <i class="{{ site.data.connect.linkedin }}"></i>
+            </a>
+            {% endif %}
             <a class="nav-item nav-link" href="{{ site.baseurl }}/search/">
                 <i class="fas fa-search"></i>
             </a>
