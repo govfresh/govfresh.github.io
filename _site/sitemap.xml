@@ -81,8 +81,12 @@
 <lastmod>2022-04-26T17:04:25-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/dm/art-khomishen-designing-for-all-californians</loc>
+<lastmod>2022-06-14T11:41:03-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/dm/art-khomishen</loc>
-<lastmod>2022-06-11T20:04:33-07:00</lastmod>
+<lastmod>2022-06-14T11:41:03-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
@@ -467,6 +471,10 @@
 <url>
 <loc>http://localhost:4000/radar/federal-it-operating-plan-2022</loc>
 <lastmod>2022-06-14T11:18:50-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/radar/github-us-open-source-software-policy</loc>
+<lastmod>2022-06-14T12:33:16-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reviews/review-click-here-to-kill-everybody</loc>
