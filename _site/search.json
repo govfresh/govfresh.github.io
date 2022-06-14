@@ -2,6 +2,16 @@
   
     {
 
+      "title"    : "U.S. government releases 2022 federal IT operating plan",
+      "url"      : "/radar/federal-it-operating-plan-2022",
+      "category" : "DigitalOpenSecurity",
+      "tags"     : "",
+      "date"     : "2022-06-14 00:00:00 -0700"
+
+    } ,
+  
+    {
+
       "title"    : "Government, tech companies release open source software supply chain security modernization plan",
       "url"      : "/radar/open-source-security-summit-2",
       "category" : "CommunityDigitalOpenSecurity",

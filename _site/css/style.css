@@ -383,7 +383,6 @@ a.navbar-brand:hover {
     font-family: var(--font-2);
     font-size: var(--size-9);
     color: var(--color-2);
-    font-weight: var(--weight-1);
 }
 
 /* Cards */
@@ -506,7 +505,7 @@ blockquote {
 
 img {
     height: auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 .img {
@@ -669,14 +668,6 @@ html:not(html.dark) .thoughts {
     --color-6: #ecf1f7;
     --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
-}
-
-html:not(html.dark) .signal {
-    --color-1: #005ea2;
-    --color-5: #0076d6;
-    --color-6: #e8f5ff;
-    --gradient-1: linear-gradient(135deg, #005ea2 13%, #0076d6 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #e8f5ff 73%);
 }
 
 html:not(html.dark) .reviews {
@@ -856,7 +847,6 @@ a.btn-primary:hover, .categories a.nav-link:hover, .categories a.nav-link:hover 
 button.btn-link {
     color: var(--color-1);
     font-size: var(--size-7);
-    font-weight: var(--weight-2);
 
 }
 
@@ -1090,4 +1080,33 @@ html.dark .pagination>li>* {
 
 div.dark-toggle {
     display: inline;
+}
+
+/* DM */
+
+.post-dm h2 {
+    font-family: var(--font-1) !important;
+    font-size: var(--size-7) !important;
+    letter-spacing: normal !important;
+}
+
+.post-dm h3 {
+    background-color: var(--color-1);
+    border-radius: var(--size-4);
+    color: var(--color-4);
+    font-family: var(--font-1) !important;
+    font-size: var(--size-7) !important;
+    margin: var(--size-6) var(--size-1);
+    margin-left: var(--size-10);
+    padding: var(--size-9);
+}
+
+.post-dm p, .post-dm ul {
+    background-color: var(--color-6);
+    border-radius: var(--size-4);
+    font-family: var(--font-1) !important;
+    font-size: var(--size-7) !important;
+    margin: var(--size-6) var(--size-1);
+    margin-right: var(--size-10);
+    padding: var(--size-9);
 }

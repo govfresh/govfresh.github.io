@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/multiplied</loc>
-<lastmod>2022-05-20T12:08:02-07:00</lastmod>
+<lastmod>2022-05-20T12:10:06-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/open-organization</loc>
@@ -79,6 +79,10 @@
 <url>
 <loc>http://localhost:4000/books/working-in-public</loc>
 <lastmod>2022-04-26T17:04:25-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dm/art-khomishen-designing-for-all-californians</loc>
+<lastmod>2022-06-11T20:04:33-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
@@ -233,6 +237,10 @@
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/dm/</loc>
+<lastmod>2022-06-11T21:05:37-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/events/</loc>
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
 </url>
@@ -307,10 +315,6 @@
 <url>
 <loc>http://localhost:4000/services/</loc>
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/signal/</loc>
-<lastmod>2022-03-21T19:39:42-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/subscribe/</loc>
@@ -461,6 +465,10 @@
 <lastmod>2022-05-13T15:48:43-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/radar/federal-it-operating-plan-2022</loc>
+<lastmod>2022-06-14T11:18:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/reviews/review-click-here-to-kill-everybody</loc>
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
 </url>
@@ -566,6 +574,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/radar/2/</loc>
+<lastmod>2022-01-09T16:42:32-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/radar/3/</loc>
 <lastmod>2022-01-09T16:42:32-08:00</lastmod>
 </url>
 </urlset>

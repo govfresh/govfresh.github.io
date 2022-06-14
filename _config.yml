@@ -20,7 +20,7 @@ date: "%B %-d, %Y"
 timezone: America/Los_Angeles
 
 last-modified-at:
-    date-format: '%B %d, %Y at %I:%M %P %Z'
+  date-format: "%B %d, %Y at %I:%M %P %Z"
 
 # Number limits
 thoughts-number: 3
@@ -35,7 +35,7 @@ podcasts-number: 4
 labs-number: 3
 innovations-number: 4
 papers-number: 3
-signal-number: 3
+dm-number: 3
 
 # Defaults
 defaults:
@@ -49,13 +49,13 @@ defaults:
       layout: "review"
       short: "true"
   - scope:
-      path: "_signal"
-      type: "signal"
+      path: "_dm"
+      type: "dm"
     values:
-      folder: "Signal"
+      folder: "Direct message"
       img-path: "people"
-      parent: "signal"
-      layout: "signal"
+      parent: "dm"
+      layout: "dm"
       short: "true"
   - scope:
       path: "_thoughts"
@@ -174,19 +174,19 @@ defaults:
       type: ""
     values:
       folder: "Feeds"
-      img-path: 
+      img-path:
       parent: "feeds"
-      layout: 
-      short: 
+      layout:
+      short:
   - scope:
       path: ""
       type: ""
     values:
       folder: "Playlist"
-      img-path: 
+      img-path:
       parent: "playlist"
-      layout: 
-      short: 
+      layout:
+      short:
   - scope:
       path: "_papers"
       type: "papers"
@@ -220,9 +220,9 @@ collections:
   thoughts:
     output: true
     permalink: /thoughts/:title
-  signal:
+  dm:
     output: true
-    permalink: /signal/:title
+    permalink: /dm/:title
   events:
     output: true
     permalink: /event/:title

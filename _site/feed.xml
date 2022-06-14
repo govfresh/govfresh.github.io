@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-20T12:09:13-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Public service with and by the people.</subtitle><entry><title type="html">Government, tech companies release open source software supply chain security modernization plan</title><link href="http://localhost:4000/radar/open-source-security-summit-2" rel="alternate" type="text/html" title="Government, tech companies release open source software supply chain security modernization plan" /><published>2022-05-13T00:00:00-07:00</published><updated>2022-05-13T15:48:43-07:00</updated><id>http://localhost:4000/radar/open-source-security-summit-2</id><content type="html" xml:base="http://localhost:4000/radar/open-source-security-summit-2">&lt;p&gt;Government, technology companies and organizations convened for a second summit to move forward open source software security.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-14T11:18:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Public service with and by the people.</subtitle><entry><title type="html">U.S. government releases 2022 federal IT operating plan</title><link href="http://localhost:4000/radar/federal-it-operating-plan-2022" rel="alternate" type="text/html" title="U.S. government releases 2022 federal IT operating plan" /><published>2022-06-14T00:00:00-07:00</published><updated>2022-06-14T11:18:00-07:00</updated><id>http://localhost:4000/radar/federal-it-operating-plan-2022</id><content type="html" xml:base="http://localhost:4000/radar/federal-it-operating-plan-2022">&lt;p&gt;U.S. Chief Information Officer Clare Martorana &lt;a href=&quot;https://www.cio.gov/2022-06-10-it-ops-plan/&quot;&gt;announced&lt;/a&gt; the release of the 2022 federal government information technology plan.&lt;/p&gt;
+
+&lt;p&gt;Priorities include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cybersecurity&lt;/li&gt;
+  &lt;li&gt;IT modernization&lt;/li&gt;
+  &lt;li&gt;Digital-first customer experience&lt;/li&gt;
+  &lt;li&gt;Data as a strategic asset&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From the plan:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Technology powers the Federal Government’s ability to deliver on its mission. This Administration is leading a unified IT operating plan that centers on the American people and gives them a Government that understands who they are, what they need, and how best to deliver services to them efficiently, effectively, and equitably, with accessibility and respect.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cio.gov/assets/files/Federal-IT-Operating-Plan-June-2022.pdf&quot;&gt;2022 Federal IT Operating Plan&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;, &quot;Open&quot;, &quot;Security&quot;]" /><summary type="html">U.S. Chief Information Officer Clare Martorana announced the release of the 2022 federal government information technology plan.</summary></entry><entry><title type="html">Government, tech companies release open source software supply chain security modernization plan</title><link href="http://localhost:4000/radar/open-source-security-summit-2" rel="alternate" type="text/html" title="Government, tech companies release open source software supply chain security modernization plan" /><published>2022-05-13T00:00:00-07:00</published><updated>2022-05-13T15:48:43-07:00</updated><id>http://localhost:4000/radar/open-source-security-summit-2</id><content type="html" xml:base="http://localhost:4000/radar/open-source-security-summit-2">&lt;p&gt;Government, technology companies and organizations convened for a second summit to move forward open source software security.&lt;/p&gt;
 
 &lt;p&gt;A product of the summit was the release of a &lt;a href=&quot;https://openssf.org/oss-security-mobilization-plan/&quot;&gt;10-Point Open Source and Software Supply Chain Security Mobilization Plan&lt;/a&gt; (&lt;a href=&quot;https://cta-redirect.hubspot.com/cta/redirect/8112310/3b79d59d-e8d3-4c69-a67b-6b87b325313c&quot;&gt;PDF&lt;/a&gt;).&lt;/p&gt;
 
@@ -132,19 +149,4 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;As we look ahead to 2022, we’re in touch with another six states who plan on following Washington’s lead, bringing code originally developed in California to even more Americans in the next few months. We put together a playbook that documented some of what we learned this year as we built and shipped the DCVR Portal, and expect other states may find it instructive as they explore doing something similar to what we did in California.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">California Chief Technology Innovation Officer Rick Klau reports that 6.5 million residents have downloaded more than 11 million digital vaccine records from the state’s vaccine record portal.</summary></entry><entry><title type="html">CDO Council retrospects 2021, publishes data playbook</title><link href="http://localhost:4000/radar/cdo-council-2021-playbook" rel="alternate" type="text/html" title="CDO Council retrospects 2021, publishes data playbook" /><published>2022-01-03T00:00:00-08:00</published><updated>2022-01-09T16:42:32-08:00</updated><id>http://localhost:4000/radar/cdo-council-2021-playbook</id><content type="html" xml:base="http://localhost:4000/radar/cdo-council-2021-playbook">&lt;p&gt;The Federal Chief Data Officers Council &lt;a href=&quot;https://www.cdo.gov/news/celebrating-2021/&quot;&gt;shared&lt;/a&gt; its 2021 accomplishments and published a playbook to help CDOs “lead data-driven transformation” within their agencies.&lt;/p&gt;
-
-&lt;p&gt;From the playbook:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;CDOs must seize opportunities to leverage data as a strategic asset within their
-organization, otherwise, the CDO faces the risk of becoming a compliance driven
-position. The CDO should first focus on finding opportunities to promote
-the sharing and access of data within their agencies. They must build critical
-relationships and show value in the near-term through “quick wins,” as data
-governance and master data management programs take longer to implement
-and demonstrate results. It is a hard job with a value proposition not consistently
-appreciated and with challenges that are critical to overcome to properly serve their stakeholders and the American people.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://resources.data.gov/assets/documents/CDO_Playbook_2021.pdf&quot;&gt;Playbook&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Data&quot;, &quot;Digital&quot;]" /><summary type="html">The Federal Chief Data Officers Council shared its 2021 accomplishments and published a playbook to help CDOs “lead data-driven transformation” within their agencies.</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">California Chief Technology Innovation Officer Rick Klau reports that 6.5 million residents have downloaded more than 11 million digital vaccine records from the state’s vaccine record portal.</summary></entry></feed>
