@@ -1097,7 +1097,7 @@ div.dark-toggle {
     font-family: var(--font-1) !important;
     font-size: var(--size-7) !important;
     margin: var(--size-6) var(--size-1);
-    margin-left: var(--size-10);
+    margin-left: var(--size-9);
     padding: var(--size-9);
 }
 
@@ -1107,6 +1107,6 @@ div.dark-toggle {
     font-family: var(--font-1) !important;
     font-size: var(--size-7) !important;
     margin: var(--size-6) var(--size-1);
-    margin-right: var(--size-10);
+    margin-right: var(--size-9);
     padding: var(--size-9);
 }
