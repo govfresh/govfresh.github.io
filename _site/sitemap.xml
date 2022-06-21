@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/books/citizenville</loc>
+<lastmod>2022-06-21T11:59:21-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/books/civic-technologists-practice-guide</loc>
 <lastmod>2022-04-26T17:04:25-07:00</lastmod>
 </url>
@@ -90,7 +94,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/dm/angie-quirarte</loc>
-<lastmod>2022-06-17T10:02:44-07:00</lastmod>
+<lastmod>2022-06-17T10:03:03-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
