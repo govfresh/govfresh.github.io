@@ -4,7 +4,7 @@ title: "Review: The Premonition"
 description: "Michael Lewis takes on government's response to the COVID pandemic."
 author: Luke Fretwell
 book-title: "The Premonition"
-img: the-premonition.jpg
+img-feat: the-premonition.jpg
 book-author: Michael Lewis
 book-link: /the-premonition
 category:

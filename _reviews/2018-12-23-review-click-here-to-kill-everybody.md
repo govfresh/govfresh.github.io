@@ -4,7 +4,7 @@ title: "Review: Click Here to Kill Everybody"
 description: "The must-read security book for every government leader, elected and administrative."
 author: Luke Fretwell
 book-title: "Click Here to Kill Everybody: Security and Survival in a Hyper-connected World"
-img: click-here-to-kill-everybody.webp
+img-feat: click-here-to-kill-everybody.webp
 book-author: Bruce Schneier
 book-link: /click-here-to-kill-everybody
 category:

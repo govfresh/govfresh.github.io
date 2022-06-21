@@ -4,7 +4,7 @@ title: "Review: Dignity in a Digital Age"
 description: "Congressman Ro Khanna thinks different about the role of technology and democracy."
 author: Luke Fretwell
 book-title: "Dignity in a Digital Age: Making Tech Work for All of Us"
-img: dignity-in-a-digital-age.jpg
+img-feat: dignity-in-a-digital-age.jpg
 book-author: Ro Khanna
 book-link: /dignity-in-a-digital-age
 category:

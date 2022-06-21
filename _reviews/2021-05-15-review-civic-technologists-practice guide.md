@@ -4,7 +4,7 @@ title: "Review: A Civic Technologist's Practice Guide"
 description: "A must-read for the entire civic spectrum."
 author: Luke Fretwell
 book-title: "A Civic Technologist's Practice Guide"
-img: civic-technologists-practice-guide.webp
+img-feat: civic-technologists-practice-guide.webp
 book-author: Cyd Harrell
 book-link: /civic-technologists-practice-guide
 category:
