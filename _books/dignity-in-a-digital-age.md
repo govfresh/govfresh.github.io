@@ -14,4 +14,6 @@ category:
   - Digital
 ---
 
-Congressman Ro Khanna offers a revolutionary roadmap to facing America’s digital divide, offering greater economic prosperity to all. In Khanna’s vision, “just as people can move to technology, technology can move to people. People need not be compelled to move from one place to another to reap the benefits offered by technological progress” (from the foreword by Amartya Sen, Nobel Laureate in Economics).
+From the publisher:
+
+> Congressman Ro Khanna offers a revolutionary roadmap to facing America’s digital divide, offering greater economic prosperity to all. In Khanna’s vision, “just as people can move to technology, technology can move to people. People need not be compelled to move from one place to another to reap the benefits offered by technological progress” (from the foreword by Amartya Sen, Nobel Laureate in Economics).
