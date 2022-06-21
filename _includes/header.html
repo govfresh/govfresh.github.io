@@ -21,25 +21,25 @@
         <!-- Favicon -->
         {% include favicon.html %}
         <!-- Social media -->
-        <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+        <meta content="https://govfresh.com/{{ page.url }}" property="og:url">
         <meta content="website" property="og:type">
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:description" content="{{ page.description }}">
         {% if page.img-feat %}
-            <meta property="og:image" content="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
+            <meta content="https://govfresh.com/assets/img/{{ page.img-path }}/{{ page.img-feat }}" property="og:image">
         {% else %}
-            <meta property="og:image" content="{{ site.baseurl }}/assets/img/avatar.png">
+            <meta content="https://govfresh.com/assets/img/avatar.png" property="og:image">
         {% endif %}
         <!-- CSS -->
         {% include style.html %}
         <!-- Fonts -->
         {% include fonts.html %}
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-                <!--[if lt IE 9]>
+                                        <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-                <!-- SEO -->
+                                        <!-- SEO -->
         {% seo %}
     </head>
     <body class="{{ page.parent }}">
