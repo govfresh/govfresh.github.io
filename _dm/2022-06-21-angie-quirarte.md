@@ -1,7 +1,7 @@
 ---
 title: "Direct messaging: Angie Quirarte"
 date: 2022-06-21
-description: "GovFresh chats with Angie Quirarte."
+description: "Civic techie, bureaucracy hacker, dot connecter."
 author: Luke Fretwell
 pattern: circles
 name: Angie Quirarte
