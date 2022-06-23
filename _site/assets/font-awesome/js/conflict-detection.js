@@ -5,9 +5,10 @@
  */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory() :
-  typeof define === 'function' && define.amd ? define(factory) :
-  (factory());
-}(this, (function () { 'use strict';
+    typeof define === 'function' && define.amd ? define(factory) :
+      (factory());
+}(this, (function () {
+  'use strict';
 
   function ownKeys(object, enumerableOnly) {
     var keys = Object.keys(object);
@@ -99,11 +100,11 @@
   try {
     if (typeof window !== 'undefined') _WINDOW = window;
     if (typeof document !== 'undefined') _DOCUMENT = document;
-  } catch (e) {}
+  } catch (e) { }
 
   var _ref = _WINDOW.navigator || {},
-      _ref$userAgent = _ref.userAgent,
-      userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
+    _ref$userAgent = _ref.userAgent,
+    userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
   var WINDOW = _WINDOW;
   var DOCUMENT = _DOCUMENT;
   var IS_BROWSER = !!WINDOW.document;
@@ -127,14 +128,14 @@
     if (!loaded) DOCUMENT.addEventListener('DOMContentLoaded', listener);
   }
 
-  function domready (fn) {
+  function domready(fn) {
     if (!IS_DOM) return;
     loaded ? setTimeout(fn, 0) : functions.push(fn);
   }
 
-  function report (_ref) {
+  function report(_ref) {
     var nodesTested = _ref.nodesTested,
-        nodesFound = _ref.nodesFound;
+      nodesFound = _ref.nodesFound;
     var timedOutTests = {};
 
     for (var key in nodesFound) {
@@ -201,7 +202,7 @@
   var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
   function createCommonjsModule(fn, module) {
-  	return module = { exports: {} }, fn(module, module.exports), module.exports;
+    return module = { exports: {} }, fn(module, module.exports), module.exports;
   }
 
   var md5 = createCommonjsModule(function (module) {
@@ -645,16 +646,16 @@
 
   function pollUntil(_ref) {
     var _ref$fn = _ref.fn,
-        fn = _ref$fn === void 0 ? function () {
-      return true;
-    } : _ref$fn,
-        _ref$initialDuration = _ref.initialDuration,
-        initialDuration = _ref$initialDuration === void 0 ? 1 : _ref$initialDuration,
-        _ref$maxDuration = _ref.maxDuration,
-        maxDuration = _ref$maxDuration === void 0 ? WINDOW.FontAwesomeDetection.timeout : _ref$maxDuration,
-        _ref$showProgress = _ref.showProgress,
-        showProgress = _ref$showProgress === void 0 ? false : _ref$showProgress,
-        progressIndicator = _ref.progressIndicator;
+      fn = _ref$fn === void 0 ? function () {
+        return true;
+      } : _ref$fn,
+      _ref$initialDuration = _ref.initialDuration,
+      initialDuration = _ref$initialDuration === void 0 ? 1 : _ref$initialDuration,
+      _ref$maxDuration = _ref.maxDuration,
+      maxDuration = _ref$maxDuration === void 0 ? WINDOW.FontAwesomeDetection.timeout : _ref$maxDuration,
+      _ref$showProgress = _ref.showProgress,
+      showProgress = _ref$showProgress === void 0 ? false : _ref$showProgress,
+      progressIndicator = _ref.progressIndicator;
     return new Promise(function (resolve, reject) {
       // eslint-disable-line compat/compat
       function poll(duration, cumulativeDuration) {
@@ -886,7 +887,7 @@
 
   function setDoneResults(_ref2) {
     var nodesTested = _ref2.nodesTested,
-        nodesFound = _ref2.nodesFound;
+      nodesFound = _ref2.nodesFound;
     WINDOW.FontAwesomeDetection = WINDOW.FontAwesomeDetection || {};
     WINDOW.FontAwesomeDetection.nodesTested = nodesTested;
     WINDOW.FontAwesomeDetection.nodesFound = nodesFound;
@@ -894,7 +895,7 @@
   }
 
   function conflictDetection() {
-    var report$$1 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {};
+    var report$$1 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () { };
     var nodesTested = {
       conflict: {},
       noConflict: {}

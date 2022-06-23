@@ -1,13 +1,14 @@
 <div class="path" style="display: none;">{{include.path}}</div>
 <div class="svg"></div>
 <script>
-    const path = document.querySelector('div.path').innerText;
+    const path = document.querySelector("div.path").innerText;
     var req = new XMLHttpRequest();
-    req.open('GET', path, true);
-    req.onload = function(){
-        if (this.status>=200&&this.status<300){
+    req.open("GET", path, true);
+    req.onload = function () {
+        if (this.status >= 200 && this.status < 300) {
             var svg = this.response;
-            document.querySelector('div.svg').innerHTML = svg;}
+            document.querySelector("div.svg").innerHTML = svg;
+        }
     };
     req.send();
 </script>

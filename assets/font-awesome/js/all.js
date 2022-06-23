@@ -12,11 +12,11 @@
   try {
     if (typeof window !== 'undefined') _WINDOW = window;
     if (typeof document !== 'undefined') _DOCUMENT = document;
-  } catch (e) {}
+  } catch (e) { }
 
   var _ref = _WINDOW.navigator || {},
-      _ref$userAgent = _ref.userAgent,
-      userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
+    _ref$userAgent = _ref.userAgent,
+    userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
   var WINDOW = _WINDOW;
   var DOCUMENT = _DOCUMENT;
   var IS_BROWSER = !!WINDOW.document;
@@ -167,7 +167,7 @@
   function defineIcons(prefix, icons) {
     var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var _params$skipHooks = params.skipHooks,
-        skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
+      skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
     var normalized = normalizeIcons(icons);
 
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
@@ -668,11 +668,11 @@
   try {
     if (typeof window !== 'undefined') _WINDOW = window;
     if (typeof document !== 'undefined') _DOCUMENT = document;
-  } catch (e) {}
+  } catch (e) { }
 
   var _ref = _WINDOW.navigator || {},
-      _ref$userAgent = _ref.userAgent,
-      userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
+    _ref$userAgent = _ref.userAgent,
+    userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
   var WINDOW = _WINDOW;
   var DOCUMENT = _DOCUMENT;
   var IS_BROWSER = !!WINDOW.document;
@@ -823,7 +823,7 @@
   function defineIcons(prefix, icons) {
     var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var _params$skipHooks = params.skipHooks,
-        skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
+      skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
     var normalized = normalizeIcons(icons);
 
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
@@ -1024,11 +1024,11 @@
   try {
     if (typeof window !== 'undefined') _WINDOW = window;
     if (typeof document !== 'undefined') _DOCUMENT = document;
-  } catch (e) {}
+  } catch (e) { }
 
   var _ref = _WINDOW.navigator || {},
-      _ref$userAgent = _ref.userAgent,
-      userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
+    _ref$userAgent = _ref.userAgent,
+    userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
   var WINDOW = _WINDOW;
   var DOCUMENT = _DOCUMENT;
   var IS_BROWSER = !!WINDOW.document;
@@ -1179,7 +1179,7 @@
   function defineIcons(prefix, icons) {
     var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var _params$skipHooks = params.skipHooks,
-        skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
+      skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
     var normalized = normalizeIcons(icons);
 
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
@@ -2639,7 +2639,7 @@
     };
 
     var _super = RegExp.prototype,
-        _groups = new WeakMap();
+      _groups = new WeakMap();
 
     function BabelRegExp(re, flags, groups) {
       var _this = new RegExp(re, flags);
@@ -2823,7 +2823,7 @@
     throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
   }
 
-  var noop = function noop() {};
+  var noop = function noop() { };
 
   var _WINDOW = {};
   var _DOCUMENT = {};
@@ -2838,11 +2838,11 @@
     if (typeof document !== 'undefined') _DOCUMENT = document;
     if (typeof MutationObserver !== 'undefined') _MUTATION_OBSERVER = MutationObserver;
     if (typeof performance !== 'undefined') _PERFORMANCE = performance;
-  } catch (e) {}
+  } catch (e) { }
 
   var _ref = _WINDOW.navigator || {},
-      _ref$userAgent = _ref.userAgent,
-      userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
+    _ref$userAgent = _ref.userAgent,
+    userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
   var WINDOW = _WINDOW;
   var DOCUMENT = _DOCUMENT;
   var MUTATION_OBSERVER = _MUTATION_OBSERVER;
@@ -2964,8 +2964,8 @@
     var attrs = [['data-family-prefix', 'familyPrefix'], ['data-style-default', 'styleDefault'], ['data-replacement-class', 'replacementClass'], ['data-auto-replace-svg', 'autoReplaceSvg'], ['data-auto-add-css', 'autoAddCss'], ['data-auto-a11y', 'autoA11y'], ['data-search-pseudo-elements', 'searchPseudoElements'], ['data-observe-mutations', 'observeMutations'], ['data-mutate-approach', 'mutateApproach'], ['data-keep-original-source', 'keepOriginalSource'], ['data-measure-performance', 'measurePerformance'], ['data-show-missing-icons', 'showMissingIcons']];
     attrs.forEach(function (_ref) {
       var _ref2 = _slicedToArray(_ref, 2),
-          attr = _ref2[0],
-          key = _ref2[1];
+        attr = _ref2[0],
+        key = _ref2[1];
 
       var val = coerce(getAttrConfig(attr));
 
@@ -3111,8 +3111,8 @@
   }
   function transformForSvg(_ref) {
     var transform = _ref.transform,
-        containerWidth = _ref.containerWidth,
-        iconWidth = _ref.iconWidth;
+      containerWidth = _ref.containerWidth,
+      iconWidth = _ref.iconWidth;
     var outer = {
       transform: "translate(".concat(containerWidth / 2, " 256)")
     };
@@ -3133,12 +3133,12 @@
   }
   function transformForCss(_ref2) {
     var transform = _ref2.transform,
-        _ref2$width = _ref2.width,
-        width = _ref2$width === void 0 ? UNITS_IN_GRID : _ref2$width,
-        _ref2$height = _ref2.height,
-        height = _ref2$height === void 0 ? UNITS_IN_GRID : _ref2$height,
-        _ref2$startCentered = _ref2.startCentered,
-        startCentered = _ref2$startCentered === void 0 ? false : _ref2$startCentered;
+      _ref2$width = _ref2.width,
+      width = _ref2$width === void 0 ? UNITS_IN_GRID : _ref2$width,
+      _ref2$height = _ref2.height,
+      height = _ref2$height === void 0 ? UNITS_IN_GRID : _ref2$height,
+      _ref2$startCentered = _ref2.startCentered,
+      startCentered = _ref2$startCentered === void 0 ? false : _ref2$startCentered;
     var val = '';
 
     if (startCentered && IS_IE) {
@@ -3227,17 +3227,17 @@
     if (!loaded) DOCUMENT.addEventListener('DOMContentLoaded', listener);
   }
 
-  function domready (fn) {
+  function domready(fn) {
     if (!IS_DOM) return;
     loaded ? setTimeout(fn, 0) : functions.push(fn);
   }
 
   function toHtml(abstractNodes) {
     var tag = abstractNodes.tag,
-        _abstractNodes$attrib = abstractNodes.attributes,
-        attributes = _abstractNodes$attrib === void 0 ? {} : _abstractNodes$attrib,
-        _abstractNodes$childr = abstractNodes.children,
-        children = _abstractNodes$childr === void 0 ? [] : _abstractNodes$childr;
+      _abstractNodes$attrib = abstractNodes.attributes,
+      attributes = _abstractNodes$attrib === void 0 ? {} : _abstractNodes$attrib,
+      _abstractNodes$childr = abstractNodes.children,
+      children = _abstractNodes$childr === void 0 ? [] : _abstractNodes$childr;
 
     if (typeof abstractNodes === 'string') {
       return htmlEscape(abstractNodes);
@@ -3282,11 +3282,11 @@
 
   var reduce = function fastReduceObject(subject, fn, initialValue, thisContext) {
     var keys = Object.keys(subject),
-        length = keys.length,
-        iterator = thisContext !== undefined ? bindInternal4(fn, thisContext) : fn,
-        i,
-        key,
-        result;
+      length = keys.length,
+      iterator = thisContext !== undefined ? bindInternal4(fn, thisContext) : fn,
+      i,
+      key,
+      result;
 
     if (initialValue === undefined) {
       i = 1;
@@ -3392,7 +3392,7 @@
   function defineIcons(prefix, icons) {
     var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var _params$skipHooks = params.skipHooks,
-        skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
+      skipHooks = _params$skipHooks === void 0 ? false : _params$skipHooks;
     var normalized = normalizeIcons(icons);
 
     if (typeof namespace.hooks.addPack === 'function' && !skipHooks) {
@@ -3427,7 +3427,7 @@
   })];
 
   var styles = namespace.styles,
-      shims = namespace.shims;
+    shims = namespace.shims;
   var LONG_STYLE = Object.values(PREFIX_TO_LONG_STYLE);
   var _defaultUsablePrefix = null;
   var _byUnicode = {};
@@ -3582,7 +3582,7 @@
   function getCanonicalIcon(values) {
     var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     var _params$skipLookups = params.skipLookups,
-        skipLookups = _params$skipLookups === void 0 ? false : _params$skipLookups;
+      skipLookups = _params$skipLookups === void 0 ? false : _params$skipLookups;
     var givenPrefix = null;
     var canonical = values.reduce(function (acc, cls) {
       var iconName = getIconName(config.familyPrefix, cls);
@@ -3668,9 +3668,9 @@
         } : definition;
         Object.keys(normalized).map(function (key) {
           var _normalized$key = normalized[key],
-              prefix = _normalized$key.prefix,
-              iconName = _normalized$key.iconName,
-              icon = _normalized$key.icon;
+            prefix = _normalized$key.prefix,
+            iconName = _normalized$key.iconName,
+            icon = _normalized$key.icon;
           var aliases = icon[2];
           if (!additions[prefix]) additions[prefix] = {};
 
@@ -3870,7 +3870,7 @@
   var autoReplace = function autoReplace() {
     var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
     var _params$autoReplaceSv = params.autoReplaceSvgRoot,
-        autoReplaceSvgRoot = _params$autoReplaceSv === void 0 ? DOCUMENT : _params$autoReplaceSv;
+      autoReplaceSvgRoot = _params$autoReplaceSv === void 0 ? DOCUMENT : _params$autoReplaceSv;
     if ((Object.keys(namespace.styles).length > 0 || config.autoFetchSvg) && IS_DOM && config.autoReplaceSvg) api.dom.i2svg({
       node: autoReplaceSvgRoot
     });
@@ -3897,8 +3897,8 @@
       addPacks: function addPacks(packs) {
         packs.forEach(function (_ref) {
           var _ref2 = _slicedToArray(_ref, 2),
-              prefix = _ref2[0],
-              icons = _ref2[1];
+            prefix = _ref2[0],
+            icons = _ref2[1];
 
           namespace.styles[prefix] = _objectSpread2(_objectSpread2({}, namespace.styles[prefix] || {}), icons);
         });
@@ -3938,17 +3938,17 @@
     return val;
   }
 
-  function asIcon (_ref) {
+  function asIcon(_ref) {
     var children = _ref.children,
-        main = _ref.main,
-        mask = _ref.mask,
-        attributes = _ref.attributes,
-        styles = _ref.styles,
-        transform = _ref.transform;
+      main = _ref.main,
+      mask = _ref.mask,
+      attributes = _ref.attributes,
+      styles = _ref.styles,
+      transform = _ref.transform;
 
     if (transformIsMeaningful(transform) && main.found && !mask.found) {
       var width = main.width,
-          height = main.height;
+        height = main.height;
       var offset = {
         x: width / height / 2,
         y: 0.5
@@ -3965,12 +3965,12 @@
     }];
   }
 
-  function asSymbol (_ref) {
+  function asSymbol(_ref) {
     var prefix = _ref.prefix,
-        iconName = _ref.iconName,
-        children = _ref.children,
-        attributes = _ref.attributes,
-        symbol = _ref.symbol;
+      iconName = _ref.iconName,
+      children = _ref.children,
+      attributes = _ref.attributes,
+      symbol = _ref.symbol;
     var id = symbol === true ? "".concat(prefix, "-").concat(config.familyPrefix, "-").concat(iconName) : symbol;
     return [{
       tag: 'svg',
@@ -3989,22 +3989,22 @@
 
   function makeInlineSvgAbstract(params) {
     var _params$icons = params.icons,
-        main = _params$icons.main,
-        mask = _params$icons.mask,
-        prefix = params.prefix,
-        iconName = params.iconName,
-        transform = params.transform,
-        symbol = params.symbol,
-        title = params.title,
-        maskId = params.maskId,
-        titleId = params.titleId,
-        extra = params.extra,
-        _params$watchable = params.watchable,
-        watchable = _params$watchable === void 0 ? false : _params$watchable;
+      main = _params$icons.main,
+      mask = _params$icons.mask,
+      prefix = params.prefix,
+      iconName = params.iconName,
+      transform = params.transform,
+      symbol = params.symbol,
+      title = params.title,
+      maskId = params.maskId,
+      titleId = params.titleId,
+      extra = params.extra,
+      _params$watchable = params.watchable,
+      watchable = _params$watchable === void 0 ? false : _params$watchable;
 
     var _ref = mask.found ? mask : main,
-        width = _ref.width,
-        height = _ref.height;
+      width = _ref.width,
+      height = _ref.height;
 
     var isUploadedIcon = prefix === 'fak';
     var attrClass = [config.replacementClass, iconName ? "".concat(config.familyPrefix, "-").concat(iconName) : ''].filter(function (c) {
@@ -4060,8 +4060,8 @@
       children: [],
       attributes: {}
     },
-        children = _ref2.children,
-        attributes = _ref2.attributes;
+      children = _ref2.children,
+      attributes = _ref2.attributes;
 
     args.children = children;
     args.attributes = attributes;
@@ -4074,13 +4074,13 @@
   }
   function makeLayersTextAbstract(params) {
     var content = params.content,
-        width = params.width,
-        height = params.height,
-        transform = params.transform,
-        title = params.title,
-        extra = params.extra,
-        _params$watchable2 = params.watchable,
-        watchable = _params$watchable2 === void 0 ? false : _params$watchable2;
+      width = params.width,
+      height = params.height,
+      transform = params.transform,
+      title = params.title,
+      extra = params.extra,
+      _params$watchable2 = params.watchable,
+      watchable = _params$watchable2 === void 0 ? false : _params$watchable2;
 
     var attributes = _objectSpread2(_objectSpread2(_objectSpread2({}, extra.attributes), title ? {
       'title': title
@@ -4131,8 +4131,8 @@
   }
   function makeLayersCounterAbstract(params) {
     var content = params.content,
-        title = params.title,
-        extra = params.extra;
+      title = params.title,
+      extra = params.extra;
 
     var attributes = _objectSpread2(_objectSpread2(_objectSpread2({}, extra.attributes), title ? {
       'title': title
@@ -4172,8 +4172,8 @@
     var height = icon[1];
 
     var _icon$slice = icon.slice(4),
-        _icon$slice2 = _slicedToArray(_icon$slice, 1),
-        vectorData = _icon$slice2[0];
+      _icon$slice2 = _slicedToArray(_icon$slice, 1),
+      vectorData = _icon$slice2[0];
 
     var element = null;
 
@@ -4261,7 +4261,7 @@
     });
   }
 
-  var noop$1 = function noop() {};
+  var noop$1 = function noop() { };
 
   var p = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMANCE.measure ? PERFORMANCE : {
     mark: noop$1,
@@ -4286,7 +4286,7 @@
     end: end
   };
 
-  var noop$2 = function noop() {};
+  var noop$2 = function noop() { };
 
   function isWatched(node) {
     var i2svg = node.getAttribute ? node.getAttribute(DATA_FA_I2SVG) : null;
@@ -4323,7 +4323,7 @@
   function convertSVG(abstractObj) {
     var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     var _params$ceFn = params.ceFn,
-        ceFn = _params$ceFn === void 0 ? abstractObj.tag === 'svg' ? createElementNS : createElement : _params$ceFn;
+      ceFn = _params$ceFn === void 0 ? abstractObj.tag === 'svg' ? createElementNS : createElement : _params$ceFn;
 
     if (typeof abstractObj === 'string') {
       return DOCUMENT.createTextNode(abstractObj);
@@ -4454,13 +4454,13 @@
     }
 
     var _options$treeCallback = options.treeCallback,
-        treeCallback = _options$treeCallback === void 0 ? noop$2 : _options$treeCallback,
-        _options$nodeCallback = options.nodeCallback,
-        nodeCallback = _options$nodeCallback === void 0 ? noop$2 : _options$nodeCallback,
-        _options$pseudoElemen = options.pseudoElementsCallback,
-        pseudoElementsCallback = _options$pseudoElemen === void 0 ? noop$2 : _options$pseudoElemen,
-        _options$observeMutat = options.observeMutationsRoot,
-        observeMutationsRoot = _options$observeMutat === void 0 ? DOCUMENT : _options$observeMutat;
+      treeCallback = _options$treeCallback === void 0 ? noop$2 : _options$treeCallback,
+      _options$nodeCallback = options.nodeCallback,
+      nodeCallback = _options$nodeCallback === void 0 ? noop$2 : _options$nodeCallback,
+      _options$pseudoElemen = options.pseudoElementsCallback,
+      pseudoElementsCallback = _options$pseudoElemen === void 0 ? noop$2 : _options$pseudoElemen,
+      _options$observeMutat = options.observeMutationsRoot,
+      observeMutationsRoot = _options$observeMutat === void 0 ? DOCUMENT : _options$observeMutat;
     mo = new MUTATION_OBSERVER(function (objects) {
       if (disabled) return;
       var defaultPrefix = getDefaultUsablePrefix();
@@ -4480,8 +4480,8 @@
         if (mutationRecord.type === 'attributes' && isWatched(mutationRecord.target) && ~ATTRIBUTES_WATCHED_FOR_MUTATION.indexOf(mutationRecord.attributeName)) {
           if (mutationRecord.attributeName === 'class' && hasPrefixAndIcon(mutationRecord.target)) {
             var _getCanonicalIcon = getCanonicalIcon(classArray(mutationRecord.target)),
-                prefix = _getCanonicalIcon.prefix,
-                iconName = _getCanonicalIcon.iconName;
+              prefix = _getCanonicalIcon.prefix,
+              iconName = _getCanonicalIcon.iconName;
 
             mutationRecord.target.setAttribute(DATA_PREFIX, prefix || defaultPrefix);
             if (iconName) mutationRecord.target.setAttribute(DATA_ICON, iconName);
@@ -4504,7 +4504,7 @@
     mo.disconnect();
   }
 
-  function styleParser (node) {
+  function styleParser(node) {
     var style = node.getAttribute('style');
     var val = [];
 
@@ -4525,7 +4525,7 @@
     return val;
   }
 
-  function classParser (node) {
+  function classParser(node) {
     var existingPrefix = node.getAttribute('data-prefix');
     var existingIconName = node.getAttribute('data-icon');
     var innerText = node.innerText !== undefined ? node.innerText.trim() : '';
@@ -4551,7 +4551,7 @@
     return val;
   }
 
-  function attributesParser (node) {
+  function attributesParser(node) {
     var extraAttributes = toArray(node.attributes).reduce(function (acc, attr) {
       if (acc.name !== 'class' && acc.name !== 'style') {
         acc[attr.name] = attr.value;
@@ -4601,9 +4601,9 @@
     };
 
     var _classParser = classParser(node),
-        iconName = _classParser.iconName,
-        prefix = _classParser.prefix,
-        extraClasses = _classParser.rest;
+      iconName = _classParser.iconName,
+      prefix = _classParser.prefix,
+      extraClasses = _classParser.rest;
 
     var extraAttributes = attributesParser(node);
     var pluginMeta = chainHooks('parseNodeAttributes', {}, node);
@@ -4742,27 +4742,27 @@
   var render = function render(iconDefinition) {
     var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     var _params$transform = params.transform,
-        transform = _params$transform === void 0 ? meaninglessTransform : _params$transform,
-        _params$symbol = params.symbol,
-        symbol = _params$symbol === void 0 ? false : _params$symbol,
-        _params$mask = params.mask,
-        mask = _params$mask === void 0 ? null : _params$mask,
-        _params$maskId = params.maskId,
-        maskId = _params$maskId === void 0 ? null : _params$maskId,
-        _params$title = params.title,
-        title = _params$title === void 0 ? null : _params$title,
-        _params$titleId = params.titleId,
-        titleId = _params$titleId === void 0 ? null : _params$titleId,
-        _params$classes = params.classes,
-        classes = _params$classes === void 0 ? [] : _params$classes,
-        _params$attributes = params.attributes,
-        attributes = _params$attributes === void 0 ? {} : _params$attributes,
-        _params$styles = params.styles,
-        styles = _params$styles === void 0 ? {} : _params$styles;
+      transform = _params$transform === void 0 ? meaninglessTransform : _params$transform,
+      _params$symbol = params.symbol,
+      symbol = _params$symbol === void 0 ? false : _params$symbol,
+      _params$mask = params.mask,
+      mask = _params$mask === void 0 ? null : _params$mask,
+      _params$maskId = params.maskId,
+      maskId = _params$maskId === void 0 ? null : _params$maskId,
+      _params$title = params.title,
+      title = _params$title === void 0 ? null : _params$title,
+      _params$titleId = params.titleId,
+      titleId = _params$titleId === void 0 ? null : _params$titleId,
+      _params$classes = params.classes,
+      classes = _params$classes === void 0 ? [] : _params$classes,
+      _params$attributes = params.attributes,
+      attributes = _params$attributes === void 0 ? {} : _params$attributes,
+      _params$styles = params.styles,
+      styles = _params$styles === void 0 ? {} : _params$styles;
     if (!iconDefinition) return;
     var prefix = iconDefinition.prefix,
-        iconName = iconDefinition.iconName,
-        icon = iconDefinition.icon;
+      iconName = iconDefinition.iconName,
+      icon = iconDefinition.icon;
     return domVariants(_objectSpread2({
       type: 'icon'
     }, iconDefinition), function () {
@@ -4823,22 +4823,22 @@
     provides: function provides(providers$$1) {
       providers$$1.i2svg = function (params) {
         var _params$node = params.node,
-            node = _params$node === void 0 ? DOCUMENT : _params$node,
-            _params$callback = params.callback,
-            callback = _params$callback === void 0 ? function () {} : _params$callback;
+          node = _params$node === void 0 ? DOCUMENT : _params$node,
+          _params$callback = params.callback,
+          callback = _params$callback === void 0 ? function () { } : _params$callback;
         return onTree(node, callback);
       };
 
       providers$$1.generateSvgReplacementMutation = function (node, nodeMeta) {
         var iconName = nodeMeta.iconName,
-            title = nodeMeta.title,
-            titleId = nodeMeta.titleId,
-            prefix = nodeMeta.prefix,
-            transform = nodeMeta.transform,
-            symbol = nodeMeta.symbol,
-            mask = nodeMeta.mask,
-            maskId = nodeMeta.maskId,
-            extra = nodeMeta.extra;
+          title = nodeMeta.title,
+          titleId = nodeMeta.titleId,
+          prefix = nodeMeta.prefix,
+          transform = nodeMeta.transform,
+          symbol = nodeMeta.symbol,
+          mask = nodeMeta.mask,
+          maskId = nodeMeta.maskId,
+          extra = nodeMeta.extra;
         return new Promise(function (resolve, reject) {
           Promise.all([findIcon(iconName, prefix), mask.iconName ? findIcon(mask.iconName, mask.prefix) : Promise.resolve({
             found: false,
@@ -4847,8 +4847,8 @@
             icon: {}
           })]).then(function (_ref) {
             var _ref2 = _slicedToArray(_ref, 2),
-                main = _ref2[0],
-                mask = _ref2[1];
+              main = _ref2[0],
+              mask = _ref2[1];
 
             resolve([node, makeInlineSvgAbstract({
               icons: {
@@ -4871,10 +4871,10 @@
 
       providers$$1.generateAbstractIcon = function (_ref3) {
         var children = _ref3.children,
-            attributes = _ref3.attributes,
-            main = _ref3.main,
-            transform = _ref3.transform,
-            styles = _ref3.styles;
+          attributes = _ref3.attributes,
+          main = _ref3.main,
+          transform = _ref3.transform,
+          styles = _ref3.styles;
         var styleString = joinStyles(styles);
 
         if (styleString.length > 0) {
@@ -4907,7 +4907,7 @@
         layer: function layer(assembler) {
           var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
           var _params$classes = params.classes,
-              classes = _params$classes === void 0 ? [] : _params$classes;
+            classes = _params$classes === void 0 ? [] : _params$classes;
           return domVariants({
             type: 'layer'
           }, function () {
@@ -4940,13 +4940,13 @@
         counter: function counter(content) {
           var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
           var _params$title = params.title,
-              title = _params$title === void 0 ? null : _params$title,
-              _params$classes = params.classes,
-              classes = _params$classes === void 0 ? [] : _params$classes,
-              _params$attributes = params.attributes,
-              attributes = _params$attributes === void 0 ? {} : _params$attributes,
-              _params$styles = params.styles,
-              styles = _params$styles === void 0 ? {} : _params$styles;
+            title = _params$title === void 0 ? null : _params$title,
+            _params$classes = params.classes,
+            classes = _params$classes === void 0 ? [] : _params$classes,
+            _params$attributes = params.attributes,
+            attributes = _params$attributes === void 0 ? {} : _params$attributes,
+            _params$styles = params.styles,
+            styles = _params$styles === void 0 ? {} : _params$styles;
           return domVariants({
             type: 'counter',
             content: content
@@ -4976,15 +4976,15 @@
         text: function text(content) {
           var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
           var _params$transform = params.transform,
-              transform = _params$transform === void 0 ? meaninglessTransform : _params$transform,
-              _params$title = params.title,
-              title = _params$title === void 0 ? null : _params$title,
-              _params$classes = params.classes,
-              classes = _params$classes === void 0 ? [] : _params$classes,
-              _params$attributes = params.attributes,
-              attributes = _params$attributes === void 0 ? {} : _params$attributes,
-              _params$styles = params.styles,
-              styles = _params$styles === void 0 ? {} : _params$styles;
+            transform = _params$transform === void 0 ? meaninglessTransform : _params$transform,
+            _params$title = params.title,
+            title = _params$title === void 0 ? null : _params$title,
+            _params$classes = params.classes,
+            classes = _params$classes === void 0 ? [] : _params$classes,
+            _params$attributes = params.attributes,
+            attributes = _params$attributes === void 0 ? {} : _params$attributes,
+            _params$styles = params.styles,
+            styles = _params$styles === void 0 ? {} : _params$styles;
           return domVariants({
             type: 'text',
             content: content
@@ -5010,8 +5010,8 @@
     provides: function provides(providers$$1) {
       providers$$1.generateLayersText = function (node, nodeMeta) {
         var title = nodeMeta.title,
-            transform = nodeMeta.transform,
-            extra = nodeMeta.extra;
+          transform = nodeMeta.transform,
+          extra = nodeMeta.extra;
         var width = null;
         var height = null;
 
@@ -5081,8 +5081,8 @@
         var prefix = ~['Solid', 'Regular', 'Light', 'Thin', 'Duotone', 'Brands', 'Kit'].indexOf(fontFamily[2]) ? STYLE_TO_PREFIX[fontFamily[2].toLowerCase()] : FONT_WEIGHT_TO_PREFIX[fontWeight];
 
         var _hexValueFromContent = hexValueFromContent(_content),
-            hexValue = _hexValueFromContent.value,
-            isSecondary = _hexValueFromContent.isSecondary;
+          hexValue = _hexValueFromContent.value,
+          isSecondary = _hexValueFromContent.isSecondary;
 
         var isV4 = fontFamily[0].startsWith('FontAwesome');
         var iconName = byUnicode(prefix, hexValue);
@@ -5182,7 +5182,7 @@
     provides: function provides(providers$$1) {
       providers$$1.pseudoElements2svg = function (params) {
         var _params$node = params.node,
-            node = _params$node === void 0 ? DOCUMENT : _params$node;
+          node = _params$node === void 0 ? DOCUMENT : _params$node;
 
         if (config.searchPseudoElements) {
           searchPseudoElements(node);
@@ -5315,9 +5315,9 @@
     provides: function provides(providers) {
       providers.generateAbstractTransformGrouping = function (_ref) {
         var main = _ref.main,
-            transform = _ref.transform,
-            containerWidth = _ref.containerWidth,
-            iconWidth = _ref.iconWidth;
+          transform = _ref.transform,
+          containerWidth = _ref.containerWidth,
+          iconWidth = _ref.iconWidth;
         var outer = {
           transform: "translate(".concat(containerWidth / 2, " 256)")
         };
@@ -5399,15 +5399,15 @@
     provides: function provides(providers) {
       providers.generateAbstractMask = function (_ref) {
         var children = _ref.children,
-            attributes = _ref.attributes,
-            main = _ref.main,
-            mask = _ref.mask,
-            explicitMaskId = _ref.maskId,
-            transform = _ref.transform;
+          attributes = _ref.attributes,
+          main = _ref.main,
+          mask = _ref.mask,
+          explicitMaskId = _ref.maskId,
+          transform = _ref.transform;
         var mainWidth = main.width,
-            mainPath = main.icon;
+          mainPath = main.icon;
         var maskWidth = mask.width,
-            maskPath = mask.icon;
+          maskPath = mask.icon;
         var trans = transformForSvg({
           transform: transform,
           containerWidth: maskWidth,

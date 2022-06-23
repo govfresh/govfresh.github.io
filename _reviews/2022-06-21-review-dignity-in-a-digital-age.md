@@ -9,6 +9,7 @@ book-author: Ro Khanna
 book-link: /dignity-in-a-digital-age
 category:
   - Digital
+feature: "true"
 ---
 
 When Gavin Newsom published “[Citizenville](https://govfresh.com/books/citizenville)” in 2014, it solidified him as a politician legitimately in touch with digital democracy. This, at a time when not many politicians or political leaders were knowledgeable and well-versed on the powerful combination of civics and technology.

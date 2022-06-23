@@ -11,22 +11,22 @@ layout: thoughts
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 {% if page.img %}
-                <div class="img">
-                    <div class="fancy-feat">
-                        {{ page.img }}
-                    </div>
-                    {% if page.img-caption %}
-                    <p class="img-caption">
-                        {% if page.img-link %}
-                        <a href="{{ site.baseurl }}{{ page.img-link }}">
-                            {% endif %}
-                            {{ page.img-caption }}
-                            {% if page.img-link %}
-                        </a>
+                    <div class="img">
+                        <div class="fancy-feat">
+                            {{ page.img }}
+                        </div>
+                        {% if page.img-caption %}
+                            <p class="img-caption">
+                                {% if page.img-link %}
+                                    <a href="{{ site.baseurl }}{{ page.img-link }}">
+                                    {% endif %}
+                                    {{ page.img-caption }}
+                                    {% if page.img-link %}
+                                    </a>
+                                {% endif %}
+                            </p>
                         {% endif %}
-                    </p>
-                    {% endif %}
-                </div>
+                    </div>
                 {% endif %}
                 <div class="post">
                     {{ content }}
@@ -39,26 +39,21 @@ layout: thoughts
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-none d-lg-block text-center">
                 {% if page.author %}
-                {% for author in page.author %}
-                {% assign author_data = site.people | where:"title", author | first %}
-                {% if author_data.content.size > 1 %}
-                    {% if author_data.img %}
-                <div class="img">
-                    <img
-                        src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
-                        alt="Photo of {{ author_data.title }}"
-                        title="{{ author_data.title }} headshot"
-                        class="xs rounded-circle"
-                    >
-                </div>
-                {% endif %}
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
-                    </li>
-                </ul>
-                {% endif %}
-                {% endfor %}
+                    {% for author in page.author %}
+                        {% assign author_data = site.people | where:"title", author | first %}
+                        {% if author_data.content.size > 1 %}
+                            {% if author_data.img %}
+                                <div class="img">
+                                    <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}" title="{{ author_data.title }} headshot" class="xs rounded-circle">
+                                </div>
+                            {% endif %}
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
+                                </li>
+                            </ul>
+                        {% endif %}
+                    {% endfor %}
                 {% endif %}
             </div>
         </div>

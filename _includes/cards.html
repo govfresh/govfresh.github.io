@@ -9,16 +9,17 @@
     {% else %}
         {% assign title = page.title %}
     {% endif %}
-    <!-- Books -->
-            <!-- Books secondary -->
     {% if pull == "books" %}
+        <!-- Books -->
+                    <!-- Books secondary -->
         <div class="preview-include">
             <div class="card-deck">
                 {% assign limit = site.books-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for x in site.books %}
                     {% assign item = x %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -54,14 +55,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Radar -->
-                        <!-- Radar secondary -->
         {% if pull == "radar" %}
+            <!-- Radar -->
+                                <!-- Radar secondary -->
             <div class="card-deck">
                 {% assign limit = site.radar-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.posts %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -95,14 +97,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Thoughts -->
-                        <!-- Thoughts secondary -->
         {% if pull == "thoughts" %}
+            <!-- Thoughts -->
+                                <!-- Thoughts secondary -->
             <div class="card-deck clean">
                 {% assign limit = site.thoughts-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.thoughts reversed %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -147,14 +150,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Gamechangers -->
         {% if pull == "gamechangers" %}
+            <!-- Gamechangers -->
             <div class="card-deck clean randomize">
                 {% assign limit = site.gamechangers-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.gamechangers %}
                     <!-- Gamechangers secondary -->
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -194,14 +198,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Signal -->
         {% if pull == "signal" %}
+            <!-- Signal -->
             <div class="card-deck clean randomize">
                 {% assign limit = site.signal-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.signal %}
                     <!-- Signal secondary -->
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -240,14 +245,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Reviews -->
-                        <!-- Reviews secondary -->
         {% if pull == "reviews" %}
+            <!-- Reviews -->
+                                <!-- Reviews secondary -->
             <div class="card-deck book">
                 {% assign limit = site.reviews-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.reviews reversed %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -282,14 +288,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Events -->
-                        <!-- Events secondary -->
         {% if pull == "events" %}
+            <!-- Events -->
+                                <!-- Events secondary -->
             <div class="card-deck randomize">
                 {% assign limit = site.events-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.events %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -343,14 +350,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Pitches -->
-                        <!-- Pitches secondary -->
         {% if pull == "pitches" %}
+            <!-- Pitches -->
+                                <!-- Pitches secondary -->
             <div class="card-deck clean randomize">
                 {% assign limit = site.pitches-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.pitches %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -380,14 +388,15 @@
                 {% endfor %}
             </div>
         {% endif %}
-        <!-- Podcasts -->
-                        <!-- Podcasts secondary -->
         {% if pull == "podcasts" %}
+            <!-- Podcasts -->
+                                <!-- Podcasts secondary -->
             <div class="card-deck randomize">
                 {% assign limit = site.podcasts-number | plus:0 %}
                 {% assign amount = 1 %}
                 {% for item in site.podcasts %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
+            limit > amount and title != item.title %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-body">
@@ -422,14 +431,15 @@
             {% assign amount = amount | plus:1 %}
         {% endfor %}
     {% endif %}
-    <!-- Orgs -->
-        <!-- Orgs secondary -->
     {% if pull == "orgs" %}
+        <!-- Orgs -->
+                            <!-- Orgs secondary -->
         <div class="card-deck randomize">
             {% assign limit = site.orgs-number | plus:0 %}
             {% assign amount = 1 %}
             {% for item in site.orgs %}
-                {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
+                and limit > amount and title != item.title %}
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
                             <div class="card-body">
@@ -462,14 +472,15 @@
             {% endfor %}
         </div>
     {% endif %}
-    <!-- Labs -->
-        <!-- Labs secondary -->
     {% if pull == "labs" %}
+        <!-- Labs -->
+                            <!-- Labs secondary -->
         <div class="card-deck clean">
             {% assign limit = site.labs-number | plus:0 %}
             {% assign amount = 1 %}
             {% for item in site.labs %}
-                {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
+                and limit > amount and title != item.title %}
                     {% assign amount = amount | plus:1 %}
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                         <div class="card">
@@ -504,14 +515,15 @@
             {% endfor %}
         </div>
     {% endif %}
-    <!-- Innovations -->
-        <!-- Innovations secondary -->
     {% if pull == "innovations" %}
+        <!-- Innovations -->
+                            <!-- Innovations secondary -->
         <div class="card-deck randomize">
             {% assign limit = site.innovations-number | plus:0 %}
             {% assign amount = 1 %}
             {% for item in site.innovations %}
-                {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
+                {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
+                and limit > amount and title != item.title %}
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
                             <div class="card-body">
@@ -545,8 +557,8 @@
             {% endfor %}
         </div>
     {% endif %}
-    <!-- TLDR -->
     {% if pull == "tldr" %}
+        <!-- TLDR -->
         <h2>TL;DR</h2>
         <p class="lead">Too long, didn't read</p>
         <div class="card-deck clean">
@@ -567,8 +579,8 @@
             {% endfor %}
         </div>
     {% endif %}
-    <!-- Feeds -->
     {% if pull == "feeds" %}
+        <!-- Feeds -->
         <div class="col-12">
             <div class="card-deck">
                 {% for item in site.data.feeds.docs %}
@@ -591,6 +603,31 @@
                     </div>
                 {% endfor %}
             </div>
+        </div>
+    {% endif %}
+    {% if pull == "dm" %}
+        <!-- DM -->
+        <div class="card-deck clean">
+            {% assign limit = site.dm-number | plus:0 %}
+            {% assign amount = 1 %}
+            {% for item in site.dm reversed %}
+                {% if item.title != page.title %}
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body fancy-2">
+                                {% if item.img-feat %}
+                                    <img class="card-img-top sm shadow rounded-circle line lg" type="Direct message" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                                {% endif %}
+                                <h2 class="h3">
+                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.name }}</a>
+                                </h2>
+                                <p class="description">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% assign amount = amount | plus:1 %}
+            {% endfor %}
         </div>
     {% endif %}
 </div>

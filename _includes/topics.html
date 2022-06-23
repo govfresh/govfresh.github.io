@@ -1,17 +1,17 @@
 {% if page.categories %}
-{% if post %}
-{% assign categories = post.categories %}
-{% else %}
-{% assign categories = page.categories %}
-{% endif %}
-<ul class="list-group list-group-horizontal">
-    {% for category in categories %}
-    <li class="list-group-item">
-        <small>
-            <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="">{{ category }}</a>
-        </small>
-    </li>
-    {% unless forloop.last %}{% endunless %}
+    {% if post %}
+        {% assign categories = post.categories %}
+    {% else %}
+        {% assign categories = page.categories %}
+    {% endif %}
+    <ul class="list-group list-group-horizontal">
+        {% for category in categories %}
+            <li class="list-group-item">
+                <small>
+                    <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="">{{ category }}</a>
+                </small>
+            </li>
+            {% unless forloop.last %}{% endunless %}
         {% endfor %}
-</ul>
+    </ul>
 {% endif %}

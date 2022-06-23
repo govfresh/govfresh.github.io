@@ -6,40 +6,54 @@ layout: home
 {% include nav.html %}
 <main>
     <!-- Jumbotron -->
-    <!--{% include jumbotron.html %}-->
-    <!-- Previews -->
+                                                                                                                                                        <!--{% include jumbotron.html %}-->
+                                                                                                                                                        <!-- Previews -->
     <div class="container-fluid">
         <div class="home-include">
             <div class="preview general feature">
                 <div class="row">
-                    {% assign item = site.thoughts | where: "feature", "true" | reverse | first %}
+                    {% assign review = site.reviews | where: "feature", "true" | reverse | first %}
+                    {% assign thought = site.thoughts | where: "feature", "true" | reverse | first %}
+                    {% assign reviewDate = review.date | date: "%Y%j" | plus:0 %}
+                    {% assign thoughtDate = thought.date | date: "%Y%j" | plus:0 %}
+                    {% if reviewDate < thoughtDate %}
+                        {% assign item = thought %}
+                    {% else %}
+                        {% assign item = review %}
+                    {% endif %}
                     <div class="col-sm-1"></div>
-                    <div class="col-sm-4">
-                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
-                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img }}</a>
+
+                    {% if item == thought %}
+                        <div class="col-sm-4 ">
+                            <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
+                                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img }}</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-5">
-                        <!--<span class="badge badge-light">Feature</span>-->
+                    {% else %}
+                        <div class="col-sm-3 text-center">
+                            <img alt="{{ item.title }} cover image" class="shadow md" src="assets/img/{{ review.img-path }}/{{ review.img-feat }}">
+                        </div>
+                    {% endif %}
+                    <div class="col-sm-
+                                                                                                            {% if item==thought %}
+                                                                                                            6
+                                                                                                            {%else%}
+                                                                                                            8
+                                                                                                            {% endif %} col-lg-5">
                         <h2 class="big">
                             <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
                         </h2>
                         <p>{{ item.description }}</p>
                         {% if item.author %}
-                        <p>
-                            {% assign author_data = site.people | where:"title", item.author | first %}
-                            {% if author_data.img %}
-                            <div class="img">
-                                <img
-                                    src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
-                                    alt="Photo of {{ author_data.title }}"
-                                    title="{{ author_data.title }} headshot"
-                                    class="xxs rounded-circle mr-2"
-                                >
-                                <span class="small">{{ item.author }}</span>
-                            </div>
-                            {% endif %}
-                        </p>
+                            <p>
+                                {% assign author_data = site.people | where:"title", item.author | first %}
+                                {% if author_data.img %}
+                                    <div class="img">
+                                        <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}" title="{{ author_data.title }} headshot" class="xxs rounded-circle mr-2">
+                                        <span class="small">{{ item.author }}</span>
+                                    </div>
+                                {% endif %}
+                            </p>
                         {% endif %}
                     </div>
                     <div class="col-sm-1"></div>
