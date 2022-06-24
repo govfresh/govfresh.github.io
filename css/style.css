@@ -65,8 +65,8 @@
     --color-5: #b548ff;
     --color-6: #f7ecff;
     --color-7: #757575;
-    --gradient-1: linear-gradient(135deg, rgba(91, 2, 156, 1) 13%, rgba(181, 72, 255, 1) 73%);
-    --gradient-2: linear-gradient(135deg, rgba(255, 255, 255, 0.15168065517222518) 13%, rgba(181, 72, 255, 0.05644264541754207) 73%);
+    --gradient-1: linear-gradient(135deg, #5b029c 13%, #b548ff 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff27 13%, #b548ff0e 73%);
     --font-1: "Public Sans Regular", sans-serif;
     --font-2: "Lora", serif;
     --font-3: "Public Sans Extra Bold", sans-serif;
@@ -485,6 +485,10 @@ blockquote {
     border-color: var(--color-1);
 }
 
+.pagination .page-item:not(.active)>* {
+    border-color: var(--color-3) !important;
+}
+
 .pagination a {
     text-decoration: none;
     color: var(--color-2);
@@ -672,7 +676,15 @@ html:not(html.dark) .thoughts {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
 }
 
-html:not(html.dark) .reviews {
+html.dark .thoughts {
+    --color-1: #6791cb;
+    --color-5: #4a77b5;
+    --color-6: #080c12;
+    --gradient-1: linear-gradient(135deg, var(--color-1) 13%, var(--color-5) 73%);
+    --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
+}
+
+html .reviews {
     --color-1: #0e4f5c;
     --color-5: #6499af;
     --color-6: #e7f2f5;
@@ -680,7 +692,15 @@ html:not(html.dark) .reviews {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #e7f2f5 73%);
 }
 
-html:not(html.dark) .radar {
+html.dark .reviews {
+    --color-1: #75aeb9;
+    --color-5: #38677b;
+    --color-6: #0b1619;
+    --gradient-1: linear-gradient(135deg, var(--color-1) 13%, var(--color-5) 73%);
+    --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
+}
+
+html .radar {
     --color-1: #b50909;
     --color-5: #e52207;
     --color-6: #fde0db;
@@ -688,12 +708,26 @@ html:not(html.dark) .radar {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #fde0db 73%);
 }
 
-html:not(html.dark) .gamechangers {
+html.dark .radar {
+    --color-1: #d41515;
+    --color-5: #d12913;
+    --color-6: #220702;
+    --gradient-1: linear-gradient(135deg, #b50909 13%, #e52207 73%);
+    --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
+}
+
+html .gamechangers {
     --color-1: #7a591a;
     --color-5: #c2850c;
     --color-6: #fef0c8;
     --gradient-1: linear-gradient(135deg, #7a591a 13%, #c2850c 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #fef0c8 73%);
+}
+
+html.dark .gamechangers {
+    --color-1: #a76f07;
+    --color-6: #372901;
+    --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
 }
 
 html:not(html.dark) .evergreen {

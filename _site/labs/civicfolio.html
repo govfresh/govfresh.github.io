@@ -74,11 +74,11 @@
 <meta property="og:url" content="http://localhost:4000/labs/civicfolio" />
 <meta property="og:site_name" content="GovFresh" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-06-24T09:03:40-07:00" />
+<meta property="article:published_time" content="2022-06-24T10:13:56-07:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CivicFolio" />
 <script type="application/ld+json">
-{"headline":"CivicFolio","dateModified":"2022-01-26T21:05:46-08:00","datePublished":"2022-06-24T09:03:40-07:00","url":"http://localhost:4000/labs/civicfolio","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/labs/civicfolio"},"description":"A portfolio website theme for civic technologists.","@context":"https://schema.org"}</script>
+{"headline":"CivicFolio","dateModified":"2022-01-26T21:05:46-08:00","datePublished":"2022-06-24T10:13:56-07:00","url":"http://localhost:4000/labs/civicfolio","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/labs/civicfolio"},"description":"A portfolio website theme for civic technologists.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     </head>
@@ -162,7 +162,7 @@
             <a class="nav-item nav-link" href="/search/">
                 <i class="fas fa-search"></i>
             </a>
-            <!--<div class="dark-toggle nav-item nav-link"></div>-->
+            <div class="dark-toggle nav-item nav-link"></div>
         </div>
     </div>
 </nav>
@@ -5565,19 +5565,40 @@
 <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<!--<script>
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches&&localStorage.getItem('color-theme')=='dark'){
-        document.querySelector('html').setAttribute('class','dark');
-        document.querySelector('div.dark-toggle').innerHTML = '<i class="fa-solid fa-sun"></i>';
-        localStorage.setItem('color-theme', 'dark');
+<script>
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches && localStorage.getItem("color-theme") == "dark") {
+        document.querySelector("html").setAttribute("class", "dark");
+        document.querySelector("div.dark-toggle").innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
+        localStorage.setItem("color-theme", "dark");
     }
-    document.querySelector('div.dark-toggle').onclick = function () {
-        document.querySelector('div.dark-toggle').innerHTML = (document.querySelector('div.dark-toggle').innerHTML.includes('sun')) ? '<i class="fa-solid fa-moon"></i>':'<i class="fa-solid fa-sun"></i>';
-        document.querySelector('html').classList.toggle('dark');
-        localStorage.setItem('color-theme', document.querySelector('html').classList.contains('dark') ? 'dark' : 'light');
+    document.querySelector("div.dark-toggle").onclick = function () {
+        document.querySelector("div.dark-toggle").innerHTML = (document
+            .querySelector("div.dark-toggle")
+            .innerHTML
+            .includes("sun"))
+                ? "<i class=\"fa-solid fa-moon\"></i>"
+                : "<i class=\"fa-solid fa-sun\"></i>";
+        document
+            .querySelector("html")
+            .classList
+            .toggle("dark");
+        localStorage.setItem(
+                "color-theme",
+                document
+                    .querySelector("html")
+                    .classList
+                    .contains("dark")
+                    ? "dark"
+                    : "light"
+            );
     }
-    document.querySelector('html').classList.add(localStorage.getItem('color-theme'));
-    document.querySelector('div.dark-toggle').innerHTML = (localStorage.getItem('color-theme')=='light') ? '<i class="fa-solid fa-moon"></i>':'<i class="fa-solid fa-sun"></i>';
-</script>-->
+    document
+        .querySelector("html")
+        .classList
+        .add(localStorage.getItem("color-theme"));
+    document.querySelector("div.dark-toggle").innerHTML = (localStorage.getItem("color-theme") == "light")
+        ? "<i class=\"fa-solid fa-moon\"></i>"
+        : "<i class=\"fa-solid fa-sun\"></i>";
+</script>
 </body>
 </html>

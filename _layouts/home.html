@@ -6,8 +6,8 @@ layout: home
 {% include nav.html %}
 <main>
     <!-- Jumbotron -->
-                                                                                                                                                                                                    <!--{% include jumbotron.html %}-->
-                                                                                                                                                                                                    <!-- Previews -->
+                                                                                                                                                                                                        <!--{% include jumbotron.html %}-->
+                                                                                                                                                                                                        <!-- Previews -->
     <div class="container-fluid">
         <div class="home-include">
             <div class="preview general feature">
@@ -30,12 +30,12 @@ layout: home
                         </div>
                     {% else %}
                         <div class="col-sm-3 text-center">
-                            <img alt="{{ item.title }} cover image" class="shadow md" src="assets/img/{{ review.img-path }}/{{ review.img-feat }}">
+                            <a href="{{ site.baseurl }}{{ item.url }}"><img alt="{{ item.title }} cover image" class="shadow md" src="assets/img/{{ review.img-path }}/{{ review.img-feat }}"></a>
                         </div>
                     {% endif %}
                     <div class="col-sm-7">
                         <h2 class="h2">
-                            <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
+                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                         </h2>
                         <blockquote>
                             <p>"{{ item.quote }}"</p>
