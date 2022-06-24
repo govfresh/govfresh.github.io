@@ -64,6 +64,7 @@
     --color-4: #ffffff;
     --color-5: #b548ff;
     --color-6: #f7ecff;
+    --color-7: #757575;
     --gradient-1: linear-gradient(135deg, rgba(91, 2, 156, 1) 13%, rgba(181, 72, 255, 1) 73%);
     --gradient-2: linear-gradient(135deg, rgba(255, 255, 255, 0.15168065517222518) 13%, rgba(181, 72, 255, 0.05644264541754207) 73%);
     --font-1: "Public Sans Regular", sans-serif;
@@ -464,9 +465,10 @@ main a:hover {
 
 blockquote {
     border-left: var(--size-3) solid var(--color-1);
+    font-size: var(--size-8);
     margin-left: var(--size-9);
     padding-left: var(--size-9);
-    padding-right: var(--size-9);
+    padding-right: var(--size-11);
     margin-bottom: var(--size-9);
     margin-top: var(--size-9);
 }
@@ -518,7 +520,7 @@ p.img-caption {
 }
 
 img.shadow {
-    box-shadow: var(--size-4) var(--size-4) var(--size-6) var(--color-2);
+    box-shadow: var(--size-3) var(--size-3) var(--size-6) var(--color-7) !important;
     border: var(--size-2) solid var(--color-2);
     margin-bottom: var(--size-9);
 }

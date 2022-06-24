@@ -11,7 +11,7 @@
     {% endif %}
     {% if pull == "books" %}
         <!-- Books -->
-                    <!-- Books secondary -->
+                            <!-- Books secondary -->
         <div class="preview-include">
             <div class="card-deck">
                 {% assign limit = site.books-number | plus:0 %}
@@ -57,7 +57,7 @@
         {% endif %}
         {% if pull == "radar" %}
             <!-- Radar -->
-                                <!-- Radar secondary -->
+                                            <!-- Radar secondary -->
             <div class="card-deck">
                 {% assign limit = site.radar-number | plus:0 %}
                 {% assign amount = 1 %}
@@ -99,7 +99,7 @@
         {% endif %}
         {% if pull == "thoughts" %}
             <!-- Thoughts -->
-                                <!-- Thoughts secondary -->
+                                            <!-- Thoughts secondary -->
             <div class="card-deck clean">
                 {% assign limit = site.thoughts-number | plus:0 %}
                 {% assign amount = 1 %}
@@ -247,7 +247,7 @@
         {% endif %}
         {% if pull == "reviews" %}
             <!-- Reviews -->
-                                <!-- Reviews secondary -->
+                                            <!-- Reviews secondary -->
             <div class="card-deck book">
                 {% assign limit = site.reviews-number | plus:0 %}
                 {% assign amount = 1 %}
@@ -290,7 +290,7 @@
         {% endif %}
         {% if pull == "events" %}
             <!-- Events -->
-                                <!-- Events secondary -->
+                                            <!-- Events secondary -->
             <div class="card-deck randomize">
                 {% assign limit = site.events-number | plus:0 %}
                 {% assign amount = 1 %}
@@ -352,7 +352,7 @@
         {% endif %}
         {% if pull == "pitches" %}
             <!-- Pitches -->
-                                <!-- Pitches secondary -->
+                                            <!-- Pitches secondary -->
             <div class="card-deck clean randomize">
                 {% assign limit = site.pitches-number | plus:0 %}
                 {% assign amount = 1 %}
@@ -390,7 +390,7 @@
         {% endif %}
         {% if pull == "podcasts" %}
             <!-- Podcasts -->
-                                <!-- Podcasts secondary -->
+                                            <!-- Podcasts secondary -->
             <div class="card-deck randomize">
                 {% assign limit = site.podcasts-number | plus:0 %}
                 {% assign amount = 1 %}
@@ -433,7 +433,7 @@
     {% endif %}
     {% if pull == "orgs" %}
         <!-- Orgs -->
-                            <!-- Orgs secondary -->
+                                    <!-- Orgs secondary -->
         <div class="card-deck randomize">
             {% assign limit = site.orgs-number | plus:0 %}
             {% assign amount = 1 %}
@@ -474,7 +474,7 @@
     {% endif %}
     {% if pull == "labs" %}
         <!-- Labs -->
-                            <!-- Labs secondary -->
+                                    <!-- Labs secondary -->
         <div class="card-deck clean">
             {% assign limit = site.labs-number | plus:0 %}
             {% assign amount = 1 %}
@@ -517,7 +517,7 @@
     {% endif %}
     {% if pull == "innovations" %}
         <!-- Innovations -->
-                            <!-- Innovations secondary -->
+                                    <!-- Innovations secondary -->
         <div class="card-deck randomize">
             {% assign limit = site.innovations-number | plus:0 %}
             {% assign amount = 1 %}
@@ -616,7 +616,7 @@
                         <div class="card">
                             <div class="card-body fancy-2">
                                 {% if item.img-feat %}
-                                    <img class="card-img-top sm shadow rounded-circle line lg" type="Direct message" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                                    <img class="card-img-top sm rounded-circle line lg" type="Direct message" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
                                 {% endif %}
                                 <h2 class="h3">
                                     <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.name }}</a>

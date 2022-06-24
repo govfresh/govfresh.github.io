@@ -6,8 +6,8 @@ layout: home
 {% include nav.html %}
 <main>
     <!-- Jumbotron -->
-                                                                                                                                                        <!--{% include jumbotron.html %}-->
-                                                                                                                                                        <!-- Previews -->
+                                                                                                                                                                                                    <!--{% include jumbotron.html %}-->
+                                                                                                                                                                                                    <!-- Previews -->
     <div class="container-fluid">
         <div class="home-include">
             <div class="preview general feature">
@@ -22,9 +22,8 @@ layout: home
                         {% assign item = review %}
                     {% endif %}
                     <div class="col-sm-1"></div>
-
                     {% if item == thought %}
-                        <div class="col-sm-4 ">
+                        <div class="col-sm-4">
                             <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
                                 <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img }}</a>
                             </div>
@@ -34,15 +33,13 @@ layout: home
                             <img alt="{{ item.title }} cover image" class="shadow md" src="assets/img/{{ review.img-path }}/{{ review.img-feat }}">
                         </div>
                     {% endif %}
-                    <div class="col-sm-
-                                                                                                            {% if item==thought %}
-                                                                                                            6
-                                                                                                            {%else%}
-                                                                                                            8
-                                                                                                            {% endif %} col-lg-5">
-                        <h2 class="big">
+                    <div class="col-sm-7">
+                        <h2 class="h2">
                             <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
                         </h2>
+                        <blockquote>
+                            <p>"{{ item.quote }}"</p>
+                        </blockquote>
                         <p>{{ item.description }}</p>
                         {% if item.author %}
                             <p>

@@ -7,6 +7,7 @@ book-title: "Dignity in a Digital Age: Making Tech Work for All of Us"
 img-feat: dignity-in-a-digital-age.jpg
 book-author: Ro Khanna
 book-link: /dignity-in-a-digital-age
+quote: "The grand promise of the digital age is the possibility of aligning the aims of political justice with economic growth."
 category:
   - Digital
 feature: "true"
