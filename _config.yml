@@ -37,6 +37,7 @@ innovations-number: 4
 papers-number: 3
 dm-number: 3
 ideas-number: 3
+industry-number: 3
 
 # Defaults
 defaults:
@@ -207,6 +208,15 @@ defaults:
       parent: "papers"
       layout: "papers"
       short: "true"
+  - scope:
+      path: "_industry"
+      type: "industry"
+    values:
+      folder: "Industry"
+      img-path: "industry"
+      parent: "industry"
+      layout: "industry"
+      short: "true"
 
 # Collections
 collections:
@@ -261,6 +271,9 @@ collections:
   ideas:
     output: true
     permalink: ideas/:title
+  industry:
+    output: true
+    permalink: industry/:title
 
 # Pagination
 paginate: 12

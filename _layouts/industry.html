@@ -1,0 +1,36 @@
+---
+layout: industry
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row post">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" alt="{{ page.company }} logo" class="xl line">
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                {{ content }}
+                <p>Source:
+                    <a href="{{ page.source }}">{{ page.company }}</a>
+                </p>
+                {% include updated.html %}
+                {% include subscribe.html %}
+                {% include license.html %}
+                {% include topics.html %}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                {% include previews.html show-only="true" %}
+            </div>
+        </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

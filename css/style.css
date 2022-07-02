@@ -89,6 +89,7 @@
     --size-13: 12.5rem;
     --size-14: 15rem;
     --size-15: 18.75rem;
+    --size-16: 20rem;
 }
 
 /* Responsive typography */
@@ -509,11 +510,6 @@ blockquote {
 
 /* Images */
 
-img {
-    height: auto;
-    max-width: 100%;
-}
-
 .img {
     margin-bottom: var(--size-8);
 }
@@ -535,27 +531,36 @@ img.line {
 }
 
 img.xxxs {
-    max-width: var(--size-9);
+    width: var(--size-9);
 }
 
 img.xxs {
-    max-width: var(--size-11);
+    width: var(--size-11);
 }
 
 img.xs {
-    max-width: var(--size-12);
+    width: var(--size-12);
 }
 
 img.sm {
-    max-width: var(--size-13);
+    width: var(--size-13);
 }
 
 img.md {
-    max-width: var(--size-14);
+    width: var(--size-14);
 }
 
 img.lg {
-    max-width: var(--size-15);
+    width: var(--size-15);
+}
+
+img.xl {
+    width: var(--size-16);
+}
+
+img {
+    height: auto;
+    max-width: 100%;
 }
 
 .fancy-2 img, img[type="Gamechangers"], .fancy-2 img, img[type="Team"] {
