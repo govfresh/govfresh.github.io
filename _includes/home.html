@@ -11,9 +11,7 @@
                             <div class="preview {{ loop.parent }}">
                                 <h2>{{ loop.title }}</h2>
                                 <p class="lead">{{ loop.description }}</p>
-                                {% if true %}
-                                    {% include cards.html page=loop.parent page-title=title %}
-                                {% endif %}
+                                {% include cards.html page=loop.parent page-title=title %}
                                 {% if loop.permalink %}
                                     {% assign permalink = loop.permalink %}
                                 {% else %}

@@ -33,8 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                        {% assign amount = amount | plus:1 %}
-                        <!-- Books primary -->
+                        {% assign amount = amount | plus:1 %} <!-- Books primary -->
                     {% elsif page.short != "true" and title != "Government. Fresh." %}
                         <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
                             <div class="card">
@@ -77,8 +76,7 @@
                                 </div>
                             </div>
                         </div>
-                        {% assign amount = amount | plus:1 %}
-                        <!-- Radar primary -->
+                        {% assign amount = amount | plus:1 %} <!-- Radar primary -->
                     {% elsif page.short != "true" and title != "Government. Fresh." %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
@@ -124,8 +122,7 @@
                                 </div>
                             </div>
                         </div>
-                        {% assign amount = amount | plus:1 %}
-                        <!-- Thoughts primary -->
+                        {% assign amount = amount | plus:1 %} <!-- Thoughts primary -->
                     {% elsif page.short != "true" and title != "Government. Fresh." %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
                             <div class="card">
@@ -174,8 +171,7 @@
                                 </div>
                             </div>
                         </div>
-                        {% assign amount = amount | plus:1 %}
-                        <!-- Gamechangers primary -->
+                        {% assign amount = amount | plus:1 %} <!-- Gamechangers primary -->
                     {% elsif page.short != "true" and title != "Government. Fresh." %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
@@ -222,8 +218,7 @@
                                 </div>
                             </div>
                         </div>
-                        {% assign amount = amount | plus:1 %}
-                        <!-- Signal primary -->
+                        {% assign amount = amount | plus:1 %} <!-- Signal primary -->
                     {% elsif page.short != "true" and title != "Government. Fresh." %}
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                             <div class="card">
@@ -515,6 +510,45 @@
             {% endfor %}
         </div>
     {% endif %}
+    {% if pull == "ideas" %}
+        <!-- Ideas -->
+                                    <!-- Ideas secondary -->
+        <div class="card-deck">
+            {% assign limit = site.ideas-number | plus:0 %}
+            {% assign amount = 1 %}
+            {% for item in site.ideas %}
+                {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
+                                            and limit > amount and title != item.title %}
+                    <div class="col-12 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>
+                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                                        <i class="fa-solid fa-lightbulb"></i>
+                                        {{ item.title }}</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ideas primary -->
+                {% elsif page.short != "true" and title != "Government. Fresh." %}
+                    <div class="col-12 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="h4">
+                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                                        <i class="fa-solid fa-lightbulb"></i>
+                                        {{ item.title }}</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% assign amount = amount | plus: 1 %}
+            {% endfor %}
+        </div>
+    {% endif %}
+
     {% if pull == "innovations" %}
         <!-- Innovations -->
                                     <!-- Innovations secondary -->

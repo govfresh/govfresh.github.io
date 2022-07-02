@@ -36,6 +36,7 @@ labs-number: 3
 innovations-number: 4
 papers-number: 3
 dm-number: 3
+ideas-number: 3
 
 # Defaults
 defaults:
@@ -75,6 +76,16 @@ defaults:
       parent: "events"
       layout: "profile"
       short: "true"
+  - scope:
+      path: "_ideas"
+      type: "ideas"
+    values:
+      folder: "Ideas"
+      img-path: "ideas"
+      parent: "ideas"
+      layout: "ideas"
+      short: "true"
+      img-feat: "idea.png"
   - scope:
       path: "_books"
       type: "books"
@@ -247,6 +258,9 @@ collections:
   innovations:
     output: true
     permalink: innovations/:title
+  ideas:
+    output: true
+    permalink: ideas/:title
 
 # Pagination
 paginate: 12

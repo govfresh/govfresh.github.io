@@ -511,7 +511,7 @@ blockquote {
 
 img {
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 .img {
@@ -628,6 +628,10 @@ img.lg {
     padding: var(--size-10) var(--size-9);
     margin-bottom: var(--size-6);
     text-align: center;
+}
+
+.icon-2 {
+    color: var(--color-1);
 }
 
 /* Breadcrumb */
@@ -823,6 +827,11 @@ html:not(html.dark) .labs {
 .alert2 {
     margin-bottom: var(--size-9) !important;
     margin-top: var(--size-1) !important;
+}
+
+.alert-success p, .alert-warning p {
+    margin: var(--size-1);
+    padding: var(--size-1);
 }
 
 /* Buttons / nav pills */

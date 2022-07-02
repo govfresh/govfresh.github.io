@@ -1,0 +1,37 @@
+I"�	<h2 id="context">Context</h2>
+
+<h3 id="open-graph-protocol">Open Graph protocol</h3>
+
+<p>The <a href="https://ogp.me/">Open Graph protocol</a> is a standard used by websites to designate web page metadata. One helpful purpose of this data is that it is used to display key information on social media posts, such as page title, description and an associated image.</p>
+
+<p>This information is included in the <code class="language-plaintext highlighter-rouge">&lt;meta&gt;</code> tags in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> of a web page. There are many different metadata types, but a few common ones are:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">og:title</code> - The title of your web page.</li>
+  <li><code class="language-plaintext highlighter-rouge">og:image</code> - An image that represents the page (or website) content.</li>
+  <li><code class="language-plaintext highlighter-rouge">og:url</code> - The complete URL of the web page.</li>
+</ul>
+
+<h3 id="usajobs">USAJOBS</h3>
+
+<p><a href="https://usajobs.gov">USAJOBS</a> is the official U.S. government website where agencies post federal employment opportunities.</p>
+
+<h2 id="issue">Issue</h2>
+
+<p>While it displays most of the basic <code class="language-plaintext highlighter-rouge">&lt;meta&gt;</code> tags, USAJOBS currently does not use the <code class="language-plaintext highlighter-rouge">meta property="og:image"</code> tag.</p>
+
+<p>What a current USAJOBS listing looks like when posted to social media:</p>
+
+<p><img src="/assets/img/ideas/usajobs-meta-image.png" alt="USAJOBS jobs posting on social media" width="500px" /></p>
+
+<p>If USAJOBS leveraged the <code class="language-plaintext highlighter-rouge">meta property="og:image"</code> tag, it could significantly increase social media visibility to the job posting, USAJOBS brand or agency advertising the job opportunity.</p>
+
+<h2 id="idea">Idea</h2>
+
+<ul>
+  <li>Add a <code class="language-plaintext highlighter-rouge">meta property="og:image"</code> for all USAJOBS postings.</li>
+  <li>First option: Make the image inspiring, like the U.S. flag or a patriotic call to action (example: “Serve your country.”)</li>
+  <li>Second option: Make the image the logo of the agency posting the listing.</li>
+  <li>Third option: Make the image the USAJOBS logo to bring visibility to the website as a place for federal government job opportunities.</li>
+</ul>
+:ET

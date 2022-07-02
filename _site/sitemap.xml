@@ -109,6 +109,10 @@
 <lastmod>2022-01-26T21:05:46-08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ideas/usajobs-meta-image</loc>
+<lastmod>2022-07-01T21:02:10-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/innovations/coil</loc>
 <lastmod>2022-01-26T21:05:46-08:00</lastmod>
 </url>
@@ -263,6 +267,10 @@
 <url>
 <loc>http://localhost:4000/gamechangers/</loc>
 <lastmod>2022-06-23T09:01:41-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/ideas/</loc>
+<lastmod>2022-07-01T20:22:29-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/index</loc>
