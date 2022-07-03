@@ -1,7 +1,7 @@
 ---
 title: "The Revolt of The Public and the Crisis of Authority in the New Millennium"
 description: 
-img: revolt-of-the-public.jpg
+img-feat: revolt-of-the-public.jpg
 author:  Martin Gurri
 website: 
 library: 

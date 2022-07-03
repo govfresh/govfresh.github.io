@@ -1,7 +1,7 @@
 ---
 title: "Click Here to Kill Everybody"
 description: "Security and Survival in a Hyper-connected World"
-img: click-here-to-kill-everybody.webp
+img-feat: click-here-to-kill-everybody.webp
 img-alt: "Cover photo of Click Here to Kill Everybody"
 author: Bruce Schneier
 website: https://www.schneier.com/books/click-here/

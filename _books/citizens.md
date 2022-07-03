@@ -1,7 +1,7 @@
 ---
 title: "Citizens"
 description: Why the Key to Fixing Everything Is All of Us
-img: citizens.jpg
+img-feat: citizens.jpg
 img-alt: "Cover of 'Citizens'"
 author: Jon Alexander, Ariane Conrad
 website: https://www.canburypress.com/collections/frontpage/products/citizens-by-jon-alexander

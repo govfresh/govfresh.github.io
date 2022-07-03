@@ -1,7 +1,7 @@
 ---
 title: "Working in Public"
 description: "The Making and Maintenance of Open Source Software"
-img: working-in-public.jpg
+img-feat: working-in-public.jpg
 author:  Nadia Eghbal
 website: 
 library: https://www.worldcat.org/title/working-in-public-the-making-and-maintenance-of-open-source-software/oclc/1183029492?loc=

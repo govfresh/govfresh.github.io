@@ -1,7 +1,7 @@
 ---
 title: "This Is Service Design Methods"
 description: "A Companion to This Is Service Design Doing"
-img: this-is-service-design-methods.jpg
+img-feat: this-is-service-design-methods.jpg
 author:  Marc Stickdorn, Markus Edgar Hormess, Adam Lawrence, Jakob Schneider
 website: https://www.thisisservicedesigndoing.com/methods
 library: https://www.worldcat.org/title/this-is-service-design-doing-the-methods-companion/oclc/1033784420?loc=

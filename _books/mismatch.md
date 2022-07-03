@@ -1,7 +1,7 @@
 ---
 title: "Mismatch"
 description: "How Inclusion Shapes Design"
-img: mismatch.jpg
+img-feat: mismatch.jpg
 author: Kat Holmes
 website: https://mitpress.mit.edu/books/mismatch
 library: https://www.worldcat.org/title/mismatch-how-inclusion-shapes-design/oclc/1025413063?loc=

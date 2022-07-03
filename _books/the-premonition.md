@@ -1,7 +1,7 @@
 ---
 title: "The Premonition"
 description: "A Pandemic Story"
-img: the-premonition.jpg
+img-feat: the-premonition.jpg
 author:  Michael Lewis
 website: https://wwnorton.com/books/9780393881554
 library: https://www.worldcat.org/title/premonition-a-pandemic-story/oclc/1235820893?loc=

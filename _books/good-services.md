@@ -1,7 +1,7 @@
 ---
 title: "Good Services"
 description: "How to Design Services that Work"
-img: good-services.jpg
+img-feat: good-services.jpg
 author: Lou Downe
 website: https://good.services/
 library: 

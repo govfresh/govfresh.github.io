@@ -1,7 +1,7 @@
 ---
 title: "The Design Thinking Toolbox"
 description: "A Guide to Mastering the Most Popular and Valuable Innovation Methods"
-img: design-thinking-toolbox.jpg
+img-feat: design-thinking-toolbox.jpg
 author:   Michael Lewrick, Patrick Link, Larry Leifer
 website: https://en.dt-toolbook.com/
 library: https://www.worldcat.org/title/the-design-thinking-toolbox-a-guide-to-mastering-the-most-popular-and-valuable-innovation-methods/oclc/1267921704?loc=

@@ -1,7 +1,7 @@
 ---
 title: "Get Together"
 description: "How to build a community with your people "
-img: get-together.jpg
+img-feat: get-together.jpg
 author: Bailey Richardson, Kevin Huynh, Kai Elmer Sotto
 website: https://gettogether.world/
 library: 

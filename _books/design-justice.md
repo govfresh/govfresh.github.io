@@ -1,7 +1,7 @@
 ---
 title: "Design Justice"
 description: "Community-Led Practices to Build the Worlds We Need"
-img: design-justice.jpg
+img-feat: design-justice.jpg
 author: Sasha Costanza-Chock
 website: https://mitpress.mit.edu/books/design-justice
 library: https://www.worldcat.org/title/design-justice-community-led-practices-to-build-the-worlds-we-need/oclc/1155913568?loc=

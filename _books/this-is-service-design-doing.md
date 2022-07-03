@@ -1,7 +1,7 @@
 ---
 title: "This Is Service Design Doing"
 description: "Applying Service Design Thinking in the Real World"
-img: this-is-service-design-doing.jpg
+img-feat: this-is-service-design-doing.jpg
 author:  Marc Stickdorn, Markus Edgar Hormess, Adam Lawrence, Jakob Schneider
 website: https://www.thisisservicedesigndoing.com/
 library: https://www.worldcat.org/title/this-is-service-design-doing/oclc/1103569505?loc==

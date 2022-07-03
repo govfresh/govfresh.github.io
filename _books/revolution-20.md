@@ -1,7 +1,7 @@
 ---
 title: "Revolution 2.0"
 description: "The Power of the People Is Greater Than the People in Power"
-img: revolution-20.jpg
+img-feat: revolution-20.jpg
 author: Wael Ghonim 
 website: 
 library: 

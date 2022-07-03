@@ -1,7 +1,7 @@
 ---
 title: "The Design Thinking Playbook"
 description: "Mindful Digital Transformation of Teams, Products, Services, Businesses and Ecosystemss"
-img: design-thinking-playbook.jpg
+img-feat: design-thinking-playbook.jpg
 author:   Michael Lewrick, Patrick Link, Larry Leifer
 website: https://www.design-thinking-playbook.com/playbook-en?lang=en
 library: https://www.worldcat.org/title/design-thinking-playbook-mindful-digital-transformation-of-teams-products-services-businesses-and-ecosystems/oclc/1033921673?loc=

@@ -1,7 +1,7 @@
 ---
 title: "Multiplied"
 description: "How digital transformation can deliver more impact for the public sector"
-img: multiplied.jpg
+img-feat: multiplied.jpg
 author:  Ben Holliday
 website: https://www.tpximpact.com/multiplied-book
 library: https://www.worldcat.org/title/multiplied/oclc/1302010953&referer=brief_results

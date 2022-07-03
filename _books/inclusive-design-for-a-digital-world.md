@@ -1,7 +1,7 @@
 ---
 title: "Inclusive Design for a Digital World"
 description: "Designing with Accessibility in Mind"
-img: inclusive-design-for-a-digital-world.jpg
+img-feat: inclusive-design-for-a-digital-world.jpg
 author: Regine M. Gilbert
 website: https://reginegilbert.com/inclusive-design-book
 library: https://www.worldcat.org/title/inclusive-design-for-a-digital-world-designing-with-accessibility-in-mind/oclc/1134427184?loc=

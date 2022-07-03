@@ -1,7 +1,7 @@
 ---
 title: "A Civic Technologist's Practice Guide"
 description:
-img: civic-technologists-practice-guide.webp
+img-feat: civic-technologists-practice-guide.webp
 img-alt: "Cover of 'A Civic Technologist's Practice Guide'"
 author: Cyd Harrell
 website: https://cydharrell.com/book/

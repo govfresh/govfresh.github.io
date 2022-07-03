@@ -1,7 +1,7 @@
 ---
 title: "Digital Transformation at Scale"
 description: "Why the Strategy Is Delivery"
-img: digital-transformation-at-scale.jpg
+img-feat: digital-transformation-at-scale.jpg
 author: Andrew Greenway, Ben Terrett, Mike Bracken, Tom Loosemore
 website: 
 library: https://www.goodreads.com/book_link/follow/8?book_id=40019192&page_type=book&page_type_id=40019192&sub_page_type=show
