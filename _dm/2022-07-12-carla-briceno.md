@@ -45,7 +45,6 @@ As we have grown and continue to evolve into a more mature enterprise that offer
 
 This focus on pursuing impactful work has allowed us to attract many talented, kind and collaborative team members who share our passion for using their energies to make the world a better place.
 
-
 ### What drives you to do the work you do?
 
 What gets me up and going every day – and has since we started investing energy in building Bixal – is the opportunity to positively impact people’s lives at scale by working with our federal partners.
@@ -54,14 +53,13 @@ Years ago, I served as a Peace Corp volunteer in rural Guatemala. That was a ver
 
 This is one of the reasons why, at Bixal, we seek to be of service to underserved and hard-to-reach communities.
 
-
 ### What advice do you have for other business leaders working with (or who want to work with) government?
 
 Working in the federal space is not easy for numerous reasons. Learning how to make connections and win opportunities requires a great deal of time and energy. And doing the work can be hard.
 
 It takes a great deal of determination, patience, creativity, and resilience to be successful in this space.
 
-I believe that what we refer to as our people absolutely-first approach, where we prioritize both the needs of the people who seek the information and services our federal clients provide and our Bixal team members, has been key to our growth and success. I recommend that business leaders focus on helping the government understand and develop solutions to the unique needs of the audiences they serve by consistently applying HCD-led approaches.
+I believe that what we refer to as our people absolutely-first approach, where we prioritize both the needs of the people who seek the information and services our federal clients provide and our Bixal team members, has been key to our growth and success. I recommend that business leaders focus on helping the government understand and develop solutions tailored to the unique needs of the audiences they serve by consistently applying HCD-led approaches.
 
 As partners to the government, we have the opportunity to make the world a more inclusive and accessible place for millions of people and that opportunity should not be wasted.
 
@@ -76,10 +74,7 @@ This is evidence that our government partners understand change is happening fas
 
 Most importantly, I believe that our collective work to improve the federal customer experience and agencies’ ability to meet the needs of our diverse and growing nation should be guided by the Administration’s most recent [Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/), which directs federal agencies to put people at the center of everything the government does.
 
-
 ### You're high-energy and have an entrepreneur's sense of purpose, but are still very grounded and empathetic. What's your secret?
-
- 
 
 Thank you for those kind words. I’d say it’s a combination of coffee and meditation! I start my day with twenty minutes of meditation and then head straight for the coffee.
 

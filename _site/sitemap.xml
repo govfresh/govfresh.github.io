@@ -94,7 +94,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/dm/carla-briceno</loc>
-<lastmod>2022-07-08T16:42:21-07:00</lastmod>
+<lastmod>2022-07-12T10:01:15-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
@@ -503,6 +503,10 @@
 <url>
 <loc>http://localhost:4000/radar/github-us-open-source-software-policy</loc>
 <lastmod>2022-06-14T12:33:27-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/radar/govuk-paas</loc>
+<lastmod>2022-07-12T15:39:24-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reviews/review-click-here-to-kill-everybody</loc>
