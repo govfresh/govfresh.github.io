@@ -794,6 +794,66 @@ html:not(html.dark) .labs {
     margin-right: var(--size-6);
 }
 
+.fa-apple:not(footer i):not(nav i) {
+    color: #333333;
+}
+
+.fa-discord:not(footer i):not(nav i) {
+    color: #5865f2;
+}
+
+.fa-facebook:not(footer i):not(nav i) {
+    color: #1877f2;
+}
+
+.fa-flickr:not(footer i):not(nav i) {
+    color: #006add;
+}
+
+.fa-github:not(footer i):not(nav i) {
+    color: #171515;
+}
+
+.fa-instagram-square:not(footer i):not(nav i) {
+    color: #3f729b;
+}
+
+.fa-linkedin:not(footer i):not(nav i) {
+    color: #0e76a8;
+}
+
+.fa-medium:not(footer i):not(nav i) {
+    color: #12100e;
+}
+
+.fa-rss:not(footer i):not(nav i) {
+    color: #ee802f;
+}
+
+.fa-slack:not(footer i):not(nav i) {
+    color: #4a154b;
+}
+
+.fa-spotify:not(footer i):not(nav i) {
+    color: #1db954;
+}
+
+.fa-tumblr:not(footer i):not(nav i) {
+    color: #35465d;
+}
+
+.fa-twitter:not(footer i):not(nav i) {
+    color: #1da1f2;
+}
+
+.fa-window-maximize:not(footer i):not(nav i) {
+    color: #5b029c;
+}
+
+.fa-youtube:not(footer i):not(nav i) {
+    color: #ff0000;
+}
+
 /* Alerts */
 
 .alert {
@@ -837,6 +897,11 @@ html:not(html.dark) .labs {
 .alert-success p, .alert-warning p {
     margin: var(--size-1);
     padding: var(--size-1);
+}
+
+.alert-primary {
+    background-color: var(--color-6);
+    border-color: var(--color-5);
 }
 
 /* Buttons / nav pills */
@@ -1135,9 +1200,11 @@ div.dark-toggle {
 /* DM */
 
 .post-dm h2 {
-    font-family: var(--font-1) !important;
+    border-bottom: 1px solid var(--color-2);
+    font-family: var(--font-3) !important;
     font-size: var(--size-7) !important;
     letter-spacing: normal !important;
+    margin-bottom: var(--size-8) !important;
 }
 
 .post-dm h3 {
@@ -1146,6 +1213,7 @@ div.dark-toggle {
     color: var(--color-4);
     font-family: var(--font-1) !important;
     font-size: var(--size-7) !important;
+    letter-spacing: normal !important;
     margin: var(--size-6) var(--size-1);
     margin-left: var(--size-9);
     padding: var(--size-9);
@@ -1159,4 +1227,8 @@ div.dark-toggle {
     margin: var(--size-6) var(--size-1);
     margin-right: var(--size-9);
     padding: var(--size-9);
+}
+
+.new-dm {
+    font-family: var(--font-3);
 }

@@ -10,7 +10,7 @@ layout: dm
     <div class="container">
         <div class="row">
             <div class="col-sm-4 fancy-2">
-                <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}" type="{{ page.folder }}" class="rounded-circle lg mb-3 line"/>
+                <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}" type="{{ page.folder }}" class="rounded-circle lg mb-3 line" />
                 <ul class="list-unstyled">
                     <li>{{ page.name }}</li>
                     <li>{{ page.position }}</li>
@@ -20,7 +20,20 @@ layout: dm
                 size="small" %}
             </div>
             <div class="col-sm-8">
+                {% if content contains 'id="new"' %}
+                    <div class="alert alert-primary" role="alert">
+                        <div class="new-dm">
+                            <a href="#new">
+                                    Jump to new messages <i class="fa-solid fa-circle-arrow-down"></i>
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
                 <div class="post post-dm">{{ content }}</div>
+                <h3 class="mt-5">Connect with {{ page.shortname }}</h3>
+                {% include social.html
+                    size="small" %}
             </div>
         </div>
     </div>
