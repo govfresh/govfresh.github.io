@@ -91,50 +91,46 @@ Working in public service you encounter people of all backgrounds, and I have a 
 
 So much!
 
-I helped create and lead a few versions of the Office of Digital Innovation, supported the statewide web accessibility implementation and the creation of its community of practice, and was also part of the [DMV Strike team](https://www.gov.ca.gov/2019/01/09/dmv-strike-team/) that Governor Newsom assembled in early 2019.
+I helped create and lead a few versions of the Office of Digital Innovation, supported the statewide web accessibility implementation, the creation of its community of practice and was also part of the [DMV Strike team](https://www.gov.ca.gov/2019/01/09/dmv-strike-team/) that Governor Gavin Newsom assembled in early 2019.
 
-All those efforts informed the work we modeled when I led the [Alpha team](https://digital.ca.gov/blog/posts/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/) which created a new approach to building digital government services using multidisciplinary skills and modeling working in the open, prioritizing performance, readability, and accessibility.
+All those efforts informed the work we modeled when I led the [Alpha team](https://digital.ca.gov/blog/posts/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/) which created a new approach to building digital government services using multidisciplinary skills and modeling working in the open, prioritizing performance, readability and accessibility.
 
-The Alpha team was then tasked to help support all digital aspects of the covid19 response including covid19.ca.gov, myturn.ca.gov, and we led by using data and user feedback to inform policy and product decisions like improving vaccination rates through campaigns like vaccinateall58.com.
+The Alpha team was then tasked to help support all digital aspects of the COVID-19 response including [covid19.ca.gov](https://covid19.ca.gov) and [myturn.ca.gov](https://myturn.ca.gov). We led by using data and user feedback to inform policy and product decisions like improving vaccination rates through campaigns like vaccinateall58.com.
 
 The last time we connected we talked about [NxtGov](https://nxtgov.org/), and I’m happy to say that it is now a growing nonprofit exploring partnerships with other states and organizations like [Govern for America](https://www.govern4america.org/).
 
 I’ve also taken on a new role outside of state government and will be moving to DC this fall!
 
-
 ### For those who aren’t familiar, what was the Alpha project?
 
 Alpha was an effort to re-imagine the way that California state government creates and delivers services to its residents through CA.gov as the ecosystem and the homepage of all online services.
 
-I built a multi-disciplinary team of engineers, designers, product designers, user researchers, and content designers. The team was made up of people from outside government and stellar civil servants.
+I built a multi-disciplinary team of engineers, designers, product designers, user researchers and content designers. The team was made up of people from outside government and stellar civil servants.
 
-In 14 weeks we created 20 redesigned experiences and our approach was unique in that we would meet people where they were without assuming what they needed. \
-
+In 14 weeks we created 20 redesigned experiences and our approach was unique in that we would meet people where they were without assuming what they needed.
 
 Our entire team tested our ideas and prototypes on $20 dollar phones and with people on the street including those unhoused and those seeking to get unemployment insurance. We visited Paradise to observe how the town residents were recovering from the devastating wildfires and to find opportunities for government to improve how it serves people in disaster response and recovery.
 
-The way we worked was special, everything we worked on was available on GitHub and you could [follow-our progress](https://github.com/orgs/cagov/projects/2) in our project board. We instituted accessibility, performance, and readability as key metrics of our prototypes. We honored the expertise of the civil servants overseeing their programs and we made sure they were at the table with us and that they would inform our assumptions.
+The way we worked was special. Everything we worked on was available on GitHub and you could [follow-our progress](https://github.com/orgs/cagov/projects/2) in our project board. We instituted accessibility, performance and readability as key metrics of our prototypes. We honored the expertise of the civil servants overseeing their programs, and we made sure they were at the table with us and that they would inform our assumptions.
 
-Leading the team and the new way of work was truly inspiring and I think the principles we created as part of that work remain in practice with everyone that was involved and those that remain serving at California Department of Technology and Office of Digital (Data &) Innovation.
-
+Leading the team and the new way of work was truly inspiring, and I think the principles we created as part of that work remain in practice with everyone that was involved and those that remain serving at California Department of Technology and Office of Digital (Data &) Innovation.
 
 ### And the COVID response efforts?
 
 COVID response was a humbling experience.
 
-Our team was tasked with launching the covid19.ca.gov response site and we did it in the span of four days. From there we supported the ever-evolving programs and policies that were part of the response. This required our team to be aligned with every state entity and leader that was participating in the effort. We worked closely with our colleagues at the Department of Public Health and had a seat at the table (most of the time) with critical partners in the response.
+Our team was tasked with launching the [covid19.ca.gov](https://covid19.ca.gov) response site and we did it in the span of four days. From there we supported the ever-evolving programs and policies that were part of the response. This required our team to be aligned with every state entity and leader that was participating in the effort. We worked closely with our colleagues at the Department of Public Health and had a seat at the table (most of the time) with critical partners in the response.
 
-Our team grew by 3 times the size, and we led efforts in data reporting around cases, testing, vaccines and supported critical outreach campaigns to incentivize Californians to get vaccinated.We also established the funnel analytics reporting for myturn.ca.gov to gauge where and when people couldn’t sign up to get a vaccine and coordinated content strategy across every product being released.
+Our team grew by three times the size, and we led efforts in data reporting around cases, testing, vaccines and supported critical outreach campaigns to incentivize Californians to get vaccinated.We also established the funnel analytics reporting for [myturn.ca.gov](https://myturn.ca.gov) to gauge where and when people couldn’t sign up to get a vaccine and coordinated content strategy across every product being released.
 
-I firmly believe that these informed policy decisions, and we were there capturing user feedback and pain points as Californians lived through the pandemic. We were there along each time the state released guidance on how people could stay safe and were able to capture their confusion, frustration, and hope.
+I firmly believe that these informed policy decisions, and we were there capturing user feedback and pain points as Californians lived through the pandemic. We were there along each time the state released guidance on how people could stay safe and were able to capture their confusion, frustration and hope.
 
 Being able to work in such volatile and ambiguous times was demanding for me as a leader and for our team. But we instituted healthy habits to keep us motivated and created spaces to recover. One of our team members just posted about this on a [blog](https://digital.ca.gov/blog/posts/team-care-in-a-crisis/), and I’m glad that they were able to capture the spirit of our team at that time.
-
 
 ### What are you working on now?
 
 I left the state in mid-November 2021 and joined the [Tech Talent Project](https://techtalentproject.org/) team as the Federal Partnerships Director.
 
-I lead the Federal partnerships portfolio of the organization and one aspect of that portfolio is to work with leaders across all federal agencies and help them think through challenges and opportunities in tech and service delivery. I get to apply my California experience as an executive and a ‘dot connector’ in the context of our federal government while supporting their broader tech talent needs with a focus on recruiting modern technical leaders.
+I lead the federal partnerships portfolio of the organization and one aspect of that portfolio is to work with leaders across all federal agencies and help them think through challenges and opportunities in tech and service delivery. I get to apply my California experience as an executive and a ‘dot connector’ in the context of our federal government while supporting their broader tech talent needs with a focus on recruiting modern technical leaders.
 
-If you or anyone you know is curious about serving in government, or if you are currently in the federal government and seeking tech talent in your organization- let’s connect.
+If you or anyone you know is curious about serving in government, or if you are currently in the federal government and seeking tech talent in your organization - let’s connect.
