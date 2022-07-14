@@ -79,7 +79,8 @@ We established the Eureka Institute to make sure that government has a space to 
 Within Eureka we have the CA Statewide Leadership Academy, the CA Lean Academy, and CalData which includes the open data program. These programs are changing the way the departments operate and that matters because the Eureka Institute allows government to adapt to a changing world.
 
 While most people would think that innovation comes from fancy technology and robots, I’ve come to learn that innovation is just another word for adaptation. Government bureaucracies must adapt their business operations in a changing world so that people can work collaboratively and leverage tools to better prepare for the government of the future.  
-Who are your government heroes?
+
+### Who are your government heroes?
 
 I am surrounded by many individuals at all levels who inspire me on a daily basis.
 
