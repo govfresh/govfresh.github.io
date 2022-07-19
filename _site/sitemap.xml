@@ -98,7 +98,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/dm/joe-distefano</loc>
-<lastmod>2022-07-16T09:11:42-07:00</lastmod>
+<lastmod>2022-07-19T12:02:05-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/dm/carla-briceno</loc>
@@ -519,6 +519,10 @@
 <url>
 <loc>http://localhost:4000/radar/california-odi</loc>
 <lastmod>2022-07-13T12:48:21-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/radar/centers-of-excellence-customer-experience-maturity-model</loc>
+<lastmod>2022-07-19T15:03:46-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reviews/review-click-here-to-kill-everybody</loc>
