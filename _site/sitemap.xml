@@ -97,12 +97,12 @@
 <lastmod>2022-07-14T11:34:08-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/dm/joe-distefano</loc>
-<lastmod>2022-07-19T12:02:05-07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/dm/carla-briceno</loc>
 <lastmod>2022-07-12T15:40:29-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dm/joe-distefano</loc>
+<lastmod>2022-07-19T12:02:05-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
@@ -522,7 +522,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/radar/centers-of-excellence-customer-experience-maturity-model</loc>
-<lastmod>2022-07-19T15:03:46-07:00</lastmod>
+<lastmod>2022-07-19T15:04:35-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reviews/review-click-here-to-kill-everybody</loc>
@@ -587,6 +587,10 @@
 <url>
 <loc>http://localhost:4000/thoughts/california-technology-modernization-fund-2022</loc>
 <lastmod>2022-03-22T07:53:14-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/thoughts/remembering-kev-walsh</loc>
+<lastmod>2022-07-26T07:53:59-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/business</loc>

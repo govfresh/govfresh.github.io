@@ -1,6 +1,6 @@
 ---
 title: "Direct messaging: Joe DiStefano"
-date: 2022-06-21
+date: 2022-07-15
 description: "Resiliency planner, startup founder, SimCity aficionado"
 author: Luke Fretwell
 name: Joe DiStefano

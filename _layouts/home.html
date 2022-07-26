@@ -24,9 +24,15 @@ layout: home
                     <div class="col-sm-1"></div>
                     {% if item == thought %}
                         <div class="col-sm-4">
-                            <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
-                                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img-feat }}</a>
-                            </div>
+                            {% if item.img %}
+                                <div class="img fancy-2">
+                                    <img alt="" class="card-img-top" src="assets/img/posts/{{ item.img }}">
+                                </div>
+                            {% else %}
+                                <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
+                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
+                                </div>
+                            {% endif %}
                         </div>
                     {% else %}
                         <div class="col-sm-3 text-center">
@@ -39,9 +45,11 @@ layout: home
                         <h2 class="h2">
                             <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                         </h2>
-                        <blockquote>
-                            <p>"{{ item.quote }}"</p>
-                        </blockquote>
+                        {% if item.quote %}
+                            <blockquote>
+                                <p>"{{ item.quote }}"</p>
+                            </blockquote>
+                        {% endif %}
                         <p>{{ item.description }}</p>
                         {% if item.author %}
                             <p>

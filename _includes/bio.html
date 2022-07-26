@@ -1,6 +1,7 @@
 {% if page.author %}
     {% for author in page.author %}
-        {% for author_data in site.people | where: "title", author %}
+        {% assign people = site.people  | where: "title", author%}
+        {% for author_data in people %}
             <div class="d-lg-none">
                 {% if page.author %}
                     {% for author in page.author %}
@@ -21,8 +22,7 @@
                 {% endif %}
             </div>
             <div class="author-bio">
-                <h2>About
-                    {{ author_data.title }}</h2>
+                <h2>About {{ author_data.title }}</h2>
                 <p>{{ author_data.content | markdownify }}</p>
                 {% include social.html size="small" %}
             </div>
