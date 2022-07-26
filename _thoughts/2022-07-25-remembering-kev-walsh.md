@@ -1,6 +1,6 @@
 ---
 title: "Remembering Kev Walsh"
-date: 2022-07-25
+date: 2022-07-26
 description: "His work in civic and government service design contributed deeply to the world we all want for our future."
 author: Luke Fretwell
 pattern: wavy
