@@ -1,6 +1,6 @@
 ---
 title: "Direct messaging: Marlena Medford"
-date: 2022-07-26
+date: 2022-07-27
 description: "Civic tech evangelizer. Storyteller. Diversity seeker."
 author: Luke Fretwell
 name: Marlena Medford
@@ -32,7 +32,7 @@ category:
 feature:
 ---
 
-## July 25, 2022
+## July 27, 2022
 
 ### You just started a new gig. How’s it going?
 
