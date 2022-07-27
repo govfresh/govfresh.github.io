@@ -55,6 +55,66 @@
         url("/fonts/lora/lora-italic-variablefont_wght-webfont.woff") format("woff");
 }
 
+@keyframes spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    25% {
+        transform: rotateZ(45deg);
+    }
+
+    50% {
+        transform: rotateZ(-45deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes crack {
+    0% {
+        transform: rotateZ(0deg);
+        clip-path: circle(0em);
+    }
+
+    24.999% {
+        clip-path: circle(0em);
+    }
+
+    25% {
+        clip-path: circle(1.5em);
+        transform: rotateZ(45deg);
+    }
+
+    49.999% {
+        clip-path: circle(1.5em);
+    }
+
+    50% {
+        transform: rotateZ(-45deg);
+        clip-path: circle(3em);
+    }
+
+    74.999% {
+        clip-path: circle(3em);
+    }
+
+    75% {
+        clip-path: circle(4.5em);
+    }
+
+    99.999% {
+        clip-path: circle(4.5em);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+        clip-path: circle(6em);
+    }
+}
+
 /* Root settings */
 
 :root {
@@ -1231,4 +1291,11 @@ div.dark-toggle {
 
 .new-dm {
     font-family: var(--font-3);
+}
+
+.egg {
+    font-size: 20em;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    color: white;
 }

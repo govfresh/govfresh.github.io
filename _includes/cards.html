@@ -696,7 +696,11 @@
     {% if pull == "dm" %}
         <!-- DM -->
         <div class="card-deck clean">
+            {% if page.title != "Government. Fresh." && page.short != "true" %}
+            {% assign limit = site.dm | size | plus: 2 %}
+            {% else %}
             {% assign limit = site.dm-number | plus:0 %}
+            {% endif %}
             {% assign amount = 1 %}
             {% for item in site.dm reversed %}
                 {% if item.title != page.title and limit>amount%}
