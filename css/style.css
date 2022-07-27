@@ -914,6 +914,34 @@ html:not(html.dark) .labs {
     color: #ff0000;
 }
 
+/* Share */
+
+.share a, .share a:visited {
+    color: var(--color-4);
+    border-radius: var(--size-3);
+    display: block;
+    margin-top: var(--size-5);
+    padding: var(--size-5);
+    text-decoration: none;
+}
+
+.share .fa-twitter, .share .fa-linkedin, .share .fa-facebook {
+    color: var(--color-4);
+    margin-right: var(--size-3);
+}
+
+.share-twitter {
+    background-color: #1da1f2;
+}
+
+.share-linkedin {
+    background-color: #0e76a8;
+}
+
+.share-facebook {
+    background-color: #1877f2;
+}
+
 /* Alerts */
 
 .alert {

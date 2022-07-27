@@ -34,6 +34,18 @@ layout: dm
                 <h3 class="mt-5">Connect with {{ page.shortname }}</h3>
                 {% include social.html
                     size="small" %}
+                    <div class="share mt-5">
+                        <h2 class="pb-3">Share</h2>
+                    {% if page.share-twitter %}
+                    <a href="{{ page.share-twitter }}" class="share-twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                {% endif %}
+                {% if page.share-linkedin %}
+                <a href="{{ page.share-linkedin }}" class="share-linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                {% endif %}
+                {% if page.share-facebook %}
+                <a href="{{ page.share-facebook }}" class="share-facebook"><i class="fab fa-facebook"></i> Facebook</a>
+                {% endif %}
+                </div>
             </div>
         </div>
     </div>
