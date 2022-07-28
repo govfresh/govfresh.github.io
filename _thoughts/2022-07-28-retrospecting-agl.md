@@ -41,18 +41,18 @@ They are:
 
 I’ve shared this framework of an open civic community of practice with folks in private discussions and presentations, and it’s still something I need to refine and eventually socialize more widely. I’ve started to do this in a [slide deck](https://docs.google.com/presentation/d/1Q6fx633CtbETI0lcFF9gtlOqW9g_RliV0oxTwi4nLeo/edit?usp=sharing) and will share more later.
 
-In various ways, this framework has inspired my work with [Code California](https://go.code.ca.gov/), the [CA.gov Alpha](https://alpha.ca.gov/) project and other smaller civic tech efforts, such as CityCamp.
+In various ways, this framework has inspired my work with [Code California](https://go.code.ca.gov/), the [CA.gov Alpha](https://alpha.ca.gov/) project, [Proudly Serving](https://proudlyservingbook.com) and other smaller civic tech efforts, such as CityCamp.
 
 
 ## Inspiration
 
 The idea for AGL was sparked by intuition — that a new culture and network around digital government service delivery was desperately needed. The void was more obvious in the aftermath of the [Healthcare.gov](https://en.wikipedia.org/wiki/HealthCare.gov) launch debacle.
 
-I envisioned an informal organization where anyone interested in digital government services — government, industry, academia, nonprofit and even civic hackers — could gather, share ideas and build together. This, in my opinion, had to operate less like the social construct of a traditional, formal organization, and more like an open source project. It doesn’t mean traditional organizations can’t be open civic communities of practice, but they must adopt a culture of collaborating, making and sharing.
+I envisioned an informal organization where anyone interested in digital government services — government, industry, academia, nonprofit and even civic hackers — could gather, share ideas and build together. This, in my opinion, had to operate less like the social construct of a traditional, formal organization, and more like an open source project. It doesn’t mean traditional organizations can’t be open civic communities of practice, but they must be more intentional when adopting a culture of collaborating, making and sharing, because the traditional forces of resistance are real.
 
 At the time, there wasn’t really anything like it. The Beltway-based industry and professional organizations had amassed the network, but none of them were working anywhere near in the way I imagined (they still don’t). Code for America was close, but its focus was still much different from what I envisioned.
 
-This initial AGL effort was funded by a digital services vendor that I consulted for. I pitched them the idea, they believed in it, and gave me the freedom to execute. Considering the resourcing — while not nothing, it pales in comparison to the funding of the new crop of civic technology, digital service organizations — the output was substantive.
+This initial AGL effort was funded by a digital services vendor that I worked with at the time. I pitched them the idea, they believed in it, and gave me the freedom to execute. Considering the resourcing — while not nothing, it pales in comparison to the funding of the new crop of civic technology, digital service organizations — the output was substantive.
 
 
 ## Principles
@@ -101,7 +101,7 @@ After a few years of building AGL, I started to lose interest in the project, es
 
 During that time, a collective decision was made to move AGL into a formal nonprofit. It held a few government-industry events and other activities, and then eventually re-branded and transformed into what is now Technologists for Public Good. I’m not familiar with how all of that unfolded. There are others that can better detail the history and decision-making behind AGL 2.0 and TPG, as well as its current operations.
 
-From afar, much of the inspiration for starting AGL seems to have been lost in transition. It appears to be more of a traditional organization, but I’d love to see it get back to some of its AGL roots.
+From afar, much of the inspiration for starting AGL seems to have been lost in transition. It appears to now be more of a traditional organization, but I’d love to see it get back to some of its AGL roots.
 
 (Note: Technologists for Public Good is now hiring for its first executive director, and I encourage you to [apply](https://technologists-for-the-public-good.breezy.hr/p/0826423c463d).)
 
