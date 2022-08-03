@@ -29,9 +29,9 @@ category:
   - Community
   - Design
   - Inclusion
-share-twitter: 
-share-linkedin: 
-share-facebook: 
+share-twitter: https://twitter.com/govfresh/status/1554914940250513410?s=20&t=uO9KEBiN7hKeys9t1tXwyw
+share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6960680775432175616
+share-facebook: https://www.facebook.com/govfresh/posts/pfbid0rxLRnUCcyqpgKCNSdvg3UyrL18SNF7V1RRnPveEZp2TyJHPa8RdY1b5AwiVWSe9al?__cft__[0]=AZVnq7uoVe-BXBUalypdqp_D5P5DnH3zoSt9IdViucgMIuuESRFa7vqg-Z-tD-hkV5EPjE54xK_eQywH3MsUenLoYRyEFLY2IgZJvXMlfxE_00bB7pteMWAVjWuTv9yX5qz_pJ7BsMkD3tdenOJ-PkolZtONGZu6yLaxbgZi8B18aakxcyRuM8h1pufs3kgOvZhk7r7DlbcHKemA_aA1Abul&__tn__=%2CO%2CP-R
 feature:
 ---
 
