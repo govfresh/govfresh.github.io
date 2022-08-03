@@ -1248,6 +1248,11 @@ div.dark-toggle {
     padding: var(--size-9);
 }
 
+.post-dm h3 a, .post-dm h3 a:visited {
+    color: var(--color-4);
+    text-decoration: underline !important;
+}
+
 .post-dm p, .post-dm ul {
     background-color: var(--color-6);
     border-radius: var(--size-4);

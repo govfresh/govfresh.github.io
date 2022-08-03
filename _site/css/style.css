@@ -765,14 +765,11 @@ html:not(html.dark) .labs {
 
 /* Previews */
 
-.home-include .preview {
-    padding-bottom: var(--size-10);
-    padding-top: var(--size-10);
-    border-bottom-left-radius: var(--size-5);
-}
-
 .home-include .preview:not(.home-include .preview:last-child), .preview.general {
     border-bottom: var(--size-6) solid var(--color-1);
+    border-bottom-left-radius: var(--size-5);
+    padding-bottom: var(--size-10);
+    padding-top: var(--size-10);
 }
 
 .preview-include .preview {
@@ -1249,6 +1246,11 @@ div.dark-toggle {
     margin: var(--size-6) var(--size-1);
     margin-left: var(--size-9);
     padding: var(--size-9);
+}
+
+.post-dm h3 a, .post-dm h3 a:visited {
+    color: var(--color-4);
+    text-decoration: underline !important;
 }
 
 .post-dm p, .post-dm ul {
