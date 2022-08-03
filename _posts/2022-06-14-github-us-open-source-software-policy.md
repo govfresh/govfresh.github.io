@@ -4,6 +4,7 @@ date: 2022-06-14
 author: Luke Fretwell
 description: "Topics included a federal open source program office and the role OSS plays in U.S. digital infrastructure."
 category:
+  - Cybersecurity
   - Digital
   - Open
 ---

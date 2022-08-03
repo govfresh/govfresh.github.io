@@ -6,7 +6,7 @@ description: "The White House met with technology companies and organizations to
 category:
   - Digital
   - Open
-  - Security
+  - Cybersecurity
 ---
 
 In the wake of the [Log4j vulnerability](https://en.wikipedia.org/wiki/Log4j), the White House met with technology companies and organizations to discuss how the federal government and industry can better partner on open source security.

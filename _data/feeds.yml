@@ -20,7 +20,14 @@ docs:
   url: https://www.schneier.com
   categories:
     - Digital
-    - Security
+    - Cybersecurity
+
+- title: "The Cybersecurity 202"
+  description: "The Washington Post cybersecurity newsletter."
+  url: https://www.washingtonpost.com/politics/the-202-newsletters/the-cybersecurity-202/
+  categories:
+    - Digital
+    - Cybersecurity
 
 - title: "Slow Build"
   description: "Slow Build is a twice-a-week newsletter on technology’s biggest questions, written by Nancy Scola."
@@ -46,4 +53,4 @@ docs:
   url: https://zetter.substack.com/
   categories:
     - Business
-    - Security
+    - Cybersecurity

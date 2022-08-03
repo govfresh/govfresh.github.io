@@ -14,8 +14,7 @@ layout: profile
                     {% include image.html %}
                 </div>
                 {% if page.parent == "books" %}
-                    <p>By
-                        {{ page.author }}</p>
+                    <p>By {{ page.author }}</p>
                 {% endif %}
                 <div class="post">
                     {{ content }}
@@ -27,8 +26,7 @@ layout: profile
                 {% endif %}
                 <div>
                     {% if page.parent == "podcasts" %}
-                        <p>Host:
-                            {{ page.author }}</p>
+                        <p>Host: {{ page.author }}</p>
                     {% endif %}
 
                     {% if page.parent == "innovations" %}
@@ -93,16 +91,14 @@ layout: profile
 
                     {% if page.parent == "pitches" %}
                         <p>
-                            <a href="{{ page.website }}" class="btn btn-primary">Visit
-                                {{ page.title }}</a>
+                            <a href="{{ page.website }}" class="btn btn-primary">Visit {{ page.title }}</a>
                         </p>
                     {% endif %}
 
                     {% if page.parent == "orgs" or page.parent == "signal" or page.parent == "gamechangers" or
                     page.parent == "events" or page.parent == "team" or page.parent == "pitches" or page.parent ==
                     "podcasts" or page.parent == "innovations" or page.parent == "labs" %}
-                        <h2>Connect with
-                            {{ page.shortname }}</h2>
+                        <h2>Connect with {{ page.shortname }}</h2>
                         {% include social.html size="small" %}
                         {% include topics.html %}
                     {% endif %}
@@ -129,8 +125,7 @@ layout: profile
 
                     {% if page.parent == "books" %}
                         <!--        {% include disclosure.html %}
-    -->
-                        {% include topics.html %}
+    --> {% include topics.html %}
                     {% endif %}
                 </div>
             </div>

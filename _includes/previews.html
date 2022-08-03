@@ -27,12 +27,15 @@
     {% endfor %}
 </div>
 <script>
-    if (!document
+    if (
+        !document
             .querySelector("div.cards-include > div.card-deck")
             .innerHTML
-            .includes("<")) 
+            .includes("<")
+    ) {
         document
             .querySelector(".preview-include")
             .style
-            .display = "none"
+            .display = "none";
+    }
 </script>

@@ -1,0 +1,25 @@
+{% if include.level == "secondary" %}
+    <div class="col-12 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <h3>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        {{ item.title }}</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="col-12 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        {{ item.title }}</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+{% endif %}

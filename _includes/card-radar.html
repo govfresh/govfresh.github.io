@@ -1,0 +1,27 @@
+{% if include.level == "secondary" %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                <h3 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h3>
+                <p>
+                    <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                </p>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                <h2 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h2>
+                <p>{{ item.date | date: "%B %-d, %Y" }}</p>
+            </div>
+        </div>
+    </div>
+{% endif %}

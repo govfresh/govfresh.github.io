@@ -7,7 +7,7 @@ category:
   - Data
   - Digital
   - Open
-  - Security
+  - Cybersecurity
 ---
 
 The U.S. Census Bureau and Census Open Innovation Labs will host [The Opportunity Project Summit: Open Innovation for All](https://emamo.com/event/TOPSummit2021) December 13-15. The event is virtual and free to all.

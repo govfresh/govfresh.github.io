@@ -26,9 +26,9 @@ tumblr:
 rss:
 category:
   - Community
-  - Data
   - Design
   - Digital
+  - Inclusion
 share-twitter: https://twitter.com/govfresh/status/1552356068121907200?s=20&t=gPNS9WzTXGDHxMGbHtivBQ
 share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6958121814619279360
 share-facebook: https://www.facebook.com/govfresh/posts/pfbid02hbtF1UmynGDAUrJByueZz2w3cDWJRdQa8Hw3bzjPs3EKMEp7cgF5oMHQDHvUuMvnl

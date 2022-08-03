@@ -7,7 +7,7 @@ website: https://dotgov.govfresh.com/
 github: https://github.com/govfresh/dotgov
 category:
   - Digital
-  - Security
+  - Cybersecurity
 ---
 
 A campaign to encourage U.S. government entities to register official government websites with the .gov domain extension.

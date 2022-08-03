@@ -11,6 +11,7 @@ img-alt: ""
 img-caption: "Icon: Government by Adrien Coquet from the Noun Project"
 img-link: https://thenounproject.com/search/?q=government&i=3971645
 category:
+  - Cybersecurity
   - Data
   - Digital
   - Hacking

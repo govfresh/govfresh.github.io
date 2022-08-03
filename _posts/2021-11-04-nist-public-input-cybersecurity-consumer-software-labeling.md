@@ -5,7 +5,7 @@ author: Luke Fretwell
 description: "The National Institute of Standards and Technology has drafted a set of cybersecurity criteria to help consumers make more informed purchasing decisions."
 category:
   - Digital
-  - Security
+  - Cybersecurity
 ---
 
 The National Institute of Standards and Technology has drafted a set of [cybersecurity criteria](https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity/consumer-software-criteria) to help consumers make more informed software purchasing decisions.

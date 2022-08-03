@@ -5,7 +5,7 @@ author: Luke Fretwell
 description: "The National Institute of Standards and Technology officially released Open Security Controls Assessment Language 1.0.0"
 permalink: /2021-06-08-nist-officially-releases-oscal-1/
 category:
-  - Security
+  - Cybersecurity
   - Open
 ---
 

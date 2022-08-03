@@ -20,7 +20,7 @@ tumblr:
 rss: 
 donate: https://engage.utoronto.ca/site/SPageServer?pagename=donate#/fund/847
 category:
-  - Security
+  - Cybersecurity
 ---
 
 The Citizen Lab is an interdisciplinary laboratory based at the Munk School of Global Affairs & Public Policy, University of Toronto, focusing on research, development, and high-level strategic policy and legal engagement at the intersection of information and communication technologies, human rights, and global security.

@@ -39,8 +39,7 @@
 <!-- Custom CSS -->
 <link href="/css/style.css" rel="stylesheet">
 <!-- Patterns -->
-<link rel="stylesheet" href="/css/patterns.css"> <!-- Fonts --> <!-- Font Awesome -->
-<link href="/assets/font-awesome/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/patterns.css"> <!-- Fonts --> <!-- Font Awesome --> <link href="/assets/font-awesome/css/all.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
                                                                                                                                                 <!--[if lt IE 9]>
@@ -59,11 +58,11 @@
 <meta property="og:url" content="http://localhost:4000/index" />
 <meta property="og:site_name" content="GovFresh" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-07-28T07:35:36-07:00" />
+<meta property="article:published_time" content="2022-08-02T17:11:02-07:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Government. Fresh." />
 <script type="application/ld+json">
-{"headline":"Government. Fresh.","dateModified":"2021-11-18T19:06:23-08:00","datePublished":"2022-07-28T07:35:36-07:00","url":"http://localhost:4000/index","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/index"},"description":"Public service with and by the people.","@context":"https://schema.org"}</script>
+{"headline":"Government. Fresh.","dateModified":"2021-11-18T19:06:23-08:00","datePublished":"2022-08-02T17:11:02-07:00","url":"http://localhost:4000/index","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/index"},"description":"Public service with and by the people.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     </head>
@@ -383,7 +382,6 @@
         
         
         
-        
         <!-- People -->
         
         
@@ -404,53 +402,55 @@
             
                 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body fancy-2">
-                                
-                                    <img class="card-img-top sm rounded-circle line lg" type="Direct message" src="/assets/img/people/marlena-medford.jpg" alt="Marlena Medford">
-                                
-                                <h2 class="h3">
-                                    <a href="/dm/marlena-medford" class="stretched-link">Marlena Medford</a>
-                                </h2>
-                                <p class="description">Civic tech evangelizer. Storyteller. Diversity seeker.</p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="card">
+        <div class="card-body fancy-2">
+            
+                <img class="card-img-top rounded-circle line md" type="Direct message" src="/assets/img/people/andrew-hening.jpeg" alt="Andrew Hening">
+            
+            <h2 class="h3">
+                <a href="/dm/andrew-hening" class="stretched-link">Andrew Hening</a>
+            </h2>
+            <p class="description">Civic innovator, systems changer, homelessness ender</p>
+        </div>
+    </div>
+</div>
                 
                 
             
                 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body fancy-2">
-                                
-                                    <img class="card-img-top sm rounded-circle line lg" type="Direct message" src="/assets/img/people/joe-distefano.jpg" alt="Joe DiStefano">
-                                
-                                <h2 class="h3">
-                                    <a href="/dm/joe-distefano" class="stretched-link">Joe DiStefano</a>
-                                </h2>
-                                <p class="description">Resiliency planner, startup founder, SimCity aficionado</p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="card">
+        <div class="card-body fancy-2">
+            
+                <img class="card-img-top rounded-circle line md" type="Direct message" src="/assets/img/people/marlena-medford.jpg" alt="Marlena Medford">
+            
+            <h2 class="h3">
+                <a href="/dm/marlena-medford" class="stretched-link">Marlena Medford</a>
+            </h2>
+            <p class="description">Civic tech evangelizer. Storyteller. Diversity seeker.</p>
+        </div>
+    </div>
+</div>
                 
                 
             
                 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body fancy-2">
-                                
-                                    <img class="card-img-top sm rounded-circle line lg" type="Direct message" src="/assets/img/people/carla-briceno.jpg" alt="Carla Briceno">
-                                
-                                <h2 class="h3">
-                                    <a href="/dm/carla-briceno" class="stretched-link">Carla Briceno</a>
-                                </h2>
-                                <p class="description">CEO and co-founder, Bixal</p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="card">
+        <div class="card-body fancy-2">
+            
+                <img class="card-img-top rounded-circle line md" type="Direct message" src="/assets/img/people/joe-distefano.jpg" alt="Joe DiStefano">
+            
+            <h2 class="h3">
+                <a href="/dm/joe-distefano" class="stretched-link">Joe DiStefano</a>
+            </h2>
+            <p class="description">Resiliency planner, startup founder, SimCity aficionado</p>
+        </div>
+    </div>
+</div>
                 
+                
+            
                 
             
                 
@@ -459,17 +459,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -543,109 +543,121 @@
                 
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fa-solid fa-satellite-dish fa-2x"></i>
-                                    <h3 class="h4">
-                                        <a href="/radar/centers-of-excellence-customer-experience-maturity-model" class="stretched-link">Centers of Excellence publishes federal customer experience maturity model</a>
-                                    </h3>
-                                    <p>
-                                        <small>July 19, 2022</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish fa-2x"></i>
+                <h3 class="h4">
+                    <a href="/radar/centers-of-excellence-customer-experience-maturity-model" class="stretched-link">Centers of Excellence publishes federal customer experience maturity model</a>
+                </h3>
+                <p>
+                    <small>July 19, 2022</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Radar primary -->
                     
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fa-solid fa-satellite-dish fa-2x"></i>
-                                    <h3 class="h4">
-                                        <a href="/radar/california-odi" class="stretched-link">California announces new Office of Data & Innovation</a>
-                                    </h3>
-                                    <p>
-                                        <small>July 13, 2022</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish fa-2x"></i>
+                <h3 class="h4">
+                    <a href="/radar/california-odi" class="stretched-link">California announces new Office of Data & Innovation</a>
+                </h3>
+                <p>
+                    <small>July 13, 2022</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Radar primary -->
                     
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fa-solid fa-satellite-dish fa-2x"></i>
-                                    <h3 class="h4">
-                                        <a href="/radar/govuk-paas" class="stretched-link">GOV.UK says it will shut down its platform as a service offering</a>
-                                    </h3>
-                                    <p>
-                                        <small>July 12, 2022</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish fa-2x"></i>
+                <h3 class="h4">
+                    <a href="/radar/govuk-paas" class="stretched-link">GOV.UK says it will shut down its platform as a service offering</a>
+                </h3>
+                <p>
+                    <small>July 12, 2022</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Radar primary -->
                     
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fa-solid fa-satellite-dish fa-2x"></i>
-                                    <h3 class="h4">
-                                        <a href="/radar/github-us-open-source-software-policy" class="stretched-link">Tech, academia share ideas on building a more robust U.S. government open source policy</a>
-                                    </h3>
-                                    <p>
-                                        <small>June 14, 2022</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish fa-2x"></i>
+                <h3 class="h4">
+                    <a href="/radar/github-us-open-source-software-policy" class="stretched-link">Tech, academia share ideas on building a more robust U.S. government open source policy</a>
+                </h3>
+                <p>
+                    <small>June 14, 2022</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Radar primary -->
                     
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fa-solid fa-satellite-dish fa-2x"></i>
-                                    <h3 class="h4">
-                                        <a href="/radar/federal-it-operating-plan-2022" class="stretched-link">U.S. government releases 2022 federal IT operating plan</a>
-                                    </h3>
-                                    <p>
-                                        <small>June 14, 2022</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish fa-2x"></i>
+                <h3 class="h4">
+                    <a href="/radar/federal-it-operating-plan-2022" class="stretched-link">U.S. government releases 2022 federal IT operating plan</a>
+                </h3>
+                <p>
+                    <small>June 14, 2022</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Radar primary -->
                     
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fa-solid fa-satellite-dish fa-2x"></i>
-                                    <h3 class="h4">
-                                        <a href="/radar/open-source-security-summit-2" class="stretched-link">Government, tech companies release open source software supply chain security modernization plan</a>
-                                    </h3>
-                                    <p>
-                                        <small>May 13, 2022</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <i class="fa-solid fa-satellite-dish fa-2x"></i>
+                <h3 class="h4">
+                    <a href="/radar/open-source-security-summit-2" class="stretched-link">Government, tech companies release open source software supply chain security modernization plan</a>
+                </h3>
+                <p>
+                    <small>May 13, 2022</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Radar primary -->
                     
                     
@@ -725,7 +737,6 @@
         
         
         
-        
         <!-- People -->
         
         
@@ -741,17 +752,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -801,44 +812,46 @@
                 
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="fancy-feat graph pattern ">
-                                    </div>
-                                    <h3>
-                                        <a href="/thoughts/retrospecting-agl" class="stretched-link">Why and how I built Agile Government Leadership</a>
-                                    </h3>
-                                    
-                                        <p>AGL, which has since evolved into Technologists for the Public Good, was the testing ground for an experiment in what I now call an open civic community of practice.</p>
-                                    
-                                    
-                                        <p class="small">Luke Fretwell</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <div class="fancy-feat graph pattern "></div>
+                <h3>
+                    <a href="/thoughts/retrospecting-agl" class="stretched-link">Why and how I built Agile Government Leadership</a>
+                </h3>
+                
+                    <p>AGL, which has since evolved into Technologists for the Public Good, was the testing ground for an experiment in what I now call an open civic community of practice.</p>
+                
+                
+                    <p class="small">Luke Fretwell</p>
+                
+            </div>
+        </div>
+    </div>
+
                          <!-- Thoughts primary -->
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="fancy-feat wavy pattern ">
-                                    </div>
-                                    <h3>
-                                        <a href="/thoughts/remembering-kev-walsh" class="stretched-link">Remembering Kev Walsh</a>
-                                    </h3>
-                                    
-                                        <p>His work in civic and government service design contributed deeply to the world we all want for our future.</p>
-                                    
-                                    
-                                        <p class="small">Luke Fretwell</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <div class="fancy-feat wavy pattern "></div>
+                <h3>
+                    <a href="/thoughts/remembering-kev-walsh" class="stretched-link">Remembering Kev Walsh</a>
+                </h3>
+                
+                    <p>His work in civic and government service design contributed deeply to the world we all want for our future.</p>
+                
+                
+                    <p class="small">Luke Fretwell</p>
+                
+            </div>
+        </div>
+    </div>
+
                          <!-- Thoughts primary -->
                     
                 
@@ -871,7 +884,6 @@
         
         
         
-        
         <!-- People -->
         
         
@@ -887,17 +899,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -997,7 +1009,6 @@
         
         
         
-        
             <!-- Reviews -->
                                             <!-- Reviews secondary -->
             <div class="card-deck book">
@@ -1005,64 +1016,65 @@
                 
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <img class="card-img-top sm shadow" src="/assets/img/books/dignity-in-a-digital-age.jpg" alt="">
-                                    
-                                    <h3 class="h5">
-                                        <a href="/reviews/review-dignity-in-a-digital-age" class="stretched-link">Review: Dignity in a Digital Age</a>
-                                    </h3>
-                                    <p class="description">Congressman Ro Khanna thinks different about the role of technology and democracy.</p>
-                                </div>
-                            </div>
-                        </div>
                         <!-- Reviews primary -->
-                    
-                    
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                
+                    <img class="card-img-top sm shadow" src="/assets/img/books/dignity-in-a-digital-age.jpg" alt="">
+                
+                <h2 class="h5">
+                    <a href="/reviews/review-dignity-in-a-digital-age" class="stretched-link">Review: Dignity in a Digital Age</a>
+                </h2>
+                <p class="description">Congressman Ro Khanna thinks different about the role of technology and democracy.</p>
+            </div>
+        </div>
+    </div>
+
+                        
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <img class="card-img-top sm shadow" src="/assets/img/books/the-premonition.jpg" alt="">
-                                    
-                                    <h3 class="h5">
-                                        <a href="/reviews/review-the-premonition" class="stretched-link">Review: The Premonition</a>
-                                    </h3>
-                                    <p class="description">Michael Lewis takes on government's response to the COVID pandemic.</p>
-                                </div>
-                            </div>
-                        </div>
                         <!-- Reviews primary -->
-                    
-                    
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                
+                    <img class="card-img-top sm shadow" src="/assets/img/books/the-premonition.jpg" alt="">
+                
+                <h2 class="h5">
+                    <a href="/reviews/review-the-premonition" class="stretched-link">Review: The Premonition</a>
+                </h2>
+                <p class="description">Michael Lewis takes on government's response to the COVID pandemic.</p>
+            </div>
+        </div>
+    </div>
+
+                        
                     
                 
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <img class="card-img-top sm shadow" src="/assets/img/books/civic-technologists-practice-guide.webp" alt="">
-                                    
-                                    <h3 class="h5">
-                                        <a href="/reviews/review-civic-technologists-practice-guide" class="stretched-link">Review: A Civic Technologist's Practice Guide</a>
-                                    </h3>
-                                    <p class="description">A must-read for the entire civic spectrum.</p>
-                                </div>
-                            </div>
-                        </div>
                         <!-- Reviews primary -->
-                    
-                    
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                
+                    <img class="card-img-top sm shadow" src="/assets/img/books/civic-technologists-practice-guide.webp" alt="">
+                
+                <h2 class="h5">
+                    <a href="/reviews/review-civic-technologists-practice-guide" class="stretched-link">Review: A Civic Technologist's Practice Guide</a>
+                </h2>
+                <p class="description">A must-read for the entire civic spectrum.</p>
+            </div>
+        </div>
+    </div>
+
+                        
                     
                 
-                    
-                    
                     
                 
             </div>
@@ -1083,17 +1095,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -1179,69 +1191,71 @@
                 
                     <!-- Gamechangers secondary -->
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <div class="img fancy-2">
-                                            <img class="card-img-top lg" src="/assets/img/people/jerome-hardaway.jpg" alt="Jerome Hardaway">
-                                        </div>
-                                    
-                                    <h3>
-                                        <a href="/gamechangers/jerome-hardaway" class="stretched-link">Jerome Hardaway</a>
-                                    </h3>
-                                    <p class="description">Empowering veterans through code.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                
+                    <div class="img fancy-2">
+                        <img class="card-img-top lg" src="/assets/img/people/jerome-hardaway.jpg" alt="Jerome Hardaway">
+                    </div>
+                
+                <h3>
+                    <a href="/gamechangers/jerome-hardaway" class="stretched-link">Jerome Hardaway</a>
+                </h3>
+                <p class="description">Empowering veterans through code.</p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Gamechangers primary -->
-                    
                     
                 
                     <!-- Gamechangers secondary -->
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <div class="img fancy-2">
-                                            <img class="card-img-top lg" src="/assets/img/people/richard-goerling.jpg" alt="Richard Goerling">
-                                        </div>
-                                    
-                                    <h3>
-                                        <a href="/gamechangers/richard-goerling" class="stretched-link">Richard Goerling</a>
-                                    </h3>
-                                    <p class="description">Bringing mindfulness to policing.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                
+                    <div class="img fancy-2">
+                        <img class="card-img-top lg" src="/assets/img/people/richard-goerling.jpg" alt="Richard Goerling">
+                    </div>
+                
+                <h3>
+                    <a href="/gamechangers/richard-goerling" class="stretched-link">Richard Goerling</a>
+                </h3>
+                <p class="description">Bringing mindfulness to policing.</p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Gamechangers primary -->
-                    
                     
                 
                     <!-- Gamechangers secondary -->
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <div class="img fancy-2">
-                                            <img class="card-img-top lg" src="/assets/img/people/shari-davis.jpg" alt="Shari Davis">
-                                        </div>
-                                    
-                                    <h3>
-                                        <a href="/gamechangers/shari-davis" class="stretched-link">Shari Davis</a>
-                                    </h3>
-                                    <p class="description">Fostering equity through participatory budgeting.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                
+                    <div class="img fancy-2">
+                        <img class="card-img-top lg" src="/assets/img/people/shari-davis.jpg" alt="Shari Davis">
+                    </div>
+                
+                <h3>
+                    <a href="/gamechangers/shari-davis" class="stretched-link">Shari Davis</a>
+                </h3>
+                <p class="description">Fostering equity through participatory budgeting.</p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Gamechangers primary -->
-                    
                     
                 
             </div>
-        
         
         
         
@@ -1260,17 +1274,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -1299,7 +1313,6 @@
         
         
         
-        
         <!-- People -->
         
         
@@ -1315,19 +1328,21 @@
             
             
                 
-                    <div class="col-12 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>
-                                    <a href="/ideas/usajobs-meta-image" class="stretched-link">
-                                        <i class="fa-solid fa-lightbulb"></i>
-                                        Add image meta tag to USAJOBS posts to increase social media reach</a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
                     <!-- Ideas primary -->
-                
+                   
+    <div class="col-12 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <h3>
+                    <a href="/ideas/usajobs-meta-image" class="stretched-link">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        Add image meta tag to USAJOBS posts to increase social media reach</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+                   
                 
             
         </div>
@@ -1339,17 +1354,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -4619,7 +4634,6 @@
         
         
         
-        
         <!-- People -->
         
         
@@ -4637,46 +4651,46 @@
         <div class="card-deck clean">
             
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="icon">
-                                <i class="fa-solid fa-bolt fa-3x"></i>
-                            </div>
-                            <h3>
-                                <a href="/features" class="stretched-link">Features</a>
-                            </h3>
-                            <p class="description">Thoughts, reviews, gamechangers, what we're paying attention to.</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="icon">
+                <i class="fa-solid fa-bolt fa-3x"></i>
+            </div>
+            <h3>
+                <a href="/features" class="stretched-link">Features</a>
+            </h3>
+            <p class="description">Thoughts, reviews, gamechangers, what we're paying attention to.</p>
+        </div>
+    </div>
+</div>
             
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="icon">
-                                <i class="fa-solid fa-flask fa-3x"></i>
-                            </div>
-                            <h3>
-                                <a href="/labs" class="stretched-link">Labs</a>
-                            </h3>
-                            <p class="description">Experiments in data, design, development.</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="icon">
+                <i class="fa-solid fa-flask fa-3x"></i>
+            </div>
+            <h3>
+                <a href="/labs" class="stretched-link">Labs</a>
+            </h3>
+            <p class="description">Experiments in data, design, development.</p>
+        </div>
+    </div>
+</div>
             
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="icon">
-                                <i class="fa-solid fa-tree fa-3x"></i>
-                            </div>
-                            <h3>
-                                <a href="/evergreen" class="stretched-link">Evergreen</a>
-                            </h3>
-                            <p class="description">Resources that never get tired.</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="icon">
+                <i class="fa-solid fa-tree fa-3x"></i>
+            </div>
+            <h3>
+                <a href="/evergreen" class="stretched-link">Evergreen</a>
+            </h3>
+            <p class="description">Resources that never get tired.</p>
+        </div>
+    </div>
+</div>
             
         </div>
     
@@ -4684,17 +4698,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -4925,7 +4939,19 @@
                         
                         
                         <li>
+                            <a href="/topics/cybersecurity">Cybersecurity</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
                             <a href="/topics/data">Data</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/topics/design">Design</a>
                         </li>
                         
                         
@@ -4950,12 +4976,6 @@
                         
                         <li>
                             <a href="/topics/open">Open</a>
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="/topics/security">Security</a>
                         </li>
                         
                         
@@ -5147,11 +5167,23 @@
     </div>
 </div>
 </footer>
-<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script
+    crossorigin="anonymous"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script
+    crossorigin="anonymous"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script
+    crossorigin="anonymous"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script>
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches && localStorage.getItem("color-theme") == "dark") {
+    if (
+        window.matchMedia("(prefers-color-scheme: dark)").matches &&
+        localStorage.getItem("color-theme") == "dark"
+    ) {
         document.querySelector("html").setAttribute("class", "dark");
         document.querySelector("div.dark-toggle").innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
         localStorage.setItem("color-theme", "dark");
@@ -5168,15 +5200,14 @@
             .classList
             .toggle("dark");
         localStorage.setItem(
-                "color-theme",
-                document
-                    .querySelector("html")
-                    .classList
-                    .contains("dark")
+                    "color-theme", document
+                .querySelector("html")
+                .classList
+                .contains("dark")
                     ? "dark"
                     : "light"
-            );
-    }
+                );
+    };
     document
         .querySelector("html")
         .classList

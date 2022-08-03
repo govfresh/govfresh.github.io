@@ -6,7 +6,7 @@ description: "Priorities include cybersecurity, IT modernization, digital custom
 category:
   - Digital
   - Open
-  - Security
+  - Cybersecurity
 ---
 
 U.S. Chief Information Officer Clare Martorana [announced](https://www.cio.gov/2022-06-10-it-ops-plan/) the release of the 2022 federal government information technology plan.

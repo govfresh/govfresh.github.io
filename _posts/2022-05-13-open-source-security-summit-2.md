@@ -4,10 +4,10 @@ date: 2022-05-13
 author: Luke Fretwell
 description: "The publication was part of the second open source security summit."
 category:
+  - Cybersecurity
   - Community
   - Digital
   - Open
-  - Security
 ---
 
 Government, technology companies and organizations convened for a second summit to move forward open source software security.

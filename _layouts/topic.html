@@ -2,283 +2,61 @@
 layout: topic
 ---
 
-{% assign radar = site.posts | where: "categories", page.title %}
-{% assign thoughts = site.thoughts | where: "categories", page.title %}
-{% assign reviews = site.reviews | where: "categories", page.title %}
-{% assign books = site.books | where: "categories", page.title %}
-{% assign orgs = site.orgs | where: "categories", page.title %}
-{% assign events = site.events | where: "categories", page.title %}
-{% assign pitches = site.pitches | where: "categories", page.title %}
-{% assign labs = site.labs | where: "categories", page.title %}
-
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
 <main>
     {% include jumbotron.html %}
-    <!-- Pitches -->
-    {% if pitches != empty %}
-        <div class="container pitches">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="home-include">
-                        <div class="preview">
-                            <h2>Pitches</h2>
-                            <div class="card-deck clean pitches">
-                                {% for item in pitches %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                {% if item.img %}
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
-                                                        <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
-                                                    </a>
-                                                {% endif %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        <div class="preview"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
-    <!-- Radar -->
-    {% if radar != empty %}
-        <div class="container radar">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Radar</h2>
-                    <div class="home-include">
-                        <div class="preview">
-                            <div class="card-deck">
-                                {% for item in radar %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                                                <h3 class="h4">
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{
-                                                item.title }}</a>
-                                                </h3>
-                                                <p>
-                                                    <small>{{ item.date | date: "%B %-d, %Y" }}</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        <div class="preview"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
-    <!-- Thoughts -->
-    {% if thoughts != empty %}
-        <div class="container thoughts">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Thoughts</h2>
-                    <div class="home-include">
-                        <div class="preview">
-                            <div class="card-deck clean">
-                                {% for item in thoughts %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
-                                                    {{ item.img }}
-                                                </div>
-                                                <h3>
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{
-                                                item.title }}</a>
-                                                </h3>
-                                                <p>By
-                                                    {{ item.author }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        <div class="preview"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
-    <!-- Reviews -->
-    {% if reviews != empty %}
-        <div class="container reviews">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Reviews</h2>
-                    <div class="home-include">
-                        <div class="preview">
-                            <div class="card-deck">
-                                {% for item in reviews %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                {% if item.img %}
-                                                    <img class="card-img-top md shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
-                                                {% endif %}
-                                                <h3 class="h5">
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{
-                                                item.title }}</a>
-                                                </h3>
-                                                <p class="description">{{ item.description }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        <div class="preview"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
-    <!-- Books -->
-    {% if books != empty %}
-        <div class="container books">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Books</h2>
-                    <div class="home-include">
-                        <div class="preview">
-                            <div class="card-deck">
-                                {% for item in books %}
-                                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                {% if item.img %}
-                                                    <img class="card-img-top shadow sm" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}" alt="{{ item.img-alt }}">
-                                                {% endif %}
-                                                <h3 class="h6">
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{
-                                                item.title }}</a>
-                                                </h3>
-                                                <p>{{ item.author }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        <div class="preview"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
-    <!-- Orgs -->
-    {% if orgs != empty %}
-        <div class="container">
-            <div class="row orgs">
-                <div class="col-sm-12">
-                    <h2>Organizations</h2>
-                    <div class="home-include">
-                        <div class="preview">
-                            <div class="card-deck">
-                                {% for item in orgs %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                {% if item.img %}
-                                                    <img class="card-img-top md line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
-                                                {% endif %}
-                                                <h3>
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{
-                                                item.title }}</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        <div class="preview"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
-    <!-- Events -->
-    {% if events != empty %}
-        <div class="container events">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Events</h2>
-                    <div class="home-include">
-                        <div class="preview">
-                            <div class="card-deck">
-                                {% for item in events %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                {% if item.img %}
-                                                    <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
-                                                {% endif %}
-                                                <h3>
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{
-                                                item.title }}</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        <div class="preview"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endif %}
-
-    {% if labs != empty %}
-        <div class="container labs">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Labs</h2>
-                    <div class="home-include">
-                        <div class="preview">
-                            <div class="card-deck clean">
-                                {% for item in site.labs %}
-                                    {% if item.title != title %}
-                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <div class="icon">
-                                                        <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-                                                    </div>
-                                                    <h3>
-                                                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{
-                                                item.title }}</a>
-                                                    </h3>
-                                                    <p class="description">
-                                                        {{ item.description }}
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="home-include">
+                    {% for collection in site.collections %}
+                        {% assign items = site[collection.label] | where: "categories", page.title %}
+                        {% assign size = items | size %}
+                        {% if size > 0 %}
+                            {% assign page-to-include = "card-" | append: collection.label %}
+                            {% if collection.label == "posts" %}
+                                {% assign page-to-include = "card-radar" %}
+                            {% elsif collection.label == "papers" %}
+                                {% assign page-to-include = "card-reviews" %}
+                            {% endif %}
+                            <div class="preview {% if collection.label == 'posts' %}radar{% else %}{{
+                                    collection.label }}{% endif %}">
+                                <h2>
+                                    {% if collection.label == 'posts' %}Radar
+                                    {% elsif collection.label=='orgs' %}
+                                        Organizations
+                                    {% else %}
+                                        {{ collection.label | capitalize }}
                                     {% endif %}
+                                </h2>
+                                <div class="card-deck {% unless collection.label == 'posts' or collection.label ==
+                                        'ideas' or collection.label == 'reviews' or collection.label == 'podcasts' %}
+                                        clean {% endunless %}">
+                                    {% for item in items %}
+                                        {% include {{ page-to-include | append: ".html" }} %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                    {% assign feeds = site.data.feeds.docs | where: "categories", page.title %}
+                    {% assign size = feeds | size %}
+                    {% if size > 0 %}
+                        <div class="preview feeds">
+                            <h2>Feeds</h2>
+                            <div class="card-deck">
+                                {% for item in feeds %}
+                                    {% include card-feeds.html %}
                                 {% endfor %}
                             </div>
                         </div>
-                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
-    {% endif %}
+    </div>
 </main>
 {% include analytics.html %}
 {% include footer.html %}

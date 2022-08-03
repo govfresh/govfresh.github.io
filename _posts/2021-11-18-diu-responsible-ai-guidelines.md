@@ -6,7 +6,7 @@ description: "The Defense Innovation Unit published Responsible AI Guidelines to
 category:
   - Digital
   - Inclusion
-  - Security
+  - Cybersecurity
 ---
 
 The Defense Innovation Unit published [Responsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines) to help the Defense Department operationalize ethical principles for artificial intelligence.

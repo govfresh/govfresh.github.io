@@ -47,8 +47,7 @@
 <!-- Custom CSS -->
 <link href="/css/style.css" rel="stylesheet">
 <!-- Patterns -->
-<link rel="stylesheet" href="/css/patterns.css"> <!-- Fonts --> <!-- Font Awesome -->
-<link href="/assets/font-awesome/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/patterns.css"> <!-- Fonts --> <!-- Font Awesome --> <link href="/assets/font-awesome/css/all.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
                                                                                                                                                 <!--[if lt IE 9]>
@@ -369,8 +368,7 @@
                     
 
                     
-                        <h2>Connect with
-                            Jerome</h2>
+                        <h2>Connect with Jerome</h2>
                         <!-- Footer -->
 
     <p class="social">
@@ -536,52 +534,52 @@
                 
                     <!-- Gamechangers secondary -->
                     
+                
+                    <!-- Gamechangers secondary -->
+                    
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                
+                    <div class="img fancy-2">
+                        <img class="card-img-top lg" src="/assets/img/people/richard-goerling.jpg" alt="Richard Goerling">
+                    </div>
+                
+                <h3>
+                    <a href="/gamechangers/richard-goerling" class="stretched-link">Richard Goerling</a>
+                </h3>
+                <p class="description">Bringing mindfulness to policing.</p>
+            </div>
+        </div>
+    </div>
+
+                         <!-- Gamechangers primary -->
                     
                 
                     <!-- Gamechangers secondary -->
                     
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <div class="img fancy-2">
-                                            <img class="card-img-top lg" src="/assets/img/people/richard-goerling.jpg" alt="Richard Goerling">
-                                        </div>
-                                    
-                                    <h3>
-                                        <a href="/gamechangers/richard-goerling" class="stretched-link">Richard Goerling</a>
-                                    </h3>
-                                    <p class="description">Bringing mindfulness to policing.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <!-- Gamechangers primary -->
-                    
-                    
+                        
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
                 
-                    <!-- Gamechangers secondary -->
-                    
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                            <div class="card">
-                                <div class="card-body">
-                                    
-                                        <div class="img fancy-2">
-                                            <img class="card-img-top lg" src="/assets/img/people/shari-davis.jpg" alt="Shari Davis">
-                                        </div>
-                                    
-                                    <h3>
-                                        <a href="/gamechangers/shari-davis" class="stretched-link">Shari Davis</a>
-                                    </h3>
-                                    <p class="description">Fostering equity through participatory budgeting.</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="img fancy-2">
+                        <img class="card-img-top lg" src="/assets/img/people/shari-davis.jpg" alt="Shari Davis">
+                    </div>
+                
+                <h3>
+                    <a href="/gamechangers/shari-davis" class="stretched-link">Shari Davis</a>
+                </h3>
+                <p class="description">Fostering equity through participatory budgeting.</p>
+            </div>
+        </div>
+    </div>
+
                          <!-- Gamechangers primary -->
-                    
                     
                 
             </div>
-        
         
         
         
@@ -600,17 +598,17 @@
     
 </div>
 <script>
-    var elements = Array.from(document.querySelectorAll('div.randomize > div'));
-    var randomized = new Array();
-    document.querySelector('div.randomize').innerHTML = '';
+    var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    var randomized = [];
+    document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
-    for (let index = 0; index < length; index++) {
+    for (let index = 0; index < length; index = index + 1) {
         let i = Math.floor(Math.random() * elements.length);
-        randomized.push(elements[i])
+        randomized.push(elements[i]);
         elements.splice(i, 1);
     }
     randomized.forEach(element => {
-        document.querySelector('div.randomize').innerHTML += element.outerHTML;
+        document.querySelector("div.randomize").innerHTML += element.outerHTML;
     });
 </script>
 
@@ -6111,14 +6109,17 @@
     
 </div>
 <script>
-    if (!document
+    if (
+        !document
             .querySelector("div.cards-include > div.card-deck")
             .innerHTML
-            .includes("<")) 
+            .includes("<")
+    ) {
         document
             .querySelector(".preview-include")
             .style
-            .display = "none"
+            .display = "none";
+    }
 </script>
             </div>
         </div>
@@ -6345,7 +6346,19 @@
                         
                         
                         <li>
+                            <a href="/topics/cybersecurity">Cybersecurity</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
                             <a href="/topics/data">Data</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/topics/design">Design</a>
                         </li>
                         
                         
@@ -6370,12 +6383,6 @@
                         
                         <li>
                             <a href="/topics/open">Open</a>
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="/topics/security">Security</a>
                         </li>
                         
                         
@@ -6567,11 +6574,23 @@
     </div>
 </div>
 </footer>
-<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script
+    crossorigin="anonymous"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script
+    crossorigin="anonymous"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script
+    crossorigin="anonymous"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script>
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches && localStorage.getItem("color-theme") == "dark") {
+    if (
+        window.matchMedia("(prefers-color-scheme: dark)").matches &&
+        localStorage.getItem("color-theme") == "dark"
+    ) {
         document.querySelector("html").setAttribute("class", "dark");
         document.querySelector("div.dark-toggle").innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
         localStorage.setItem("color-theme", "dark");
@@ -6588,15 +6607,14 @@
             .classList
             .toggle("dark");
         localStorage.setItem(
-                "color-theme",
-                document
-                    .querySelector("html")
-                    .classList
-                    .contains("dark")
+                    "color-theme", document
+                .querySelector("html")
+                .classList
+                .contains("dark")
                     ? "dark"
                     : "light"
-            );
-    }
+                );
+    };
     document
         .querySelector("html")
         .classList

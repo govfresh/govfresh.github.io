@@ -1,0 +1,42 @@
+{% if include.level == "secondary" %}
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-3 col-md-2 col-lg-2">
+                    {% if item.img-feat %}
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                            <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }} logo">
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="col-9 col-md-10 col-lg-10">
+                    <h2 class="h4">
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    {% if item.img-feat %}
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                            <img class="card-img-top xs line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }} logo">
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="col-sm-10 col-md-10 col-lg-10">
+                    <h2 class="h4">
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h2>
+                    <p>
+                        <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}

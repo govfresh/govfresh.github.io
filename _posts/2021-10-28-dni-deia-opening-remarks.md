@@ -5,7 +5,7 @@ author: Luke Fretwell
 description: "Director of National Intelligence Avril Haines shared the agency's diversity, equity, inclusion, and accessibility efforts in testimony to the U.S. House Permanent Select Committee on Intelligence."
 category:
   - Inclusion
-  - Security
+  - Cybersecurity
 ---
 
 In an opening statement to U.S. House Permanent Select Committee on Intelligence, Director of National Intelligence Avril Haines shared the agency's "work we have ahead of us to advance diversity, equity, inclusion, and accessibility."

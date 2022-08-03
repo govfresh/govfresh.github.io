@@ -35,7 +35,7 @@
           author_data = site.people | where:"title", author | first %}
                             {% if
           author_data.content.size > 1 %}
-                                <p>
+                                <p class="small">
                                     Posted by
                                     <a href="{{ site.baseurl }}{{ author_data.url }}">
                                         {{ author_data.title }}</a>
@@ -136,7 +136,7 @@
                         {% for author in page.author %}
                             {% assign author_data = site.people | where:"title", author | first %}
                             {% if author_data.content.size > 1 %}
-                                <p>By
+                                <p class="small">By
                                     <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
                                     &middot; {% include date.html %}
                                 </p>

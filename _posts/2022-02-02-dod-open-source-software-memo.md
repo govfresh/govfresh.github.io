@@ -4,6 +4,7 @@ date: 2022-02-07
 author: Luke Fretwell
 description: "New memo gives agency direction on open source software usage, citing a preference and the benefits of its adoption."
 category:
+  - Cybersecurity
   - Digital
   - Open
 ---

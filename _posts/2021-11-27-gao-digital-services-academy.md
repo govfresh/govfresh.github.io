@@ -6,7 +6,7 @@ description: "The intent of the academy would be to address challenges in techni
 category:
   - Data
   - Digital
-  - Security
+  - Cybersecurity
 ---
 
 To help the federal government address challenges in technical hiring, managing and staff retention, the U.S. Government Accountability Office recommends the creation of a digital service academy.
