@@ -21,7 +21,13 @@ flickr:
 tumblr: 
 rss: 
 category:
+  - Civic hacking
+  - Community
+  - Culture
+  - Data
+  - Design
   - Digital
+  - Inclusion
 ---
 
 The Code for America Summit is a two-day virtual experience that brings changemakers into one room―public servants, advocates, technologists, and organizers break through some of the governments’ biggest challenges by removing barriers and expanding government access to serve all Americans. Summit offers dozens of keynotes, breakout sessions, and workshops.

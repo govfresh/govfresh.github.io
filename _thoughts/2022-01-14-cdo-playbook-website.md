@@ -11,8 +11,10 @@ img-alt: ""
 img-caption: "Data by Icon Master from NounProject.com"
 img-link: https://thenounproject.com/icon/data-3074936/
 category:
+  - Civic hacking
   - Data
   - Digital
+  - Open
 ---
 
 At the beginning of 2022, the U.S. Chief Data Officers Council [published a playbook](/radar/cdo-council-2021-playbook) to help CDOs “lead data-driven transformation” within their agencies.

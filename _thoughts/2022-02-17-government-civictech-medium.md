@@ -13,6 +13,7 @@ img-link: https://thenounproject.com/icon/stop-sign-651816/
 category:
   - Design
   - Digital
+  - Inclusion
 feature: "true"
 ---
 

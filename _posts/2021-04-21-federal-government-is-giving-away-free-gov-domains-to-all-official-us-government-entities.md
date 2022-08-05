@@ -4,6 +4,7 @@ date: 2021-04-21
 author: Luke Fretwell
 description: "The DotGov Program, which administers .gov top-level domain assignments to official U.S. government entities, now offers the service for free."
 category:
+  - Cybersecurity
   - Digital
 ---
 

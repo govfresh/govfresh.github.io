@@ -4,8 +4,8 @@ date: 2021-11-02
 author: Luke Fretwell
 description: "This year's focus was on the main FOIA request and Coronavirus pages for 21 executive branch agencies."
 category:
-  - Digital
   - Design
+  - Digital
   - Inclusion
 ---
 

@@ -6,6 +6,7 @@ description: "NASA received 195 comments from the public in respose to a June 20
 category:
   - Community
   - Data
+  - Inclusion
 ---
 
 NASA received 195 comments from the public in respose to a June 2021 request for information entitled, “Advancing Racial Equity and Support for Underserved Communities in NASA Programs, Contracts and Grants.”

@@ -4,6 +4,7 @@ date: 2022-07-13
 author: Luke Fretwell
 description: "The move merges three teams into one broader digital agency."
 category:
+  - Data
   - Digital
   - Open
 ---

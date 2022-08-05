@@ -11,6 +11,7 @@ amazon: https://www.amazon.com/Countdown-Zero-Day-Stuxnet-Digital/dp/0770436196
 review-link: 
 category:
   - Cybersecurity
+  - Digital
 ---
 
  A top cybersecurity journalist tells the story behind the virus that sabotaged Iran's nuclear efforts and shows how its existence has ushered in a new age of warfare--one in which a digital attack can have the same destructive capability as a megaton bomb. 

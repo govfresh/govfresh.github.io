@@ -1,5 +1,5 @@
 ---
 title: Design
 description: 
-icon: ""
+icon: "fa-solid fa-cubes"
 ---

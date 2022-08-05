@@ -21,6 +21,11 @@ flickr:
 tumblr: 
 rss: 
 team: 
+category:
+  - Civic hacking
+  - Digital
+  - Inclusion
+  - Open
 ---
 
 After five years in the U.S. Air Force, Jerome Hardaway continues to serve his country by helping veterans pursue paths of active duty in technology careers.

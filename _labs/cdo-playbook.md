@@ -6,6 +6,7 @@ icon: "fa-solid fa-database"
 website: https://cdoplaybook.govfresh.com/
 github: https://github.com/govfresh/cdo-playbook
 category:
+  - Civic hacking
   - Data
   - Digital
 ---

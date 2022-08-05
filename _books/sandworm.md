@@ -11,6 +11,7 @@ amazon: https://www.amazon.com/Sandworm-Andy-Greenberg-audiobook/dp/B07RGRTZM6/r
 review-link: 
 category:
   - Cybersecurity
+  - Digital
 ---
 
 The true story of the most devastating act of cyberwarfare in history and the desperate hunt to identify and track the elite Russian agents behind it: [A] chilling account of a Kremlin-led cyberattack, a new front in global conflict (Financial Times).

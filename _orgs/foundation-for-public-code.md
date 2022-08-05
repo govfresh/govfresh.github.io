@@ -20,6 +20,9 @@ tumblr:
 rss: 
 donate: 
 category:
+  - Civic hacking
+  - Community
+  - Culture
   - Digital
   - Open
 ---

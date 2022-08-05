@@ -20,9 +20,10 @@ tumblr:
 rss: https://www.eff.org/rss
 donate: https://supporters.eff.org/donate/join-eff-4
 category:
+  - Cybersecurity
+  - Data
   - Digital
   - Open
-  - Cybersecurity
 ---
 
 The Electronic Frontier Foundation is the leading nonprofit organization defending civil liberties in the digital world. Founded in 1990, EFF champions user privacy, free expression, and innovation through impact litigation, policy analysis, grassroots activism, and technology development. EFF's mission is to ensure that technology supports freedom, justice, and innovation for all people of the world.

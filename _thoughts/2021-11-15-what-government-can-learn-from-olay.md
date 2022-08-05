@@ -11,6 +11,7 @@ img-alt: ""
 img-caption: "Icon: drop by DinosoftLab from the Noun Project"
 img-link: https://thenounproject.com/search/?q=lotion+drop&i=1619411
 category:
+  - Culture
   - Inclusion
   - Open
 ---

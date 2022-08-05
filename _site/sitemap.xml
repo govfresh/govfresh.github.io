@@ -134,7 +134,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/dm/andrew-hening</loc>
-<lastmod>2022-08-03T11:38:46-07:00</lastmod>
+<lastmod>2022-08-03T12:43:53-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
@@ -629,8 +629,8 @@
 <lastmod>2022-07-28T10:11:29-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/topics/business</loc>
-<lastmod>2021-11-15T13:24:01-08:00</lastmod>
+<loc>http://localhost:4000/topics/civic-hacking</loc>
+<lastmod>2022-08-04T17:19:27-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/community</loc>
@@ -639,10 +639,6 @@
 <url>
 <loc>http://localhost:4000/topics/culture</loc>
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/topics/customer-experience</loc>
-<lastmod>2022-01-25T17:37:09-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/cybersecurity</loc>
@@ -661,12 +657,12 @@
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/topics/hacking</loc>
+<loc>http://localhost:4000/topics/inclusion</loc>
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/topics/inclusion</loc>
-<lastmod>2021-11-15T13:24:01-08:00</lastmod>
+<loc>http://localhost:4000/topics/industry</loc>
+<lastmod>2022-08-04T17:21:54-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/open</loc>

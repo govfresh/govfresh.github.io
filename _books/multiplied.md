@@ -10,6 +10,7 @@ goodreads:
 amazon: https://www.amazon.com/Multiplied-Digital-Transformation-Deliver-Impact/dp/1802274111/ref=sr_1_2?crid=123JCI27YYTIT&keywords=multiplied&qid=1653073422&sprefix=multiplied%2Caps%2C168&sr=8-2
 review-link: 
 category:
+  - Culture
   - Design
 ---
 

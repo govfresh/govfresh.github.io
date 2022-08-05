@@ -20,6 +20,8 @@ tumblr:
 rss: 
 donate: 
 category:
+  - Community
+  - Data
   - Digital
   - Open
 ---

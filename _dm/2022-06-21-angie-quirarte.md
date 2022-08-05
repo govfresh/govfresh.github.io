@@ -25,9 +25,13 @@ flickr:
 tumblr:
 rss:
 category:
+  - Community
+  - Culture
   - Data
   - Design
   - Digital
+  - Inclusion
+  - Open
 feature:
 ---
 

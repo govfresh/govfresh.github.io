@@ -11,6 +11,7 @@ amazon: https://www.amazon.com/gp/product/148425015X/ref=as_li_tl?ie=UTF8&tag=go
 review-link: 
 category:
   - Design
+  - Digital
   - Inclusion
 ---
 

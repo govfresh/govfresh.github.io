@@ -10,6 +10,8 @@ goodreads: https://www.goodreads.com/en/book/show/51151807-design-justice
 amazon: https://www.amazon.com/gp/product/0262043459/ref=as_li_tl?ie=UTF8&tag=govfresh-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0262043459&linkId=2ae6e84939ae6ee057ff64ed547e6e2e
 review-link: 
 category:
+  - Community
+  - Culture
   - Design
   - Inclusion
 ---

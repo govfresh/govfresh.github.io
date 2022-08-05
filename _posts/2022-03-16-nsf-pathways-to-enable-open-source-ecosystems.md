@@ -4,8 +4,8 @@ date: 2022-03-16
 author: Luke Fretwell
 description: "The new program is part of the agency's effort to develop and grow open source ecosystems."
 category:
-  - Digital
   - Community
+  - Digital
   - Open
 ---
 

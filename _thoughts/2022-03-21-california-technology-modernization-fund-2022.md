@@ -11,9 +11,9 @@ img-alt: ""
 img-caption: 
 img-link: 
 category:
-  - Community
-  - Data
+  - Culture
   - Digital
+  - Open
 feature: "true"
 ---
 

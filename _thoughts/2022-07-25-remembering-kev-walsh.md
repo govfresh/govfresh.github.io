@@ -12,8 +12,6 @@ img-caption:
 img-link: 
 category:
   - Community
-  - Data
-  - Digital
 share-twitter: https://twitter.com/govfresh/status/1551951646023753729?s=20&t=wnc06xHcDuuPUshhJl2G4Q
 share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6957719082993356800
 share-facebook: https://www.facebook.com/govfresh/posts/pfbid0aYM8Pw4PfbyVe5JEoMik1UJoJpzeEuoFPepTvRkCncnEtoWSKaa1gtMUqEbkvfPEl

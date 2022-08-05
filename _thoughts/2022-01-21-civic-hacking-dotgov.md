@@ -11,10 +11,11 @@ img-alt: ""
 img-caption: "Icon: Government by Adrien Coquet from the Noun Project"
 img-link: https://thenounproject.com/search/?q=government&i=3971645
 category:
-  - Cybersecurity
+  - Civic hacking
+  - Community
   - Data
   - Digital
-  - Hacking
+  - Open
 ---
 
 I'm a huge proponent that all government websites should end with the .gov extension. If they don't, the public will continue to be confused as to whether a website is legitimately managed by a government entity.

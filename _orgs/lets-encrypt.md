@@ -20,9 +20,8 @@ tumblr:
 rss: 
 donate: https://letsencrypt.org/donate/
 category:
-  - Digital
-  - Open
   - Cybersecurity
+  - Open
 ---
 
 Let's Encrypt is a free, automated, and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG).

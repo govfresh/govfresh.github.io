@@ -20,8 +20,8 @@ tumblr:
 rss: 
 donate: https://www.signal.org/donate/
 category:
-  - Open
   - Cybersecurity
+  - Open
 ---
 
 Signal Foundation is a nonprofit organization dedicated to doing the foundational work around making private communication accessible, secure and ubiquitous.

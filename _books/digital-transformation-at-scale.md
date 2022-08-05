@@ -11,5 +11,6 @@ amazon: https://www.amazon.com/gp/product/B09FTHLH8Q/ref=as_li_tl?ie=UTF8&tag=go
 review-link: 
 category:
   - Culture
+  - Digital
 ---
 

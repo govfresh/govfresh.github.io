@@ -22,6 +22,7 @@ tumblr:
 rss: 
 category:
   - Design
+  - Digital
 ---
 
 DotGov Design, an initiative of AIGA DC, focuses on designers working with or inside government and civic tech initiatives.

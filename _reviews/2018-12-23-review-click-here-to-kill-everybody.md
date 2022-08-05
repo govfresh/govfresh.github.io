@@ -9,6 +9,8 @@ book-author: Bruce Schneier
 book-link: /click-here-to-kill-everybody
 category:
   - Cybersecurity
+  - Data
+  - Digital
 ---
 
 If we’re ever going to get security right, technologists must embrace the need for policy and government leaders must do the same with technology.

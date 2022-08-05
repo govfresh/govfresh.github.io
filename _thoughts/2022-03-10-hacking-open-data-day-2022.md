@@ -11,10 +11,9 @@ img-alt: ""
 img-caption: 
 img-link: 
 category:
-  - Community
+  - Civic hacking
   - Data
   - Digital
-  - Hacking
 feature: 
 ---
 

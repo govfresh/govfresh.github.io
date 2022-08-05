@@ -20,6 +20,8 @@ tumblr:
 rss: 
 donate: https://opensource.org/civicrm/contribute/transact?reset=1&id=2
 category:
+  - Community
+  - Culture
   - Open
 ---
 

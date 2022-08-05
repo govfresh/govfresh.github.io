@@ -25,9 +25,10 @@ flickr:
 tumblr:
 rss:
 category:
-  - Data
-  - Design
+  - Culture
   - Digital
+  - Inclusion
+  - Industry
 feature:
 ---
 

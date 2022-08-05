@@ -20,6 +20,10 @@ tumblr:
 rss: https://www.eff.org/rss
 donate: https://donate.mozilla.org/en-US/?presets=50,30,20,10&amount=30&utm_source=mozilla.org&utm_medium=referral&utm_content=company&currency=usd&utm_campaign=footer
 category:
+  - Community
+  - Culture
+  - Cybersecurity
+  - Digital
   - Open
 ---
 

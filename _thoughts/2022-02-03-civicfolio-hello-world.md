@@ -11,10 +11,11 @@ img-alt: ""
 img-caption: "Icon: Booklet by Jaime Serra from NounProject.com"
 img-link: https://thenounproject.com/icon/booklet-1624267/
 category:
-  - Open
+  - Civic hacking
+  - Community
   - Design
   - Digital
-  - Hacking
+  - Open
 ---
 
 Say hello to [CivicFolio](https://civicfolio.govfresh.com), a portfolio website theme for civic technologists.

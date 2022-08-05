@@ -24,12 +24,16 @@ apple: https://podcasts.apple.com/us/podcast/the-government-we-need/id1468169431
 pocketcasts: https://pca.st/WQa8
 stitcher: https://www.stitcher.com/s?fid=427823&refid=stpr
 category:
+  - Civic hacking
   - Community
+  - Culture
+  - Cybersecurity
+  - Data
   - Design
   - Digital
   - Inclusion
+  - Industry
   - Open
-  - Cybersecurity
 ---
 
 What would government look like if we re-imagined it? A podcast exploring the government of the future and how it can best serve everyone.

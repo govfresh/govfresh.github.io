@@ -21,7 +21,9 @@ rss:
 donate: https://www.participatorybudgeting.org/donate/
 category:
   - Community
+  - Design
   - Inclusion
+  - Open
 ---
 
 The Participatory Budgeting Project (PBP) is a nonprofit organization that empowers people to decide together how to spend public money, primarily in the US and Canada. We create and support participatory budgeting processes that deepen democracy, build stronger communities, and make public budgets more equitable and effective.

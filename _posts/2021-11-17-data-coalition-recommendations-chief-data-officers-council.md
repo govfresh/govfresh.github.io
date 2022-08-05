@@ -4,8 +4,8 @@ date: 2021-11-17
 author: Luke Fretwell
 description: "Response to a Chief Data Officers Council call for public feedback on how the federal government can best leverage data."
 category:
-  - Digital
   - Data
+  - Digital
 ---
 
 In response to a Chief Data Officers Council [call for public feedback](https://www.federalregister.gov/documents/2021/10/14/2021-22267/office-of-shared-solutions-and-performance-improvement-osspi-chief-data-officers-council-cdo-request), the Data Coalition shared [its recommendations](https://www.datacoalition.org/12-recommendations-for-the-chief-data-officers-council/) on how the federal government can best leverage data.

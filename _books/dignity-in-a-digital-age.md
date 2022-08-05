@@ -10,8 +10,9 @@ goodreads: https://www.goodreads.com/book/show/58438571-dignity-in-a-digital-age
 amazon: https://www.amazon.com/Dignity-Digital-Age-Making-Tech/dp/1982163348/ref=sr_1_1?crid=VUET80A62JK3&keywords=Dignity+in+a+Digital+Age&qid=1650920748&sprefix=dignity+in+a+digital+age%2Caps%2C534&sr=8-1
 review-link: 
 category:
-  - Community
+  - Data
   - Digital
+  - Inclusion
 ---
 
 From the publisher:

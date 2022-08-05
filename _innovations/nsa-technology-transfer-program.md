@@ -22,6 +22,7 @@ flickr:
 tumblr: 
 rss: 
 category:
+  - Cybersecurity
   - Digital
   - Open
 ---

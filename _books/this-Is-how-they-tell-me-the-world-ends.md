@@ -11,6 +11,7 @@ amazon: https://www.amazon.com/This-They-Tell-World-Ends/dp/B08W2D7NGZ/ref=sr_1_
 review-link: 
 category:
   - Cybersecurity
+  - Digital
 ---
 
 Written in the hot, propulsive prose of a spy thriller (The New York Times), the untold story of the cyberweapons market--the most secretive, government-backed market on earth--and a terrifying first look at a new kind of global warfare.

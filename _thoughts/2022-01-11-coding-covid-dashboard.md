@@ -11,9 +11,9 @@ img-alt: ""
 img-caption: "Icon: Covid by Roman Lychkov from NounProject.com"
 img-link: https://thenounproject.com/icon/covid-3674642/
 category:
+  - Civic hacking
   - Data
   - Digital
-  - Hacking
   - Open
 ---
 

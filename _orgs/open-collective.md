@@ -20,7 +20,9 @@ tumblr:
 rss: 
 donate: 
 category:
+  - Community
   - Digital
+  - Inclusion
   - Open
 ---
 

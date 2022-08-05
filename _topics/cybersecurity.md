@@ -1,5 +1,5 @@
 ---
 title: Cybersecurity
-description: Security and the internet.
+description: 
 icon: "fa-solid fa-lock"
 ---

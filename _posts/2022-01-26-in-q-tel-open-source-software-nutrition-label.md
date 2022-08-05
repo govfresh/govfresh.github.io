@@ -4,6 +4,7 @@ date: 2022-01-26
 author: Luke Fretwell
 description: "A tool to help developers assess the health and security of OSS packages."
 category:
+  - Cybersecurity
   - Open
 ---
 

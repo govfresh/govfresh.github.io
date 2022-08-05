@@ -11,6 +11,7 @@ amazon: https://www.amazon.com/The-Perfect-Weapon-David-E-Sanger-audiobook/dp/B0
 review-link: 
 category:
   - Cybersecurity
+  - Digital
 ---
 
 The Perfect Weapon is the startling inside story of how the rise of cyberweapons transformed geopolitics like nothing since the invention of the atomic bomb. Cheap to acquire, easy to deny, and usable for a variety of malicious purposes, cyber is now the weapon of choice for democracies, dictators, and terrorists. Two presidents--Bush and Obama--drew first blood with Operation Olympic Games, which used malicious code to blow up Iran's nuclear centrifuges, and yet America proved remarkably unprepared when its own weapons were stolen from its arsenal and, during President Trump's first year, turned back on the United States and its allies. And if Obama would begin his presidency by helping to launch the new era of cyberwar, he would end it struggling unsuccessfully to defend the 2016 U.S. election from interference by Russia, with Vladimir Putin drawing on the same playbook he used to destabilize Ukraine.

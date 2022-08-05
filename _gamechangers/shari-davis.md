@@ -21,6 +21,12 @@ flickr:
 tumblr: 
 rss: 
 team: 
+category:
+  - Community
+  - Culture
+  - Design
+  - Inclusion
+  - Open
 ---
 
 When Shari Davis speaks, they do so with a conviction that is impossible to question their deep commitment to equity in democracy. 

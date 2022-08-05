@@ -24,7 +24,10 @@ apple:
 pocketcasts: 
 stitcher: 
 category:
+  - Civic hacking
   - Community
+  - Culture
+  - Data
   - Design
   - Digital
   - Inclusion

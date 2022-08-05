@@ -6,9 +6,10 @@ icon: "fa-solid fa-flag"
 website: https://usa.govfresh.com/
 github: https://github.com/govfresh/usa
 category:
+  - Civic hacking
   - Data
+  - Design
   - Digital
-  - Hacking
   - Open
 ---
 

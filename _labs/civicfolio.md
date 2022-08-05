@@ -6,8 +6,11 @@ icon: "fa-solid fa-arrow-pointer"
 website: https://civicfolio.govfresh.com/
 github: https://github.com/govfresh/civicfolio
 category:
+  - Civic hacking
+  - Community
+  - Design
   - Digital
-  - Hacking
+  - Open
 ---
 
 CivicFolio aims to help civic-interested designers and technologists build their portfolio websites while learning (by doing) the basic principles of civic technology:

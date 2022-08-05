@@ -21,6 +21,8 @@ flickr:
 tumblr: 
 rss: 
 team: 
+category:
+  - Culture
 ---
 
 Richard Goerling is bringing needed presence to the people who have taken an oath to serve and protect us.

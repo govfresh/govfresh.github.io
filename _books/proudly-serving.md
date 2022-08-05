@@ -29,6 +29,7 @@ category:
   - Culture
   - Design
   - Digital
+  - Inclusion
 ---
 
 A playbook helping local governments build people-centered digital public services.

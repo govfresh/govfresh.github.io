@@ -4,9 +4,9 @@ date: 2022-01-14
 author: Luke Fretwell
 description: "The White House met with technology companies and organizations to discuss how the federal government and industry can better partner on open source security."
 category:
+  - Cybersecurity
   - Digital
   - Open
-  - Cybersecurity
 ---
 
 In the wake of the [Log4j vulnerability](https://en.wikipedia.org/wiki/Log4j), the White House met with technology companies and organizations to discuss how the federal government and industry can better partner on open source security.

@@ -12,7 +12,9 @@ amazon: https://www.amazon.com/Citizens-Why-Key-Fixing-Everything/dp/191245484X
 review-link: 
 category:
   - Community
-  - Digital
+  - Culture
+  - Inclusion
+  - Open
 ---
 
 From the publisher:

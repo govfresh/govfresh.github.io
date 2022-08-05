@@ -8,6 +8,7 @@ company: Google
 source: https://cloud.google.com/blog/topics/public-sector/announcing-google-public-sector
 category:
   - Digital
+  - Industry
 feature: ""
 ---
 

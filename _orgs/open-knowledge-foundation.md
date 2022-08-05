@@ -20,6 +20,7 @@ tumblr:
 rss: 
 donate: https://okfn.org/donate/
 category:
+  - Community
   - Culture
   - Open
 ---

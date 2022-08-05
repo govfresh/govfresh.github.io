@@ -26,8 +26,6 @@ tumblr:
 amazon: https://www.amazon.com/dp/B0B38CX8K8/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1654918089&sr=8-1
 rss:
 category:
-  - Community
-  - Design
   - Inclusion
 share-twitter: https://twitter.com/govfresh/status/1554914940250513410?s=20&t=uO9KEBiN7hKeys9t1tXwyw
 share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6960680775432175616

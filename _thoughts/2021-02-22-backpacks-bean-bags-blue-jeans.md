@@ -11,6 +11,8 @@ img-caption: "Icon: Warunk Icon from the Noun Project"
 img-link: https://thenounproject.com/search/?q=backpack&i=4168822
 redirect_from: /2021/02/backpacks-bean-bags-and-blue-jeans-my-take-on-tech-titans-18f-and-usds/
 category:
+  - Community
+  - Culture
   - Digital
 ---
 

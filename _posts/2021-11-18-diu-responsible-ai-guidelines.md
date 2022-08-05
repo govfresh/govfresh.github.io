@@ -4,9 +4,8 @@ date: 2021-11-18
 author: Luke Fretwell
 description: "The Defense Innovation Unit published Responsible AI Guidelines to help the Defense Department operationalize ethical principles for artificial intelligence."
 category:
+  - Data
   - Digital
-  - Inclusion
-  - Cybersecurity
 ---
 
 The Defense Innovation Unit published [Responsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines) to help the Defense Department operationalize ethical principles for artificial intelligence.

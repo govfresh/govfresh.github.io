@@ -6,10 +6,11 @@ icon: "fa-solid fa-mask-face"
 website: https://covid.govfresh.com
 github: https://github.com/govfresh/covid
 category:
+  - Civic hacking
   - Data
   - Design
   - Digital
-  - Hacking
+  - Open
 ---
 
 A dashboard of U.S. state-by-state COVID-19 updates, including:

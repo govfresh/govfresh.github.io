@@ -4,7 +4,7 @@ date: 2022-01-25
 author: Luke Fretwell
 description: "The results are based on interviews with 2,387 people who were asked to evaluate their 2021 experiences with federal government services."
 category:
-  - Customer experience
+  - Design
 ---
 
 Results from the annual American Customer Satisfaction Index survey say public satisfaction with U.S. federal government services is down 2.6% to 63.4%, the lowest rating ever recorded. 

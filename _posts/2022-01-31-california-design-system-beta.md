@@ -4,8 +4,10 @@ date: 2022-01-31
 author: Luke Fretwell
 description: "Aims to make it “easy for state digital teams to build accessible, consistent, and performant services and products to meet Californians’ needs.”"
 category:
-  - Open
   - Design
+  - Digital
+  - Inclusion
+  - Open
 ---
 
 The state of California launched a beta version of its new design system, that aims to make it "easy for state digital teams to build accessible, consistent, and performant services and products to meet Californians’ needs."

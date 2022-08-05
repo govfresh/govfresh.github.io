@@ -23,6 +23,7 @@ rss: https://proudcity.com/feed
 donate: 
 category:
   - Digital
+  - Industry
   - Open
 ---
 

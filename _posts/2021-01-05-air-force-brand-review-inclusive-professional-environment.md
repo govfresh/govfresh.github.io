@@ -4,6 +4,7 @@ date: 2021-01-05
 author: Luke Fretwell
 description: "The Department of the Air Force directed commanders to conduct a comprehensive review of official and unofficial unit emblems, morale patches, mottos, nicknames, coins and other forms of unit recognition and identity to ensure an inclusive and professional environment."
 category:
+  - Design
   - Inclusion
 ---
 

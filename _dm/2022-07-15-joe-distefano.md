@@ -26,7 +26,6 @@ tumblr:
 rss:
 category:
   - Data
-  - Design
   - Digital
 feature:
 ---

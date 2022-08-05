@@ -4,6 +4,7 @@ date: 2021-11-03
 author: Luke Fretwell
 description: "Denice Ross was named as U.S. chief data scientist at the White House Office of Science and Technology Policy."
 category:
+  - Data
   - Digital
 ---
 
