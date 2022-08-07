@@ -1,7 +1,7 @@
 ---
 title: "GAO recommends the creation of a federal digital service academy"
 date: 2021-11-27
-author: Luke Fretwell
+author: GovFresh
 description: "The intent of the academy would be to address challenges in technical hiring, managing and staff retention."
 category:
   - Cybersecurity

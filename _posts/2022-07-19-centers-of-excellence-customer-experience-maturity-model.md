@@ -1,7 +1,7 @@
 ---
 title: "Centers of Excellence publishes federal customer experience maturity model"
 date: 2022-07-19
-author: Luke Fretwell
+author: GovFresh
 description: "The guidance is part of the Biden Administration's 'Transforming Federal Customer Experience and Service Delivery to Rebuild Trust in Government' executive order."
 category:
   - Design

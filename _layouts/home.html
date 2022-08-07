@@ -6,8 +6,6 @@ layout: home
 {% include nav.html %}
 <main>
     <!-- Jumbotron -->
-                                                                                                                                                                                                        <!--{% include jumbotron.html %}-->
-                                                                                                                                                                                                        <!-- Previews -->
     <div class="container-fluid">
         <div class="home-include">
             <div class="preview general feature">
@@ -50,7 +48,9 @@ layout: home
                                 <p>"{{ item.quote }}"</p>
                             </blockquote>
                         {% endif %}
-                        <p>{{ item.description }}</p>
+                        <div class="post">
+                            <p>{{ item.description }}</p>
+                        </div>
                         {% if item.author %}
                             <p>
                                 {% assign author_data = site.people | where:"title", item.author | first %}

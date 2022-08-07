@@ -1,7 +1,7 @@
 ---
 title: "GOV.UK says it will shut down its platform as a service offering"
 date: 2022-07-12
-author: Luke Fretwell
+author: GovFresh
 description: "Says the closure means continuing to invest in other services, such as GOV.UK Notify, GOV.UK Pay, GOV.UK Design System, as well as building new platforms like the new GOV.UK Forms product."
 category:
   - Digital

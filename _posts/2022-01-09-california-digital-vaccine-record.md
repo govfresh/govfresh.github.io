@@ -1,7 +1,7 @@
 ---
 title: "California is working with six states to re-use code from its vaccine records portal"
 date: 2022-01-09 
-author: Luke Fretwell
+author: GovFresh
 description: "California Chief Technology Innovation Officer Rick Klau says the state made the code base for the portal publicly available and Washington state re-purposed it for its own vaccine records website."
 category:
   - Digital

@@ -1,7 +1,7 @@
 ---
 title: "Denice Ross named federal chief data scientist"
 date: 2021-11-03 
-author: Luke Fretwell
+author: GovFresh
 description: "Denice Ross was named as U.S. chief data scientist at the White House Office of Science and Technology Policy."
 category:
   - Data

@@ -1,7 +1,7 @@
 ---
 title: "How NASA and the open source community helped a helicopter achieve lift-off on Mars"
 date: 2021-04-19 
-author: Luke Fretwell
+author: GovFresh
 description: "GitHub has a great write-up of how open source community contributions played a key role in helping NASA’s Ingenuity helicopter achieve lift-off on Mars."
 category:
   - Civic hacking

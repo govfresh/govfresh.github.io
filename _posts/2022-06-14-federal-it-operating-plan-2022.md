@@ -1,7 +1,7 @@
 ---
 title: "U.S. government releases 2022 federal IT operating plan"
 date: 2022-06-14
-author: Luke Fretwell
+author: GovFresh
 description: "Priorities include cybersecurity, IT modernization, digital customer experience and data."
 category:
   - Cybersecurity

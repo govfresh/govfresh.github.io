@@ -1,7 +1,7 @@
 ---
 title: "California announces new Office of Data & Innovation"
 date: 2022-07-13
-author: Luke Fretwell
+author: GovFresh
 description: "The move merges three teams into one broader digital agency."
 category:
   - Data

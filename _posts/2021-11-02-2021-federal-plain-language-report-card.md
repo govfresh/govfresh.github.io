@@ -1,7 +1,7 @@
 ---
 title: "2021 Federal Plain Language Report Card released"
 date: 2021-11-02 
-author: Luke Fretwell
+author: GovFresh
 description: "This year's focus was on the main FOIA request and Coronavirus pages for 21 executive branch agencies."
 category:
   - Design

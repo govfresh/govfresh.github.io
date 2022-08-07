@@ -1,7 +1,7 @@
 ---
 title: "NIST wants public feedback on cybersecurity labeling for consumer software"
 date: 2021-11-03
-author: Luke Fretwell
+author: GovFresh
 description: "The National Institute of Standards and Technology has drafted a set of cybersecurity criteria to help consumers make more informed purchasing decisions."
 category:
   - Digital

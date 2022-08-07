@@ -1,7 +1,7 @@
 ---
 title: "Data Coalition makes recommendations to the Chief Data Officers Council"
 date: 2021-11-17
-author: Luke Fretwell
+author: GovFresh
 description: "Response to a Chief Data Officers Council call for public feedback on how the federal government can best leverage data."
 category:
   - Data

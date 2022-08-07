@@ -4,21 +4,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1 class="h2">{{ page.title }}</h1>
-                    {% if page.author %}
-                        {% for author in page.author %}
-                            {% assign
-          author_data = site.people | where:"title", author | first %}
-                            {% if
-          author_data.content.size > 1 %}
-                                <p>
-                                    Posted by
-                                    <a href="{{ site.baseurl }}{{ author_data.url }}">
-                                        {{ author_data.title }}</a>
-                                    &middot; {% include date.html %}
-                                </p>
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
+                    {% include author.html %}
                 </div>
             </div>
         </div>
@@ -29,21 +15,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1 class="h2">{{ page.title }}</h1>
-                    {% if page.author %}
-                        {% for author in page.author %}
-                            {% assign
-          author_data = site.people | where:"title", author | first %}
-                            {% if
-          author_data.content.size > 1 %}
-                                <p>
-                                    Posted by
-                                    <a href="{{ site.baseurl }}{{ author_data.url }}">
-                                        {{ author_data.title }}</a>
-                                    &middot; {% include date.html %}
-                                </p>
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
+                    {% include author.html %}
                 </div>
             </div>
         </div>
@@ -57,21 +29,7 @@
                 </div>
                 <div class="col-sm-11">
                     <h1 class="h2">{{ page.title }}</h1>
-                    {% if page.author %}
-                        {% for author in page.author %}
-                            {% assign
-          author_data = site.people | where:"title", author | first %}
-                            {% if
-          author_data.content.size > 1 %}
-                                <p>
-                                    Posted by
-                                    <a href="{{ site.baseurl }}{{ author_data.url }}">
-                                        {{ author_data.title }}</a>
-                                    &middot; {% include date.html %}
-                                </p>
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
+                    {% include author.html %}
                 </div>
             </div>
         </div>
@@ -89,11 +47,7 @@
                     {% if page.description %}
                         <p class="lead">{{ page.description }}</p>
                     {% endif %}
-                    <p>
-                        {% if page.date %}
-                            {% include date.html %}
-                        {% endif %}
-                    </p>
+                    {% include author.html %}
                 </div>
                 <div class="col-sm-3"></div>
             </div>
@@ -132,17 +86,7 @@
                     {% if page.description %}
                         <p class="lead">{{ page.description }}</p>
                     {% endif %}
-                    {% if page.author %}
-                        {% for author in page.author %}
-                            {% assign author_data = site.people | where:"title", author | first %}
-                            {% if author_data.content.size > 1 %}
-                                <p>By
-                                    <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
-                                    &middot; {% include date.html %}
-                                </p>
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
+                    {% include author.html %}
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 title: "Defense Department: Choose 'OSS solutions before buying proprietary'"
 date: 2022-02-07 
-author: Luke Fretwell
+author: GovFresh
 description: "New memo gives agency direction on open source software usage, citing a preference and the benefits of its adoption."
 category:
   - Cybersecurity

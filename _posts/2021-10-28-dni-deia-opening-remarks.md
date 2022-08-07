@@ -1,7 +1,7 @@
 ---
 title: "National Intelligence director speaks on diversity, equity, inclusion, accessibility efforts"
 date: 2021-10-28  
-author: Luke Fretwell
+author: GovFresh
 description: "Director of National Intelligence Avril Haines shared the agency's diversity, equity, inclusion, and accessibility efforts in testimony to the U.S. House Permanent Select Committee on Intelligence."
 category:
   - Cybersecurity

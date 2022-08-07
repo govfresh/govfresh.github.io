@@ -1,7 +1,7 @@
 ---
 title: "In-Q-Tel built an open source software 'nutrition label'"
 date: 2022-01-26 
-author: Luke Fretwell
+author: GovFresh
 description: "A tool to help developers assess the health and security of OSS packages."
 category:
   - Cybersecurity

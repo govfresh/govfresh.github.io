@@ -1,7 +1,7 @@
 ---
 title: "CDO Council retrospects 2021, publishes data playbook"
 date: 2022-01-03
-author: Luke Fretwell
+author: GovFresh
 description: "The Federal Chief Data Officers Council shared its 2021 accomplishments and published a playbook to help CDOs “lead data-driven transformation” within their agencies."
 category:
   - Data

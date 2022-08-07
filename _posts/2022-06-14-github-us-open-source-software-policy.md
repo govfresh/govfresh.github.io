@@ -1,7 +1,7 @@
 ---
 title: "Tech, academia share ideas on building a more robust U.S. government open source policy"
 date: 2022-06-14
-author: Luke Fretwell
+author: GovFresh
 description: "Topics included a federal open source program office and the role OSS plays in U.S. digital infrastructure."
 category:
   - Cybersecurity

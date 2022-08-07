@@ -1,7 +1,7 @@
 ---
 title: "Citizen satisfaction with federal government services drops to all-time low"
 date: 2022-01-25 
-author: Luke Fretwell
+author: GovFresh
 description: "The results are based on interviews with 2,387 people who were asked to evaluate their 2021 experiences with federal government services."
 category:
   - Design

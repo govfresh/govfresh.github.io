@@ -1,7 +1,7 @@
 ---
 title: "Government, tech companies release open source software supply chain security modernization plan"
 date: 2022-05-13 
-author: Luke Fretwell
+author: GovFresh
 description: "The publication was part of the second open source security summit."
 category:
   - Community

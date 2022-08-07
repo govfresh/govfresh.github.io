@@ -1,7 +1,7 @@
 ---
 title: "California shares beta version of its new design system"
 date: 2022-01-31 
-author: Luke Fretwell
+author: GovFresh
 description: "Aims to make it “easy for state digital teams to build accessible, consistent, and performant services and products to meet Californians’ needs.”"
 category:
   - Design

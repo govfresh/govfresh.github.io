@@ -1,7 +1,7 @@
 ---
 title: "The federal government is giving away free .gov domains to all official U.S. government entities"
 date: 2021-04-21 
-author: Luke Fretwell
+author: GovFresh
 description: "The DotGov Program, which administers .gov top-level domain assignments to official U.S. government entities, now offers the service for free."
 category:
   - Cybersecurity

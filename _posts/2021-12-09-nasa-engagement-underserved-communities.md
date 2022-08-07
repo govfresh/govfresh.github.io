@@ -1,7 +1,7 @@
 ---
 title: "Public gives NASA ideas for engaging untapped communities"
 date: 2021-12-09 
-author: Luke Fretwell
+author: GovFresh
 description: "NASA received 195 comments from the public in respose to a June 2021 request for information."
 category:
   - Community

@@ -1,7 +1,7 @@
 ---
 title: "Open security controls: NIST officially releases OSCAL 1.0.0"
 date: 2021-06-08 
-author: Luke Fretwell
+author: GovFresh
 description: "The National Institute of Standards and Technology officially released Open Security Controls Assessment Language 1.0.0"
 permalink: /2021-06-08-nist-officially-releases-oscal-1/
 category:

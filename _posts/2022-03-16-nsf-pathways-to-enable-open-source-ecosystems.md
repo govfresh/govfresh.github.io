@@ -1,7 +1,7 @@
 ---
 title: "National Science Foundation wants help building open culture"
 date: 2022-03-16 
-author: Luke Fretwell
+author: GovFresh
 description: "The new program is part of the agency's effort to develop and grow open source ecosystems."
 category:
   - Community

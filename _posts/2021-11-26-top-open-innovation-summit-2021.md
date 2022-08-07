@@ -1,7 +1,7 @@
 ---
 title: "Census to host Open Innovation for All virtual summit"
 date: 2021-11-26
-author: Luke Fretwell
+author: GovFresh
 description: "The U.S. Census Bureau and Census Open Innovation Labs will host The Opportunity Project Summit December 13-15."
 category:
   - Cybersecurity

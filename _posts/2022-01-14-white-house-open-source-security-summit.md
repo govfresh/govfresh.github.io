@@ -1,7 +1,7 @@
 ---
 title: "U.S. government, technology community advance open source security collaboration efforts"
 date: 2022-01-14 
-author: Luke Fretwell
+author: GovFresh
 description: "The White House met with technology companies and organizations to discuss how the federal government and industry can better partner on open source security."
 category:
   - Cybersecurity
