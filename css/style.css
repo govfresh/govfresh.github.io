@@ -74,6 +74,7 @@
     --font-5: "Public Sans Regular", sans-serif;
     --font-6: "Public Sans Thin", sans-serif;
     --font-7: "Public Sans Light", sans-serif;
+    --font-8: "Lora Italic", serif;
     --size-1: 0;
     --size-2: 0.0625rem;
     --size-3: .25rem;
@@ -312,6 +313,10 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     text-decoration: dotted !important;
 }
 
+.share h2, .topics h2, .subscribe h2, .license h2, .listen h2 {
+    padding: var(--size-7) var(--size-1) var(--size-4) var(--size-1);
+}
+
 /* Styles with bold */
 
 .breadcrumb, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
@@ -468,8 +473,7 @@ blockquote {
     border-left: var(--size-3) solid var(--color-1);
     font-size: var(--size-8);
     margin-left: var(--size-9);
-    padding-left: var(--size-9);
-    padding-right: var(--size-11);
+    padding: var(--size-1) var(--size-9);
     margin-bottom: var(--size-9);
     margin-top: var(--size-9);
 }
@@ -500,6 +504,34 @@ blockquote {
 .list-group-item {
     border: none;
     padding: var(--size-7) var(--size-6) var(--size-7) var(--size-1);
+}
+
+/* Topics */
+
+.topics ul {
+    padding: var(--size-3) var(--size-1);
+}
+
+.topics li {
+    display: inline-block;
+    margin: var(--size-1) var(--size-4) var(--size-5) var(--size-1);
+    padding: var(--size-1);
+}
+
+.topics a, .topics a:visited {
+    background-color: var(--color-6);
+    border-radius: var(--size-3);
+    color: var(--color-1) !important;
+    display: inline-block;
+    font-family: var(--font-5);
+    font-size: var(--size-6);
+    padding: var(--size-4) var(--size-5);
+    text-decoration: none;
+}
+
+.topics a:hover {
+    background-color: var(--color-1);
+    color: var(--color-4) !important;
 }
 
 /* Feature */
@@ -662,9 +694,11 @@ img.author {
 }
 
 .author-bio {
-    border-top: var(--size-2) solid var(--color-6);
-    margin-top: var(--size-9);
-    padding-top: var(--size-9);
+    border-bottom: var(--size-2) solid var(--color-2);
+    border-top: var(--size-2) solid var(--color-2);
+    font-family: var(--font-8);
+    margin: var(--size-10) var(--size-1) var(--size-8) var(--size-1);
+    padding: var(--size-9) var(--size-1);
 }
 
 /* Parent */
@@ -768,14 +802,15 @@ html:not(html.dark) .labs {
 .home-include .preview:not(.home-include .preview:last-child), .preview.general {
     border-bottom: var(--size-6) solid var(--color-1);
     border-bottom-left-radius: var(--size-5);
+}
+
+.preview {
     padding-bottom: var(--size-10);
     padding-top: var(--size-10);
 }
 
 .preview-include .preview {
     margin-top: var(--size-10);
-    padding-bottom: var(--size-10);
-    padding-top: var(--size-10);
     border-top: var(--size-6) solid var(--color-1);
     border-top-left-radius: var(--size-5);
 }
@@ -823,6 +858,10 @@ html:not(html.dark) .labs {
     color: #12100e;
 }
 
+.fa-patreon:not(footer i):not(nav i) {
+    color: #141518;
+}
+
 .fa-rss:not(footer i):not(nav i) {
     color: #ee802f;
 }
@@ -843,7 +882,7 @@ html:not(html.dark) .labs {
     color: #1da1f2;
 }
 
-.fa-window-maximize:not(footer i):not(nav i) {
+.fa-window-maximize:not(footer i):not(nav i), .fa-at:not(footer i):not(nav i), .fa-envelope:not(footer i):not(nav i) {
     color: #5b029c;
 }
 
@@ -851,7 +890,24 @@ html:not(html.dark) .labs {
     color: #ff0000;
 }
 
+/* Listen */
+
+.listen {
+    margin-bottom: var(--size-7);
+    padding-bottom: var(--size-7);
+}
+
+.listen a, .listen a:visited {
+    margin-right: var(--size-6);
+    padding-right: var(--size-1);
+    text-decoration: none;
+}
+
 /* Share */
+
+.share {
+    padding-bottom: var(--size-7);
+}
 
 .share a, .share a:visited {
     color: var(--color-4);
@@ -1117,6 +1173,12 @@ a[href$=".png"], a[href$=".jpg"] {
     margin-bottom: 1rem;
 }
 
+/* License / Disclosure */
+
+.license p, .disclosure p {
+    font-family: var(--font-8);
+}
+
 /* Footer */
 
 .footer {
@@ -1227,6 +1289,10 @@ div.dark-toggle {
 }
 
 /* DM */
+
+.post-dm {
+    margin-bottom: var(--size-9);
+}
 
 .post-dm h2 {
     border-bottom: 1px solid var(--color-2);

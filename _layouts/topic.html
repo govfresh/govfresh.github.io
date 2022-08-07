@@ -25,8 +25,10 @@ layout: topic
                                     collection.label }}{% endif %}">
                                 <h2>
                                     {% if collection.label == 'posts' %}Radar
-                                    {% elsif collection.label=='orgs' %}
+                                    {% elsif collection.label == 'orgs' %}
                                         Organizations
+                                    {% elsif collection.label == 'dm' %}
+                                        Direct message
                                     {% else %}
                                         {{ collection.label | capitalize }}
                                     {% endif %}

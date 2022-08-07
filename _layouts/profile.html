@@ -16,6 +16,23 @@ layout: profile
                 {% if page.parent == "books" %}
                     <p>By {{ page.author }}</p>
                 {% endif %}
+                {% if page.parent == "podcasts" %}
+                    <p>Host: {{ page.author }}</p>
+                {% endif %}
+
+                {% if page.parent == "innovations" %}
+                    <p>
+                        Host organization:
+                        <a href="{{ page.org-link }}">{{ page.org }}</a>
+                    </p>
+                {% endif %}
+
+                {% if page.parent == "events" %}
+                    <p>
+                        Organizer:
+                        <a href="{{ page.org-link }}">{{ page.org }}</a>
+                    </p>
+                {% endif %}
                 <div class="post">
                     {{ content }}
                 </div>
@@ -26,25 +43,7 @@ layout: profile
                 {% endif %}
                 <div>
                     {% if page.parent == "podcasts" %}
-                        <p>Host: {{ page.author }}</p>
-                    {% endif %}
-
-                    {% if page.parent == "innovations" %}
-                        <p>
-                            Host organization:
-                            <a href="{{ page.org-link }}">{{ page.org }}</a>
-                        </p>
-                    {% endif %}
-
-                    {% if page.parent == "events" %}
-                        <p>
-                            Organizer:
-                            <a href="{{ page.org-link }}">{{ page.org }}</a>
-                        </p>
-                    {% endif %}
-
-                    {% if page.parent == "podcasts" %}
-                        <div class="alert alert-secondary">
+                        <div class="listen">
                             <h2>Listen</h2>
                             {% include social.html size="podcast" %}
                         </div>
@@ -124,8 +123,8 @@ layout: profile
                     {% endif %}
 
                     {% if page.parent == "books" %}
-                        <!--        {% include disclosure.html %}
-    --> {% include topics.html %}
+                        {% include disclosure.html %}
+                        {% include topics.html %}
                     {% endif %}
                 </div>
             </div>

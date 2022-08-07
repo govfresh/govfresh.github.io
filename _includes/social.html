@@ -128,21 +128,20 @@
     </p>
     <!-- Podcasts -->
 {% elsif include.size == "podcast" %}
-    <p>
-        {% if page.apple %}
-            <a href="{{ page.apple }}" aria-label="Apple">
-                <i class="{{ site.data.connect.apple }} {{ site.data.connect.lg }}"></i>
-            </a>
-        {% endif %}
-        {% if page.spotify %}
-            <a href="{{ page.spotify }}" aria-label="Spotify">
-                <i class="{{ site.data.connect.spotify }} {{ site.data.connect.lg }}"></i>
-            </a>
-        {% endif %}
-    </p>
+    {% if page.apple %}
+        <a href="{{ page.apple }}" aria-label="Apple">
+            <i class="{{ site.data.connect.apple }} {{ site.data.connect.lg }}"></i>
+        </a>
+    {% endif %}
+    {% if page.spotify %}
+        <a href="{{ page.spotify }}" aria-label="Spotify">
+            <i class="{{ site.data.connect.spotify }} {{ site.data.connect.lg }}"></i>
+        </a>
+    {% endif %}
     <!-- Connect -->
 {% else %}
     {% for item in site.data.connect.docs %}
+        _labs
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
             <div class="card">
                 <div class="card-body">

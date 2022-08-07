@@ -10,7 +10,7 @@
           author_data = site.people | where:"title", author | first %}
                             {% if
           author_data.content.size > 1 %}
-                                <p class="small">
+                                <p>
                                     Posted by
                                     <a href="{{ site.baseurl }}{{ author_data.url }}">
                                         {{ author_data.title }}</a>
@@ -35,7 +35,7 @@
           author_data = site.people | where:"title", author | first %}
                             {% if
           author_data.content.size > 1 %}
-                                <p class="small">
+                                <p>
                                     Posted by
                                     <a href="{{ site.baseurl }}{{ author_data.url }}">
                                         {{ author_data.title }}</a>
@@ -63,7 +63,7 @@
           author_data = site.people | where:"title", author | first %}
                             {% if
           author_data.content.size > 1 %}
-                                <p class="small">
+                                <p>
                                     Posted by
                                     <a href="{{ site.baseurl }}{{ author_data.url }}">
                                         {{ author_data.title }}</a>
@@ -89,7 +89,7 @@
                     {% if page.description %}
                         <p class="lead">{{ page.description }}</p>
                     {% endif %}
-                    <p class="small">
+                    <p>
                         {% if page.date %}
                             {% include date.html %}
                         {% endif %}
@@ -136,7 +136,7 @@
                         {% for author in page.author %}
                             {% assign author_data = site.people | where:"title", author | first %}
                             {% if author_data.content.size > 1 %}
-                                <p class="small">By
+                                <p>By
                                     <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
                                     &middot; {% include date.html %}
                                 </p>

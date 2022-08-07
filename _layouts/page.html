@@ -6,9 +6,11 @@ layout: page
 <main>
     {% include jumbotron.html %}
     <div class="container">
-        <div class="row post">
+        <div class="row">
             <div class="col-sm-8">
-                {{ content }}
+                <div class="post">
+                    {{ content }}
+                </div>
                 {% include updated.html %}
                 {% include subscribe.html %}
             </div>

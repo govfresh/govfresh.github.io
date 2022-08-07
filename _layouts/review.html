@@ -8,7 +8,7 @@ layout: review
 <main>
     {% include jumbotron.html %}
     <div class="container">
-        <div class="row post">
+        <div class="row">
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                 <div class="d-md-none book">
                     <a href="{{ site.baseurl }}/{{ page.img-path }}{{ page.book-link }}">
@@ -17,10 +17,14 @@ layout: review
                     <h5>{{ page.book-title }}</h5>
                     <p>By {{ page.book-author }}</p>
                 </div>
-                <blockquote>
-                    <p>"{{ page.quote }}"</p>
-                </blockquote>
-                {{ content }}
+                {% if page.quote %}
+                    <blockquote>
+                        <p>"{{ page.quote }}"</p>
+                    </blockquote>
+                {% endif %}
+                <div class="post">
+                    {{ content }}
+                </div>
                 <p>
                     <strong>
                         Book:
@@ -29,9 +33,10 @@ layout: review
                     </strong>
                 </p>
                 {% include updated.html %}
+                {% include bio.html %}
                 {% include subscribe.html %}
-                {% include license.html %}
                 {% include topics.html %}
+                {% include license.html %}
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 book d-none d-md-block">
                 <a href="{{ site.baseurl }}/{{ page.img-path }}{{ page.book-link }}">

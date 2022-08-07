@@ -1,12 +1,6 @@
 docs_list_title: feeds
 docs:
 
-- title: "E Pluribus Unum"
-  description: "We shine a light on the intersection of technology, government, media and society with research, trusted analysis, and public interest advocacy."
-  url: https://e-pluribusunum.org/
-  categories:
-    - Open
-
 - title: "Mozilla Blog"
   description: "Updates from Mozilla."
   url: https://blog.mozilla.org/en/
@@ -29,18 +23,6 @@ docs:
     - Digital
     - Cybersecurity
 
-- title: "Slow Build"
-  description: "Slow Build is a twice-a-week newsletter on technology’s biggest questions, written by Nancy Scola."
-  url: https://slowbuild.substack.com/
-  categories:
-    - Digital
-
-- title: "The Third Wave"
-  description: "Blog of Martin Gurri, former foreign media analyst for the U.S. government and author of 'The Revolt of the Public and the Crisis of Authority in the New Millennium.'"
-  url: https://thefifthwave.wordpress.com/
-  categories:
-    - Digital
-
 - title: "WC3 "
   description: "Updates from the World Wide Web Consortium."
   url: https://www.w3.org/blog/news/
@@ -52,5 +34,4 @@ docs:
   description: "From Kim Zetter. I’ll strive to help readers cut through the fog of falsehoods — dispel myths, get ahead of rapidly spreading misinformation, correct the record and provide expertise and analysis when useful."
   url: https://zetter.substack.com/
   categories:
-    - Business
     - Cybersecurity

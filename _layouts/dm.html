@@ -32,11 +32,13 @@ layout: dm
                 </div>
             {% endif %}
             <div class="post post-dm">{{ content }}</div>
-            <h3 class="mt-5">Connect with {{ page.shortname }}</h3>
+            <h2>Connect with {{ page.shortname }}</h2>
             {% include social.html
                     size="small" %}
-            {% include share.html %}
-        </div>
+                    {% include share.html %}
+                    {% include subscribe.html %}
+                    {% include topics.html %}
+            </div>
         </div>
     </div>
     <div class="container">

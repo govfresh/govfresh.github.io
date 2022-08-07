@@ -34,13 +34,14 @@ layout: thoughts
                     {{ content }}
                 </div>
                 {% include updated.html %}
-                {% include share.html %}
                 {% include bio.html %}
+                {% include share.html %}
                 {% include subscribe.html %}
-                {% include license.html %}
                 {% include topics.html %}
+                {% include license.html %}
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-none d-lg-block text-center">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <!--
                 {% if page.author %}
                     {% for author in page.author %}
                         {% assign author_data = site.people | where:"title", author | first %}
@@ -58,6 +59,7 @@ layout: thoughts
                         {% endif %}
                     {% endfor %}
                 {% endif %}
+                -->
             </div>
         </div>
     </div>
