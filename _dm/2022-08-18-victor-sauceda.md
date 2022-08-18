@@ -30,9 +30,9 @@ category:
   - Community
   - Digital
   - Inclusion
-share-twitter: 
-share-linkedin: 
-share-facebook: 
+share-twitter: https://twitter.com/govfresh/status/1560374512662679553?s=20&t=78ZKXUOwCw-YwLw4ll8LAA
+share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6966140533987532800
+share-facebook: https://www.facebook.com/govfresh/posts/pfbid02iagiFT9c3Rm2umpHrKWjSciqSSkHrFEj3vMEqRL7qzqWpuXrxkK492N3viA4ynjHl
 feature:
 ---
 
