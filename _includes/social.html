@@ -25,6 +25,11 @@
                 <i class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
             </a>
         {% endif %}
+        {% if data.calendar %}
+            <a aria-label="Calendar" href="{{ data.calendar }}">
+                <i class=" {{ site.data.connect.calendar }} {{ site.data.connect.sm }}"></i>
+            </a>
+        {% endif %}
         {% if data.subscribe %}
             <a href="{{ data.subscribe }}" aria-label="Subscribe">
                 <i class="{{ site.data.connect.subscribe }} {{ site.data.connect.sm }}"></i>

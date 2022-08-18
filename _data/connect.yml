@@ -9,6 +9,7 @@ xl: "fa-4x"
 
 website: &website "fas fa-window-maximize"
 email: &email "fas fa-at"
+calendar: &calendar "fa-solid fa-calendar"
 subscribe: &subscribe "fa-solid fa-envelope"
 patreon: &patreon "fab fa-patreon"
 twitter: &twitter "fab fa-twitter"

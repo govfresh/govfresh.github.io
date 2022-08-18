@@ -879,7 +879,7 @@ html:not(html.dark) .labs {
     color: #1da1f2;
 }
 
-.fa-window-maximize:not(footer i):not(nav i), .fa-at:not(footer i):not(nav i), .fa-envelope:not(footer i):not(nav i) {
+.fa-window-maximize:not(footer i):not(nav i), .fa-at:not(footer i):not(nav i), .fa-envelope:not(footer i):not(nav i), .fa-at:not(footer i):not(nav i), .fa-calendar:not(footer i):not(nav i) {
     color: #5b029c;
 }
 
