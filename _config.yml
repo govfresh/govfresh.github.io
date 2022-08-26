@@ -35,10 +35,10 @@ podcasts-number: 4
 labs-number: 3
 innovations-number: 4
 papers-number: 3
-dm-number: 3
 ideas-number: 3
 industry-number: 3
 dm-number: 4
+ask-number: 4
 
 # Defaults
 defaults:
@@ -59,6 +59,15 @@ defaults:
       img-path: "people"
       parent: "dm"
       layout: "dm"
+      short: "true"
+  - scope:
+      path: "_ask"
+      type: "ask"
+    values:
+      folder: "Ask us anything"
+      img-path: "ask"
+      parent: "ask"
+      layout: "ask"
       short: "true"
   - scope:
       path: "_thoughts"
@@ -224,6 +233,9 @@ collections:
   pages:
     output: true
     permalink: :title
+  ask:
+    output: true
+    permalink: /ask/:title
   gamechangers:
     output: true
     permalink: /gamechangers/:title

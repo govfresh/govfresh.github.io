@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/ask/why-should-i-get-a-dot-gov</loc>
+<lastmod>2022-08-26T07:46:52-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/books/citizens</loc>
 <lastmod>2022-08-05T15:49:51-07:00</lastmod>
 </url>
@@ -138,7 +142,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/dm/victor-sauceda</loc>
-<lastmod>2022-08-18T13:51:03-07:00</lastmod>
+<lastmod>2022-08-18T14:18:22-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
@@ -275,6 +279,10 @@
 <url>
 <loc>http://localhost:4000/about/</loc>
 <lastmod>2021-11-15T13:24:01-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/ask/</loc>
+<lastmod>2022-08-26T07:54:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/</loc>

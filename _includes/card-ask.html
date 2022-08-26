@@ -1,0 +1,31 @@
+{% if include.level == "secondary" %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img-feat %}
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                        <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                    </a>
+                {% endif %}
+                <h2 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img-feat %}
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">
+                        <img class="card-img-top lg line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                    </a>
+                {% endif %}
+                <h2 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+{% endif %}

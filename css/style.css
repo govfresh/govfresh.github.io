@@ -1329,3 +1329,44 @@ div.dark-toggle {
 .new-dm {
     font-family: var(--font-3);
 }
+
+/* Real talk */
+
+.post-ask {
+    padding-bottom: var(--size-10);
+}
+
+.jumbotron-ask h1 {
+    background-color: var(--color-1);
+    border-radius: var(--size-4);
+    color: var(--color-4);
+    margin: var(--size-6) var(--size-1);
+    margin-right: var(--size-9);
+    padding: var(--size-9);
+}
+
+.post-ask p, .post-ask li {
+    font-family: var(--font-5);
+    font-size: var(--size-9);
+}
+
+.post-ask p, .post-ask ul, .post-ask ol {
+    margin-bottom: var(--size-10);
+}
+
+.post-ask p, .post-ask ul {
+    background-color: var(--color-6);
+    border-radius: var(--size-4);
+    margin: var(--size-6) var(--size-1);
+    margin-left: var(--size-9);
+    padding: var(--size-9);
+}
+
+.post-ask strong {
+    font-family: var(--font-3);
+    letter-spacing: -.02em;
+}
+
+.post-ask img {
+    width: var(--size-11);
+}
