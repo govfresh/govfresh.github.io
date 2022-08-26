@@ -11,6 +11,24 @@ layout: ask
         <div class="row">
             <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+
+                {% if page.author %}
+                    <div class="author-ask">
+                        {% for author in page.author %}
+                            {% assign
+            author_data = site.people | where:"title", author | first %}
+                            {% if
+            author_data.content.size > 1 %}
+                                <p>
+                                    Answered by
+                                    <a href="{{ site.baseurl }}{{ author_data.url }}">
+                                        {{ author_data.title }}</a>
+                                </p>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
                 <div class="post-ask">
                     {{ content }}
                 </div>

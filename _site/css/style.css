@@ -1370,3 +1370,8 @@ div.dark-toggle {
 .post-ask img {
     width: var(--size-11);
 }
+
+.author-ask p {
+    font-family: var(--font-8);
+    padding: var(--size-5) var(--size-1);
+}
