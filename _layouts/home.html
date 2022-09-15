@@ -14,59 +14,62 @@ layout: home
                     {% assign thought = site.thoughts | where: "feature", "true" | reverse | first %}
                     {% assign reviewDate = review.date | date: "%Y%j" | plus:0 %}
                     {% assign thoughtDate = thought.date | date: "%Y%j" | plus:0 %}
-                    {% if reviewDate < thoughtDate %}
-                        {% assign item = thought %}
-                    {% else %}
-                        {% assign item = review %}
-                    {% endif %}
-                    <div class="col-sm-1"></div>
-                    {% if item == thought %}
-                        <div class="col-sm-4">
-                            {% if item.img %}
-                                <div class="img fancy-2">
-                                    <img alt="" class="card-img-top" src="assets/img/posts/{{ item.img }}">
-                                </div>
-                            {% else %}
-                                <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
-                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
-                                </div>
-                            {% endif %}
-                        </div>
-                    {% else %}
-                        <div class="col-sm-3 text-center">
-                            <a href="{{ site.baseurl }}{{ item.url }}">
-                                <img alt="{{ item.title }} cover image" class="shadow md" src="assets/img/{{ review.img-path }}/{{ review.img-feat }}">
-                            </a>
-                        </div>
-                    {% endif %}
-                    <div class="col-sm-7">
-                        <h2 class="h2">
-                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                        </h2>
-                        {% if item.quote %}
-                            <blockquote>
-                                <p>"{{ item.quote }}"</p>
-                            </blockquote>
-                        {% endif %}
-                        <div class="post">
-                            <p>{{ item.description }}</p>
-                        </div>
-                        {% if item.author %}
-                            <p>
-                                {% assign author_data = site.people | where:"title", item.author | first %}
-                                {% if author_data.img %}
-                                    <div class="img">
-                                        <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}" title="{{ author_data.title }} headshot" class="xxs rounded-circle mr-2">
-                                        <span class="small">{{ item.author }}</span>
-                                    </div>
-                                {% endif %}
-                            </p>
-                        {% endif %}
-                    </div>
-                    <div class="col-sm-1"></div>
+                    {% if reviewDate < thoughtDate %} {% assign item=thought %} {% else %} {% assign item=review %} {%
+                        endif %} <div class="col-sm-1">
                 </div>
+                {% if item == thought %}
+                <div class="col-sm-5">
+                    {% if item.img %}
+                    <div class="img">
+                        <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top"
+                                src="{{ site.baseurl }}/assets/img/posts/{{ item.img }}"></a>
+                    </div>
+                    {% else %}
+                    <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
+                    </div>
+                    {% endif %}
+                </div>
+                {% else %}
+                <div class="col-sm-3 text-center">
+                    <a href="{{ site.baseurl }}{{ item.url }}">
+                        <img alt="{{ item.title }} cover image" class="shadow md"
+                            src="{{ site.baseurl }}/assets/img/{{ review.img-path }}/{{ review.img-feat }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="col-sm-5">
+                    <h2 class="h2">
+                        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                    </h2>
+                    {% if item.quote %}
+                    <blockquote>
+                        <p>"{{ item.quote }}"</p>
+                    </blockquote>
+                    {% endif %}
+                    <div class="post">
+                        <p>{{ item.description }}</p>
+                    </div>
+                    {% if item.author %}
+                    <p>
+                        {% assign author_data = site.people | where:"title", item.author | first %}
+                        <!--
+                    {% if author_data.img %}
+                    <div class="img">
+                        <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
+                            alt="Photo of {{ author_data.title }}" title="{{ author_data.title }} headshot"
+                            class="xxs rounded-circle mr-2">
+                    </div>
+                    {% endif %}
+                    -->
+                        <span class="small">By {{ item.author }}</span>
+                    </p>
+                    {% endif %}
+                </div>
+                <div class="col-sm-1"></div>
             </div>
         </div>
+    </div>
     </div>
     <div class="container">
         <div class="row">

@@ -712,26 +712,16 @@ html:not(html.dark) .thoughts {
     --color-1: #345e98;
     --color-5: #4a77b4;
     --color-6: #ecf1f7;
-    --color-1: #212121;
-    --color-5: #212121;
-    --color-6: #efefef;
     --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
-    --gradient-1: linear-gradient(135deg, #212121 13%, #212121 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #efefef 73%);
 }
 
 html.dark .thoughts {
     --color-1: #6791cb;
     --color-5: #4a77b5;
     --color-6: #080c12;
-    --color-1: #212121;
-    --color-5: #212121;
-    --color-6: #efefef;
     --gradient-1: linear-gradient(135deg, var(--color-1) 13%, var(--color-5) 73%);
     --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
-    --gradient-1: linear-gradient(135deg, #212121 13%, #212121 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #efefef 73%);
 }
 
 html .reviews {

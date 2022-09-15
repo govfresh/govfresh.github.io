@@ -4,11 +4,11 @@ date: 2022-08-16
 description: "The community that supports digital government services should be undeniably representative of everyone."
 author: Luke Fretwell
 pattern: blueprint
-img: 
+img: pedigree.jpg
 #  - 
-img-feat: 
-img-alt: ""
-img-caption: 
+img-feat: pedigree.jpg
+img-alt: "Statue of John Harvard, Harvard University"
+img-caption: "'Statue of John Harvard, Harvard University' by InSapphoWeTrust is licensed under CC BY-SA 2.0."
 img-link: 
 category:
   - Community

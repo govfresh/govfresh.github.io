@@ -1,0 +1,11 @@
+I"3<!-- Html Elements for Search -->
+<form class="">
+<div id="search-container">
+<div class="form-group">
+<label for="search-input">I'm looking for:</label>
+<input type="text" class="form-control form-control-lg" id="search-input" placeholder="Search" />
+</div>
+<ul id="results-container"></ul>
+</div>
+</form>
+:ET
