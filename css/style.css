@@ -1020,6 +1020,10 @@ a.btn-primary:hover, .categories a.nav-link:hover, .categories a.nav-link:hover 
     color: var(--color-4);
 }
 
+input[type="range"] {
+    accent-color: var(--color-1);
+}
+
 /* Accordions */
 
 .accordion {
