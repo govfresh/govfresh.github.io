@@ -7,6 +7,7 @@ book-title: "Click Here to Kill Everybody: Security and Survival in a Hyper-conn
 img-feat: click-here-to-kill-everybody.webp
 book-author: Bruce Schneier
 book-link: /click-here-to-kill-everybody
+quote: "What we’ve learned from the past few decades is that computer security is more a human problem that a technical problem."
 category:
   - Cybersecurity
   - Data

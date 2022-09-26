@@ -7,6 +7,7 @@ book-title: "A Civic Technologist's Practice Guide"
 img-feat: civic-technologists-practice-guide.webp
 book-author: Cyd Harrell
 book-link: /civic-technologists-practice-guide
+quote: "Civic technology can be the ideal means to put your tech skills to good use - but it will be your communication and collaboration skills that will clear the path for you to do that."
 category:
   - Civic hacking
   - Community
@@ -29,7 +30,7 @@ While there are many quotable excerpts, Cyd’s emphasis on effective communicat
 
 Words of wisdom:
 
-> “Civic technology can be the ideal means to put your tech skills to good use-but it will be your communication and collaboration skills that will clear the path for you to do that. Communicating well, managing through influence, and making good strategic choices are must-haves; everything from judgment to facilitation to persuasive writing is at a premium. There are not yet-and I’m not sure there ever should be-roles where you can have a major impact on the public good simply by quietly completing your tickets. You can expect to talk about your work, a lot and to listen to other people talk about theirs.”
+> “Civic technology can be the ideal means to put your tech skills to good use - but it will be your communication and collaboration skills that will clear the path for you to do that. Communicating well, managing through influence, and making good strategic choices are must-haves; everything from judgment to facilitation to persuasive writing is at a premium. There are not yet-and I’m not sure there ever should be-roles where you can have a major impact on the public good simply by quietly completing your tickets. You can expect to talk about your work, a lot and to listen to other people talk about theirs.”
 
 “A Civic Technologist’s Practice Guide” is the perfect blend of a generalist’s perspective with obvious been-there-done-that insights. I wish I had this book more than a decade ago when I first endeavored into this work.
 

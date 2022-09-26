@@ -7,6 +7,7 @@ book-title: "The Premonition"
 img-feat: the-premonition.jpg
 book-author: Michael Lewis
 book-link: /the-premonition
+quote: "The CDC did many things. It published learned papers on health crises, after the fact. It managed, very carefully, public perception of itself. But when the shooting started, it leaps into the nearest hole, while others took fire."
 category:
   - Culture
 ---

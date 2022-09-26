@@ -9,41 +9,54 @@ layout: review
     {% include jumbotron.html %}
     <div class="container">
         <div class="row">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            </div>
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                <div class="d-md-none book">
-                    <a href="{{ site.baseurl }}/{{ page.img-path }}{{ page.book-link }}">
-                        <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" alt="{{ page.book-title }}" class="md shadow">
-                    </a>
-                    <h5>{{ page.book-title }}</h5>
-                    <p>By {{ page.book-author }}</p>
-                </div>
-                {% if page.quote %}
-                    <blockquote>
-                        <p>"{{ page.quote }}"</p>
-                    </blockquote>
-                {% endif %}
                 <div class="post">
+                    {% include author.html %}
                     {{ content }}
                 </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <h3>Book club</h3>
+            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <a href="{{ site.baseurl }}/{{ page.img-path }}{{ page.book-link }}">
+                    <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                        alt="{{ page.book-title }}" class="xs shadow float-left mr-5 mb-5">
+                </a>
                 <p>
-                    <strong>
-                        Book:
-                        <a href="{{ site.baseurl }}/books{{ page.book-link }}">
-                            {{ page.book-title }}</a>
-                    </strong>
+                    <strong><a href="{{ site.baseurl }}/books{{ page.book-link }}">
+                            {{ page.book-title }}</a></strong><br>
+                    {{ page.book-author }}
                 </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                 {% include updated.html %}
                 {% include bio.html %}
                 {% include subscribe.html %}
                 {% include topics.html %}
                 {% include license.html %}
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 book d-none d-md-block">
-                <a href="{{ site.baseurl }}/{{ page.img-path }}{{ page.book-link }}">
-                    <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" alt="{{ page.book-title }}" class="md shadow">
-                </a>
-                <h5>{{ page.book-title }}</h5>
-                <p>By {{ page.book-author }}</p>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
             </div>
         </div>
     </div>

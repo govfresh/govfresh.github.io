@@ -302,6 +302,10 @@ a, a:visited, a:hover {
     color: var(--color-1);
 }
 
+strong {
+    font-family: var(--font-3);
+}
+
 /* Headings */
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
@@ -469,9 +473,9 @@ main a:hover {
 blockquote {
     border-left: var(--size-3) solid var(--color-1);
     font-size: var(--size-8);
-    margin-left: var(--size-9);
-    padding: var(--size-1) var(--size-9);
-    margin-bottom: var(--size-9);
+    margin-left: var(--size-8);
+    padding: var(--size-1) var(--size-8);
+    margin-bottom: var(--size-8);
     margin-top: var(--size-9);
 }
 
