@@ -1,7 +1,7 @@
 ---
 date: 2022-09-23
 title: "Review: Citizens"
-description: "Congressman Ro Khanna thinks different about the role of technology and democracy."
+description: "Jon Alexander and Ariane Conrad share why the hey to fixing everything is all of us."
 author: Luke Fretwell
 book-title: "Citizens: Why the Key to Fixing Everything Is All of Us"
 img-feat: citizens.jpg
