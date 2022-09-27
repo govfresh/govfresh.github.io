@@ -27,6 +27,12 @@ How we define open community of practice:
 
 > Mission-minded people, powered by open culture, joining together, learning from one another and making better democracy.
 
+## Chatham House Rule
+
+We adhere to the Chatham House Rule:
+
+> When a meeting, or part thereof, is held under the Chatham House Rule, participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.
+
 ## Code of conduct
 
 [GovFresh code of conduct](/conduct/)
