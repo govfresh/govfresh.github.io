@@ -5,8 +5,7 @@ description: "The community that supports digital government services should be 
 author: Luke Fretwell
 pattern: blueprint
 img: pedigree.jpg
-#  - 
-img-feat: pedigree.jpg
+img-feat: pedigree-feat.jpg
 img-alt: "Statue of John Harvard, Harvard University"
 img-caption: "'Statue of John Harvard, Harvard University' by InSapphoWeTrust is licensed under CC BY-SA 2.0."
 img-link: 

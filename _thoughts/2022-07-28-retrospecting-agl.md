@@ -4,11 +4,10 @@ date: 2022-07-28
 description: "AGL, which has since evolved into Technologists for the Public Good, was the testing ground for an experiment in what I now call an open civic community of practice."
 author: Luke Fretwell
 pattern: graph
-img: 
-#  - 
-img-feat: 
-img-alt: ""
-img-caption: 
+img: lincoln-memorial-lights.jpg
+img-feat: lincoln-memorial-lights-feat.jpg
+img-alt: "Lincoln Memorial at night with car lights"
+img-caption: Dmcooperphotography, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
 img-link: 
 category:
   - Community
