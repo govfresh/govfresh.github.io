@@ -29,7 +29,7 @@ How we define open community of practice:
 
 ## Chatham House Rule
 
-We adhere to the Chatham House Rule:
+We adhere to the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule):
 
 > When a meeting, or part thereof, is held under the Chatham House Rule, participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.
 
