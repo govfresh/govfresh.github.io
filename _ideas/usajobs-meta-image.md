@@ -4,7 +4,7 @@ title: "Add image meta tag to USAJOBS posts to increase social media reach"
 description: "One simple piece of code to the U.S. government's employment website could go a long way in increasing the visibility of federal job opportunities."
 author: Luke Fretwell
 img-feat: 
-done: 
+done: true
 warning: true
 status-link: https://www.linkedin.com/feed/update/urn:li:activity:6945894020908810240?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6945894020908810240%2C6946209996678328320%29
 category:

@@ -294,7 +294,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/community/</loc>
-<lastmod>2022-09-13T10:39:13-07:00</lastmod>
+<lastmod>2022-09-27T12:19:16-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/conduct/</loc>
@@ -338,7 +338,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/gamechangers/</loc>
-<lastmod>2022-06-23T09:01:41-07:00</lastmod>
+<lastmod>2022-09-27T08:55:31-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/ideas/</loc>
@@ -390,11 +390,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/radar</loc>
-<lastmod>2022-03-04T10:27:12-08:00</lastmod>
+<lastmod>2022-09-27T08:55:31-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reviews/</loc>
-<lastmod>2021-11-15T13:24:01-08:00</lastmod>
+<lastmod>2022-09-27T08:55:31-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/search/</loc>
@@ -422,7 +422,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/</loc>
-<lastmod>2022-03-04T10:27:12-08:00</lastmod>
+<lastmod>2022-09-27T08:55:31-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/</loc>
@@ -642,11 +642,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/retrospecting-agl</loc>
-<lastmod>2022-07-28T10:11:29-07:00</lastmod>
+<lastmod>2022-09-27T08:55:31-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/pedigree-public-interest-technology</loc>
-<lastmod>2022-09-14T23:00:10-07:00</lastmod>
+<lastmod>2022-09-27T08:55:31-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/civic-hacking</loc>
