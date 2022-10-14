@@ -25,12 +25,21 @@ layout: thoughts
     </div>
     <div class="container">
         <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+                {% include author.html %}
+                {% include social.html size="small" %}
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
             <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
                 {% if page.img %}
                 <div class="img">
-                    <div class="">
+                    <div class="mt-3">
                         <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img }}" class="">
                     </div>
                     {% if page.img-caption %}
@@ -55,7 +64,6 @@ layout: thoughts
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <div class="post">
-                    {% include author.html %}
                     {{ content }}
                 </div>
                 {% include updated.html %}

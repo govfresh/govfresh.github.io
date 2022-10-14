@@ -6,9 +6,9 @@ img: luke-fretwell.png
 img-feat: luke-fretwell.png
 img-alt: Luke Fretwell
 email: luke@govfresh.com
-website: https://lukefretwell.com
-subscribe: https://govfresh.com/subscribe
-patreon: https://patreon.com/govfresh
+website: 
+subscribe: 
+patreon: 
 twitter: https://twitter.com/lukefretwell
 medium: 
 figma: 
@@ -17,7 +17,7 @@ vimeo:
 linkedin: https://www.linkedin.com/in/lukefretwell
 instagram: 
 facebook: 
-github: https://github.com/lukefretwell
+github: 
 flickr: 
 tumblr: 
 rss: 
