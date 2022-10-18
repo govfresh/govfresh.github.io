@@ -73,6 +73,13 @@ Example RSS XML feed file code:
 <pubDate>Tues, 18 Oct 2022 13:20:00 GMT</pubDate>
 <description>Defaulting to an open protocol to syndicate government information makes public communications universally accessible.</description>
 </item>
+<item>
+<title>Pedigree and public interest technology</title>
+<link>https://govfresh.com/thoughts/pedigree-public-interest-technology</link>
+<guid>https://govfresh.com/thoughts/pedigree-public-interest-technology</guid>
+<pubDate>Tues, 16 August 2022 13:20:00 GMT</pubDate>
+<description>The community that supports digital government services should be undeniably representative of everyone.</description>
+</item>
 </channel>
 </rss>
 ```
