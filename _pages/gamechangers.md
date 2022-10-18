@@ -3,7 +3,6 @@ layout: cards
 title: Gamechangers
 description: People we're paying attention to.
 permalink: /gamechangers/
-parent: gamechangers
-order: 3
+parent: gamechangers 
 icon: "fa-solid fa-gamepad"
 ---

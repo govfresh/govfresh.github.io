@@ -3,7 +3,6 @@ layout: cards
 title: Reviews
 description: GovFresh book reviews.
 permalink: /reviews/
-parent: reviews
-order: 2
+parent: reviews 
 icon: "fa-solid fa-book-open-reader"
 ---

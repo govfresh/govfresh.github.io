@@ -23,7 +23,7 @@ last-modified-at:
   date-format: "%B %d, %Y at %I:%M %P %Z"
 
 # Number limits
-thoughts-number: 3
+thoughts-number: 4
 reviews-number: 4
 radar-number: 7
 gamechangers-number: 5
@@ -291,6 +291,13 @@ collections:
 # Pagination
 paginate: 12
 paginate_path: "/radar/:num"
+
+# Home page order
+order:
+  - thoughts
+  - dm
+  - reviews
+  - radar
 
 # Exclude
 exclude:

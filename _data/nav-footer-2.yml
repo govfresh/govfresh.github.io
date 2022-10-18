@@ -1,17 +1,14 @@
 docs_list_title: nav-footer-2
 docs:
 
+ - title: Thoughts
+   url: /thoughts/
+
  - title: Radar
    url: /radar/
 
  - title: DM
    url: /dm/
-
- - title: Thoughts
-   url: /thoughts/
-
- - title: Ask
-   url: /ask/
 
  - title: Gamechangers
    url: /gamechangers/
@@ -21,9 +18,6 @@ docs:
 
  - title: Reviews
    url: /reviews/
-
- - title: Industry
-   url: /industry/
 
  - title: Podcasts
    url: /podcasts/

@@ -118,7 +118,7 @@
     }
 
     .h2 {
-        font-size: 1.8rem !important;
+        font-size: 2rem !important;
     }
 
     .h3 {
@@ -166,7 +166,7 @@
     }
 
     .h2 {
-        font-size: 3rem !important;
+        font-size: 3.2rem !important;
     }
 
     .h3 {
@@ -214,7 +214,7 @@
     }
 
     .h2 {
-        font-size: 3rem !important;
+        font-size: 3.2rem !important;
     }
 
     .h3 {
@@ -262,7 +262,7 @@
     }
 
     .h2 {
-        font-size: 3rem !important;
+        font-size: 3.4rem !important;
     }
 
     .h3 {
@@ -350,7 +350,7 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     width: 100%;
     height: auto;
     max-width: 200px;
-    margin: var(--size-6);
+    margin: var(--size-6) var(--size-2);
 }
 
 /* Navbar */
@@ -390,10 +390,32 @@ a.navbar-brand:hover {
     text-transform: uppercase;
 }
 
+.nav-icons a, .nav-icons, .nav-link .fa-solid {
+    color: var(--color-4);
+    display: inline-block;
+    font-size: var(--size-9);
+    margin-left: var(--size-5);
+}
+
 .lead {
     font-family: var(--font-2);
     font-size: var(--size-9);
     color: var(--color-2);
+}
+
+/* Code block */
+
+pre code {
+    border-radius: var(--size-4);
+    color: var(--color-4);
+    display: block;
+    background: var(--color-2);
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    max-width: 100%;
+    min-width: 100px;
+    padding: var(--size-8);
 }
 
 /* Cards */
@@ -408,7 +430,7 @@ a.navbar-brand:hover {
     margin-bottom: var(--size-6) !important;
 }
 
-.card-deck .col, .card-deck .col-1, .card-deck .col-10, .card-deck .col-11, .card-deck .col-12, .card-deck .col-2, .card-deck .col-3, .card-deck .col-4, .card-deck .col-5, .card-deck .col-6, .card-deck .col-7, .card-deck .col-8, .card-deck .col-9, .card-deck .col-auto, .card-deck .col-lg, .card-deck .col-lg-1, .card-deck .col-lg-10, .card-deck .col-lg-11, .card-deck .col-lg-12, .card-deck .col-lg-2, .card-deck .col-lg-3, .card-deck .col-lg-4, .card-deck .col-lg-5, .card-deck .col-lg-6, .card-deck .col-lg-7, .card-deck .col-lg-8, .card-deck .col-lg-9, .card-deck .col-lg-auto, .card-deck .col-md, .card-deck .col-md-1, .card-deck .col-md-10, .card-deck .col-md-11, .card-deck .col-md-12, .card-deck .col-md-2, .card-deck .col-md-3, .card-deck .col-md-4, .card-deck .col-md-5, .card-deck .col-md-6, .card-deck .col-md-7, .card-deck .col-md-8, .card-deck .col-md-9, .card-deck .col-md-auto, .card-deck .col-sm, .card-deck .col-sm-1, .card-deck .col-sm-10, .card-deck .col-sm-11, .card-deck .col-sm-12, .card-deck .col-sm-2, .card-deck .col-sm-3, .card-deck .col-sm-4, .card-deck .col-sm-5, .card-deck .col-sm-6, .card-deck .col-sm-7, .card-deck .col-sm-8, .card-deck .col-sm-9, .card-deck .col-sm-auto, .card-deck .col-xl, .card-deck .col-xl-1, .card-deck .col-xl-10, .card-deck .col-xl-11, .card-deck .col-xl-12, .card-deck .col-xl-2, .card-deck .col-xl-3, .card-deck .col-xl-4, .card-deck .col-xl-5, .card-deck .col-xl-6, .card-deck .col-xl-7, .card-deck .col-xl-8, .card-deck .col-xl-9, .card-deck .col-xl-auto {
+.card-deck .col, .card-deck .col-1, .card-deck .col- .card-deck .col-11, .card-deck .col-12, .card-deck .col-2, .card-deck .col-3, .card-deck .col-4, .card-deck .col-5, .card-deck .col-6, .card-deck .col-7, .card-deck .col-8, .card-deck .col-9, .card-deck .col-auto, .card-deck .col-lg, .card-deck .col-lg-1, .card-deck .col-lg- .card-deck .col-lg-11, .card-deck .col-lg-12, .card-deck .col-lg-2, .card-deck .col-lg-3, .card-deck .col-lg-4, .card-deck .col-lg-5, .card-deck .col-lg-6, .card-deck .col-lg-7, .card-deck .col-lg-8, .card-deck .col-lg-9, .card-deck .col-lg-auto, .card-deck .col-md, .card-deck .col-md-1, .card-deck .col-md- .card-deck .col-md-11, .card-deck .col-md-12, .card-deck .col-md-2, .card-deck .col-md-3, .card-deck .col-md-4, .card-deck .col-md-5, .card-deck .col-md-6, .card-deck .col-md-7, .card-deck .col-md-8, .card-deck .col-md-9, .card-deck .col-md-auto, .card-deck .col-sm, .card-deck .col-sm-1, .card-deck .col-sm- .card-deck .col-sm-11, .card-deck .col-sm-12, .card-deck .col-sm-2, .card-deck .col-sm-3, .card-deck .col-sm-4, .card-deck .col-sm-5, .card-deck .col-sm-6, .card-deck .col-sm-7, .card-deck .col-sm-8, .card-deck .col-sm-9, .card-deck .col-sm-auto, .card-deck .col-xl, .card-deck .col-xl-1, .card-deck .col-xl- .card-deck .col-xl-11, .card-deck .col-xl-12, .card-deck .col-xl-2, .card-deck .col-xl-3, .card-deck .col-xl-4, .card-deck .col-xl-5, .card-deck .col-xl-6, .card-deck .col-xl-7, .card-deck .col-xl-8, .card-deck .col-xl-9, .card-deck .col-xl-auto {
     padding-left: var(--color-1) !important;
     padding-right: var(--color-1) !important;
 }
@@ -443,6 +465,8 @@ div.card-body>i {
     background: var(--gradient-2);
     border-bottom: var(--size-2) solid var(--color-6);
     border-radius: var(--color-1);
+    padding-bottom: var(--size-7);
+    padding-top: var(--size-9);
 }
 
 /* Main */
@@ -717,16 +741,16 @@ html:not(html.dark) .papers {
 }
 
 html:not(html.dark) .thoughts {
-    --color-1: #345e98;
-    --color-5: #4a77b4;
-    --color-6: #ecf1f7;
-    --gradient-1: linear-gradient(135deg, #345d96 13%, #4a77b4 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #ecf1f7 73%);
+    --color-1: #3e4ded;
+    --color-5: #3e4ded;
+    --color-6: #eef0f9;
+    --gradient-1: linear-gradient(135deg, #3e4ded 13%, #3e4ded 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #eef0f9 73%);
 }
 
 html.dark .thoughts {
-    --color-1: #6791cb;
-    --color-5: #4a77b5;
+    --color-1: #3e4ded;
+    --color-5: #3e4ded;
     --color-6: #080c12;
     --gradient-1: linear-gradient(135deg, var(--color-1) 13%, var(--color-5) 73%);
     --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
@@ -831,67 +855,67 @@ html:not(html.dark) .labs {
     margin-right: var(--size-6);
 }
 
-.fa-apple:not(footer i):not(nav i) {
+.fa-apple:not(footer i):not(.nav-icons i) {
     color: #333333;
 }
 
-.fa-discord:not(footer i):not(nav i) {
+.fa-discord:not(footer i):not(.nav-icons i) {
     color: #5865f2;
 }
 
-.fa-facebook:not(footer i):not(nav i) {
+.fa-facebook:not(footer i):not(.nav-icons i) {
     color: #1877f2;
 }
 
-.fa-flickr:not(footer i):not(nav i) {
+.fa-flickr:not(footer i):not(.nav-icons i) {
     color: #006add;
 }
 
-.fa-github:not(footer i):not(nav i) {
+.fa-github:not(footer i):not(.nav-icons i) {
     color: #171515;
 }
 
-.fa-instagram-square:not(footer i):not(nav i) {
+.fa-instagram-square:not(footer i):not(.nav-icons i) {
     color: #3f729b;
 }
 
-.fa-linkedin:not(footer i):not(nav i) {
+.fa-linkedin:not(footer i):not(.nav-icons i) {
     color: #0e76a8;
 }
 
-.fa-medium:not(footer i):not(nav i) {
+.fa-medium:not(footer i):not(.nav-icons i) {
     color: #12100e;
 }
 
-.fa-patreon:not(footer i):not(nav i) {
+.fa-patreon:not(footer i):not(.nav-icons i) {
     color: #141518;
 }
 
-.fa-rss:not(footer i):not(nav i) {
+.fa-rss:not(footer i):not(.nav-icons i) {
     color: #ee802f;
 }
 
-.fa-slack:not(footer i):not(nav i) {
+.fa-slack:not(footer i):not(.nav-icons i) {
     color: #4a154b;
 }
 
-.fa-spotify:not(footer i):not(nav i) {
+.fa-spotify:not(footer i):not(.nav-icons i) {
     color: #1db954;
 }
 
-.fa-tumblr:not(footer i):not(nav i) {
+.fa-tumblr:not(footer i):not(.nav-icons i) {
     color: #35465d;
 }
 
-.fa-twitter:not(footer i):not(nav i) {
+.fa-twitter:not(footer i):not(.nav-icons i) {
     color: #1da1f2;
 }
 
-.fa-window-maximize:not(footer i):not(nav i), .fa-at:not(footer i):not(nav i), .fa-envelope:not(footer i):not(nav i), .fa-at:not(footer i):not(nav i), .fa-calendar:not(footer i):not(nav i) {
+.fa-envelope:not(footer i):not(.nav-icons i):not(footer i):not(.nav-icons i), .fa-at:not(footer i):not(.nav-icons i), .fa-envelope:not(footer i):not(.nav-icons i), .fa-at:not(footer i):not(.nav-icons i), .fa-calendar:not(footer i):not(.nav-icons i) {
     color: #212121;
 }
 
-.fa-youtube:not(footer i):not(nav i) {
+.fa-youtube:not(footer i):not(.nav-icons i) {
     color: #ff0000;
 }
 

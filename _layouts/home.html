@@ -6,7 +6,8 @@ layout: home
 {% include nav.html %}
 <main>
     <!-- Jumbotron -->
-    <div class="container-fluid">
+    <!--
+    <div class="container">
         <div class="home-include">
             <div class="preview general feature">
                 <div class="row">
@@ -15,20 +16,17 @@ layout: home
                     {% assign reviewDate = review.date | date: "%Y%j" | plus:0 %}
                     {% assign thoughtDate = thought.date | date: "%Y%j" | plus:0 %}
                     {% if reviewDate < thoughtDate %} {% assign item=thought %} {% else %} {% assign item=review %} {%
-                        endif %} <div class="col-sm-1">
-                </div>
-                {% if item == thought %}
-                <div class="col-sm-5">
-                    {% if item.img %}
-                    <div class="img">
-                        <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top"
-                                src="{{ site.baseurl }}/assets/img/posts/{{ item.img }}"></a>
-                    </div>
-                    {% else %}
-                    <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
-                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
-                    </div>
-                    {% endif %}
+                        endif %} {% if item==thought %} <div class="col-sm-4 text-center">
+                        {% if item.img %}
+                        <div class="img">
+                            <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top xl"
+                                    src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"></a>
+                        </div>
+                        {% else %}
+                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
+                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
+                        </div>
+                        {% endif %}
                 </div>
                 {% else %}
                 <div class="col-sm-3 text-center">
@@ -38,7 +36,7 @@ layout: home
                     </a>
                 </div>
                 {% endif %}
-                <div class="col-sm-5">
+                <div class="col-sm-8">
                     <h2 class="h2">
                         <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                     </h2>
@@ -48,29 +46,20 @@ layout: home
                     </blockquote>
                     {% endif %}
                     <div class="post">
-                        <p>{{ item.description }}</p>
+                        <p class="lead">{{ item.description }}</p>
                     </div>
                     {% if item.author %}
                     <p>
                         {% assign author_data = site.people | where:"title", item.author | first %}
-                        <!--
-                    {% if author_data.img %}
-                    <div class="img">
-                        <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
-                            alt="Photo of {{ author_data.title }}" title="{{ author_data.title }} headshot"
-                            class="xxs rounded-circle mr-2">
-                    </div>
-                    {% endif %}
-                    -->
                         <span class="small">By {{ item.author }}</span>
                     </p>
                     {% endif %}
                 </div>
-                <div class="col-sm-1"></div>
             </div>
         </div>
     </div>
     </div>
+-->
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

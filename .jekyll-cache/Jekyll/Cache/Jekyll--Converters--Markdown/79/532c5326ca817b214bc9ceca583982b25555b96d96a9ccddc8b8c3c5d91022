@@ -1,0 +1,71 @@
+I"�<h2 id="tldr">TL;DR*</h2>
+
+<p>Every government website should have an RSS feed. This ensures there is an open, universal standard for syndicating government information.</p>
+
+<p><em>* Too long; didn’t read</em></p>
+
+<h2 id="the-problem">The problem</h2>
+
+<p>While it’s important that government shares information via distributed outlets – social media, email newsletters – there isn’t one universal, open standard that is free and easy to access. Relying on social media or email newsletters forces the public to submit personal information or join a private network to subscribe to official updates. This is a barrier to equal, unfettered access to government information.</p>
+
+<h2 id="the-solution">The solution</h2>
+
+<p>Government should lead on using an open standard for syndicating its website content. All government websites should have an RSS feed. RSS is an ideal information syndication option because it’s:</p>
+
+<ul>
+  <li>An open protocol</li>
+  <li>Free to access</li>
+  <li>Easy to create</li>
+  <li>Interoperable</li>
+  <li>Machine-readable</li>
+  <li>Privacy ensured</li>
+</ul>
+
+<h2 id="the-download">The download</h2>
+
+<p>RSS, or <a href="https://en.wikipedia.org/wiki/RSS">Really Simple Syndication</a>, is an open protocol that was created in the late 1990s “that allows users and applications to access updates to websites in a standardized, computer-readable format.”</p>
+
+<p>RSS is powered by a simple XML file (such as feed.xml or rss.xml) that syndicates updated content from a website. This information, or metadata, includes title, date, description, author and audio.</p>
+
+<p>Examples of government RSS feeds include <a href="https://digital.gov/index.xml">Digital.gov</a> and <a href="https://digital.va.gov/feed">DigitalVA</a>. Major news publications such as <a href="https://www.nytimes.com/rss">The New York Times</a> have a variety of RSS feed subscriptions. Podcasts are syndicated using RSS.</p>
+
+<p>Some content management systems like WordPress automatically build in RSS capability and link standards (example: <a href="https://whitehouse.gov/feed">whitehouse.gov/feed</a>). And RSS readers like <a href="https://feedly.com/">Feedly</a> make it easy to aggregate and subscribe to multiple RSS feeds.</p>
+
+<p>Popular in the early days of the internet, RSS fell out of use with the rise of social media and proprietary interests in controlling how users accessed information (with the help of algorithms).</p>
+
+<p>With evolving privacy concerns and government’s need to be platform agnostic – and this includes social media – it’s important that government universally adopts RSS.</p>
+
+<p>As Wired’s Brian Barrett says in “<a href="https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader/">It’s Time for an RSS Revival</a>”:</p>
+
+<blockquote>
+  <p>“The modern web contains no shortage of horrors, from ubiquitous ad trackers to all-consuming platforms to YouTube comments, generally. Unfortunately, there’s no panacea for what ails this internet we’ve built. But anyone weary of black-box algorithms controlling what you see online at least has a respite, one that’s been there all along but has often gone ignored. Tired of Twitter? Facebook fatigued? It’s time to head back to RSS.”</p>
+</blockquote>
+
+<h2 id="code-review">Code review</h2>
+
+<p>Example RSS feed file code:</p>
+
+<h2 id="action-item">Action item</h2>
+
+<ul>
+  <li>Set up an RSS feed for the government website you manage</li>
+  <li>Publicly display the RSS icon alongside social media icons</li>
+</ul>
+
+<h2 id="assigned-to">Assigned to</h2>
+
+<p>Government:</p>
+
+<ul>
+  <li>Chief information officers</li>
+  <li>Chief technology officers</li>
+  <li>Communications teams</li>
+</ul>
+
+<h2 id="learn-more">Learn more</h2>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/RSS#Interoperability">RSS on Wikipedia</a></li>
+  <li><a href="https://www.wikihow.com/Create-an-RSS-Feed">How to Create an RSS Feed</a></li>
+</ul>
+:ET

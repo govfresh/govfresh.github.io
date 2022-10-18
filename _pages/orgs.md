@@ -3,7 +3,6 @@ layout: cards
 title: Organizations
 description: Institutions working for the public.
 permalink: /orgs/
-parent: orgs
-order: 
+parent: orgs 
 icon: "fa-solid fa-building"
 ---

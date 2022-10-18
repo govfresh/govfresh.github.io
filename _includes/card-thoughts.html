@@ -1,14 +1,11 @@
 {% if include.level == "secondary" %}
-<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
     <div class="card">
         <div class="card-body">
             <div class="img">
-                <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top"
-                        src="{{ site.baseurl }}/assets/img/posts/{{ item.img }}"></a>
+                <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top lg"
+                        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"></a>
             </div>
-            <!--
-                <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern {% endif %}"></div>
-                -->
             <h3>
                 <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
             </h3>
@@ -22,16 +19,13 @@
     </div>
 </div>
 {% else %}
-<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
     <div class="card">
         <div class="card-body">
             <div class="img">
-                <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top"
-                        src="{{ site.baseurl }}/assets/img/posts/{{ item.img }}"></a>
+                <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top lg"
+                        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"></a>
             </div>
-            <!--
-                <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern {% endif %}"></div>
-                -->
             <h2 class="h3">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
             </h2>
