@@ -1,6 +1,6 @@
 ---
 title: "RSS government"
-date: 2022-10-13
+date: 2022-10-18
 description: "Defaulting to an open protocol to syndicate government information makes public communications universally accessible."
 author: Luke Fretwell
 pattern: blueprint
