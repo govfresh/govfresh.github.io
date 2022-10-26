@@ -3,13 +3,11 @@ title: "What government can learn from Olay"
 date: 2021-11-15
 description: "Olay’s Open to Change advertising campaign is something government should take note of."
 author: Luke Fretwell
-pattern: circles
-#img: 
-#  - <svg style="enable-background:new 0 0 55 55"version=1.1 viewBox="0 0 55 68.75"x=0px xml:space=preserve xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink y=0px><style>.st0{fill:none;stroke:#fff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}.st1{fill:none}.st2{fill:none;stroke:#2A3D4F;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}.st3{fill:none;stroke:#000;stroke-width:.01;stroke-miterlimit:10}</style><g><path class=st0 d="M27.7451382,3.5c0,0-15.4428997,24.0069046-15.4428997,32.5433044S19.2087383,51.5,27.7451382,51.5   c6.582201,0,12.2035007-4.1144943,14.4322987-9.9116936c1.0890007-2.8325005,0.4277-6.0093079-1.6009979-8.2661018   C27.7512379,19.0551052,27.7451382,3.5,27.7451382,3.5z"/><path class=st0 d=M27.6297379,46.1198044c3.4822998,0,6.4562988-2.1768036,7.635498-5.2439003 /></g></svg>
-img-feat: 
+img: olay-open-to-change.jpg
+img-feat: olay-open-to-change-feat.jpg
 img-alt: ""
-img-caption: "Icon: drop by DinosoftLab from the Noun Project"
-img-link: https://thenounproject.com/search/?q=lotion+drop&i=1619411
+img-caption: "Photo via Olay"
+img-link: 
 category:
   - Culture
   - Inclusion

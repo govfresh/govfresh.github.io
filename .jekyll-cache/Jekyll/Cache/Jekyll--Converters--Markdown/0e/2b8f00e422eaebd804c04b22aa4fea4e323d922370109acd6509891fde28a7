@@ -1,0 +1,60 @@
+I"þ<p><em>(This post is part of an ongoing series documenting father-son adventures in <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p><a href="https://blogs.loc.gov/law/2022/09/introducing-the-congress-gov-api/">In October</a>, the Library of Congress published a Congress.gov application programming interface. Using this API, we created House of Representatives, Senate and member profiles pages on <a href="https://usa.govfresh.com">USA.GovFresh</a>.</p>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://api.congress.gov/">api.congress.gov</a></li>
+</ul>
+
+<h2 id="repo">Repo</h2>
+
+<p>Official repository:</p>
+
+<ul>
+  <li>/<a href="https://github.com/LibraryOfCongress">LibraryOfCongress</a>/<a href="https://github.com/LibraryOfCongress/api.congress.gov">api.congress.gov</a></li>
+</ul>
+
+<h2 id="issues">Issues</h2>
+
+<p>Issues we submitted:</p>
+
+<ul>
+  <li><a href="https://github.com/LibraryOfCongress/api.congress.gov/issues/33">CORS error</a></li>
+  <li><a href="https://github.com/LibraryOfCongress/api.congress.gov/issues/50">Sponsored legislation API URL not correct?</a></li>
+  <li><a href="https://github.com/LibraryOfCongress/api.congress.gov/issues/53">Improve member photo quality</a></li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to the Library of Congress for:</p>
+
+<ul>
+  <li>Creating a public API.</li>
+  <li>Creating a public repository.</li>
+  <li>Openly and actively engaging with the public.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>Legislative page:</p>
+
+<p><a href="https://usa.govfresh.com/government/legislative/"><img src="/assets/img/posts/legislative-usagovfresh.png" alt="Legislative page" /></a></p>
+
+<p>House of Representative page:</p>
+
+<p><a href="https://usa.govfresh.com/government/legislative/house"><img src="/assets/img/posts/house-usagovfresh.png" alt="House of Representative page" /></a></p>
+
+<p>Senate page:</p>
+
+<p><a href="https://usa.govfresh.com/government/legislative/senate"><img src="/assets/img/posts/senate-usagovfresh.png" alt="Senate page" /></a></p>
+
+<p>Member profile page:</p>
+
+<p><a href="https://usa.govfresh.com/government/legislative/house/?member=L000551"><img src="/assets/img/posts/profile-barbara-lee-usagovfresh.png" alt="Member profile page" /></a></p>
+:ET

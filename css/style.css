@@ -493,6 +493,9 @@ main a:hover {
     padding-bottom: var(--size-6);
 }
 
+.post img {
+    border: var(--size-2) solid var(--color-5);
+}
 
 blockquote {
     border-left: var(--size-3) solid var(--color-1);
@@ -571,6 +574,10 @@ blockquote {
     margin-bottom: var(--size-8);
 }
 
+img.img-feat {
+    border: var(--size-2) solid var(--color-3);
+}
+
 p.img-caption {
     font-size: var(--size-6);
     padding: var(--size-6) var(--size-1);
@@ -589,6 +596,10 @@ img.img-circle {
 img.line {
     border: var(--size-2) solid var(--color-3);
     margin-bottom: var(--size-8);
+}
+
+img.line-2 {
+    border: var(--size-2) solid var(--color-3);
 }
 
 img.xxxs {
@@ -773,11 +784,11 @@ html.dark .reviews {
 }
 
 html .radar {
-    --color-1: #b50909;
-    --color-5: #e52207;
-    --color-6: #fde0db;
-    --gradient-1: linear-gradient(135deg, #b50909 13%, #e52207 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #fde0db 73%);
+    --color-1: #212121;
+    --color-5: #212121;
+    --color-6: #efefef;
+    --gradient-1: linear-gradient(135deg, #212121 13%, #212121 73%);
+    --gradient-2: linear-gradient(135deg, #ffffff 13%, #efefef 73%);
 }
 
 html.dark .radar {
