@@ -1,7 +1,7 @@
 ---
 title: "Civic hacking Congress (part 1)"
 date: 2022-10-26
-description: "Building congressional pages with the new LIbrary of Congress Congress.gov API."
+description: "Building congressional pages with the new Library of Congress Congress.gov API."
 author: Luke Fretwell
 img: house-usagovfresh.png
 img-feat: house-usagovfresh-feat.png
