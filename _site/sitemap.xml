@@ -290,7 +290,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/civichacking/</loc>
-<lastmod>2022-10-25T20:44:58-07:00</lastmod>
+<lastmod>2022-10-26T06:43:21-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/colophon/</loc>
@@ -594,7 +594,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/what-government-can-learn-from-olay</loc>
-<lastmod>2022-08-05T15:49:51-07:00</lastmod>
+<lastmod>2022-10-26T06:43:21-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/coding-covid-dashboard</loc>
@@ -610,7 +610,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/government-civictech-medium</loc>
-<lastmod>2022-08-05T15:49:51-07:00</lastmod>
+<lastmod>2022-10-26T06:43:21-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/open-data-day-2022</loc>
@@ -637,8 +637,12 @@
 <lastmod>2022-10-18T12:31:28-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/thoughts/civic-hacking-congress-members</loc>
-<lastmod>2022-10-26T06:41:09-07:00</lastmod>
+<loc>http://localhost:4000/thoughts/civic-hacking-library-of-congress-part-1</loc>
+<lastmod>2022-10-26T09:59:56-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/thoughts/civic-hacking-dotgov</loc>
+<lastmod>2022-10-29T10:07:43-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/civic-hacking</loc>

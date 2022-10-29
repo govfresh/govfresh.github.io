@@ -1,0 +1,39 @@
+I"]<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p>In <a href="https://blogs.loc.gov/law/2022/09/introducing-the-congress-gov-api/">October</a>, the Library of Congress published a Congress.gov application programming interface. Using this API, we created House of Representatives, Senate and member profiles pages on <a href="https://usa.govfresh.com">USA.GovFresh</a>.</p>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://home.dotgov.gov/data/">.gov domains</a> (Cybersecurity Infrastructure Security Agency)</li>
+</ul>
+
+<h2 id="repo">Repo</h2>
+
+<p>Official repository:</p>
+
+<ul>
+  <li>/<a href="https://github.com/cisagov">cisagov</a>/<a href="https://github.com/cisagov/dotgov-data">dotgov-data</a></li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to the Cybersecurity Infrastructure Security Agency for:</p>
+
+<ul>
+  <li>Maintaining the .gov registry.</li>
+  <li>Maintaining a public repository of the data.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>.gov domain search:</p>
+
+<p><a href="https://usa.govfresh.com/dotgov/"><img src="/assets/img/posts/legislative-usagovfresh.png" alt=".gov search" /></a></p>
+
+<p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
+:ET
