@@ -837,9 +837,9 @@ html:not(html.dark) .labs {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
 }
 
-/* Previews */
+/* .s */
 
-.home-include .preview:not(.home-include .preview:last-child), .preview.general {
+.home-include .preview:not(.home-include .preview:last-child), .preview.general, .fancy-bottom {
     border-bottom: var(--size-6) solid var(--color-1);
     border-bottom-left-radius: var(--size-5);
 }
