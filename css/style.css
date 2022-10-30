@@ -460,13 +460,18 @@ div.card-body>i {
 
 /* Jumbotron */
 
-.jumbotron {
+.jumbotron, .jumbotron-home {
     background: var(--color-4);
     background: var(--gradient-2);
     border-bottom: var(--size-2) solid var(--color-6);
     border-radius: var(--color-1);
     padding-bottom: var(--size-7);
     padding-top: var(--size-9);
+}
+
+.jumbotron-home {
+    padding-bottom: var(--size-7);
+    padding-top: var(--size-10);
 }
 
 /* Main */
@@ -525,6 +530,12 @@ blockquote {
 .pagination a {
     text-decoration: none;
     color: var(--color-2);
+}
+
+/* Subscribe */
+
+.embed-page .publication-name, .publication-tagline {
+    display: none;
 }
 
 /* Lists */
