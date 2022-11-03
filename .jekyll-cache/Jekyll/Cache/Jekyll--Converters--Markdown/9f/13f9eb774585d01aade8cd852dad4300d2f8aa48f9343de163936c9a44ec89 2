@@ -1,11 +1,11 @@
-I"^<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+I"€<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
 
 <h2 id="readme">README</h2>
 
-<p>We built a listing of executive branch agencies using the Federal Register API. This includes agency pages with:</p>
+<p>We built a listing of executive branch agencies and individual agency pages using the Federal Register API. This includes agency pages with:</p>
 
 <ul>
-  <li>Agency logo, about and website</li>
+  <li>Agency logo, description and website</li>
   <li>Subagencies within the agency</li>
   <li>Recent agency Federal Register documents</li>
 </ul>

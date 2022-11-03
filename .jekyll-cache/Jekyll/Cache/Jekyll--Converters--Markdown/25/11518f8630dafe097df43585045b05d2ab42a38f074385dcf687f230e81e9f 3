@@ -1,4 +1,4 @@
-I"š<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+I"»<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
 
 <h2 id="readme">README</h2>
 
@@ -34,6 +34,8 @@
 <p>.gov domain search:</p>
 
 <p><a href="https://usa.govfresh.com/dotgov/"><img src="/assets/img/posts/dotgov-usagovfresh.gif" alt=".gov search" /></a></p>
+
+<h2 id="feedback">Feedback</h2>
 
 <p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
 :ET
