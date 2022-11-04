@@ -4,10 +4,9 @@ date: 2022-03-21
 description: "Time for Alpha 2.0."
 author: Luke Fretwell
 pattern: isometric
-img: 
-#  - 
-img-feat: 
-img-alt: ""
+img: california.png
+img-feat: california-feat.png
+img-alt: "Icon of the state of California"
 img-caption: 
 img-link: 
 category:

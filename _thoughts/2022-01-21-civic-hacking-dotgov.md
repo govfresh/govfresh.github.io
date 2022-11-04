@@ -3,13 +3,10 @@ title: "Civic hacking for '100% .gov'"
 date: 2022-01-21
 description: "Re-imagining the government domain name registry experience."
 author: Luke Fretwell
-pattern: diamonds
-#img: 
-#  - <svg style="enable-background:new 0 0 100 100"version=1.1 viewBox="0 0 100 125"x=0px xml:space=preserve xmlns=http://www.w3.org/2000/svg xmlns:graph=http://ns.adobe.com/Graphs/1.0/ xmlns:i=http://ns.adobe.com/AdobeIllustrator/10.0/ xmlns:x=http://ns.adobe.com/Extensibility/1.0/ xmlns:xlink=http://www.w3.org/1999/xlink y=0px><switch><foreignObject height=1 requiredExtensions=http://ns.adobe.com/AdobeIllustrator/10.0/ width=1 x=0 y=0 /><g i:extraneous=self><path d="M74.9,86.1v-2.7c0-2.2-1.1-4.3-3-5.4l-3.2-2c-0.9-0.5-1.4-1.5-1.4-2.5v-3c0-3.5-2.9-6.4-6.4-6.4h-9.1v-7h22.4    c0.4,0,0.8-0.4,0.8-0.8v-2.6c0-0.4-0.4-0.8-0.8-0.8h-2.8V51c0-0.4-0.4-0.8-0.8-0.8H68v-14h2.5c0.4,0,0.8-0.4,0.8-0.8v-2.6    c0-0.4-0.4-0.8-0.8-0.8h-5.1c-0.3-7.7-6.2-13.9-13.8-14.7v-5.5c3-0.3,4.9,1.3,8.1,0.5c0.3-0.1,0.6-0.5,0.6-0.8c0-2,0-3.3,0-5.2    c0-0.5-0.4-0.9-0.9-0.8c-3,0.6-5-0.8-7.8-0.6V4.1c0-0.9-0.7-1.6-1.6-1.6c-0.9,0-1.6,0.7-1.6,1.6v13.2c-7.6,0.8-13.5,7-13.8,14.7    h-5.1c-0.4,0-0.8,0.4-0.8,0.8v2.6c0,0.4,0.4,0.8,0.8,0.8H32v14h-2.5c-0.4,0-0.8,0.4-0.8,0.8v1.9h-2.8c-0.4,0-0.8,0.4-0.8,0.8v2.6    c0,0.4,0.4,0.8,0.8,0.8h22.4v7h-9.1c-3.5,0-6.4,2.9-6.4,6.4v3c0,1-0.5,2-1.4,2.5l-3.2,2c-1.9,1.2-3,3.2-3,5.4v2.7    c-1.7,0.7-2.8,2.3-2.8,4.2c0,2.5,2,4.6,4.6,4.6c2.5,0,4.6-2,4.6-4.6c0-1.9-1.2-3.5-2.8-4.2v-2.7c0-1,0.5-2,1.4-2.5l3.2-2    c1.9-1.2,3-3.2,3-5.4v-3c0-1.6,1.3-2.9,2.9-2.9h9.1V75l-4.6,2.9c-1.9,1.2-3,3.2-3,5.4v5.4c-1.7,0.7-2.8,2.3-2.8,4.2    c0,2.5,2,4.6,4.6,4.6c2.5,0,4.6-2,4.6-4.6c0-1.9-1.2-3.5-2.8-4.2v-5.4c0-1,0.5-2,1.4-2.5L50,78l4.7,2.9c0.9,0.5,1.4,1.5,1.4,2.5    v5.3c-1.7,0.7-2.8,2.3-2.8,4.2c0,2.5,2,4.6,4.6,4.6c2.5,0,4.6-2,4.6-4.6c0-1.9-1.2-3.5-2.8-4.2v-5.3c0-2.2-1.2-4.3-3.1-5.5    L51.7,75v-7.5h9.1c1.6,0,2.9,1.3,2.9,2.9v3c0,2.2,1.1,4.3,3,5.4l3.2,2c0.9,0.5,1.4,1.5,1.4,2.5v2.7c-1.7,0.7-2.8,2.3-2.8,4.2    c0,2.5,2,4.6,4.6,4.6c2.5,0,4.6-2,4.6-4.6C77.7,88.4,76.5,86.7,74.9,86.1z M60.1,37.8c0-0.9,0.7-1.6,1.6-1.6s1.6,0.7,1.6,1.6v10.7    c0,0.9-0.7,1.6-1.6,1.6s-1.6-0.7-1.6-1.6V37.8z M52.3,37.8c0-0.9,0.7-1.6,1.6-1.6s1.6,0.7,1.6,1.6v10.7c0,0.9-0.7,1.6-1.6,1.6    s-1.6-0.7-1.6-1.6V37.8z M39.9,48.5c0,0.9-0.7,1.6-1.6,1.6s-1.6-0.7-1.6-1.6V37.8c0-0.9,0.7-1.6,1.6-1.6s1.6,0.7,1.6,1.6V48.5z     M47.7,48.5c0,0.9-0.7,1.6-1.6,1.6c-0.9,0-1.6-0.7-1.6-1.6V37.8c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6V48.5z"/></g></switch>
-img-feat: 
-img-alt: ""
-img-caption: "Icon: Government by Adrien Coquet from the Noun Project"
-img-link: https://thenounproject.com/search/?q=government&i=3971645
+img: dotgov-usagovfresh.gif
+img-feat: dotgov-usagovfresh-feat.png
+img-alt: "Screenshot of .gov search tool."
+img-caption: "Image: USA.GovFresh"
 category:
   - Civic hacking
   - Community
