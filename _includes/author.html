@@ -1,19 +1,19 @@
 {% if page.author %}
-    {% for author in page.author %}
-        {% assign
+{% for author in page.author %}
+{% assign
 author_data = site.people | where: "title", author | first %}
-        {% if
+{% if
 author_data.content.size > 1 %}
-            <div class=" fancy-2">
-                <p class=""><img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="{{ author_data.title }}" class="xxs rounded-circle mr-2 line"> By
-                    <a href="{{ site.baseurl }}{{ author_data.url }}">
-                        {{ author_data.title }}</a>
-                    {% if page.date %}
-                        &middot; {% include date.html %}
-                    {% endif %}
-                </p>
-            </div>
-
+<div class=" fancy-2">
+    <p class=""><img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="{{ author_data.title }}"
+            class="xxs rounded-circle mr-2 line"> By
+        <a href="{{ site.baseurl }}{{ author_data.url }}">
+            {{ author_data.title }}</a>
+        {% if page.date %}
+        &middot; {% include date.html %}
         {% endif %}
-    {% endfor %}
+    </p>
+</div>
+{% endif %}
+{% endfor %}
 {% endif %}

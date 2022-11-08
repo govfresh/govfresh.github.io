@@ -1,27 +1,25 @@
 {% if include.level == "secondary" %}
-    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                <h3 class="h4">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                </h3>
-                <p>
-                    {% include date.html %}
-                </p>
-            </div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="h4">
+                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+            </h3>
+            <p>
+                {% include date.html %}
+            </p>
         </div>
     </div>
+</div>
 {% else %}
-    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                <h2 class="h4">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                </h2>
-                <p>{% include date.html %}</p>
-            </div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="h4">
+                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+            </h2>
+            <p>{% include date.html %}</p>
         </div>
     </div>
+</div>
 {% endif %}

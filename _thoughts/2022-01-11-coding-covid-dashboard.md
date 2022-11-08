@@ -5,7 +5,7 @@ description: "Adventures in father-son civic hacking."
 author: Luke Fretwell
 img: covid.png
 img-feat: covid.png
-img-alt: "This illustration, created at the Centers for Disease Control and Prevention (CDC), reveals ultrastructural morphology exhibited by coronaviruses. Note the spikes that adorn the outer surface of the virus, which impart the look of a corona surrounding the virion, when viewed electron microscopically. A novel coronavirus, named Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2), was identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China in 2019. The illness caused by this virus has been named coronavirus disease 2019 (COVID-19)."
+img-alt: "Picture of SARS-CoV-2"
 img-caption: "Image: Centers for Disease Control and Prevention"
 img-link: 
 category:

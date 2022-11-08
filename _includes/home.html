@@ -41,18 +41,18 @@
   {% endfor %}
   {% endfor %}-->
     {% for item in site.order %}
-        {% assign page = site.pages | where: "parent", item | first %}
-        <div class="preview {{ page.parent }}">
-            <h2>{{ page.title }}</h2>
-            <p class="lead">{{ page.description }}</p>
-            {% assign page = page %}
-            {% include cards.html page-title=title %}
-            {% if page.permalink %}
-                {% assign permalink = page.permalink %}
-            {% else %}
-                {% assign permalink = page.parent %}
-            {% endif %}
-            <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ page.title }}</a>
-        </div>
+    {% assign page = site.pages | where: "parent", item | first %}
+    <div class="preview {{ page.parent }}">
+        <h2>{{ page.title }}</h2>
+        <p class="lead">{{ page.description }}</p>
+        {% assign page = page %}
+        {% include cards.html page-title=title %}
+        {% if page.permalink %}
+        {% assign permalink = page.permalink %}
+        {% else %}
+        {% assign permalink = page.parent %}
+        {% endif %}
+        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ page.title }}</a>
+    </div>
     {% endfor %}
 </div>

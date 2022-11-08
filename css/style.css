@@ -68,7 +68,6 @@
     --gradient-1: linear-gradient(135deg, #5b029c 13%, #b548ff 73%);
     --gradient-2: linear-gradient(135deg, #ffffff27 13%, #b548ff0e 73%);
     --font-1: "Public Sans Regular", sans-serif;
-    --font-2: "Lora", serif;
     --font-3: "Public Sans Extra Bold", sans-serif;
     --font-4: "Public Sans Bold", sans-serif;
     --font-5: "Public Sans Regular", sans-serif;
@@ -109,9 +108,7 @@
         font-size: 1.3rem !important;
     }
 
-    p.lead {
-        font-size: 1rem;
-    }
+
 
     .h1 {
         font-size: 3.4rem !important;
@@ -157,9 +154,7 @@
         font-size: 1.4rem !important;
     }
 
-    p.lead {
-        font-size: 1.4rem;
-    }
+
 
     .h1 {
         font-size: 4.2rem !important;
@@ -205,9 +200,7 @@
         font-size: 1.6rem !important;
     }
 
-    p.lead {
-        font-size: 1.6rem;
-    }
+
 
     .h1 {
         font-size: 5rem !important;
@@ -253,9 +246,7 @@
         font-size: 1.6rem !important;
     }
 
-    p.lead {
-        font-size: 1.8rem;
-    }
+
 
     .h1 {
         font-size: 5rem !important;
@@ -393,13 +384,12 @@ a.navbar-brand:hover {
 .nav-icons a, .nav-icons, .nav-link .fa-solid {
     color: var(--color-4);
     display: inline-block;
-    font-size: var(--size-9);
+    font-size: var(--size-8);
     margin-left: var(--size-5);
 }
 
 .lead {
-    font-family: var(--font-2);
-    font-size: var(--size-9);
+    font-family: var(--font-1);
     color: var(--color-2);
 }
 
@@ -494,7 +484,7 @@ main a:hover {
 }
 
 .post p, .post ul {
-    font-family: var(--font-2);
+    font-family: var(--font-1);
     padding-bottom: var(--size-6);
 }
 
