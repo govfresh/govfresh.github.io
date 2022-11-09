@@ -5,7 +5,7 @@ description: "Olay’s Open to Change advertising campaign is something governme
 author: Luke Fretwell
 img: olay-open-to-change.jpg
 img-feat: olay-open-to-change-feat.jpg
-img-alt: ""
+img-alt: "Olay Regenerist beauty product held by a Black woman in her left hand as she leans on her elbow. The lid is openable with one hand and the model with a limb difference smiles at the camera."
 img-caption: "Photo via Olay"
 img-link: 
 category:
