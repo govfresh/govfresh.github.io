@@ -30,13 +30,11 @@ gamechangers-number: 5
 books-number: 7
 events-number: 4
 orgs-number: 4
-pitches-number: 4
 podcasts-number: 4
 labs-number: 3
 innovations-number: 4
 papers-number: 3
 ideas-number: 3
-industry-number: 3
 dm-number: 5
 ask-number: 4
 
@@ -156,15 +154,6 @@ defaults:
     values:
       layout: "topic"
   - scope:
-      path: "_pitches"
-      type: "pitches"
-    values:
-      folder: "Pitches"
-      img-path: "orgs"
-      parent: "pitches"
-      layout: "profile"
-      short: "true"
-  - scope:
       path: "_podcasts"
       type: "podcasts"
     values:
@@ -218,15 +207,6 @@ defaults:
       parent: "papers"
       layout: "papers"
       short: "true"
-  - scope:
-      path: "_industry"
-      type: "industry"
-    values:
-      folder: "Industry"
-      img-path: "industry"
-      parent: "industry"
-      layout: "industry"
-      short: "true"
 
 # Collections
 collections:
@@ -269,9 +249,6 @@ collections:
   topics:
     output: true
     permalink: topics/:title
-  pitches:
-    output: true
-    permalink: pitches/:title
   podcasts:
     output: true
     permalink: podcasts/:title
@@ -284,9 +261,6 @@ collections:
   ideas:
     output: true
     permalink: ideas/:title
-  industry:
-    output: true
-    permalink: industry/:title
 
 # Pagination
 paginate: 12

@@ -12,9 +12,6 @@ img-link:
 category:
   - Community
   - Digital
-share-twitter: https://twitter.com/govfresh/status/1559541579412414465?s=20&t=qPS1iMM3Fr-XO1eTlTokhw
-share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6965306705626755072
-share-facebook: https://www.facebook.com/govfresh/posts/pfbid02AdiXLKHJiW54Q7QisuPKmekuaxHaXtwJDbH27qqhVhKmzuiRcXBLwVaSH4aMnvm4l
 feature: "true"
 ---
 

@@ -26,6 +26,12 @@
 }
 
 @font-face {
+    font-family: "Public Sans Medium Italic";
+    src: url("/fonts/public-sans/PublicSans-MediumItalic.woff2") format("woff2"),
+        url("/fonts/public-sans/PublicSans-MediumItalic.woff") format("woff");
+}
+
+@font-face {
     font-family: "Public Sans Bold";
     src: url("/fonts/public-sans/PublicSans-Bold.woff2") format("woff2"),
         url("/fonts/public-sans/PublicSans-Bold.woff") format("woff");
@@ -41,18 +47,6 @@
     font-family: "Public Sans Black";
     src: url("/fonts/public-sans/PublicSans-Black.woff2") format("woff2"),
         url("/fonts/public-sans/PublicSans-Black.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Lora";
-    src: url("/fonts/lora/lora-variablefont_wght-webfont.woff2") format("woff2"),
-        url("/fonts/lora/lora-variablefont_wght-webfont.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Lora Italic";
-    src: url("/fonts/lora/lora-italic-variablefont_wght-webfont.woff2") format("woff2"),
-        url("/fonts/lora/lora-italic-variablefont_wght-webfont.woff") format("woff");
 }
 
 /* Root settings */
@@ -73,7 +67,7 @@
     --font-5: "Public Sans Regular", sans-serif;
     --font-6: "Public Sans Thin", sans-serif;
     --font-7: "Public Sans Light", sans-serif;
-    --font-8: "Lora Italic", serif;
+    --font-8: "Public Sans Medium Italic", sans-serif;
     --size-1: 0;
     --size-2: 0.0625rem;
     --size-3: .25rem;
