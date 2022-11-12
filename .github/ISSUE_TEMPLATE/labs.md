@@ -1,7 +1,7 @@
 ---
 name: Labs
-about: Describe this issue template's purpose here.
-title: 'Labs: #TITLE'
+about: Labs issue template.
+title: 'Labs: [TITLE]'
 labels: labs
 assignees: lukefretwell
 

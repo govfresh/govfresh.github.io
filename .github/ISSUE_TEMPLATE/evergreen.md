@@ -1,10 +1,10 @@
 ---
 name: Evergreen
 about: Issues template for innovations/org/events/podcasts/books
-title: 'Innovation: '
-labels: innovations
+title: 'Evergreen: '
+labels: ''
 assignees: ''
 
 ---
 
-
+Innovations/Organizations/Events/Podcasts/Books:

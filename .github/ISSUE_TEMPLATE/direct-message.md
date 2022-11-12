@@ -1,8 +1,8 @@
 ---
 name: Direct message
-about: Describe this issue template's purpose here.
-title: 'Direct message: '
-labels: direct message
+about: DM issue template.
+title: 'DM: '
+labels: ''
 assignees: ''
 
 ---
