@@ -1,15 +1,15 @@
 ---
 name: Thoughts
-about: Describe this issue template's purpose here.
+about: Thoughts issue template
 title: 'Thoughts: '
 labels: thoughts
 assignees: ''
 
 ---
 
-* [Doc] (for review)
+[Doc]()
 
-- [ ] Set up doc, write
+- [ ] [Write]([template]())
 - [ ] Call for review
 - [ ] Publish
 - [ ] Delete doc

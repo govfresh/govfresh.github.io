@@ -1,15 +1,12 @@
 ---
 name: Radar
-about: Describe this issue template's purpose here.
+about: Radar issue template
 title: 'Radar: '
 labels: radar
 assignees: ''
 
 ---
 
-* [Doc] (for review)
-
-- [ ] Set up doc, write
+- [ ] Write
 - [ ] Publish
-- [ ] Delete doc
 - [ ] Promote
