@@ -1,6 +1,6 @@
 ---
 name: Labs
-about: Labs issue template.
+about: Labs issue template
 title: 'Labs: [TITLE]'
 labels: labs
 assignees: lukefretwell

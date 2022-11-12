@@ -1,6 +1,6 @@
 ---
 name: Evergreen
-about: Issues template for innovations/org/events/podcasts/books
+about: Evergreen issue template
 title: 'Evergreen: '
 labels: ''
 assignees: ''
