@@ -4,71 +4,69 @@ layout: home
 
 {% include header.html %}
 {% include nav.html %}
-<main>
+    <main>
     <!-- Jumbotron -->
     <!--
     <div class="container">
-        <div class="home-include">
-            <div class="preview general feature">
-                <div class="row">
-                    {% assign review = site.reviews | where: "feature", "true" | reverse | first %}
-                    {% assign thought = site.thoughts | where: "feature", "true" | reverse | first %}
-                    {% assign reviewDate = review.date | date: "%Y%j" | plus:0 %}
-                    {% assign thoughtDate = thought.date | date: "%Y%j" | plus:0 %}
-                    {% if reviewDate < thoughtDate %} {% assign item=thought %} {% else %} {% assign item=review %} {%
-                        endif %} {% if item==thought %} <div class="col-sm-4 text-center">
-                        {% if item.img %}
-                        <div class="img">
-                            <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top xl"
-                                    src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"></a>
-                        </div>
-                        {% else %}
-                        <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
-                            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
-                        </div>
-                        {% endif %}
-                </div>
-                {% else %}
-                <div class="col-sm-3 text-center">
-                    <a href="{{ site.baseurl }}{{ item.url }}">
-                        <img alt="{{ item.title }} cover image" class="shadow md"
-                            src="{{ site.baseurl }}/assets/img/{{ review.img-path }}/{{ review.img-feat }}">
-                    </a>
-                </div>
-                {% endif %}
-                <div class="col-sm-8">
-                    <h2 class="h2">
-                        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                    </h2>
-                    {% if item.quote %}
-                    <blockquote>
-                        <p>"{{ item.quote }}"</p>
-                    </blockquote>
-                    {% endif %}
-                    <div class="post">
-                        <p class="lead">{{ item.description }}</p>
-                    </div>
-                    {% if item.author %}
-                    <p>
-                        {% assign author_data = site.people | where:"title", item.author | first %}
-                        <span class="small">By {{ item.author }}</span>
-                    </p>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
+    <div class="home-include">
+    <div class="preview general feature">
+    <div class="row">
+    {% assign review = site.reviews | where: "feature", "true" | reverse | first %}
+    {% assign thought = site.thoughts | where: "feature", "true" | reverse | first %}
+    {% assign reviewDate = review.date | date: "%Y%j" | plus:0 %}
+    {% assign thoughtDate = thought.date | date: "%Y%j" | plus:0 %}
+    {% if reviewDate < thoughtDate %} {% assign item=thought %} {% else %} {% assign item=review %} {%
+    endif %} {% if item==thought %} <div class="col-sm-4 text-center">
+    {% if item.img %}
+    <div class="img">
+    <a href="{{ site.baseurl }}{{ item.url }}"><img alt="" class="card-img-top xl"
+    src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"></a>
+    </div>
+    {% else %}
+    <div class="fancy-feat {% if item.pattern %}{{ item.pattern }} pattern{% endif %}">
+    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a>
+    </div>
+    {% endif %}
+    </div>
+    {% else %}
+    <div class="col-sm-3 text-center">
+    <a href="{{ site.baseurl }}{{ item.url }}">
+    <img alt="{{ item.title }} cover image" class="shadow md"
+    src="{{ site.baseurl }}/assets/img/{{ review.img-path }}/{{ review.img-feat }}">
+    </a>
+    </div>
+    {% endif %}
+    <div class="col-sm-8">
+    <h2 class="h2">
+    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+    </h2>
+    {% if item.quote %}
+    <blockquote>
+    <p>"{{ item.quote }}"</p>
+    </blockquote>
+    {% endif %}
+    <div class="post">
+    <p class="lead">{{ item.description }}</p>
+    </div>
+    {% if item.author %}
+    <p>
+    {% assign author_data = site.people | where:"title", item.author | first %}
+    <span class="small">By {{ item.author }}</span>
+    </p>
+    {% endif %}
     </div>
     </div>
--->
-    <div class="jumbotron-home">
-        <div class="container">
+    </div>
+    </div>
+    </div>
+    -->
+        <div class="jumbotron-home"> <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Public service with and by the people.</h1>
+                    <h1>{{ site.description }}</h1>
                 </div>
                 <div class="col-sm-6">
-                    <iframe src="https://govfresh.substack.com/embed" width="480" height="320"
-                        style="border:1px solid #EEE; background:white;" frameborder="" scrolling="no"></iframe>
+                    <iframe src="https://govfresh.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
