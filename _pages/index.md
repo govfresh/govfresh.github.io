@@ -2,7 +2,7 @@
 layout: home
 short: "true"
 title: Government. Fresh.
-description: Public service with and by the people.
+description: Government with and by the people.
 tldr-title: "TL;DR"
 tldr-description: "Too long, don't read."
 radar-title: Radar
