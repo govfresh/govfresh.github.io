@@ -1,8 +1,7 @@
 # General
 title: GovFresh
-description: Public service with and by the people.
-#baseurl: ""
-#url: ""
+description: Government with and by the people.
+url: https://govfresh.com
 
 # Build settings
 theme:
@@ -20,23 +19,19 @@ date: "%B %-d, %Y"
 timezone: America/Los_Angeles
 
 last-modified-at:
-  date-format: "%B %d, %Y at %I:%M %P %Z"
+date-format: "%B %d, %Y at %I:%M %P %Z"
 
 # Number limits
-thoughts-number: 7
-reviews-number: 4
-radar-number: 7
-gamechangers-number: 5
 books-number: 7
+dm-number: &dm-number 5
 events-number: 4
+innovations-number: 4
+labs-number: 3
 orgs-number: 4
 podcasts-number: 4
-labs-number: 3
-innovations-number: 4
-papers-number: 3
-ideas-number: 3
-dm-number: 5
-ask-number: 4
+radar-number: &radar-number 7
+reviews-number: &reviews-number 4
+thoughts-number: &thoughts-number 7
 
 # Defaults
 defaults:
@@ -59,15 +54,6 @@ defaults:
       layout: "dm"
       short: "true"
   - scope:
-      path: "_ask"
-      type: "ask"
-    values:
-      folder: "Ask us anything"
-      img-path: "ask"
-      parent: "ask"
-      layout: "ask"
-      short: "true"
-  - scope:
       path: "_thoughts"
       type: "thoughts"
     values:
@@ -86,31 +72,12 @@ defaults:
       layout: "profile"
       short: "true"
   - scope:
-      path: "_ideas"
-      type: "ideas"
-    values:
-      folder: "Ideas"
-      img-path: "ideas"
-      parent: "ideas"
-      layout: "ideas"
-      short: "true"
-      img-feat: "idea.png"
-  - scope:
       path: "_books"
       type: "books"
     values:
       folder: "Book club"
       img-path: "books"
       parent: "books"
-      layout: "profile"
-      short: "true"
-  - scope:
-      path: "_gamechangers"
-      type: "gamechangers"
-    values:
-      folder: "Gamechangers"
-      img-path: "people"
-      parent: "gamechangers"
       layout: "profile"
       short: "true"
   - scope:
@@ -184,83 +151,53 @@ defaults:
       path: ""
       type: ""
     values:
-      folder: "Feeds"
-      img-path:
-      parent: "feeds"
-      layout:
-      short:
-  - scope:
-      path: ""
-      type: ""
-    values:
       folder: "Playlist"
       img-path:
       parent: "playlist"
       layout:
       short:
-  - scope:
-      path: "_papers"
-      type: "papers"
-    values:
-      folder: "Papers"
-      img-path: "papers"
-      parent: "papers"
-      layout: "papers"
-      short: "true"
 
 # Collections
 collections:
-  pages:
-    output: true
-    permalink: :title
-  ask:
-    output: true
-    permalink: /ask/:title
-  gamechangers:
-    output: true
-    permalink: /gamechangers/:title
-  papers:
-    output: true
-    permalink: /papers/:title
-  reviews:
-    output: true
-    permalink: /reviews/:title
-  people:
-    output: true
-    permalink: people/:title
   books:
     output: true
     permalink: /books/:title
-  thoughts:
-    output: true
-    permalink: /thoughts/:title
   dm:
     output: true
     permalink: /dm/:title
   events:
     output: true
     permalink: /event/:title
-  orgs:
-    output: true
-    permalink: /orgs/:title
-  posts:
-    output: true
-    permalink: /radar/:title
-  topics:
-    output: true
-    permalink: topics/:title
-  podcasts:
-    output: true
-    permalink: podcasts/:title
-  labs:
-    output: true
-    permalink: labs/:title
   innovations:
     output: true
     permalink: innovations/:title
-  ideas:
+  labs:
     output: true
-    permalink: ideas/:title
+    permalink: labs/:title
+  orgs:
+    output: true
+    permalink: /orgs/:title
+  pages:
+    output: true
+    permalink: :title
+  people:
+    output: true
+    permalink: people/:title
+  podcasts:
+    output: true
+    permalink: podcasts/:title
+  posts:
+    output: true
+    permalink: /radar/:title
+  reviews:
+    output: true
+    permalink: /reviews/:title
+  thoughts:
+    output: true
+    permalink: /thoughts/:title
+  topics:
+    output: true
+    permalink: topics/:title
 
 # Pagination
 paginate: 12
@@ -268,10 +205,19 @@ paginate_path: "/radar/:num"
 
 # Home page order
 order:
-  - thoughts
-  - dm
-  - reviews
-  - radar
+  - 
+    name: thoughts
+    number: *thoughts-number
+  - 
+    name: dm
+    number: *dm-number
+  - 
+    name: reviews
+    number: *reviews-number
+  - 
+    name: radar
+    site-name: posts
+    number: *radar-number
 
 # Exclude
 exclude:

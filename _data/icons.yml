@@ -2,17 +2,16 @@ docs_list_title: icons
 docs:
 
 - title: "Features"
-  description: "Thoughts, reviews, gamechangers, what we're paying attention to."
+  description: "Thoughts, reviews, what we're paying attention to."
   icon: fa-solid fa-bolt
   url: /features
   pages:
     - radar
-    - gamechangers
-    - thoughts
     - reviews
+    - thoughts
 
 - title: "Labs"
-  description: "Experiments in data, design, development."
+  description: "Experiments in data, design and development."
   icon: fa-solid fa-flask
   url: /labs
 
@@ -21,10 +20,9 @@ docs:
   icon: fa-solid fa-tree
   url: /evergreen
   pages:
-    - podcasts
     - books
     - innovations
-    - feeds
     - events
     - orgs
     - playlist
+    - podcasts

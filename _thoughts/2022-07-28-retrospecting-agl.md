@@ -3,7 +3,6 @@ title: "Why and how I built Agile Government Leadership"
 date: 2022-07-28
 description: "AGL, which has since evolved into Technologists for the Public Good, was the testing ground for an experiment in what I now call an open civic community of practice."
 author: Luke Fretwell
-pattern: graph
 img: lincoln-memorial-lights.jpg
 img-feat: lincoln-memorial-lights-feat.jpg
 img-alt: "Lincoln Memorial at night with car lights"

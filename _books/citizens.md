@@ -9,7 +9,7 @@ library: https://www.worldcat.org/title/citizens/oclc/1263340723&referer=brief_r
 bookshop: https://bookshop.org/a/83650/9781912454846
 goodreads: https://www.goodreads.com/book/show/60651047-citizens
 amazon: https://www.amazon.com/Citizens-Why-Key-Fixing-Everything/dp/191245484X
-review-link: 
+review-link: review-citizens
 category:
   - Community
   - Culture

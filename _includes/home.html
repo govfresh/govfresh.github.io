@@ -1,58 +1,36 @@
 <div class="home-include">
-    <!--{% assign count = 0 %}
-  {% assign title = page.title %}
-  {% for x in site.pages %}
-  {% for loop in site.pages %}
-  {% if loop.order %}
-  {% assign order = loop.order | plus:0 %}
-  {% if order == count %}
-  {% if include.show-only %}
-  {% if loop.parent == page.parent %}
-  <div class="preview {{ loop.parent }}">
-  <h2>{{ loop.title }}</h2>
-  <p class="lead">{{ loop.description }}</p>
-  {% include cards.html page=loop.parent page-title=title %}
-  {% if loop.permalink %}
-  {% assign permalink = loop.permalink %}
-  {% else %}
-  {% assign permalink = loop.parent %}
-  {% endif %}
-  <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ loop.title }}</a>
-  </div>
-  {% endif %}
-  {% assign count = count | plus:1 %}
-  {% else %}
-  <div class="preview {{ loop.parent }}">
-  <h2>{{ loop.title }}</h2>
-  <p class="lead">{{ loop.description }}</p>
-  {% assign page = loop %}
-  {% include cards.html page-title=title %}
-  {% if loop.permalink %}
-  {% assign permalink = loop.permalink %}
-  {% else %}
-  {% assign permalink = loop.parent %}
-  {% endif %}
-  <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ loop.title }}</a>
-  {% assign count = count | plus:1 %}
-  </div>
-  {% endif %}
-  {% endif %}
-  {% endif %}
-  {% endfor %}
-  {% endfor %}-->
-    {% for item in site.order %}
-    {% assign page = site.pages | where: "parent", item | first %}
-    <div class="preview {{ page.parent }}">
-        <h2>{{ page.title }}</h2>
-        <p class="lead">{{ page.description }}</p>
-        {% assign page = page %}
-        {% include cards.html page-title=title %}
-        {% if page.permalink %}
-        {% assign permalink = page.permalink %}
-        {% else %}
-        {% assign permalink = page.parent %}
-        {% endif %}
-        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ page.title }}</a>
-    </div>
+    {% assign first = site.order |first %}
+    {% for i in site.order %}
+        {% assign page = site.pages | where: "parent", i.name | first %}
+        <div class="preview {{ page.parent }} {% if i != first %}fancy-top{% endif %}">
+            <h2>{{ page.title }}</h2>
+            <p class="lead">{{ page.description }}</p>
+            {% assign page = page %}
+            {% assign amount = 1 %}
+            {% assign card = "card-" | append: i.name | append: ".html" %}
+            {% if i.site-name %}
+                {% assign name = i.site-name %}
+            {% else %}
+                {% assign name = i.name %}
+            {% endif %}
+            <div class="card-deck">
+                {% assign items = site.[name] | reverse %}
+                {% if name=="posts" %}
+                    {% assign items = items | reverse %}
+                {% endif %}
+                {% for item in items %}
+                    {% if amount < i.number %}
+                        {% include {{ card }} %}
+                        {% assign amount = amount|plus:1 %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% if page.permalink %}
+                {% assign permalink = page.permalink %}
+            {% else %}
+                {% assign permalink = page.parent %}
+            {% endif %}
+            <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary">{{ page.title }}</a>
+        </div>
     {% endfor %}
 </div>

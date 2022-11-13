@@ -824,19 +824,13 @@ html:not(html.dark) .innovations {
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #f5f0e6 73%);
 }
 
-html:not(html.dark) .labs {
-    --color-1: #8b4566;
-    --color-5: #c84281;
-    --color-6: #f9f0f2;
-    --gradient-1: linear-gradient(135deg, #8b4566 13%, #c84281 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #f9f0f2 73%);
-}
-
 /* .s */
 
-.home-include .preview:not(.home-include .preview:last-child), .preview.general, .fancy-bottom {
-    border-bottom: var(--size-6) solid var(--color-1);
-    border-bottom-left-radius: var(--size-5);
+.fancy-top {
+    border-top: var(--size-6) solid var(--color-1);
+    border-top-left-radius: var(--size-5);
+    margin-top: var(--size-10);
+    padding-top: var(--size-10);
 }
 
 .preview {

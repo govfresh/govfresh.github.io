@@ -1,26 +1,23 @@
 docs_list_title: nav
 docs:
 
-- title: Radar
-  url: /radar/
+- title: Thoughts
+  url: /thoughts/
 
 - title: DM
   url: /dm/
 
-- title: Thoughts
-  url: /thoughts/
-
-- title: Ask
-  url: /ask/
-   
-- title: Gamechangers
-  url: /gamechangers/
-
 - title: Reviews
   url: /reviews/
- 
+
+- title: Radar
+  url: /radar/
+
 - title: Podcast
   url: https://thegovweneed.govfresh.com
+
+- title: Community
+  url: /community/
 
 - title: Labs
   url: /labs/

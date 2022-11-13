@@ -1,7 +1,7 @@
 ---
 layout: icons
 title: Labs
-description: Experiments in data, design and development.
+description: GovFresh experiments in data, design and civic hacking.
 permalink: /labs/
 parent: labs
 ---

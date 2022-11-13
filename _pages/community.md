@@ -7,6 +7,8 @@ permalink: /community/
 
 ## About
 
+*Currently invite only*
+
 The GovFresh community is an open community of practice for civic technologists, including:
 
 * Community at large

@@ -12,4 +12,4 @@ The pages on this website are served using [HTTPS](https://en.wikipedia.org/wiki
 
 ## Disclosures
 
-GovFresh[ disclosure policy](/disclosure).
+GovFresh [disclosure policy](/disclosure).

@@ -4,26 +4,23 @@ docs:
  - title: Thoughts
    url: /thoughts/
 
- - title: Radar
-   url: /radar/
-
  - title: DM
    url: /dm/
 
- - title: Gamechangers
-   url: /gamechangers/
-
- - title: Podcast
-   url: https://thegovweneed.govfresh.com
+ - title: Radar
+   url: /radar/
 
  - title: Reviews
    url: /reviews/
 
- - title: Podcasts
-   url: /podcasts/
+ - title: Podcast
+   url: https://thegovweneed.govfresh.com
 
  - title: Book club
    url: /books/
+
+ - title: Podcasts
+   url: /podcasts/
 
  - title: Innovations
    url: /innovations/
@@ -36,6 +33,3 @@ docs:
 
  - title: Organizations
    url: /orgs/
-
- - title: Feeds
-   url: /feeds/

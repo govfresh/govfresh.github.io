@@ -4,14 +4,14 @@ docs:
  - title: About
    url: /about/
 
- - title: Support
-   url: /support/
+ - title: Team
+   url: /team/
 
  - title: Services
    url: /services/
 
- - title: Team
-   url: /team/
+ - title: Support
+   url: /support/
 
  - title: Labs
    url: /labs/
@@ -22,8 +22,8 @@ docs:
  - title: Connect
    url: /connect/
 
- - title: Suggest
-   url: /suggest/
-
  - title: Contact
    url: /contact/
+
+ - title: Suggest
+   url: /suggest/
