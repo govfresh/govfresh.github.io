@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/books/citizens</loc>
-<lastmod>2022-08-05T15:49:51-07:00</lastmod>
+<lastmod>2022-11-12T23:10:32-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/citizenville</loc>
@@ -149,18 +149,6 @@
 <lastmod>2022-08-05T15:49:51-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/gamechangers/jerome-hardaway</loc>
-<lastmod>2022-08-05T15:49:51-07:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/gamechangers/richard-goerling</loc>
-<lastmod>2022-08-05T15:49:51-07:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/gamechangers/shari-davis</loc>
-<lastmod>2022-08-05T15:49:51-07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/innovations/coil</loc>
 <lastmod>2022-01-26T21:05:46-08:00</lastmod>
 </url>
@@ -270,7 +258,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/community/</loc>
-<lastmod>2022-09-27T12:19:16-07:00</lastmod>
+<lastmod>2022-11-12T23:10:32-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/conduct/</loc>
@@ -318,7 +306,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/index</loc>
-<lastmod>2021-11-18T19:06:23-08:00</lastmod>
+<lastmod>2022-11-12T23:43:22-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/innovations/</loc>
@@ -326,7 +314,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/labs/</loc>
-<lastmod>2022-06-23T09:01:41-07:00</lastmod>
+<lastmod>2022-11-12T23:10:32-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/license/</loc>
@@ -346,7 +334,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/privacy/</loc>
-<lastmod>2021-11-15T13:24:01-08:00</lastmod>
+<lastmod>2022-11-12T23:10:32-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/radar</loc>
@@ -570,11 +558,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/usajobs-meta-image</loc>
-<lastmod>2022-11-11T16:22:52-08:00</lastmod>
+<lastmod>2022-11-12T23:10:32-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/retrospecting-agl</loc>
-<lastmod>2022-11-09T19:01:52-08:00</lastmod>
+<lastmod>2022-11-12T23:10:32-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/pedigree-public-interest-technology</loc>
@@ -638,7 +626,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/topics/privacy</loc>
-<lastmod>2022-11-10T21:48:03-08:00</lastmod>
+<lastmod>2022-11-12T23:10:32-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/radar/</loc>
