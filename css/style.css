@@ -755,11 +755,11 @@ html:not(html.dark) .thoughts {
 }
 
 html.dark .thoughts {
-    --color-1: #3e4ded;
-    --color-5: #3e4ded;
-    --color-6: #080c12;
-    --gradient-1: linear-gradient(135deg, var(--color-1) 13%, var(--color-5) 73%);
-    --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
+    --color-1: #2378c3;
+    --color-5: #4f97d1;
+    --color-6: #274863;
+    --gradient-1: linear-gradient(135deg, #2c608a 13%, #274863 73%);
+    --gradient-2: linear-gradient(135deg, black 13%, #11181d 73%);
 }
 
 html .reviews {
@@ -771,8 +771,8 @@ html .reviews {
 }
 
 html.dark .reviews {
-    --color-1: #75aeb9;
-    --color-5: #38677b;
+    --color-1: #5b919c;
+    --color-5: #285264;
     --color-6: #0b1619;
     --gradient-1: linear-gradient(135deg, var(--color-1) 13%, var(--color-5) 73%);
     --gradient-2: linear-gradient(135deg, black 13%, var(--color-6) 73%);
@@ -829,7 +829,6 @@ html:not(html.dark) .innovations {
 .fancy-top {
     border-top: var(--size-6) solid var(--color-1);
     border-top-left-radius: var(--size-5);
-    margin-top: var(--size-10);
     padding-top: var(--size-10);
 }
 
@@ -1281,12 +1280,12 @@ p.small {
 /* Dark mode */
 
 :root.dark {
-    --color-1: #6202a7;
+    --color-1: #a640ef;
     --color-2: #dedede;
     --color-3: #363636;
     --color-4: #212121;
     --color-5: #852cc1;
-    --color-6: #3b0b5c;
+    --color-6: #521779;
     --gradient-1: linear-gradient(135deg, rgb(73, 0, 125) 13%, rgb(53, 5, 85) 73%);
     --gradient-2: linear-gradient(135deg, rgba(0, 0, 0, 0.152) 13%, rgba(74, 11, 116, 0.056) 73%);
 }
@@ -1295,9 +1294,16 @@ html.dark .icon {
     color: var(--color-2) !important;
 }
 
+html.dark nav button {
+    border-color: var(--color-2) !important;
+}
+
 html.dark .card {
     background-color: var(--color-4);
-    border: 1px solid rgba(255, 255, 255, .125);
+}
+
+html.dark .card:not(.card-deck.clean .card) {
+    border: 1px solid #ffffff20;
 }
 
 html.dark .navbar a, html.dark .navbar sup, html.dark footer *, html.dark a.btn.btn-primary {
@@ -1319,6 +1325,10 @@ html.dark .pagination>li>* {
 
 div.dark-toggle {
     display: inline;
+}
+
+html.dark .nav-item i {
+    color: #ffffff;
 }
 
 /* DM */

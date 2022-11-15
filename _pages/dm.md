@@ -5,4 +5,5 @@ description: GovFresh chats with our contacts.
 permalink: /dm/
 parent: dm
 icon: "fa-solid fa-signal"
+clean: true
 ---

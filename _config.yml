@@ -29,9 +29,9 @@ innovations-number: 4
 labs-number: 3
 orgs-number: 4
 podcasts-number: 4
-radar-number: &radar-number 7
+radar-number: &radar-number 4
 reviews-number: &reviews-number 4
-thoughts-number: &thoughts-number 7
+thoughts-number: &thoughts-number 4
 
 # Defaults
 defaults:
