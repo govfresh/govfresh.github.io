@@ -35,8 +35,9 @@ category:
   - Design
   - Digital
   - Inclusion
-  - Industry
+  - Innovation
   - Open
+  - Privacy
 share-twitter: 
 share-linkedin: 
 share-facebook: 

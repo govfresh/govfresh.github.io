@@ -214,10 +214,10 @@ order:
   - 
     name: reviews
     number: *reviews-number
-  - 
-    name: radar
-    site-name: posts
-    number: *radar-number
+#   - 
+#     name: radar
+#     site-name: posts
+#     number: *radar-number
 
 # Exclude
 exclude:
