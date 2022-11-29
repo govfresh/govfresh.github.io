@@ -2,7 +2,7 @@
 name: Direct message
 about: DM issue template
 title: 'DM: '
-labels: ''
+labels: dm
 assignees: ''
 
 ---

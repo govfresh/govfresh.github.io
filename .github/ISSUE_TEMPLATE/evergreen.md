@@ -2,7 +2,7 @@
 name: Evergreen
 about: Evergreen issue template
 title: 'Evergreen: '
-labels: ''
+labels: evergreen
 assignees: ''
 
 ---
