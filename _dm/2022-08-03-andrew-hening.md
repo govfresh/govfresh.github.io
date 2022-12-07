@@ -2,7 +2,7 @@
 title: "Direct messaging: Andrew Hening"
 date: 2022-08-03
 description: "Civic innovator, systems changer, homelessness ender"
-author: Luke Fretwell
+author: GovFresh
 name: Andrew Hening
 position:   
 org: 

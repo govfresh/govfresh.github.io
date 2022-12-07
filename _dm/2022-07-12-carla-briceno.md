@@ -2,7 +2,7 @@
 title: "Direct messaging: Carla Briceno"
 date: 2022-07-05
 description: "CEO and co-founder, Bixal"
-author: Luke Fretwell
+author: GovFresh
 name: Carla Briceno
 position: CEO
 org: Bixal

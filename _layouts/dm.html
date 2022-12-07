@@ -12,10 +12,12 @@ layout: dm
             <div class="col-sm-4 fancy-2">
                 <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}"
                     type="{{ page.folder }}" class="rounded-circle lg mb-3 line" />
-                <ul class="list-unstyled">
+                    {% if page.img-caption %}
+                    <p class="img-caption">{{ page.img-caption }}</p>
+                    {% endif %}      
+                    <ul class="list-unstyled">
                     <li>{{ page.name }}</li>
-                    <li>{{ page.position }}</li>
-                    <li>{{ page.org }}</li>
+                    <li>{{ page.position }}, {{ page.org }}</li>
                 </ul>
                 {% include social.html
                 size="small" %}
@@ -33,9 +35,11 @@ layout: dm
                 </div>
                 {% endif %}
                 <div class="post post-dm">{{ content }}</div>
-                <h2>Connect with {{ page.shortname }}</h2>
-                {% include social.html
-                size="small" %}
+                <div class="author-bio">
+                    <h2>Connect with {{ page.shortname }}</h2>
+                    {% include social.html
+                    size="small" %}
+                </div>
                 {% include subscribe.html %}
                 {% include topics.html %}
             </div>

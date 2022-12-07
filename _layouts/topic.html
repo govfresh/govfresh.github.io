@@ -17,14 +17,14 @@ layout: topic
                         {% if size > 0 %}
                             {% assign page-to-include = "card-" | append: collection.label %}
                             {% if collection.label == "posts" %}
-                                {% assign page-to-include = "card-radar" %}
+                                {% assign page-to-include = "card-signal" %}
                             {% elsif collection.label == "papers" %}
                                 {% assign page-to-include = "card-reviews" %}
                             {% endif %}
-                            <div class="preview {% if collection.label == 'posts' %}radar{% else %}{{
-                                    collection.label }}{% endif %}">
+                            <div class="preview {% if collection.label == 'posts' %}signal{% else %}{{
+                                                                        collection.label }}{% endif %}">
                                 <h2>
-                                    {% if collection.label == 'posts' %}Radar
+                                    {% if collection.label == 'posts' %}Signal
                                     {% elsif collection.label == 'orgs' %}
                                         Organizations
                                     {% elsif collection.label == 'dm' %}
@@ -34,8 +34,8 @@ layout: topic
                                     {% endif %}
                                 </h2>
                                 <div class="card-deck {% unless collection.label == 'posts' or collection.label ==
-                                        'ideas' or collection.label == 'reviews' or collection.label == 'podcasts' %}
-                                        clean {% endunless %}">
+                                                                                'ideas' or collection.label == 'reviews' or collection.label == 'podcasts' %}
+                                                                                clean {% endunless %}">
                                     {% for item in items %}
                                         {% include {{ page-to-include | append: ".html" }} %}
                                     {% endfor %}

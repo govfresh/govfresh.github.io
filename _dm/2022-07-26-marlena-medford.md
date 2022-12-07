@@ -2,7 +2,7 @@
 title: "Direct messaging: Marlena Medford"
 date: 2022-07-27
 description: "Civic tech evangelizer. Storyteller. Diversity seeker."
-author: Luke Fretwell
+author: GovFresh
 name: Marlena Medford
 position:  Communications director 
 org: Code for America

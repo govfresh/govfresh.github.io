@@ -2,7 +2,7 @@
 title: "Direct messaging: Victor Sauceda"
 date: 2022-08-18
 description: "CEO, founder, justice reform advocate, community leader, change agent"
-author: Luke Fretwell
+author: GovFresh
 name: Victor Sauceda
 position:   
 org: Victory Code

@@ -1,0 +1,30 @@
+---
+layout: radar
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                <div class="post">
+                    <div class="subscribe">
+                        <p><a href="/signal">GovFresh Signal</a> is the official GovFresh newsletter, where we share what we're paying attention to. <a href="/subscribe">Subscribe.</a></p>
+                    </div>
+                    {{ content }}
+                </div>
+                {% include updated.html %}
+                {% include subscribe.html %}
+                {% include topics.html %}
+            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        </div>
+    </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

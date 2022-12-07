@@ -22,8 +22,7 @@
                 {% endif %}
             </div>
             <div class="author-bio">
-                <!--<h2>Author</h2>-->
-                <p>{{ author_data.content | markdownify }}</p>
+                <p>{{ author_data.bio-short | markdownify }}</p>
                 {% include social.html size="small" %}
             </div>
         {% endfor %}

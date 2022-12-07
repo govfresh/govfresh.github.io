@@ -12,7 +12,7 @@ email: &email "fas fa-at"
 calendar: &calendar "fa-solid fa-calendar"
 subscribe: &subscribe "fa-solid fa-envelope"
 patreon: &patreon "fab fa-patreon"
-twitter: &twitter "fab fa-twitter"
+twitter: &twitter "fab fa-twitter-square"
 linkedin: &linkedin "fab fa-linkedin"
 facebook: &facebook "fab fa-facebook"
 github: &github "fab fa-github"
@@ -29,7 +29,7 @@ goodreads: &goodreads "fab fa-goodreads"
 amazon: &amazon "fab fa-amazon"
 apple: &apple "fab fa-apple"
 spotify: &spotify "fab fa-spotify"
-rss: &rss "fas fa-rss"
+rss: &rss "fas fa-square-rss"
 discord: &discord "fab fa-discord"
 
 # Site social media links
@@ -53,9 +53,9 @@ docs:
     url: https://www.patreon.com/govfresh?fan_landing=true
     icon: *patreon
 
-  - name: Discord
-    url: https://discord.gg/invite/e2uApCj8nx
-    icon: *discord
+#  - name: Discord
+#    url: 
+#    icon: *discord
 
   - name: Twitter 
     url: https://twitter.com/govfresh
@@ -81,9 +81,9 @@ docs:
     url: https://www.youtube.com/channel/UC7JD3sabR2sD_86QO3XTp5w
     icon: *youtube
 
-  - name: Vimeo
-    url: 
-    icon: *vimeo
+#  - name: Vimeo
+#    url: 
+#    icon: *vimeo
    
   - name: Instagram
     url: https://instagram.com/govfresh
@@ -101,21 +101,21 @@ docs:
     url: https://govfresh.tumblr.com/
     icon: *tumblr
 
-  - name: Library
-    url: 
-    icon: *library
+#  - name: Library
+#    url: 
+#    icon: *library
 
-  - name: GoodReads
-    url: 
-    icon: *goodreads
+#  - name: GoodReads
+#    url: 
+#    icon: *goodreads
 
-  - name: Amazon
-    url: 
-    icon: *amazon
+#  - name: Amazon
+#    url: 
+#    icon: *amazon
  
-  - name: Apple
-    url: 
-    icon: *apple 
+#  - name: Apple
+#    url: 
+#    icon: *apple 
     
   - name: Spotify
     url: https://open.spotify.com/user/bxgp042g6rax0nro1v55i52q6?si=7aba5c7cd2a447e5

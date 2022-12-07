@@ -2,7 +2,7 @@
 title: "Direct messaging: Angie Quirarte"
 date: 2022-06-21
 description: "Civic techie, bureaucracy hacker, dot connecter"
-author: Luke Fretwell
+author: GovFresh
 name: Angie Quirarte
 position: Federal Partnerships Director
 org: Tech Talent Project

@@ -5,18 +5,17 @@ layout: thoughts
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+    <main>
     <!--
     {% include jumbotron.html %}
-    -->
-    <div class="jumbotron">
+    --><div class="jumbotron">
         <div class="container">
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
                     <h1 class="h2">{{ page.title }}</h1>
                     {% if page.description %}
-                    <p class="lead">{{ page.description }}</p>
+                        <p class="lead">{{ page.description }}</p>
                     {% endif %}
                 </div>
                 <div class="col-sm-2"></div>
@@ -25,43 +24,38 @@ layout: thoughts
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-2">
-            </div>
+            <div class="col-2"></div>
             <div class="col-8">
                 {% include author.html %}
             </div>
             <div class="col-sm-2"></div>
         </div>
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
-            </div>
+            <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
                 {% if page.img %}
-                <div class="img">
-                    <div class="mt-3">
-                        <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img }}" class="img-feat"
-                            alt="{{ page.img-alt }}">
-                    </div>
-                    {% if page.img-caption %}
-                    <p class="img-caption">
-                        {% if page.img-link %}
-                        <a href="{{ site.baseurl }}{{ page.img-link }}">
-                            {% endif %}
-                            {{ page.img-caption }}
-                            {% if page.img-link %}
-                        </a>
+                    <div class="img">
+                        <div class="mt-3">
+                            <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img }}" class="img-feat" alt="{{ page.img-alt }}">
+                        </div>
+                        {% if page.img-caption %}
+                            <p class="img-caption">
+                                {% if page.img-link %}
+                                    <a href="{{ site.baseurl }}{{ page.img-link }}">
+                                    {% endif %}
+                                    {{ page.img-caption }}
+                                    {% if page.img-link %}
+                                    </a>
+                                {% endif %}
+                            </p>
                         {% endif %}
-                    </p>
-                    {% endif %}
-                </div>
+                    </div>
                 {% endif %}
             </div>
-            <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
-            </div>
+            <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
         </div>
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <div class="post">
                     {{ content }}
@@ -72,27 +66,7 @@ layout: thoughts
                 {% include topics.html %}
                 {% include license.html %}
             </div>
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                <!--
-                {% if page.author %}
-                    {% for author in page.author %}
-                        {% assign author_data = site.people | where:"title", author | first %}
-                        {% if author_data.content.size > 1 %}
-                            {% if author_data.img %}
-                                <div class="img">
-                                    <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}" title="{{ author_data.title }} headshot" class="xs rounded-circle">
-                                </div>
-                            {% endif %}
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
-                                </li>
-                            </ul>
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-                -->
-            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
         </div>
     </div>
     <div class="container">

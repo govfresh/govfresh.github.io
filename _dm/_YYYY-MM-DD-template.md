@@ -2,12 +2,13 @@
 title: "Direct messaging: "
 date: YYYY-MM-DD
 description: ""
-author: 
+author: GovFresh
 name: 
-position:   
+position: 
 org: 
 shortname: 
-img: 
+img-alt: "Headshot of "
+img-caption: ""
 img-feat: 
 img-alt: 
 email: 
@@ -38,9 +39,6 @@ category:
   - Innovation
   - Open
   - Privacy
-share-twitter: 
-share-linkedin: 
-share-facebook: 
 feature: 
 ---
 

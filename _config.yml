@@ -29,9 +29,9 @@ innovations-number: 4
 labs-number: 3
 orgs-number: 4
 podcasts-number: 4
-radar-number: &radar-number 4
 reviews-number: &reviews-number 4
-thoughts-number: &thoughts-number 4
+signal-number: &signal-number 2
+thoughts-number: &thoughts-number 5
 
 # Defaults
 defaults:
@@ -96,7 +96,7 @@ defaults:
       folder: "Team"
       img-path: "people"
       parent: "team"
-      layout: "profile"
+      layout: "people"
       short: "true"
   - scope:
       path: ""
@@ -110,10 +110,10 @@ defaults:
       path: "_posts"
       type: "posts"
     values:
-      folder: "Radar"
+      folder: "Signal"
       img-path: "posts"
-      parent: "radar"
-      layout: "radar"
+      parent: "signal"
+      layout: "signal"
       short: "true"
   - scope:
       path: ""
@@ -188,7 +188,7 @@ collections:
     permalink: podcasts/:title
   posts:
     output: true
-    permalink: /radar/:title
+    permalink: /signal/:title
   reviews:
     output: true
     permalink: /reviews/:title
@@ -201,10 +201,14 @@ collections:
 
 # Pagination
 paginate: 12
-paginate_path: "/radar/:num"
+paginate_path: "/signal/:num"
 
 # Home page order
 order:
+  - 
+    name: signal
+    site-name: posts
+    number: *signal-number  
   - 
     name: thoughts
     number: *thoughts-number
@@ -214,10 +218,6 @@ order:
   - 
     name: reviews
     number: *reviews-number
-#   - 
-#     name: radar
-#     site-name: posts
-#     number: *radar-number
 
 # Exclude
 exclude:

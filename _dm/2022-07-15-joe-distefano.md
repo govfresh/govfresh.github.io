@@ -2,7 +2,7 @@
 title: "Direct messaging: Joe DiStefano"
 date: 2022-07-15
 description: "Resiliency planner, startup founder, SimCity aficionado"
-author: Luke Fretwell
+author: GovFresh
 name: Joe DiStefano
 position:  CEO, co-founder 
 org: UrbanFootprint

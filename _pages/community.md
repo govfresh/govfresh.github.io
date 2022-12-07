@@ -7,7 +7,7 @@ permalink: /community/
 
 ## About
 
-*Currently invite only*
+*Invite only. Email <community@govfresh.com> to request an invite.*
 
 The GovFresh community is an open community of practice for civic technologists, including:
 
@@ -20,6 +20,7 @@ The GovFresh community is an open community of practice for civic technologists,
 ## Values
 
 * Joy
+* Support
 * Openness
 * Inclusiveness
 
@@ -41,8 +42,5 @@ We adhere to the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_Hous
 
 ## Feedback
 
-Have feedback on the community?
-
-* [Comment in the public doc](https://docs.google.com/document/d/1a30-qBORM54_8FhCvS1BrWojhwdHRti1Vn05tj1f4jQ/edit?usp=sharing)
-* [Submit an issue on GitHub](
+Have feedback on the community? [Submit a GitHub issue.](
 https://github.com/govfresh/govfresh.github.io/issues/new?assignees=&labels=general&template=general.md&title=)
