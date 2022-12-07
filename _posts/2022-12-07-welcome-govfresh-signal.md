@@ -1,5 +1,5 @@
 ---
-title: "Welcome to GovFresh Signal (2022.11.28)"
+title: "Welcome to GovFresh Signal (2022.12.07)"
 date: 2022-12-07
 author: Luke Fretwell
 description: "Subscribe to the official GovFresh newsletter."
