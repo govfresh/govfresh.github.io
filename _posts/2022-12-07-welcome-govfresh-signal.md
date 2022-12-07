@@ -23,6 +23,6 @@ category:
 
 Welcome to GovFresh Signal, the official GovFresh newsletter.
 
-Every two weeks, we'll share conversations, observation, and what we're paying attention to.
+Every two weeks, we'll share conversations, observations, and what we're paying attention to.
 
 [Subscribe to GovFresh Signal.](/subscribe)
