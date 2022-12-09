@@ -12,20 +12,20 @@
         <!-- Favicon -->
         {% include favicon.html %}
         <!-- Social media -->
-        <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-        <meta content="website" property="og:type">
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        <meta property="og:type" content="article">
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:description" content="{{ page.description }}">
         {% if page.img-feat %}
-            <meta content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" property="twitter:image">
-            <meta content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" property="og:image">
+            <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
+            <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
             {% if page.img-alt %}
-                <meta content="{{ page.img-alt }}" property="og:image:alt">
+                <meta property="og:image:alt" content="{{ page.img-alt }}">
             {% else %}
-                <meta content="{{ page.title }} image" property="og:image:alt">
+                <meta property="og:image:alt" content="{{ page.title }} image">
             {% endif %}
         {% else %}
-            <meta content="{{ site.url }}/assets/img/avatar.png" property="og:image">
+            <meta property="og:image" content="{{ site.url }}/assets/img/avatar.png">
         {% endif %}
         <!-- CSS -->
         {% include style.html %}
