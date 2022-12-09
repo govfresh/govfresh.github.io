@@ -1,0 +1,41 @@
+I"»<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p>We built a simple .gov domain search tool using the registry data maintained by the Cybersecurity Infrastructure Security Agency.</p>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://home.dotgov.gov/data/">.gov domains</a> (Cybersecurity Infrastructure Security Agency)</li>
+</ul>
+
+<h2 id="repo">Repo</h2>
+
+<p>Official repository:</p>
+
+<ul>
+  <li>/<a href="https://github.com/cisagov">cisagov</a>/<a href="https://github.com/cisagov/dotgov-data">dotgov-data</a></li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to the Cybersecurity Infrastructure Security Agency for:</p>
+
+<ul>
+  <li>Maintaining the .gov registry.</li>
+  <li>Maintaining a public repository of the data.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>.gov domain search:</p>
+
+<p><a href="https://usa.govfresh.com/dotgov/"><img src="/assets/img/posts/dotgov-usagovfresh.gif" alt=".gov search" /></a></p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
+:ET
