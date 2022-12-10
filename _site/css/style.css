@@ -736,8 +736,8 @@ img.author {
 }
 
 .author-bio {
-    border-bottom: var(--size-2) solid var(--color-3);
-    margin: var(--size-10) var(--size-1) var(--size-7) var(--size-1);
+    border-top: var(--size-2) solid var(--color-3);
+    margin: var(--size-10) var(--size-1) var(--size-3) var(--size-1);
     padding: var(--size-9) var(--size-1);
 }
 
@@ -1165,9 +1165,29 @@ a[href$=".png"], a[href$=".jpg"] {
 
 .subscribe p {
     font-family: var(--font-8) !important;
-    border-bottom: 1px solid var(--color-3);
+    margin: var(--size-1);
+    padding: var(--size-1);
+}
+
+.subscribe-top {
+    border-bottom: 1px solid var(--color-5);
     margin-bottom: var(--size-10);
-    padding-bottom: var(--size-10);
+    padding-bottom: var(--size-9);
+    padding-top: var(--size-5);
+}
+
+.subscribe-bottom {
+    background-color: var(--color-6);
+    border-radius: var(--size-3);
+    border: 1px solid var(--color-5);
+    margin-bottom: var(--size-7);
+    margin-top: var(--size-8);
+    padding: var(--size-7);
+}
+
+.subscribe-bottom h2 {
+    margin-top: var(--size-1);
+    padding-top: var(--size-1);
 }
 
 /* License / Disclosure */
