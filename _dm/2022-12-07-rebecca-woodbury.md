@@ -28,17 +28,10 @@ amazon:
 calendar: 
 rss: 
 category:
-  - Civic hacking
-  - Community
   - Culture
-  - Cybersecurity
-  - Data
   - Design
   - Digital
-  - Inclusion
-  - Innovation
   - Open
-  - Privacy
 feature: 
 ---
 

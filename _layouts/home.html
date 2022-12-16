@@ -5,16 +5,7 @@ layout: home
 {% include header.html %}
 {% include nav.html %}
 <main>
-    <div class="jumbotron-home">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1>{{ site.description }}</h1>
-                </div>
-                <div class="col-sm-6"></div>
-            </div>
-        </div>
-    </div>
+    {% include jumbotron.html %}
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -29,7 +20,10 @@ layout: home
                                     <div class="card-body">
                                         {% if item.img %}
                                             <div class="img fancy-2">
-                                                <img src="{{ item.img }}" alt="{{ item. title }}" class="xl rounded">
+                                                <img
+                                                    src="{{ item.img }}"
+                                                    alt="{{ item. title }}"
+                                                    class="xl rounded">
                                             </div>
                                         {% endif %}
                                         <h3 class="h4">

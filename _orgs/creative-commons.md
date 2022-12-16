@@ -20,7 +20,6 @@ tumblr:
 rss: 
 donate: https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&c_src2=top-of-page-banner
 category:
-  - Civic hacking
   - Community
   - Culture
   - Digital

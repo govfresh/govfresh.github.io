@@ -1,10 +1,13 @@
 ---
-title: ""
+title: " (YYYY.MM.DD)"
 date: YYYY-MM-DD
-author: 
+author: Luke Fretwell
 description: ""
+img: signal.png
+img-feat: signal-feat.png
+img-alt: "Icon of satellite dish"
+img-caption: ""
 category:
-  - Civic hacking
   - Community
   - Culture
   - Cybersecurity

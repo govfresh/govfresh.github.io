@@ -10,7 +10,6 @@ goodreads: https://www.goodreads.com/book/show/42283862-cult-of-the-dead-cow?fro
 amazon: https://www.amazon.com/Cult-Dead-Cow-Original-Supergroup-ebook/dp/B07J54F9KR/ref=sr_1_1?crid=3UDQPXF09DH7K&keywords=Cult+of+the+Dead+Cow&qid=1659067559&sprefix=cult+of+the+dead+cow%2Caps%2C240&sr=8-1
 review-link: 
 category:
-  - Civic hacking
   - Community
   - Culture
   - Cybersecurity

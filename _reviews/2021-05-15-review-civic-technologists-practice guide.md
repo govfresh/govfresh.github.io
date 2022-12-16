@@ -9,7 +9,6 @@ book-author: Cyd Harrell
 book-link: /civic-technologists-practice-guide
 quote: "Civic technology can be the ideal means to put your tech skills to good use - but it will be your communication and collaboration skills that will clear the path for you to do that."
 category:
-  - Civic hacking
   - Community
   - Culture
   - Cybersecurity

@@ -21,7 +21,6 @@ flickr:
 tumblr: 
 rss: 
 category:
-  - Civic hacking
   - Community
   - Culture
   - Data

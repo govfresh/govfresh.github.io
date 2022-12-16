@@ -1,30 +1,29 @@
 ---
-title: "The Government We Need"
-shortname: "The Government We Need"
+title: "The GovFresh Podcast"
+shortname: "The GovFresh Podcast"
 description: "A podcast exploring the government of the future and how it can best serve everyone."
 img: thegovweneed.png
 img-feat: thegovweneed.png
-img-alt: "The Government We Need logo"
+img-alt: "The GovFresh Podcast logo"
 author: Luke Fretwell
-website: https://thegovweneed.govfresh.com
-twitter: https://twitter.com/thegovweneed
+website: https://podcast.govfresh.com
+twitter: 
 medium: 
 figma: 
-youtube: https://www.youtube.com/channel/UCcFSSqWff_oDL3XwD4rs4uw
+youtube: 
 vimeo: 
-linkedin: https://linkedin.com/company/thegovweneed
-instagram: https://instagram.com/thegovweneed
-facebook: https://facebook.com/thegovweneed
+linkedin: 
+instagram: 
+facebook: 
 github: 
 flickr: 
 tumblr: 
-rss: https://thegovweneed.com/episodes/atom.xml
+rss: https://podcast.govfresh.com/episodes/atom.xml
 spotify: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
 apple: https://podcasts.apple.com/us/podcast/the-government-we-need/id1468169431
 pocketcasts: https://pca.st/WQa8
 stitcher: https://www.stitcher.com/s?fid=427823&refid=stpr
 category:
-  - Civic hacking
   - Community
   - Culture
   - Cybersecurity

@@ -1,5 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-09T18:15:52-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Government with and by the people.</subtitle><entry><title type="html">Welcome to GovFresh Signal (2022.12.07)</title><link href="http://localhost:4000/signal/welcome-govfresh-signal" rel="alternate" type="text/html" title="Welcome to GovFresh Signal (2022.12.07)" /><published>2022-12-07T00:00:00-08:00</published><updated>2022-12-07T08:33:24-08:00</updated><id>http://localhost:4000/signal/welcome-govfresh-signal</id><content type="html" xml:base="http://localhost:4000/signal/welcome-govfresh-signal">&lt;p&gt;Welcome to GovFresh Signal, the official GovFresh newsletter.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-15T20:46:24-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>The ideas and innovators changing how government works.</subtitle><entry><title type="html">Retrospecting 2022 (2022.12.15)</title><link href="http://localhost:4000/signal/signal-2022-12-15" rel="alternate" type="text/html" title="Retrospecting 2022 (2022.12.15)" /><published>2022-12-15T00:00:00-08:00</published><updated>2022-12-15T20:46:23-08:00</updated><id>http://localhost:4000/signal/signal-2022-12-15</id><content type="html" xml:base="http://localhost:4000/signal/signal-2022-12-15">&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+
+&lt;p&gt;2022 was transformative for me.&lt;/p&gt;
+
+&lt;p&gt;This year, I’ve re-imagined what &lt;a href=&quot;https://govfresh.com&quot;&gt;GovFresh&lt;/a&gt; could be and worked towards building that out (more on this in January).&lt;/p&gt;
+
+&lt;p&gt;I also changed the context of my work with &lt;a href=&quot;https://proudcity.com&quot;&gt;ProudCity&lt;/a&gt; and eliminated (nearly) all of the noise surrounding the government technology market and just stayed focused on building a great business that helps local governments deliver great digital services.&lt;/p&gt;
+
+&lt;p&gt;Even before the change in Twitter ownership and, with the exception of &lt;a href=&quot;https://www.linkedin.com/in/lukefretwell&quot;&gt;LinkedIn&lt;/a&gt;, I’ve been intentional about avoiding distractions – especially social media trappings – and have just focused on doing the work.&lt;/p&gt;
+
+&lt;p&gt;The results of this will show up more in 2023, and I’m excited about what’s to come. I’m looking forward to learning and meeting new people doing amazing work that’s changing the way we think about democracy.&lt;/p&gt;
+
+&lt;h3 id=&quot;pedigree-and-public-interest-technology&quot;&gt;Pedigree and public interest technology&lt;/h3&gt;
+
+&lt;p&gt;Based on many conversations, I wrote about &lt;a href=&quot;https://govfresh.com/thoughts/pedigree-public-interest-technology&quot;&gt;pedigree and public interest technology&lt;/a&gt;, something I think will increasingly be a topic of discussion in 2023.&lt;/p&gt;
+
+&lt;p&gt;So much of the leadership and noise in public interest technology is based on academic background rather than true meritocracy.&lt;/p&gt;
+
+&lt;p&gt;Folks are hesitant to openly discuss this for fear of professional retribution, and it would help if more people with pedigree backgrounds openly acknowledged and worked towards changing the dynamic. I think folks who are tired of being slighted will begin to press for this conversation to happen.&lt;/p&gt;
+
+&lt;h3 id=&quot;rss-government&quot;&gt;RSS government&lt;/h3&gt;
+
+&lt;p&gt;With social media’s reckoning, government must rethink its long-term communications strategy. My piece on &lt;a href=&quot;https://govfresh.com/thoughts/rss-government&quot;&gt;RSS and government&lt;/a&gt; captures why it’s important for public sector institutions to default to an open standard and more of an interoperable approach to information sharing.&lt;/p&gt;
+
+&lt;p&gt;It’s important to leverage social media, including &lt;a href=&quot;https://govfresh.com/thoughts/government-civictech-medium&quot;&gt;Medium&lt;/a&gt;, but we must also begin to think critically about and execute on a foundational strategy that is platform-agnostic and sustainable.&lt;/p&gt;
+
+&lt;h3 id=&quot;proudly-serving&quot;&gt;Proudly Serving&lt;/h3&gt;
+
+&lt;p&gt;One of the civic projects I’m most proud of is &lt;a href=&quot;https://proudlyservingbook.com&quot;&gt;Proudly Serving&lt;/a&gt;, a playbook to help local governments build people-centered digital public services.&lt;/p&gt;
+
+&lt;p&gt;What I love about this project is both working with my co-maintainers (&lt;a href=&quot;https://www.linkedin.com/in/rebeccawoodbury/&quot;&gt;Rebecca Woodbury&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/marlena-medford/&quot;&gt;Marlena Medford&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/kwyatt/&quot;&gt;Kirsten Wyatt&lt;/a&gt;) and building it openly and collaboratively.&lt;/p&gt;
+
+&lt;p&gt;We have an amazing list of &lt;a href=&quot;https://proudlyservingbook.com/people/&quot;&gt;contributors&lt;/a&gt;, and I invite anyone to think about &lt;a href=&quot;https://proudlyservingbook.com/contribute/&quot;&gt;contributing&lt;/a&gt;. The central &lt;a href=&quot;https://github.com/proudlyserving/proudlyserving.github.io&quot;&gt;GitHub repository&lt;/a&gt; and &lt;a href=&quot;https://github.com/proudlyserving/proudlyserving.github.io/projects/1&quot;&gt;project board&lt;/a&gt; gives insight into how we’re working.&lt;/p&gt;
+
+&lt;p&gt;My hope is that similar projects will grow from this when it’s complete, because I think it’s a framework for communities to build a resource openly and collaboratively, and a great way to exercise key muscles of democracy.&lt;/p&gt;
+
+&lt;h3 id=&quot;civic-hacking&quot;&gt;Civic hacking&lt;/h3&gt;
+
+&lt;p&gt;One of the greatest joys of 2022 has been &lt;a href=&quot;https://govfresh.com/topics/civic-hacking&quot;&gt;civic hacking&lt;/a&gt; with my son, Elias.&lt;/p&gt;
+
+&lt;p&gt;All of this is on display (in very much alpha) at &lt;a href=&quot;https://usa.govfresh.com&quot;&gt;USA.GovFresh&lt;/a&gt;. I’ve written some about it and will update more by year’s end, but it’s been amazing to build with him, watch him learn and, most importantly, learn from him.&lt;/p&gt;
+
+&lt;h2 id=&quot;direct-message&quot;&gt;Direct message&lt;/h2&gt;
+
+&lt;p&gt;I started a new Q&amp;amp;A feature (&lt;a href=&quot;/dm&quot;&gt;Direct message&lt;/a&gt;) and got the chance to open up conversations to the general public with folks I think are doing amazing work, including &lt;a href=&quot;https://govfresh.com/dm/rebecca-woodbury&quot;&gt;Rebecca Woodbury&lt;/a&gt;, &lt;a href=&quot;https://govfresh.com/dm/victor-sauceda&quot;&gt;Victor Sauceda&lt;/a&gt;, &lt;a href=&quot;https://govfresh.com/dm/andrew-hening&quot;&gt;Andrew Hening&lt;/a&gt;, &lt;a href=&quot;https://govfresh.com/dm/marlena-medford&quot;&gt;Marlena Medford&lt;/a&gt;, &lt;a href=&quot;https://govfresh.com/dm/carla-briceno&quot;&gt;Carla Briceno&lt;/a&gt; and &lt;a href=&quot;https://govfresh.com/dm/angie-quirarte&quot;&gt;Angie Quirarte&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
+
+&lt;p&gt;Notable books I read in 2022 were Ro Kahnna’s &lt;a href=&quot;https://govfresh.com/reviews/review-citizens&quot;&gt;Dignity in a Digital Age&lt;/a&gt; and &lt;a href=&quot;https://govfresh.com/reviews/review-citizens&quot;&gt;Citizens&lt;/a&gt; by Jon Alexander and Ariane Conrad. There are many others, especially as I listen to more audiobooks, but those two stand out.&lt;/p&gt;
+
+&lt;p&gt;Up next is Lori Carver’s &lt;a href=&quot;https://bookshop.org/a/83650/9781635767704&quot;&gt;Escaping Gravity&lt;/a&gt;, which I will start reading at the beginning of the new year.&lt;/p&gt;
+
+&lt;h2 id=&quot;podcast&quot;&gt;Podcast&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://podcast.govfresh.com&quot;&gt;The GovFresh Podcast&lt;/a&gt; will launch in 2023. This is a continuation and re-branding of The Government We Need, but it’ll be just me hosting.&lt;/p&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;p&gt;I’ve started a &lt;a href=&quot;https://govfresh.com/community&quot;&gt;GovFresh community&lt;/a&gt; with a small group of amazing people. Honestly, it’s one of the most fulfilling moments of my days, and I’m grateful for the folks who’ve joined. I’m particularly grateful for &lt;a href=&quot;https://www.linkedin.com/in/marylazzeri/&quot;&gt;Mary&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/shirahonig/&quot;&gt;Shira&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/marlena-medford/&quot;&gt;Marlena&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/kwyatt/&quot;&gt;Kirsten&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/artuoma/&quot;&gt;Art&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/kwyatt/&quot;&gt;Rebecca&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/lenaeboykinstorey/&quot;&gt;Lenae&lt;/a&gt; for being especially engaged.&lt;/p&gt;
+
+&lt;p&gt;It’s currently invite only, and if you would like to join, send an email to  &lt;a href=&quot;mailto:community@govfresh.com&quot;&gt;community@govfresh.com&lt;/a&gt; with ‘GovFresh community’ in the subject.&lt;/p&gt;
+
+&lt;h2 id=&quot;reminder&quot;&gt;Reminder&lt;/h2&gt;
+
+&lt;p&gt;The work we’re doing is important. Sometimes it’s extremely hard and thankless. Remember to take time for yourself, whether it’s an hour walk, a reset day, the week, month, whatever. But also make sure to show gratitude to others for the work they’re doing. We don’t have to be constantly in motion or distressed.&lt;/p&gt;
+
+&lt;p&gt;If we’re not grounded and present, then it will show up inherently – and quietly – in the work.&lt;/p&gt;
+
+&lt;p&gt;The context for civic technology should be joy – for those doing the work and those receiving the services we build.&lt;/p&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;p&gt;Have something we should share or someone we should connect with? Send your tips to &lt;a href=&quot;mailto:signal@govfresh.com&quot;&gt;signal@govfresh.com&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><summary type="html">Thoughts</summary></entry><entry><title type="html">Welcome to GovFresh Signal (2022.12.07)</title><link href="http://localhost:4000/signal/welcome-govfresh-signal" rel="alternate" type="text/html" title="Welcome to GovFresh Signal (2022.12.07)" /><published>2022-12-07T00:00:00-08:00</published><updated>2022-12-07T08:33:24-08:00</updated><id>http://localhost:4000/signal/welcome-govfresh-signal</id><content type="html" xml:base="http://localhost:4000/signal/welcome-govfresh-signal">&lt;p&gt;Welcome to GovFresh Signal, the official GovFresh newsletter.&lt;/p&gt;
 
 &lt;p&gt;Every two weeks, we’ll share conversations, observations, and what we’re paying attention to.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/subscribe&quot;&gt;Subscribe to GovFresh Signal.&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Inclusion&quot;, &quot;Innovation&quot;, &quot;Open&quot;, &quot;Privacy&quot;]" /><summary type="html">Welcome to GovFresh Signal, the official GovFresh newsletter.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;/subscribe&quot;&gt;Subscribe to GovFresh Signal.&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Inclusion&quot;, &quot;Innovation&quot;, &quot;Open&quot;, &quot;Privacy&quot;]" /><summary type="html">Welcome to GovFresh Signal, the official GovFresh newsletter.</summary></entry></feed>

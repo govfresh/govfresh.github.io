@@ -7,7 +7,7 @@ permalink: /community/
 
 ## About
 
-*Invite only. Email <community@govfresh.com> to request an invite.*
+*Invite only. To request an invite, email <community@govfresh.com> with 'GovFresh community' in the subject.*
 
 The GovFresh community is an open community of practice for civic technologists, including:
 
