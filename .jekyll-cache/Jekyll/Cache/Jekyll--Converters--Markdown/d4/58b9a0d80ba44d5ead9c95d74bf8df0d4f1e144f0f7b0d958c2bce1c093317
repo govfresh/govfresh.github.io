@@ -1,0 +1,37 @@
+I"Õ<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p>We built a re-imagined version of USAJOBS using the USAJOBS API. This includes:</p>
+
+<ul>
+  <li>Search</li>
+  <li>Job page listings</li>
+</ul>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://github.com/nasa/apod-api">Astronomy Picture of the Day API</a> (USAJOBS)</li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to USAJOBS for:</p>
+
+<ul>
+  <li>Maintaining a public repository of the data.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>Photo of the day:</p>
+
+<p><a href="https://usa.govfresh.com/space/potd/"><img src="/assets/img/posts/space-photo-usagovfresh.png" alt="Screenshot of USA.GovFresh space photo of the day page" /></a></p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
+:ET

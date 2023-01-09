@@ -5,7 +5,7 @@ description: ""
 author: Luke Fretwell
 img: -usagovfresh.png
 img-feat: -usagovfresh-feat.png
-img-alt: "Screenshot of ."
+img-alt: "Screenshot of USA.GovFresh cybersecurity news page."
 img-caption: "Image: USA.GovFresh"
 img-link: 
 category:

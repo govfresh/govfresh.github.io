@@ -1,0 +1,37 @@
+I"Î<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p>We built a re-imagined version of USAJOBS using the USAJOBS API. This includes:</p>
+
+<ul>
+  <li>Advanced search</li>
+  <li>Job page listings</li>
+</ul>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://developer.usajobs.gov/">USAJOBS API</a></li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to USAJOBS for:</p>
+
+<ul>
+  <li>Maintaining a developer portal and open API.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>Federal government jobs listing on USA.GovFresh:</p>
+
+<p><a href="https://usa.govfresh.com/jobs/"><img src="/assets/img/posts/usajobs-usagovfresh.png" alt="Screenshot of USA.GovFresh federal government page" /></a></p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
+:ET

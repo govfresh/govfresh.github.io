@@ -1,0 +1,39 @@
+I"g<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p>We built a survey mark finder app from data provided by the National Geodetic Survey. This includes:</p>
+
+<ul>
+  <li>List of survey marks across the United States</li>
+  <li>Pinpoint to current location</li>
+  <li>Search survey marks in any location</li>
+  <li>Survey mark recovery submission</li>
+</ul>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://geodesy.noaa.gov/datasheets/">NGS survey marks data</a> (U.S. National Geodetic Survey)</li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to NGS for:</p>
+
+<ul>
+  <li>Providing public data sets.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>GeoMarks app:</p>
+
+<p><a href="https://usa.govfresh.com/geomarks/"><img src="/assets/img/posts/geomarks-usagovfresh.png" alt="Screenshot of USA.GovFresh space photo of the day page" /></a></p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
+:ET

@@ -1,0 +1,41 @@
+I"E<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p>We built a drug look-up tool of Food and Drug Administration approved medicines using the National Drug Code Directory API. This includes:</p>
+
+<ul>
+  <li>Drug search tool</li>
+  <li>Page listing for each FDA-approved medicine</li>
+</ul>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://open.fda.gov/apis/drug/ndc/">National Drug Code Directory</a> (Food and Drug Administration)</li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to FDA for:</p>
+
+<ul>
+  <li>Maintaining a public application programming interface of the data.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>Drug search:</p>
+
+<p><a href="https://usa.govfresh.com/drugs/"><img src="/assets/img/posts/drug-search-usagovfresh.png" alt="Screenshot of USA.GovFresh drug search page" /></a></p>
+
+<p>Example drug listing:</p>
+
+<p><a href="https://usa.govfresh.com/drugs/?drug=50580-369_ec2b0f73-44d3-4cfe-b9fb-39adac987116"><img src="/assets/img/posts/drug-search-listing-usagovfresh.png" alt="Screenshot of USA.GovFresh drug listing page" /></a></p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
+:ET

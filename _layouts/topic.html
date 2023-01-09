@@ -12,7 +12,7 @@ layout: topic
             <div class="col-sm-12">
                 <div class="home-include">
                     {% for collection in site.collections %}
-                        {% assign items = site[collection.label] | where: "categories", page.title %}
+                        {% assign items = site[collection.label] | where: "categories", page.title | reverse %}
                         {% assign size = items | size %}
                         {% if size > 0 %}
                             {% assign page-to-include = "card-" | append: collection.label %}
@@ -21,8 +21,8 @@ layout: topic
                             {% elsif collection.label == "papers" %}
                                 {% assign page-to-include = "card-reviews" %}
                             {% endif %}
-                            <div class="preview {% if collection.label == 'posts' %}signal{% else %}{{
-                                                                        collection.label }}{% endif %}">
+                            <div
+                                class="preview {% unless collection == site.collections[0] %}fancy-top{% endunless %} {% if collection.label == 'posts' %}signal{% else %}{{ collection.label }}{% endif %}">
                                 <h2>
                                     {% if collection.label == 'posts' %}Signal
                                     {% elsif collection.label == 'orgs' %}
@@ -33,9 +33,8 @@ layout: topic
                                         {{ collection.label | capitalize }}
                                     {% endif %}
                                 </h2>
-                                <div class="card-deck {% unless collection.label == 'posts' or collection.label ==
-                                                                                'ideas' or collection.label == 'reviews' or collection.label == 'podcasts' %}
-                                                                                clean {% endunless %}">
+                                <div
+                                    class="card-deck {% unless 'ideas' or collection.label == 'reviews' or collection.label == 'podcasts' %}clean{% endunless %}">
                                     {% for item in items %}
                                         {% include {{ page-to-include | append: ".html" }} %}
                                     {% endfor %}
