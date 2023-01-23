@@ -55,6 +55,16 @@
         url("/fonts/public-sans/PublicSans-Black.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Roboto Mono Semibold";
+    src: url("/fonts/roboto-mono/RobotoMono-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto Mono Bold";
+    src: url("/fonts/roboto-mono/RobotoMono-Bold.ttf") format("ttf");
+}
+
 /* Root settings */
 
 :root {
@@ -74,6 +84,7 @@
     --font-6: "Public Sans Thin", sans-serif;
     --font-7: "Public Sans Light", sans-serif;
     --font-8: "Public Sans Medium Italic", sans-serif;
+    --font-9: "Roboto Mono Bold", monospace;
     --size-1: 0;
     --size-2: 0.0625rem;
     --size-3: .25rem;
@@ -297,6 +308,12 @@ strong {
     font-family: var(--font-3);
 }
 
+.author, .date, .episode {
+    font-family: var(--font-9);
+    font-size: var(--size-6);
+    font-weight: 700;
+}
+
 /* Headings */
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
@@ -400,8 +417,9 @@ a.navbar-brand:hover {
 }
 
 .lead {
-    font-family: var(--font-1);
+    font-family: var(--font-9);
     color: var(--color-2);
+    padding-top: var(--size-3);
 }
 
 /* Code block */
@@ -500,11 +518,15 @@ main a:hover {
 
 blockquote {
     border-left: var(--size-3) solid var(--color-1);
-    font-size: var(--size-8);
+    font-size: var(--size-7);
     margin-left: var(--size-8);
     padding: var(--size-1) var(--size-8);
     margin-bottom: var(--size-8);
     margin-top: var(--size-9);
+}
+
+blockquote, blockquote p {
+    font-family: var(--font-9) !important;
 }
 
 /* Pagination */
@@ -548,19 +570,19 @@ blockquote {
 }
 
 .topics a, .topics a:visited {
-    background-color: var(--color-6);
+    background-color: var(--color-1);
     border-radius: var(--size-3);
-    color: var(--color-1) !important;
+    color: var(--color-4) !important;
     display: inline-block;
-    font-family: var(--font-5);
+    font-family: var(--font-9);
     font-size: var(--size-6);
     padding: var(--size-4) var(--size-5);
     text-decoration: none;
 }
 
 .topics a:hover {
-    background-color: var(--color-1);
-    color: var(--color-4) !important;
+    background-color: var(--color-6);
+    color: var(--color-1) !important;
 }
 
 /* Feature */
@@ -580,6 +602,7 @@ img.img-feat {
 }
 
 p.img-caption {
+    font-family: var(--font-9);
     font-size: var(--size-6);
     padding: var(--size-6) var(--size-1);
 }
@@ -604,7 +627,7 @@ img.line-2 {
 }
 
 img.line-3 {
-    border-left: var(--size-3) solid var(--color-6);
+    border-left: var(--size-4) solid var(--color-6);
     border-bottom: var(--size-3) solid var(--color-6);
     border-top: var(--size-3) solid var(--color-6);
     border-right: var(--size-5) solid var(--color-5);
@@ -742,6 +765,7 @@ img.author {
 }
 
 .author-bio {
+    font-family: var(--font-9);
     border-top: var(--size-2) solid var(--color-3);
     margin: var(--size-10) var(--size-1) var(--size-3) var(--size-1);
     padding: var(--size-9) var(--size-1);
@@ -951,7 +975,8 @@ html:not(html.dark) .innovations:not(.home-include *) {
 }
 
 .alert p {
-    font-family: var(--font-1) !important;
+    font-family: var(--font-9) !important;
+    font-size: var(--size-6);
 }
 
 .alert-light {
@@ -1006,8 +1031,9 @@ html:not(html.dark) .innovations:not(.home-include *) {
 .btn-primary, a.btn-primary, a.btn-primary:active, a.btn-primary:hover, a.btn-primary:visited {
     background-color: var(--color-1);
     color: var(--color-4);
-    font-family: var(--font-1);
-    font-size: var(--size-7);
+    font-family: var(--font-9);
+    font-size: var(--size-6);
+    font-weight: 700;
     margin-bottom: var(--size-4);
     margin-top: var(--size-4);
     text-decoration: none;
@@ -1080,6 +1106,10 @@ body.home label {
 
 .no-underline a {
     text-decoration: none;
+}
+
+.subscribe a, .subscribe a:visited {
+    background-color: var(--color-6);
 }
 
 /* Link */
@@ -1172,7 +1202,7 @@ a[href$=".png"], a[href$=".jpg"] {
 /* Subscribe */
 
 .subscribe p {
-    font-family: var(--font-8) !important;
+    font-family: var(--font-9) !important;
     margin: var(--size-1);
     padding: var(--size-1);
 }
@@ -1183,12 +1213,8 @@ a[href$=".png"], a[href$=".jpg"] {
 }
 
 .subscribe-bottom {
-    background-color: var(--color-6);
-    border-radius: var(--size-3);
-    border: 1px solid var(--color-5);
     margin-bottom: var(--size-7);
     margin-top: var(--size-8);
-    padding: var(--size-7);
 }
 
 .subscribe-bottom h2 {
@@ -1199,7 +1225,7 @@ a[href$=".png"], a[href$=".jpg"] {
 /* License / Disclosure */
 
 .license p, .disclosure p {
-    font-family: var(--font-8);
+    font-family: var(--font-9);
 }
 
 /* Footer */
@@ -1246,10 +1272,6 @@ a[href$=".png"], a[href$=".jpg"] {
 h2.big {
     font-size: var(--size-10) !important;
     padding-bottom: var(--size-4);
-}
-
-p.small {
-    font-family: var(--font-1);
 }
 
 /* Badge */
@@ -1330,7 +1352,7 @@ html.dark .nav-item i:not(.home-include *) {
 
 .post-dm h2 {
     border-bottom: 1px solid var(--color-3);
-    font-family: var(--font-1) !important;
+    font-family: var(--font-9) !important;
     font-size: var(--size-6) !important;
     letter-spacing: normal !important;
     margin-bottom: var(--size-8) !important;

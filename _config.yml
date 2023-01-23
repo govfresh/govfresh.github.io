@@ -1,7 +1,7 @@
 # General
 title: GovFresh
 tagline: "Government with and by the people."
-description: "The ideas and innovators changing how government works."
+description: "The people and innovations changing how democracy works."
 url: https://govfresh.com
 
 # Social
@@ -39,13 +39,13 @@ date-format: "%B %d, %Y at %I:%M %P %Z"
 books-number: 7
 dm-number: &dm-number 5
 events-number: 4
-innovations-number: 4
+innovations-number: &innovations-number 4
 labs-number: 3
 orgs-number: 4
 podcasts-number: 4
 reviews-number: &reviews-number 4
 signal-number: &signal-number 2
-thoughts-number: &thoughts-number 5
+thoughts-number: &thoughts-number 4
 
 # Defaults
 defaults:
@@ -232,6 +232,9 @@ order:
   - 
     name: reviews
     number: *reviews-number
+  - 
+    name: innovations
+    number: *innovations-number
 
 # Exclude
 exclude:

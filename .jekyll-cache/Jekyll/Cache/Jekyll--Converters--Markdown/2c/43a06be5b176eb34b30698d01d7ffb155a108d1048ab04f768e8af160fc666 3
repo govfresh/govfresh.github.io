@@ -1,0 +1,40 @@
+I"½<p><em>(This post is part of an ongoing series documenting adventures in father-son <a href="/civichacking">civic hacking</a>.)</em></p>
+
+<h2 id="readme">README</h2>
+
+<p>We built a cybersecurity news page using the RSS feeds from CISA. This includes:</p>
+
+<ul>
+  <li><a href="https://usa.govfresh.com/cybersecurity/news.html#alerts">Alerts</a></li>
+  <li><a href="https://usa.govfresh.com/cybersecurity/news.html#bulletins">Bulletins</a></li>
+  <li><a href="https://usa.govfresh.com/cybersecurity/news.html#analysis-reports">Reports</a></li>
+  <li><a href="https://usa.govfresh.com/cybersecurity/news.html#tips">Tips</a></li>
+  <li><a href="https://usa.govfresh.com/cybersecurity/news.html#current-activity">Current activity</a></li>
+</ul>
+
+<h2 id="data">Data</h2>
+
+<p>Data used for this project:</p>
+
+<ul>
+  <li><a href="https://www.cisa.gov/uscert/mailing-lists-and-feeds">CISA RSS feeds</a> (Cybersecurity &amp; Infrastructure Security Agency)</li>
+</ul>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>Big kudos to CISA for:</p>
+
+<ul>
+  <li>Building a making publicly-available RSS feeds.</li>
+</ul>
+
+<h2 id="demo">Demo</h2>
+
+<p>Cybersecurity news page:</p>
+
+<p><a href="https://usa.govfresh.com/cybersecurity/news.html#all"><img src="/assets/img/posts/cisa-news-usagovfresh.png" alt="Screenshot of USA.GovFresh cybersecurity news page" /></a></p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Share your feedback on the <a href="https://github.com/govfresh/usa/">USA.GovFresh repo</a>.</p>
+:ET
