@@ -1375,7 +1375,7 @@ html.dark .nav-item i:not(.home-include *) {
     text-decoration: underline !important;
 }
 
-.post-dm p, .post-dm ul {
+.post-dm p, .post-dm ul, .post-dm ol {
     background-color: var(--color-6);
     border-radius: var(--size-4);
     font-family: var(--font-1) !important;
@@ -1383,6 +1383,14 @@ html.dark .nav-item i:not(.home-include *) {
     margin: var(--size-6) var(--size-1);
     margin-right: var(--size-9);
     padding: var(--size-9);
+}
+
+.post-dm ul li, .post-dm ol li {
+    margin-left: var(--size-9);
+}
+
+.post-dm ol li {
+    padding-bottom: var(--size-8);
 }
 
 .new-dm {
