@@ -1397,6 +1397,10 @@ html.dark .nav-item i:not(.home-include *) {
     font-family: var(--font-3);
 }
 
+.name-person-org {
+    font-family: var(--font-9);
+}
+
 /* Real talk */
 
 .post-ask {
