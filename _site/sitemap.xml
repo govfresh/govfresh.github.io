@@ -149,6 +149,10 @@
 <lastmod>2023-02-01T09:39:34-08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/dm/group-test</loc>
+<lastmod>2023-03-05T16:46:41-08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/event/code-for-america-summit</loc>
 <lastmod>2022-12-15T20:47:00-08:00</lastmod>
 </url>
@@ -515,6 +519,10 @@
 <url>
 <loc>http://localhost:4000/thoughts/civic-hacking-cdc-notifiable-diseases</loc>
 <lastmod>2023-01-08T16:41:33-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/thoughts/virtuous-civic-circle</loc>
+<lastmod>2023-03-07T10:27:19-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/civic-hacking</loc>

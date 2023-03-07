@@ -2,11 +2,14 @@
     <div class="card">
         <div class="card-body fancy-2">
             {% if item.img-feat %}
-            <img class="card-img-top rounded-circle line sm" type="Direct message"
-                src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                <img
+                    class="card-img-top rounded-circle line sm"
+                    type="Direct message"
+                    src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                    alt="{{ item.img-alt }}">
             {% endif %}
             <h2 class="h4">
-                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.name }}</a>
+                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.name | join: ", " }}</a>
             </h2>
             <p class="small">{{ item.description }}</p>
         </div>
