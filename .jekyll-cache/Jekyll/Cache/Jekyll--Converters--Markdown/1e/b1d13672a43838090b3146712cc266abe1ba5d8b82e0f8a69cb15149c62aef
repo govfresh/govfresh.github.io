@@ -1,0 +1,141 @@
+I"�L<h2 id="april-13-2023">April 13, 2023</h2>
+
+<h3 id="you-manage-touchpoints-what-is-it-and-how-does-it-fit-into-the-federal-government-customer-experience-movement">You manage Touchpoints? What is it and how does it fit into the federal government customer experience movement?</h3>
+
+<p><a href="https://touchpoints.digital.gov/">Touchpoints</a> is a web application provided as a shared service by GSA’s Technology Transformation Services (TTS) for use by other federal agencies’ staffs to get feedback from internal or public users.</p>
+
+<p>OMB Circular A-11, Section 280 requires some of the largest federal service providers, referred to as “High-impact Service Providers”, to report customer experience (CX) performance data each fiscal quarter. CX Performance data is reported at <a href="https://performance.gov/cx/hisps">https://performance.gov/cx/hisps</a>.</p>
+
+<p>Touchpoints supports user feedback for a few HISPs and CX Data Collections for all HISPs.</p>
+
+<h3 id="as-a-product-how-has-it-evolved">As a product, how has it evolved?</h3>
+
+<p>If Touchpoints was a book, it’d currently have 3 chapters.</p>
+
+<ul>
+  <li>Chapter 1: Feedback forms</li>
+  <li>Chapter 2: Data Collections</li>
+  <li>Chapter 3: The Digital Registry</li>
+</ul>
+
+<p>Touchpoints started out focused on opinionated, templated feedback forms. We were hesitant to build anything new at all, and we explored several existing options and products in the market; a typical build vs buy assessment. For multiple reasons, we moved forward with a basic tool to enable agencies to begin collecting customer feedback. We purposely steered away from complex use-cases like long-format surveys, conditional logic, and advanced, customizable analytics.</p>
+
+<p>Once Touchpoints was available, agencies no longer reported that they did not have a tool to collect feedback, and conversations began to shift from gathering feedback to what to do with the feedback that was collected. After analyzing a few quarters’ customer experience data, conversations shifted from feedback to responsiveness.</p>
+
+<p>The original product hypothesis regarding the seven standard <a href="https://www.performance.gov/cx/assets/files/2022-OMB-Circular-A11-Section-280.pdf">A-11</a> questions was somewhat invalidated, as only a few HISP agencies used the A-11 form in Touchpoints. Surprisingly, we saw agencies were using a different template a lot more. The “open-ended template form” was being created and deployed nearly 10 times more often than the A-11. In retrospect, this was somewhat obvious (as many insights seem to be). I like to think of the open-ended contact form as the “minimum viable feedback” form. Agencies can create, as the name suggests, an open-ended form that prompts the user for feedback about a digital product like a website or a service delivered via a website.</p>
+
+<p><img src="/assets/img/posts/touchpoints.png" alt="Screenshot of Touchpoint" /></p>
+
+<p>The open-ended form allows users to provide feedback quickly. Also, and importantly, the form was easy for federal agency staff to deploy; taking less than 5 minutes to create and get working within an existing html page. With feedback now coming in, federal staff felt the need to operationalize the processing of that feedback.</p>
+
+<p>Merely collecting feedback is not sufficient. Communication is a loop. Being responsive to feedback is essential.</p>
+
+<p>Increasing the amount of incoming feedback creates pressure to improve the internal processing, synthesis, and responsiveness around the feedback. These are the organizational muscles that need exercising!</p>
+
+<p>Chapter 2: Data Collections:</p>
+
+<p>With data coming in for the A-11, where does it go?</p>
+
+<p>When Touchpoints first started, quarterly data was being collected by sending out a spreadsheet template to 25 agency contacts. Each contact would download the spreadsheet, enter information about their Service and tally summarized numeric results for their 7 questions, send the spreadsheet around their organization for review and approval, before finally uploading the spreadsheet to an intranet website.</p>
+
+<p>Somebody upstream (a few of my colleagues, prior to me being tasked with the job), would have to download all 25 spreadsheets. Each spreadsheet had at least 2 sheets in it – some had 6 or 7 sheets; one for each place they gathered feedback. Then, those 25 spreadsheets would have to be opened, reviewed, validated, and ultimately tallied in a 26th spreadsheet that totaled all the results. This was a laborious task, especially because at least a few of the spreadsheets would drift from their templated format, when rows or columns were added or formulas were tweaked for whatever reason. While efforts were made to standardize the Data Collection process, the resulting data from the collection process was not structured nor easily reportable.</p>
+
+<p>I knew we could do better. When another colleague rotated out of the role responsible for processing the data collections, the task landed on my desk. Given the 25 data collections coming in, I wanted to ensure structured data could easily and reliably be generated. Coincidentally, the user experience for federal staff could be improved at the same time. Data Collections, once defined, tend to stay the same. So, I created a few database tables in Touchpoints with a form interface that resembled the original spreadsheet.</p>
+
+<p>Now, each quarter, I send out emails to the respective staff letting them know their Data Collections are ready to fill out. They open the drafts, pre-filled with the applicable information from their previous quarter’s collection, they fill out the form and click “Submit.” I get an email notification with a link to their collection, click through it, review the data, and set to the Collection to a ‘published’ state, which makes it available via Touchpoints data exports.</p>
+
+<p>To publish the data, Performance.gov can grab the publishable data, generate the web pages, graphs and charts, and data downloads for users with the click of a button. This is a good example of how we’re improving in our management and use of data as a <a href="https://strategy.data.gov/action-plan/">strategic asset</a>.</p>
+
+<p>Collaborating with Performance.gov in this way led to other process improvements for both our teams and what we learned we have shared with other teams taking advantage of two valuable principles:</p>
+
+<ul>
+  <li>DRY - Don’t Repeat Yourself - try to ensure each piece of data is defined once, and use that. Seek to remove redundant data sources and shadow data systems (spreadsheets, copies of documents that duplicate what would better be viewed as structured data).</li>
+  <li>MVC - Separate form from content using the Model View Controller software design pattern. Data can be structured and referenced as a “model.” When the data model is combined with a display template, a “view” can be generated. The resulting views are basically like a mail merge, but instead of addresses and form letters, we can use any data source and view template to generate templated web pages, or “reports”.</li>
+</ul>
+
+<p>The work now flows. The data is being used as a strategic asset, providing more value earlier in business processes for federal staff. The data is being published openly, in a structured, repeatable way.</p>
+
+<p>Chapter 3: The Digital Registry</p>
+
+<p>The Digital Registry is a web application that tracks Social Media Accounts and Mobile Applications for federal agencies. The application originated in OMB guidance <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf">M-17-06</a> in 2016. More than 6,000 social media accounts exist in the registry.</p>
+
+<p>The original U.S. Digital Registry codebase was forked from an open-source project. This was a win that allowed the application to be stood up more quickly and cheaply than otherwise. Over time, the upstream application received less updates, and there was also turnover on the supporting teams. This resulted in a web application that had good customer service but lacked technical support.</p>
+
+<p>The Digital Registry was a Rails application, and Touchpoints is also a Rails application. Given how Social Media and Mobile Applications are related to Customer Experience, I proposed to consolidate the two separate applications into one in order to reduce duplicative system boundaries and to reduce the ATO, infrastructure, and maintenance overhead that exists for any given federal software system.</p>
+
+<p>This system consolidation resulted in the older system being sunset while retaining existing user functionality. Once migrated, new features for the Registry became easier to deliver, and notably: data is now proximal to other CX and feedback data. Perhaps most importantly, users have a more unified experience; being able to access one system, instead of two. A win-win-win scenario.</p>
+
+<p>I started my career as a Systems Accountant, in Solano County’s Auditor’s Office. It took me a long time, about 10 years, to realize how much I took for granted, working within the disciplined structure of an accounting organization, who’s repeatable workflows and business processes incorporating checks and balances influenced my thinking; and specifically, my expectations for how efficient, effective, and accountable organizations should operate.</p>
+
+<p>The Digital Registry embodies the tracking of “digital assets”, which are not typically considered “assets” in the financial sense, yet are very much an asset and significant source of expenditures and value for public organizations.</p>
+
+<p>Going forward, with blockchains and distributed ledger technologies, I expect “digital assets” to gain in prominence, both conceptually and operationally. Digital assets have important implications for financial and performance management as well.</p>
+
+<h3 id="what-is-the-adoption-and-growth-in-use-whos-using-it-and-how">What is the adoption and growth in use? Who’s using it and how?</h3>
+
+<p>Touchpoints has been online for about 3 years now. Each week, I receive several notifications indicating new federal staff are signing up, almost exclusively through word of mouth referral. \</p>
+
+<ul>
+  <li>More than 70 federal agencies are using Touchpoints for forms, and more than 1.5M responses have been received.</li>
+  <li>More than 30 agencies are using Touchpoints for Data Collections, for more than 2 years (8 quarters).</li>
+  <li>And more than 100 federal customers are managing Digital Registry records. \</li>
+</ul>
+
+<p>Agencies are gathering structured A-11 feedback (7 standard likert scale questions, including Satisfaction and Trust), for open-ended questions like “How can this website better meet your needs?”, and for a variety of basic internal needs; from feedback on training sessions to internal ideation.</p>
+
+<p>The structured data ingested for Data Collections is generating more than 50 pages on the performance.gov website, including Annual Performance Goals and Customer Experience feedback. A few more Data Collections are coming online as well, because agency staff understand how structured feedback can be easier to process than less-structured collections consisting of docs and spreadsheets dumped into a folder.</p>
+
+<p>The Digital Registry is getting additional support to fulfill its intent of providing a canonical registry of federal social media accounts and mobile applications, to help an ecosystem of social media providers validate and verify the authenticity of accounts.</p>
+
+<p>I’ll also note that to support good digital asset management, we are working with agencies to improve reporting capabilities regarding digital ecosystems, consisting of Forms, feedback, Websites, Social Media Accounts, and Mobile Apps. With the addition of Performance information like Annual Performance Goals and objectives, we’re helping to realize the vision and spirit of the Federal Data Strategy by “using data as a strategic asset.”</p>
+
+<h3 id="theres-a-lot-of-talk-about-customer-experience-and-much-of-this-is-measured-by-feedback-metrics-can-you-share-your-thoughts-on-measuring-responsiveness">There’s a lot of talk about customer experience and much of this is measured by feedback metrics. Can you share your thoughts on measuring responsiveness?</h3>
+
+<p>Communication is a loop. I learned in Comms 101 that communication is not simply speaking one’s mind; rather, that is broadcasting. Communication entails transmitting a message, having it received, decoded, processed, and responded to – that constitutes the communication loop.</p>
+
+<p>Thus, providing a digital “feedback box” is not sufficient to improve the quality of public service delivery. What is the intent and implication of gathering feedback in the first place? The intent and implication of gathering feedback implies that somebody will listen, process it, and respond to it; ideally by improving their service; their behaviors and/or products.</p>
+
+<p>Creating additional surface area for feedback, or mechanisms for the government to “listen” can degrade the overall quality of customer experience if a person does not receive a response. Consider the personal experience of speaking to somebody who may hear and nod, blank-faced, but not respond – this is a typical public feedback experience – not good.</p>
+
+<p>Yet, we have to start somewhere. Cultural change happens one individual at a time. So, capturing data on how much feedback is received allows organizations to baseline operations, practices, and better understand how their staff are working to serve their respective users. Yet this is not enough, and we know this.</p>
+
+<p>Following the tracer bullet of feedback will inevitably lead us to responsiveness. Things like internal response rate, queue times, elastic-demand, and personalized service delivery are still aspirational goals. We’re not uniformly there, but there are notable efforts within organizations that are further down this path.</p>
+
+<h3 id="what-generally-have-you-learned-about-customer-experience-working-on-touchpoints">What generally have you learned about customer experience working on Touchpoints?</h3>
+
+<p>User centered design is a multi-dimensional practice when we’re actually talking about users (plural).</p>
+
+<p>Not just public users, but also:</p>
+
+<ul>
+  <li>Federal line staff</li>
+  <li>Federal supervisor staff</li>
+  <li>Partners (contractors)</li>
+  <li>Political appointees</li>
+  <li>Policy-makers</li>
+</ul>
+
+<p>I’ve learned (and continue to re-learn) that Customer Experience is a holistic effort that spans the full-breadth of an organization’s internal operations with the highly open-ended realities of serving the entirety of the American public. While the scope can be overwhelming, keeping user needs foremost in mind, helps balance the potentially unbounded, expansive scope of the work with a constructively focused, or constrained task-based approach to “<a href="https://twitter.com/GSACarnahan/status/1470852283906854918">making the damn websites work</a>.”</p>
+
+<p>An iterative approach to the work tends to be underrated, in favor of big-bang approaches that accumulate risk and defer delivery due to organizational tendencies to be risk-averse. Rather, I’ve learned from “Lean” product practices that cost of delay is an important factor to consider - so a repeatable process focused on being responsive (though, not reactive) to user needs is a good indication of organizational agility. And organizational agility is required to meet the change of pace Customer Experience initiatives imply.  Users want best of class user experiences, usually equated with consumer product experiences, thus, we should be shipping changes; new features, bug fixes, and refining content continually; every day.</p>
+
+<p>Do what you can, with what you have, from where you are. The organizational value streams that align to deliver any particular service can almost always be improved. The goal here is to be able to assimilate feedback from anywhere as quickly and cheaply as possible, and synthesize it into improved (but not necessarily “perfect” products and services.)</p>
+
+<p>Finally, Customer Experience at Federal scale <a href="https://www.performance.gov/cx/projects/">is intense</a>. 150-200M Americans is a very large user base with needs and backgrounds that are literally and figuratively “all over the map.”</p>
+
+<p>When dozens of agencies report customer experience data, there is a tendency for agencies to compare themselves against each other. And while this is natural, I like to encourage agencies to focus on their own performance and not spend too much time or effort comparing with each other.  Agencies should be focused on doing what they do best, and improving their own game – sorta like golf; where the goal is to beat their personal best — and not get caught up in a tennis match, battling back and forth over: is this agency or that agency better in some specific category.  Focus on the users. Focus on designing and refining value streams to meet and anticipate the needs of customers.</p>
+
+<h3 id="touchpoints-is-an-open-source-project-why-is-this-important-and-how-does-it-being-open-and-the-culture-of-open-fit-into-the-customer-experience-movement-within-government">Touchpoints is an open source project. Why is this important, and how does it being open (and the culture of open) fit into the customer experience movement within government?</h3>
+
+<p>TTS tends to work in the <a href="https://18f.gsa.gov/open-source-policy/">open</a>. There are several benefits to working in the open. Transparency provides visibility (many eyes squash bugs). We’re sensitive about maintaining a competitive, equitable environment and want to be open in our practices. This software is a tool, implying, it is a commodity; and I tend to emphasize the human side of socio-technical systems.</p>
+
+<p>I think we could do more to support working in the open, but ultimately there’s also a question of how much we should invest in the open aspects. Having upstream consumers/users/contributors of a tool imply some amount of “coordination cost” as well. Community is not free. Thus, we need to be thoughtful about that; there are several implications regarding Customer Experience, such as: that gov will respond and how responsive will we be, about the quality, desirability, and feasibility of specific contributions. Open source communities have grappled with these issues for a long time, and there are no “right” answers, which can sometimes be perceived as an organizational risk.</p>
+
+<p>I think one benefit of having the tool in the open provides an example of how much value can be created and delivered today with widely available open-source tools atop commoditized cloud compute environments. I’ve grown to believe that customer experience (and a lot of public sector software) is more about customer service and less about the software.</p>
+
+<p>Software as a service can be a euphemism for “software as a subscription”, especially when (required) support and maintenance services are overlooked or underprioritized.</p>
+
+<p>GSA’s original mission was to manage buildings. Over time GSA’s mission grew to include managing fleets of cars. Over more time, GSA’s mission grew to include managing shared software services.</p>
+
+<p>Well, buildings need occupants and building maintenance staff. Fleets need drivers and mechanics. And similarly, software needs users and cross-functional product teams.</p>
+:ET

@@ -10,7 +10,7 @@ shortname:
 img-alt: "Headshot of "
 img-caption: ""
 img-feat: 
-img-alt: 
+img: 
 email: 
 website: 
 twitter: 
