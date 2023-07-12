@@ -3,8 +3,8 @@ title: ""
 date: YYYY-MM-DD
 description: ""
 author: Luke Fretwell
-img: .png
-img-feat: .png
+img: -header.png
+img-feat: -feat.png
 img-alt: ""
 img-caption: ""
 img-link: 

@@ -1,0 +1,88 @@
+I"L<p>Like most of the world’s software development, democracy doesn’t run in a controlled environment. It grows in the wild, the open.</p>
+
+<p>True democracy – and great technology – is organic, collaborative, participatory, responsive, iterative, adaptive.</p>
+
+<p>In order for the bureaucratic component of democracy – government – to stay relevant and truly meet the needs of the people it aims to serve, it must update its operating system. It must adopt the fundamental tool and culture that has given the world – and its citizens – a thriving technology ecosystem.</p>
+
+<p>For this to happen, government must get Git.</p>
+
+<h2 id="git">Git</h2>
+
+<p>Git is a technology that helps digital teams build projects in an asynchronous, decentralized, collaborative environment.</p>
+
+<p>It is the tool that foundationally and culturally shapes how all things digital are built. You’d be hard-pressed to find a technology project of exponential value that doesn’t use some form of Git.</p>
+
+<p>The original <a href="https://git-scm.com/">Git</a> was developed by Linus Torvalds in 2005 to support development of the Linux kernel, which much of the world’s technology is run on.</p>
+
+<p>Today, most people are familiar with Git functions via platforms such as <a href="https://about.gitlab.com/">GitLab</a> and <a href="https://github.com/">GitHub</a>. With intuitive graphic interfaces and enhanced features, these services have made collaborative coding, version control and general software project management easier – for developers, project managers, product owners and even the C-suite.</p>
+
+<p>Git features – some of these added with the advent of GitLab and GitHub – include:</p>
+
+<ul>
+  <li>Repository: Where all the project work is managed, documented.</li>
+  <li>Commits: Updates to the project.</li>
+  <li>Pull requests: External commits to review/merge code updates to a project.</li>
+  <li>Issues: Listing of project’s bugs, enhancements, feature requests.</li>
+  <li>Releases: Documentation of changes to the code repository.</li>
+</ul>
+
+<h2 id="bill-of-writes">Bill of writes</h2>
+
+<p>Today, much of government operations is read only. We visit a government website, access the information or complete a form.</p>
+
+<p>If we see a problem or have a suggestion, there’s a slim chance you can easily submit feedback, follow its progress and know when or if it’s been resolved. There’s a much slimmer chance you can write a modification and push it back to the main repository for review and commit.</p>
+
+<p>Write mode – via a public repository – gives the public the ability to easily submit issues, feature requests, fix bugs and even contribute back new features or enhancements.</p>
+
+<p>It gives the public a new type of voice. It gives public servants a new sense of service.</p>
+
+<p>Powered by Git government, true public sector organizations serve in write mode.</p>
+
+<h2 id="git-and-government">Git and government</h2>
+
+<p>Git isn’t just a tool for technologists. It’s a mindset, a culture, a participatory way of operating and serving people.</p>
+
+<p>Git government is:</p>
+
+<ul>
+  <li>Operationally transparent to the public</li>
+  <li>Technologically open and interchangeable</li>
+  <li>Seamless, decentralized and asynchronously collaborative</li>
+</ul>
+
+<p>Git government components include:</p>
+
+<ul>
+  <li>Centralized project public repository</li>
+  <li>Issue submission and status visibility</li>
+  <li>Versioning and release updates</li>
+</ul>
+
+<p>The evolution of government digital delivery and customer experience movements have introduced controlled frameworks – user research, surveys, human-centered design – into their practices. While these are important tools for building effective services, they are incomparable to Git government.</p>
+
+<p>Today’s digital service and customer experience cultures are relatively controlled environments, operating in a vacuum and solely “for the people” mindset.</p>
+
+<p>Rather than working within the confines of a faceless bureaucracy, Git opens government and public servants up to the future of public service – one based on collaboration, collective problem solving, exponential innovation and participatory democracy at its best.</p>
+
+<p>Git government empowers public servants to work “for and with the people.”</p>
+
+<p>Government leadership understanding of Git technical and cultural dynamics – code hosting, issue queues, public project boards, pull requests and general nature of open, collaborative development – is the new requisite for public service leadership.</p>
+
+<h2 id="git-government-in-the-wild">Git government in the wild</h2>
+
+<p>While government agencies and public sector technology leaders lag behind in a Git approach to public service, there are kernels of hope. Government is using GitHub and GitLab to varying degrees of public collaboration.</p>
+
+<p>Government organizations like the <a href="https://github.com/CMSgov">Centers for Medicare &amp; Medicaid Services</a>, <a href="https://github.com/GSA/">General Services Administration</a>, <a href="https://github.com/department-of-veterans-affairs">Veterans Affairs</a>, <a href="https://github.com/NationalSecurityAgency">National Security Agency</a>, the <a href="https://github.com/orgs/cagov/repositories?language=html&amp;type=all">state of California</a>, to name a few, are working publicly to varying degrees of openness.</p>
+
+<p>The <a href="https://github.com/uswds/uswds">U.S. Web Design System repository</a>, managed by the U.S. federal government, is active with <a href="https://github.com/uswds/uswds/issues">open issues</a>, <a href="https://github.com/uswds/uswds/branches">multiple branches</a>, <a href="https://github.com/uswds/uswds/pulls">pull requests queue</a>, <a href="https://github.com/uswds/uswds/graphs/contributors">more than 150 individual contributors</a>, a <a href="https://github.com/uswds/uswds/wiki">wiki</a>, <a href="https://github.com/orgs/uswds/projects/13/views/1">public roadmap</a>, <a href="https://github.com/orgs/uswds/projects/8/views/8">weekly sprint board</a> and other granular levels of transparency into its operations.</p>
+
+<p>Other notable official government repositories include <a href="https://github.com/usagov/vote-gov">files and infrastructure to run the current vote.gov website</a>, <a href="https://github.com/fecgov/fec-cms">content management system for the Federal Election Commission website</a>, <a href="https://github.com/cds-snc/digital-canada-ca">website for the Canadian Digital Service</a>, <a href="https://github.com/search?q=topic%3Anotification-canada-ca+org%3Acds-snc&amp;type=Repositories">government of Canada Notify</a> and <a href="https://github.com/cagov/design-system">state of California Design System</a>.</p>
+
+<h2 id="get-git-government">Get Git government</h2>
+
+<p>Government and its public servants – from digital teams to the C-suite – must embrace Git technology and culture if they wish to remain relevant and truly responsive to the needs of the people they claim to serve.</p>
+
+<p>By not doing so – sticking to read only mode – these organizations and their leaders further expose themselves to the stereotype that government is faceless, unresponsive, out of touch, performative.</p>
+
+<p>The more government adopts the Git way of working, the more the culture of democracy – open and organic – will become evident in the services being built with and for the public.</p>
+:ET

@@ -9,8 +9,17 @@ layout: thoughts
     {% include jumbotron.html %}
     <div class="container">
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                {% if page.description %}
+                <p class="lead-line">{{ page.description }}</p>
+                {% endif %}
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
                 {% include author.html %}
             </div>
             <div class="col-sm-2"></div>
@@ -19,22 +28,23 @@ layout: thoughts
             <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
                 {% if page.img %}
-                    <div class="img">
-                        <div class="mt-3">
-                            <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img }}" class="img-feat" alt="{{ page.img-alt }}">
-                        </div>
-                        {% if page.img-caption %}
-                            <p class="img-caption">
-                                {% if page.img-link %}
-                                    <a href="{{ site.baseurl }}{{ page.img-link }}">
-                                    {% endif %}
-                                    {{ page.img-caption }}
-                                    {% if page.img-link %}
-                                    </a>
-                                {% endif %}
-                            </p>
-                        {% endif %}
+                <div class="img">
+                    <div class="mt-3">
+                        <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img }}" class="img-feat"
+                            alt="{{ page.img-alt }}">
                     </div>
+                    {% if page.img-caption %}
+                    <p class="img-caption">
+                        {% if page.img-link %}
+                        <a href="{{ site.baseurl }}{{ page.img-link }}">
+                            {% endif %}
+                            {{ page.img-caption }}
+                            {% if page.img-link %}
+                        </a>
+                        {% endif %}
+                    </p>
+                    {% endif %}
+                </div>
                 {% endif %}
             </div>
             <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>

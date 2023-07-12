@@ -1,114 +1,120 @@
 {% if page.layout == "signal" %}
-    <div class="jumbotron sginal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="h2">{{ page.title }}</h1>
-                    {% include author.html %}
-                </div>
+<div class="jumbotron sginal">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h2">{{ page.title }}</h1>
+                {% include author.html %}
             </div>
         </div>
     </div>
+</div>
 {% elsif page.layout == "industry" %}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="h2">{{ page.title }}</h1>
-                    {% include author.html %}
-                </div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h2">{{ page.title }}</h1>
+                {% include author.html %}
             </div>
         </div>
     </div>
+</div>
 {% elsif page.layout == "review" %}
-    <div class="jumbotron ideas">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <h1 class="h2">{{ page.title }}</h1>
-                    {% if page.quote %}
-                        <blockquote>
-                            <p>"{{ page.quote }}"</p>
-                        </blockquote>
-                        <p class="text-right">&mdash; {{ page.book-author }}</p>
-                    {% endif %}
-                </div>
-                <div class="col-lg-5 text-center">
-                    <img
-                        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
-                        alt="{{ page.book-title }}"
-                        class="lg shadow">
-                </div>
-                <div class="col-lg-1"></div>
+<div class="jumbotron ideas">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5">
+                <h1 class="h2">{{ page.title }}</h1>
+                {% if page.quote %}
+                <blockquote>
+                    <p>"{{ page.quote }}"</p>
+                </blockquote>
+                <p class="text-right">&mdash; {{ page.book-author }}</p>
+                {% endif %}
             </div>
+            <div class="col-lg-5 text-center">
+                <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                    alt="{{ page.book-title }}" class="lg shadow">
+            </div>
+            <div class="col-lg-1"></div>
         </div>
     </div>
+</div>
 {% elsif page.layout == "ideas" %}
-    <div class="jumbotron ideas">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1 text-center">
-                    <i class="fa-solid fa-lightbulb {{ site.data.connect.xl }} mt-2 mb-2 icon-2"></i>
-                </div>
-                <div class="col-lg-11">
-                    <h1 class="h2">{{ page.title }}</h1>
-                    {% include author.html %}
-                </div>
+<div class="jumbotron ideas">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1 text-center">
+                <i class="fa-solid fa-lightbulb {{ site.data.connect.xl }} mt-2 mb-2 icon-2"></i>
+            </div>
+            <div class="col-lg-11">
+                <h1 class="h2">{{ page.title }}</h1>
+                {% include author.html %}
             </div>
         </div>
     </div>
+</div>
 {% elsif page.layout == "thoughts" %}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                    <h1 class="h2">{{ page.title }}</h1>
-                    {% if page.description %}
-                        <p class="lead">{{ page.description }}</p>
-                    {% endif %}
-                </div>
-                <div class="col-lg-1"></div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <h1 class="h2">{{ page.title }}</h1>
             </div>
+            <div class="col-lg-1"></div>
         </div>
+        <!--
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+                {% if page.description %}
+                <p class="lead">{{ page.description }}</p>
+                {% endif %}
+            </div>
+            <div class="col-lg-5"></div>
+        </div>
+-->
     </div>
+</div>
 {% elsif page.layout == "home" %}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1 class="">{{ page.title }}</h1>
-                    <p class="lead">{{ page.description }}</p>
-                    <a href="{{ site.baseurl }}/subscribe" class="btn btn-primary btn-lg mt-3 mb-4">Subscribe</a>
-                </div>
-                <div class="col-lg-4"></div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="">{{ page.title }}</h1>
+                <p class="lead">{{ page.description }}</p>
+                <a href="{{ site.baseurl }}/subscribe" class="btn btn-primary btn-lg mt-3 mb-4">Subscribe</a>
             </div>
+            <div class="col-lg-4"></div>
         </div>
     </div>
+</div>
 {% elsif page.layout == "dm" %}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="h2">{{ page.title }}</h1>
-                    <p class="lead">{{ page.description }}</p>
-                </div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h2">{{ page.title }}</h1>
+                <p class="lead">{{ page.description }}</p>
             </div>
         </div>
     </div>
+</div>
 {% else %}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="h2">{{ page.title }}</h1>
-                    {% if page.description %}
-                        <p class="lead">{{ page.description }}</p>
-                    {% endif %}
-                    {% include author.html %}
-                </div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h2">{{ page.title }}</h1>
+                {% if page.description %}
+                <p class="lead">{{ page.description }}</p>
+                {% endif %}
+                {% include author.html %}
             </div>
         </div>
     </div>
+</div>
 {% endif %}

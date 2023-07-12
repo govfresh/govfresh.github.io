@@ -1,13 +1,13 @@
 ---
-title: "Joyful democracy and the virtuous civic circle"
+title: "Virtuous civic circle"
 date: 2023-03-04
 description: "By adopting a simple public engagement framework, we can build a more inspired government, together."
 author: Luke Fretwell
-img: virtuous-civic-circle.png
+img: virtuous-civic-circle-header.png
 img-feat: virtuous-civic-circle-feat.png
-img-alt: ""
+img-alt: "Circle laurel icon"
 img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project"
-img-link: https://thenounproject.com/browse/icons/term/laurel-wreath/
+img-link: https://thenounproject.com/icon/laurel-wreath-1383533/
 category:
   - Community
   - Culture

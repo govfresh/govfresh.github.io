@@ -4,11 +4,11 @@ date: 2022-10-18
 description: "Defaulting to an open protocol to syndicate government information makes public communications universally accessible."
 author: Luke Fretwell
 pattern: blueprint
-img: rss.png
+img: rss-header.png
 img-feat: rss-feat.png
 img-alt: "RSS icon"
-img-caption: "RSS icon, 18F"
-img-link: 
+img-caption: "RSS icon via Feather"
+img-link: https://feathericons.com/
 category:
   - Data
   - Digital

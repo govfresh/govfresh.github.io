@@ -1,30 +1,33 @@
 {% if page.author %}
+{% for author in page.author %}
+{% assign people = site.people | where: "title", author%}
+{% for author_data in people %}
+<div class="d-lg-none">
+    {% if page.author %}
     {% for author in page.author %}
-        {% assign people = site.people  | where: "title", author%}
-        {% for author_data in people %}
-            <div class="d-lg-none">
-                {% if page.author %}
-                    {% for author in page.author %}
-                        {% assign author_data = site.people | where:"title", author | first %}
-                        {% if author_data.content.size > 1 %}
-                            {% if author_data.img %}
-                                <div class="img">
-                                    <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}" title="{{ author_data.title }} headshot" class="xs rounded-circle">
-                                </div>
-                            {% endif %}
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
-                                </li>
-                            </ul>
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-            </div>
-            <div class="author-bio">
-                <p>{{ author_data.bio-short | markdownify }}</p>
-                {% include social.html size="small" %}
-            </div>
-        {% endfor %}
+    {% assign author_data = site.people | where:"title", author | first %}
+    {% if author_data.content.size > 1 %}
+    {% if author_data.img %}
+    <div class="img">
+        <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}"
+            title="{{ author_data.title }} headshot" class="xs rounded-circle">
+    </div>
+    {% endif %}
+    <ul class="list-unstyled">
+        <li>
+            <a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a>
+        </li>
+    </ul>
+    {% endif %}
     {% endfor %}
+    {% endif %}
+</div>
+<div class="author-bio">
+    <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="{{ author_data.title }}"
+        class="xxs rounded-circle mr-2 line float-left mr-4">
+    <p>{{ author_data.bio-short | markdownify }}</p>
+    {% include social.html size="small" %}
+</div>
+{% endfor %}
+{% endfor %}
 {% endif %}

@@ -3,11 +3,11 @@ title: "Civic hacking "
 date: YYYY-MM-DD
 description: ""
 author: Luke Fretwell
-img: -usagovfresh.png
-img-feat: -usagovfresh-feat.png
-img-alt: "Screenshot of USA.GovFresh cybersecurity news page."
-img-caption: "Image: USA.GovFresh"
-img-link: 
+img: civic-hacking-header.png
+img-feat: civic-hacking-feat.png
+img-alt: "Classical building icon inside of HTML closing brackets."
+img-caption: "Icons via OpenMoji"
+img-link: https://openmoji.org/
 category:
   - Civic hacking
   - Community

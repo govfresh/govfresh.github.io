@@ -232,9 +232,9 @@ order:
   - 
     name: reviews
     number: *reviews-number
-  - 
-    name: innovations
-    number: *innovations-number
+#  - 
+#    name: innovations
+#    number: *innovations-number
 
 # Exclude
 exclude:

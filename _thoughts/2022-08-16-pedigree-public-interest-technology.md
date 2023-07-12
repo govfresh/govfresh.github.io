@@ -3,12 +3,11 @@ title: "Pedigree and public interest technology"
 date: 2022-08-16
 description: "The community that supports digital government services should be undeniably representative of everyone."
 author: Luke Fretwell
-pattern: blueprint
-img: pedigree.jpg
-img-feat: pedigree-feat.jpg
-img-alt: "Statue of John Harvard, Harvard University"
-img-caption: "'Statue of John Harvard, Harvard University' by InSapphoWeTrust is licensed under CC BY-SA 2.0."
-img-link: 
+img: pedigree-header.png
+img-feat: pedigree-feat.png
+img-alt: "Icon of a certificate seal"
+img-caption: "Certificate icon via Font Awesome"
+img-link: https://fontawesome.com/icons/certificate?f=classic&s=solid
 category:
   - Community
   - Digital
