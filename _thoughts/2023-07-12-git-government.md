@@ -1,6 +1,6 @@
 ---
 title: "Git government"
-date: 2023-07-07
+date: 2023-07-12
 description: "True democracy – and great technology – is organic, collaborative, participatory, responsive, iterative, adaptive."
 author: Luke Fretwell
 img: git-header.png
