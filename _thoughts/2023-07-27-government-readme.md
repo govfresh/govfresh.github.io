@@ -1,6 +1,6 @@
 ---
 title: "Government README"
-date: 2023-07-26
+date: 2023-07-27
 description: "A simple practice can help give clarity to public sector projects and services, and how those impacted can engage with them."
 author: Luke Fretwell
 img: readme-header.png
