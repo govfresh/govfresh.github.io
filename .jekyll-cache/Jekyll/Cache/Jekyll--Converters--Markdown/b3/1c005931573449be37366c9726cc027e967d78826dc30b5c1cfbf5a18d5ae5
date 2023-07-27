@@ -1,0 +1,68 @@
+I"l<p>All government artifacts should have some form of a README, including but not limited to:</p>
+
+<ul>
+  <li>Projects</li>
+  <li>Services</li>
+  <li>Agencies</li>
+  <li>Meetings</li>
+</ul>
+
+<h2 id="readme-101">README 101</h2>
+
+<p>In developer terms, a <a href="https://en.wikipedia.org/wiki/README">README</a> is a text-based file attached to a project repository.</p>
+
+<p>It provides simple, clear information about a project, such as its purpose, function, how to contribute or submit issues, license and contact information. Technical information includes installation, configuration and operating instructions, list of bugs, troubleshooting help, changelog and technology used for the project.</p>
+
+<p>They are usually in a .txt or .md file format (sorry, no README.pdf).</p>
+
+<p>The README makes it easy for external developers to understand a technical project, learn how they can get involved.</p>
+
+<p>The <a href="https://github.com/uswds/uswds#readme">U.S. Web Design System</a>, <a href="https://github.com/department-of-veterans-affairs/vets-website#readme">Vets.gov website</a> and are examples of comprehensive, developer-centric READMEs.</p>
+
+<h2 id="service-driven-readme">Service driven README</h2>
+
+<p>While a README is typically for developer-based projects, the practice aligns with building effective government services. A README is helpful because it gives basic information without communications or public relations embellishments.</p>
+
+<p>READMEs help:</p>
+
+<ul>
+  <li>Government service teams get clarity and alignment.</li>
+  <li>The general public understand what the service does and how it can engage with it.</li>
+</ul>
+
+<p>They help a project or service give clarity about the service provided. They can be used as the foundational document that helps new onboarding team members, leadership and the general public understand what a service does, how to use it and how to get help when needed.</p>
+
+<h2 id="readme-best-practices">README best practices</h2>
+
+<p>Great READMEs:</p>
+
+<ul>
+  <li>Include standard elements.</li>
+  <li>Are publicly accessible, mostly text-based.</li>
+  <li>Use plain or audience-specific language without PR embellishments.</li>
+  <li>Are simple to understand and default to document for more detailed information.</li>
+</ul>
+
+<p>The U.S. General Services Administration’s 18F has <a href="https://github.com/18F/open-source-guide/blob/18f-pages/pages/making-readmes-readable.md">published helpful README best practices</a>. Borrowing from these and other recommendations, great government READMEs include:</p>
+
+<ul>
+  <li>Title: What the project/service is called.</li>
+  <li>Description: A description of what the project is for.</li>
+  <li>Contribute: Instructions for how people can help.</li>
+  <li>Roadmap: Project timeline, upcoming enhancements/features.</li>
+  <li>Support: Where users can get support.</li>
+  <li>Contact: Point of contact or contact information/form.</li>
+  <li>Maintainers: People or agency who maintains the project or service.</li>
+  <li>Acknowledgements: List of those who have helped the project’s success.</li>
+  <li>License: Licensing information for your projects.</li>
+  <li>Code of conduct: Community rules of engagement.</li>
+</ul>
+
+<p>A README is not extensive documentation or bureaucratic PDF reports. If a README is getting cumbersome, most likely it needs to be shortened and reference public documentation.</p>
+
+<h2 id="readmegov">README.gov</h2>
+
+<p>Every government project, service, agency and meeting should have some form of a README, one easily-accessible, referential document or page that gives everyone impacted – internal and external – a place to start without getting mired in bureaucratic minutia.</p>
+
+<p>As with developer projects, the government README is the foundation to good public service. It’s the ultimate culture document that sets the tone for how public servants think about working for and with people.</p>
+:ET

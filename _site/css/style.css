@@ -943,12 +943,17 @@ html:not(html.dark) .innovations:not(.home-include *) {
 /* Alerts */
 
 .alert {
-    border-radius: var(--color-1);
+    padding-bottom: var(--size-9);
 }
 
 .alert p {
+    color: var(--color-2);
     font-family: var(--font-1) !important;
-    font-size: var(--size-6);
+}
+
+.alert h2 {
+    padding-bottom: var(--size-3) !important;
+    padding-top: var(--size-8) !important;
 }
 
 .alert-light {
@@ -988,7 +993,8 @@ html:not(html.dark) .innovations:not(.home-include *) {
 
 .alert-primary {
     background-color: var(--color-6);
-    border-color: var(--color-5);
+    border: var(--color-5) solid var(--size-2);
+    border-radius: var(--size-6) var(--size-2) var(--size-6) var(--size-2);
 }
 
 /* Buttons / nav pills */

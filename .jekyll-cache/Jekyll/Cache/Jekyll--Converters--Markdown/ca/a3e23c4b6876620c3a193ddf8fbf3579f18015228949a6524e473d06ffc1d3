@@ -1,0 +1,41 @@
+I"
+<p>Every government service should have a README, including but not limited to:</p>
+
+<ul>
+  <li>Public projects</li>
+  <li>Digital services</li>
+  <li>Websites</li>
+  <li>Agencies</li>
+  <li>Meetings</li>
+</ul>
+
+<p>In developer terms, a <a href="https://en.wikipedia.org/wiki/README">README</a> is a text file attached to a project repository. It provides simple, clear information about a project, such as its purpose, function, how to contribute or submit bugs, license and contact information.</p>
+
+<p>Technical READMEs include installation, configuration and operating instructions, list of bugs, troubleshooting help, changelog and technology stack used for the</p>
+
+<p>READMEs make it easy for developers to understand a technical project and how they can get involved.</p>
+
+<p>A README is helpful because it gives basic information with no embellishments. They are not documentation or long-winded bureaucracy speak. They are plain language, text documents usually in a .txt or .md file format (sorry, no README.pdf)</p>
+
+<p>If you find a README is getting cumbersome, this most likely means you need to move that information into public documentation and reference in the README.</p>
+
+<p>Typically READMEs are for technical projects, but the context is perfect for government and very much aligned with creating transparency and collaborative digital services.</p>
+
+<p>While READMEs don’t have to be just for digital projects, they help a project or service provide clarity about the service provided. They can be used as the foundational document that helps new onboarding team members, leadership and the general public.</p>
+
+<h2 id="best-practices">Best practices</h2>
+
+<p>The U.S. General Services Administration’s 18F <a href="https://github.com/18F/open-source-guide/blob/18f-pages/pages/making-readmes-readable.md">published helpful README best practices</a>. Borrowing from these and other recommendations, great government READMEs include:</p>
+
+<ul>
+  <li>About: A description of what the project is for.</li>
+  <li>Contribute: Instructions for how people can help.</li>
+  <li>Roadmap: Project timeline, upcoming enhancements/features.</li>
+  <li>Support: Where users can get support.</li>
+  <li>Contact: Point of contact or contact information/form.</li>
+  <li>Maintainer(s): People or agency who maintains the project or service.</li>
+  <li>Acknowledgements: List of those who have helped the project’s success.</li>
+  <li>License: Licensing information for your project.</li>
+  <li>Code of conduct: Community rules of engagement.</li>
+</ul>
+:ET

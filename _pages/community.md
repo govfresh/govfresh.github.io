@@ -42,5 +42,8 @@ We adhere to the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_Hous
 
 ## Feedback
 
-Have feedback on the community? [Submit a GitHub issue.](
+Have feedback on the community?
+
+* Post to the #feedback channel
+* [Submit a GitHub issue](
 https://github.com/govfresh/govfresh.github.io/issues/new?assignees=&labels=general&template=general.md&title=)
