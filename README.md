@@ -4,7 +4,7 @@
 
 Public service with and by the people. GovFresh features the people and innovations changing how democracy works.
 
-[Website](https://govfresh.com/)
+Website: [govfresh.com](https://govfresh.com)
 
 ## Connect
 
