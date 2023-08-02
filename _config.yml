@@ -38,11 +38,7 @@ date-format: "%B %d, %Y at %I:%M %P %Z"
 # Number limits
 books-number: 7
 dm-number: &dm-number 5
-events-number: 4
-innovations-number: &innovations-number 4
 labs-number: 3
-orgs-number: 4
-podcasts-number: 4
 reviews-number: &reviews-number 4
 signal-number: &signal-number 2
 thoughts-number: &thoughts-number 4
@@ -77,30 +73,12 @@ defaults:
       layout: "thoughts"
       short: "true"
   - scope:
-      path: "_events"
-      type: "events"
-    values:
-      folder: "Events"
-      img-path: "events"
-      parent: "events"
-      layout: "profile"
-      short: "true"
-  - scope:
       path: "_books"
       type: "books"
     values:
       folder: "Book club"
       img-path: "books"
       parent: "books"
-      layout: "profile"
-      short: "true"
-  - scope:
-      path: "_orgs"
-      type: "orgs"
-    values:
-      folder: "Organizations"
-      img-path: "orgs"
-      parent: "orgs"
       layout: "profile"
       short: "true"
   - scope:
@@ -135,30 +113,12 @@ defaults:
     values:
       layout: "topic"
   - scope:
-      path: "_podcasts"
-      type: "podcasts"
-    values:
-      folder: "Podcasts"
-      img-path: "podcasts"
-      parent: "podcasts"
-      layout: "profile"
-      short: "true"
-  - scope:
       path: "_labs"
       type: "labs"
     values:
       folder: "Labs"
       img-path: "labs"
       parent: "labs"
-      layout: "profile"
-      short: "true"
-  - scope:
-      path: "_innovations"
-      type: "innovations"
-    values:
-      folder: "Innovations"
-      img-path: "innovations"
-      parent: "innovations"
       layout: "profile"
       short: "true"
   - scope:
@@ -179,12 +139,6 @@ collections:
   dm:
     output: true
     permalink: /dm/:title
-  events:
-    output: true
-    permalink: /event/:title
-  innovations:
-    output: true
-    permalink: innovations/:title
   labs:
     output: true
     permalink: labs/:title
@@ -197,9 +151,6 @@ collections:
   people:
     output: true
     permalink: people/:title
-  podcasts:
-    output: true
-    permalink: podcasts/:title
   posts:
     output: true
     permalink: /signal/:title
@@ -232,9 +183,6 @@ order:
   - 
     name: reviews
     number: *reviews-number
-#  - 
-#    name: innovations
-#    number: *innovations-number
 
 # Exclude
 exclude:
