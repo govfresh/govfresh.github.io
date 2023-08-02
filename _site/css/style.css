@@ -484,16 +484,17 @@ main a:hover {
 }
 
 blockquote {
-    border-left: var(--size-3) solid var(--color-1);
-    font-size: var(--size-7);
-    margin-left: var(--size-8);
+    border-left: var(--size-4) solid var(--color-1);
+    margin-left: var(--size-1);
     padding: var(--size-1) var(--size-8);
     margin-bottom: var(--size-8);
     margin-top: var(--size-9);
 }
 
-blockquote, blockquote p {
-    font-family: var(--font-1) !important;
+blockquote p, blockquote ul {
+    font-family: var(--font-2) !important;
+    padding-bottom: var(--size-0);
+    padding-top: var(--size-3);
 }
 
 /* Pagination */
@@ -607,7 +608,7 @@ img.xxxs {
 }
 
 img.xxs {
-    width: var(--size-11);
+    width: var(--size-10);
 }
 
 img.xs {
@@ -738,6 +739,10 @@ img.author {
     border-top: var(--size-2) solid var(--color-3);
     margin: var(--size-10) var(--size-1) var(--size-3) var(--size-1);
     padding: var(--size-9) var(--size-1);
+}
+
+.author-bio h2 a, .author-bio h2 a:visited {
+    color: var(--color-2)
 }
 
 /* Parent
