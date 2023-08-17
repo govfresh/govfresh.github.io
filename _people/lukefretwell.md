@@ -18,7 +18,7 @@ vimeo:
 linkedin: https://www.linkedin.com/in/lukefretwell
 instagram: 
 facebook: 
-github: 
+github: https://github.com/lukefretwell
 flickr: 
 tumblr: 
 rss: 
