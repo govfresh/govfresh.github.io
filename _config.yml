@@ -170,16 +170,16 @@ paginate_path: "/signal/:num"
 
 # Home page order
 order:
-#   - 
-#     name: signal
-#     site-name: posts
-#     number: *signal-number  
   - 
     name: thoughts
     number: *thoughts-number
   - 
     name: dm
     number: *dm-number
+  - 
+    name: signal
+    site-name: posts
+    number: *signal-number  
   - 
     name: reviews
     number: *reviews-number
