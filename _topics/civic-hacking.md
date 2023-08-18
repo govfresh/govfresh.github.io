@@ -1,6 +1,6 @@
 ---
 title: Civic hacking
-description: Mostly updates on the civic hacking adventures of Elias and Luke Fretwell.
+description: "Civic hacking news, thoughts and more."
 icon: "fa-solid fa-code"
 redirect_from: /civic-hacking
 ---

@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-17T09:32:07-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>The people and innovations changing how democracy works.</subtitle><entry><title type="html">Retrospecting 2022</title><link href="http://localhost:4000/signal/signal-2022-12-15" rel="alternate" type="text/html" title="Retrospecting 2022" /><published>2022-12-15T00:00:00-08:00</published><updated>2022-12-16T13:22:32-08:00</updated><id>http://localhost:4000/signal/signal-2022-12-15</id><content type="html" xml:base="http://localhost:4000/signal/signal-2022-12-15">&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-18T07:32:53-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>The people and innovations changing how democracy works.</subtitle><entry><title type="html">White House wants your input on open source software security</title><link href="http://localhost:4000/signal/rfi-open-source-security" rel="alternate" type="text/html" title="White House wants your input on open source software security" /><published>2023-08-18T00:00:00-07:00</published><updated>2023-08-18T07:30:17-07:00</updated><id>http://localhost:4000/signal/rfi-open-source-security</id><content type="html" xml:base="http://localhost:4000/signal/rfi-open-source-security">&lt;h2 id=&quot;brief&quot;&gt;Brief&lt;/h2&gt;
+
+&lt;p&gt;The White House Office of the National Cyber Director has issued a &lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;request for information&lt;/a&gt; on open source software security.&lt;/p&gt;
+
+&lt;h2 id=&quot;dates&quot;&gt;Dates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Responses are due by 5:00 p.m. EDT on October 9, 2023.&lt;/li&gt;
+  &lt;li&gt;By August 28, 2023, the Government will post responses to select questions on www.regulations.gov, as appropriate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;key-excerpts&quot;&gt;Key excerpts&lt;/h2&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;https://www.whitehouse.gov/oncd/briefing-room/2023/08/10/fact-sheet-office-of-the-national-cyber-director-requests-public-comment-on-open-source-software-security-and-memory-safe-programming-languages/&quot;&gt;White House fact sheet&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ONCD has established an Open-Source Software Security Initiative (OS3I) to champion the adoption of memory safe programming languages and open-source software security. The security and resiliency of open-source software is a national security, economic, and a technology innovation imperative. Because open-source software plays a vital and ubiquitous role across the Federal Government and critical infrastructure, (1) vulnerabilities in open-source software components may cause widespread downstream detrimental effects. The Federal Government recognizes the immense benefits of open-source software, which enables software development at an incredible pace and fosters significant innovation and collaboration. In light of these factors, as well as the status of open-source software as a free public good, it may be appropriate to make open-source software a national public priority to help ensure the security, sustainability, and health of the open-source software ecosystem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;RFI&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The RFI aims to further the work of OS3I by identifying areas most appropriate to focus government priorities, and addressing critical questions such as:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;How should the Federal Government contribute to driving down the most important systemic risks in open-source software?&lt;/li&gt;
+    &lt;li&gt;How can the Federal Government help foster the long-term sustainability of open-source software communities?&lt;/li&gt;
+    &lt;li&gt;How should open-source software security solutions be implemented from a technical and resourcing perspective?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We hope that potential respondents will view this RFI as a civic opportunity to help shape the government’s thinking about open-source software security.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nasreen Djouini&lt;/li&gt;
+  &lt;li&gt;Email: &lt;a href=&quot;mailto:OS3IRFI@ncd.eop.gov&quot;&gt;OS3IRFI@ncd.eop.gov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Phone: 202–881–4697&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.whitehouse.gov/oncd/briefing-room/2023/08/10/fact-sheet-office-of-the-national-cyber-director-requests-public-comment-on-open-source-software-security-and-memory-safe-programming-languages/&quot;&gt;Fact Sheet: Office of the National Cyber Director Requests Public Comment on Open-Source Software Security and Memory Safe Programming Languages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;Request for Information on Open-Source Software Security: Areas of Long-Term Focus and Prioritization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Inclusion&quot;, &quot;Innovation&quot;, &quot;Open&quot;, &quot;Privacy&quot;]" /><summary type="html">Brief</summary></entry><entry><title type="html">Retrospecting 2022</title><link href="http://localhost:4000/signal/signal-2022-12-15" rel="alternate" type="text/html" title="Retrospecting 2022" /><published>2022-12-15T00:00:00-08:00</published><updated>2022-12-16T13:22:32-08:00</updated><id>http://localhost:4000/signal/signal-2022-12-15</id><content type="html" xml:base="http://localhost:4000/signal/signal-2022-12-15">&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
 
 &lt;p&gt;2022 was transformative for me.&lt;/p&gt;
 

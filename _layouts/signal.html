@@ -11,11 +11,18 @@ layout: radar
         <div class="row">
             <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                <!--
                 <div class="subscribe subscribe-top">
                     <p><a href="/signal">GovFresh Signal</a> is the official GovFresh newsletter, where we share what we're paying attention to. <a href="/subscribe">Subscribe.</a></p>
                 </div>
+                -->
                 <div class="post">
+                    {% include author.html %}
                     {{ content }}
+                    {% if page.action-link %}
+                    <h2>Contribute</h2>
+                    <a href="{{ page.action-link }}" class="btn btn-primary mb-5">{{ page.action-text }}</a>
+                    {% endif %}
                 </div>
                 {% include updated.html %}
                 {% include subscribe.html %}
