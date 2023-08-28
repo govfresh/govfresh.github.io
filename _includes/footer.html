@@ -3,11 +3,6 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <h5>{{ site.title }}</h5>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-3">
                     <ul class="list-unstyled">
                         {% for item in site.data.nav-footer-1.docs %}
@@ -73,11 +68,12 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 </footer>
 {% if jekyll.environment == 'production' %}
 {% include analytics.html %}
-    {% endif %}
+{% endif %}
 {% include js.html %}
 </body>
+
 </html>

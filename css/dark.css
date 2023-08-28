@@ -1,0 +1,139 @@
+/* Dark mode styles */
+body, .card-body, .card {
+    background-color: black;
+    color: white;
+}
+
+/* Toggle button styles (optional) */
+.toggle-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body a, body a:visited {
+    color: var(--color-8);
+    /* Lighter blue link color in dark mode */
+}
+
+body a:hover {
+    color: var(--color-8);
+    /* Darker blue on hover in dark mode */
+}
+
+.social a, .social a:active, .social a:visited {
+    color: var(--color-4) !important;
+    margin-right: var(--size-6);
+    text-decoration: none !important;
+}
+
+img.shadow {
+    border: var(--size-2) solid var(--color-4);
+    margin-bottom: var(--size-9);
+}
+
+.alert p {
+    color: var(--color-4);
+    font-family: var(--font-1) !important;
+}
+
+.alert h2 {
+    padding-bottom: var(--size-3) !important;
+    padding-top: var(--size-8) !important;
+}
+
+.alert-light {
+    background-color: var(--color-2);
+    color: var(--color-4);
+    margin-bottom: var(--size-2);
+    margin-top: var(--size-9);
+    padding-top: var(--size-9);
+    border-left: var(--size-1);
+    border-top: var(--size-1);
+    border-right: var(--size-1);
+    border-bottom-left-radius: var(--size-5);
+    border-bottom: var(--size-5) solid var(--color-5);
+}
+
+.jumbotron, .jumbotron-home {
+    background: var(--color-2);
+    border-bottom: var(--size-2) solid var(--color-2);
+}
+
+.lead, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    color: var(--color-4);
+}
+
+.alert-primary {
+    background-color: var(--color-2);
+}
+
+.nav-link.active, .nav-link+.breadcrumb-item::before, .breadcrumb a, .nav-link a:visited {
+    color: var(--color-8) !important;
+}
+
+.breadcrumb {
+    background-color: var(--color-2);
+    border-radius: var(--size-1);
+    border-top-left-radius: var(--size-5);
+    border-top: var(--size-5) solid var(--color-5);
+    margin-bottom: var(--size-1);
+    margin-top: var(--size-2);
+}
+
+/* Dark mode */
+
+:root.dark {
+    --color-1: #a640ef;
+    --color-2: #dedede;
+    --color-3: #363636;
+    --color-4: #212121;
+    --color-5: #852cc1;
+    --color-6: #521779;
+    --gradient-1: linear-gradient(135deg, rgb(73, 0, 125) 13%, rgb(53, 5, 85) 73%);
+    --gradient-2: linear-gradient(135deg, rgba(0, 0, 0, 0.152) 13%, rgba(74, 11, 116, 0.056) 73%);
+}
+
+html.dark .icon:not(.home-include *) {
+    color: var(--color-2) !important;
+}
+
+html.dark nav button {
+    border-color: var(--color-2) !important;
+}
+
+html.dark .card:not(.home-include *) {
+    background-color: var(--color-4);
+}
+
+html.dark .card:not(.card-deck.clean .card):not(.home-include *) {
+    border: 1px solid #ffffff20;
+}
+
+html.dark .navbar a, html.dark .navbar sup, html.dark footer *, html.dark a.btn .btn-primary:not(.home-include *) {
+    color: var(--color-2) !important;
+}
+
+div.dark-toggle>i {
+    cursor: pointer;
+    color: white;
+}
+
+html.dark .fancy-feat svg:not(.home-include *) {
+    fill: white;
+}
+
+html.dark .pagination>li>*:not(.home-include *) {
+    background-color: var(--color-4) !important;
+}
+
+div.dark-toggle {
+    display: inline;
+}
+
+html.dark .nav-item i:not(.home-include *) {
+    color: #ffffff;
+}

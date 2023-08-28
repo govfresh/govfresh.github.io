@@ -35,11 +35,13 @@
     --color-5: #9355dc;
     --color-6: #ede3ff;
     --color-7: #adadad;
+    --color-8: #d5bfff;
     --gradient-1: linear-gradient(135deg, #54278f 13%, #9355dc 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ffffff 73%);
     --font-1: "Fira Sans Regular", sans-serif;
     --font-2: "Fira Sans Bold", sans-serif;
     --font-3: "DM Serif Display", serif;
+    --font-4: "Roboto Mono", monospace;
     --size-1: 0;
     --size-2: 0.0625rem;
     --size-3: .25rem;
@@ -79,7 +81,7 @@ strong {
 }
 
 .author, .date, .episode {
-    font-family: var(--font-1);
+    font-family: var(--font-4);
     font-size: var(--size-6);
 }
 
@@ -104,7 +106,7 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
 /* Styles with bold */
 
 .breadcrumb, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
-    font-family: var(--font-3) !important;
+    font-family: var(--font-2) !important;
 }
 
 .breadcrumb {
@@ -187,15 +189,14 @@ a.navbar-brand:hover {
 
 .lead {
     color: var(--color-2);
-    font-family: var(--font-1);
+    font-family: var(--font-4);
     font-size: var(--size-8);
     padding-top: var(--size-3);
 }
 
 .lead-line {
     border-bottom: var(--size-2) solid var(--color-7);
-    color: var(--color-8);
-    font-family: var(--font-1);
+    font-family: var(--font-4);
     font-size: var(--size-8);
     margin-bottom: var(--size-6);
     padding-bottom: var(--size-8);
@@ -352,10 +353,9 @@ blockquote p, blockquote ul {
 
 .topics a, .topics a:visited {
     background-color: var(--color-1);
-    border-radius: var(--size-3);
     color: var(--color-4) !important;
     display: inline-block;
-    font-family: var(--font-1);
+    font-family: var(--font-4);
     font-size: var(--size-6);
     padding: var(--size-4) var(--size-5);
     text-decoration: none;
@@ -391,7 +391,9 @@ p.img-caption {
 }
 
 img.shadow {
+    /*
     box-shadow: var(--size-3) var(--size-3) var(--size-6) var(--color-7) !important;
+*/
     border: var(--size-2) solid var(--color-2);
     margin-bottom: var(--size-9);
 }
@@ -1080,60 +1082,6 @@ h2.big {
     background: var(--color-6);
     border: var(--size-3) solid var(--color-6);
     color: var(--color-1);
-}
-
-/* Dark mode */
-
-:root.dark {
-    --color-1: #a640ef;
-    --color-2: #dedede;
-    --color-3: #363636;
-    --color-4: #212121;
-    --color-5: #852cc1;
-    --color-6: #521779;
-    --gradient-1: linear-gradient(135deg, rgb(73, 0, 125) 13%, rgb(53, 5, 85) 73%);
-    --gradient-2: linear-gradient(135deg, rgba(0, 0, 0, 0.152) 13%, rgba(74, 11, 116, 0.056) 73%);
-}
-
-html.dark .icon:not(.home-include *) {
-    color: var(--color-2) !important;
-}
-
-html.dark nav button {
-    border-color: var(--color-2) !important;
-}
-
-html.dark .card:not(.home-include *) {
-    background-color: var(--color-4);
-}
-
-html.dark .card:not(.card-deck.clean .card):not(.home-include *) {
-    border: 1px solid #ffffff20;
-}
-
-html.dark .navbar a, html.dark .navbar sup, html.dark footer *, html.dark a.btn .btn-primary:not(.home-include *) {
-    color: var(--color-2) !important;
-}
-
-div.dark-toggle>i {
-    cursor: pointer;
-    color: white;
-}
-
-html.dark .fancy-feat svg:not(.home-include *) {
-    fill: white;
-}
-
-html.dark .pagination>li>*:not(.home-include *) {
-    background-color: var(--color-4) !important;
-}
-
-div.dark-toggle {
-    display: inline;
-}
-
-html.dark .nav-item i:not(.home-include *) {
-    color: #ffffff;
 }
 
 /* DM */

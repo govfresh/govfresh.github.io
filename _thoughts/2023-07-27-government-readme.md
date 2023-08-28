@@ -6,7 +6,7 @@ author: Luke Fretwell
 img: readme-header.png
 img-feat: readme-feat.png
 img-alt: "Icon of a document file with right corner folded down"
-img-caption: "Git icon from Feather"
+img-caption: "Alt icon from Feather"
 img-link: https://feathericons.com/
 category:
   - Culture

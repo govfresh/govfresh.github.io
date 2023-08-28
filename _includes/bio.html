@@ -6,16 +6,22 @@
 {% for author in page.author %}
 {% assign author_data = site.people | where:"title", author | first %}
 {% if author_data.content.size > 1 %}
-<div class="author-bio">
-    {% if author_data.img %}
-    <a href="{{ site.baseurl }}{{ author_data.url }}"><img
-            src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}"
-            class="xs rounded-circle line float-left mr-4"></a>
-    {% endif %}
-    <h2 class="h3"><a href="{{ site.baseurl }}{{ author_data.url }}">{{ author_data.title }}</a></h2>
-    <p>{{ author_data.bio-short | markdownify }}</p>
-    <h2 class="h4">Connect</h2>
-    {% include social.html size="small" %}
+<div class="author-bio fancy-2">
+    <div class="row">
+        <div class="col-3">
+            {% if author_data.img %}
+            <a href="{{ site.baseurl }}{{ author_data.url }}"><img
+                    src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
+                    alt="Photo of {{ author_data.title }}" class="xs rounded-circle line float-left mr-4"></a>
+            {% endif %}
+        </div>
+        <div class="col-9">
+            <h2 class="h3">{{ author_data.title }}</h2>
+            <p>{{ author_data.bio-short | markdownify }}</p>
+            <h2 class="h4">Connect</h2>
+            {% include social.html size="small" %}
+        </div>
+    </div>
 </div>
 {% endif %}
 {% endfor %}
