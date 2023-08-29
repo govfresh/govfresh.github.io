@@ -20,11 +20,6 @@
     src: url("/fonts/fira-sans/FiraSans-Bold.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "DM Serif Display";
-    src: url("/fonts/dm-serif-display/DMSerifDisplay-Regular.ttf") format("truetype");
-}
-
 /* Root settings */
 
 :root {
@@ -468,7 +463,7 @@ img {
 }
 
 .fancy-2 img, .fancy-2 img {
-    margin-bottom: var(--size-4);
+    margin-bottom: var(--size-3);
     margin-top: var(--size-4);
 }
 
@@ -637,7 +632,7 @@ html:not(html.dark) .innovations:not(.home-include *) {
 }
 
 .social a, .social a:active, .social a:visited {
-    color: var(--color-2);
+    color: var(--color-2) !important;
     margin-right: var(--size-6);
 }
 
