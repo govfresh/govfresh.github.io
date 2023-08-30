@@ -113,12 +113,12 @@ docs:
 #    url: 
 #    icon: *amazon
  
-#  - name: Apple
-#    url: 
-#    icon: *apple 
+  - name: Apple
+    url: https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1468169431
+    icon: *apple 
     
   - name: Spotify
-    url: https://open.spotify.com/user/bxgp042g6rax0nro1v55i52q6?si=7aba5c7cd2a447e5
+    url: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
     icon: *spotify
 
   - name: RSS
