@@ -1,7 +1,7 @@
 # General
 title: GovFresh
-tagline: "Government with and by the people."
-description: "The people and innovations changing how democracy works."
+tagline: "People. Technology. Democracy."
+description: "People. Technology. Democracy."
 url: https://govfresh.com
 
 # Social
@@ -12,10 +12,6 @@ social:
     - https://www.facebook.com/govfresh
     - https://www.linkedin.com/company/govfresh
     - https://github.com/govfresh
-
-twitter:
-  username: GovFresh
-  card: summary_large_image
 
 # Build settings
 theme:

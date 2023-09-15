@@ -4,10 +4,10 @@ description: ""
 img-feat: .jpg
 author:  
 website: 
-library: 
-bookshop: 
-goodreads: 
-amazon: 
+library: https://www.worldcat.org/
+bookshop: https://bookshop.org/
+goodreads: https://www.goodreads.com/
+amazon: https://www.amazon.com
 review-link: 
 category:
   - Civic hacking

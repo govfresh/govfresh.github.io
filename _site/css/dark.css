@@ -1,6 +1,20 @@
+/* Dark mode
+
+:root.dark {
+    --color-1: #a640ef;
+    --color-2: #dedede;
+    --color-3: #2e2e2e;
+    --color-4: #212121;
+    --color-5: #852cc1;
+    --color-6: #521779;
+    --gradient-1: linear-gradient(135deg, rgb(73, 0, 125) 13%, rgb(53, 5, 85) 73%);
+    --gradient-2: linear-gradient(135deg, rgba(0, 0, 0, 0.152) 13%, rgba(74, 11, 116, 0.056) 73%);
+}
+ */
+
 /* Dark mode styles */
 body, .card-body, .card {
-    background-color: black;
+    background-color: var(--color-9);
     color: white;
 }
 
@@ -46,7 +60,7 @@ img.shadow {
 }
 
 .alert-light {
-    background-color: var(--color-2);
+    background-color: var(--color-9);
     color: var(--color-4);
     margin-bottom: var(--size-2);
     margin-top: var(--size-9);
@@ -59,8 +73,8 @@ img.shadow {
 }
 
 .jumbotron, .jumbotron-home {
-    background: var(--color-2);
-    border-bottom: var(--size-2) solid var(--color-2);
+    background: var(--color-9);
+    border-bottom: var(--size-2) solid var(--color-9);
 }
 
 .lead, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
@@ -68,7 +82,7 @@ img.shadow {
 }
 
 .alert-primary {
-    background-color: var(--color-2);
+    background-color: var(--color-9);
 }
 
 .nav-link.active, .nav-link+.breadcrumb-item::before, .breadcrumb a, .nav-link a:visited {
@@ -76,25 +90,12 @@ img.shadow {
 }
 
 .breadcrumb {
-    background-color: var(--color-2);
+    background-color: var(--color-9);
     border-radius: var(--size-1);
     border-top-left-radius: var(--size-5);
     border-top: var(--size-5) solid var(--color-5);
     margin-bottom: var(--size-1);
     margin-top: var(--size-2);
-}
-
-/* Dark mode */
-
-:root.dark {
-    --color-1: #a640ef;
-    --color-2: #dedede;
-    --color-3: #363636;
-    --color-4: #212121;
-    --color-5: #852cc1;
-    --color-6: #521779;
-    --gradient-1: linear-gradient(135deg, rgb(73, 0, 125) 13%, rgb(53, 5, 85) 73%);
-    --gradient-2: linear-gradient(135deg, rgba(0, 0, 0, 0.152) 13%, rgba(74, 11, 116, 0.056) 73%);
 }
 
 html.dark .icon:not(.home-include *) {
@@ -135,5 +136,5 @@ div.dark-toggle {
 }
 
 html.dark .nav-item i:not(.home-include *) {
-    color: #ffffff;
+    color: var(--color-2) !important;
 }

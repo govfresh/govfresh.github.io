@@ -20,6 +20,11 @@
     src: url("/fonts/fira-sans/FiraSans-Bold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("/fonts/roboto-mono/") format("truetype");
+}
+
 /* Root settings */
 
 :root {
@@ -31,6 +36,7 @@
     --color-6: #ede3ff;
     --color-7: #adadad;
     --color-8: #d5bfff;
+    --color-9: #171716;
     --gradient-1: linear-gradient(135deg, #54278f 13%, #9355dc 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ffffff 73%);
     --font-1: "Fira Sans Regular", sans-serif;
@@ -72,7 +78,7 @@ a, a:visited, a:hover {
 }
 
 strong {
-    font-family: var(--font-3);
+    font-family: var(--font-2);
 }
 
 .author, .date, .episode {
@@ -122,15 +128,15 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
 
 .logo a, .logo a:visited, .logo a:hover {
     color: var(--color-4) !important;
-    padding: var(--size-4) var(--size-3) !important;
+    padding: var(--size-5) var(--size-3) !important;
     text-decoration: none;
 }
 
 .logo svg {
     width: 100%;
     height: auto;
-    max-width: 200px;
-    margin: var(--size-7) var(--size-2);
+    max-width: 175px;
+    margin: var(--size-8) var(--size-2);
 }
 
 /* Navbar */
@@ -172,14 +178,17 @@ a.navbar-brand:hover {
 
 .navbar-brand {
     font-family: var(--font-1);
-    text-transform: uppercase;
 }
 
 .nav-icons a, .nav-icons, .nav-link .fa-solid {
     color: var(--color-4);
     display: inline-block;
-    font-size: var(--size-8);
+    font-size: var(--size-7);
     margin-right: var(--size-4);
+}
+
+.navbar-nav {
+    font-size: var(--size-6);
 }
 
 .lead {
@@ -250,9 +259,8 @@ div.card-body>i {
 /* Jumbotron */
 
 .jumbotron, .jumbotron-home {
-    background: var(--color-4);
-    background: var(--gradient-2);
-    border-bottom: var(--size-2) solid var(--color-6);
+    background-color: var(--color-9);
+    border-bottom: var(--size-2) solid var(--color-9);
     border-bottom: none;
     border-radius: var(--color-1);
     padding-bottom: var(--size-7);
@@ -375,7 +383,7 @@ blockquote p, blockquote ul {
 }
 
 img.img-feat {
-    border: var(--size-2) solid var(--color-3);
+    border: var(--size-3) solid var(--color-4);
     border-radius: var(--size-6) var(--size-1) var(--size-6) var(--size-1);
 }
 
@@ -403,7 +411,7 @@ img.line {
 }
 
 img.line-2 {
-    border: var(--size-2) solid var(--color-3);
+    border: var(--size-3) solid var(--color-4);
 }
 
 img.line-3 {
@@ -636,6 +644,7 @@ html:not(html.dark) .innovations:not(.home-include *) {
     margin-right: var(--size-6);
 }
 
+/*
 :not(footer i, .nav-icons i) {
     .fa-window-maximize {
         color: var(--color-1);
@@ -705,6 +714,7 @@ html:not(html.dark) .innovations:not(.home-include *) {
         color: #ff0000;
     }
 }
+*/
 
 /* Listen */
 
@@ -772,7 +782,7 @@ html:not(html.dark) .innovations:not(.home-include *) {
 }
 
 .alert-light {
-    background-color: var(--color-6);
+    background-color: var(--color-9);
     color: var(--color-2);
     margin-bottom: var(--size-2);
     margin-top: var(--size-9);
@@ -1111,11 +1121,16 @@ h2.big {
 .post-dm p, .post-dm ul, .post-dm ol {
     background-color: var(--color-6);
     border-radius: var(--size-4);
+    color: var(--color-9);
     font-family: var(--font-1) !important;
     font-size: var(--size-7) !important;
     margin: var(--size-6) var(--size-1);
     margin-right: var(--size-9);
     padding: var(--size-9);
+}
+
+.post-dm a, .post-dm a:visited, .post-dm a:hover {
+    color: var(--color-1);
 }
 
 .post-dm ul li, .post-dm ol li {
@@ -1166,9 +1181,7 @@ h2.big {
     padding: var(--size-9);
 }
 
-.post-ask strong {
-    font-family: var(--font-3);
-}
+.post-ask strong {}
 
 .post-ask img {
     width: var(--size-11);

@@ -16,95 +16,95 @@ layout: profile
                     {% include image.html %}
                 </div>
                 {% if page.parent == "books" %}
-                    <p>By {{ page.author }}</p>
+                <p class="author">By {{ page.author }}</p>
                 {% endif %}
                 {% if page.parent == "podcasts" %}
-                    <p>Host: {{ page.author }}</p>
+                <p>Host: {{ page.author }}</p>
                 {% endif %}
 
                 {% if page.parent == "innovations" %}
-                    <p>
-                        Host organization:
-                        <a href="{{ page.org-link }}">{{ page.org }}</a>
-                    </p>
+                <p>
+                    Host organization:
+                    <a href="{{ page.org-link }}">{{ page.org }}</a>
+                </p>
                 {% endif %}
 
                 {% if page.parent == "events" %}
-                    <p>
-                        Organizer:
-                        <a href="{{ page.org-link }}">{{ page.org }}</a>
-                    </p>
+                <p>
+                    Organizer:
+                    <a href="{{ page.org-link }}">{{ page.org }}</a>
+                </p>
                 {% endif %}
                 <div class="post">
                     {{ content }}
                 </div>
                 {% if page.review-link %}
-                    <p>
-                        <a href="{{ site.baseurl }}/reviews/{{ page.review-link }}">Full review</a>
-                    </p>
+                <p>
+                    <a href="{{ site.baseurl }}/reviews/{{ page.review-link }}">Full review</a>
+                </p>
                 {% endif %}
                 <div>
                     {% if page.parent == "podcasts" %}
-                        <div class="listen">
-                            <h2>Listen</h2>
-                            {% include social.html size="podcast" %}
-                        </div>
+                    <div class="listen">
+                        <h2>Listen</h2>
+                        {% include social.html size="podcast" %}
+                    </div>
                     {% endif %}
 
                     {% if page.bookshop %}
-                        <p>
-                            <a href="{{ page.bookshop }}" class="btn btn-primary">
-                                Buy
-                            </a>
-                        </p>
+                    <p>
+                        <a href="{{ page.bookshop }}" class="btn btn-primary">
+                            Buy
+                        </a>
+                    </p>
                     {% elsif page.amazon %}
-                        <p>
-                            <a href="{{ page.amazon }}" class="btn btn-primary">
-                                Buy
-                            </a>
-                        </p>
+                    <p>
+                        <a href="{{ page.amazon }}" class="btn btn-primary">
+                            Buy
+                        </a>
+                    </p>
                     {% endif %}
 
                     {% if page.donate %}
-                        <p>
-                            <a href="{{ page.donate }}" class="btn btn-primary">
-                                Support
-                            </a>
-                        </p>
+                    <p>
+                        <a href="{{ page.donate }}" class="btn btn-primary">
+                            Support
+                        </a>
+                    </p>
                     {% endif %}
 
                     {% if page.parent == "labs" %}
-                        <p>
-                            <a href="{{ page.website }}" class="btn btn-primary">
-                                Visit project
-                            </a>
-                        </p>
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">
+                            Visit project
+                        </a>
+                    </p>
                     {% endif %}
 
                     {% if page.parent == "innovations" %}
-                        <p>
-                            <a href="{{ page.website }}" class="btn btn-primary">
-                                Visit
-                                project
-                            </a>
-                        </p>
+                    <p>
+                        <a href="{{ page.website }}" class="btn btn-primary">
+                            Visit
+                            project
+                        </a>
+                    </p>
                     {% endif %}
 
                     {% if page.parent == "orgs" or page.parent == "signal" or page.parent == "gamechangers" or
                     page.parent == "events" or page.parent == "team" or page.parent ==
                     "podcasts" or page.parent == "innovations" or page.parent == "labs" %}
-                        <h2>Connect with {{ page.shortname }}</h2>
-                        {% include social.html size="small" %}
+                    <h2>Connect with {{ page.shortname }}</h2>
+                    {% include social.html size="small" %}
                     {% endif %}
 
                     {% if page.parent == "books" %}
-                        <h2>Book links</h2>
-                        {% include social.html size="small" %}
+                    <h2 class="mt-4">Book links</h2>
+                    {% include social.html size="small" %}
                     {% endif %}
 
                     {% if page.parent == "books" %}
-                        {% include disclosure.html %}
-                        {% include topics.html %}
+                    {% include topics.html %}
+                    {% include disclosure.html %}
                     {% endif %}
                 </div>
             </div>
@@ -121,89 +121,95 @@ layout: profile
         </div>
     </div>
     {% if page.team %}
-        <div class="container">
-            {% if thoughts.size > 0 %}
-                <div class="row">
-                    <div class="col-12">
-                        <div class="fancy-top">
-                            <h2>Thoughts</h2>
-                            <div class="card-deck clean">
-                                {% for item in thoughts %}
-                                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="fancy-2 img">
-                                                    <img alt="{{ item.img-alt }}" class="xl line-2" src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
-                                                </div>
-                                                <h3>
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                                                </h3>
-                                                {% if item.description %}
-                                                    <p>{{ item.description }}</p>
-                                                {% endif %}
-                                            </div>
-                                        </div>
+    <div class="container">
+        {% if thoughts.size > 0 %}
+        <div class="row">
+            <div class="col-12">
+                <div class="fancy-top">
+                    <h2>Thoughts</h2>
+                    <div class="card-deck clean">
+                        {% for item in thoughts %}
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="fancy-2 img">
+                                        <img alt="{{ item.img-alt }}" class="xl line-2"
+                                            src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
                                     </div>
-                                {% endfor %}
+                                    <h3>
+                                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title
+                                            }}</a>
+                                    </h3>
+                                    {% if item.description %}
+                                    <p>{{ item.description }}</p>
+                                    {% endif %}
+                                </div>
                             </div>
                         </div>
+                        {% endfor %}
                     </div>
                 </div>
-            {% endif %}
-            {% if reviews.size > 0 %}
-                <div class="row">
-                    <div class="col-12">
-                        <div class="fancy-top">
-                            <h2>Reviews</h2>
-                            <div class="card-deck">
-                                {% for item in reviews %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                {% if item.img-feat %}
-                                                    <img class="card-img-top sm shadow" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
-                                                {% endif %}
-                                                <h3 class="h5">
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                                                </h3>
-                                                <p class="description">{{ item.description }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            {% endif %}
-            {% assign posts = site.posts | where: "author", page.title %}
-            {% if posts.size > 0 %}
-                <div class="row">
-                    <div class="col-12">
-                        <div class="fancy-top">
-                            <h2>Radar</h2>
-                            <div class="card-deck">
-                                {% for item in posts %}
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                                                <h3 class="h4">
-                                                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                                                </h3>
-                                                <p>
-                                                    <small>{{ item.date | date: "%B %-d, %Y" }}</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            {% endif %}
+            </div>
         </div>
+        {% endif %}
+        {% if reviews.size > 0 %}
+        <div class="row">
+            <div class="col-12">
+                <div class="fancy-top">
+                    <h2>Reviews</h2>
+                    <div class="card-deck">
+                        {% for item in reviews %}
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                            <div class="card">
+                                <div class="card-body">
+                                    {% if item.img-feat %}
+                                    <img class="card-img-top sm shadow"
+                                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                                        alt="{{ item.img-alt }}">
+                                    {% endif %}
+                                    <h3 class="h5">
+                                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title
+                                            }}</a>
+                                    </h3>
+                                    <p class="description">{{ item.description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% assign posts = site.posts | where: "author", page.title %}
+        {% if posts.size > 0 %}
+        <div class="row">
+            <div class="col-12">
+                <div class="fancy-top">
+                    <h2>Radar</h2>
+                    <div class="card-deck">
+                        {% for item in posts %}
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                                    <h3 class="h4">
+                                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title
+                                            }}</a>
+                                    </h3>
+                                    <p>
+                                        <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
     {% endif %}
 </main>
 {% include analytics.html %}
