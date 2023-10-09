@@ -15,30 +15,28 @@ layout: home
                     <p class="lead">Latest episodes of The GovFresh Podcast.</p>
                     <div class="card-deck clean">
                         {% for item in site.data.podcast.docs %}
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                <div class="card">
-                                    <div class="card-body">
-                                        {% if item.img %}
-                                            <div class="img fancy-2">
-                                                <img
-                                                    src="{{ item.img }}"
-                                                    alt="{{ item. title }}"
-                                                    class="xl rounded">
-                                            </div>
-                                        {% endif %}
-                                        <h3 class="h4">
-                                            {% if item.url %}
-                                                <a class="stretched-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                                            {% endif %}
-                                        </h3>
-                                        {% if item.episode %}
-                                            <p class="small">
-                                                <span class="episode">Episode #{{ item.episode }}</span>
-                                            </p>
-                                        {% endif %}
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                            <div class="card">
+                                <div class="card-body">
+                                    {% if item.img %}
+                                    <div class="img fancy-2">
+                                        <img src="{{ item.img }}" alt="{{ item. title }}" class="xl rounded">
                                     </div>
+                                    {% endif %}
+                                    <h3 class="h4">
+                                        {% if item.url %}
+                                        <a class="stretched-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title
+                                            }}</a>
+                                        {% endif %}
+                                    </h3>
+                                    {% if item.episode %}
+                                    <p class="small">
+                                        <span class="episode">Episode #{{ item.episode }}</span>
+                                    </p>
+                                    {% endif %}
                                 </div>
                             </div>
+                        </div>
                         {% endfor %}
                     </div>
                     <a href="https://podcast.govfresh.com" class="btn btn-primary">Podcast</a>

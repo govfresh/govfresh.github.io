@@ -31,6 +31,9 @@ timezone: America/Los_Angeles
 last-modified-at:
 date-format: "%B %d, %Y at %I:%M %P %Z"
 
+# 404
+permalink: /404.html
+
 # Number limits
 books-number: 7
 dm-number: &dm-number 5

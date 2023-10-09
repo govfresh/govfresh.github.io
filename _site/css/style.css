@@ -300,6 +300,17 @@ main a:hover {
     border: var(--size-2) solid var(--color-5);
 }
 
+/*
+.post a, .post a:visited {
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(147, 85, 220, 1) calc(50% - 9px), rgba(147, 85, 220, 1) 100%);
+    transition: background-position 120ms ease-in-out 0s, padding 120ms ease-in-out 0s;
+    background-size: 100% 200%;
+    background-position: 0px 0px;
+    color: var(--color-4);
+    text-decoration: none;
+}
+*/
+
 blockquote {
     border-left: var(--size-4) solid var(--color-1);
     margin-left: var(--size-1);
@@ -1149,7 +1160,7 @@ h2.big {
     font-family: var(--font-1);
 }
 
-/* Real talk */
+/* Real talk
 
 .post-ask {
     padding-bottom: var(--size-10);
@@ -1191,3 +1202,4 @@ h2.big {
     font-family: var(--font-8);
     padding: var(--size-5) var(--size-1);
 }
+/*
