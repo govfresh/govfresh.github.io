@@ -1,6 +1,11 @@
 docs_list_title: podcast
 docs:
 
+ - title: Civic hacking with Carlos Moreno
+   url: https://podcast.govfresh.com/episode/civic-hacking-carlos-moreno
+   img: https://podcast.govfresh.com/assets/img/people/carlos-moreno.jpg
+   episode: 10
+
  - title: Civic hacking with Steve Spiker
    url: https://podcast.govfresh.com/episode/civic-hacking-steve-spiker
    img: https://podcast.govfresh.com/assets/img/people/steve-spiker.png
@@ -10,9 +15,4 @@ docs:
    url: https://podcast.govfresh.com/episode/how-government-can-bring-mindfulness-to-law-enforcement
    img: https://podcast.govfresh.com/assets/img/people/richard-goerling.jpg
    episode: 8
-
- - title: How government can design a human-centered social safety net
-   url: https://podcast.govfresh.com/episode/how-government-can-design-a-human-centered-social-safety-net
-   img: https://podcast.govfresh.com/assets/img/people/amanda-renteria.jpg
-   episode: 7
 
