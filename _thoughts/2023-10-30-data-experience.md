@@ -30,7 +30,7 @@ While this may seem like a minor inconvenience, these inconveniences add up. And
 
 In my recent experience, I've customer experienced Social Security, Medicare and the Internal Revenue Service, three key services managed by the U.S. government.
 
-One particular field is the "representative," where you designate people to act on your behalf. Each agency has asked for this, and each agency has a different process (and data fields) for managing how to get one designated. While a citizen may have representatives for each service, I imagine, in most cases, there is a uniform primary respresentative. Having the ability to designate a primary representative doesn't save just minutes on a form, but also the effort to track down the requisite information when it varies (such as a physical address).
+One particular data field is the "representative," where you designate people to act on your behalf. Each agency has asked for this, and each agency has a different process (and data fields) for managing how to get one designated. While a citizen may have representatives for each service, I imagine, in most cases, there is a uniform primary respresentative. Having the ability to designate a primary representative doesn't save just minutes on a form, but also the effort to track down the requisite information when it varies (such as a physical address).
 
 So, minutes turn into hours.
 
@@ -38,7 +38,7 @@ Now imagine having to re-designate a representative (and knowing where all this 
 
 For example, we scheduled a phone meeting with the local SSA office (in Virginia). When they called, the the SSA employee told me we could add representative payees online, which we did.
 
-I had another relative (my cousin), whom I added as a payee, help with updating the benefits. Because she was hung up on multiple times in the SSA phone tree, she decided to go to the physical local office near her (in Alabama). When her number was finally called, the SSA employee told her there were no representatives in "the system.” My cousin then called me, and the three of us talked via speakerphone. I explained to the employee that SSA.gov was “the system,” and that's where they're all designated. After talking with her manager for a while, she came back and said the Virginia local office does it differently than the Alabama one, and let's people do that online.
+I had another relative (my cousin), whom I added as a payee, help with updating the benefits. Because she was hung up on multiple times in the SSA phone tree, she decided to go to the physical local office near her (in Alabama). When her number was finally called, the SSA employee told her there were no representatives in "the system.” My cousin then called me, and the three of us talked via speakerphone. I explained to the employee that SSA.gov was “the system,” and that's where they're all designated. After talking with her manager for a while, she came back and said the Virginia local office does it differently than the Alabama one, and lets people do that online.
 
 Their system was different.
 
