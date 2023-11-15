@@ -65,20 +65,18 @@
         {% endif %}
         {% endfor %}
     </div>
-    {% elsif pull == "gamechangers" %}
-    <!-- Gamechangers -->
-    <div class="card-deck clean randomize">
-        {% assign limit = site.gamechangers-number | plus: 0 %}
+    {% elsif pull == "guides" %}
+    <!-- guides -->
+    <!-- guides secondary -->
+    <div class="card-deck clean"> {% assign limit = site.guides-number | plus: 0 %}
         {% assign amount = 1 %}
-        {% for item in site.gamechangers %}
-        <!-- Gamechangers secondary -->
-        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
-        limit > amount and title != item.title %}
-        {% include card-gamechangers.html level = "secondary" %}
+        {% for item in site.guides reversed %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
+        {% include card-guides.html level = "secondary" %}
         {% assign amount = amount | plus: 1 %}
-        <!-- Gamechangers primary -->
+        <!-- guides primary -->
         {% elsif page.short != "true" and title != "Government. Fresh." %}
-        {% include card-gamechangers.html %}
+        {% include card-guides.html %}
         {% assign amount = amount | plus: 1 %}
         {% endif %}
         {% endfor %}
@@ -96,23 +94,6 @@
         {% assign amount = amount | plus: 1 %}
         {% elsif page.short != "true" and title != "Government. Fresh." %}
         {% include card-reviews.html %}
-        {% assign amount = amount | plus: 1 %}
-        {% endif %}
-        {% endfor %}
-    </div>
-    {% elsif pull == "events" %}
-    <!-- Events -->
-    <!-- Events secondary -->
-    <div class="card-deck randomize"> {% assign limit = site.events-number | plus: 0 %}
-        {% assign amount = 1 %}
-        {% for item in site.events %}
-        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
-        limit > amount and title != item.title %}
-        <!-- Events primary -->
-        {% include card-events.html level = "secondary" %}
-        {% assign amount = amount | plus: 1 %}
-        {% elsif page.short != "true" and title != "Government. Fresh." %}
-        {% include card-events.html %}
         {% assign amount = amount | plus: 1 %}
         {% endif %}
         {% endfor %}

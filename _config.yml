@@ -38,6 +38,7 @@ permalink: /404.html
 books-number: 7
 dm-number: &dm-number 5
 labs-number: 3
+guides-number: &guides-number 3
 reviews-number: &reviews-number 4
 signal-number: &signal-number 2
 thoughts-number: &thoughts-number 4
@@ -79,6 +80,15 @@ defaults:
       img-path: "books"
       parent: "books"
       layout: "profile"
+      short: "true"
+  - scope:
+      path: "_guides"
+      type: "guides"
+    values:
+      folder: "Guides"
+      img-path: "posts"
+      parent: "guides"
+      layout: "guides"
       short: "true"
   - scope:
       path: "_people"
@@ -138,6 +148,9 @@ collections:
   dm:
     output: true
     permalink: /dm/:title
+  guides:
+    output: true
+    permalink: /guides/:title
   labs:
     output: true
     permalink: labs/:title
@@ -172,6 +185,9 @@ order:
   - 
     name: thoughts
     number: *thoughts-number
+#  - 
+#    name: guides
+#    number: *guides-number
   - 
     name: dm
     number: *dm-number

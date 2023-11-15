@@ -9,6 +9,7 @@ img-alt: ""
 img-caption: ""
 img-link: 
 category:
+  - Artificial intelligence
   - Civic hacking
   - Community
   - Culture

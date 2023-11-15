@@ -1,9 +1,71 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="mb-3">Topics</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 topics">
+            <ul class="list-unstyled">
+                {% for page in site.topics %}
+                {% if page.title != 'Template' %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+</div>
 {% include support.html %}
+<div class="bottom fixed-bottom p-1 text-right">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="nav-icons">
+                    {% if site.data.connect.linkedin %}
+                    <a class="nav-item" aria-label="Subscribe" href="{{ site.baseurl }}/subscribe/">
+                        <i class="{{ site.data.connect.subscribe }}"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.data.connect.linkedin %}
+                    <a aria-label="LinkedIn" class="nav-item" href="https://www.linkedin.com/company/govfresh">
+                        <i class="{{ site.data.connect.linkedin }}"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.data.connect.twitter %}
+                    <a aria-label="Twitter" class="nav-item" href="https://www.twitter.com/govfresh">
+                        <i class="{{ site.data.connect.twitter }}"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.data.connect.instagram %}
+                    <a aria-label="Instagram" class="nav-item" href="https://www.instagram.com/govfresh">
+                        <i class="{{ site.data.connect.instagram }}"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.data.connect.facebook %}
+                    <a aria-label="Facebook" class="nav-item" href="https://www.facebook.com/govfresh">
+                        <i class="{{ site.data.connect.facebook }}"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.data.connect.rss %}
+                    <a aria-label="RSS" class="nav-item" href="https://govfresh.com/feed.xml">
+                        <i class="{{ site.data.connect.rss }}"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <footer>
     <div class="footer">
         <div class="container">
+
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <ul class="list-unstyled">
                         {% for item in site.data.nav-footer-1.docs %}
                         {% if item.url %}
@@ -14,7 +76,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <ul class="list-unstyled">
                         {% for item in site.data.nav-footer-2.docs %}
                         {% if item.url %}
@@ -25,18 +87,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-sm-3">
-                    <ul class="list-unstyled">
-                        {% for page in site.topics %}
-                        {% if page.title != 'Template' %}
-                        <li>
-                            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class=" col-sm-3">
+                <div class=" col-sm-4">
                     <ul class="list-unstyled">
                         {% for item in site.data.nav-footer-3.docs %}
                         {% if item.url %}

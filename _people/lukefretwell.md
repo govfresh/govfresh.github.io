@@ -2,7 +2,7 @@
 title: Luke Fretwell
 description: Democracy and open, accessible technology.
 shortname: Luke
-bio-short: "Luke Fretwell is the founder of [GovFresh](https://govfresh.com) and co-founder and CEO of [ProudCity](https://proudcity.com)."
+bio-short: "Luke Fretwell is the founder and maintainer of [GovFresh](https://govfresh.com)."
 img: luke-fretwell.png
 img-feat: luke-fretwell.png
 img-alt: Luke Fretwell

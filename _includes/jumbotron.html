@@ -111,6 +111,49 @@
         </div>
     </div>
 </div>
+{% elsif page.layout == "guides" %}
+<div class="jumbotron">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h1 class="h2 mb-4">{{ page.title }}</h1>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                {% if page.img %}
+                <div class="img">
+                    <div class="mr-3">
+                        <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}" class="img-feat"
+                            alt="{{ page.img-alt }}">
+                    </div>
+                    {% if page.img-caption %}
+                    <p class="img-caption">
+                        {% if page.img-link %}
+                        <a href="{{ site.baseurl }}{{ page.img-link }}">
+                            {% endif %}
+                            {{ page.img-caption }}
+                            {% if page.img-link %}
+                        </a>
+                        {% endif %}
+                    </p>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="col-md-5">
+                {% if page.description %}
+                <p class="lead-line">{{ page.description }}</p>
+                {% include author.html %}
+                {% endif %}
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</div>
 {% elsif page.layout == "dm" %}
 <div class="jumbotron">
     <div class="container">
