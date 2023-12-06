@@ -18,7 +18,7 @@ feature: "true"
 
 The U.S. federal government is working to ensure those building artificial intelligence do so with good intentions. It's also proactively providing guidance on how agencies should document and responsibly use AI in its service to the public.
 
-The Biden Administratioin is [actively working with leading AI companies](https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/) "to uphold the highest standards to ensure that innovation doesn’t come at the expense of Americans’ rights and safety."
+The Biden Administration is [actively working with leading AI companies](https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/) "to uphold the highest standards to ensure that innovation doesn’t come at the expense of Americans’ rights and safety."
 
 As part of these efforts, the National Institute of Standards and Technology is charged with facilitating the conversation, supporting the [National AI Advisory Committee](https://ai.gov/naiac/), whose committee members include "experts with a broad and interdisciplinary range of AI-relevant experience from across the private sector, academia, non-profits, and civil society."
 

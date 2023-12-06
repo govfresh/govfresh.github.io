@@ -1,8 +1,11 @@
 ---
 title: Luke Fretwell
 description: Democracy and open, accessible technology.
+name: Luke
 shortname: Luke
-bio-short: "Luke Fretwell is the founder and maintainer of [GovFresh](https://govfresh.com)."
+bio-short: "Luke Fretwell is the founder and maintainer of GovFresh."
+position: Founder / maintainer
+org: GovFresh
 img: luke-fretwell.png
 img-feat: luke-fretwell.png
 img-alt: Luke Fretwell

@@ -13,7 +13,7 @@
     <!-- Books -->
     <!-- Books secondary -->
     <div class="preview-include">
-        <div class="card-deck">
+        <div class="card-group">
             {% assign limit = site.books-number | plus: 0 %}
             {% assign amount = 1 %}
             {% for x in site.books %}
@@ -34,7 +34,7 @@
     {% elsif pull == "radar" %}
     <!-- Radar -->
     <!-- Radar secondary -->
-    <div class="card-deck"> {% assign limit = site.radar-number | plus: 0 %}
+    <div class="card-group"> {% assign limit = site.radar-number | plus: 0 %}
         {% assign amount = 1 %}
         {% for item in site.posts %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
@@ -52,7 +52,7 @@
     {% elsif pull == "thoughts" %}
     <!-- Thoughts -->
     <!-- Thoughts secondary -->
-    <div class="card-deck clean"> {% assign limit = site.thoughts-number | plus: 0 %}
+    <div class="card-group"> {% assign limit = site.thoughts-number | plus: 0 %}
         {% assign amount = 1 %}
         {% for item in site.thoughts reversed %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
@@ -68,7 +68,7 @@
     {% elsif pull == "guides" %}
     <!-- guides -->
     <!-- guides secondary -->
-    <div class="card-deck clean"> {% assign limit = site.guides-number | plus: 0 %}
+    <div class="card-group"> {% assign limit = site.guides-number | plus: 0 %}
         {% assign amount = 1 %}
         {% for item in site.guides reversed %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
@@ -84,7 +84,7 @@
     {% elsif pull == "reviews" %}
     <!-- Reviews -->
     <!-- Reviews secondary -->
-    <div class="card-deck clean book"> {% assign limit = site.reviews-number | plus: 0 %}
+    <div class="card-group"> {% assign limit = site.reviews-number | plus: 0 %}
         {% assign amount = 1 %}
         {% for item in site.reviews reversed %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
@@ -100,7 +100,7 @@
     </div>
     <!-- People -->
     {% elsif pull == "people" %}
-    <div class="card-deck clean">
+    <div class="card-group">
         {% for item in site.people %}
         {% include card-people.html %}
         {% endfor %}
@@ -108,7 +108,7 @@
     {% elsif pull == "pitches" %}
     <!-- Pitches -->
     <!-- Pitches secondary -->
-    <div class="card-deck clean randomize"> {% assign limit = site.pitches-number | plus: 0 %}
+    <div class="card-group randomize"> {% assign limit = site.pitches-number | plus: 0 %}
         {% assign amount = 1 %}
         {% for item in site.pitches %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
@@ -125,7 +125,7 @@
     {% elsif pull == "podcasts" %}
     <!-- Podcasts -->
     <!-- Podcasts secondary -->
-    <div class="card-deck randomize"> {% assign limit = site.podcasts-number | plus: 0 %}
+    <div class="card-group randomize"> {% assign limit = site.podcasts-number | plus: 0 %}
         {% assign amount = 1 %}
         {% for item in site.podcasts %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
@@ -141,7 +141,7 @@
         {% elsif pull == "industry" %}
         <!-- Industry -->
         <!-- Industry secondary -->
-        <div class="card-deck clean"> {% assign limit = site.industry-number | plus: 0 %}
+        <div class="card-group clean"> {% assign limit = site.industry-number | plus: 0 %}
             {% assign amount = 1 %}
             {% for item in site.industry %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
@@ -158,7 +158,7 @@
         {% elsif pull == "orgs" %}
         <!-- Orgs -->
         <!-- Orgs secondary -->
-        <div class="card-deck randomize"> {% assign limit = site.orgs-number | plus: 0 %}
+        <div class="card-group randomize"> {% assign limit = site.orgs-number | plus: 0 %}
             {% assign amount = 1 %}
             {% for item in site.orgs %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
@@ -175,7 +175,7 @@
         {% elsif pull == "labs" %}
         <!-- Labs -->
         <!-- Labs secondary -->
-        <div class="card-deck clean"> {% assign limit = site.labs-number | plus: 0 %}
+        <div class="card-group clean"> {% assign limit = site.labs-number | plus: 0 %}
             {% assign amount = 1 %}
             {% for item in site.labs %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
@@ -192,7 +192,7 @@
         {% elsif pull == "ideas" %}
         <!-- Ideas -->
         <!-- Ideas secondary -->
-        <div class="card-deck"> {% assign limit = site.ideas-number | plus: 0 %}
+        <div class="card-group"> {% assign limit = site.ideas-number | plus: 0 %}
             {% assign amount = 1 %}
             {% for item in site.ideas %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
@@ -209,7 +209,7 @@
         {% elsif pull == "ask" %}
         <!-- Ask -->
         <!-- Ask secondary -->
-        <div class="card-deck randomize clean"> {% assign limit = site.innovations-number | plus: 0 %}
+        <div class="card-group randomize clean"> {% assign limit = site.innovations-number | plus: 0 %}
             {% assign amount = 1 %}
             {% for item in site.ask %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
@@ -226,7 +226,7 @@
         {% elsif pull == "innovations" %}
         <!-- Innovations -->
         <!-- Innovations secondary -->
-        <div class="card-deck randomize clean"> {% assign limit = site.innovations-number | plus: 0 %}
+        <div class="card-group randomize clean"> {% assign limit = site.innovations-number | plus: 0 %}
             {% assign amount = 1 %}
             {% for item in site.innovations %}
             {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh."
@@ -244,7 +244,7 @@
         <!-- TLDR -->
         <h2>TL;DR</h2>
         <p class="lead">Too long, didn't read</p>
-        <div class="card-deck clean">
+        <div class="card-group clean">
             {% for item in site.data.icons.docs %}
             {% include card-tldr.html %}
             {% endfor %}
@@ -252,7 +252,7 @@
         {% elsif pull == "feeds" %}
         <!-- Feeds -->
         <div class="col-12">
-            <div class="card-deck">
+            <div class="card-group">
                 {% for item in site.data.feeds.docs %}
                 {% include card-feeds.html %}
                 {% endfor %}
@@ -260,7 +260,7 @@
         </div>
         {% elsif pull == "dm" %}
         <!-- DM -->
-        <div class="card-deck clean">
+        <div class="card-group clean">
             {% unless title == "Government. Fresh." or page.short == "true" %}
             {% assign limit = site.dm | size | plus: 2 %}
             {% else %}
@@ -276,7 +276,7 @@
         </div>
         {% elsif pull == "dm" %}
         <!-- DM -->
-        <div class="card-deck clean">
+        <div class="card-group clean">
             {% unless title == "Government. Fresh." or page.short == "true" %}
             {% assign limit = site.dm | size | plus: 2 %}
             {% else %}

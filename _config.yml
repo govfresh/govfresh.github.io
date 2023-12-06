@@ -41,7 +41,7 @@ labs-number: 3
 guides-number: &guides-number 3
 reviews-number: &reviews-number 4
 signal-number: &signal-number 2
-thoughts-number: &thoughts-number 4
+thoughts-number: &thoughts-number 9
 
 # Defaults
 defaults:
@@ -191,10 +191,10 @@ order:
   - 
     name: dm
     number: *dm-number
-  - 
-    name: signal
-    site-name: posts
-    number: *signal-number  
+#  - 
+#    name: signal
+#    site-name: posts
+#    number: *signal-number  
   - 
     name: reviews
     number: *reviews-number

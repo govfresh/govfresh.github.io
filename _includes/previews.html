@@ -4,14 +4,15 @@
     {% for loop in site.pages %}
     {% if include.show-only %}
     {% if loop.parent == page.parent and show != "true" %}
-    <div class="preview">
+    <div class="border-top pt-5 pb-3">
         {% assign show = "true" %}
         <h2>{{ loop.title }}</h2>
         <p class="lead">{{ loop.description }}</p>
         {% if true %}
         {% include cards.html page=loop.parent page-title=title %}
         {% endif %}
-        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-sm btn-primary">{{ loop.title }}</a>
+        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm">{{ loop.title
+            }}</a>
     </div>
     {% endif %}
     {% else %}
@@ -20,7 +21,8 @@
         <p class="lead">{{ loop.description }}</p>
         {% assign page = loop %}
         {% include cards.html page-title=title %}
-        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-sm btn-primary">{{ loop.title }}</a>
+        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm">{{ loop.title
+            }}</a>
     </div>
     {% endif %}
     {% endfor %}
@@ -29,7 +31,7 @@
 <script>
     if (
         !document
-            .querySelector("div.cards-include > div.card-deck")
+            .querySelector("div.cards-include > div.card-group")
             .innerHTML
             .includes("<")
     ) {

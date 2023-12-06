@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 
 <head>
     <!-- Meta tags -->
@@ -40,16 +40,19 @@
     <meta name="twitter:card" content="summary_large_image">
     <!-- CSS -->
     <!-- Bootstrap core CSS -->
-<!-- Old Bootstrap -->
+<!-- Old Bootstrap
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<!-- New Bootstrap
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+<!-- New Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <!-- Custom CSS -->
 <link href="/css/style.css" rel="stylesheet">
-<!-- Responsive CSS -->
-<link href="/css/responsive.css" rel="stylesheet">
+<!-- Responsive CSS
+<link href="/css/responsive.css" rel="stylesheet"> -->
+<!-- Dark CSS
 <link href="/css/dark.css" rel="stylesheet">
+ -->
+<script src="https://kit.fontawesome.com/4d1cd460a8.js" crossorigin="anonymous"></script>
     <!-- Fonts -->
     <!-- Font Awesome -->
 <link href="/assets/font-awesome/css/all.css" rel="stylesheet">
@@ -60,78 +63,93 @@
     <![endif]-->
 </head>
 
-<body class="">
+<body class="" data-bs-theme="dark">
     <a class="sr-only sr-only-focusable skip-link" href="#main-content">
         Skip to main content
     </a>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="logo">
-        <a class="navbar-brand" href="/">
-            <img src="http://localhost:4000/assets/img/logo.svg" alt="GovFresh">
-        </a>
-    </div>
-    <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
-        class="navbar-toggler ml-auto" data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-auto">
-        </div>
-        <div class="navbar-nav ml-auto">
-            
-            
-            <a class="nav-item nav-link "
-                href="/thoughts/">Thoughts</a>
-            
-            
-            
-            <a class="nav-item nav-link "
-                href="/dm/">DM</a>
-            
-            
-            
-            <a class="nav-item nav-link "
-                href="/signal/">Signal</a>
-            
-            
-            
-            <a class="nav-item nav-link "
-                href="/reviews/">Reviews</a>
-            
-            
-            
-            <a class="nav-item nav-link "
-                href="https://podcast.govfresh.com">Podcast</a>
-            
-            
-            
-            <a class="nav-item nav-link "
-                href="/community/">Community</a>
-            
-            
-            
-            <a class="nav-item nav-link "
-                href="/labs/">Labs</a>
-            
-            
+<div class="border-bottom gradient">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 pt-3 pb-3">
+                <a class="navbar-brand" href="/">
+                    <img src="http://localhost:4000/assets/img/logo.svg" alt="GovFresh">
+                </a>
+            </div>
+            <div class="col-6 pt-3 pb-3">
+                <a class="" href="javascript:void(0);"
+                    onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')"><i
+                        class="fa-solid fa-sun float-end"></i></a>
+            </div>
         </div>
     </div>
-</nav>
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li aria-current="page" class="breadcrumb-item">
-            <a href="//"></a>
-        </li>
-    </ol>
-</nav>
-
+</div>
+<div class="border-bottom gradient">
+    <div class="container">
+        <nav class="navbar navbar-expand-xl">
+            <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler ml-auto" data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mr-auto">
+                </div>
+                <div class="navbar-nav">
+                    
+                    
+                    <a class="nav-item nav-link "
+                        href="/thoughts/">Thoughts</a>
+                    
+                    
+                    
+                    <a class="nav-item nav-link "
+                        href="/dm/">DM</a>
+                    
+                    
+                    
+                    <a class="nav-item nav-link "
+                        href="https://podcast.govfresh.com">Podcast</a>
+                    
+                    
+                    
+                    <a class="nav-item nav-link "
+                        href="/reviews/">Reviews</a>
+                    
+                    
+                    
+                    <a class="nav-item nav-link "
+                        href="/community/">Community</a>
+                    
+                    
+                    
+                    <a class="nav-item nav-link "
+                        href="/labs/">Labs</a>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mt-4 mb-0 pb-0">
+                    <li aria-current="page" class="breadcrumb-item">
+                        <a href="//" class=""></a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
 <main>
     
-<div class="jumbotron">
+<div class="pt-5 pb-4 mb-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="h2">Open</h1>
+                <h1 class="display-4">Open</h1>
                 
                 
             </div>
@@ -144,123 +162,128 @@
             <div class="col-sm-12">
                 <div class="home-include">
                     
-                        
-                        
-                        
-                            
-                            
-                            <div
-                                class="preview  books">
-                                <h2>
-                                    
-                                        Books
-                                    
-                                </h2>
-                                <div
-                                    class="card-deck ">
-                                    
-                                        
-    <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                
-                    <img class="card-img-top shadow sm" src="/assets/img/books/working-in-public.jpg" alt="">
-                
-                <h3 class="h6">
-                    <a href="/books/working-in-public" class="stretched-link">Working in Public</a>
-                </h3>
-                <p>Nadia Eghbal</p>
-            </div>
-        </div>
-    </div>
-
-                                    
-                                        
-    <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                
-                    <img class="card-img-top shadow sm" src="/assets/img/books/open-organization.jpg" alt="">
-                
-                <h3 class="h6">
-                    <a href="/books/open-organization" class="stretched-link">The Open Organization</a>
-                </h3>
-                <p>Jim Whitehurst</p>
-            </div>
-        </div>
-    </div>
-
-                                    
-                                        
-    <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                
-                    <img class="card-img-top shadow sm" src="/assets/img/books/cult-of-the-dead-cow.jpg" alt="">
-                
-                <h3 class="h6">
-                    <a href="/books/cult-of-the-dead-cow" class="stretched-link">Cult of the Dead Cow</a>
-                </h3>
-                <p>Joseph Menn</p>
-            </div>
-        </div>
-    </div>
-
-                                    
-                                        
-    <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                
-                    <img class="card-img-top shadow sm" src="/assets/img/books/civic-technologists-practice-guide.webp" alt="Cover of 'A Civic Technologist's Practice Guide'">
-                
-                <h3 class="h6">
-                    <a href="/books/civic-technologists-practice-guide" class="stretched-link">A Civic Technologist's Practice Guide</a>
-                </h3>
-                <p>Cyd Harrell</p>
-            </div>
-        </div>
-    </div>
-
-                                    
-                                        
-    <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                
-                    <img class="card-img-top shadow sm" src="/assets/img/books/citizens.jpg" alt="Cover of 'Citizens'">
-                
-                <h3 class="h6">
-                    <a href="/books/citizens" class="stretched-link">Citizens</a>
-                </h3>
-                <p>Jon Alexander, Ariane Conrad</p>
-            </div>
-        </div>
-    </div>
-
-                                    
-                                </div>
-                            </div>
-                        
                     
-                        
-                        
-                        
+                    
+                    
+                    
+                    
+                    <div
+                        class="preview  books">
+                        <h2>
+                            
+                            Books
+                            
+                        </h2>
+                        <div
+                            class="card-group ">
                             
                             
-                            <div
-                                class="preview fancy-top dm">
-                                <h2>
-                                    
-                                        Direct message
-                                    
-                                </h2>
-                                <div
-                                    class="card-deck ">
-                                    
-                                        <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <div class="card">
-        <div class="card-body fancy-2">
+<div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
+            
+            <img class="card-img-top shadow sm"
+                src="/assets/img/books/working-in-public.jpg" alt="">
+            
+            <h3 class="h6">
+                <a href="/books/working-in-public" class="stretched-link">Working in Public</a>
+            </h3>
+            <p>Nadia Eghbal</p>
+        </div>
+    </div>
+</div>
+
+                            
+                            
+<div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
+            
+            <img class="card-img-top shadow sm"
+                src="/assets/img/books/open-organization.jpg" alt="">
+            
+            <h3 class="h6">
+                <a href="/books/open-organization" class="stretched-link">The Open Organization</a>
+            </h3>
+            <p>Jim Whitehurst</p>
+        </div>
+    </div>
+</div>
+
+                            
+                            
+<div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
+            
+            <img class="card-img-top shadow sm"
+                src="/assets/img/books/cult-of-the-dead-cow.jpg" alt="">
+            
+            <h3 class="h6">
+                <a href="/books/cult-of-the-dead-cow" class="stretched-link">Cult of the Dead Cow</a>
+            </h3>
+            <p>Joseph Menn</p>
+        </div>
+    </div>
+</div>
+
+                            
+                            
+<div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
+            
+            <img class="card-img-top shadow sm"
+                src="/assets/img/books/civic-technologists-practice-guide.webp" alt="Cover of 'A Civic Technologist's Practice Guide'">
+            
+            <h3 class="h6">
+                <a href="/books/civic-technologists-practice-guide" class="stretched-link">A Civic Technologist's Practice Guide</a>
+            </h3>
+            <p>Cyd Harrell</p>
+        </div>
+    </div>
+</div>
+
+                            
+                            
+<div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
+            
+            <img class="card-img-top shadow sm"
+                src="/assets/img/books/citizens.jpg" alt="Cover of 'Citizens'">
+            
+            <h3 class="h6">
+                <a href="/books/citizens" class="stretched-link">Citizens</a>
+            </h3>
+            <p>Jon Alexander, Ariane Conrad</p>
+        </div>
+    </div>
+</div>
+
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div
+                        class="preview fancy-top dm">
+                        <h2>
+                            
+                            Direct message
+                            
+                        </h2>
+                        <div
+                            class="card-group ">
+                            
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
             
             <img class="card-img-top rounded-circle line sm" type="Direct message"
                 src="/assets/img/people/ryan-wold.png" alt="Headshot of Ryan Wold">
@@ -268,14 +291,14 @@
             <h2 class="h4">
                 <a href="/dm/ryan-wold" class="stretched-link">Ryan Wold</a>
             </h2>
-            <p class="small">Public servant</p>
+            <p class="text-body-secondary"><small>Public servant</small></p>
         </div>
     </div>
 </div>
-                                    
-                                        <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <div class="card">
-        <div class="card-body fancy-2">
+                            
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
             
             <img class="card-img-top rounded-circle line sm" type="Direct message"
                 src="/assets/img/people/jarah-meador.jpg" alt="Headshot of Jarah Meador">
@@ -283,14 +306,14 @@
             <h2 class="h4">
                 <a href="/dm/jarah-meador" class="stretched-link">Jarah Meador</a>
             </h2>
-            <p class="small">Director of Challenge.Gov + CitizenScience.Gov</p>
+            <p class="text-body-secondary"><small>Director of Challenge.Gov + CitizenScience.Gov</small></p>
         </div>
     </div>
 </div>
-                                    
-                                        <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <div class="card">
-        <div class="card-body fancy-2">
+                            
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
             
             <img class="card-img-top rounded-circle line sm" type="Direct message"
                 src="/assets/img/people/rebecca-woodbury.jpg" alt="Headshot of Rebecca Woodbury">
@@ -298,14 +321,14 @@
             <h2 class="h4">
                 <a href="/dm/rebecca-woodbury" class="stretched-link">Rebecca Woodbury</a>
             </h2>
-            <p class="small">Local gov content strategist</p>
+            <p class="text-body-secondary"><small>Local gov content strategist</small></p>
         </div>
     </div>
 </div>
-                                    
-                                        <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <div class="card">
-        <div class="card-body fancy-2">
+                            
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
             
             <img class="card-img-top rounded-circle line sm" type="Direct message"
                 src="/assets/img/people/angie-quirarte.jpg" alt="Angie Quirarte">
@@ -313,142 +336,134 @@
             <h2 class="h4">
                 <a href="/dm/angie-quirarte" class="stretched-link">Angie Quirarte</a>
             </h2>
-            <p class="small">Civic techie, bureaucracy hacker, dot connecter</p>
+            <p class="text-body-secondary"><small>Civic techie, bureaucracy hacker, dot connecter</small></p>
         </div>
     </div>
 </div>
-                                    
-                                </div>
-                            </div>
-                        
+                            
+                        </div>
+                    </div>
                     
-                        
-                        
-                        
                     
-                        
-                        
-                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div
+                        class="preview fancy-top labs">
+                        <h2>
+                            
+                            Labs
+                            
+                        </h2>
+                        <div
+                            class="card-group ">
                             
                             
-                            <div
-                                class="preview fancy-top labs">
-                                <h2>
-                                    
-                                        Labs
-                                    
-                                </h2>
-                                <div
-                                    class="card-deck ">
-                                    
-                                        
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                <div class="icon">
-                    <i class="fa-solid fa-flag fa-3x"></i>
-                </div>
-                <h3>
-                    <a href="/labs/usa-govfresh" class="stretched-link">USA.GovFresh</a>
-                </h3>
-                <p class="description">Re-imagining USA.gov.</p>
-            </div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+    <div class="card mb-3">
+        <div class="card-body">
+            <i class="fa-solid fa-flag fa-3x"></i>
+            <h3>
+                <a href="/labs/usa-govfresh" class="stretched-link">USA.GovFresh</a>
+            </h3>
+            <p class="">Re-imagining USA.gov.</p>
         </div>
     </div>
+</div>
 
-                                    
-                                </div>
-                            </div>
-                        
+                            
+                        </div>
+                    </div>
                     
-                        
-                        
-                        
                     
-                        
-                        
-                        
                     
-                        
-                        
-                        
                     
-                        
-                        
-                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div
+                        class="preview fancy-top signal">
+                        <h2>
+                            Signal
+                            
+                        </h2>
+                        <div
+                            class="card-group ">
                             
                             
-                            <div
-                                class="preview fancy-top signal">
-                                <h2>
-                                    Signal
-                                    
-                                </h2>
-                                <div
-                                    class="card-deck ">
-                                    
-                                        
-<div class="col-12 col-sm-12">
-    <div class="card-body">
-        <div class="fancy-2 img">
-            <img src="/assets/img/posts/signal-feat.png"
-                class="rounded lg float-left mr-4 mb-4 line-2" alt="Icon of satellite dish">
-        </div>
-        <h3 class="h3">
-            <a href="/signal/welcome-govfresh-signal" class="stretched-link">Welcome to GovFresh Signal</a>
-        </h3>
-        <p>Subscribe to the official GovFresh newsletter.</p>
-        <p class="small"><span class="date">
+<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+    <img src="/assets/img/posts/signal-feat.png" class="lg" alt="Icon of satellite dish">
+</div>
+<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+    <h3 class="h3">
+        <a href="/signal/welcome-govfresh-signal" class="">Welcome to GovFresh Signal</a>
+    </h3>
+    <p>Subscribe to the official GovFresh newsletter.</p>
+    <p class="small"><span class="date">
     
         December 7, 2022
     
 </span></p>
-    </div>
 </div>
 
-                                    
-                                        
-<div class="col-12 col-sm-12">
-    <div class="card-body">
-        <div class="fancy-2 img">
-            <img src="/assets/img/posts/signal-feat.png"
-                class="rounded lg float-left mr-4 mb-4 line-2" alt="Icon of satellite dish">
-        </div>
-        <h3 class="h3">
-            <a href="/signal/rfi-open-source-security" class="stretched-link">White House wants your input on open source software security</a>
-        </h3>
-        <p>A 'civic opportunity to help shape the government’s thinking about open-source software security.'</p>
-        <p class="small"><span class="date">
+                            
+                            
+<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+    <img src="/assets/img/posts/signal-feat.png" class="lg" alt="Icon of satellite dish">
+</div>
+<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+    <h3 class="h3">
+        <a href="/signal/rfi-open-source-security" class="">White House wants your input on open source software security</a>
+    </h3>
+    <p>A 'civic opportunity to help shape the government’s thinking about open-source software security.'</p>
+    <p class="small"><span class="date">
     
         August 18, 2023
     
 </span></p>
-    </div>
 </div>
 
-                                    
-                                </div>
-                            </div>
-                        
+                            
+                        </div>
+                    </div>
                     
-                        
-                        
-                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div
+                        class="preview fancy-top reviews">
+                        <h2>
+                            
+                            Reviews
+                            
+                        </h2>
+                        <div
+                            class="card-group ">
                             
                             
-                            <div
-                                class="preview fancy-top reviews">
-                                <h2>
-                                    
-                                        Reviews
-                                    
-                                </h2>
-                                <div
-                                    class="card-deck ">
-                                    
-                                        
 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+    <div class="card mb-3">
         <div class="card-body">
             
             <img class="card-img-top xs shadow"
@@ -457,192 +472,178 @@
             <h2 class="h5">
                 <a href="/reviews/review-civic-technologists-practice-guide" class="stretched-link">Review: A Civic Technologist's Practice Guide</a>
             </h2>
-            <p class="small">A must-read for the entire civic spectrum.</p>
+            <p class="small text-body-secondary">A must-read for the entire civic spectrum.</p>
         </div>
     </div>
 </div>
 
-                                    
-                                </div>
-                            </div>
-                        
+                            
+                        </div>
+                    </div>
                     
-                        
-                        
-                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div
+                        class="preview fancy-top thoughts">
+                        <h2>
+                            
+                            Thoughts
+                            
+                        </h2>
+                        <div
+                            class="card-group ">
                             
                             
-                            <div
-                                class="preview fancy-top thoughts">
-                                <h2>
-                                    
-                                        Thoughts
-                                    
-                                </h2>
-                                <div
-                                    class="card-deck ">
-                                    
-                                        
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+<div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-4 mx-2">
+        <div class="card-img-top">
+            <img alt="OpenAI logo" class="xxl" src="/assets/img/posts/openai-feat.png">
+        </div>
         <div class="card-body">
-            <div class="img">
-                <img alt="OpenAI logo" class="xl line-2 img-feat"
-                    src="/assets/img/posts/openai-feat.png">
-            </div>
-            <h2 class="h4">
+            <h2 class="h5">
                 <a href="/thoughts/how-government-can-support-better-ai" class="stretched-link">How government can help build a better OpenAI, ChatGPT and AI in general</a>
             </h2>
-            <p class="small">Beyond policy, proactive engagement and better data management will make government a good steward and partner in responsible artificial intelligence efforts.</p>
-            
-            <p>
-                <span class="author">Luke Fretwell</span>
-            </p>
-            
         </div>
+        
+        <div class="card-footer text-body-secondary small">
+            <small>By Luke Fretwell</small>
+        </div>
+        
     </div>
 </div>
 
-                                    
-                                        
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+                            
+                            
+<div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-4 mx-2">
+        <div class="card-img-top">
+            <img alt="Code icon" class="xxl" src="/assets/img/posts/civic-hacking-feat.png">
+        </div>
         <div class="card-body">
-            <div class="img">
-                <img alt="Code icon" class="xl line-2 img-feat"
-                    src="/assets/img/posts/civic-hacking-feat.png">
-            </div>
-            <h2 class="h4">
+            <h2 class="h5">
                 <a href="/thoughts/civic-hacking" class="stretched-link">Civic hacking</a>
             </h2>
-            <p class="small">The soul and grassroots foundation of democracy.</p>
-            
-            <p>
-                <span class="author">Luke Fretwell</span>
-            </p>
-            
         </div>
+        
+        <div class="card-footer text-body-secondary small">
+            <small>By Luke Fretwell</small>
+        </div>
+        
     </div>
 </div>
 
-                                    
-                                        
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+                            
+                            
+<div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-4 mx-2">
+        <div class="card-img-top">
+            <img alt="Classical building icon" class="xxl" src="/assets/img/posts/open-civic-organizations-feat.png">
+        </div>
         <div class="card-body">
-            <div class="img">
-                <img alt="Classical building icon" class="xl line-2 img-feat"
-                    src="/assets/img/posts/open-civic-organizations-feat.png">
-            </div>
-            <h2 class="h4">
+            <h2 class="h5">
                 <a href="/thoughts/open-civic-organizations" class="stretched-link">Open civic organizations</a>
             </h2>
-            <p class="small">How government agencies, academia, nonprofit organizations and public sector vendors can build open, participatory models of operating.</p>
-            
-            <p>
-                <span class="author">Luke Fretwell</span>
-            </p>
-            
         </div>
+        
+        <div class="card-footer text-body-secondary small">
+            <small>By Luke Fretwell</small>
+        </div>
+        
     </div>
 </div>
 
-                                    
-                                        
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+                            
+                            
+<div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-4 mx-2">
+        <div class="card-img-top">
+            <img alt="Icon of a document file with right corner folded down" class="xxl" src="/assets/img/posts/readme-feat.png">
+        </div>
         <div class="card-body">
-            <div class="img">
-                <img alt="Icon of a document file with right corner folded down" class="xl line-2 img-feat"
-                    src="/assets/img/posts/readme-feat.png">
-            </div>
-            <h2 class="h4">
+            <h2 class="h5">
                 <a href="/thoughts/government-readme" class="stretched-link">Government README</a>
             </h2>
-            <p class="small">A simple practice can help give clarity to public sector projects and services, and how those impacted can engage with them.</p>
-            
-            <p>
-                <span class="author">Luke Fretwell</span>
-            </p>
-            
         </div>
+        
+        <div class="card-footer text-body-secondary small">
+            <small>By Luke Fretwell</small>
+        </div>
+        
     </div>
 </div>
 
-                                    
-                                        
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+                            
+                            
+<div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-4 mx-2">
+        <div class="card-img-top">
+            <img alt="Git icons" class="xxl" src="/assets/img/posts/git-feat.png">
+        </div>
         <div class="card-body">
-            <div class="img">
-                <img alt="Git icons" class="xl line-2 img-feat"
-                    src="/assets/img/posts/git-feat.png">
-            </div>
-            <h2 class="h4">
+            <h2 class="h5">
                 <a href="/thoughts/git-government" class="stretched-link">Git government</a>
             </h2>
-            <p class="small">True democracy – and great technology – is organic, collaborative, participatory, responsive, iterative, adaptive.</p>
-            
-            <p>
-                <span class="author">Luke Fretwell</span>
-            </p>
-            
         </div>
+        
+        <div class="card-footer text-body-secondary small">
+            <small>By Luke Fretwell</small>
+        </div>
+        
     </div>
 </div>
 
-                                    
-                                        
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+                            
+                            
+<div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-4 mx-2">
+        <div class="card-img-top">
+            <img alt="Circle laurel icon" class="xxl" src="/assets/img/posts/virtuous-civic-circle-feat.png">
+        </div>
         <div class="card-body">
-            <div class="img">
-                <img alt="Circle laurel icon" class="xl line-2 img-feat"
-                    src="/assets/img/posts/virtuous-civic-circle-feat.png">
-            </div>
-            <h2 class="h4">
+            <h2 class="h5">
                 <a href="/thoughts/virtuous-civic-circle" class="stretched-link">Virtuous civic circle</a>
             </h2>
-            <p class="small">By adopting a simple public engagement framework, we can build a more inspired government, together.</p>
-            
-            <p>
-                <span class="author">Luke Fretwell</span>
-            </p>
-            
         </div>
+        
+        <div class="card-footer text-body-secondary small">
+            <small>By Luke Fretwell</small>
+        </div>
+        
     </div>
 </div>
 
-                                    
-                                        
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+                            
+                            
+<div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 d-flex align-items-stretch">
+    <div class="card mb-4 mx-2">
+        <div class="card-img-top">
+            <img alt="RSS icon" class="xxl" src="/assets/img/posts/rss-feat.png">
+        </div>
         <div class="card-body">
-            <div class="img">
-                <img alt="RSS icon" class="xl line-2 img-feat"
-                    src="/assets/img/posts/rss-feat.png">
-            </div>
-            <h2 class="h4">
+            <h2 class="h5">
                 <a href="/thoughts/rss-government" class="stretched-link">RSS government</a>
             </h2>
-            <p class="small">Defaulting to an open protocol to syndicate government information makes public communications universally accessible.</p>
-            
-            <p>
-                <span class="author">Luke Fretwell</span>
-            </p>
-            
         </div>
+        
+        <div class="card-footer text-body-secondary small">
+            <small>By Luke Fretwell</small>
+        </div>
+        
     </div>
 </div>
 
-                                    
-                                </div>
-                            </div>
-                        
+                            
+                        </div>
+                    </div>
                     
-                        
-                        
-                        
+                    
+                    
+                    
+                    
                     
                     
                     
@@ -653,7 +654,7 @@
     </div>
 </main>
 
-<div class="container">
+<!--<div class="container">
     <div class="row">
         <div class="col-12">
             <h2 class="mb-3">Topics</h2>
@@ -730,81 +731,228 @@
                 
                 
             </ul>
-
         </div>
     </div>
 </div>
-<div class="alert alert-light">
-    <div class="container">
-        <div class="row">
-            <div class=" col-sm-4">
-                <h4 class="h7">Support</h4>
-                <p>Thank you for supporting our work.</p>
-                <p>
-                    <a href="/support" class="btn btn-primary btn-sm">Support</a>
-                </p>
-            </div>
-            <div class=" col-sm-4">
-                <h4 class="h7">Subscribe</h4>
-                <p>Stay updated.</p>
-                <p>
-                    <a href="/subscribe" class="btn btn-primary btn-sm">Subscribe</a>
-                </p>
-            </div>
-            <div class=" col-sm-4">
-                <h4 class="h7">Suggest</h4>
-                <p>Help make GovFresh better.</p>
-                <p>
-                    <a href="/suggest" class="btn btn-primary btn-sm">Suggest</a>
-                </p>
-            </div>
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-sm-4">
+            <h4 class="h7">Support</h4>
+            <p>Thank you for supporting our work.</p>
+            <p>
+                <a href="/support" class="btn btn-primary btn-sm">Support</a>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="h7">Subscribe</h4>
+            <p>Stay updated.</p>
+            <p>
+                <a href="/subscribe" class="btn btn-primary btn-sm">Subscribe</a>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h4 class="h7">Suggest</h4>
+            <p>Help make GovFresh better.</p>
+            <p>
+                <a href="/suggest" class="btn btn-primary btn-sm">Suggest</a>
+            </p>
         </div>
     </div>
 </div>
+-->
+<button id="backToTopBtn" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></button>
+<!--
 <div class="bottom fixed-bottom p-1 text-right">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="nav-icons">
-                    
-                    <a class="nav-item" aria-label="Subscribe" href="/subscribe/">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                    
-                    
-                    <a aria-label="LinkedIn" class="nav-item" href="https://www.linkedin.com/company/govfresh">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    
-                    
-                    <a aria-label="Twitter" class="nav-item" href="https://www.twitter.com/govfresh">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    
-                    
-                    <a aria-label="Instagram" class="nav-item" href="https://www.instagram.com/govfresh">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    
-                    
-                    <a aria-label="Facebook" class="nav-item" href="https://www.facebook.com/govfresh">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    
-                    
-                    <a aria-label="RSS" class="nav-item" href="https://govfresh.com/feed.xml">
-                        <i class="fas fa-rss"></i>
-                    </a>
-                    
+                    <div class="d-none d-sm-block">
+                        <a class="nav-item nav-link" href="javascript:void(0);"
+                            onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')"><i
+                                class="fa-solid fa-sun"></i></a>
+                        
+                        <a class="nav-item" aria-label="Subscribe" href="/subscribe/">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        
+                        
+                        <a aria-label="LinkedIn" class="nav-item" href="https://www.linkedin.com/company/govfresh">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        
+                        
+                        <a aria-label="Twitter" class="nav-item" href="https://www.twitter.com/govfresh">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        
+                        
+                        <a aria-label="Instagram" class="nav-item" href="https://www.instagram.com/govfresh">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        
+                        
+                        <a aria-label="Facebook" class="nav-item" href="https://www.facebook.com/govfresh">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        
+                        
+                        <a aria-label="RSS" class="nav-item" href="https://govfresh.com/feed.xml">
+                            <i class="fas fa-rss"></i>
+                        </a>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+-->
 <footer>
-    <div class="footer">
+    <div class="gradient border-top mt-5 py-5">
         <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer-connect">
+                        
+<!-- Footer -->
 
+
+<li class="list-inline-item">
+    <a href="https://govfresh.com" aria-label="Website" class="">
+        <i class="fas fa-window-maximize fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="mailto:contact@govfresh.com" aria-label="Email" class="">
+        <i class="fas fa-at fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://govfresh.com/subscribe" aria-label="Subscribe" class="">
+        <i class="fa-solid fa-envelope fa-lg"></i>
+    </a>
+</li>
+
+
+
+
+
+<li class="list-inline-item">
+    <a href="https://twitter.com/govfresh" aria-label="Twitter" class="">
+        <i class="fab fa-x-twitter fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://www.linkedin.com/company/govfresh" aria-label="LinkedIn" class="">
+        <i class="fab fa-linkedin-in fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://www.facebook.com/govfresh" aria-label="Facebook" class="">
+        <i class="fab fa-facebook fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://github.com/govfresh" aria-label="GitHub" class="">
+        <i class="fab fa-github fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://medium.com/govfresh" aria-label="Medium" class="">
+        <i class="fab fa-medium fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://www.youtube.com/channel/UC7JD3sabR2sD_86QO3XTp5w" aria-label="YouTube" class="">
+        <i class="fab fa-youtube fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://instagram.com/govfresh" aria-label="Instagram" class="">
+        <i class="fa-brands fa-instagram fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://www.flickr.com/photos/govfresh/" aria-label="Flickr" class="">
+        <i class="fab fa-flickr fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://www.figma.com/@govfresh" aria-label="Figma" class="">
+        <i class="fab fa-figma fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://govfresh.tumblr.com/" aria-label="Tumblr" class="">
+        <i class="fab fa-tumblr fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1468169431" aria-label="Apple" class="">
+        <i class="fab fa-apple fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq" aria-label="Spotify" class="">
+        <i class="fab fa-spotify fa-lg"></i>
+    </a>
+</li>
+
+
+
+<li class="list-inline-item">
+    <a href="https://govfresh.com/feed.xml" aria-label="RSS" class="">
+        <i class="fas fa-rss fa-lg"></i>
+    </a>
+</li>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container fs-6 mt-5">
             <div class="row">
                 <div class="col-sm-4">
                     <ul class="list-unstyled">
@@ -888,19 +1036,13 @@
                         
                         
                         <li>
-                            <a href="/signal/">Signal</a>
+                            <a href="https://podcast.govfresh.com">Podcast</a>
                         </li>
                         
                         
                         
                         <li>
                             <a href="/reviews/">Reviews</a>
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="https://podcast.govfresh.com">Podcast</a>
                         </li>
                         
                         
@@ -960,120 +1102,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="footer-connect">
-                        
-<!-- Footer -->
-
-
-<a href="https://govfresh.com" aria-label="Website">
-    <i class="fas fa-window-maximize fa-lg"></i>
-</a>
-
-
-
-<a href="mailto:contact@govfresh.com" aria-label="Email">
-    <i class="fas fa-at fa-lg"></i>
-</a>
-
-
-
-<a href="https://govfresh.com/subscribe" aria-label="Subscribe">
-    <i class="fa-solid fa-envelope fa-lg"></i>
-</a>
-
-
-
-<a href="https://www.patreon.com/govfresh?fan_landing=true" aria-label="Patreon">
-    <i class="fab fa-patreon fa-lg"></i>
-</a>
-
-
-
-<a href="https://twitter.com/govfresh" aria-label="Twitter">
-    <i class="fab fa-twitter fa-lg"></i>
-</a>
-
-
-
-<a href="https://www.linkedin.com/company/govfresh" aria-label="LinkedIn">
-    <i class="fab fa-linkedin-in fa-lg"></i>
-</a>
-
-
-
-<a href="https://www.facebook.com/govfresh" aria-label="Facebook">
-    <i class="fab fa-facebook fa-lg"></i>
-</a>
-
-
-
-<a href="https://github.com/govfresh" aria-label="GitHub">
-    <i class="fab fa-github fa-lg"></i>
-</a>
-
-
-
-<a href="https://medium.com/govfresh" aria-label="Medium">
-    <i class="fab fa-medium fa-lg"></i>
-</a>
-
-
-
-<a href="https://www.youtube.com/channel/UC7JD3sabR2sD_86QO3XTp5w" aria-label="YouTube">
-    <i class="fab fa-youtube fa-lg"></i>
-</a>
-
-
-
-<a href="https://instagram.com/govfresh" aria-label="Instagram">
-    <i class="fa-brands fa-instagram fa-lg"></i>
-</a>
-
-
-
-<a href="https://www.flickr.com/photos/govfresh/" aria-label="Flickr">
-    <i class="fab fa-flickr fa-lg"></i>
-</a>
-
-
-
-<a href="https://www.figma.com/@govfresh" aria-label="Figma">
-    <i class="fab fa-figma fa-lg"></i>
-</a>
-
-
-
-<a href="https://govfresh.tumblr.com/" aria-label="Tumblr">
-    <i class="fab fa-tumblr fa-lg"></i>
-</a>
-
-
-
-<a href="https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1468169431" aria-label="Apple">
-    <i class="fab fa-apple fa-lg"></i>
-</a>
-
-
-
-<a href="https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq" aria-label="Spotify">
-    <i class="fab fa-spotify fa-lg"></i>
-</a>
-
-
-
-<a href="https://govfresh.com/feed.xml" aria-label="RSS">
-    <i class="fas fa-rss fa-lg"></i>
-</a>
-
-
-
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-sm-12">
                     <p>
@@ -1083,27 +1111,21 @@
             </div>
         </div>
     </div>
-    </div>
 </footer>
 
-<script
-    crossorigin="anonymous"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script
-    crossorigin="anonymous"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+<script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script
-    crossorigin="anonymous"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
     if (
         window.matchMedia("(prefers-color-scheme: dark)").matches &&
         localStorage.getItem("color-theme") == "dark"
     ) {
-        document.querySelector("html").setAttribute("class", "dark");
+        document.querySelector("html").classList.add("dark");
         document.querySelector("div.dark-toggle").innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
         localStorage.setItem("color-theme", "dark");
     }
@@ -1112,20 +1134,20 @@
             .querySelector("div.dark-toggle")
             .innerHTML
             .includes("sun"))
-                ? "<i class=\"fa-solid fa-moon\"></i>"
-                : "<i class=\"fa-solid fa-sun\"></i>";
+            ? "<i class=\"fa-solid fa-moon\"></i>"
+            : "<i class=\"fa-solid fa-sun\"></i>";
         document
             .querySelector("html")
             .classList
             .toggle("dark");
         localStorage.setItem(
-                    "color-theme", document
+            "color-theme", document
                 .querySelector("html")
                 .classList
                 .contains("dark")
-                    ? "dark"
-                    : "light"
-                );
+            ? "dark"
+            : "light"
+        );
     };
     document
         .querySelector("html")

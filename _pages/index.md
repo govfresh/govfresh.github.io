@@ -13,6 +13,8 @@ reviews-description: Books reviewed by GovFresh.
 reviews-link: /reviews/
 reviews-link-text: Reviews
 reviews-parent: reviews
+cta-text: Subscribe
+cta-link: /subscribe
 category:
   - Government
   - Technology

@@ -4,88 +4,83 @@ layout: default
 
 {% if page.title == "Labs" %}
 
-    <!-- Labs -->
+<!-- Labs -->
 
-    <div class="col-sm-12">
-        <div class="card-deck clean">
-            {% for page in site.labs %}
-                {% if page.title != title %}
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="icon">
-                                    <i class="{{ page.icon }} {{ site.data.connect.lg }}"></i>
-                                </div>
-                                <h2>
-                                    <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
-                                </h2>
-                                <p class="description">{{ page.description }}</p>
-                            </div>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-
-{% elsif page.title == "Topics" %}
-
-    <div class="col-sm-12">
-        <div class="card-deck clean">
-            {% for page in site.topics %}
-                {% if page.title != 'Template' %}
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="icon">
-                                    <i class="{{ page.icon }} {{ site.data.connect.lg }}"></i>
-                                </div>
-                                <h3>
-                                    <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-
-{% else %}
-
-    <!-- Features / Evergreen -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card-deck clean">
-                    {% for item in site.data.icons.docs %}
-                        {% if item.title == page.title %}
-                            {% for page in item.pages %}
-                                {% for website in site.pages %}
-                                    {% if website.parent == page %}
-                                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <div class="icon">
-                                                        <i class="{{ website.icon }} {{ site.data.connect.lg }}"></i>
-                                                    </div>
-                                                    <h2 class="h3">
-                                                        <a href="{{ site.baseurl }}/{{ website.parent }}" class="stretched-link">{{
-                                    website.title }}</a>
-                                                    </h2>
-                                                    <p class="description">{{ website.description }}</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    {% endif %}
-                                {% endfor %}
-                            {% endfor %}
-                        {% endif %}
-                    {% endfor %}
+<div class="col-sm-12">
+    <div class="card-group">
+        {% for page in site.labs %}
+        {% if page.title != title %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <i class="{{ page.icon }} {{ site.data.connect.lg }} mb-3"></i>
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
+                    </h2>
+                    <p class="description">{{ page.description }}</p>
                 </div>
             </div>
         </div>
+        {% endif %}
+        {% endfor %}
     </div>
+</div>
+
+{% elsif page.title == "Topics" %}
+<div class="col-sm-12">
+    <div class="card-group">
+        {% for page in site.topics %}
+        {% if page.title != 'Template' %}
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body">
+                    <i class="{{ page.icon }} {{ site.data.connect.lg }} mb-3"></i>
+                    <h3>
+                        <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% else %}
+
+<!-- Features / Evergreen -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card-group">
+                {% for item in site.data.icons.docs %}
+                {% if item.title == page.title %}
+                {% for page in item.pages %}
+                {% for website in site.pages %}
+                {% if website.parent == page %}
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3"></i>
+                            </div>
+                            <h2 class="h3">
+                                <a href="{{ site.baseurl }}/{{ website.parent }}" class="stretched-link">{{
+                                    website.title }}</a>
+                            </h2>
+                            <p class="description">{{ website.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endif %}

@@ -1,4 +1,4 @@
-<div class="container">
+<!--<div class="container">
     <div class="row">
         <div class="col-12">
             <h2 class="mb-3">Topics</h2>
@@ -15,55 +15,71 @@
                 {% endif %}
                 {% endfor %}
             </ul>
-
         </div>
     </div>
 </div>
 {% include support.html %}
+-->
+<button id="backToTopBtn" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></button>
+<!--
 <div class="bottom fixed-bottom p-1 text-right">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="nav-icons">
-                    {% if site.data.connect.linkedin %}
-                    <a class="nav-item" aria-label="Subscribe" href="{{ site.baseurl }}/subscribe/">
-                        <i class="{{ site.data.connect.subscribe }}"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.data.connect.linkedin %}
-                    <a aria-label="LinkedIn" class="nav-item" href="https://www.linkedin.com/company/govfresh">
-                        <i class="{{ site.data.connect.linkedin }}"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.data.connect.twitter %}
-                    <a aria-label="Twitter" class="nav-item" href="https://www.twitter.com/govfresh">
-                        <i class="{{ site.data.connect.twitter }}"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.data.connect.instagram %}
-                    <a aria-label="Instagram" class="nav-item" href="https://www.instagram.com/govfresh">
-                        <i class="{{ site.data.connect.instagram }}"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.data.connect.facebook %}
-                    <a aria-label="Facebook" class="nav-item" href="https://www.facebook.com/govfresh">
-                        <i class="{{ site.data.connect.facebook }}"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.data.connect.rss %}
-                    <a aria-label="RSS" class="nav-item" href="https://govfresh.com/feed.xml">
-                        <i class="{{ site.data.connect.rss }}"></i>
-                    </a>
-                    {% endif %}
+                    <div class="d-none d-sm-block">
+                        <a class="nav-item nav-link" href="javascript:void(0);"
+                            onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')"><i
+                                class="fa-solid fa-sun"></i></a>
+                        {% if site.data.connect.subscribe %}
+                        <a class="nav-item" aria-label="Subscribe" href="{{ site.baseurl }}/subscribe/">
+                            <i class="{{ site.data.connect.subscribe }}"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.data.connect.linkedin %}
+                        <a aria-label="LinkedIn" class="nav-item" href="https://www.linkedin.com/company/govfresh">
+                            <i class="{{ site.data.connect.linkedin }}"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.data.connect.twitter %}
+                        <a aria-label="Twitter" class="nav-item" href="https://www.twitter.com/govfresh">
+                            <i class="{{ site.data.connect.twitter }}"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.data.connect.instagram %}
+                        <a aria-label="Instagram" class="nav-item" href="https://www.instagram.com/govfresh">
+                            <i class="{{ site.data.connect.instagram }}"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.data.connect.facebook %}
+                        <a aria-label="Facebook" class="nav-item" href="https://www.facebook.com/govfresh">
+                            <i class="{{ site.data.connect.facebook }}"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.data.connect.rss %}
+                        <a aria-label="RSS" class="nav-item" href="https://govfresh.com/feed.xml">
+                            <i class="{{ site.data.connect.rss }}"></i>
+                        </a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+-->
 <footer>
-    <div class="footer">
+    <div class="gradient border-top mt-5 py-5">
         <div class="container">
-
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer-connect">
+                        {% include social.html size="footer" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container fs-6 mt-5">
             <div class="row">
                 <div class="col-sm-4">
                     <ul class="list-unstyled">
@@ -99,15 +115,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="footer-connect">
-                        {% include social.html size="footer" %}
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-sm-12">
                     <p>
@@ -116,7 +123,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </footer>
 {% if jekyll.environment == 'production' %}

@@ -1,6 +1,7 @@
 ---
 title: GovFresh
 description: 
+name: GovFresh
 shortname: GovFresh
 img: avatar.png
 img-feat: avatar.png

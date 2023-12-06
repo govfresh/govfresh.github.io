@@ -7,14 +7,14 @@ docs:
 - title: DM
   url: /dm/
 
-- title: Signal
-  url: /signal/
-
-- title: Reviews
-  url: /reviews/
+#- title: Signal
+#  url: /signal/
 
 - title: Podcast
   url: https://podcast.govfresh.com
+
+- title: Reviews
+  url: /reviews/
 
 - title: Community
   url: /community/

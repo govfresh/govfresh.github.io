@@ -1,5 +1,5 @@
 {% if include.level == "secondary" %}
-<div class="col-12 col-sm-12">
+<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <div class="card-body">
         <h3 class="h4">
             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
@@ -10,17 +10,14 @@
     </div>
 </div>
 {% else %}
-<div class="col-12 col-sm-12">
-    <div class="card-body">
-        <div class="fancy-2 img">
-            <img src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
-                class="rounded lg float-left mr-4 mb-4 line-2" alt="{{ item.img-alt }}">
-        </div>
-        <h3 class="h3">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-        </h3>
-        <p>{{ item.description }}</p>
-        <p class="small">{% include date.html %}</p>
-    </div>
+<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+    <img src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}" class="lg" alt="{{ item.img-alt }}">
+</div>
+<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+    <h3 class="h3">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
+    </h3>
+    <p>{{ item.description }}</p>
+    <p class="small">{% include date.html %}</p>
 </div>
 {% endif %}

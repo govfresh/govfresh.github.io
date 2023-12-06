@@ -5,84 +5,85 @@ layout: dm
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
+{% include read-time-bar.html %}
 <main>
     {% include jumbotron.html %}
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 fancy-2">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 {% assign i = 0 %}
                 {% for item in page.name %}
-                    <img
-                        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{% if page.group %}{{ page.img[i] }}{% else %}{{ page.img }}{% endif %}"
-                        alt="{% if page.group %}{{ page.img-alt[i] }}{% else %}{{ page.img-alt }}{% endif %}"
-                        type="{% if page.group %}{{ page.folder[i] }}{% else %} {{ page.folder }}{% endif %}"
-                        class="rounded-circle lg mb-3 line">
-                    {% if page.img-caption %}
-                        <p class="img-caption">
-                            {% if page.group %}
-                                {{ page.img-caption[i] }}
-                            {% else %}
-                                {{ page.img-caption }}
-                            {% endif %}
-                        </p>
+                <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{% if page.group %}{{ page.img[i] }}{% else %}{{ page.img }}{% endif %}"
+                    alt="{% if page.group %}{{ page.img-alt[i] }}{% else %}{{ page.img-alt }}{% endif %}"
+                    type="{% if page.group %}{{ page.folder[i] }}{% else %} {{ page.folder }}{% endif %}"
+                    class="rounded-circle lg mb-3">
+                {% if page.img-caption %}
+                <p class="img-caption">
+                    {% if page.group %}
+                    {{ page.img-caption[i] }}
+                    {% else %}
+                    {{ page.img-caption }}
                     {% endif %}
-                    <ul class="list-unstyled name-person-org">
-                        <li>
-                            {% if page.group %}
-                                {{ page.name[i] }}
-                            {% else %}
-                                {{ page.name }}
-                            {% endif %}
-                        </li>
-                        <li>
-                            {% if page.group %}
-                                {{ page.position[i] }},
-                            {% else %}
-                                {{ page.position }},
-                            {% endif %}
-                            {% if page.group %}
-                                {{ page.org[i] }}
-                            {% else %}
-                                {{ page.org }}
-                            {% endif %}
-                        </li>
-                    </ul>
-                    {% assign author_data = page.contact[i] %}
+                </p>
+                {% endif %}
+                <ul class="list-unstyled text-body-secondary">
+                    <li>
+                        {% if page.group %}
+                        {{ page.name[i] }}
+                        {% else %}
+                        {{ page.name }}
+                        {% endif %}
+                    </li>
+                    <li>
+                        {% if page.group %}
+                        {{ page.position[i] }},
+                        {% else %}
+                        {{ page.position }},
+                        {% endif %}
+                        {% if page.group %}
+                        {{ page.org[i] }}
+                        {% else %}
+                        {{ page.org }}
+                        {% endif %}
+                    </li>
+                </ul>
+                {% assign author_data = page.contact[i] %}
+                <div class="border-bottom pb-3 mb-4">
                     {% include social.html
-                       size = "small" %}
-                    {% assign i = i | plus: 1 %}
+                    size = "small" %}
+                </div>
+                {% assign i = i | plus: 1 %}
                 {% endfor %}
+                {% include topics.html %}
             </div>
-            <div class="col-sm-8">
+            <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
                 {% if content contains 'id="new"' %}
-                    <div class="alert alert-primary" role="alert">
-                        <div class="new-dm">
-                            <a href="#new">
-                                Jump to new messages
-                                <i class="fa-solid fa-circle-arrow-down"></i>
-                            </a>
-                        </div>
+                <div class="alert alert-primary" role="alert">
+                    <div class="new-dm">
+                        <a href="#new">
+                            Jump to new messages
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
                     </div>
+                </div>
                 {% endif %}
                 <div class="post post-dm">{{ content }}</div>
                 {% assign i = 0 %}
                 {% for item in page.name %}
-                    <div class="author-bio">
-                        <h2>Connect with
-                            {% if page.group %}
-                                {{ page.shortname[i] }}
-                            {% else %}
-                                {{ page.shortname }}
-                            {% endif %}
-                        </h2>
-                        {% assign author_data = page.contact[i] %}
-                        {% include social.html
-                           size = "small" %}
-                    </div>
-                    {% assign i = i | plus: 1 %}
+                <div class="mt-5 mb-5">
+                    <h2>Connect with
+                        {% if page.group %}
+                        {{ page.shortname[i] }}
+                        {% else %}
+                        {{ page.shortname }}
+                        {% endif %}
+                    </h2>
+                    {% assign author_data = page.contact[i] %}
+                    {% include social.html
+                    size = "small" %}
+                </div>
+                {% assign i = i | plus: 1 %}
                 {% endfor %}
-                {% include subscribe.html %}
-                {% include topics.html %}
             </div>
         </div>
     </div>

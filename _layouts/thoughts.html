@@ -5,24 +5,24 @@ layout: thoughts
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
+{% include read-time-bar.html %}
 <main>
-    {% include jumbotron.html %}
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <div class="post">
+    <article>
+        {% include jumbotron.html %}
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                     {{ content }}
+                    {% include updated.html %}
+                    {% include bio.html %}
                 </div>
-                {% include updated.html %}
-                {% include bio.html %}
-                {% include subscribe.html %}
-                {% include topics.html %}
-                {% include license.html %}
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
             </div>
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
         </div>
-    </div>
+    </article>
+</main>
+<aside>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -30,6 +30,6 @@ layout: thoughts
             </div>
         </div>
     </div>
-</main>
+</aside>
 {% include analytics.html %}
 {% include footer.html %}

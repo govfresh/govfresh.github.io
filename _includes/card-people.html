@@ -1,10 +1,12 @@
 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+    <div class="card mb-3">
         <div class="card-body">
             {% if item.img %}
-                <div class="fancy-2">
-                    <img class="card-img-top rounded-circle lg mb-3 line" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
-                </div>
+            <div class="fancy-2">
+                <img class="card-img-top rounded-circle lg mb-3 line"
+                    src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+                    alt="{{ item.img-alt }}">
+            </div>
             {% endif %}
             <h2>
                 <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
