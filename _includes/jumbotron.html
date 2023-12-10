@@ -2,43 +2,54 @@
 <div class="pt-5 pb-4 mb-2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-12">
                 <h1 class="display-5 mb-4">{{ page.title }}</h1>
+                {% if page.description %}
+                    <p class="lead border-bottom pb-5 mb-5">{{ page.description }}</p>
+                    {% endif %}
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8">
-                {% if page.quote %}
+            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                    {% if page.quote %}
                 <blockquote>
                     <p>"{{ page.quote }}"</p>
                 </blockquote>
                 {% endif %}
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         </div>
     </div>
 </div>
-{% elsif page.layout == "review" %}
+{% elsif page.layout == "book" %}
 <div class="pt-5 pb-4 mb-2">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-            <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-12">
                 <h1 class="display-5">{{ page.title }}</h1>
+                {% if page.description %}
+                    <p class="lead mb-5">{{ page.description }}</p>
+                    {% endif %}
+                    </div>
+        </div>
+            <div class="row border-bottom">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
                 {% if page.quote %}
                 <blockquote>
                     <p>"{{ page.quote }}"</p>
                 </blockquote>
                 <p class="small text-body-secondary mb-5">&mdash; {{ page.book-author }}</p>
+                {% elsif page.book-author %}
+                    <p class="small text-body-secondary">By {{ page.book-author }}</p>
                 {% endif %}
-                {% include topics.html %}
-            </div>
-            <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 text-center">
+                </div>
+            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 text-center">
                 <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
                     alt="{{ page.book-title }}" class="xl shadow">
             </div>
-            <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
     </div>
 </div>
@@ -46,42 +57,39 @@
 <div class="pt-5 pb-4 mb-2">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h1 class="display-5 mb-5">{{ page.title }}</h1>
+            <div class="col-12">
+                <h1 class="display-4 mb-4">{{ page.title }}</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 {% if page.img %}
                 <figure>
                     <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}" alt="{{ page.img-alt }}">
-                    <figure>
                         {% if page.img-caption %}
-                        <figcaption></figcaption>
-                        <p class="small">
+                        <figcaption>
+                        <p class="small text-body-secondary"><small>
                             {% if page.img-link %}
                             <a href="{{ site.baseurl }}{{ page.img-link }}">
                                 {% endif %}
                                 {{ page.img-caption }}
                                 {% if page.img-link %}
-                            </a></figcaption>
+                            </a></small>
+                            </figcaption>
                             {% endif %}
                         </p>
                         {% endif %}
-                        {% endif %}
-                    </figure>
-            </div>
-            <div class="col-md-6">
+                </figure>
+                {% endif %}
+                </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 {% if page.description %}
                 <p class="lead border-bottom pb-5 mb-5">{{ page.description }}</p>
                 {% include author.html %}
                 {% endif %}
-                <div class="mt-5">
-                    {% include topics.html %}
-                </div>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
     </div>
 </div>
@@ -89,15 +97,12 @@
 <div class="pt-5 pb-4 mb-2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <h1 class="display-3 mt-4">{{ page.title }}</h1>
                 <p class="lead">{{ page.description }}</p>
-                <a href="{{ site.baseurl }}{{ page.cta-link }}"
-                    class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">{{
-                    page.cta-text }}</a>
+                {% include social.html size="footer" %}
             </div>
-            <div class="col-lg-4">
-            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
         </div>
     </div>
 </div>
@@ -105,15 +110,15 @@
 <div class="pt-5 pb-4 mb-2">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
                 <h1 class="h2 mb-4">{{ page.title }}</h1>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 {% if page.img %}
                 <div class="img">
                     <div class="mr-3">
@@ -134,13 +139,13 @@
                 </div>
                 {% endif %}
             </div>
-            <div class="col-md-5">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
                 {% if page.description %}
                 <p class="lead-line">{{ page.description }}</p>
                 {% include author.html %}
                 {% endif %}
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         </div>
     </div>
 </div>
@@ -148,7 +153,7 @@
 <div class="pt-5 pb-4 mb-2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-12">
                 <h1 class="display-4">{{ page.title }}</h1>
                 <p class="lead">{{ page.description }}</p>
             </div>
@@ -159,7 +164,7 @@
 <div class="pt-5 pb-4 mb-2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-12">
                 <h1 class="display-4">{{ page.title }}</h1>
                 {% if page.description %}
                 <p class="lead">{{ page.description }}</p>

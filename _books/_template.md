@@ -2,13 +2,14 @@
 title: ""
 description: ""
 img-feat: .jpg
-author:  
+img-alt: ""
+book-author:  
 website: 
 library: https://www.worldcat.org/
 bookshop: https://bookshop.org/
 goodreads: https://www.goodreads.com/
 amazon: https://www.amazon.com
-review-link: 
+quote: 
 category:
   - Civic hacking
   - Community
@@ -21,5 +22,6 @@ category:
   - Innovation
   - Open
   - Privacy
+author: 
 ---
 

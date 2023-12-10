@@ -1,0 +1,14 @@
+docs_list_title: menu-content
+docs:
+
+ - title: Thoughts
+   url: /thoughts/
+
+ - title: DM
+   url: /dm/
+
+ - title: Podcast
+   url: https://podcast.govfresh.com
+
+ - title: Book club
+   url: /books/

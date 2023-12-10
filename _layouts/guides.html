@@ -7,29 +7,29 @@ layout: guides
 {% include breadcrumb.html %}
 {% include read-time-bar.html %}
 <main>
-    {% include jumbotron.html %}
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <div class="post">
-                    {{ content }}
-                </div>
-                {% include updated.html %}
-                {% include subscribe.html %}
-                {% include topics.html %}
-                {% include license.html %}
-            </div>
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+        {% include toc.html html=content %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <div class="post">
+          {{ content }}
         </div>
+        {% include updated.html %}
+        {% include topics.html %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                {% include previews.html show-only="true" %}
-            </div>
-        </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
+      </div>
     </div>
+  </div>
 </main>
 {% include analytics.html %}
 {% include footer.html %}

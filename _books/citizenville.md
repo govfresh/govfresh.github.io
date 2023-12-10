@@ -3,7 +3,7 @@ title: "Citizenville"
 description: How to Take the Town Square Digital and Reinvent Government
 img-feat: citizenville.jpeg
 img-alt: "Cover of 'Citizenville'"
-author: Gavin Newsom
+book-author: Gavin Newsom
 website: https://www.penguinrandomhouse.com/books/310887/citizenville-by-gavin-newsom-with-lisa-dickey/
 library: https://www.worldcat.org/title/citizenville-how-to-take-the-town-square-digital-and-reinvent-government/oclc/849718972/editions?referer=di&editionsView=true
 bookshop: https://bookshop.org/a/83650/9780143124474

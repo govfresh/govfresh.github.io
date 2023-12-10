@@ -2,7 +2,7 @@
 title: "The Cuckoo's Egg"
 description: "Tracking a Spy Through the Maze of Computer Espionage"
 img-feat: the-cuckoos-egg.jpg
-author: Cliff Stoll
+book-author: Cliff Stoll
 website: 
 library: http://www.worldcat.org/oclc/1051068049
 bookshop: https://bookshop.org/a/83650/9781416507789

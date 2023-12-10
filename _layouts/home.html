@@ -5,46 +5,49 @@ layout: home
 {% include header.html %}
 {% include nav.html %}
 <main>
-    {% include jumbotron.html %}
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    {% include home.html %}
-                    <div class="preview border-top pt-5 pb-3">
-                        <h2>Podcast</h2>
-                        <p class="lead">Latest episodes of The GovFresh Podcast.</p>
-                        <div class="card-group">
-                            {% for item in site.data.podcast.docs %}
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                                <div class="card mb-3">
-                                    <div class="card-body">
-                                        {% if item.img %}
-                                        <img src="{{ item.img }}" alt="{{ item. title }}" class="md rounded-circle">
-                                        {% endif %}
-                                        <h3 class="h5">
-                                            {% if item.url %}
-                                            <a class="stretched-link" href="{{ site.baseurl }}{{ item.url }}">{{
-                                                item.title
-                                                }}</a>
-                                            {% endif %}
-                                        </h3>
-                                    </div>
-                                    {% if item.episode %}
-                                    <div class="card-footer text-body-secondary">
-                                        <small>Episode #{{ item.episode }}</small>
-                                    </div>
-                                    {% endif %}
-                                </div>
-                            </div>
-                            {% endfor %}
-                        </div>
-                        <a href="https://podcast.govfresh.com" class="btn btn-primary btn-bd-primary btn-sm">Podcast</a>
+  {% include jumbotron.html %}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {% include home.html %}
+          <div class="preview border-top pt-5 pb-3">
+            <h2>Podcast</h2>
+            <p class="lead">Latest episodes of The GovFresh Podcast.</p>
+            <div class="card-group">
+              {% for item in site.data.podcast.docs %}
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      {% if item.img %}
+                        <img
+                          src="{{ item.img }}"
+                          alt="{{ item. title }}"
+                          class="md rounded-circle">
+                      {% endif %}
+                      <h3 class="h5">
+                        {% if item.url %}
+                          <a class="stretched-link" href="{{ site.baseurl }}{{ item.url }}">{{
+item.title
+}}</a>
+                        {% endif %}
+                      </h3>
                     </div>
+                    {% if item.episode %}
+                      <div class="card-footer text-body-secondary">
+                        <small>Episode #{{ item.episode }}</small>
+                      </div>
+                    {% endif %}
+                  </div>
                 </div>
+              {% endfor %}
             </div>
+            <a href="https://podcast.govfresh.com" class="btn btn-primary btn-bd-primary btn-sm">Podcast</a>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 </main>
 {% include analytics.html %}
 {% include footer.html %}

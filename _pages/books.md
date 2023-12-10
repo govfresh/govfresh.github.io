@@ -6,4 +6,6 @@ permalink: /books/
 books: true
 parent: books
 icon: "fa-solid fa-book"
+redirect_from:
+  - /reviews
 ---

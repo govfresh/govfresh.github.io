@@ -2,7 +2,7 @@
 title: "Recoding America"
 description: "Why Government is Failing in the Digital Age and How We Can Do Better"
 img-feat: recoding-america.jpg
-author:  Jennifer Pahlka
+book-author:  Jennifer Pahlka
 website: https://www.recodingamerica.us/
 library: https://www.worldcat.org/title/1338301096
 bookshop: https://bookshop.org/a/83650/9781250266774

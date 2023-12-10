@@ -38,26 +38,22 @@ docs_list_title: connect
 docs:
 
   - name: Website
-    url: https://govfresh.com
+    url: 
     icon: *website
 
   - name: Email
-    url: mailto:contact@govfresh.com
+    url: 
     icon: *email
 
   - name: Subscribe
     url: https://govfresh.com/subscribe
     icon: *subscribe
 
-  - name: Patreon
-    url: 
-    icon: *patreon
-
 #  - name: Discord
 #    url: 
 #    icon: *discord
 
-  - name: Twitter 
+  - name: X 
     url: https://twitter.com/govfresh
     icon: *twitter
 
@@ -69,17 +65,13 @@ docs:
     url: https://www.facebook.com/govfresh
     icon: *facebook
 
-  - name: GitHub
-    url: https://github.com/govfresh
-    icon: *github
+#  - name: Medium
+#    url: 
+#    icon: *medium
 
-  - name: Medium
-    url: https://medium.com/govfresh
-    icon: *medium
-
-  - name: YouTube
-    url: https://www.youtube.com/channel/UC7JD3sabR2sD_86QO3XTp5w
-    icon: *youtube
+#  - name: YouTube
+#    url: 
+#    icon: *youtube
 
 #  - name: Vimeo
 #    url: 
@@ -89,17 +81,17 @@ docs:
     url: https://instagram.com/govfresh
     icon: *instagram
  
-  - name: Flickr
-    url: https://www.flickr.com/photos/govfresh/
-    icon: *flickr
+#  - name: Flickr
+#    url: 
+#    icon: *flickr
 
-  - name: Figma
-    url: https://www.figma.com/@govfresh
-    icon: *figma
+#  - name: Figma
+#    url: 
+#    icon: *figma
 
-  - name: Tumblr
-    url: https://govfresh.tumblr.com/
-    icon: *tumblr
+#  - name: Tumblr
+#    url: 
+#    icon: *tumblr
 
 #  - name: Library
 #    url: 
@@ -124,3 +116,7 @@ docs:
   - name: RSS
     url: https://govfresh.com/feed.xml
     icon: *rss
+
+  - name: GitHub
+    url: https://github.com/govfresh
+    icon: *github

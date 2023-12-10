@@ -39,21 +39,10 @@ books-number: 7
 dm-number: &dm-number 5
 labs-number: 3
 guides-number: &guides-number 3
-reviews-number: &reviews-number 4
-signal-number: &signal-number 2
 thoughts-number: &thoughts-number 9
 
 # Defaults
 defaults:
-  - scope:
-      path: "_reviews"
-      type: "reviews"
-    values:
-      folder: "Reviews"
-      img-path: "books"
-      parent: "reviews"
-      layout: "review"
-      short: "true"
   - scope:
       path: "_dm"
       type: "dm"
@@ -79,7 +68,7 @@ defaults:
       folder: "Book club"
       img-path: "books"
       parent: "books"
-      layout: "profile"
+      layout: "book"
       short: "true"
   - scope:
       path: "_guides"
@@ -130,15 +119,6 @@ defaults:
       parent: "labs"
       layout: "profile"
       short: "true"
-  - scope:
-      path: ""
-      type: ""
-    values:
-      folder: "Playlist"
-      img-path:
-      parent: "playlist"
-      layout:
-      short:
 
 # Collections
 collections:
@@ -154,9 +134,6 @@ collections:
   labs:
     output: true
     permalink: labs/:title
-  orgs:
-    output: true
-    permalink: /orgs/:title
   pages:
     output: true
     permalink: :title
@@ -166,9 +143,6 @@ collections:
   posts:
     output: true
     permalink: /signal/:title
-  reviews:
-    output: true
-    permalink: /reviews/:title
   thoughts:
     output: true
     permalink: /thoughts/:title
@@ -191,13 +165,6 @@ order:
   - 
     name: dm
     number: *dm-number
-#  - 
-#    name: signal
-#    site-name: posts
-#    number: *signal-number  
-  - 
-    name: reviews
-    number: *reviews-number
 
 # Exclude
 exclude:

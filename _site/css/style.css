@@ -21,6 +21,16 @@
 }
 
 @font-face {
+    font-family: "Mona Sans Bold";
+    src: url("/fonts/mona-sans/MonaSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Hubot Bold";
+    src: url("/fonts/mona-sans/MonaSans-BlackItalic.woff2") format("woff2");
+}
+
+@font-face {
     font-family: "Roboto Mono Regular";
     src: url("/fonts/roboto-mono/RobotoMono-Regular.ttf") format("truetype");
 }
@@ -40,8 +50,9 @@
     --gradient-1: linear-gradient(135deg, #54278f 13%, #9355dc 73%);
     --gradient-2: linear-gradient(135deg, #ffffff 13%, #ffffff 73%);
     --font-1: "Fira Sans Regular", sans-serif;
-    --font-2: "Fira Sans Bold", sans-serif;
+    --font-2: "Mona Sans Bold", sans-serif;
     --font-4: "Roboto Mono Regular", monospace;
+    --font-5: "Hubot Bold", sans-serif;
     --size-1: 0;
     --size-2: 0.0625rem;
     --size-3: .25rem;
@@ -131,8 +142,8 @@
     --bs-font-monospace: var(--font-4),
         /*SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",*/
         monospace;
-    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --bs-gradient: linear-gradient(135deg, #54278f 13%, #9355dc 73%);
+    --bs-gradient: linear-gradient(135deg, #54278f 35%, #9355dc 73%);
+    --bs-gradient2: linear-gradient(135deg, #39215e 10%, #54278f 50%);
     --bs-body-font-family: var(--bs-font-sans-serif);
     --bs-body-font-size: 1.2rem;
     --bs-body-font-weight: 300;
@@ -235,7 +246,7 @@
     --color-8: #d5bfff;
     --color-9: #39215e;
     --gradient-1: linear-gradient(135deg, #54278f 13%, #9355dc 73%);
-    --gradient-2: linear-gradient(135deg, #ffffff 13%, #ffffff 73%);
+    --gradient-2: linear-gradient(90deg, #54278f 13%, #39215e 73%);
     --bs-body-color: #ffffff;
     --bs-body-color-rgb: 222, 226, 230;
     --bs-body-bg: #39215e;
@@ -299,16 +310,26 @@
 
 body {
     font-family: var(--font-1);
+    background: var(--gradient-2) !important;
 }
 
 strong {
     font-family: var(--font-2);
 }
 
-.author, .date, .episode {
-    font-family: var(--font-4);
-    font-size: var(--size-6);
+/* Add this CSS to your stylesheet or in the head of your HTML document */
+.tombstone {
+    display: inline-block;
+    width: 15px;
+    /* Adjust the width as needed */
+    height: 15px;
+    /* Adjust the height as needed */
+    background-color: #fd4496;
+    /* Adjust the color as needed */
+    margin-left: 10px;
+    /* Adjust the margin as needed */
 }
+
 
 /* Headings
 
@@ -327,6 +348,14 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
 
 .signal .post h2 {
     padding-bottom: var(--size-5) !important;
+}
+
+h2 a#heading-hashtag {
+    display: none;
+}
+
+h2:hover a#heading-hashtag {
+    display: revert;
 }
 
 /* Styles with bold */
@@ -355,32 +384,13 @@ a:hover {
 
 /* Navbar */
 
-.old-nav {
-    border-radius: var(--color-1);
-    border-bottom-left-radius: var(--size-5);
-    border-bottom: var(--size-5) solid var(--color-5);
-    border-top: var(--size-2) solid var(--color-5);
-}
-
 a.navbar-brand:hover {
     background: none;
 }
 
 .navbar-brand img {
-    max-height: 40px;
+    max-height: 50px;
 }
-
-/*
-.navbar-light .navbar-toggler {
-    color: var(--color-4);
-    border-color: var(--color-5);
-    border-width: var(--size-2);
-}
-
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-*/
 
 a.nav-link, a.nav-link:active, a.nav-link:visited, a.nav-link:hover {
     color: var(--color-4) !important;
@@ -490,11 +500,6 @@ pre code {
 /* Cards */
 
 /*
-.clean .card {
-    margin: var(--size-1);
-    padding: var(--size-1);
-    border: none;
-}
 
 .card {
     margin-bottom: var(--size-6) !important;
@@ -580,7 +585,7 @@ blockquote {
 }
 
 blockquote p, blockquote ul {
-    font-family: var(--font-2) !important;
+    font-family: var(--font-4) !important;
     padding-bottom: var(--size-0);
     padding-top: var(--size-3);
 }
@@ -829,9 +834,7 @@ img.author {
     margin-right: var(--size-4);
 }
 
-.author-bio {
-    font-family: var(--font-1);
-}
+
 
 
 
@@ -1264,9 +1267,6 @@ a[href$=".png"], a[href$=".jpg"] {
 
 /* License / Disclosure */
 
-.license p, .disclosure p {
-    font-family: var(--font-1);
-}
 
 /* Footer 
 

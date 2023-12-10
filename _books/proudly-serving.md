@@ -3,7 +3,7 @@ title: "Proudly Serving"
 description: "Public service in the digital age"
 img-feat: proudly-serving.png
 img-alt: "Cover of 'Proudly Serving: Public service in the digital age'"
-author: Rebecca Woodbury, Marlena Medford, Luke Fretwell
+book-author: Community contributed
 email: proudlyservingbook@gmail.com
 website: https://proudlyservingbook.com
 subscribe: https://proudlyserving.substack.com/
@@ -30,6 +30,7 @@ category:
   - Design
   - Digital
   - Inclusion
+author: Luke Fretwell
 ---
 
 A playbook helping local governments build people-centered digital public services.

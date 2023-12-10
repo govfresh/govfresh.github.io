@@ -1,134 +1,76 @@
-<!--<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <h2 class="mb-3">Topics</h2>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 topics">
-            <ul class="list-unstyled">
-                {% for page in site.topics %}
-                {% if page.title != 'Template' %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-</div>
-{% include support.html %}
--->
-<button id="backToTopBtn" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></button>
-<!--
-<div class="bottom fixed-bottom p-1 text-right">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="nav-icons">
-                    <div class="d-none d-sm-block">
-                        <a class="nav-item nav-link" href="javascript:void(0);"
-                            onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')"><i
-                                class="fa-solid fa-sun"></i></a>
-                        {% if site.data.connect.subscribe %}
-                        <a class="nav-item" aria-label="Subscribe" href="{{ site.baseurl }}/subscribe/">
-                            <i class="{{ site.data.connect.subscribe }}"></i>
-                        </a>
-                        {% endif %}
-                        {% if site.data.connect.linkedin %}
-                        <a aria-label="LinkedIn" class="nav-item" href="https://www.linkedin.com/company/govfresh">
-                            <i class="{{ site.data.connect.linkedin }}"></i>
-                        </a>
-                        {% endif %}
-                        {% if site.data.connect.twitter %}
-                        <a aria-label="Twitter" class="nav-item" href="https://www.twitter.com/govfresh">
-                            <i class="{{ site.data.connect.twitter }}"></i>
-                        </a>
-                        {% endif %}
-                        {% if site.data.connect.instagram %}
-                        <a aria-label="Instagram" class="nav-item" href="https://www.instagram.com/govfresh">
-                            <i class="{{ site.data.connect.instagram }}"></i>
-                        </a>
-                        {% endif %}
-                        {% if site.data.connect.facebook %}
-                        <a aria-label="Facebook" class="nav-item" href="https://www.facebook.com/govfresh">
-                            <i class="{{ site.data.connect.facebook }}"></i>
-                        </a>
-                        {% endif %}
-                        {% if site.data.connect.rss %}
-                        <a aria-label="RSS" class="nav-item" href="https://govfresh.com/feed.xml">
-                            <i class="{{ site.data.connect.rss }}"></i>
-                        </a>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
+<button id="backToTopBtn" onclick="scrollToTop()">
+  <i class="fas fa-chevron-up"></i>
+</button>
 <footer>
-    <div class="gradient border-top mt-5 py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="footer-connect">
-                        {% include social.html size="footer" %}
-                    </div>
-                </div>
-            </div>
+  <div class="gradient border-top mt-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>
+            <strong>Connect with us</strong>
+          </p>
+          {% include social.html size="footer" %}
         </div>
-        <div class="container fs-6 mt-5">
-            <div class="row">
-                <div class="col-sm-4">
-                    <ul class="list-unstyled">
-                        {% for item in site.data.nav-footer-1.docs %}
-                        {% if item.url %}
-                        <li>
-                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul class="list-unstyled">
-                        {% for item in site.data.nav-footer-2.docs %}
-                        {% if item.url %}
-                        <li>
-                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class=" col-sm-4">
-                    <ul class="list-unstyled">
-                        {% for item in site.data.nav-footer-3.docs %}
-                        {% if item.url %}
-                        <li>
-                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>
-                        <a href="https://govfresh.com">GovFresh</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="container fs-6 mt-4 pt-4 border-top">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <ul class="list-unstyled">
+            {% for item in site.data.menu-about.docs %}
+              {% if item.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <ul class="list-unstyled">
+            {% for item in site.data.menu-connect.docs %}
+              {% if item.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <ul class="list-unstyled">
+            {% for item in site.data.menu-content.docs %}
+              {% if item.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <ul class="list-unstyled">
+            {% for item in site.data.menu-etc.docs %}
+              {% if item.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 border-top pt-4">
+          <p>
+            GovFresh {{ page.date | date: "%Y" }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 {% if jekyll.environment == 'production' %}
-{% include analytics.html %}
+  {% include analytics.html %}
 {% endif %}
-{% include js.html %}
-</body>
-
-</html>
+{% include js.html %}</body></html>

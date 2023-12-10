@@ -4,18 +4,18 @@ layout: page
 {% include header.html %}
 {% include nav.html %}
 <main>
-    {% include jumbotron.html %}
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="post">
-                    {{ content }}
-                </div>
-                {% include updated.html %}
-            </div>
-            <div class="col-sm-4"></div>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+        <div class="post">
+          {{ content }}
         </div>
+        {% include updated.html %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
     </div>
+  </div>
 </main>
 {% include analytics.html %}
 {% include footer.html %}

@@ -1,0 +1,72 @@
+---
+layout: book
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+{% include read-time-bar.html %}
+<main>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        {% if page.author %}
+          <h2 class="mb-4">Review</h2>
+          {% include author.html %}
+        {% endif %}
+        {% if page.author %}
+          <div id="post">
+        {% endif %}
+        {{ content }}
+        {% if page.author %}
+          </div>
+        {% endif %}
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        {% include updated.html %}
+        {% if page.author %}
+          {% include bio.html %}
+        {% endif %}
+        {% if page.parent == "books" %}
+          <h2 class="mt-4 pb-3">Book links</h2>
+          {% include social.html size="small" %}
+        {% endif %}
+        {% if page.bookshop %}
+          <p>
+            <a href="{{ page.bookshop }}" class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">
+              Buy
+            </a>
+          </p>
+        {% elsif page.amazon %}
+          <p>
+            <a href="{{ page.amazon }}" class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">
+              Buy
+            </a>
+          </p>
+        {% endif %}
+        {% if page.parent == "books" %}
+          {% include disclosure.html %}
+        {% endif %}
+        {% include topics.html %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+    </div>
+  </div>
+</main>
+<aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
+      </div>
+    </div>
+  </div>
+</aside>
+{% include analytics.html %}
+{% include footer.html %}

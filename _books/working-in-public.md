@@ -2,7 +2,7 @@
 title: "Working in Public"
 description: "The Making and Maintenance of Open Source Software"
 img-feat: working-in-public.jpg
-author:  Nadia Eghbal
+book-author:  Nadia Eghbal
 website: 
 library: https://www.worldcat.org/title/working-in-public-the-making-and-maintenance-of-open-source-software/oclc/1183029492?loc=
 bookshop: 
@@ -14,6 +14,7 @@ category:
   - Culture
   - Digital
   - Open
+author: Luke Fretwell
 ---
 
 Nadia Eghbal’s “Working in Public: The Making and Maintenance of Open Source Software” is a deep and intellectual dive into the nuances of open source, yet still an excellent resource for government officials to both understand its role and importance in building civic technology, but is also relatable in many ways to the concepts of public service and public goods.

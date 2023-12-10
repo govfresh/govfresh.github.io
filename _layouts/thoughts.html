@@ -7,29 +7,36 @@ layout: thoughts
 {% include breadcrumb.html %}
 {% include read-time-bar.html %}
 <main>
-    <article>
-        {% include jumbotron.html %}
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                    {{ content }}
-                    {% include updated.html %}
-                    {% include bio.html %}
-                </div>
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-            </div>
+  <article>
+    {% include jumbotron.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <div class="small text-body-secondary">
+            {% include toc.html html=content %}
+          </div>
         </div>
-    </article>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+          <div id="post">
+            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+          </div>
+          {% include updated.html %}
+          {% include bio.html %}
+          {% include topics.html %}
+        </div>
+      </div>
+    </div>
+  </article>
 </main>
 <aside>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                {% include previews.html show-only="true" %}
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include previews.html show-only="true" %}
+      </div>
     </div>
+  </div>
 </aside>
 {% include analytics.html %}
 {% include footer.html %}

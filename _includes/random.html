@@ -1,5 +1,6 @@
 <script>
     var elements = Array.from(document.querySelectorAll("div.randomize > div"));
+    if (elements.length > 0) {
     var randomized = [];
     document.querySelector("div.randomize").innerHTML = "";
     let length = elements.length;
@@ -10,5 +11,5 @@
     }
     randomized.forEach(element => {
         document.querySelector("div.randomize").innerHTML += element.outerHTML;
-    });
+    });}
 </script>
