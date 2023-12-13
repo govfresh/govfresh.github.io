@@ -13,10 +13,11 @@
     <!-- Favicon -->
     {% include favicon.html %}
     <!-- Social media -->
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     {% if page.img-feat %}
     <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
     <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">

@@ -112,7 +112,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-                <h1 class="h2 mb-4">{{ page.title }}</h1>
+                <h1 class="display-4 mb-4">{{ page.title }}</h1>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
@@ -141,10 +141,10 @@
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
                 {% if page.description %}
-                <p class="lead-line">{{ page.description }}</p>
-                {% include author.html %}
+                <p class="lead">{{ page.description }}</p>
                 {% endif %}
-            </div>
+                    {% include toc.html html=content %}
+                </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         </div>
     </div>

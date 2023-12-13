@@ -1,22 +1,33 @@
 {% if include.level == "secondary" %}
-<div class="col-12 col-sm-12">
-    <div class="card-body">
-        <h3 class="h4">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-        </h3>
-    </div>
-</div>
-{% else %}
-<div class="col-12 col-sm-12">
-    <div class="card-body">
-        <div class="fancy-2 img">
-            <img src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
-                class="rounded lg float-left mr-4 mb-4 line-2" alt="{{ item.img-alt }}">
-        </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card mb-4">
+      <div class="card-img-top">
+        <img
+          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
+          class="xxl"
+          alt="{{ item.img-alt }}">
+      </div>
+      <div class="card-body">
         <h3 class="h3">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
         </h3>
-        <p>{{ item.description }}</p>
+      </div>
     </div>
-</div>
+  </div>
+{% else %}
+  <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card mb-4">
+      <div class="card-img-top">
+        <img
+          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
+          class="xxl"
+          alt="{{ item.img-alt }}">
+      </div>
+      <div class="card-body">
+        <h3 class="h3">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+        </h3>
+      </div>
+    </div>
+  </div>
 {% endif %}
