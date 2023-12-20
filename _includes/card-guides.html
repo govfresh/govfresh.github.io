@@ -12,6 +12,11 @@
           <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
         </h3>
       </div>
+      {% if item.feedback %}
+        <div class="card-footer">
+          <span class="badge text-bg-success">In progress</span>
+        </div>
+      {% endif %}
     </div>
   </div>
 {% else %}
@@ -28,6 +33,11 @@
           <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
         </h3>
       </div>
+      {% if item.feedback %}
+        <div class="card-footer">
+          <span class="badge text-bg-success">In progress</span>
+        </div>
+      {% endif %}
     </div>
   </div>
 {% endif %}

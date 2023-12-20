@@ -193,6 +193,12 @@
     --bs-form-valid-border-color: #198754;
     --bs-form-invalid-color: #dc3545;
     --bs-form-invalid-border-color: #dc3545;
+    --bs-badge-padding-x: ;
+    --bs-badge-padding-y: ;
+    @include rfs($badge-font-size, --#{$prefix}badge-font-size);
+    --bs-badge-font-weight: 300;
+    --bs-badge-color: yellow;
+    --bs-badge-border-radius: 0;
 }
 
 .btn-bd-primary {
@@ -1313,17 +1319,12 @@ a[href$=".png"], a[href$=".jpg"] {
 /* Badge */
 
 .badge {
-    border-radius: var(--size-3);
-    font-family: var(--font-5) !important;
+    border-radius: var(--size-1);
+    font-family: var(--font-4) !important;
+    font-weight: normal;
     margin-bottom: var(--size-6) !important;
     margin-top: var(--size-4) !important;
     padding: var(--size-4);
-}
-
-.badge-light {
-    background: var(--color-6);
-    border: var(--size-3) solid var(--color-6);
-    color: var(--color-1);
 }
 
 /* DM */

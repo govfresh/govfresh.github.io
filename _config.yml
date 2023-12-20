@@ -13,6 +13,9 @@ social:
     - https://www.linkedin.com/company/govfresh
     - https://github.com/govfresh
 
+twitter: "@govfresh"
+linkedin: https://www.linkedin.com/company/govfresh
+
 # Build settings
 theme:
 markdown: kramdown
@@ -38,7 +41,7 @@ permalink: /404.html
 books-number: 7
 dm-number: &dm-number 5
 labs-number: 3
-guides-number: &guides-number 3
+guides-number: &guides-number 4
 thoughts-number: &thoughts-number 9
 
 # Defaults
@@ -159,13 +162,13 @@ order:
   - 
     name: thoughts
     number: *thoughts-number
-#  - 
-#    name: guides
-#    number: *guides-number
   - 
     name: dm
     number: *dm-number
-
+  - 
+    name: guides
+    number: *guides-number
+    
 # Exclude
 exclude:
   - gemfiles/

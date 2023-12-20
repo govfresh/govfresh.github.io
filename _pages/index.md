@@ -1,8 +1,8 @@
 ---
 layout: home
 short: "true"
-title: Design. Technology. Democracy.
-description: 
+title: GovFresh
+description: Design. Technology. Democracy.
 thoughts-title: Thoughts
 thoughts-description: Ideas and opinions.
 thoughts-link: /thoughts/

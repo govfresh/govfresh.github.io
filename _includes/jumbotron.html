@@ -98,8 +98,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <h1 class="display-3 mt-4">{{ page.title }}</h1>
-                <p class="lead">{{ page.description }}</p>
+                <h1 class="display-3 mt-4">{{ page.description }}</h1>
                 {% include social.html size="footer" %}
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
@@ -143,7 +142,18 @@
                 {% if page.description %}
                 <p class="lead">{{ page.description }}</p>
                 {% endif %}
-                    {% include toc.html html=content %}
+                {% if page.feedback %}
+                    <div class="alert alert-info mt-5 pt-4">
+                        <span class="badge text-bg-success">In progress</span>
+                        <p>
+                            This guide is a work in progress and open for public feedback.
+                        </p>
+                        <p>
+                            <a href="{{ page.feedback-link }}" class="btn btn-primary btn-bd-primary btn-sm">Add your feedback</a>
+                        </p>
+                    </div>
+                {% endif %}
+                {% include toc.html html=content %}
                 </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         </div>

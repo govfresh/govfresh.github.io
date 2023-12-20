@@ -1,0 +1,4 @@
+{% if page.contributors %}
+  <h2>Contributors</h2>
+  <p class="text-body-secondary mb-5">{% assign contributors = page.contributors | join: ', ' %}{{ contributors }}</p>
+{% endif %}
