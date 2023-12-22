@@ -10,9 +10,7 @@ img-caption: "Git icons from Feather"
 img-link: https://feathericons.com/
 category:
   - Culture
-  - Innovation
-  - Open
-  - featured
+  - Open government
 feature: "true"
 ---
 

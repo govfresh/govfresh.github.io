@@ -19,10 +19,10 @@ category:
   - Data
   - Design
   - Digital
-  - Inclusion
   - Innovation
-  - Open
-  - Privacy
+  - Open government
+  - Open innovation
+  - Open source software
 feature: "true"
 ---
 

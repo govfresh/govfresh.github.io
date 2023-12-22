@@ -1,9 +1,9 @@
 ---
 layout: cards
-title: Guides
+title: Research
 description: Research and deep work.
-permalink: /guides/
-parent: guides
+permalink: /research/
+parent: research
 icon: "fa-solid fa-book"
 clean: true
 ---

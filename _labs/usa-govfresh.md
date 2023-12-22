@@ -9,8 +9,8 @@ category:
   - Civic hacking
   - Data
   - Design
+  - Data
   - Digital
-  - Open
 ---
 
 An experiment to re-think how open government data can be used to build a portal to government information for the public.

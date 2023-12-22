@@ -14,9 +14,7 @@ category:
   - Culture
   - Data
   - Digital
-  - Inclusion
-  - Innovation
-  - Open
+  - Open innovation
 feature: "true"
 ---
 

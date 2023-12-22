@@ -41,7 +41,7 @@ permalink: /404.html
 books-number: 7
 dm-number: &dm-number 5
 labs-number: 3
-guides-number: &guides-number 4
+research-number: &research-number 4
 thoughts-number: &thoughts-number 9
 
 # Defaults
@@ -74,13 +74,13 @@ defaults:
       layout: "book"
       short: "true"
   - scope:
-      path: "_guides"
-      type: "guides"
+      path: "_research"
+      type: "research"
     values:
-      folder: "Guides"
+      folder: "Research"
       img-path: "posts"
-      parent: "guides"
-      layout: "guides"
+      parent: "research"
+      layout: "research"
       short: "true"
   - scope:
       path: "_people"
@@ -125,15 +125,21 @@ defaults:
 
 # Collections
 collections:
-  books:
+  thoughts:
     output: true
-    permalink: /books/:title
+    permalink: /thoughts/:title
   dm:
     output: true
     permalink: /dm/:title
-  guides:
+  research:
     output: true
-    permalink: /guides/:title
+    permalink: /research/:title
+  books:
+    output: true
+    permalink: /books/:title
+  posts:
+    output: true
+    permalink: /signal/:title
   labs:
     output: true
     permalink: labs/:title
@@ -143,12 +149,6 @@ collections:
   people:
     output: true
     permalink: people/:title
-  posts:
-    output: true
-    permalink: /signal/:title
-  thoughts:
-    output: true
-    permalink: /thoughts/:title
   topics:
     output: true
     permalink: topics/:title
@@ -166,8 +166,8 @@ order:
     name: dm
     number: *dm-number
   - 
-    name: guides
-    number: *guides-number
+    name: research
+    number: *research-number
     
 # Exclude
 exclude:

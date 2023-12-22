@@ -12,7 +12,6 @@ category:
   - Artificial intelligence
   - Data
   - Digital
-  - Open
 feature: "true"
 ---
 

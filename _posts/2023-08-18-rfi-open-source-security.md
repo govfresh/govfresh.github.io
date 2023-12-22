@@ -11,16 +11,17 @@ quote: "We hope that potential respondents will view this RFI as a civic opportu
 action-text: "Submit your comments"
 action-link: https://www.regulations.gov/commenton/ONCD-2023-0002-0001
 category:
+  - Artificial intelligence
+  - Civic hacking
   - Community
   - Culture
   - Cybersecurity
   - Data
   - Design
   - Digital
-  - Inclusion
-  - Innovation
-  - Open
-  - Privacy
+  - Open government
+  - Open innovation
+  - Open source software
 ---
 
 ## Brief

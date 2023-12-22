@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <meta name="description" content="A 'civic opportunity to help shape the government’s thinking about open-source software security.'">
-    <meta name="keywords" content="Community, Culture, Cybersecurity, Data, Design, Digital, Inclusion, Innovation, Open, Privacy">
+    <meta name="keywords" content="Artificial intelligence, Civic hacking, Community, Culture, Cybersecurity, Data, Design, Digital, Open government, Open innovation, Open source software">
     <meta name="author" content="GovFresh">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
@@ -160,7 +160,7 @@
 </div>
 <div class="border-bottom gradient">
   <div class="container">
-    <nav class="navbar navbar-expand-xl">
+    <nav class="navbar navbar-expand-lg">
       <button
         aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
@@ -185,7 +185,7 @@
             
           
             
-              <a class="nav-item nav-link " href="/guides/">Guides</a>
+              <a class="nav-item nav-link " href="/research/">Research</a>
             
           
             
@@ -218,34 +218,32 @@
         </div>
     </div>
 </div>
-<div id="read-time-container">
-    <div id="read-time-bar"></div>
-</div>
+
 <main>
     
-<div class="pt-5 pb-4 mb-2">
+  <div class="pt-5 pb-4 mb-2">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-5 mb-4">White House wants your input on open source software security</h1>
-                
-                    <p class="lead border-bottom pb-5 mb-5">A 'civic opportunity to help shape the government’s thinking about open-source software security.'</p>
-                    
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-5 mb-4">White House wants your input on open source software security</h1>
+          
+            <p class="lead border-bottom pb-5 mb-5">A 'civic opportunity to help shape the government’s thinking about open-source software security.'</p>
+          
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                    
-                <blockquote>
-                    <p>"We hope that potential respondents will view this RFI as a civic opportunity to help shape the government's thinking about open-source software security."</p>
-                </blockquote>
-                
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+            <blockquote>
+              <p>"We hope that potential respondents will view this RFI as a civic opportunity to help shape the government's thinking about open-source software security."</p>
+            </blockquote>
+          
         </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+      </div>
     </div>
-</div>
+  </div>
 
     <div class="container">
         <div class="row">
@@ -256,7 +254,7 @@
   
     
     
-      <p class="small text-body-secondary">
+      <p class="small text-body-secondary pb-5">
         By
         <a href="/people/govfresh">
           GovFresh</a>
@@ -327,8 +325,10 @@
                     <a href="https://www.regulations.gov/commenton/ONCD-2023-0002-0001" class="btn btn-primary btn-bd-primary mb-5">Submit your comments</a>
                     
                 </div>
-                <!-- <p class="updated"><small>Updated:
-                2023-08-18 07:34:32 -0700</small></p> -->
+                <p class="small text-body-secondary mt-4 mb-5">
+  <small>Updated:
+    2023-08-18 07:34:32 -0700</small>
+</p>
             </div>
             <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
         </div>
@@ -336,17 +336,101 @@
     </div>
 </main>
 
-<button id="backToTopBtn" onclick="scrollToTop()">
-  <i class="fas fa-chevron-up"></i>
+<button
+  href="javascript:void(0);"
+  id="back-to-top"
+  onclick="document.documentElement.scrollTop = 0;">
+  <i class="fas fa-chevron-up fa-lg"></i>
 </button>
+<script>
+  const button = document.getElementById("back-to-top");
+  document.body.onscroll = () => {
+    if (document.documentElement.scrollTop > window.innerHeight*0.5) 
+      button.style.opacity = "1";
+    else
+      button.style.opacity = "0";
+  };
+</script>
 <footer>
   <div class="gradient border-top mt-5 py-5">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <p>
-            <strong>Connect with us</strong>
-          </p>
+          <h5>Topics</h5>
+          <ul class="list-inline">
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/ai" class="flex-fill">Artificial intelligence</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/civic-hacking" class="flex-fill">Civic hacking</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/community" class="flex-fill">Community</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/culture" class="flex-fill">Culture</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/cybersecurity" class="flex-fill">Cybersecurity</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/data" class="flex-fill">Data</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/design" class="flex-fill">Design</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/digital" class="flex-fill">Digital</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/open-government" class="flex-fill">Open government</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/open-innovation" class="flex-fill">Open innovation</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/open-source-software" class="flex-fill">Open source software</a>
+                </small>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="row border-top mb-4 pt-5">
+        <div class="col-sm-12">
+          <h5>Connect with us</h5>
           
   <!-- Footer -->
   
@@ -457,8 +541,8 @@
         </div>
       </div>
     </div>
-    <div class="container fs-6 mt-4 pt-4 border-top">
-      <div class="row">
+    <div class="container">
+      <div class="row fs-6 mt-5 pt-4 border-top">
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
           <ul class="list-unstyled">
             
@@ -546,7 +630,7 @@
             
               
                 <li>
-                  <a href="/guides/">Guides</a>
+                  <a href="/research/">Research</a>
                 </li>
               
             
@@ -608,7 +692,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 border-top pt-4">
-          <p>
+          <p class="small">
             GovFresh 2023
           </p>
         </div>
@@ -658,7 +742,7 @@
 </script>
 
 <script>
-    const postElement = document.getElementById('post');
+    const postElement = document.getElementById('post-tombstone');
     const tombstone = document.createElement('span');
     tombstone.className = 'tombstone';
 

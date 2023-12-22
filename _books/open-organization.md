@@ -11,6 +11,7 @@ amazon: https://amzn.to/3mt8CAJ
 review-link: 
 category:
   - Culture
-  - Open
+  - Open innovation
+  - Open source software
 ---
 

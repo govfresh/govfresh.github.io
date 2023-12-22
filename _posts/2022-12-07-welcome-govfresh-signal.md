@@ -8,16 +8,17 @@ img-feat: signal-feat.png
 img-alt: "Icon of satellite dish"
 img-caption: ""
 category:
+  - Artificial intelligence
+  - Civic hacking
   - Community
   - Culture
   - Cybersecurity
   - Data
   - Design
   - Digital
-  - Inclusion
-  - Innovation
-  - Open
-  - Privacy
+  - Open government
+  - Open innovation
+  - Open source software
 ---
 
 Welcome to GovFresh Signal, the official GovFresh newsletter.

@@ -27,8 +27,6 @@ rss:
 category:
   - Culture
   - Digital
-  - Inclusion
-  - Industry
 feature:
 ---
 

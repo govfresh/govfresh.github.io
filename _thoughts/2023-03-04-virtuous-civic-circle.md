@@ -11,9 +11,7 @@ img-link: https://thenounproject.com/icon/laurel-wreath-1383533/
 category:
   - Community
   - Culture
-  - Inclusion
-  - Innovation
-  - Open
+  - Open government
 feature: "true"
 ---
 

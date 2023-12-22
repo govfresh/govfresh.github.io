@@ -31,7 +31,6 @@ category:
   - Culture
   - Design
   - Digital
-  - Open
 feature: 
 ---
 

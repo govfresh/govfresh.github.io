@@ -424,7 +424,6 @@ a.nav-link:hover {
     width: 100%;
     height: var(--size-3);
     background-color: #fff2f5;
-    display: none;
     z-index: 1000;
 }
 
@@ -437,13 +436,13 @@ a.nav-link:hover {
 
 /* Back to top */
 
-#backToTopBtn {
-    display: none;
+#back-to-top {
+    opacity: 0;
     position: fixed;
     font-family: var(--font-3);
     bottom: 0;
     right: 1rem;
-    background-color: var(--color-1);
+    background-color: var(--bs-secondary-bg);
     color: var(--color-4);
     border-radius: var(--size-2);
     cursor: pointer;
@@ -452,8 +451,8 @@ a.nav-link:hover {
     border: var(--size-2) solid var(--color-1);
 }
 
-#backToTopBtn:hover {
-    background-color: var(--bs-secondary-bg);
+#back-to-top:hover {
+    background-color: var(--color-1);
 }
 
 /* Fixed bottom */

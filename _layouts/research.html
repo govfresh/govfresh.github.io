@@ -1,5 +1,5 @@
 ---
-layout: guides
+layout: research
 ---
 
 {% include header.html %}
@@ -11,11 +11,15 @@ layout: guides
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
-        {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
-        {% include contributors.html %}
+      <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+        {% include toc.html html=content %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <div id="post">
+          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+        </div>
         {% include updated.html %}
+        {% include contributors.html %}
         {% include topics.html %}
       </div>
     </div>

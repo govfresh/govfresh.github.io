@@ -29,9 +29,11 @@ calendar:
 rss: 
 category:
   - Culture
+  - Data
   - Design
   - Digital
-  - Open
+  - Open innovation
+  - Open source software
 feature: 
 ---
 

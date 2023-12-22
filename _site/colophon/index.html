@@ -82,10 +82,10 @@
     <meta property="og:url" content="http://localhost:4000/colophon/">
     
     <!-- Created date -->
-    <meta property="article:published_time" content="2023-12-19 20:08:35 -0800" />
-    <meta name="dc.date" content="2023-12-19 20:08:35 -0800" />
-    <meta name="dc.date.created" content="2023-12-19 20:08:35 -0800" />  
-    <meta name="dcterms.created" content="2023-12-19 20:08:35 -0800" />
+    <meta property="article:published_time" content="2023-12-21 20:21:09 -0800" />
+    <meta name="dc.date" content="2023-12-21 20:21:09 -0800" />
+    <meta name="dc.date.created" content="2023-12-21 20:21:09 -0800" />  
+    <meta name="dcterms.created" content="2023-12-21 20:21:09 -0800" />
     
     
     
@@ -151,7 +151,7 @@
 </div>
 <div class="border-bottom gradient">
   <div class="container">
-    <nav class="navbar navbar-expand-xl">
+    <nav class="navbar navbar-expand-lg">
       <button
         aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
@@ -176,7 +176,7 @@
             
           
             
-              <a class="nav-item nav-link " href="/guides/">Guides</a>
+              <a class="nav-item nav-link " href="/research/">Research</a>
             
           
             
@@ -198,19 +198,19 @@
 </div>
 <main>
   
-<div class="pt-5 pb-4 mb-2">
+  <div class="pt-5 pb-4 mb-2">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-4">Colophon</h1>
-                
-                <p class="lead">Behind the GovFresh scenes.</p>
-                
-                
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4">Colophon</h1>
+          
+            <p class="lead">Behind the GovFresh scenes.</p>
+          
+          
         </div>
+      </div>
     </div>
-</div>
+  </div>
 
   <div class="container">
     <div class="row">
@@ -253,25 +253,111 @@
 </ul>
 
         </div>
-        <!-- <p class="updated"><small>Updated:
-                2022-03-07 07:30:15 -0800</small></p> -->
+        <p class="small text-body-secondary mt-4 mb-5">
+  <small>Updated:
+    2022-03-07 07:30:15 -0800</small>
+</p>
       </div>
       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
     </div>
   </div>
 </main>
 
-<button id="backToTopBtn" onclick="scrollToTop()">
-  <i class="fas fa-chevron-up"></i>
+<button
+  href="javascript:void(0);"
+  id="back-to-top"
+  onclick="document.documentElement.scrollTop = 0;">
+  <i class="fas fa-chevron-up fa-lg"></i>
 </button>
+<script>
+  const button = document.getElementById("back-to-top");
+  document.body.onscroll = () => {
+    if (document.documentElement.scrollTop > window.innerHeight*0.5) 
+      button.style.opacity = "1";
+    else
+      button.style.opacity = "0";
+  };
+</script>
 <footer>
   <div class="gradient border-top mt-5 py-5">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <p>
-            <strong>Connect with us</strong>
-          </p>
+          <h5>Topics</h5>
+          <ul class="list-inline">
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/ai" class="flex-fill">Artificial intelligence</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/civic-hacking" class="flex-fill">Civic hacking</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/community" class="flex-fill">Community</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/culture" class="flex-fill">Culture</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/cybersecurity" class="flex-fill">Cybersecurity</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/data" class="flex-fill">Data</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/design" class="flex-fill">Design</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/digital" class="flex-fill">Digital</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/open-government" class="flex-fill">Open government</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/open-innovation" class="flex-fill">Open innovation</a>
+                </small>
+              </li>
+            
+              <li class="list-inline-item small">
+                <small>
+                  <a href="/topics/open-source-software" class="flex-fill">Open source software</a>
+                </small>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="row border-top mb-4 pt-5">
+        <div class="col-sm-12">
+          <h5>Connect with us</h5>
           
   <!-- Footer -->
   
@@ -382,8 +468,8 @@
         </div>
       </div>
     </div>
-    <div class="container fs-6 mt-4 pt-4 border-top">
-      <div class="row">
+    <div class="container">
+      <div class="row fs-6 mt-5 pt-4 border-top">
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
           <ul class="list-unstyled">
             
@@ -471,7 +557,7 @@
             
               
                 <li>
-                  <a href="/guides/">Guides</a>
+                  <a href="/research/">Research</a>
                 </li>
               
             
@@ -533,7 +619,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 border-top pt-4">
-          <p>
+          <p class="small">
             GovFresh 2023
           </p>
         </div>
@@ -583,7 +669,7 @@
 </script>
 
 <script>
-    const postElement = document.getElementById('post');
+    const postElement = document.getElementById('post-tombstone');
     const tombstone = document.createElement('span');
     tombstone.className = 'tombstone';
 

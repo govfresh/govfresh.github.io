@@ -13,9 +13,7 @@ category:
   - Community
   - Culture
   - Digital
-  - Inclusion
-  - Innovation
-  - Open
+  - Open innovation
 feature: "true"
 ---
 

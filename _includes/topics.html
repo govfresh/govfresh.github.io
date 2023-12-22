@@ -5,12 +5,11 @@
     {% assign categories = page.categories %}
   {% endif %}
   <h2>Topics</h2>
-  <ul class="list-inline">
+  <ul class="list-inline mb-5 mt-3">
     {% for category in categories %}
       <li class="list-inline-item small">
         <small>
-          <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="flex-fill">{{ category
-}}</a>
+          <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="flex-fill">{{ category }}</a>
         </small>
       </li>
       {% unless forloop.last %}

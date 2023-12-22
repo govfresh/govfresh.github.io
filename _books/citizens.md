@@ -13,8 +13,6 @@ quote: "The absolute precondition for the Citizen Story is belief in ourselves a
 category:
   - Community
   - Culture
-  - Inclusion
-  - Open
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-citizens

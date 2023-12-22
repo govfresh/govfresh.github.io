@@ -29,7 +29,6 @@ category:
   - Culture
   - Design
   - Digital
-  - Inclusion
 author: Luke Fretwell
 ---
 

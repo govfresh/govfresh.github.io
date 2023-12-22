@@ -11,6 +11,7 @@ goodreads: https://www.goodreads.com/
 amazon: https://www.amazon.com
 quote: 
 category:
+  - Artificial intelligence
   - Civic hacking
   - Community
   - Culture
@@ -18,10 +19,9 @@ category:
   - Data
   - Design
   - Digital
-  - Inclusion
-  - Innovation
-  - Open
-  - Privacy
+  - Open government
+  - Open innovation
+  - Open source software
 author: 
 ---
 

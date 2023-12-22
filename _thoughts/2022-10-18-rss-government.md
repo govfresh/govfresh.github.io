@@ -12,7 +12,6 @@ img-link: https://feathericons.com/
 category:
   - Data
   - Digital
-  - Open
 feature: "true"
 ---
 

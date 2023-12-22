@@ -1,187 +1,202 @@
 {% if page.layout == "signal" %}
-<div class="pt-5 pb-4 mb-2">
+  <div class="pt-5 pb-4 mb-2">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-5 mb-4">{{ page.title }}</h1>
-                {% if page.description %}
-                    <p class="lead border-bottom pb-5 mb-5">{{ page.description }}</p>
-                    {% endif %}
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-5 mb-4">{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="lead border-bottom pb-5 mb-5">{{ page.description }}</p>
+          {% endif %}
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                    {% if page.quote %}
-                <blockquote>
-                    <p>"{{ page.quote }}"</p>
-                </blockquote>
-                {% endif %}
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          {% if page.quote %}
+            <blockquote>
+              <p>"{{ page.quote }}"</p>
+            </blockquote>
+          {% endif %}
         </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+      </div>
     </div>
-</div>
+  </div>
 {% elsif page.layout == "book" %}
-<div class="pt-5 pb-4 mb-2">
+  <div class="pt-5 pb-4 mb-2">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-5">{{ page.title }}</h1>
-                {% if page.description %}
-                    <p class="lead mb-5">{{ page.description }}</p>
-                    {% endif %}
-                    </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-5">{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="lead mb-5">{{ page.description }}</p>
+          {% endif %}
         </div>
-            <div class="row border-bottom">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
-                {% if page.quote %}
-                <blockquote>
-                    <p>"{{ page.quote }}"</p>
-                </blockquote>
-                <p class="small text-body-secondary mb-5">&mdash; {{ page.book-author }}</p>
-                {% elsif page.book-author %}
-                    <p class="small text-body-secondary">By {{ page.book-author }}</p>
-                {% endif %}
-                </div>
-            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 text-center">
-                <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
-                    alt="{{ page.book-title }}" class="xl shadow">
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+      </div>
+      <div class="row border-bottom">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 text-center">
+          <img
+            src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+            alt="{{ page.book-title }}"
+            class="xl shadow">
         </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+          {% if page.quote %}
+            <blockquote>
+              <p>"{{ page.quote }}"</p>
+            </blockquote>
+            <p class="small text-body-secondary mb-5">&mdash; {{ page.book-author }}</p>
+          {% elsif page.book-author %}
+            <p class="small text-body-secondary">By {{ page.book-author }}</p>
+          {% endif %}
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+      </div>
     </div>
-</div>
+  </div>
 {% elsif page.layout == "thoughts" %}
-<div class="pt-5 pb-4 mb-2">
+  <div class="pt-5 pb-4 mb-2">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-4 mb-4">{{ page.title }}</h1>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4 mb-4">{{ page.title }}</h1>
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                {% if page.img %}
-                <figure>
-                    <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}" alt="{{ page.img-alt }}">
-                        {% if page.img-caption %}
-                        <figcaption>
-                        <p class="small text-body-secondary"><small>
-                            {% if page.img-link %}
-                            <a href="{{ site.baseurl }}{{ page.img-link }}">
-                                {% endif %}
-                                {{ page.img-caption }}
-                                {% if page.img-link %}
-                            </a></small>
-                            </figcaption>
-                            {% endif %}
-                        </p>
-                        {% endif %}
-                </figure>
-                {% endif %}
-                </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                {% if page.description %}
-                <p class="lead border-bottom pb-5 mb-5">{{ page.description }}</p>
-                {% include author.html %}
-                {% endif %}
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-        </div>
-    </div>
-</div>
-{% elsif page.layout == "home" %}
-<div class="pt-5 pb-4 mb-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <h1 class="display-3 mt-4">{{ page.description }}</h1>
-                {% include social.html size="footer" %}
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
-        </div>
-    </div>
-</div>
-{% elsif page.layout == "guides" %}
-<div class="pt-5 pb-4 mb-2">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-                <h1 class="display-4 mb-4">{{ page.title }}</h1>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                {% if page.img %}
-                <div class="img">
-                    <div class="mr-3">
-                        <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}" class="img-feat"
-                            alt="{{ page.img-alt }}">
-                    </div>
-                    {% if page.img-caption %}
-                    <p class="img-caption">
-                        {% if page.img-link %}
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          {% if page.img %}
+            <figure>
+              <img src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}" alt="{{ page.img-alt }}">
+              {% if page.img-caption %}
+                <figcaption>
+                  <p class="small text-body-secondary">
+                    <small>
+                      {% if page.img-link %}
                         <a href="{{ site.baseurl }}{{ page.img-link }}">
-                            {% endif %}
-                            {{ page.img-caption }}
-                            {% if page.img-link %}
+                      {% endif %}
+                      {{ page.img-caption }}
+                      {% if page.img-link %}
                         </a>
-                        {% endif %}
-                    </p>
-                    {% endif %}
-                </div>
-                {% endif %}
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
-                {% if page.description %}
-                <p class="lead">{{ page.description }}</p>
-                {% endif %}
-                {% if page.feedback %}
-                    <div class="alert alert-info mt-5 pt-4">
-                        <span class="badge text-bg-success">In progress</span>
-                        <p>
-                            This guide is a work in progress and open for public feedback.
-                        </p>
-                        <p>
-                            <a href="{{ page.feedback-link }}" class="btn btn-primary btn-bd-primary btn-sm">Add your feedback</a>
-                        </p>
-                    </div>
-                {% endif %}
-                {% include toc.html html=content %}
-                </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+                      {% endif %}
+                    </small>
+                  </p>
+                </figcaption>
+              {% endif %}
+            </figure>
+          {% endif %}
         </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          {% if page.description %}
+            <p class="lead mb-4">{{ page.description }}</p>
+          {% endif %}
+          <div id="read-time">
+            {% assign words = content | split: ' ' %}
+            {% assign minutes = words.size | divided_by: 200.0 %}
+            <p class="small text-body-secondary border-bottom pb-5 mb-5">
+              <small>
+                <i class="fa-regular fa-clock"></i>
+                Estimated read time: {{ minutes | round }} minutes</small>
+            </p>
+          </div>
+          {% include author.html %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+      </div>
     </div>
-</div>
+  </div>
+{% elsif page.layout == "home" %}
+  <div class="pt-5 pb-4 mb-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          <h1 class="display-3 mt-4 mb-4">{{ page.description }}</h1>
+          {% include social.html size="footer" %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
+      </div>
+    </div>
+  </div>
+{% elsif page.layout == "research" %}
+  <div class="pt-5 pb-4 mb-2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+          <h1 class="display-4 mb-4">{{ page.title }}</h1>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          {% if page.img %}
+            <div class="img">
+              <div class="mr-3">
+                <img
+                  src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
+                  class="img-feat"
+                  alt="{{ page.img-alt }}">
+              </div>
+              {% if page.img-caption %}
+                <p class="img-caption">
+                  {% if page.img-link %}
+                    <a href="{{ site.baseurl }}{{ page.img-link }}">
+                  {% endif %}
+                  {{ page.img-caption }}
+                  {% if page.img-link %}
+                    </a>
+                  {% endif %}
+                </p>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+          {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+          {% endif %}
+          {% if page.feedback %}
+            <div class="alert alert-info mt-5 pt-4">
+              <span class="badge text-bg-success">In progress</span>
+              <p>
+                This is a work in progress and open for public feedback.
+              </p>
+              <p>
+                <a href="{{ page.feedback-link }}" class="btn btn-primary btn-bd-primary btn-sm">Add your feedback</a>
+              </p>
+            </div>
+          {% endif %}
+          {% include toc.html html=content %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+      </div>
+    </div>
+  </div>
 {% elsif page.layout == "dm" %}
-<div class="pt-5 pb-4 mb-2">
+  <div class="pt-5 pb-4 mb-2">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-4">{{ page.title }}</h1>
-                <p class="lead">{{ page.description }}</p>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4">{{ page.title }}</h1>
+          <p class="lead">{{ page.description }}</p>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 {% else %}
-<div class="pt-5 pb-4 mb-2">
+  <div class="pt-5 pb-4 mb-2">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-4">{{ page.title }}</h1>
-                {% if page.description %}
-                <p class="lead">{{ page.description }}</p>
-                {% endif %}
-                {% include author.html %}
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4">{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+          {% endif %}
+          {% include author.html %}
         </div>
+      </div>
     </div>
-</div>
+  </div>
 {% endif %}

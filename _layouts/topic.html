@@ -11,28 +11,28 @@ layout: topic
     <div class="row">
       <div class="col-12">
         <div class="home-include">
-          {% for collection in site.collections %}
-            {% assign items = site[collection.label] | where: "categories", page.title | reverse %}
+          {% for collection in site.data.topics.docs %}
+            {% assign items = site[collection] | where: "categories", page.title | reverse %}
             {% assign size = items | size %}
             {% if size > 0 %}
-              {% assign page-to-include = "card-" | append: collection.label %}
-              {% if collection.label == "posts" %}
+              {% assign page-to-include = "card-" | append: collection %}
+              {% if collection == "posts" %}
                 {% assign page-to-include = "card-signal" %}
-              {% elsif collection.label == "papers" %}
-                {% assign page-to-include = "card-reviews" %}
+              {% elsif collection == "research" %}
+                {% assign page-to-include = "card-books" %}
               {% endif %}
-              <div class="preview {% unless collection == site.collections[0] %}fancy-top{% endunless %} {% if collection.label == 'posts' %}signal{% else %}{{ collection.label }}{% endif %}">
+              <div class="preview {% unless collection == site.collections[0] %}fancy-top{% endunless %} {% if collection == 'posts' %}signal{% else %}{{ collection }}{% endif %}">
                 <h2>
-                  {% if collection.label == 'posts' %}Signal
-                  {% elsif collection.label == 'orgs' %}
+                  {% if collection == 'posts' %}Signal
+                  {% elsif collection == 'orgs' %}
                     Organizations
-                  {% elsif collection.label == 'dm' %}
+                  {% elsif collection == 'dm' %}
                     Direct message
                   {% else %}
-                    {{ collection.label | capitalize }}
+                    {{ collection | capitalize }}
                   {% endif %}
                 </h2>
-                <div class="card-group {% unless 'ideas' or collection.label == 'reviews' or collection.label == 'podcasts' %}clean{% endunless %}">
+                <div class="card-group {% unless 'ideas' or collection == 'reviews' or collection == 'podcasts' %}clean{% endunless %}">
                   {% for item in items %}
                     {% include {{ page-to-include | append: ".html" }} %}
                   {% endfor %}

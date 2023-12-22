@@ -11,7 +11,7 @@ img-link: https://feathericons.com/
 category:
   - Culture
   - Digital
-  - Open
+  - Open innovation
 feature: "true"
 ---
 

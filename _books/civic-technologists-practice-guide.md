@@ -17,8 +17,6 @@ category:
   - Data
   - Design
   - Digital
-  - Inclusion
-  - Open
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-civic-technologists-practice-guide

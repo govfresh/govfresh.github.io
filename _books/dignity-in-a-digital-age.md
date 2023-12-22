@@ -12,7 +12,6 @@ quote: "The grand promise of the digital age is the possibility of aligning the 
 category:
   - Data
   - Digital
-  - Inclusion
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-dignity-in-a-digital-age

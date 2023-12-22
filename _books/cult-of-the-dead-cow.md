@@ -13,7 +13,7 @@ category:
   - Community
   - Culture
   - Cybersecurity
-  - Open
+  - Open source software
 ---
 
 From the publisher:

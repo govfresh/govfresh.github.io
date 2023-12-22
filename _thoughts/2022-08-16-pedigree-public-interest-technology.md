@@ -10,6 +10,7 @@ img-caption: "Certificate icon via Font Awesome"
 img-link: https://fontawesome.com/icons/certificate?f=classic&s=solid
 category:
   - Community
+  - Culture
   - Digital
 feature: "true"
 ---

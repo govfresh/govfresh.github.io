@@ -30,8 +30,6 @@ category:
   - Data
   - Design
   - Digital
-  - Inclusion
-  - Open
 feature:
 ---
 

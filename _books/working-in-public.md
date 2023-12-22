@@ -13,7 +13,7 @@ category:
   - Community
   - Culture
   - Digital
-  - Open
+  - Open source software
 author: Luke Fretwell
 ---
 

@@ -14,7 +14,6 @@ category:
   - Culture
   - Design
   - Digital
-  - Open
 author: Luke Fretwell
 ---
 
