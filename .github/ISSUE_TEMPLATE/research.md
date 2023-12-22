@@ -1,8 +1,8 @@
 ---
-name: Direct message
-about: DM issue template
-title: 'DM: '
-labels: dm
+name: Research
+about: Research
+title: 'Research: '
+labels: research
 assignees: ''
 
 ---
@@ -11,10 +11,9 @@ assignees: ''
 
 ## Publish
 - [ ] Set up doc ([template](https://docs.google.com/document/d/1GdhZmFvKs7QUWCZ9bt55_Qoe_RGAHN4_FxLOGhxDgDs/edit?usp=sharing))
-- [ ] Add questions
-- [ ] Share with interviewee
+- [ ] Add research
+- [ ] Share with community for feedback
 - [ ] Publish
-- [ ] Delete doc
 
 ## Promote
 - [ ] [Substack](https://govfresh.substack.com/)
