@@ -47,17 +47,13 @@
     <meta name="twitter:description" content="{{ page.description }}">
     {% if page.img-twitter %}
     <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-twitter }}">
-    {% elsif page.img-feat %}
-    <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
     {% else %}
-    <meta property="twitter:image" content="{{ site.url }}/assets/img/avatar.png">
+    <meta property="twitter:image" content="{{ site.url }}/assets/img/avatar-twitter.png">
     {% endif %}
     {% if page.img-og %}
     <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-og }}">
-    {% elsif page.img-feat %}
-    <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
     {% else %}
-    <meta property="og:image" content="{{ site.url }}/assets/img/avatar.png">
+    <meta property="og:image" content="{{ site.url }}/assets/img/avatar-og.png">
     {% endif %}
     {% if page.img-feat %}
     <!-- Featured image -->

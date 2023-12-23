@@ -6,12 +6,12 @@
 </button>
 <script>
   const button = document.getElementById("back-to-top");
-  document.body.onscroll = () => {
+  addEventListener('scroll', e => {
     if (document.documentElement.scrollTop > window.innerHeight*0.5) 
-      button.style.opacity = "1";
+      button.style.opacity = '1';
     else
-      button.style.opacity = "0";
-  };
+      button.style.opacity = '0';
+  });
 </script>
 <footer>
   <div class="gradient border-top mt-5 py-5">

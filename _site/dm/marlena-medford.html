@@ -100,10 +100,10 @@
     <meta name="twitter:title" content="Direct messaging: Marlena Medford">
     <meta name="twitter:description" content="Civic tech evangelizer. Storyteller. Diversity seeker.">
     
-    <meta property="twitter:image" content="http://localhost:4000/assets/img/people/marlena-medford.jpg">
+    <meta property="twitter:image" content="http://localhost:4000/assets/img/avatar-twitter.png">
     
     
-    <meta property="og:image" content="http://localhost:4000/assets/img/people/marlena-medford.jpg">
+    <meta property="og:image" content="http://localhost:4000/assets/img/avatar-og.png">
     
     
     <!-- Featured image -->
@@ -218,7 +218,16 @@
         </div>
     </div>
 </div>
+<div id="read-time-container">
+  <div id="read-time-bar"></div>
+</div>
 
+<script>
+    const bar = document.getElementById('read-time-bar');
+    addEventListener('scroll',   () => {
+        bar.style.width = `${(document.documentElement.scrollTop / (document.documentElement.scrollHeight - document.documentElement.clientHeight)) * 100}%`;  
+    });
+</script>
 <main>
   
   <div class="pt-5 pb-4 mb-2">
@@ -3798,12 +3807,12 @@
 </button>
 <script>
   const button = document.getElementById("back-to-top");
-  document.body.onscroll = () => {
+  addEventListener('scroll', e => {
     if (document.documentElement.scrollTop > window.innerHeight*0.5) 
-      button.style.opacity = "1";
+      button.style.opacity = '1';
     else
-      button.style.opacity = "0";
-  };
+      button.style.opacity = '0';
+  });
 </script>
 <footer>
   <div class="gradient border-top mt-5 py-5">

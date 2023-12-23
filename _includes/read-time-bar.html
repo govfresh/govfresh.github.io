@@ -1,0 +1,10 @@
+<div id="read-time-container">
+  <div id="read-time-bar"></div>
+</div>
+
+<script>
+    const bar = document.getElementById('read-time-bar');
+    addEventListener('scroll',   () => {
+        bar.style.width = `${(document.documentElement.scrollTop / (document.documentElement.scrollHeight - document.documentElement.clientHeight)) * 100}%`;  
+    });
+</script>

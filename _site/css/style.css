@@ -137,8 +137,7 @@
     --bs-dark-border-subtle: #adb5bd;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
-    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
-    ;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: var(--font-4),
         /*SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",*/
         monospace;
@@ -418,17 +417,16 @@ a.nav-link:hover {
 /* Progress */
 
 #read-time-container {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     width: 100%;
-    height: var(--size-3);
-    background-color: #fff2f5;
-    z-index: 1000;
+    background: var(--gradient-2);
+    z-index: 2;
 }
 
 #read-time-bar {
-    height: 100%;
+    /* Change height or background-color if you want */
+    height: 0.5rem;
     background-color: #fd4496;
     width: 0;
     transition: width 0.1s;
