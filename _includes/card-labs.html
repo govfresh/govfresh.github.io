@@ -1,25 +1,29 @@
 {% if include.level == "secondary" %}
-<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-    <div class="card mb-3">
+  <aside>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+      <div class="card mb-3">
         <div class="card-body">
-            <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-            <h3>
-                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-            </h3>
-            <p class="">{{ item.description }}</p>
+          <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
+          <h3>
+            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+          </h3>
+          <p class="">{{ item.description }}</p>
         </div>
+      </div>
     </div>
-</div>
+  </aside>
 {% else %}
-<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-    <div class="card mb-3">
+  <aside>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+      <div class="card mb-3">
         <div class="card-body">
-            <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-            <h3>
-                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-            </h3>
-            <p class="">{{ item.description }}</p>
+          <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
+          <h3>
+            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+          </h3>
+          <p class="">{{ item.description }}</p>
         </div>
+      </div>
     </div>
-</div>
+  </aside>
 {% endif %}

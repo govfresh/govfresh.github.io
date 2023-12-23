@@ -4,7 +4,8 @@
 
 <script>
     const bar = document.getElementById('read-time-bar');
+      const article = document.querySelector('article');
     addEventListener('scroll',   () => {
-        bar.style.width = `${(document.documentElement.scrollTop / (document.documentElement.scrollHeight - document.documentElement.clientHeight)) * 100}%`;  
+        bar.style.width = `${(document.documentElement.scrollTop / article.scrollHeight) * 100}%`;  
     });
 </script>

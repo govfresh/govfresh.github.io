@@ -142,67 +142,69 @@
     <a class="sr-only sr-only-focusable skip-link" href="#main-content">
         Skip to main content
     </a>
-<div class="border-bottom gradient">
-  <div class="container">
-    <div class="row">
-      <div class="col-6 pt-4 pb-4">
-        <a class="navbar-brand" href="/">
-          <img src="http://localhost:4000/assets/img/logo.svg" alt="GovFresh">
-        </a>
-      </div>
-      <div class="col-6 pt-3 pb-3">
-        <!--
-        <a  class=""href="javascript:void(0);"      onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')">    <i class="fa-solid fa-sun float-end"></i></a>
-      -->
+<div id="nav">
+  <div class="border-bottom gradient">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 pt-4 pb-4">
+          <a class="navbar-brand" href="/">
+            <img src="http://localhost:4000/assets/img/logo.svg" alt="GovFresh">
+          </a>
+        </div>
+        <div class="col-6 pt-3 pb-3">
+          <!--
+          <a  class=""href="javascript:void(0);"      onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')">    <i class="fa-solid fa-sun float-end"></i></a>
+        -->
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="border-bottom gradient">
-  <div class="container">
-    <nav class="navbar navbar-expand-lg">
-      <button
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        class="navbar-toggler ml-auto"
-        data-target="#navbarNavAltMarkup"
-        data-toggle="collapse"
-        type="button"
-        onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-auto"></div>
-        <div class="navbar-nav">
-          
+  <div class="border-bottom gradient">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <button
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler ml-auto"
+          data-target="#navbarNavAltMarkup"
+          data-toggle="collapse"
+          type="button"
+          onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mr-auto"></div>
+          <div class="navbar-nav">
             
-              <a class="nav-item nav-link " href="/thoughts/">Thoughts</a>
+              
+                <a class="nav-item nav-link " href="/thoughts/">Thoughts</a>
+              
             
-          
+              
+                <a class="nav-item nav-link " href="/dm/">DM</a>
+              
             
-              <a class="nav-item nav-link " href="/dm/">DM</a>
+              
+                <a class="nav-item nav-link " href="/research/">Research</a>
+              
             
-          
+              
+                <a class="nav-item nav-link " href="https://podcast.govfresh.com">Podcast</a>
+              
             
-              <a class="nav-item nav-link " href="/research/">Research</a>
+              
+                <a class="nav-item nav-link " href="/community/">Community</a>
+              
             
-          
+              
+                <a class="nav-item nav-link " href="/labs/">Labs</a>
+              
             
-              <a class="nav-item nav-link " href="https://podcast.govfresh.com">Podcast</a>
-            
-          
-            
-              <a class="nav-item nav-link " href="/community/">Community</a>
-            
-          
-            
-              <a class="nav-item nav-link " href="/labs/">Labs</a>
-            
-          
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
 </div>
 <div class="container">
@@ -218,18 +220,20 @@
         </div>
     </div>
 </div>
-<div id="read-time-container">
+<main>
+  <article>
+    <div id="read-time-container">
   <div id="read-time-bar"></div>
 </div>
 
 <script>
     const bar = document.getElementById('read-time-bar');
+      const article = document.querySelector('article');
     addEventListener('scroll',   () => {
-        bar.style.width = `${(document.documentElement.scrollTop / (document.documentElement.scrollHeight - document.documentElement.clientHeight)) * 100}%`;  
+        bar.style.width = `${(document.documentElement.scrollTop / article.scrollHeight) * 100}%`;  
     });
 </script>
-<main>
-  
+    
   <div class="pt-5 pb-4 mb-2">
     <div class="container">
       <div class="row">
@@ -241,34 +245,34 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        
-        
-          <img
-            src="/assets/img/people/marlena-medford.jpg"
-            alt="Marlena Medford"
-            type=" Direct message"
-            class="rounded-circle lg mb-3">
-          
-          <ul class="list-unstyled text-body-secondary">
-            <li>
-              
-                Marlena Medford
-              
-            </li>
-            <li>
-              
-                Communications director,
-              
-              
-                Code for America
-              
-            </li>
-          </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
           
           
+            <img
+              src="/assets/img/people/marlena-medford.jpg"
+              alt="Marlena Medford"
+              type=" Direct message"
+              class="rounded-circle lg mb-3">
+            
+            <ul class="list-unstyled text-body-secondary">
+              <li>
+                
+                  Marlena Medford
+                
+              </li>
+              <li>
+                
+                  Communications director,
+                
+                
+                  Code for America
+                
+              </li>
+            </ul>
+            
+            
   <!-- Bio social -->
   <p class="social">
     
@@ -309,12 +313,12 @@
     
   </p>
 
+            
           
-        
-      </div>
-      <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-        
-        <div class="post post-dm"><h2 id="july-27-2022">July 27, 2022</h2>
+        </div>
+        <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+          
+          <div class="post post-dm"><h2 id="july-27-2022">July 27, 2022</h2>
 
 <h3 id="you-just-started-a-new-gig-hows-it-going">You just started a new gig. How’s it going?</h3>
 
@@ -382,16 +386,16 @@
 
 <p>Also, find the people who embody that spark. They’ll surely be a balm when motivation runs low.</p>
 </div>
-        
-        
-          <div class="alert alert-info border-top pt-4 mt-4 mb-4">
-            <h2>Connect with
+          
+          
+            <div class="alert alert-info border-top pt-4 mt-4 mb-4">
+              <h2>Connect with
+                
+                  Marlena
+                
+              </h2>
               
-                Marlena
               
-            </h2>
-            
-            
   <!-- Bio social -->
   <p class="social">
     
@@ -432,10 +436,10 @@
     
   </p>
 
-          </div>
+            </div>
+            
           
-        
-        
+          
   
   <h2>Topics</h2>
   <ul class="list-inline mb-5 mt-3">
@@ -463,12 +467,14 @@
     
   </ul>
 
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12"><div class="preview-include">
+  </article>
+  <aside>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12"><div class="preview-include">
   
   
     
@@ -3795,8 +3801,9 @@
             .display = "none";
     }
 </script></div>
+      </div>
     </div>
-  </div>
+  </aside>
 </main>
 
 <button

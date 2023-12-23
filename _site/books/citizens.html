@@ -82,10 +82,10 @@
     <meta property="og:url" content="http://localhost:4000/books/citizens">
     
     <!-- Created date -->
-    <meta property="article:published_time" content="2023-12-22 16:58:43 -0800" />
-    <meta name="dc.date" content="2023-12-22 16:58:43 -0800" />
-    <meta name="dc.date.created" content="2023-12-22 16:58:43 -0800" />  
-    <meta name="dcterms.created" content="2023-12-22 16:58:43 -0800" />
+    <meta property="article:published_time" content="2023-12-23 14:59:29 -0800" />
+    <meta name="dc.date" content="2023-12-23 14:59:29 -0800" />
+    <meta name="dc.date.created" content="2023-12-23 14:59:29 -0800" />  
+    <meta name="dcterms.created" content="2023-12-23 14:59:29 -0800" />
     
     
     <!-- Author -->
@@ -142,67 +142,69 @@
     <a class="sr-only sr-only-focusable skip-link" href="#main-content">
         Skip to main content
     </a>
-<div class="border-bottom gradient">
-  <div class="container">
-    <div class="row">
-      <div class="col-6 pt-4 pb-4">
-        <a class="navbar-brand" href="/">
-          <img src="http://localhost:4000/assets/img/logo.svg" alt="GovFresh">
-        </a>
-      </div>
-      <div class="col-6 pt-3 pb-3">
-        <!--
-        <a  class=""href="javascript:void(0);"      onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')">    <i class="fa-solid fa-sun float-end"></i></a>
-      -->
+<div id="nav">
+  <div class="border-bottom gradient">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 pt-4 pb-4">
+          <a class="navbar-brand" href="/">
+            <img src="http://localhost:4000/assets/img/logo.svg" alt="GovFresh">
+          </a>
+        </div>
+        <div class="col-6 pt-3 pb-3">
+          <!--
+          <a  class=""href="javascript:void(0);"      onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')">    <i class="fa-solid fa-sun float-end"></i></a>
+        -->
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="border-bottom gradient">
-  <div class="container">
-    <nav class="navbar navbar-expand-lg">
-      <button
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        class="navbar-toggler ml-auto"
-        data-target="#navbarNavAltMarkup"
-        data-toggle="collapse"
-        type="button"
-        onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-auto"></div>
-        <div class="navbar-nav">
-          
+  <div class="border-bottom gradient">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <button
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler ml-auto"
+          data-target="#navbarNavAltMarkup"
+          data-toggle="collapse"
+          type="button"
+          onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mr-auto"></div>
+          <div class="navbar-nav">
             
-              <a class="nav-item nav-link " href="/thoughts/">Thoughts</a>
+              
+                <a class="nav-item nav-link " href="/thoughts/">Thoughts</a>
+              
             
-          
+              
+                <a class="nav-item nav-link " href="/dm/">DM</a>
+              
             
-              <a class="nav-item nav-link " href="/dm/">DM</a>
+              
+                <a class="nav-item nav-link " href="/research/">Research</a>
+              
             
-          
+              
+                <a class="nav-item nav-link " href="https://podcast.govfresh.com">Podcast</a>
+              
             
-              <a class="nav-item nav-link " href="/research/">Research</a>
+              
+                <a class="nav-item nav-link " href="/community/">Community</a>
+              
             
-          
+              
+                <a class="nav-item nav-link " href="/labs/">Labs</a>
+              
             
-              <a class="nav-item nav-link " href="https://podcast.govfresh.com">Podcast</a>
-            
-          
-            
-              <a class="nav-item nav-link " href="/community/">Community</a>
-            
-          
-            
-              <a class="nav-item nav-link " href="/labs/">Labs</a>
-            
-          
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
 </div>
 <div class="container">
@@ -218,18 +220,20 @@
         </div>
     </div>
 </div>
-<div id="read-time-container">
+<main>
+  <article>
+    <div id="read-time-container">
   <div id="read-time-bar"></div>
 </div>
 
 <script>
     const bar = document.getElementById('read-time-bar');
+      const article = document.querySelector('article');
     addEventListener('scroll',   () => {
-        bar.style.width = `${(document.documentElement.scrollTop / (document.documentElement.scrollHeight - document.documentElement.clientHeight)) * 100}%`;  
+        bar.style.width = `${(document.documentElement.scrollTop / article.scrollHeight) * 100}%`;  
     });
 </script>
-<main>
-  
+    
   <div class="pt-5 pb-4 mb-2">
     <div class="container">
       <div class="row">
@@ -261,13 +265,13 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-      <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        
-          <h2 class="mb-4">Review</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
           
+            <h2 class="mb-4">Review</h2>
+            
   
     
     
@@ -279,7 +283,7 @@
           &middot;
           <span class="date">
     
-        December 22, 2023
+        December 23, 2023
     
 </span>
         
@@ -287,11 +291,11 @@
     
   
 
-        
-        
-          <div id="post">
-        
-        <p>No matter what your line of work is, we’re all selling something.</p>
+          
+          
+            <div id="post">
+          
+          <p>No matter what your line of work is, we’re all selling something.</p>
 
 <p>The most successful individuals (entrepreneurs, activists, politicians) or organizations (corporations, nonprofits, government) know that productization and an overarching narrative are critical in getting others to buy into whatever it is they’re selling.</p>
 
@@ -347,20 +351,20 @@
 
 <p>Me? I’m sold.</p>
 
-        
-          </div>
-        
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+          
+            </div>
+          
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-      <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        <!-- <p class="small text-body-secondary mt-4 mb-5">  <small>Updated:
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <!-- <p class="small text-body-secondary mt-4 mb-5">  <small>Updated:
     2023-12-21 20:23:34 -0800</small>
 </p> -->
-        
           
+            
   
     
     
@@ -442,10 +446,10 @@
     
   
 
-        
-        
-          <h2 class="mt-4 pb-3">Book links</h2>
           
+          
+            <h2 class="mt-4 pb-3">Book links</h2>
+            
   <!-- Bio social -->
   <p class="social">
     
@@ -494,23 +498,23 @@
     
   </p>
 
-        
-        
-          <p>
-            <a href="https://bookshop.org/a/83650/9781912454846" class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">
-              Buy
-            </a>
-          </p>
-        
-        
-          <div class="text-body-secondary small mb-3 pb-3 pt-3">
+          
+          
+            <p>
+              <a href="https://bookshop.org/a/83650/9781912454846" class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">
+                Buy
+              </a>
+            </p>
+          
+          
+            <div class="text-body-secondary small mb-3 pb-3 pt-3">
   <p>
     <a href="/disclosure/">Disclosure</a>: When you buy through links on GovFresh, we     
         may earn an affiliate commission. If you do, thank you for supporting us. Other ways to
     <a href="/support/">support GovFresh</a>.</p>
 </div>
-        
-        
+          
+          
   
   <h2>Topics</h2>
   <ul class="list-inline mb-5 mt-3">
@@ -531,10 +535,11 @@
     
   </ul>
 
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
       </div>
-      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>
-  </div>
+  </article>
 </main>
 <aside>
   <div class="container">

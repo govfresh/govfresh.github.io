@@ -5,32 +5,36 @@ layout: research
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-{% include read-time-bar.html %}
 <main>
-  {% include jumbotron.html %}
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-        {% include toc.html html=content %}
-      </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
-        <div id="post">
-          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+  <article>
+    {% include read-time-bar.html %}
+    {% include jumbotron.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          {% include toc.html html=content %}
         </div>
-        {% include updated.html %}
-        {% include contributors.html %}
-        {% include topics.html %}
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+          <div id="post">
+            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+          </div>
+          {% include updated.html %}
+          {% include contributors.html %}
+          {% include topics.html %}
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        {% include previews.html show-only="true" %}
+  </article>
+  <aside>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          {% include previews.html show-only="true" %}
+        </div>
       </div>
     </div>
-  </div>
+  </aside>
 </main>
 {% include analytics.html %}
 {% include footer.html %}

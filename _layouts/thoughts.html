@@ -4,10 +4,10 @@ layout: thoughts
 
 {% include header.html %}
 {% include nav.html %}
-{% include read-time-bar.html %}
 {% include breadcrumb.html %}
 <main>
   <article>
+    {% include read-time-bar.html %}
     {% include jumbotron.html %}
     <div class="container">
       <div class="row">
@@ -26,15 +26,15 @@ layout: thoughts
       </div>
     </div>
   </article>
-</main>
-<aside>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        {% include previews.html show-only="true" %}
+  <aside>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {% include previews.html show-only="true" %}
+        </div>
       </div>
     </div>
-  </div>
-</aside>
+  </aside>
+</main>
 {% include analytics.html %}
 {% include footer.html %}
