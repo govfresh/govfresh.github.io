@@ -1,33 +1,36 @@
 <div class="home-include">
-    {% assign first = site.order |first %}
-    {% for i in site.order %}
+  {% assign first = site.order | first %}
+  {% for i in site.order %}
     {% assign page = site.pages | where: "parent", i.name | first %}
     <div class="preview {{ page.parent }} border-top pt-5 pb-2 mt-2 mb-5">
-        <h2>{{ page.title }}</h2>
-        <p class="lead">{{ page.description }}</p>
-        {% assign page = page %}
-        {% assign amount = 1 %}
-        {% assign card = "card-" | append: i.name | append: ".html" %}
-        {% if i.site-name %}
+      <h2>{{ page.title }}</h2>
+      <p class="lead">{{ page.description }}</p>
+      {% assign page = page %}
+      {% assign amount = 1 %}
+      {% assign card = "card-" | append: i.name | append: ".html" %}
+      {% if i.site-name %}
         {% assign name = i.site-name %}
-        {% else %}
+      {% else %}
         {% assign name = i.name %}
+      {% endif %}
+      <div class="card-group {% if page.clean %}clean{% endif %}">
+        {% assign items = site.[name] | reverse %}
+        {% if name == "posts" %}
+          {% assign items = items | reverse %}
         {% endif %}
-        <div class="card-group {% if page.clean %}clean{% endif %}">
-            {% assign items = site.[name] | reverse %}
-            {% if name=="posts" %}
-            {% assign items = items | reverse %}
-            {% endif %}
-            {% for item in items %}
-            {% if amount < i.number %} {% include {{ card }} %} {% assign amount=amount|plus:1 %} {% endif %} {% endfor
-                %} </div>
-                {% if page.permalink %}
-                {% assign permalink = page.permalink %}
-                {% else %}
-                {% assign permalink = page.parent %}
-                {% endif %}
-                <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title
-                    }}</a>
-        </div>
+        {% for item in items %}
+          {% if amount < i.number %}
+            {% include {{ card }} %} {% assign amount = amount | plus: 1 %}
+          {% endif %}
         {% endfor %}
+      </div>
+      {% if page.permalink %}
+        {% assign permalink = page.permalink %}
+      {% else %}
+        {% assign permalink = page.parent %}
+      {% endif %}
+      <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title
+}}</a>
     </div>
+  {% endfor %}
+</div>

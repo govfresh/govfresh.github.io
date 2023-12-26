@@ -3,9 +3,7 @@
   {% for item in site.data.connect.docs %}
     {% if item.url %}
       <li class="list-inline-item">
-        <a
-          href="{{ item.url }}"
-          aria-label="{{ item.name }}">
+        <a href="{{ item.url }}" aria-label="{{ item.name }}">
           <i class="{{ item.icon }} {{ site.data.connect.md }}"></i>
         </a>
       </li>
@@ -13,7 +11,7 @@
   {% endfor %}
 {% elsif include.size == "small" %}
   <!-- Bio social -->
-  <p class="social">
+  <p class="social no-underline">
     {% if author_data and page.parent != "books" %}
       {% assign data = author_data %}
     {% else %}

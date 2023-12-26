@@ -647,8 +647,7 @@ a.btn:hover {
 
 a.btn:after {
     content: '\f120';
-    /* Unicode for the arrow-right-long icon */
-    font-family: 'Font Awesome 6 Free';
+    font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     margin-left: .75rem;
 }
