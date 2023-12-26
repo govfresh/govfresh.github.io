@@ -118,7 +118,7 @@ defaults:
       type: "labs"
     values:
       folder: "Labs"
-      img-path: "labs"
+      img-path: "posts"
       parent: "labs"
       layout: "profile"
       short: "true"

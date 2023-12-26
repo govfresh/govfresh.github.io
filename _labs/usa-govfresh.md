@@ -2,7 +2,10 @@
 title: "USA.GovFresh"
 shortname: "USA.GovFresh"
 description: "Re-imagining USA.gov."
-icon: "fa-solid fa-flag"
+img-feat: code-feat.png
+img-og: code-og.png
+img-twitter: code-twitter.png
+img-alt: "Code icon"
 website: https://usa.govfresh.com/
 github: https://github.com/govfresh/usa
 category:

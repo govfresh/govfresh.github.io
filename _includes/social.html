@@ -5,8 +5,7 @@
       <li class="list-inline-item">
         <a
           href="{{ item.url }}"
-          aria-label="{{ item.name }}"
-          class="">
+          aria-label="{{ item.name }}">
           <i class="{{ item.icon }} {{ site.data.connect.md }}"></i>
         </a>
       </li>
@@ -140,13 +139,13 @@
   <!-- Connect -->
   {% for item in site.data.connect.docs %}
     <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
-      <div class="card">
+      <div class="card p-5">
         <div class="card-body">
           <a href="{{ item.url }}" class="stretched-link">
             <p>
               <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
             </p>
-            <p class="card-title">{{ item.name }}</p>
+            <p class="text-body-secondary">{{ item.name }}</p>
           </a>
         </div>
       </div>

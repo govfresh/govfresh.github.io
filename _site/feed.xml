@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-23T14:59:29-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">White House wants your input on open source software security</title><link href="http://localhost:4000/signal/rfi-open-source-security" rel="alternate" type="text/html" title="White House wants your input on open source software security" /><published>2023-08-18T00:00:00-07:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/rfi-open-source-security</id><content type="html" xml:base="http://localhost:4000/signal/rfi-open-source-security">&lt;h2 id=&quot;brief&quot;&gt;Brief&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-25T18:48:50-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">White House wants your input on open source software security</title><link href="http://localhost:4000/signal/rfi-open-source-security" rel="alternate" type="text/html" title="White House wants your input on open source software security" /><published>2023-08-18T00:00:00-07:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/rfi-open-source-security</id><content type="html" xml:base="http://localhost:4000/signal/rfi-open-source-security">&lt;h2 id=&quot;brief&quot;&gt;Brief&lt;/h2&gt;
 
 &lt;p&gt;The White House Office of the National Cyber Director has issued a &lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;request for information&lt;/a&gt; on open source software security.&lt;/p&gt;
 
@@ -46,7 +46,259 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.whitehouse.gov/oncd/briefing-room/2023/08/10/fact-sheet-office-of-the-national-cyber-director-requests-public-comment-on-open-source-software-security-and-memory-safe-programming-languages/&quot;&gt;Fact Sheet: Office of the National Cyber Director Requests Public Comment on Open-Source Software Security and Memory Safe Programming Languages&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;Request for Information on Open-Source Software Security: Areas of Long-Term Focus and Prioritization&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Brief</summary></entry><entry><title type="html">Retrospecting 2022</title><link href="http://localhost:4000/signal/signal-2022-12-15" rel="alternate" type="text/html" title="Retrospecting 2022" /><published>2022-12-15T00:00:00-08:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/signal-2022-12-15</id><content type="html" xml:base="http://localhost:4000/signal/signal-2022-12-15">&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Brief</summary></entry><entry><title type="html">Civic hacking CDC notifiable diseases</title><link href="http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases" rel="alternate" type="text/html" title="Civic hacking CDC notifiable diseases" /><published>2022-12-31T00:00:00-08:00</published><updated>2023-08-01T10:50:52-07:00</updated><id>http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a hoverable map of weekly notifiable disease cases across the United States using the National Notifiable Diseases Surveillance System API provided by Centers for Disease Control and Prention.&lt;/p&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc&quot;&gt;National Notifiable Diseases Surveillance System API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to CDC for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a developer portal and public API.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Notifiable diseases page on USA.GovFresh:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/diseases/&quot;&gt;&lt;img src=&quot;/assets/img/posts/cdc-diseases-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh notifiable diseases page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking USAJOBS</title><link href="http://localhost:4000/signal/civic-hacking-usajobs" rel="alternate" type="text/html" title="Civic hacking USAJOBS" /><published>2022-12-31T00:00:00-08:00</published><updated>2023-08-01T10:50:52-07:00</updated><id>http://localhost:4000/signal/civic-hacking-usajobs</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-usajobs">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a re-imagined version of USAJOBS using the USAJOBS API. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Advanced search&lt;/li&gt;
+  &lt;li&gt;Job page listings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.usajobs.gov/&quot;&gt;USAJOBS API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to USAJOBS for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a developer portal and open API.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Federal government jobs listing on USA.GovFresh:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/jobs/&quot;&gt;&lt;img src=&quot;/assets/img/posts/usajobs-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh federal government page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking National Geodetic Survey survey marks</title><link href="http://localhost:4000/signal/civic-hacking-ngs-survey-marks" rel="alternate" type="text/html" title="Civic hacking National Geodetic Survey survey marks" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-08-01T10:50:52-07:00</updated><id>http://localhost:4000/signal/civic-hacking-ngs-survey-marks</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-ngs-survey-marks">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a survey mark finder app from data provided by the National Geodetic Survey. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List of survey marks across the United States&lt;/li&gt;
+  &lt;li&gt;Pinpoint to current location&lt;/li&gt;
+  &lt;li&gt;Search survey marks in any location&lt;/li&gt;
+  &lt;li&gt;Survey mark recovery submission&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://geodesy.noaa.gov/datasheets/&quot;&gt;NGS survey marks data&lt;/a&gt; (U.S. National Geodetic Survey)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to NGS for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Providing public data sets.&lt;/li&gt;
+  &lt;li&gt;Creating a public submission recovery form.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;GeoMarks app:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/geomarks/&quot;&gt;&lt;img src=&quot;/assets/img/posts/geomarks-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh space photo of the day page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking FDA’s National Drug Code Directory</title><link href="http://localhost:4000/signal/civic-hacking-fda-drugs" rel="alternate" type="text/html" title="Civic hacking FDA’s National Drug Code Directory" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-08-01T10:50:52-07:00</updated><id>http://localhost:4000/signal/civic-hacking-fda-drugs</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-fda-drugs">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a drug look-up tool of Food and Drug Administration approved medicines using the National Drug Code Directory API. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drug search tool&lt;/li&gt;
+  &lt;li&gt;Page listing for each FDA-approved medicine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each drug listing includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Generic name&lt;/li&gt;
+  &lt;li&gt;Manufacturer&lt;/li&gt;
+  &lt;li&gt;Labeler&lt;/li&gt;
+  &lt;li&gt;Ingredients&lt;/li&gt;
+  &lt;li&gt;Packaging&lt;/li&gt;
+  &lt;li&gt;Type&lt;/li&gt;
+  &lt;li&gt;Route&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://open.fda.gov/apis/drug/ndc/&quot;&gt;National Drug Code Directory&lt;/a&gt; (Food and Drug Administration)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to FDA for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a public application programming interface of the data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Drug search:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/drugs/&quot;&gt;&lt;img src=&quot;/assets/img/posts/drug-search-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh drug search page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Example drug listing:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/drugs/?drug=50580-369_ec2b0f73-44d3-4cfe-b9fb-39adac987116&quot;&gt;&lt;img src=&quot;/assets/img/posts/drug-search-listing-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh drug listing page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking CISA cybersecurity news</title><link href="http://localhost:4000/signal/civic-hacking-cisa-cybersecurity-news" rel="alternate" type="text/html" title="Civic hacking CISA cybersecurity news" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-08-01T10:50:52-07:00</updated><id>http://localhost:4000/signal/civic-hacking-cisa-cybersecurity-news</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-cisa-cybersecurity-news">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a cybersecurity news page using the RSS feeds from CISA. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#alerts&quot;&gt;Alerts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#bulletins&quot;&gt;Bulletins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#analysis-reports&quot;&gt;Reports&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#tips&quot;&gt;Tips&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#current-activity&quot;&gt;Current activity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cisa.gov/uscert/mailing-lists-and-feeds&quot;&gt;CISA RSS feeds&lt;/a&gt; (Cybersecurity &amp;amp; Infrastructure Security Agency)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to CISA for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Building a making publicly-available RSS feeds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Cybersecurity news page:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#all&quot;&gt;&lt;img src=&quot;/assets/img/posts/cisa-news-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh cybersecurity news page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking the National Park Service</title><link href="http://localhost:4000/signal/civic-hacking-national-park-service" rel="alternate" type="text/html" title="Civic hacking the National Park Service" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-08-01T10:50:52-07:00</updated><id>http://localhost:4000/signal/civic-hacking-national-park-service</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-national-park-service">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a ]national parks directory](https://usa.govfresh.com/pars) using the U.S. National Park Service API. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Listing of all national parks&lt;/li&gt;
+  &lt;li&gt;Individual parks pages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each park page includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;About&lt;/li&gt;
+  &lt;li&gt;Contact&lt;/li&gt;
+  &lt;li&gt;Hours&lt;/li&gt;
+  &lt;li&gt;Activities&lt;/li&gt;
+  &lt;li&gt;Campgrounds&lt;/li&gt;
+  &lt;li&gt;Directions&lt;/li&gt;
+  &lt;li&gt;Parking&lt;/li&gt;
+  &lt;li&gt;Entrance fees&lt;/li&gt;
+  &lt;li&gt;Passes&lt;/li&gt;
+  &lt;li&gt;Weather&lt;/li&gt;
+  &lt;li&gt;Map&lt;/li&gt;
+  &lt;li&gt;Photos&lt;/li&gt;
+  &lt;li&gt;Videos&lt;/li&gt;
+  &lt;li&gt;Articles&lt;/li&gt;
+  &lt;li&gt;Tags&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nps.gov/subjects/developer/api-documentation.htm&quot;&gt;National parks API&lt;/a&gt; (National Parks Service)&lt;/li&gt;
+  &lt;li&gt;Google Maps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to NPS for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a public aaplication programming interface of the data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;National parks listings:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/parks/?park=yose&quot;&gt;&lt;img src=&quot;/assets/img/posts/national-parks-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh Yosemite National Park page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Example national park page (Yosemite):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/parks&quot;&gt;&lt;img src=&quot;/assets/img/posts/national-parks-yosemite-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh Yosemite National Park page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Retrospecting 2022</title><link href="http://localhost:4000/signal/signal-2022-12-15" rel="alternate" type="text/html" title="Retrospecting 2022" /><published>2022-12-15T00:00:00-08:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/signal-2022-12-15</id><content type="html" xml:base="http://localhost:4000/signal/signal-2022-12-15">&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
 
 &lt;p&gt;2022 was transformative for me.&lt;/p&gt;
 
@@ -122,4 +374,39 @@
 
 &lt;p&gt;Every two weeks, we’ll share conversations, observations, and what we’re paying attention to.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/subscribe&quot;&gt;Subscribe to GovFresh Signal.&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Welcome to GovFresh Signal, the official GovFresh newsletter.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;/subscribe&quot;&gt;Subscribe to GovFresh Signal.&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Welcome to GovFresh Signal, the official GovFresh newsletter.</summary></entry><entry><title type="html">Civic hacking NASA (astronomy picture of the day)</title><link href="http://localhost:4000/signal/civic-hacking-nasa-photo-of-the-day" rel="alternate" type="text/html" title="Civic hacking NASA (astronomy picture of the day)" /><published>2022-11-03T00:00:00-07:00</published><updated>2023-08-01T10:50:52-07:00</updated><id>http://localhost:4000/signal/civic-hacking-nasa-photo-of-the-day</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-nasa-photo-of-the-day">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a space photo of the day page using the astronomy picture of the day API provided by NASA. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Space photo or video, updated daily&lt;/li&gt;
+  &lt;li&gt;Title and description of the photo/video&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nasa/apod-api&quot;&gt;Astronomy Picture of the Day API&lt;/a&gt; (National Aeronautics and Space Administration)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to NASA for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a public repository of the data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Photo of the day:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/space/potd/&quot;&gt;&lt;img src=&quot;/assets/img/posts/space-photo-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh space photo of the day page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry></feed>

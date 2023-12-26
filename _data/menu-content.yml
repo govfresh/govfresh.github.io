@@ -13,5 +13,8 @@ docs:
  - title: Podcast
    url: https://podcast.govfresh.com
 
+ - title: Signal
+   url: /signal/
+
  - title: Book club
    url: /books/

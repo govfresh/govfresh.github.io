@@ -1,0 +1,36 @@
+---
+title: "2011 GovFresh City of the Year: New York City"
+date: 2011-12-22
+description: New York City was honored as the ‘City of the Year’ in our  2011 GovFresh Awards. We asked NYC Chief Digital Officer Rachel Sterne to summarize the work done in 2011, what made it happen, and share what's to come in 2012.
+author: GovFresh
+---
+
+[caption id="attachment_13260" align="alignnone" width="640" caption="Mayor Bloomberg unveils Road Map for the Digital City with Chief Digital Officer Rachel Sterne on May 16, 2011. (Photo Credit: Spencer T Tucker)"][/caption]
+
+New York City was honored as the ‘City of the Year’ in our  <a href="../2011/12/2011-govfresh-awards-winners/">2011 GovFresh Awards</a>. We asked NYC Chief Digital Officer <a href="http://twitter.com/rachelsterne">Rachel Sterne</a> to highlight the work done in 2011, what made it happen, and share what's to come in 2012.
+<h2>What happened in NYC this year?</h2>
+2011 has been a thrilling year for technology in New York City. Last January Mayor Bloomberg created <a href="http://www.nyc.gov/digital">NYC Digital</a> and we hit the ground running with a focus on improving the way we serve New Yorkers through digital technology. Our first order of business was publishing the <a href="http://on.nyc.gov/q9SJuE">Road Map for the Digital City</a>, which gathered information about the state of the City’s technology initiatives and outlined our plans to realize New York City potential as the leading Digital City in the world. Shortly afterwards, we hosted the City's first-ever hackathon, <a href="http://www.nyc.gov/html/mome/digital/html/developercommunity/developercommunity.shtml">Reinvent NYC.GOV</a>. Thanks to the over one hundred individuals who participated, it was a great success and attracted developers from across the country who built innovative prototypes re-imagining the City's website. With our <a href="http://on.nyc.gov/u3J7kc">Engage NYC</a> initiative, we’ve developed workshops and training sessions for communications staff across City government. We unveiled <a href="http://nycopendata.socrata.com/">NYC Open Data</a>, a repository of over 850 government datasets, and an accompanying <a href="http://nycopendata.tumblr.com/">Tumblr</a> for striking data visualizations to make our data more accessible to the broader NYC community; we grew to over 200 social media channels with more than 1.5 million followers across City government; we’re constantly reaching out to the city’s burgeoning start-up scene and getting input from entrepreneurs; we've joined the Mayor to recognize homegrown startups Foursquare, Tumblr, and Etsy with official visits, and to open new offices with Facebook, Twitter and Yelp– the list goes on and on.
+
+And of course there’s the <a href="http://www.nycedc.com/ProjectsOpportunities/CurrentProjects/Citywide/AppliedSciencesNYC/Pages/AppliedSciencesNYC.aspx">Applied Sciences NYC Initiative</a> which heralds the creation of a brand-new engineering campus in New York City. Just this week, Mayor Bloomberg announced that Cornell and Technion were chosen to develop the campus on Roosevelt Island, which will be a game-changer for both the city’s tech scene and its economic future.
+<h2>What's your secret? How does a large city like NYC inspire and maintain civic innovation?</h2>
+Listening to public needs and taking a metrics-based approach to innovation is at the core of our strategy. The Mayor often remarks that New York City is the intellectual capital of the world. We're fortunate to benefit from the phenomenal input, ideas and efforts from the public, from the tech community, and from inside City government.
+
+We make it a priority to connect government folks with technology partners, to bridge those sectors, and to provide New York City government employees with the support and freedom they need to be effective communicators and innovators.
+
+An important part of our mission is to provide the resources needed to help City agencies realize their own digital media goals and leverage technologies to achieve their objectives.
+
+We know that New Yorkers who engage with their government through these digital channels will feel empowered and want to get involved even further – that’s the most satisfying part about all of our efforts, and it really speaks to Mayor Bloomberg’s commitment to the power of technology and innovation within government.
+<h2>Who all deserves a shout-out?</h2>
+Mayor Bloomberg’s leadership has fueled innovation in City government. New York City is the greatest city in the world, and the Mayor decided that we needed to have the most innovative City government, too. And the hard work of the many talented digital and communications staffers across New York City government has been crucial. The Social Media Advisory and Research Taskforce (http://on.nyc.gov/o0P3Ta), a group of digital pioneers from across City agencies, has been instrumental in embracing new technologies and evolving policies. And we all know there is still so much more we can do.
+
+We’ve also been fortunate to partner with some of the greatest tech companies in the world, many homegrown in NYC, including Bitly, Buddy Media, Facebook, Foursquare, Google, Soundcloud, Twitter, Tumblr, and YouTube. We use their tools and products all the time, and their help has made a world of difference. In addition, we are hugely appreciative to devoted technologists who have helped us innovate, both virtually and in person, at the Reinvent NYC.GOVhackathon, and by creating applications using NYC's OpenData platform.
+
+But above all, the New Yorkers who engage with the City online every day deserve the biggest shout out of all. They are playing a huge role in New York City government and helping us to improve our own efforts every day.
+
+We’ve also been fortunate to partner with some of the greatest tech companies in the world, including Bitly, Buddy Media, Facebook, Foursquare, General Assembly, Google, Soundcloud, Twitter, Tumblr, and YouTube. We use their tools and products all the time, and their help has made a world of difference. In addition, we are hugely appreciative to devoted technologists who have helped us innovative both virtually and in person, at the Reinvent NYC.GOVhackathon, and by creating dozens of applications using NYC's OpenData platform.
+
+But above all, the New Yorkers who engage with the City online every day deserve the biggest shout out of all. They are playing a huge role in New York City government and helping us to improve our own efforts every day.
+<h2>What can we expect in 2012?</h2>
+As great as 2011 was, 2012 will be even better. We’re going to completely relaunch nyc.govand make it the best government website across the globe. Our goal is to make it as convenient and quick as possible for residents to get the information and services they seek.
+
+We’re going to increase and improve our social media channels too – there are a lot of interesting projects and campaigns in the pipeline. We will introduce a new Citywide social media management platform, in addition to the launching and relaunching of Citywide social media verticals including a Foursquare badge, Facebook page, Tumblr, and our great @nycgov Twitter feed. Stay tuned, because it’s going to be very exciting.

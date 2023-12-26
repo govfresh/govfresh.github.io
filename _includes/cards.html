@@ -65,62 +65,11 @@
         {% endif %}
       {% endfor %}
     </div>
-  {% elsif pull == "reviews" %}
-    <!-- Reviews -->
-    <!-- Reviews secondary -->
-    <div class="card-group">
-      {% assign limit = site.reviews-number | plus: 0 %}
-      {% assign amount = 1 %}
-      {% for item in site.reviews reversed %}
-        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-          <!-- Reviews primary -->
-          {% include card-reviews.html %}
-          {% assign amount = amount | plus: 1 %}
-        {% elsif page.short != "true" and title != "Government. Fresh." %}
-          {% include card-reviews.html %}
-          {% assign amount = amount | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
   <!-- People -->
   {% elsif pull == "people" %}
     <div class="card-group">
       {% for item in site.people %}
         {% include card-people.html %}
-      {% endfor %}
-    </div>
-  {% elsif pull == "pitches" %}
-    <!-- Pitches -->
-    <!-- Pitches secondary -->
-    <div class="card-group randomize">
-      {% assign limit = site.pitches-number | plus: 0 %}
-      {% assign amount = 1 %}
-      {% for item in site.pitches %}
-        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-          <!-- Pitches primary -->
-          {% include card-pitches.html level = "secondary" %}
-          {% assign amount = amount | plus: 1 %}
-        {% elsif page.short != "true" and title != "Government. Fresh." %}
-          {% include card-pitches.html %}
-          {% assign amount = amount | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% elsif pull == "industry" %}
-    <!-- Industry -->
-    <!-- Industry secondary -->
-    <div class="card-group">
-      {% assign limit = site.industry-number | plus: 0 %}
-      {% assign amount = 1 %}
-      {% for item in site.industry %}
-        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-          <!-- Industry primary -->
-          {% include card-industry.html level = "secondary" %}
-          {% assign amount = amount | plus: 1 %}
-        {% elsif page.short != "true" and title != "Government. Fresh." %}
-          {% include card-industry.html %}
-          {% assign amount = amount | plus: 1 %}
-        {% endif %}
       {% endfor %}
     </div>
   {% elsif pull == "labs" %}
@@ -172,19 +121,6 @@
         {% endif %}
       {% endfor %}
     </div>
-  {% elsif pull == "ask" %}
-    {% unless title == "Government. Fresh." or page.short == "true" %}
-      {% assign limit = site.ask | size | plus: 2 %}
-    {% else %}
-      {% assign limit = site.ask-number | plus: 0 %}
-    {% endunless %}
-    {% assign amount = 1 %}
-    {% for item in site.ask reversed %}
-      {% if item.title != page.title and limit > amount %}
-        {% include card-ask.html %}
-        {% assign amount = amount | plus: 1 %}
-      {% endif %}
-    {% endfor %}
   {% endif %}
 </div>
 {% include random.html %}</div>

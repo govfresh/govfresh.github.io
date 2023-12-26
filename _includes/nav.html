@@ -4,13 +4,20 @@
       <div class="row">
         <div class="col-6 pt-4 pb-4">
           <a class="navbar-brand" href="{{ site.baseurl }}/">
-            <img src="{{ site.url }}{{ site.logo }}/assets/img/logo.svg" alt="GovFresh">
+            <img src="{{ site.baseurl }}{{ site.logo }}/assets/img/logo.svg" alt="GovFresh">
           </a>
         </div>
-        <div class="col-6 pt-3 pb-3">
-          <!--
-          <a  class=""href="javascript:void(0);"      onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')">    <i class="fa-solid fa-sun float-end"></i></a>
-        -->
+        <div class="col-6 pt-3 pb-3 text-end">
+          <a href="{{ site.baseurl }}/search" class="link-underline link-underline-opacity-0">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a
+            style="margin-left: .5rem;"
+            class="link-underline link-underline-opacity-0"
+            href="javascript:void(0);"
+            onclick="document.body.setAttribute('data-bs-theme', document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light')">
+            <i class="fa-solid fa-sun"></i>
+          </a>
         </div>
       </div>
     </div>
