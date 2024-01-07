@@ -4,7 +4,7 @@ date: 2016-01-26
 description: undefined
 author: GovFresh
 category:
-    - Security
+  - Cybersecurity
 ---
 
 <a href="http://hacking4defense.stanford.edu/" target="_blank">Hacking for Defense</a> is a new course at Stanford’s Engineering School in the Spring of 2016. It is being taught by <a href="http://hacking4defense.stanford.edu/teaching-team.html" target="_blank">Tom Byers, Steve Blank, Joe Felter and Pete Newell</a> and is advised by <a href="http://cisac.fsi.stanford.edu/people/william_j_perry" target="_blank">former Secretary of Defense Bill Perry</a>. 

@@ -4,7 +4,7 @@ date: 2019-07-09
 description: Based on recent cyber incidents aboard commercial vessels, the U.S. Coast Guard issued a security alert to vessel and facility owners and operators that is essentially basic security practices, even ones that could potentially save governments from the ransomware attacks we see happening more frequently.
 author: GovFresh
 category:
-    - Security
+  - Cybersecurity
 ---
 
 <!-- image {"id":24729} -->

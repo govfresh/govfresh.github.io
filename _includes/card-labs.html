@@ -2,17 +2,23 @@
   <aside>
     <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
       <div class="card mb-4">
-        <div class="card-img-top">
-          <img
-            alt="{{ item.img-alt }}"
-            class="xxl"
-            src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
-        </div>
+        {% if page.img-feat %}
+          <div class="card-img-top">
+            <img
+              alt="{{ item.img-alt }}"
+              class="xxl"
+              src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+          </div>
+        {% endif %}
         <div class="card-body">
-          <h3>
-            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-          </h3>
-          <p class="text-body-secondary">{{ page.description }}</p>
+          {% if page.title %}
+            <h3>
+              <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
+            </h3>
+          {% endif %}
+          {% if page.description %}
+            <p class="text-body-secondary">{{ page.description }}</p>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -21,17 +27,23 @@
   <aside>
     <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
       <div class="card mb-4">
-        <div class="card-img-top">
-          <img
-            src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
-            class="xxl"
-            alt="{{ item.img-alt }}">
-        </div>
+        {% if page.img-feat %}
+          <div class="card-img-top">
+            <img
+              alt="{{ item.img-alt }}"
+              class="xxl"
+              src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+          </div>
+        {% endif %}
         <div class="card-body">
-          <h3>
-            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-          </h3>
-          <p class="text-body-secondary">{{ page.description }}</p>
+          {% if page.title %}
+            <h3>
+              <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
+            </h3>
+          {% endif %}
+          {% if page.description %}
+            <p class="text-body-secondary">{{ page.description }}</p>
+          {% endif %}
         </div>
       </div>
     </div>

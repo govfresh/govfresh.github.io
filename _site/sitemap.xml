@@ -137,6 +137,10 @@
 <lastmod>2022-07-27T10:23:38-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/guides/</loc>
+<lastmod>2023-12-21T20:23:34-08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/ideas/</loc>
 <lastmod>2022-10-18T12:22:22-07:00</lastmod>
 </url>
@@ -3151,6 +3155,10 @@
 <url>
 <loc>http://localhost:4000/research/government-open-innovation</loc>
 <lastmod>2023-12-21T20:23:34-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/research/government-open-source-software-security</loc>
+<lastmod>2023-12-31T04:05:42-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/government-open-source-software</loc>

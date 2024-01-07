@@ -10,17 +10,23 @@ layout: default
         {% if page.title != title %}
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card mb-4">
-              <div class="card-img-top">
-                <img
-                  alt="{{ page.img-alt }}"
-                  class="xxl"
-                  src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}">
-              </div>
+              {% if page.img-feat %}
+                <div class="card-img-top">
+                  <img
+                    alt="{{ page.img-alt }}"
+                    class="xxl"
+                    src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}">
+                </div>
+              {% endif %}
               <div class="card-body">
-                <h2>
-                  <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
-                </h2>
-                <p class="text-body-secondary">{{ page.description }}</p>
+                {% if page.title %}
+                  <h2>
+                    <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
+                  </h2>
+                {% endif %}
+                {% if page.description %}
+                  <p class="text-body-secondary">{{ page.description }}</p>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -36,10 +42,14 @@ layout: default
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card">
               <div class="card-body">
-                <i class="{{ page.icon }} {{ site.data.connect.lg }} mb-3"></i>
-                <h3>
-                  <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
-                </h3>
+                {% if page.icon %}
+                  <i class="{{ page.icon }} {{ site.data.connect.lg }} mb-3"></i>
+                {% endif %}
+                {% if page.url %}
+                  <h3>
+                    <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
+                  </h3>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -47,11 +57,7 @@ layout: default
       {% endfor %}
     </div>
   </div>
-
 {% else %}
-
-  <!-- Features / Evergreen -->
-
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -64,9 +70,7 @@ layout: default
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                       <div class="card">
                         <div class="card-body">
-                          <div class="icon">
-                            <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3"></i>
-                          </div>
+                          <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3"></i>
                           <h2 class="h3">
                             <a href="{{ site.baseurl }}/{{ website.parent }}" class="stretched-link">{{
 website.title }}</a>
@@ -84,5 +88,4 @@ website.title }}</a>
       </div>
     </div>
   </div>
-
 {% endif %}

@@ -4,7 +4,7 @@ date: 2017-07-21
 description: Two good things just happened in Washington – these days that should be enough of a headline.
 author: GovFresh
 category:
-    - Security
+  - Cybersecurity
 ---
 
 [caption id="attachment_23070" align="alignnone" width="2048"] Photo: U.S. Department of Defense[/caption]

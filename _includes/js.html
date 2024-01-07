@@ -12,30 +12,12 @@
   crossorigin="anonymous"></script>
 
 <script>
-    /*const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const storedColorTheme = localStorage.getItem("color-theme");
-    const htmlElement = document.querySelector("html");
-    const darkToggleElement = document.querySelector("div.dark-toggle");
-
-    if (prefersDarkMode && storedColorTheme === "dark") {
-        htmlElement.classList.add("dark");
-        darkToggleElement.innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
-        localStorage.setItem("color-theme", "dark");
-    }
-
-    darkToggleElement.onclick = function () {
-        darkToggleElement.innerHTML = (darkToggleElement.innerHTML.includes("sun"))
-            ? "<i class=\"fa-solid fa-moon\"></i>"
-            : "<i class=\"fa-solid fa-sun\"></i>";
-
-        htmlElement.classList.toggle("dark");
-        localStorage.setItem("color-theme", htmlElement.classList.contains("dark") ? "dark" : "light");
-    };
-
-    htmlElement.classList.add(localStorage.getItem("color-theme") || "");
-    darkToggleElement.innerHTML = (storedColorTheme === "light")
-        ? "<i class=\"fa-solid fa-moon\"></i>"
-        : "<i class=\"fa-solid fa-sun\"></i>";*/
+    let theme = localStorage.getItem('theme');
+    if (!theme)
+    theme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.body.setAttribute('data-bs-theme', theme);
+    if (theme === 'light')
+    document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;
 </script>
 
 <script>

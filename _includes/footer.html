@@ -14,17 +14,16 @@
   });
 </script>
 <footer>
-  <div class="gradient border-top mt-5 py-5">
+  {% include support.html %}
+  <div class="bg-gradient border-top mt-5 py-5">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <h5>Topics</h5>
           <ul class="list-inline">
             {% for topic in site.topics %}
-              <li class="list-inline-item small">
-                <small>
-                  <a href="{{ site.baseurl }}{{ topic.url }}" class="flex-fill">{{ topic.title }}</a>
-                </small>
+              <li class="list-inline-item small mr-3 mb-3">
+                <a href="{{ site.baseurl }}{{ topic.url }}" class="btn btn-primary btn-bd-primary btn-sm">{{ topic.title }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -43,8 +42,8 @@
           <ul class="list-unstyled">
             {% for item in site.data.menu-about.docs %}
               {% if item.url %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <li class="text-body-secondary">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -54,8 +53,8 @@
           <ul class="list-unstyled">
             {% for item in site.data.menu-connect.docs %}
               {% if item.url %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <li class="text-body-secondary">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -65,8 +64,8 @@
           <ul class="list-unstyled">
             {% for item in site.data.menu-content.docs %}
               {% if item.url %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <li class="text-body-secondary">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -76,8 +75,8 @@
           <ul class="list-unstyled">
             {% for item in site.data.menu-etc.docs %}
               {% if item.url %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <li class="text-body-secondary">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -86,8 +85,8 @@
       </div>
       <div class="row">
         <div class="col-sm-12 border-top pt-4">
-          <p class="small">
-            GovFresh {{ page.date | date: "%Y" }}
+          <p class="small text-body-secondary">
+            {{ site.title }} {{ "now" | date: "%Y" }}
           </p>
         </div>
       </div>

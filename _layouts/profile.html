@@ -60,19 +60,23 @@ layout: profile
         <div class="row">
           <div class="col-12">
             <h2>Thoughts</h2>
-            <div class="card-group clean">
+            <div class="card-group">
               {% for item in thoughts %}
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
                   <div class="card">
                     <div class="card-body">
-                      <img
-                        alt="{{ item.img-alt }}"
-                        class="xl"
-                        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
-                      <h3>
-                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title
+                      {% if item.img-feat %}
+                        <img
+                          alt="{{ item.img-alt }}"
+                          class="xl"
+                          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+                      {% endif %}
+                      {% if item.img-feat %}
+                        <h3>
+                          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img-feat
 }}</a>
-                      </h3>
+                        </h3>
+                      {% endif %}
                       {% if item.description %}
                         <p>{{ item.description }}</p>
                       {% endif %}

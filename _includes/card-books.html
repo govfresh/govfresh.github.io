@@ -4,14 +4,18 @@
       <div class="card-body">
         {% if item.img-feat %}
           <img
-            class="card-img-top xs shadow"
+            class="card-img-top xs shadow mb-3"
             src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
             alt="{{ item.img-alt }}">
         {% endif %}
-        <h3 class="h5">
-          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-        </h3>
-        <p class="small text-body-secondary">{{ item.description }}</p>
+        {% if item.title %}
+          <h3 class="h5">
+            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
+          </h3>
+        {% endif %}
+        {% if item.description %}
+          <p class="small text-body-secondary">{{ item.description }}</p>
+        {% endif %}
       </div>
       {% if item.book-author %}
         <div class="card-footer text-body-secondary small">
@@ -26,14 +30,18 @@
       <div class="card-body">
         {% if item.img-feat %}
           <img
-            class="card-img-top xs shadow"
+            class="card-img-top xs shadow mb-3"
             src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
             alt="{{ item.img-alt }}">
         {% endif %}
-        <h3 class="h5">
-          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-        </h3>
-        <p class="small text-body-secondary">{{ item.description }}</p>
+        {% if item.title %}
+          <h3 class="h5">
+            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
+          </h3>
+        {% endif %}
+        {% if item.description %}
+          <p class="small text-body-secondary">{{ item.description }}</p>
+        {% endif %}
       </div>
       {% if item.book-author %}
         <div class="card-footer text-body-secondary small">

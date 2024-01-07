@@ -12,9 +12,9 @@ img-caption:
 img-link: 
 category:
   - Culture
+  - Cybersecurity
   - Digital
   - Open
-  - Security
 feature: "true"
 feedback: true
 feedback-link: https://docs.google.com/document/d/1mU6ZmKOylQzVtkSbyClQA0SbKiQu7DnOqzL9y363XG4/edit?usp=sharing

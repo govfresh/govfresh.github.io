@@ -6,32 +6,41 @@ layout: people
 {% include nav.html %}
 {% include breadcrumb.html %}
 <main>
-    {% include jumbotron.html %}
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}"
-                    type="{{ page.folder }}" class="rounded-circle lg mb-3" />
-                <ul class="list-unstyled text-body-secondary">
-                    <li>{{ page.name }}</li>
-                    <li>{{ page.position }}</li>
-                    <li>{{ page.org }}</li>
-                </ul>
-                <div class="border-bottom pb-3 mb-4">
-                    {% include social.html
-                    size = "small" %}
-                </div>
-            </div>
-            <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-                <div class="">{{ content }}</div>
-                <div class="mt-5 mb-5">
-                    <h2>Connect with {{ page.shortname }}</h2>
-                    {% include social.html
-                    size="small" %}
-                </div>
-            </div>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        {% if page.img %}
+          <img
+            src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
+            alt="{{ page.img-alt }}"
+            type="{{ page.folder }}"
+            class="rounded-circle lg mb-3" />
+        {% endif %}
+        <ul class="list-unstyled text-body-secondary">
+          {% if page.name %}
+            <li>{{ page.name }}</li>
+          {% endif %}
+          {% if page.position %}
+            <li>{{ page.position }}</li>
+          {% endif %}
+          {% if page.org %}
+            <li>{{ page.org }}</li>
+          {% endif %}
+        </ul>
+        <div class="border-bottom pb-3 mb-4">
+          {% include social.html size = "small" %}
         </div>
+      </div>
+      <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+        {{ content }}
+        <div class="mt-5 mb-5">
+          <h2>Connect with {{ page.shortname }}</h2>
+          {% include social.html size="small" %}
+        </div>
+      </div>
     </div>
+  </div>
 </main>
 {% include analytics.html %}
 {% include footer.html %}

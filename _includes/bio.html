@@ -6,7 +6,7 @@
         {% for author in page.author %}
           {% assign author_data = site.people | where: "title", author | first %}
           {% if author_data.content.size > 1 %}
-            <div class="alert alert-info border-top pt-4 mt-5">
+            <div class="alert alert-info pt-4 mt-5 mb-5">
               <div class="row">
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                   {% if author_data.img %}
@@ -17,12 +17,17 @@
                   {% endif %}
                 </div>
                 <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-                  <h2 class="h4">{{ author_data.title }}</h2>
-                  <p class="small text-body-secondary">{{ author_data.bio-short }}
-                    <a href="{{ site.baseurl }}{{ author_data.url }}">More from {{
+                  {% if author_data.title %}
+                    <h2 class="h4">{{ author_data.title }}</h2>
+                  {% endif %}
+                  {% if author_data.bio-short %}
+                    <p class="small text-body-secondary">{{ author_data.bio-short }}
+                    {% endif %}
+                    {% if author_data.shortname %}<a href="{{ site.baseurl }}{{ author_data.url }}">More from {{
   author_data.shortname }}.</a>
                   </p>
-                  <h3 class="h5">Connect with {{ author_data.shortname }}</h3>
+                    <h3 class="h5 mt-4 mb-3">Connect with {{ author_data.shortname }}</h3>
+                  {% endif %}
                   {% include social.html size="small" %}
                 </div>
               </div>

@@ -40,18 +40,6 @@ layout: topic
               </div>
             {% endif %}
           {% endfor %}
-          {% assign feeds = site.data.feeds.docs | where: "categories", page.title %}
-          {% assign size = feeds | size %}
-          {% if size > 0 %}
-            <div class="preview feeds">
-              <h2>Feeds</h2>
-              <div class="card-group">
-                {% for item in feeds %}
-                  {% include card-feeds.html %}
-                {% endfor %}
-              </div>
-            </div>
-          {% endif %}
         </div>
       </div>
     </div>

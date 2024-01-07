@@ -13,7 +13,7 @@
       {% else %}
         {% assign name = i.name %}
       {% endif %}
-      <div class="card-group {% if page.clean %}clean{% endif %}">
+      <div class="card-group">
         {% assign items = site.[name] | reverse %}
         {% if name == "posts" %}
           {% assign items = items | reverse %}

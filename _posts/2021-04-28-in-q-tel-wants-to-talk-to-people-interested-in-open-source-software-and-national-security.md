@@ -4,7 +4,7 @@ date: 2021-04-28
 description: In-Q-Tel, the innovation and venture arm of the U.S. intelligence community, has published several open source themed posts recently, including "Toward Secure Code Reuse" and, most recently, one about GitGeo, a tool it developed that analyzes the geography of developers associated with a GitHub repository.
 author: GovFresh
 category:
-    - Security
+  - Cybersecurity
 ---
 
 <!-- paragraph -->
