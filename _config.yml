@@ -41,6 +41,7 @@ permalink: /404.html
 books-number: 7
 dm-number: &dm-number 5
 labs-number: 3
+podcast-number: &podcast-number 4
 research-number: &research-number 4
 thoughts-number: &thoughts-number 9
 
@@ -122,6 +123,15 @@ defaults:
       parent: "labs"
       layout: "profile"
       short: "true"
+  - scope:
+      path: "_podcast"
+      type: "podcast"
+    values:
+      folder: "Podcast"
+      img-path: "people"
+      parent: "podcast"
+      layout: "podcast"
+      short: "true"
 
 # Collections
 collections:
@@ -149,6 +159,9 @@ collections:
   people:
     output: true
     permalink: people/:title
+  podcast:
+    output: true
+    permalink: podcast/:title
   topics:
     output: true
     permalink: topics/:title
@@ -168,7 +181,10 @@ order:
   - 
     name: research
     number: *research-number
-    
+  - 
+    name: podcast
+    number: *podcast-number
+   
 # Exclude
 exclude:
   - gemfiles/

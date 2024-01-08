@@ -1,0 +1,26 @@
+<div class="container border-top mt-5 pt-5 pb-5">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Subscribe</h2>
+      <div class="card-group">
+        {% for subscribe-podcast in site.data.subscribe-podcast.docs %}
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-body text-center">
+                <img
+                  src="{{ site.baseurl }}/{{ subscribe-podcast.img }}"
+                  class="xxs"
+                  alt="{{ subscribe-podcast.title }}">
+                <h3 class="h5">
+                  <a href="{{ subscribe-podcast.url }}" class="stretched-link link-primary link-underline-opacity-0 link-underline-opacity-0-hover">
+                    {{ subscribe-podcast.title }}
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -26,8 +26,6 @@
             {% include card-books.html %}
             {% assign amount = amount | plus: 1 %}
           {% endif %}
-          {% if title != item.title %}
-          {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -105,21 +103,22 @@
         {% endif %}
       {% endfor %}
     </div>
-  {% elsif pull == "dm" %}
-    <!-- DM -->
+  {% elsif pull == "podcast" %}
+    <!-- Podcast -->
+    <!-- Podcast secondary -->
     <div class="card-group">
-      {% unless title == "Government. Fresh." or page.short == "true" %}
-        {% assign limit = site.dm | size | plus: 2 %}
-      {% else %}
-        {% assign limit = site.dm-number | plus: 0 %}
-      {% endunless %}
+      {% assign limit = site.podcast-number | plus: 0 %}
       {% assign amount = 1 %}
-      {% for item in site.dm reversed %}
-        {% if item.title != page.title and limit > amount %}
-          {% include card-dm.html %}
+      {% for item in site.podcast reversed %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
+          {% include card-podcast.html level = "secondary" %}
+          {% assign amount = amount | plus: 1 %}
+        <!-- Podcast primary -->
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+          {% include card-podcast.html %}
           {% assign amount = amount | plus: 1 %}
         {% endif %}
       {% endfor %}
     </div>
   {% endif %}
-</div></div>
+</div>
