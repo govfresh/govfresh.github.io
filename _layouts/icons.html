@@ -2,52 +2,20 @@
 layout: default
 ---
 
-{% if page.title == "Labs" %}
-  <!-- Labs -->
+{% if page.title == "Topics" %}
   <div class="col-sm-12">
     <div class="card-group">
-      {% for page in site.labs %}
-        {% if page.title != title %}
+      {% for item in site.topics %}
+        {% if item.title != 'Template' %}
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card mb-4">
-              {% if page.img-feat %}
-                <div class="card-img-top">
-                  <img
-                    alt="{{ page.img-alt }}"
-                    class="xxl"
-                    src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}">
-                </div>
-              {% endif %}
+            <div class="card text-center pt-3 pb-3">
               <div class="card-body">
-                {% if page.title %}
-                  <h2>
-                    <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
-                  </h2>
+                {% if item.icon %}
+                  <i class="{{ item.icon }} {{ site.data.connect.lg }} mb-3"></i>
                 {% endif %}
-                {% if page.description %}
-                  <p class="text-body-secondary">{{ page.description }}</p>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-{% elsif page.title == "Topics" %}
-  <div class="col-sm-12">
-    <div class="card-group">
-      {% for page in site.topics %}
-        {% if page.title != 'Template' %}
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-body">
-                {% if page.icon %}
-                  <i class="{{ page.icon }} {{ site.data.connect.lg }} mb-3"></i>
-                {% endif %}
-                {% if page.url %}
-                  <h3>
-                    <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.title }}</a>
+                {% if item.url %}
+                  <h3 class="h4">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
                   </h3>
                 {% endif %}
               </div>
@@ -68,11 +36,11 @@ layout: default
                 {% for website in site.pages %}
                   {% if website.parent == page %}
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                      <div class="card">
+                      <div class="card text-center pt-3 pb-3">
                         <div class="card-body">
                           <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3"></i>
                           <h2 class="h3">
-                            <a href="{{ site.baseurl }}/{{ website.parent }}" class="stretched-link">{{
+                            <a href="{{ site.baseurl }}/{{ website.parent }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{
 website.title }}</a>
                           </h2>
                           <p class="description">{{ website.description }}</p>

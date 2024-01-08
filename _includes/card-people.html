@@ -2,12 +2,10 @@
   <div class="card mb-3">
     <div class="card-body">
       {% if item.img %}
-        <div class="fancy-2">
-          <img
-            class="card-img-top rounded-circle lg mb-3"
-            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
-            alt="{{ item.img-alt }}">
-        </div>
+        <img
+          class="card-img-top rounded-circle lg mb-3"
+          src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}"
+          alt="{{ item.img-alt }}">
       {% endif %}
       {% if item.title %}
         <h2>

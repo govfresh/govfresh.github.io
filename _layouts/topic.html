@@ -21,7 +21,7 @@ layout: topic
               {% elsif collection == "research" %}
                 {% assign page-to-include = "card-books" %}
               {% endif %}
-              <div class="preview {% unless collection == site.collections[0] %}fancy-top{% endunless %} {% if collection == 'posts' %}signal{% else %}{{ collection }}{% endif %}">
+              <div class="preview {% unless collection == site.collections[0] %}{% endunless %} {% if collection == 'posts' %}signal{% else %}{{ collection }}{% endif %}">
                 <h2>
                   {% if collection == 'posts' %}Signal
                   {% elsif collection == 'orgs' %}
@@ -32,7 +32,7 @@ layout: topic
                     {{ collection | capitalize }}
                   {% endif %}
                 </h2>
-                <div class="card-group {% unless 'ideas' or collection == 'reviews' or collection == 'podcast' %}clean{% endunless %}">
+                <div class="card-group {% unless 'ideas' or collection == 'reviews' or collection == 'podcast' %}{% endunless %}">
                   {% for item in items %}
                     {% include {{ page-to-include | append: ".html" }} %}
                   {% endfor %}

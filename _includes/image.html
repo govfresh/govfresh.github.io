@@ -13,29 +13,25 @@
 
 {% if page.parent == "books" %}
   {% if page.img-feat %}
-    <div class="img">
-      <img
-        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
-        alt="{{ page.img-alt }}"
-        type="{{ page.folder }}"
-        class="lg">
-      {% if page.img-caption %}
-        <p class="img-caption">{{ page.img-caption }}</p>
-      {% endif %}
-    </div>
+    <img
+      src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+      alt="{{ page.img-alt }}"
+      type="{{ page.folder }}"
+      class="lg">
+    {% if page.img-caption %}
+      <p class="img-caption">{{ page.img-caption }}</p>
+    {% endif %}
   {% endif %}
 {% endif %}
 
 {% if page.parent == "signal" or page.parent == "team" %}
   {% if page.img-feat %}
-    <div class="img fancy-2">
-      <img
-        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
-        alt="{{ page.img-alt }}"
-        type="{{ page.folder }}">
-      {% if page.img-caption %}
-        <p class="img-caption">{{ page.img-caption }}</p>
-      {% endif %}
-    </div>
+    <img
+      src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+      alt="{{ page.img-alt }}"
+      type="{{ page.folder }}">
+    {% if page.img-caption %}
+      <p class="img-caption">{{ page.img-caption }}</p>
+    {% endif %}
   {% endif %}
 {% endif %}
