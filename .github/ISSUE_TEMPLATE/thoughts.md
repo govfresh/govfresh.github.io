@@ -10,7 +10,7 @@ assignees: ''
 [Doc]()
 
 ## Publish
-- [ ] [Write]([template](https://docs.google.com/document/d/1VVYvkM-yoYEdxh4eONUY2bxaf0Q4XJJUI2PkyDFaBGc/edit?usp=sharing))
+- [ ] [Write]([template](https://docs.google.com/document/d/1oKqjLD3_7EIRXnVZXHrWFp_H5zUOmGbeO_AI8hk7Xw4/edit?usp=sharing))
 - [ ] Call for review
 - [ ] Publish
 - [ ] Delete doc
