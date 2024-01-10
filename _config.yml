@@ -13,12 +13,16 @@ social:
     - https://www.linkedin.com/company/govfresh
     - https://github.com/govfresh
 
+twitter-username: govfresh
 twitter: "@govfresh"
 linkedin: https://www.linkedin.com/company/govfresh
 
 # Build settings
 theme:
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -273,6 +273,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
     font-family: var(--font-1) !important;
 }
 
+.post h2 {
+    padding-bottom: .5rem;
+    padding-top: 1rem
+}
+
 .alert-info {
     background-color: var(--bs-info-bg) !important;
     color: var(--bs-body-color);
@@ -573,14 +578,15 @@ input[type="range"] {
 
 /* Code block */
 
-pre code {
+pre {
     border-radius: var(--size-0);
-    color: var(--bs-white);
     display: block;
-    background: var(--bs-gray-900);
-    white-space: pre;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: scroll;
+    color: var(--bs-dark);
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
     max-width: 100%;
     min-width: 100px;
     padding: var(--size-8);
