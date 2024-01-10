@@ -10,7 +10,7 @@ assignees: ''
 [Doc]()
 
 ## Publish
-- [ ] Set up doc ([template](https://docs.google.com/document/d/1GdhZmFvKs7QUWCZ9bt55_Qoe_RGAHN4_FxLOGhxDgDs/edit?usp=sharing))
+- [ ] Set up doc ([template](https://docs.google.com/document/d/10IbtpLnkobYN0kEMIFLH4lJEmnD2q1uTf2YXSoej5AI/edit?usp=sharing))
 - [ ] Add questions
 - [ ] Share with interviewee
 - [ ] Publish
