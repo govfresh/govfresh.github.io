@@ -7,10 +7,11 @@ name:
 position: 
 org: 
 shortname: 
+img-feat: -dm-feat.png
+img-og: -dm-og.png
+img-twitter: -dm-twitter.png
 img-alt: "Headshot of "
 img-caption: ""
-img-feat: 
-img: 
 email: 
 website: 
 twitter: 

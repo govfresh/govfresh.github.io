@@ -80,7 +80,7 @@ This is metadata, Open Graph and Twitter card code for this web page:
 <meta name="author" content="Luke Fretwell">
 <meta name="robots" content="index, follow">
 <meta name="googlebot" content="index, follow">
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en_US">
 <link rel="canonical" href="https://govfresh.com/thoughts/metadata-open-graph-government-websites" />
 <title>Metadata, Open Graph and government websites - GovFresh</title>
 <meta property="og:site_name" content="GovFresh">
@@ -88,8 +88,8 @@ This is metadata, Open Graph and Twitter card code for this web page:
 <meta property="og:title" content="Metadata, Open Graph and government websites">
 <meta property="og:description" content="Complete metadata can have a significant impact on how citizens experience government digital services.">
 <meta property="og:url" content="https://govfresh.com/thoughts/metadata-open-graph-government-websites">
-<meta property="article:published_time" content="2024-01-08 00:00:00 -0800" />
-<meta name="dc.date" content="2024-01-08 00:00:00 -0800" />
+<meta property="article:published_time" content="2024-01-08 00:00:00 -0800">
+<meta name="dc.date" content="2024-01-08 00:00:00 -0800">
 <meta name="dc.date.created" content="2024-01-08 00:00:00 -0800" />  
 <meta name="dcterms.created" content="2024-01-08 00:00:00 -0800" />
 <meta property="article:author" content="Luke Fretwell">

@@ -297,7 +297,10 @@ h2:hover a#heading-hashtag {
 /* Hover */
 
 a.btn:hover, .social a:hover, .card:hover, .list-inline-item a:hover {
+    /* outline: 2px solid rgba(0, 0, 0, 0.3);*/
     transform: translatey(-2px);
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .7);
 }
 
 /* Tombstone */
