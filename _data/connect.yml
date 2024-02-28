@@ -105,13 +105,13 @@ docs:
 #    url: 
 #    icon: *amazon
  
-  - name: Apple
-    url: https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1468169431
-    icon: *apple 
+#  - name: Apple
+#    url: https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1468169431
+#    icon: *apple 
     
-  - name: Spotify
-    url: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
-    icon: *spotify
+#  - name: Spotify
+#    url: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
+#    icon: *spotify
 
   - name: RSS
     url: https://govfresh.com/feed.xml
