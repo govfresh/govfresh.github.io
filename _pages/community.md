@@ -2,6 +2,9 @@
 layout: page
 title: Community
 description: About the GovFresh community.
+img-og: posts/community-og.png
+img-twitter: posts/community-twitter.png
+img-feat: posts/community-feat.png
 permalink: /community/
 ---
 

@@ -38,49 +38,17 @@
     </div>
     <div class="container">
       <div class="row fs-6 mt-5 pt-4 border-top">
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-          <ul class="list-unstyled">
-            {% for item in site.data.menu-about.docs %}
-              {% if item.url %}
-                <li class="text-body-secondary">
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-          <ul class="list-unstyled">
-            {% for item in site.data.menu-connect.docs %}
-              {% if item.url %}
-                <li class="text-body-secondary">
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-          <ul class="list-unstyled">
-            {% for item in site.data.menu-content.docs %}
-              {% if item.url %}
-                <li class="text-body-secondary">
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-          <ul class="list-unstyled">
-            {% for item in site.data.menu-etc.docs %}
-              {% if item.url %}
-                <li class="text-body-secondary">
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis link-offset-3">{{ item.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+          {% for col in site.data.nav-footer.docs %}
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
+              <ul class="nav flex-column">
+                {% for item in col %}
+                  <li>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0 text-body-secondary">{{ item.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
         </div>
       </div>
       <div class="row">

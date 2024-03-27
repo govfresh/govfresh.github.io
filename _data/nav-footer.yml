@@ -1,0 +1,72 @@
+docs_list_title: nav-footer
+docs:
+
+- 
+ - title: About
+   url: /about/
+
+ - title: Team
+   url: /team/
+
+ - title: Services
+   url: /services/
+
+ - title: Community
+   url: /community/
+
+ - title: Labs
+   url: /labs/
+
+- 
+
+ - title: Subscribe
+   url: /subscribe/
+
+ - title: Connect
+   url: /connect/
+
+ - title: Support
+   url: /support/
+
+ - title: Contact
+   url: /contact/
+
+ - title: Suggest
+   url: /suggest/
+
+-
+
+ - title: Thoughts
+   url: /thoughts/
+
+ - title: DM
+   url: /dm/
+
+ - title: Podcast
+   url: /podcast
+
+ - title: Research
+   url: /research/
+
+ - title: Signal
+   url: /signal/
+
+ - title: Book club
+   url: /books/
+
+-
+
+ - title: Code of conduct
+   url: /conduct/
+
+ - title: Disclosure
+   url: /disclosure/
+
+ - title: Privacy
+   url: /privacy/
+
+ - title: Colophon
+   url: /colophon/
+
+ - title: Status
+   url: https://stats.uptimerobot.com/4210Ytzl2q
