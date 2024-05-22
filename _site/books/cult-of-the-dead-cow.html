@@ -22,10 +22,10 @@
     <meta property="og:url" content="http://localhost:4000/books/cult-of-the-dead-cow">
     
     <!-- Created date -->
-    <meta property="article:published_time" content="2024-03-26 17:55:33 -0700" />
-    <meta name="dc.date" content="2024-03-26 17:55:33 -0700">
-    <meta name="dc.date.created" content="2024-03-26 17:55:33 -0700">  
-    <meta name="dcterms.created" content="2024-03-26 17:55:33 -0700">
+    <meta property="article:published_time" content="2024-05-21 20:59:38 -0700" />
+    <meta name="dc.date" content="2024-05-21 20:59:38 -0700">
+    <meta name="dc.date.created" content="2024-05-21 20:59:38 -0700">  
+    <meta name="dcterms.created" content="2024-05-21 20:59:38 -0700">
     
     
     
@@ -131,7 +131,7 @@
     <![endif]-->
 </head>
 
-<body class="books" data-bs-theme="dark">
+<body class="books" data-bs-theme="">
     <a class="sr-only sr-only-focusable skip-link" href="#main-content">
         Skip to main content
     </a>
@@ -218,6 +218,40 @@
     </div>
   </div>
 </div>
+<div id="newsletter" class="fixed-bottom bg-gradient bg-body pt-2 pb-5 border-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-3 text-end">
+        <button class="close-btn" onclick="closeNewsletter()">
+          <i class="fa-regular fa-circle-xmark fa-xl"></i>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 align-self-center">
+        <i class="fa-solid fa-envelope-open-text fa-2xl mb-3"></i>
+        <h2 class="h4">Get the newsletter</h2>
+        <p>Sent straight to your inbox.</p>
+        <div class="d-md-none">
+          <a href="/subscribe/" class="btn btn-primary btn-bd-primary px-5">Sign-up</a>
+        </div>
+      </div>
+      <div class="col-2 col-sm-12 col-md-8 col-lg-8 align-middle align-self-center d-none d-md-block">
+        <a href="/subscribe/" class="btn btn-primary btn-bd-primary btn-lg px-5">Sign-up</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function closeNewsletter() {
+    document.getElementById('newsletter').style.display = 'none';
+    localStorage.setItem('newsletter', 'closed');
+  }
+
+  if (localStorage.getItem('newsletter') === 'closed') {
+    closeNewsletter();
+  }
+</script>
 <div class="container">
   <div class="row">
     <div class="col-12">

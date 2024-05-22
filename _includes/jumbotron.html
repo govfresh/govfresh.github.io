@@ -122,13 +122,12 @@
     <div class="pt-5 pb-4 mb-2">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          <div class="col-12 col-sm-12 col-md-12">
             {% if page.description %}
-              <h1 class="display-3 mt-4 mb-4">{{ page.description }}</h1>
+              <h1 class="display-5 mt-4 mb-4">{{ page.description }}</h1>
             {% endif %}
             {% include social.html size="footer" %}
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
         </div>
       </div>
     </div>
@@ -239,10 +238,7 @@
           <div class="col-sm-4"></div>
         </div>
       <!--
-        {% if page.number %}<div class="row">  <div class="col-sm-6">  <div class="no-underline">    {% for subscribe in site.data.subscribe-podcast.docs %}
-            <a href="{{ subscribe.url }}" class="mr-5 link-primary link-underline-opacity-0 link-underline-opacity-0-hover">
-              <img
-                src="{{ site.baseurl }}/{{ subscribe.img }}"
+        {% if page.number %}<div class="row">  <div class="col-sm-6">  <div class="no-underline">    {% for subscribe in site.data.subscribe-podcast.docs %}      <a href="{{ subscribe.url }}" class="mr-5 link-primary link-underline-opacity-0 link-underline-opacity-0-hover">        <img          src="{{ site.baseurl }}/{{ subscribe.img }}"
                 alt="{{ subscribe.title }}"
                 class="xxs">
             </a>

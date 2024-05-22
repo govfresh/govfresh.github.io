@@ -267,10 +267,19 @@ a.link-primary, a.link-primary:visited, a.link-primary:hover, a.link-primary:foc
     max-height: 50px;
 }
 
+/* Buttons */
+
+button.close-btn {
+    background: none !important;
+    border: none !important;
+    color: var(--bs-body-color);
+}
+
 /* Headings */
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     font-family: var(--font-1) !important;
+    letter-spacing: -.01rem;
 }
 
 .post h2 {
@@ -300,7 +309,7 @@ a.btn:hover, .social a:hover, .card:hover, .list-inline-item a:hover {
     /* outline: 2px solid rgba(0, 0, 0, 0.3);*/
     transform: translatey(-2px);
     transition: box-shadow 0.3s ease-in-out;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .7);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .7);
 }
 
 /* Tombstone */
