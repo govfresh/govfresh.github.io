@@ -15,7 +15,9 @@ layout: radar
         <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
           <div class="post">
             {% include author.html %}
-            {{ content }}
+            <articlebody>
+              {{ content }}
+            </articlebody>
             {% if page.action-link %}
               <h2>Contribute</h2>
               <a href="{{ page.action-link }}" class="btn btn-primary btn-bd-primary mb-5">{{ page.action-text

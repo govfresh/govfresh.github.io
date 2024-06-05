@@ -1,0 +1,18 @@
+{
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "headline": "{{ page.title }}",
+    "description": "{{ page.description }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ site.time | date_to_xmlschema }}",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "{{ page.author }}",
+            "url": "{{ site.baseurl }}{{ author_data.url }}"
+        }
+    ],
+    "image": [
+        "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-og }}"
+    ]
+}
