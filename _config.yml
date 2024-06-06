@@ -69,6 +69,7 @@ defaults:
       parent: "thoughts"
       layout: "thoughts"
       short: "true"
+      schematype: "NewsArticle"
   - scope:
       path: "_books"
       type: "books"
@@ -96,6 +97,7 @@ defaults:
       parent: "team"
       layout: "people"
       short: "true"
+      schematype: "ProfilePage"
   - scope:
       path: ""
       type: ""

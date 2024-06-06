@@ -1,6 +1,7 @@
 ---
 layout: podcast
 ---
+
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
@@ -20,8 +21,10 @@ layout: podcast
         </figure>
       </div>
       <div class="post col-12 col-md-7 col-lg-7 col-xl-7">
+        <articlebody>
         <h2>In this episode</h2>
         {{ content }}
+        </articlebody>
         {% if page.short-name %}
           <h2>Connect with {{ page.short-name }}</h2>
         {% endif %}

@@ -1,6 +1,6 @@
 {
     "@context": "http://schema.org",
-    "@type": "NewsArticle",
+    "@type": "{{ page.schematype }}",
     "headline": "{{ page.title }}",
     "description": "{{ page.description }}",
     "datePublished": "{{ page.date | date_to_xmlschema }}",
@@ -9,10 +9,15 @@
         {
             "@type": "Person",
             "name": "{{ page.author }}",
+            "jobTitle": "{{ page.position }}",
             "url": "{{ site.baseurl }}{{ author_data.url }}"
         }
     ],
     "image": [
         "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-og }}"
-    ]
+    ],
+    "publisher": {
+        "name": "GovFresh",
+        "url": "https://www.govfresh.com"
+    }
 }

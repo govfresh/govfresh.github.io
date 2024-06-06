@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "{{ page.schematype }}",
+    "dateCreated": "{{ page.date }}",
+    "dateModified": "",
+    "mainEntity": {
+        "@type": "Person",
+        "name": "{{ page.name }}",
+        "alternateName": "{{ page.shortname}}",
+        "description": "{{ page.description}}",
+        "image": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img }}"
+    }
+}
