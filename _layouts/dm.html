@@ -65,7 +65,9 @@ layout: dm
               </div>
             </div>
           {% endif %}
-          <div class="post post-dm">{{ content }}</div>
+          <div class="post post-dm">
+            <articlebody>{{ content }}</articlebody>
+          </div>
           {% include share.html %}
           {% assign i = 0 %}
           {% for item in page.name %}

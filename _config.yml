@@ -115,6 +115,7 @@ defaults:
       parent: "signal"
       layout: "signal"
       short: "true"
+      schematype: "NewsArticle"
   - scope:
       path: ""
       type: "topics"

@@ -3,14 +3,13 @@
     "@type": "{{ page.schematype }}",
     "headline": "{{ page.title }}",
     "description": "{{ page.description }}",
+    "isAccessibleForFree": true,
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ site.time | date_to_xmlschema }}",
     "author": [
         {
             "@type": "Person",
-            "name": "{{ page.author }}",
-            "jobTitle": "{{ page.position }}",
-            "url": "{{ site.baseurl }}{{ author_data.url }}"
+            "name": "{{ page.author }}"
         }
     ],
     "image": [
