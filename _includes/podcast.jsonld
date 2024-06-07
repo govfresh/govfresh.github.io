@@ -1,0 +1,31 @@
+{
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "{{ page.title }}",
+    "description": "{{ page.description }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "datePublished": "{{ page.date }}",
+    "duration": "",
+    "partOfSeries": {
+        "@type": "PodcastSeries",
+        "name": "The GovFresh Podcast",
+        "url": "http://www.govfresh.com/podcast"
+    },
+    "episodeNumber": "{{ page.number }}",
+    "thumbnailUrl": "{{ site.url }}{{ page.feat-img }}",
+    "author": {
+        "@type": "Person",
+        "name": "",
+        "url": ""
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ page.author }}",
+        "url": "http://www.govfresh.com"
+    },
+    "audio": {
+        "@type": "AudioObject",
+        "contentUrl": "{{ page.audio }}",
+        "encodingFormat": "audio/mpeg"
+    }
+}

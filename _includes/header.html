@@ -15,6 +15,21 @@
     <meta property="og:locale" content="en_US">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <!-- Schema.org -->
+    {% if page.schematype == "WebSite" %}
+        <script type="application/ld+json">
+        {% include home.jsonld %}
+        </script>
+    {% endif %}
+    {% if page.schematype == "Article" %}
+        <script type="application/ld+json">
+        {% include article.jsonld %}
+        </script>
+    {% endif %}
+    {% if page.schematype == "PodcastSeries" %}
+        <script type="application/ld+json">
+        {% include podcast.jsonld %}
+        </script>
+    {% endif %}
     {% if page.schematype == "NewsArticle" %}
         <script type="application/ld+json">
         {% include index.jsonld %}
@@ -25,6 +40,12 @@
         {% include profile.jsonld %}
         </script>
     {% endif %}
+    {% if page.schematype == "Book" %}
+        <script type="application/ld+json">
+        {% include book.jsonld %}
+        </script>
+    {% endif %}
+
     <!-- Open Graph -->
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:type" content="article">

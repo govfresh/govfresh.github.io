@@ -60,6 +60,7 @@ defaults:
       parent: "dm"
       layout: "dm"
       short: "true"
+      schematype: "Article"
   - scope:
       path: "_thoughts"
       type: "thoughts"
@@ -79,6 +80,7 @@ defaults:
       parent: "books"
       layout: "book"
       short: "true"
+      schematype: "Book"
   - scope:
       path: "_research"
       type: "research"
@@ -88,6 +90,7 @@ defaults:
       parent: "research"
       layout: "research"
       short: "true"
+      schematype: "NewsArticle"
   - scope:
       path: "_people"
       type: "people"
@@ -139,7 +142,7 @@ defaults:
       parent: "podcast"
       layout: "podcast"
       short: "true"
-
+      schematype: "PodcastSeries"
 # Collections
 collections:
   thoughts:

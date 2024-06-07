@@ -29,7 +29,7 @@ category:
   - Culture
   - Design
   - Digital
-author: Luke Fretwell
+author: 
 ---
 
 A playbook helping local governments build people-centered digital public services.
