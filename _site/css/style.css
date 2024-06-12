@@ -402,6 +402,10 @@ a.btn:hover, .social a:hover, .card:hover {
 
 /* Images */
 
+.drop-shadow {
+    filter: drop-shadow(-5px 5px 0 var(--bs-secondary-bg));
+}
+
 main img, article img, aside img {
     border: var(--bs-border-color) var(--bs-border-width) var(--bs-border-style);
     margin-bottom: var(--size-7);
