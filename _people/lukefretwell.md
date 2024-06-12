@@ -6,13 +6,14 @@ shortname: Luke
 bio-short: "Luke Fretwell is the founder and maintainer of GovFresh."
 position: Founder / maintainer
 org: GovFresh
-img: luke-fretwell.png
-img-feat: luke-fretwell.png
+img: luke-fretwell.jpg
+img-feat: luke-fretwell.jpg
 img-alt: Luke Fretwell
 email: luke@govfresh.com
 website: https://lukefretwell.com
 subscribe: 
 patreon: 
+mastodon: https://mastodon.social/@lukefretwell
 twitter: https://twitter.com/lukefretwell
 medium: 
 figma: 
@@ -28,27 +29,26 @@ rss:
 team: true
 ---
 
-Luke Fretwell is a champion of open, accessible technologies that drive collaborative and inclusive democracies.
+Luke Fretwell is a champion of open, accessible technologies that drive inclusive and collaborative democracy.
 
-He is co-founder and CEO of [ProudCity](https://proudcity.com/), a platform empowering communities across the nation to deliver digital services. _Government Technology_ recognized ProudCity as one of the nation’s leading civic technology companies on its GovTech 100 list for the past six years.
+He is the co-founder and CEO of[ ProudCity](https://proudcity.com/), a platform empowering local governments across the nation to deliver better digital services. In its esteemed GovTech 100 list, _Government Technology_ annually recognizes ProudCity as one of the nation’s leading civic technology companies.
 
-Luke worked as a journalist for many years, writing in _TechCrunch_, _Government Technology_, _FCW_, _FedScoop_ and _StateScoop_. A known expert in the field, he has been cited as a reference by media outlets, including _The Washington Post_.
+In 2009, he started[ GovFresh](https://govfresh.com/), where he writes about the intersection of design, technology and democracy.
 
-Luke helped stand up the editorial and digital operations for FedScoop and StateScoop and led product marketing for the open data platform company NuCivic (acquired in 2014).
+Luke worked as a government technology journalist for many years and has written for _TechCrunch_, _Government Technology_, _FCW_, _FedScoop_, _StateScoop_, and has been referenced by media outlets, including _The Washington Post_.
 
-In 2009, he started [GovFresh](https://govfresh.com/), where he writes about the intersection of civics and technology. He is the host of [The GovFresh Podcast](https://podcast.govfresh.com/).
+Luke has helped a number of early-stage government-focused companies gain momentum, including FedScoop and StateScoop, where he stood up editorial and digital operations, and the open data platform company NuCivic (acquired in 2014), where he led product marketing.
 
-In 2014, he founded Agile Government Leadership (AGL) as a community project that brought awareness to open and agile methodologies for better digital service delivery by government. AGL is now [Technologists for the Public Good](https://www.publicgood.tech/).
+In 2014, he founded[ Agile Government Leadership](https://lukefretwell.com/work/agl) as a community project that brought awareness to open and agile methodologies for better digital service delivery by government. AGL is now Technologists for the Public Good.
 
-In 2019, Luke served as product designer for Alpha team, a short-term innovation project by the State of California to re-imagine CA.gov. He also worked with the state on Code California, aimed at helping to create open source software awareness inside government.
+In 2019, Luke served as product designer for California’s[ Alpha](https://lukefretwell.com/work/alphacagov) team, an innovation project by the State of California to re-imagine CA.gov. He also worked with the state on[ Code California](https://lukefretwell.com/work/code-california), aimed at creating awareness around open source software and culture inside government.
 
-A civic hacker at heart, he’s built many projects, including: [GovPress](https://govpress.org), a government WordPress theme; [CityCamp](http://citycamp.com), an internationally-adopted civic unconference focused on technology; and CivicDMV, a project to re-imagine the DMV in the context of digital.
+A civic hacker at heart, he’s built a number of open source, community-based projects, including[ ScanGov](https://lukefretwell.com/work/scangov) (government digital service monitor),[ Proudly Serving](https://lukefretwell.com/work/proudly-serving) (local government digital services handbook),[ GovPress](https://lukefretwell.com/work/govpress) (government WordPress theme) and[ CityCamp](https://lukefretwell.com/work/citycamp) (global civic technology unconference).
 
-His current projects include [Proudly Serving](https://proudlyservingbook.com/), an open playbook to help local government agencies build people-centered digital services. Luke is a maintainer of the project and has shared his expertise as a content contributor.
+He civic hacks with his son, Elias, under the moniker[ Civic Hacking Agency](https://lukefretwell.com/work/civic-hacking-agency). They also host and mentor Code@TheLibrary, a self-directed youth coding meet-up at their local library.
 
-Outside of civic tech, Luke has led the rebrand and product design for Inspire.com was a designer, marketing and product manager for Technical Communities; and managed the executive management newsletter and press-related functions for the American Society of Association Executives.
+Beyond civic technology, Luke has led the rebrand and product design for Inspire.com; was a designer, marketing and product manager for Technical Communities; and managed the executive management newsletter and press-related functions for the American Society of Association Executives.
 
-His volunteer service included mentoring youth through the Befriend-A-Child program; hosting a Bosnian refugee family through the International Rescue Committee; and providing hospice care support through Pathways Home Health and Hospice.
+His past volunteer service includes mentoring youth with Fairfax County’s (Virginia) Befriend-A-Child program; hosting a Bosnian refugee family with the International Rescue Committee; and providing hospice care support with Pathways Home Health and Hospice.
 
-Luke graduated from George Mason University (GMU) with degrees in Government & Politics and International Studies. He was editor-in-chief of the GMU newspaper, _The Broadside_, where he led staff to win the university’s first national Associated Collegiate Press honors.
-
+Luke graduated from George Mason University with degrees in government and politics and tnternational studies. He was editor-in-chief of the GMU newspaper, _The Broadside_, where he led staff to win the university’s first national Associated Collegiate Press honors.

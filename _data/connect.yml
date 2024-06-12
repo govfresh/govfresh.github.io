@@ -31,6 +31,7 @@ apple: &apple "fab fa-apple"
 spotify: &spotify "fab fa-spotify"
 rss: &rss "fas fa-rss"
 discord: &discord "fab fa-discord"
+mastodon: &mastodon "fa-brands fa-mastodon"
 
 # Site social media links
 
