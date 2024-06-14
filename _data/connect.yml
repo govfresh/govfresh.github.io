@@ -10,7 +10,7 @@ xl: "fa-4x"
 website: &website "fas fa-window-maximize"
 email: &email "fas fa-at"
 calendar: &calendar "fa-solid fa-calendar"
-subscribe: &subscribe "fa-solid fa-envelope"
+subscribe: &subscribe "fa-solid fa-envelope-open-text"
 patreon: &patreon "fab fa-patreon"
 twitter: &twitter "fab fa-x-twitter"
 linkedin: &linkedin "fab fa-linkedin-in"
@@ -53,6 +53,10 @@ docs:
 #  - name: Discord
 #    url: 
 #    icon: *discord
+
+  - name: Mastodon 
+    url: https://mastodon.social/@govfresh
+    icon: *mastodon
 
   - name: X 
     url: https://twitter.com/govfresh

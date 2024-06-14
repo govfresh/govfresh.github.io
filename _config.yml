@@ -143,6 +143,7 @@ defaults:
       layout: "podcast"
       short: "true"
       schematype: "PodcastSeries"
+
 # Collections
 collections:
   thoughts:
