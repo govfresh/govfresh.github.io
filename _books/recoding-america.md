@@ -12,6 +12,7 @@ review-link:
 category:
   - Design
   - Digital
+feature: yes
 ---
 
 From the publisher:

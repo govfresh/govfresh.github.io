@@ -4,9 +4,13 @@
     "name": "{{ page.title }}",
     "description": "{{ page.description }}",
     "isAccessibleForFree": true,
-    "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ site.time | date_to_xmlschema }}",
+    "datePublished": "{{ page.published }}",
     "url": "{{ site.url }}{{ page.url }}",
+    "isbn": "{{ page.isbn }}",
+    "genre": "{{ page.genre }}",
+    "inLanguage": "{{ page.book-language }}",
+    "numberOfPages": "{{ page.number-of-pages }}",
+    "bookFormat": "{{ page.book-format }}",
     "author": [
         {
             "@type": "Person",
@@ -17,6 +21,7 @@
         "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
     ],
     "publisher": {
+        "@type": "Organization",
         "name": "{{ page.publisher }}",
         "url": "{{ page.publisher-url }}"
     }

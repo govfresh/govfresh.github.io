@@ -1,0 +1,72 @@
+---
+layout: site-index
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Pages</h2>
+        <ul>
+          {% for post in site.pages %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h2>Thoughts</h2>
+        <ul>
+          {% for post in site.thoughts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h2>DM</h2>
+        <ul>
+          {% for post in site.dm %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h2>Podcast</h2>
+        <ul>
+          {% for post in site.podcast %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h2>Research</h2>
+        <ul>
+          {% for post in site.research %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h2>Books</h2>
+        <ul>
+          {% for post in site.books %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h2>Posts</h2>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

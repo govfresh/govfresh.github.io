@@ -40,7 +40,7 @@
         </div>
         <div class="row border-bottom">
           <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-          <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 text-center">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
             {% if page.img-feat %}
               <img
                 src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
@@ -48,14 +48,85 @@
                 class="xl shadow mb-3">
             {% endif %}
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
-            {% if page.quote %}
-              <blockquote>
-                <p>"{{ page.quote }}"</p>
-              </blockquote>
-              <p class="small text-body-secondary mb-5">&mdash; {{ page.book-author }}</p>
-            {% elsif page.book-author %}
-              <p class="small text-body-secondary">By {{ page.book-author }}</p>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <ul class="list-unstyled mb-4">
+              {% if page.book-author %}
+                <li>By {{ page.book-author }}</li>
+              {% endif %}
+              {% if page.number-of-pages %}
+                <li>{{ page.number-of-pages }} pages</li>
+              {% endif %}
+              {% if page.book-language %}
+                <li>{{ page.book-language }}</li>
+              {% endif %}
+              {% if page.book-format %}
+                <li>{{ page.book-format }}</li>
+              {% endif %}
+              {% if page.published %}
+                <li>{{ page.published }}</li>
+              {% endif %}
+              {% if page.genre %}
+                <li>{{ page.genre }}</li>
+              {% endif %}
+              {% if page.isbn %}
+                <li>ISBN: {{ page.isbn }}</li>
+              {% endif %}
+              {% if page.publisher %}
+                <li>Publisher: {{ page.publisher }}</li>
+              {% endif %}
+            </ul>
+            {% if page.website %}
+              <a
+                href="{{ page.website }}"
+                title="Website"
+                class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
+                <i class="fas fa-window-maximize"></i>
+                Website</a>
+            {% endif %}
+            {% if page.library %}
+              <a
+                href="{{ page.library }}"
+                title="Website"
+                class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
+                <i class="fas fa-book-reader"></i>
+                Library</a>
+            {% endif %}
+            {% if page.bookshop %}
+              <a
+                href="{{ page.bookshop }}"
+                title="Bookshop.org"
+                class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
+                <i class="fas fa-book"></i>
+                Bookshop.org</a>
+            {% endif %}
+            {% if page.goodreads %}
+              <a
+                href="{{ page.goodreads }}"
+                title="Goodreads"
+                class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
+                <i class="fab fa-goodreads"></i>
+                Goodreads</a>
+            {% endif %}
+            {% if page.amazon %}
+              <a
+                href="{{ page.amazon }}"
+                title="Amazon"
+                class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
+                <i class="fab fa-amazon"></i>
+                Amazon</a>
+            {% endif %}
+            {% if page.bookshop %}
+              <p>
+                <a href="{{ page.bookshop }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-4">
+                  Buy
+                </a>
+              </p>
+            {% elsif page.amazon %}
+              <p>
+                <a href="{{ page.amazon }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-4">
+                  Buy
+                </a>
+              </p>
             {% endif %}
           </div>
           <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>

@@ -4,6 +4,14 @@ description: "Why the Key to Fixing Everything Is All of Us"
 img-feat: citizens.jpg
 img-alt: "Cover of 'Citizens'"
 book-author: Jon Alexander, Ariane Conrad
+published: March 2022
+isbn: 9781912454846
+genre: 
+book-language: English
+book-format: Hardcover
+number-of-pages: 320
+publisher: Canbury Press
+publisher-url: 
 website: https://www.canburypress.com/collections/frontpage/products/citizens-by-jon-alexander
 library: https://www.worldcat.org/title/citizens/oclc/1263340723&referer=brief_results
 bookshop: https://bookshop.org/a/83650/9781912454846
@@ -16,6 +24,7 @@ category:
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-citizens
+feature: yes
 ---
 
 No matter what your line of work is, we’re all selling something.

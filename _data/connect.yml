@@ -1,6 +1,6 @@
 # Icon sizes
 
-sm: ""
+sm: "fa-lg"
 md: "fa-lg"
 lg: "fa-3x"
 xl: "fa-4x"

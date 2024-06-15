@@ -20,6 +20,12 @@ layout: book
           {% if page.author %}
             <div id="post">
           {% endif %}
+          {% if page.quote %}
+            <blockquote>
+              <p>"{{ page.quote }}"</p>
+            </blockquote>
+            <p class="small text-body-secondary mb-5">&mdash; {{ page.book-author }}</p>
+          {% endif %}
           {{ content }}
           {% if page.author %}
             </div>
@@ -32,23 +38,6 @@ layout: book
         <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
           {% if page.author %}
             {% include bio.html %}
-          {% endif %}
-          {% if page.parent == "books" %}
-            <h2 class="mt-4 pb-3">Book links</h2>
-            {% include social.html size="small" %}
-          {% endif %}
-          {% if page.bookshop %}
-            <p>
-              <a href="{{ page.bookshop }}" class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">
-                Buy
-              </a>
-            </p>
-          {% elsif page.amazon %}
-            <p>
-              <a href="{{ page.amazon }}" class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">
-                Buy
-              </a>
-            </p>
           {% endif %}
           {% include share.html %}
           {% if page.parent == "books" %}
