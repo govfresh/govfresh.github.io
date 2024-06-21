@@ -6,6 +6,7 @@ date: 2021-12-20
 category:
 author: The Government We Need
 tgwn: yes
+season: 1
 number: 8
 audio: https://audio.govfresh.com/tgwn-8.mp3
 apple: 

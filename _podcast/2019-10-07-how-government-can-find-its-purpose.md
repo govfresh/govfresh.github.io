@@ -6,6 +6,7 @@ date: 2019-10-07
 category:
 author: The Government We Need
 tgwn: yes
+season: 1
 number: 4
 audio: https://audio.govfresh.com/tgwn-4.mp3
 apple: https://podcasts.apple.com/us/podcast/how-government-can-find-its-purpose/id1468169431?i=1000452717456

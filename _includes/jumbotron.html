@@ -308,9 +308,22 @@
           </div>
           <div class="col-sm-4"></div>
         </div>
-      <!--
-        {% if page.number %}<div class="row">  <div class="col-sm-6">  <div class="no-underline">    {% for subscribe in site.data.subscribe-podcast.docs %}      <a href="{{ subscribe.url }}" class="mr-5 link-primary link-underline-opacity-0 link-underline-opacity-0-hover">        <img          src="{{ site.baseurl }}/{{ subscribe.img }}"          alt="{{ subscribe.title }}"          class="xxs">      </a>    {% endfor %}  </div></div><div class="col-sm-6 text-right">  <p class="small text-body-secondary">Episode #{{ page.number }} / {{ page.date | date: "%B %-d, %Y" }}  </p></div>        </div>        {% endif %}
-      -->
+        {% if page.number %}
+          <div class="row">
+            <!--
+              <div class="col-sm-6">  <div class="no-underline">    {% for subscribe in site.data.subscribe-podcast.docs %}      <a href="{{ subscribe.url }}" class="mr-5 link-primary link-underline-opacity-0 link-underline-opacity-0-hover">        <img          src="{{ site.baseurl }}/{{ subscribe.img }}"
+                      alt="{{ subscribe.title }}"
+                      class="xxs">
+                  </a>
+                {% endfor %}
+              </div>
+            </div> -->
+            <div class="col-12">
+              <p class="small text-body-secondary">Season {{ page.season }} / Episode {{ page.number }} / {{ page.date | date: "%B %-d, %Y" }}
+              </p>
+            </div>
+          </div>
+        {% endif %}
       </div>
     </div>
   {% elsif page.layout == "labs" %}

@@ -8,6 +8,7 @@ category:
   -  Digital
 author: The Government We Need
 tgwn: yes
+season: 1
 number: 3
 audio: https://audio.govfresh.com/tgwn-3.mp3
 apple: https://podcasts.apple.com/us/podcast/how-we-can-code-a-better-government/id1468169431?i=1000446896676

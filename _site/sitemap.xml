@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/books/citizens</loc>
-<lastmod>2023-12-21T20:23:34-08:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/citizenville</loc>
@@ -10,7 +10,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/civic-technologists-practice-guide</loc>
-<lastmod>2023-12-21T20:23:34-08:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/cult-of-the-dead-cow</loc>
@@ -26,7 +26,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/good-services</loc>
-<lastmod>2023-12-21T20:23:34-08:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/open-organization</loc>
@@ -34,11 +34,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/proudly-serving</loc>
-<lastmod>2024-06-06T19:59:46-07:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/recoding-america</loc>
-<lastmod>2023-12-09T18:28:32-08:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/the-cuckoos-egg</loc>
@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/the-peoples-spaceship</loc>
-<lastmod>2024-06-14T16:54:42-07:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/the-premonition</loc>
@@ -54,7 +54,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/working-in-public</loc>
-<lastmod>2023-12-21T20:23:34-08:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/dm/angie-quirarte</loc>
@@ -174,7 +174,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/site-index</loc>
-<lastmod>2024-06-14T18:18:00-07:00</lastmod>
+<lastmod>2024-06-14T18:41:37-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/subscribe/</loc>

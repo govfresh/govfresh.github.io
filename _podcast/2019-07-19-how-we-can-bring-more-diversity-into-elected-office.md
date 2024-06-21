@@ -6,6 +6,7 @@ date: 2019-07-25
 category:
 author: The Government We Need
 tgwn: yes
+season: 1
 number: 2
 audio: https://audio.govfresh.com/tgwn-2.mp3
 apple: https://podcasts.apple.com/us/podcast/how-we-can-bring-more-diversity-into-elected-office/id1468169431?i=1000445348682

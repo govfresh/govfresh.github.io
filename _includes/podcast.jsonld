@@ -11,7 +11,8 @@
         "name": "The GovFresh Podcast",
         "url": "http://www.govfresh.com/podcast"
     },
-    "episodeNumber": "{{ page.number }}",
+    "seasonNumber": "{{ page.season }}",
+    "partOfSeason": "{{ page.number }}",
     "thumbnailUrl": "{{ site.url }}{{ page.feat-img }}",
     "author": {
         "@type": "Person",

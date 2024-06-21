@@ -9,6 +9,7 @@ category:
   -  Culture
   -  Data
 author: GovFresh
+season: 1
 number: 10
 audio: https://audio.govfresh.com/govfresh-podcast-10.mp3
 apple: #https://podcasts.apple.com/us/podcast/how-government-can-secure-us-in-the-internet-era/id1468169431?i=1000441311038

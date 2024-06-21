@@ -10,6 +10,7 @@ category:
   -  Data
   -  Open government
 author: GovFresh
+season: 1
 number: 9
 audio: https://audio.govfresh.com/tgwn-9.mp3
 apple: #https://podcasts.apple.com/us/podcast/how-government-can-secure-us-in-the-internet-era/id1468169431?i=1000441311038

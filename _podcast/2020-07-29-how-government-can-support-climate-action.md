@@ -6,6 +6,7 @@ date: 2020-07-27
 category:
 author: The Government We Need
 tgwn: yes
+season: 1
 number: 5
 audio: https://audio.govfresh.com/tgwn-5.mp3
 apple: https://podcasts.apple.com/us/podcast/the-government-we-need/id1468169431

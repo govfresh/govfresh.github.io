@@ -9,6 +9,7 @@ category:
   -  Open innovation
 author: The Government We Need
 tgwn: yes
+season: 1
 number: 6
 audio: https://audio.govfresh.com/tgwn-6.mp3
 apple: https://podcasts.apple.com/us/podcast/how-government-can-secure-us-in-the-internet-era/id1468169431?i=1000441311038
