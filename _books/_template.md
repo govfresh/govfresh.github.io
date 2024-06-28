@@ -18,7 +18,6 @@ bookshop: https://bookshop.org/
 goodreads: https://www.goodreads.com/
 amazon: https://www.amazon.com
 quote: 
-review-link: 
 category:
   - Artificial intelligence
   - Civic hacking

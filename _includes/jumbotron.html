@@ -117,17 +117,18 @@
             {% endif %}
             {% if page.bookshop %}
               <p>
-                <a href="{{ page.bookshop }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-4">
+                <a href="{{ page.bookshop }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-2">
                   Buy
                 </a>
               </p>
             {% elsif page.amazon %}
               <p>
-                <a href="{{ page.amazon }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-4">
+                <a href="{{ page.amazon }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-2">
                   Buy
                 </a>
               </p>
             {% endif %}
+            {% include disclosure.html %}
           </div>
           <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
@@ -311,13 +312,7 @@
         {% if page.number %}
           <div class="row">
             <!--
-              <div class="col-sm-6">  <div class="no-underline">    {% for subscribe in site.data.subscribe-podcast.docs %}      <a href="{{ subscribe.url }}" class="mr-5 link-primary link-underline-opacity-0 link-underline-opacity-0-hover">        <img          src="{{ site.baseurl }}/{{ subscribe.img }}"
-                      alt="{{ subscribe.title }}"
-                      class="xxs">
-                  </a>
-                {% endfor %}
-              </div>
-            </div> -->
+              <div class="col-sm-6">  <div class="no-underline">    {% for subscribe in site.data.subscribe-podcast.docs %}      <a href="{{ subscribe.url }}" class="mr-5 link-primary link-underline-opacity-0 link-underline-opacity-0-hover">        <img          src="{{ site.baseurl }}/{{ subscribe.img }}"          alt="{{ subscribe.title }}"          class="xxs">      </a>    {% endfor %}  </div></div> -->
             <div class="col-12">
               <p class="small text-body-secondary">Season {{ page.season }} / Episode {{ page.number }} / {{ page.date | date: "%B %-d, %Y" }}
               </p>
