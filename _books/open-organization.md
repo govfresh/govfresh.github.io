@@ -1,6 +1,7 @@
 ---
 title: "The Open Organization"
 description: "Igniting Passion and Performance"
+img-book: open-organization.jpg
 img-feat: open-organization.jpg
 book-author: Jim Whitehurst
 website: https://www.redhat.com/en/explore/the-open-organization-book

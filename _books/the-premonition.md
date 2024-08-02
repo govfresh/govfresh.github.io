@@ -1,6 +1,7 @@
 ---
 title: "The Premonition"
 description: "A Pandemic Story"
+img-book: the-premonition.jpg
 img-feat: the-premonition.jpg
 book-author:  Michael Lewis
 website: https://wwnorton.com/books/9780393881554

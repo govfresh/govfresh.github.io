@@ -27,7 +27,7 @@
     "description": "The U.S. Government Accountability Office released a report on the fiscal and administrative state of 18F and the U.S. Digital Service, both established to make federal government websites work better for users, and it appears the agency could use some help from the two on its own site, gao.gov.",
     "isAccessibleForFree": true,
     "datePublished": "2016-06-13T00:00:00-07:00",
-    "dateModified": "2024-06-28T13:47:53-07:00",
+    "dateModified": "2024-08-01T16:46:25-07:00",
     "author": [
         {
             "@type": "Person",
@@ -843,7 +843,7 @@
 <script>
     let theme = localStorage.getItem('theme');
     if (!theme)
-      theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+      theme = window.matchMedia("(prefers-color-scheme: light)").matches ? 'dark' : 'light';
     document.body.setAttribute('data-bs-theme', theme);
     if (theme === 'light')
       document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;

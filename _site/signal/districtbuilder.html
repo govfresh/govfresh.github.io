@@ -27,7 +27,7 @@
     "description": "In January 2011, Michael McDonald and Micah Altman founded the Public Mapping Project and began building the open source platform DistrictBuilder to give citizens more of a say in the redistricting process.",
     "isAccessibleForFree": true,
     "datePublished": "2012-02-15T00:00:00-08:00",
-    "dateModified": "2024-06-28T13:47:53-07:00",
+    "dateModified": "2024-08-01T16:46:25-07:00",
     "author": [
         {
             "@type": "Person",
@@ -810,7 +810,7 @@
 <script>
     let theme = localStorage.getItem('theme');
     if (!theme)
-      theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+      theme = window.matchMedia("(prefers-color-scheme: light)").matches ? 'dark' : 'light';
     document.body.setAttribute('data-bs-theme', theme);
     if (theme === 'light')
       document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;

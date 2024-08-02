@@ -38,7 +38,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/read-write-own</loc>
-<lastmod>2024-06-28T13:47:53-07:00</lastmod>
+<lastmod>2024-06-28T13:49:18-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/recoding-america</loc>
@@ -55,6 +55,10 @@
 <url>
 <loc>http://localhost:4000/books/the-premonition</loc>
 <lastmod>2023-12-09T18:28:32-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/books/this-is-how-they-tell-me-the-world-ends</loc>
+<lastmod>2024-07-30T10:45:07-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/working-in-public</loc>
@@ -118,7 +122,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/community/</loc>
-<lastmod>2024-03-26T17:48:28-07:00</lastmod>
+<lastmod>2024-06-28T13:49:18-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/conduct/</loc>
@@ -3183,6 +3187,10 @@
 <url>
 <loc>http://localhost:4000/signal/rfi-open-source-security</loc>
 <lastmod>2023-12-21T20:23:34-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/signal/signal-open-source-cisa</loc>
+<lastmod>2024-08-01T16:46:25-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/government-data</loc>

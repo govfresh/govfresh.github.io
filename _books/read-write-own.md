@@ -1,6 +1,7 @@
 ---
 title: "Read Write Own"
 description: "Building the Next Era of the Internet"
+img-book: read-write-own.jpg
 img-feat: read-write-own.jpg
 img-og: read-write-own-og.png
 img-twitter: read-write-own-twitter.png

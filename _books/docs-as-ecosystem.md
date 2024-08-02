@@ -1,6 +1,7 @@
 ---
 title: "Docs-as-Ecosystem"
 description: "The Community Approach to Engineering Documentation"
+img-book: docsasecosystem.jpeg
 img-feat: docsasecosystem.jpeg
 img-alt: "Docs-as-Ecosystem cover"
 book-author: Alejandra Quetzalli

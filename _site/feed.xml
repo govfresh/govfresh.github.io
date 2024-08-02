@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-28T13:47:53-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">White House wants your input on open source software security</title><link href="http://localhost:4000/signal/rfi-open-source-security" rel="alternate" type="text/html" title="White House wants your input on open source software security" /><published>2023-08-18T00:00:00-07:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/rfi-open-source-security</id><content type="html" xml:base="http://localhost:4000/signal/rfi-open-source-security">&lt;h2 id=&quot;brief&quot;&gt;Brief&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-01T16:46:25-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">Open source CISA</title><link href="http://localhost:4000/signal/signal-open-source-cisa" rel="alternate" type="text/html" title="Open source CISA" /><published>2024-08-01T00:00:00-07:00</published><updated>2024-08-01T16:46:25-07:00</updated><id>http://localhost:4000/signal/signal-open-source-cisa</id><content type="html" xml:base="http://localhost:4000/signal/signal-open-source-cisa"></content><author><name>Luke Fretwell</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html"></summary></entry><entry><title type="html">White House wants your input on open source software security</title><link href="http://localhost:4000/signal/rfi-open-source-security" rel="alternate" type="text/html" title="White House wants your input on open source software security" /><published>2023-08-18T00:00:00-07:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/rfi-open-source-security</id><content type="html" xml:base="http://localhost:4000/signal/rfi-open-source-security">&lt;h2 id=&quot;brief&quot;&gt;Brief&lt;/h2&gt;
 
 &lt;p&gt;The White House Office of the National Cyber Director has issued a &lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;request for information&lt;/a&gt; on open source software security.&lt;/p&gt;
 
@@ -374,39 +374,4 @@
 
 &lt;p&gt;Every two weeks, we’ll share conversations, observations, and what we’re paying attention to.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/subscribe&quot;&gt;Subscribe to GovFresh Signal.&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Welcome to GovFresh Signal, the official GovFresh newsletter.</summary></entry><entry><title type="html">Civic hacking NASA (astronomy picture of the day)</title><link href="http://localhost:4000/signal/civic-hacking-nasa-photo-of-the-day" rel="alternate" type="text/html" title="Civic hacking NASA (astronomy picture of the day)" /><published>2022-11-03T00:00:00-07:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-nasa-photo-of-the-day</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-nasa-photo-of-the-day">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
-
-&lt;p&gt;We built a space photo of the day page using the astronomy picture of the day API provided by NASA. This includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Space photo or video, updated daily&lt;/li&gt;
-  &lt;li&gt;Title and description of the photo/video&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
-
-&lt;p&gt;Data used for this project:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nasa/apod-api&quot;&gt;Astronomy Picture of the Day API&lt;/a&gt; (National Aeronautics and Space Administration)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
-
-&lt;p&gt;Big kudos to NASA for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Maintaining a public repository of the data.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
-
-&lt;p&gt;Photo of the day:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/space/potd/&quot;&gt;&lt;img src=&quot;/assets/img/posts/space-photo-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh space photo of the day page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
-
-&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;/subscribe&quot;&gt;Subscribe to GovFresh Signal.&lt;/a&gt;&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Welcome to GovFresh Signal, the official GovFresh newsletter.</summary></entry></feed>

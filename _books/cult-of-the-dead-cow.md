@@ -1,6 +1,7 @@
 ---
 title: "Cult of the Dead Cow"
 description: "How the Original Hacking Supergroup Might Just Save the World"
+img-book: cult-of-the-dead-cow.jpg
 img-feat: cult-of-the-dead-cow.jpg
 book-author: Joseph Menn
 website: 

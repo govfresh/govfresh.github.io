@@ -1,6 +1,7 @@
 ---
 title: "Proudly Serving"
 description: "Public service in the digital age"
+img-book: proudly-serving.png
 img-feat: proudly-serving.png
 img-alt: "Cover of 'Proudly Serving: Public service in the digital age'"
 book-author: Community contributed

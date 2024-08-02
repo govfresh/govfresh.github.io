@@ -1,6 +1,7 @@
 ---
 title: "Dignity in a Digital Age"
 description: "Making Tech Work for All of Us"
+img-book: dignity-in-a-digital-age.jpg
 img-feat: dignity-in-a-digital-age.jpg
 book-author:  Ro Khanna
 website: https://www.simonandschuster.com/books/Dignity-in-a-Digital-Age/Ro-Khanna/9781982163341

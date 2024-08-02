@@ -1,6 +1,7 @@
 ---
 title: "Working in Public"
 description: "The Making and Maintenance of Open Source Software"
+img-book: working-in-public.jpg
 img-feat: working-in-public.jpg
 book-author:  Nadia Eghbal
 website: 

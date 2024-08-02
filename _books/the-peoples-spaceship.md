@@ -1,7 +1,8 @@
 ---
 title: "The People’s Spaceship"
 description: "NASA, the Shuttle Era, and Public Engagement after Apollo"
-img-feat: the-peoples-spaceship.jpg
+img-book: the-peoples-spaceship.jpg
+img-feat: the-peoples-spaceship-feat.jpg
 book-author:  Amy Paige Kaminski
 published: May 2024
 isbn: 9780822947660

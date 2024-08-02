@@ -27,7 +27,7 @@
     "description": "Park.it creates happy drivers driving in cities like San Francisco, by helping them avoid parking tickets or tow away charges along with parking choices at their fingertips.",
     "isAccessibleForFree": true,
     "datePublished": "2013-02-19T00:00:00-08:00",
-    "dateModified": "2024-06-28T13:47:53-07:00",
+    "dateModified": "2024-08-01T16:46:25-07:00",
     "author": [
         {
             "@type": "Person",
@@ -839,7 +839,7 @@ Park. it Premium (paid version) with no advertising and special features will be
 <script>
     let theme = localStorage.getItem('theme');
     if (!theme)
-      theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+      theme = window.matchMedia("(prefers-color-scheme: light)").matches ? 'dark' : 'light';
     document.body.setAttribute('data-bs-theme', theme);
     if (theme === 'light')
       document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;
