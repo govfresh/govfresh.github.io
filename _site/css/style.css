@@ -250,6 +250,14 @@
     --font-1: "Mona Sans Bold", sans-serif;
 }
 
+/* Signal */
+
+.post-signal h2 {
+    border-top: 1px solid var(--bs-tertiary-color);
+    margin-top: 3.5rem;
+    padding-top: 3.5rem !important;
+}
+
 /* Links */
 
 a.link-primary, a.link-primary:visited, a.link-primary:hover, a.link-primary:focus, .link-primary:active {

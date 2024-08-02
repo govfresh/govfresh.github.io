@@ -15,11 +15,36 @@
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-            {% if page.quote %}
-              <blockquote>
-                <p>"{{ page.quote }}"</p>
-              </blockquote>
+            {% if page.img-feat %}
+              <figure>
+                <img
+                  src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
+                  alt="{{ page.img-alt }}"
+                  class="mb-2 drop-shadow">
+                {% if page.img-caption %}
+                  <figcaption>
+                    <p class="small text-body-secondary">
+                      <small>
+                        {% if page.img-link %}
+                          <a href="{{ site.baseurl }}{{ page.img-link }}">
+                        {% endif %}
+                        {{ page.img-caption }}
+                        {% if page.img-link %}
+                          </a>
+                        {% endif %}
+                      </small>
+                    </p>
+                  </figcaption>
+                {% endif %}
+              </figure>
             {% endif %}
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            {% include subscribe-newsletter.html %}
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         </div>

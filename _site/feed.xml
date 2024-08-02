@@ -1,4 +1,219 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-01T16:46:25-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">Open source CISA</title><link href="http://localhost:4000/signal/signal-open-source-cisa" rel="alternate" type="text/html" title="Open source CISA" /><published>2024-08-01T00:00:00-07:00</published><updated>2024-08-01T16:46:25-07:00</updated><id>http://localhost:4000/signal/signal-open-source-cisa</id><content type="html" xml:base="http://localhost:4000/signal/signal-open-source-cisa"></content><author><name>Luke Fretwell</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html"></summary></entry><entry><title type="html">White House wants your input on open source software security</title><link href="http://localhost:4000/signal/rfi-open-source-security" rel="alternate" type="text/html" title="White House wants your input on open source software security" /><published>2023-08-18T00:00:00-07:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/rfi-open-source-security</id><content type="html" xml:base="http://localhost:4000/signal/rfi-open-source-security">&lt;h2 id=&quot;brief&quot;&gt;Brief&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-02T08:38:22-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">Signal (2024.08.02)</title><link href="http://localhost:4000/signal/signal-2024-08-02" rel="alternate" type="text/html" title="Signal (2024.08.02)" /><published>2024-08-02T00:00:00-07:00</published><updated>2024-08-02T08:38:22-07:00</updated><id>http://localhost:4000/signal/signal-2024-08-02</id><content type="html" xml:base="http://localhost:4000/signal/signal-2024-08-02">&lt;h2 id=&quot;housekeeping-&quot;&gt;Housekeeping 🏠&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trying something new with GovFresh Signal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;code-is-dx-and-law-&quot;&gt;Code is DX (and law) 📜&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://govfresh.com/thoughts/code-is-digital-service-and-law&quot;&gt;New post from me&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Digital experience is often the public’s first point of contact with government.”&lt;/li&gt;
+  &lt;li&gt;“Behind the front door, code is core to all things digital.”&lt;/li&gt;
+  &lt;li&gt;“Lines of code are invisible to the average person, but the customer experience they create is not.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;swiss-gov-free-the-code-&quot;&gt;Swiss gov: free the code 🇸🇪&lt;/h2&gt;
+
+&lt;p&gt;Steven Vaughan-Nichols, &lt;a href=&quot;https://www.zdnet.com/article/switzerland-now-requires-all-government-software-to-be-open-source/&quot;&gt;ZDNET&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New &lt;a href=&quot;https://datenrecht.ch/en/bundesgesetz-ueber-den-einsatz-elektronischer-mittel-zur-erfuellung-von-behoerdenaufgaben-embag-in-schlussabstimmung-angenommen/&quot;&gt;law&lt;/a&gt; requires “all public bodies to disclose the source code of software developed by or for them unless third-party rights or security concerns prevent it.”&lt;/li&gt;
+  &lt;li&gt;“This ‘public money, public code’ approach aims to enhance government operations’ transparency, security, and efficiency.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;california-dmv--blockchain-&quot;&gt;California DMV + blockchain 🚗&lt;/h2&gt;
+
+&lt;p&gt;Artie Beaty, &lt;a href=&quot;https://www.zdnet.com/article/california-digitizes-car-titles-putting-42-million-vehicles-on-the-blockchain/&quot;&gt;ZDNET&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using blockchain, “California DMV has digitized 42 million car titles and plans to let users claim their vehicle’s title through an app next year.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;DMV partner &lt;a href=&quot;https://www.oxheadalpha.com/&quot;&gt;Oxhead Alpha&lt;/a&gt; (via &lt;a href=&quot;https://www.avax.network/blog/california-dmv-makes-history-digitizes-42-million-car-titles-on-avalanche-blockchain&quot;&gt;Avalanche&lt;/a&gt;):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“These systems have historically been accessible by large financial institutions but have done little for regular citizens.”&lt;/li&gt;
+  &lt;li&gt;“We believe that ultimately, value transfer will be embedded within the system itself proving the technology works at scale and enables other jurisdictions to implement similar approaches”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gavin Newsom’s &lt;a href=&quot;https://www.gov.ca.gov/2022/05/04/governor-newsom-signs-blockchain-executive-order-to-spur-responsible-web3-innovation-grow-jobs-and-protect-consumers/&quot;&gt;blockchain executive order&lt;/a&gt;: “We’re setting up the state for success with this emerging technology – spurring responsible innovation, protecting consumers, and leveraging this technology for the public good.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cisa--open-source-ai-&quot;&gt;CISA + open source AI 🤖&lt;/h2&gt;
+
+&lt;p&gt;CISA open source leads Jack Cable and Aeva Black on the agency &lt;a href=&quot;https://www.cisa.gov/news-events/news/open-source-artificial-intelligence-dont-forget-lessons-open-source-software&quot;&gt;blog&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“It’s safe to say that many innovations of the digital age would not have been possible without OSS.”&lt;/li&gt;
+  &lt;li&gt;“The global AI community should (1) learn from existing software security work and (2) continue to promote the responsible development and release of open foundation models while mitigating their potential harms.”&lt;/li&gt;
+  &lt;li&gt;“There is a tremendous wealth of experience from OSS community that shouldn’t be lost when considering open foundation models.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ntia.gov/other-publication/2024/fact-sheet-ntia-ai-report-calls-monitoring-not-mandating-restrictions-open-ai-models&quot;&gt;NTIA AI report&lt;/a&gt;: Open-weight models “allow developers to build upon and adapt previous work, broadening AI tools’ availability to small companies, researchers, nonprofits, and individuals.”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://repos.openssf.org/principles-for-package-repository-security&quot;&gt;Principles for the security of package repositories&lt;/a&gt; (Jack Cable, CISA / Zach Steindler, GitHub)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cisa.gov/sites/default/files/2024-02/CISA-Open-Source-Software-Security-Roadmap-508c.pdf&quot;&gt;Open Source Software Security Roadmap&lt;/a&gt; (CISA)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;just-buy-it-&quot;&gt;Just buy it 💳&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.eatingpolicy.com/p/what-product-funding-doesnt-mean&quot;&gt;Jen Pahlka on project vs. product&lt;/a&gt; (+ she brought charts):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“If the product you need already exists, for the love of God, please don’t build it.”&lt;/li&gt;
+  &lt;li&gt;“Just buy it.”&lt;/li&gt;
+  &lt;li&gt;“Find a way to buy it even if there are ways in which it doesn’t do exactly what you want.”&lt;/li&gt;
+  &lt;li&gt;“Enough with bespoke requirements for commodity functions.”&lt;/li&gt;
+  &lt;li&gt;“Stop telling your people to do a better, more thorough job of the wrong thing.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/code-for-america/the-tyranny-of-agile-4e406c1da7fa&quot;&gt;The Tyranny of Agile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://innovation.defense.gov/software/&quot;&gt;Software Acquisition and Practices (SWAP) Study&lt;/a&gt; (U.S. Defense Department)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dont-waste-a-crisis-&quot;&gt;Don’t waste a crisis 🔥&lt;/h2&gt;
+
+&lt;p&gt;Healthcare.gov crisis engineer / U.S. Digital Service founder / &lt;a href=&quot;https://layeraleph.com/&quot;&gt;Layer Aleph&lt;/a&gt; founder Mikey Dickerson at &lt;a href=&quot;https://www.youtube.com/watch?v=Zloom4KMtzQ&quot;&gt;Creative Bureaucracy Festival&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“You cannot cause an organization or person to make a significant change to their habits or their culture because you want it to change.”&lt;/li&gt;
+  &lt;li&gt;“There are tiny bits of opportunity of an organization’s life during which the rules are suspended, the resistance is less and it is possible to move things in a significant and durable way.”&lt;/li&gt;
+  &lt;li&gt;AKA crisis: “The organization needs to be facing an existential threat.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Watch:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zloom4KMtzQ?si=Np19Wcwn9RH1IcmT&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;diplomat-tech-&quot;&gt;Diplomat tech 🌐&lt;/h2&gt;
+
+&lt;p&gt;Eric Geller, &lt;a href=&quot;https://www.wired.com/story/us-state-department-diplomacy-school/&quot;&gt;Wired&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Expanding American influence over digital issues will require tech-savvy diplomacy.”&lt;/li&gt;
+  &lt;li&gt;“Digital expertise will also help the US expand coalitions around cybercrime investigations, ransomware deterrence, and safe uses of the internet.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;U.S. cyber ambassador &lt;a href=&quot;https://www.state.gov/biographies/nathaniel-c-fick/&quot;&gt;Nate Fick&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Tech is interwoven into every aspect of … American foreign policy.”&lt;/li&gt;
+  &lt;li&gt;“If you want to position yourself to be effective and be relevant as an American diplomat in the decades ahead, you need to understand these issues.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sis.fsi.state.gov/MySISWeb/s/course/a0J3d000000qVTgEAM/cyberspace-and-digital-policy-tradecraft&quot;&gt;Cyberspace and Digital Policy Tradecraft&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;uswds--public-sans-&quot;&gt;USWDS + Public Sans 🇺🇸&lt;/h2&gt;
+
+&lt;p&gt;Jon Keegan, &lt;a href=&quot;https://www.beautifulpublicdata.com/us-web-design-system-public-sans/&quot;&gt;Beautiful Public Data&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“The United States has an official web design system and a custom typeface that belongs to the people.”&lt;/li&gt;
+  &lt;li&gt;“This thoughtful public design system aims to make government websites not only look good, but to make them accessible and functional for all.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Subscribe: &lt;a href=&quot;https://www.beautifulpublicdata.com/&quot;&gt;Beautiful Public Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gitlab--fedramp-️&quot;&gt;GitLab + FedRAMP ☁️&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://about.gitlab.com/blog/2024/06/25/introducing-gitlab-dedicated-for-government/&quot;&gt;GitLab on new FedRAMP certification&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“GitLab Dedicated for Government, which aligns to the Cybersecurity and Infrastructure Security Agency’s&lt;a href=&quot;https://about.gitlab.com/blog/2024/06/05/secure-by-design-principles-meet-devsecops-innovation-in-gitlab-17/&quot;&gt; Secure by Design principles&lt;/a&gt;, can help the public sector and highly regulated industries reduce toolchain complexity, and support data residency and protection.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;civic-hacking-ftw-&quot;&gt;Civic hacking FTW 💪&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Register: &lt;a href=&quot;https://science.nasa.gov/earth/registration-opens-2024-nasa-international-space-apps-challenge/&quot;&gt;2024 NASA International Space Apps Challenge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;“From sending emergency alerts about nearby fires to mapping services in refugee camps, developers are taking action to solve global problems.” (&lt;a href=&quot;https://github.blog/open-source/social-impact/leveraging-technology-on-the-frontlines-of-emergency-how-communities-of-developers-are-taking-action/&quot;&gt;GitHub&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;“The Whataburger app works as a power outage tracker, handy since the electric company doesn’t show a map.” &lt;a href=&quot;https://x.com/BBQBryan/status/1810509150842974308&quot;&gt;@BBQBryan&lt;/a&gt;  (&lt;a href=&quot;https://techcrunch.com/2024/07/09/whataburger-app-becomes-unlikely-power-outage-map-after-houston-hurricane/&quot;&gt;TechCrunch&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;scangov-fyi-&quot;&gt;ScanGov FYI 🟢&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.scangov.org/blog/release-notes-06-2024&quot;&gt;Release notes&lt;/a&gt; (June 2024)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What they say:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iowa.gov: “Thank you all!”&lt;/li&gt;
+  &lt;li&gt;boem.gov: “Thank you for this service. I appreciate the help in getting the sites more compliant.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scangov.org&quot;&gt;ScanGov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://civichackingagency.org&quot;&gt;Civic Hacking Agency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book-club-&quot;&gt;Book club 📚&lt;/h2&gt;
+
+&lt;p&gt;Recent reads (+ listens):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://govfresh.com/books/read-write-own&quot;&gt;Read Write Own&lt;/a&gt;, Chris Dixon&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://govfresh.com/books/this-is-how-they-tell-me-the-world-ends&quot;&gt;This Is How They Tell Me The World Ends&lt;/a&gt;, Nicole Perlroth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now reading:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://govfresh.com/books/the-peoples-spaceship&quot;&gt;The People’s Spaceship&lt;/a&gt;, Amy Paige Kaminski&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fun-fact-&quot;&gt;Fun fact 🎉&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Ping_(networking_utility)&quot;&gt;ping&lt;/a&gt; utility was written by Mike Muuss in 1983 while working for the Ballistic Research Laboratory (now U.S. Army Research Laboratory).&lt;/p&gt;
+
+&lt;h2 id=&quot;community-&quot;&gt;Community 🫶&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://govfresh.com/community&quot;&gt;GovFresh community&lt;/a&gt; is open to anyone.&lt;/li&gt;
+  &lt;li&gt;To join, email &lt;a href=&quot;mailto:community@govfresh.com&quot;&gt;community@govfresh.com&lt;/a&gt; with ‘Community’ in the subject.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;got-tips-&quot;&gt;Got tips? 📫&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Topics: tech, design, open source, data, security, blockchain, AI, civic hacking&lt;/li&gt;
+  &lt;li&gt;Send to: &lt;a href=&quot;mailto:signal@govfresh.com&quot;&gt;signal@govfresh.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Subject: ‘Signal tip’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;got-feedback-&quot;&gt;Got feedback? 😍&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Send to: &lt;a href=&quot;mailto:signal@govfresh.com&quot;&gt;signal@govfresh.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Subject: ‘Signal feedback’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-signal-&quot;&gt;Get Signal 📨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://govfresh.com/subscribe&quot;&gt;Subscribe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Housekeeping 🏠</summary></entry><entry><title type="html">White House wants your input on open source software security</title><link href="http://localhost:4000/signal/rfi-open-source-security" rel="alternate" type="text/html" title="White House wants your input on open source software security" /><published>2023-08-18T00:00:00-07:00</published><updated>2023-12-21T20:23:34-08:00</updated><id>http://localhost:4000/signal/rfi-open-source-security</id><content type="html" xml:base="http://localhost:4000/signal/rfi-open-source-security">&lt;h2 id=&quot;brief&quot;&gt;Brief&lt;/h2&gt;
 
 &lt;p&gt;The White House Office of the National Cyber Director has issued a &lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;request for information&lt;/a&gt; on open source software security.&lt;/p&gt;
 

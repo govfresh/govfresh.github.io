@@ -16,7 +16,9 @@ layout: radar
           <div class="post">
             {% include author.html %}
             <articlebody>
-              {{ content }}
+              <div class="post-signal">
+                {{ content }}
+              </div>
             </articlebody>
             {% if page.action-link %}
               <h2>Contribute</h2>
