@@ -1,0 +1,11 @@
+<a href="{{ site.baseurl }}{{ item.url }}">
+  <img
+    class="mb-4 drop-shadow"
+    src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+    alt="{{ item.title }}">
+</a>
+{% if page.title %}
+  <h3 class="h4">
+    <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
+  </h3>
+{% endif %}

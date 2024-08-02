@@ -1,7 +1,7 @@
 ---
 layout: cards
 title: Signal
-description: "What we're paying attention to."
+description: "What's on our radar."
 parent: signal 
 icon: "fa-solid fa-satellite-dish"
 ---

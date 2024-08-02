@@ -47,7 +47,8 @@ dm-number: &dm-number 5
 labs-number: 3
 podcast-number: &podcast-number 4
 research-number: &research-number 4
-thoughts-number: &thoughts-number 9
+thoughts-number: &thoughts-number 5
+signal-number: &signal-number 2
 
 # Defaults
 defaults:
@@ -189,6 +190,9 @@ order:
   - 
     name: dm
     number: *dm-number
+  - 
+    name: signal
+    number: *signal-number
   - 
     name: research
     number: *research-number

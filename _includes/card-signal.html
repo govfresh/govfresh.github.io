@@ -1,31 +1,27 @@
 {% if include.level == "secondary" %}
   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-    <div class="card">
-      <div class="card-body">
-        {% if page.title %}
-          <h3 class="h4">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-          </h3>
-        {% endif %}
-        <p class="text-body-secondary small">
-          {% include date.html %}
-        </p>
-      </div>
+    <div class="card mb-3 p-3">
+      {% if page.title %}
+        <h3 class="h4">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+        </h3>
+      {% endif %}
+      <p class="text-body-secondary small">
+        {% include date.html %}
+      </p>
     </div>
   </div>
 {% else %}
   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-    <div class="card">
-      <div class="card-body">
-        {% if page.title %}
-          <h3 class="h4">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-          </h3>
-        {% endif %}
-        <p class="text-body-secondary small">
-          {% include date.html %}
-        </p>
-      </div>
+    <div class="card mb-3 p-3">
+      {% if page.title %}
+        <h3 class="h4">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+        </h3>
+      {% endif %}
+      <p class="text-body-secondary small">
+        {% include date.html %}
+      </p>
     </div>
   </div>
 {% endif %}
