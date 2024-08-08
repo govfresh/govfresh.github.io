@@ -1,7 +1,8 @@
 ---
-title: "RSS government"
+title: "Government RSS"
 date: 2022-10-18
-description: "Defaulting to an open protocol to syndicate government information makes public communications universally accessible."
+updated: 2024-08-07
+description: "Every government website should have an RSS feed. This ensures there is an open, universal standard for syndicating government information."
 author: Luke Fretwell
 pattern: blueprint
 img: rss-header.png
@@ -19,13 +20,13 @@ feature: "true"
 
 Every government website should have an RSS feed. This ensures there is an open, universal standard for syndicating government information.
 
-_* Too long; didn’t read_
-
 ## The problem
 
 While it’s important that government shares information via distributed outlets – social media, email newsletters – there isn’t one universal, open standard that is free and easy to access. Relying on social media or email newsletters forces the public to submit personal information or join a private network to subscribe to official updates. This is a barrier to equal, unfettered access to government information.
 
 ## The solution
+
+Defaulting to an open protocol to syndicate government information makes public communications universally accessible.
 
 Government should lead on using an open standard for syndicating its website content. All government websites should have an RSS feed. RSS is an ideal information syndication option because it’s:
 

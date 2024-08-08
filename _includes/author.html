@@ -1,17 +1,36 @@
-{% if page.author %}
-  {% for author in page.author %}
-    {% assign author_data = site.people | where: "title", author | first %}
-    {% if author_data.content.size > 1 %}
-      <p class="small text-body-secondary">
-        By
-        <a href="{{ site.baseurl }}{{ author_data.url }}" class="link-body-emphasis link-offset-3">
-          {{ author_data.title }}
-        </a>
-        {% if page.date %}
-          &middot;
-          {% include date.html %}
-        {% endif %}
-      </p>
-    {% endif %}
-  {% endfor %}
+{% if page.layout == "thoughts" %}
+  {% if page.author %}
+    {% for author in page.author %}
+      {% assign author_data = site.people | where: "title", author | first %}
+      {% if author_data.content.size > 1 %}
+        <p class="small text-body-secondary">
+          By
+          <a href="{{ site.baseurl }}{{ author_data.url }}" class="link-body-emphasis link-offset-3">
+            {{ author_data.title }}
+          </a><br>
+          {% if page.date %}
+            {% include date.html %}
+          {% endif %}
+        </p>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% else %}
+  {% if page.author %}
+    {% for author in page.author %}
+      {% assign author_data = site.people | where: "title", author | first %}
+      {% if author_data.content.size > 1 %}
+        <p class="small text-body-secondary">
+          By
+          <a href="{{ site.baseurl }}{{ author_data.url }}" class="link-body-emphasis link-offset-3">
+            {{ author_data.title }}
+          </a>
+          {% if page.date %}
+            &middot;
+            {% include date.html %}
+          {% endif %}
+        </p>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endif %}

@@ -5,3 +5,11 @@
 {% elsif post %}
   {{ post.date | date: site.date }}
 {% endif %}
+
+{% if item %}
+  (Updated: {{ item.updated | date: site.date }})
+{% elsif page %}
+  (Updated: {{ page.updated | date: site.date }})
+{% elsif post %}
+  (Updated: {{ post.updated | date: site.date }})
+{% endif %}
