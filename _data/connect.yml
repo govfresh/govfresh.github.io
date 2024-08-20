@@ -11,6 +11,7 @@ website: &website "fas fa-window-maximize"
 email: &email "fas fa-at"
 calendar: &calendar "fa-solid fa-calendar"
 subscribe: &subscribe "fa-solid fa-envelope-open-text"
+bluesky: &bluesky "fab fa-bluesky"
 patreon: &patreon "fab fa-patreon"
 twitter: &twitter "fab fa-x-twitter"
 linkedin: &linkedin "fab fa-linkedin-in"
@@ -65,6 +66,10 @@ docs:
   - name: LinkedIn
     url: https://www.linkedin.com/company/govfresh
     icon: *linkedin
+
+  - name: Bluesky
+    url: https://govfresh.bsky.social
+    icon: *bluesky
 
   - name:  Facebook
     url: https://www.facebook.com/govfresh

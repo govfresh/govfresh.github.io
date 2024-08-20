@@ -73,6 +73,17 @@
         </a>
       </li>
     {% endif %}
+    {% if data.bluesky %}
+      <li class="list-inline-item">
+        <a
+          href="{{ data.bluesky }}"
+          rel="me"
+          aria-label="Bluesky"
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+          <i class="{{ site.data.connect.bluesky }} {{ site.data.connect.sm }}"></i>
+        </a>
+      </li>
+    {% endif %}
     {% if data.patreon %}
       <li class="list-inline-item">
         <a

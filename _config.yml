@@ -44,7 +44,7 @@ permalink: /404.html
 # Number limits
 books-number: 7
 dm-number: &dm-number 5
-labs-number: 3
+labs-number: 4
 podcast-number: &podcast-number 4
 research-number: &research-number 5
 thoughts-number: &thoughts-number 5
@@ -60,7 +60,7 @@ defaults:
       img-path: "people"
       parent: "dm"
       layout: "dm"
-      short: "true"
+      short: "false"
       schematype: "Article"
   - scope:
       path: "_thoughts"
@@ -70,7 +70,7 @@ defaults:
       img-path: "posts"
       parent: "thoughts"
       layout: "thoughts"
-      short: "true"
+      short: "false"
       schematype: "NewsArticle"
   - scope:
       path: "_books"
@@ -80,7 +80,7 @@ defaults:
       img-path: "books"
       parent: "books"
       layout: "book"
-      short: "true"
+      short: "false"
       schematype: "Book"
   - scope:
       path: "_research"
@@ -90,7 +90,7 @@ defaults:
       img-path: "posts"
       parent: "research"
       layout: "research"
-      short: "true"
+      short: "false"
       schematype: "NewsArticle"
   - scope:
       path: "_people"
@@ -100,7 +100,7 @@ defaults:
       img-path: "people"
       parent: "team"
       layout: "people"
-      short: "true"
+      short: "false"
       schematype: "ProfilePage"
   - scope:
       path: ""
@@ -118,7 +118,7 @@ defaults:
       img-path: "posts"
       parent: "signal"
       layout: "signal"
-      short: "true"
+      short: "false"
       schematype: "NewsArticle"
   - scope:
       path: ""
@@ -133,7 +133,7 @@ defaults:
       img-path: "posts"
       parent: "labs"
       layout: "profile"
-      short: "true"
+      short: "false"
   - scope:
       path: "_podcast"
       type: "podcast"
@@ -142,7 +142,7 @@ defaults:
       img-path: "people"
       parent: "podcast"
       layout: "podcast"
-      short: "true"
+      short: "false"
       schematype: "PodcastSeries"
   - scope:
       path: "_pages"
@@ -152,7 +152,7 @@ defaults:
       img-path: "pages"
       parent: "pages"
       layout: "default"
-      short: "true"
+      short: "false"
       schematype: "PodcastSeries"
 
 # Collections
