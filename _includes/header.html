@@ -58,6 +58,11 @@
     <meta name="dc.date.created" content="{{ page.date }}">  
     <meta name="dcterms.created" content="{{ page.date }}">
     {% endif %}
+    {% if page.modified %}
+        <!-- Modified date -->
+        <meta property="article:modified_time" content="{{ page.modified }}" />
+        <meta name="dc.modified" content="{{ page.modified }}">
+        {% endif %}
     {% if page.author %}
     <!-- Author -->
     <meta property="article:author" content="{{ page.author }}">

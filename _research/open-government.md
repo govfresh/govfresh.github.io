@@ -2,13 +2,12 @@
 title: "Open government"
 date: 2023-11-02
 description: "Research on open government."
-img: landmark-header.png
-img-feat: landmark-feat.png
-img-og: landmark-og.png
-img-twitter: landmark-twitter.png
-img-alt: "Classical building icon"
-img-caption: 
-img-link: 
+img-feat: research-open-door-feat.png
+img-og: research-open-door-og.png
+img-twitter: research-open-door-twitter.png
+img-alt: "Open door icon"
+img-caption: "Open door icon via Font Awesome"
+img-link: https://fontawesome.com/
 category:
   - Culture
   - Digital

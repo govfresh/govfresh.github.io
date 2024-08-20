@@ -1,13 +1,15 @@
 ---
-title: "How government can help build a better OpenAI, ChatGPT and AI in general"
+title: "How government can help build better AI"
 date: 2023-11-15
+modified: 
 description: "Beyond policy, proactive engagement and better data management will make government a good steward and partner in responsible artificial intelligence efforts."
 author: Luke Fretwell
-img: openai-feat.png
-img-feat: openai-feat.png
-img-alt: "OpenAI logo"
-img-caption: 
-img-link: 
+img-feat: robot-feat.png
+img-og: robot-og.png
+img-twitter: robot-twitter.png
+img-alt: "Robot icon"
+img-caption: "Robot icon via Font Awesome"
+img-link: https://fontawesome.com
 category:
   - Artificial intelligence
   - Data

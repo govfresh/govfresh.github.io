@@ -3,13 +3,12 @@ title: "Government and open innovation"
 date: 2023-11-02
 description: "Research on government and open innovation."
 author: Luke Fretwell
-img: -header.png
-img-feat: flask-feat.png
-img-og: flask-og.png
-img-twitter: flask-twitter.png
+img-feat: research-flask-feat.png
+img-og: research-flask-og.png
+img-twitter: research-flask-twitter.png
 img-alt: "Flask icon"
-img-caption: 
-img-link: 
+img-caption: "Flask icon via Font Awesome"
+img-link: https://fontawesome.com/
 category:
   - Community
   - Culture

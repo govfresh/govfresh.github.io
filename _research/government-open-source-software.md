@@ -3,13 +3,12 @@ title: "Government and open source software"
 date: 2023-11-02
 description: "Research on government and open source software."
 author: Luke Fretwell
-img: -header.png
-img-feat: code-feat.png
-img-og: code-og.png
-img-twitter: code-twitter.png
+img-feat: research-code-feat.png
+img-og: research-code-og.png
+img-twitter: research-code-twitter.png
 img-alt: "Code icon"
-img-caption: 
-img-link: 
+img-caption: "Code icon via Font Awesome"
+img-link: https://fontawesome.com/
 category:
   - Culture
   - Cybersecurity

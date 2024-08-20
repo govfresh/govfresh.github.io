@@ -8,6 +8,7 @@ img-og: signal-og.png
 img-twitter: signal-twitter.png
 img-alt: "Icon of satellite dish"
 img-caption: ""
+img-link: https://fontawesome.com
 category:
   - Artificial intelligence
   - Civic hacking

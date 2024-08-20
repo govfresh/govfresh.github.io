@@ -1,14 +1,15 @@
 ---
 title: ""
 date: YYYY-MM-DD
+modified: 
 description: ""
 author: Luke Fretwell
 img-feat: -feat.png
 img-og: -og.png
 img-twitter: -twitter.png
-img-alt: ""
-img-caption: ""
-img-link: 
+img-alt: " icon"
+img-caption: " icon via Font Awesome"
+img-link: https://fontawesome.com/
 category:
   - Artificial intelligence
   - Civic hacking

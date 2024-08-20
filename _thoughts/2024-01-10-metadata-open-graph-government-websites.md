@@ -1,15 +1,15 @@
 ---
 title: "Metadata, Open Graph and government websites"
 date: 2024-01-10
+modified: 
 description: "Complete metadata can have a significant impact on how citizens experience government digital services."
 author: Luke Fretwell
-img: metadata-header.png
 img-feat: metadata-feat.png
 img-og: metadata-og.png
 img-twitter: metadata-twitter.png
-img-alt: "Text of whitehouse.gov metadata"
-img-caption: #""
-img-link: 
+img-alt: "File with code icon"
+img-caption: "File with code icon via Font Awesome"
+img-link: https://fontawesome.com
 category:
   - Data
   - Design

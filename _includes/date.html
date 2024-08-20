@@ -6,10 +6,10 @@
   {{ post.date | date: site.date }}
 {% endif %}
 
-{% if item %}
-  (Updated: {{ item.updated | date: site.date }})
-{% elsif page %}
-  (Updated: {{ page.updated | date: site.date }})
-{% elsif post %}
-  (Updated: {{ post.updated | date: site.date }})
+{% if item.modified %}
+  (Updated: {{ item.modified | date: site.date }})
+{% elsif page.modified %}
+  (Updated: {{ page.modified | date: site.date }})
+{% elsif post.modified %}
+  (Updated: {{ post.modified | date: site.date }})
 {% endif %}

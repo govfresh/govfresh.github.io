@@ -1,12 +1,14 @@
 ---
 title: "Open civic organizations"
 date: 2023-08-02
+modified: 
 description: "How government agencies, academia, nonprofit organizations and public sector vendors can build open, participatory models of operating."
 author: Luke Fretwell
-img: open-civic-organizations-header.png
-img-feat: open-civic-organizations-feat.png
-img-alt: "Classical building icon"
-img-caption: "Classical building icon via Font Awesome"
+img-feat: open-feat.png
+img-og: open-feat.png
+img-twitter: open-feat.png
+img-alt: "Door open icon"
+img-caption: "Door open icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
   - Civic hacking

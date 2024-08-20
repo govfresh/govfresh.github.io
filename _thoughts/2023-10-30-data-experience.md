@@ -1,12 +1,14 @@
 ---
 title: "Citizen DX: Government customer experience starts with data"
 date: 2023-10-30
+modified: 
 description: "Properly managing and delivering citizen data should be the U.S. government's first CX priority."
 author: Luke Fretwell
-img: -header.png
-img-feat: dx-feat.png
+img-feat: database-feat.png
+img-og: database-og.png
+img-twitter: database-twitter.png
 img-alt: "Data icon"
-img-caption: "Data icon from Font Awesome"
+img-caption: "Data icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
   - Culture

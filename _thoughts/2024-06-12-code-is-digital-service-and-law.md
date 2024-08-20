@@ -1,14 +1,15 @@
 ---
 title: "Code is digital experience (and law)"
 date: 2024-06-12
+modified: 
 description: "Great source code meets machine-readable web industry standards and best practices and – perhaps most important to some – adheres to the code of law."
 author: Luke Fretwell
 img-feat: code-digital-experience-law-feat.png
 img-og: code-digital-experience-law-og.png
 img-twitter: code-digital-experience-law-twitter.png
-img-alt: "The text https://example.gov inside a rounded corner box"
-img-caption: ""
-img-link: 
+img-alt: "Computer with code icon"
+img-caption: "Computer with code icon via Font Awesome"
+img-link: https://fontawesome.com
 category:
   - Design
   - Digital

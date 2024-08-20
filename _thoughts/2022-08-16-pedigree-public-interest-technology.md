@@ -1,13 +1,15 @@
 ---
 title: "Pedigree and public interest technology"
 date: 2022-08-16
+modified: 
 description: "The community that supports digital government services should be undeniably representative of everyone."
 author: Luke Fretwell
-img: pedigree-header.png
 img-feat: pedigree-feat.png
+img-og: pedigree-og.png
+img-twitter: pedigree-twitter.png
 img-alt: "Icon of a certificate seal"
 img-caption: "Certificate icon via Font Awesome"
-img-link: https://fontawesome.com/icons/certificate?f=classic&s=solid
+img-link: https://fontawesome.com/
 category:
   - Community
   - Culture

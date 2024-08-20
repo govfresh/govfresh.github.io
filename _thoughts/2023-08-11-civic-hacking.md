@@ -1,12 +1,14 @@
 ---
 title: "Civic hacking"
 date: 2023-08-17
+modified: 
 description: "The soul and grassroots foundation of democracy."
 author: Luke Fretwell
-img: civic-hacking-header.png
-img-feat: civic-hacking-feat.png
+img-feat: code-feat.png
+img-og: code-og.png
+img-twitter: code-twitter.png
 img-alt: "Code icon"
-img-caption: "Code icon from Font Awesome"
+img-caption: "Code icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
   - Civic hacking

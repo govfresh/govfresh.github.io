@@ -1,13 +1,15 @@
 ---
 title: "Git government"
 date: 2023-07-12
+modified: 
 description: "True democracy – and great technology – is organic, collaborative, participatory, responsive, iterative, adaptive."
 author: Luke Fretwell
-img: git-header.png
 img-feat: git-feat.png
-img-alt: "Git icons"
-img-caption: "Git icons from Feather"
-img-link: https://feathericons.com/
+img-og: git-og.png
+img-twitter: git-twitter.png
+img-alt: "Git icon"
+img-caption: "Git icon from Font Awesome"
+img-link: https://fontawesome.com
 category:
   - Culture
   - Open government

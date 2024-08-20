@@ -1,15 +1,15 @@
 ---
 title: "Government RSS"
 date: 2022-10-18
-updated: 2024-08-07
-description: "Every government website should have an RSS feed. This ensures there is an open, universal standard for syndicating government information."
+modified: 2024-08-07
+description: "Every government website must have an RSS feed. This guarantees an open, universal standard for syndicating government information."
 author: Luke Fretwell
-pattern: blueprint
-img: rss-header.png
 img-feat: rss-feat.png
+img-og: rss-og.png
+img-twitter: rss-twitter.png
 img-alt: "RSS icon"
-img-caption: "RSS icon via Feather"
-img-link: https://feathericons.com/
+img-caption: "RSS icon from Font Awesome"
+img-link: https://fontawesome.com
 category:
   - Data
   - Digital

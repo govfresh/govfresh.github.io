@@ -1,13 +1,15 @@
 ---
 title: "Government README"
 date: 2023-07-27
+modified: 
 description: "A simple practice can help give clarity to public sector projects and services, and how those impacted can engage with them."
 author: Luke Fretwell
-img: readme-header.png
-img-feat: readme-feat.png
-img-alt: "Icon of a document file with right corner folded down"
-img-caption: "Alt icon from Feather"
-img-link: https://feathericons.com/
+img-feat: doc-feat.png
+img-og: doc-og.png
+img-twitter: doc-twitter.png
+img-alt: "Doc icon"
+img-caption: "Doc icon via Font Awesome"
+img-link: https://fontawesome.com
 category:
   - Culture
   - Digital
