@@ -45,6 +45,10 @@
 <lastmod>2024-08-01T18:44:30-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/books/surveillance-valley</loc>
+<lastmod>2024-08-25T17:54:58-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/books/the-cuckoos-egg</loc>
 <lastmod>2024-08-01T18:44:30-07:00</lastmod>
 </url>
@@ -102,11 +106,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/labs/civic-hacking-agency</loc>
-<lastmod>2024-08-20T14:58:08-07:00</lastmod>
+<lastmod>2024-08-20T16:48:12-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/labs/govpress</loc>
-<lastmod>2024-01-08T10:24:02-08:00</lastmod>
+<lastmod>2024-08-20T16:48:12-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/labs/usa-govfresh</loc>
@@ -186,7 +190,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/site-index/</loc>
-<lastmod>2024-06-14T18:41:37-07:00</lastmod>
+<lastmod>2024-08-20T16:48:12-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/subscribe/</loc>
@@ -3198,7 +3202,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/research/government-data</loc>
-<lastmod>2024-08-19T17:54:46-07:00</lastmod>
+<lastmod>2024-08-20T16:48:12-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/government-open-innovation</loc>
