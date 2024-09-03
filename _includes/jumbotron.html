@@ -20,13 +20,13 @@
                 <img
                   src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
                   alt="{{ page.img-alt }}"
-                  class="mb-2 drop-shadow">
+                  class="mb-3 drop-shadow">
                 {% if page.img-caption %}
                   <figcaption>
-                    <p class="small text-body-secondary">
+                    <p class="small text-body-secondary mb-23">
                       <small>
                         {% if page.img-link %}
-                          <a href="{{ site.baseurl }}{{ page.img-link }}">
+                          <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
                         {% endif %}
                         {{ page.img-caption }}
                         {% if page.img-link %}

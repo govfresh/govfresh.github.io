@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/books/surveillance-valley</loc>
-<lastmod>2024-08-25T17:54:58-07:00</lastmod>
+<lastmod>2024-08-25T18:17:47-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/books/the-cuckoos-egg</loc>
@@ -3199,6 +3199,10 @@
 <url>
 <loc>http://localhost:4000/signal/signal-2024-08-02</loc>
 <lastmod>2024-08-19T17:54:46-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/signal/signal-2024-09-04</loc>
+<lastmod>2024-09-03T09:25:30-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/government-data</loc>
