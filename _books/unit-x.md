@@ -61,10 +61,10 @@ We can choose to stick our heads in the sand and enable the status quo or accept
 
 For defense leaders and those who control its funding and procurement operations and continue to stifle innovation, we must question their competence  and modern day situational awareness.
 
-As Kirchoff and Shah say, "the greatest kind of patriots are those who so cherish our country's ideals that they're not afraid to challenge the institutions that guard them."
+As Kirchhoff and Shah say, "the greatest kind of patriots are those who so cherish our country's ideals that they're not afraid to challenge the institutions that guard them."
 
 And, "innovation is an asymmetric means to achieve and maintain peace."
 
-DIU has been validated with a growing budget and inspiring spinoff innovation units across other Defense agencies. The formula for success Kirchoff and Shah offer at the end of *Unit X* is something every bureaucracy hacker should study.
+DIU has been validated with a growing budget and inspiring spinoff innovation units across other Defense agencies. The formula for success Kirchhoff and Shah offer at the end of *Unit X* is something every bureaucracy hacker should study.
 
 America’s military of the future is lean and extensible. Hardware is downsizing. Software – maybe even Silicon Valley – is eating the military industrial complex.
