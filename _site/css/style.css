@@ -21,6 +21,11 @@
 }
 
 @font-face {
+    font-family: "Public Sans Black";
+    src: url("/assets/fonts/public-sans/PublicSans-Black.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Fira Sans Italic";
     src: url("/assets/fonts/fira-sans/FiraSans-Italic.ttf") format("truetype");
 }
@@ -317,6 +322,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
 .post h2 {
     padding-bottom: .5rem;
     padding-top: 1rem
+}
+
+.post p {
+    margin-bottom: 1.5rem;
 }
 
 .alert-info {
