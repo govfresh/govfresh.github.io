@@ -29,7 +29,7 @@ Standards will follow a four stage process, eventually leading to requirements. 
 
 According to the website, “The standards are developed through a rigorous and iterative process involving federal agencies, the public, and other stakeholders.”
 
-The standards project has a public [repository](https://github.com/GSA-TTS/federal-website-standards), [issue queue](https://github.com/GSA-TTS/federal-website-standards/issues) and [project board](https://github.com/orgs/GSA-TTS/projects/48/views/1?filterQuery=label%3A%22Potential+standard%22).
+The standards project has a public [repository](https://github.com/GSA-TTS/federal-website-standards), [issue queue](https://github.com/GSA-TTS/federal-website-standards/issues), [project board](https://github.com/orgs/GSA-TTS/projects/48/views/1?filterQuery=label%3A%22Potential+standard%22) and [discussions](https://github.com/GSA-TTS/federal-website-standards/discussions).
 
 The federal government maintains the [U.S. Web Design System](https://designsystem.digital.gov/), an aesthetic framework that encourages agencies to adhere to a common look and feel. While many federal websites have adopted USWDS, it isn’t a requirement.
 
