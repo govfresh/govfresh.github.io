@@ -1,0 +1,38 @@
+---
+layout: news
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+  <article>
+    {% include read-time-bar.html %}
+    {% include jumbotron.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          <div class="post">
+            {% include author.html %}
+            <articlebody>
+              <div class="post-signal">
+                {{ content }}
+              </div>
+            </articlebody>
+            {% if page.action-link %}
+              <h2>Contribute</h2>
+              <a href="{{ page.action-link }}" class="btn btn-primary btn-bd-primary mb-5">{{ page.action-text
+}}</a>
+            {% endif %}
+            {% include share.html %}
+            {% include topics.html %}
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      </div>
+    </div>
+  </article>
+</main>
+{% include analytics.html %}
+{% include footer.html %}
