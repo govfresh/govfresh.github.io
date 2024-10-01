@@ -198,7 +198,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/subscribe/</loc>
-<lastmod>2024-08-19T17:54:46-07:00</lastmod>
+<lastmod>2024-09-27T16:55:40-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/suggest/</loc>
@@ -3210,7 +3210,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/signal/federal-government-website-standards</loc>
-<lastmod>2024-09-27T09:01:52-07:00</lastmod>
+<lastmod>2024-09-27T16:55:40-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/signal/defcon-franklin-inaugural-town-hall</loc>
+<lastmod>2024-10-01T12:34:26-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/government-data</loc>

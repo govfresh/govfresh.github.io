@@ -1,4 +1,5 @@
 ---
+layout: news
 title: ""
 date: YYYY-MM-DD
 author: GovFresh

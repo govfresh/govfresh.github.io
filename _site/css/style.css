@@ -301,7 +301,7 @@ a.link-white, a.link-white:visited, a.link-white:hover, a.link-white:focus, .lin
 
 #logo {
     fill: var(--bs-body-text);
-    max-height: 100px;
+    max-height: 75px;
 }
 
 /* Buttons */
@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
     padding-top: 1rem
 }
 
-.post p {
+.post p, .post ul {
     margin-bottom: 1.5rem;
 }
 
@@ -375,8 +375,8 @@ a.btn:hover, .social a:hover, .card:hover {
 /* Selection */
 
 ::selection, ::-moz-selection {
-    background: var(--bs-body-color);
-    color: var(--bs-body-bg);
+    background: #face00;
+    color: var(--bs-body-color);
 }
 
 /* Progress */

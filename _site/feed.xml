@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-27T16:55:20-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">U.S. government launches website standards initiative</title><link href="http://localhost:4000/signal/federal-government-website-standards" rel="alternate" type="text/html" title="U.S. government launches website standards initiative" /><published>2024-09-27T00:00:00-07:00</published><updated>2024-09-27T09:01:52-07:00</updated><id>http://localhost:4000/signal/federal-government-website-standards</id><content type="html" xml:base="http://localhost:4000/signal/federal-government-website-standards">&lt;p&gt;The General Services Administration has started a &lt;a href=&quot;https://standards.digital.gov/&quot;&gt;website standards initiative&lt;/a&gt; to better “deliver consistent, digital-first experiences for the public.”&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-01T12:40:20-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">DEF CON Franklin to hold inaugural town meeting</title><link href="http://localhost:4000/signal/defcon-franklin-inaugural-town-hall" rel="alternate" type="text/html" title="DEF CON Franklin to hold inaugural town meeting" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T12:34:26-07:00</updated><id>http://localhost:4000/signal/defcon-franklin-inaugural-town-hall</id><content type="html" xml:base="http://localhost:4000/signal/defcon-franklin-inaugural-town-hall">&lt;p&gt;&lt;a href=&quot;https://defconfranklin.com/&quot;&gt;DEF CON Franklin&lt;/a&gt; will hold an inaugural townhall meeting to get its first volunteer projects launched.&lt;/p&gt;
+
+&lt;p&gt;Announced at DEF CON 2024, the group aims to connect volunteers to “communities that are at gravest risk and least protected from growing attacks, such as water utilities and K-12 school districts.”&lt;/p&gt;
+
+&lt;p&gt;The open call is October 7 at 7:30 Eastern time zone.&lt;/p&gt;
+
+&lt;p&gt;Agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Welcome!&lt;/li&gt;
+  &lt;li&gt;Introduction: Paul Chang, Program Director - DEF CON Franklin&lt;/li&gt;
+  &lt;li&gt;Opening Remarks: Jeff Moss / Dark Tangent, Founder of DEF CON &amp;amp; DEF CON Franklin&lt;/li&gt;
+  &lt;li&gt;Background of DEF CON Franklin: Jake Braun, Founder of DEF CON Franklin &amp;amp; DEF CON Voting Village&lt;/li&gt;
+  &lt;li&gt;Why Join Franklin?&lt;/li&gt;
+  &lt;li&gt;How We Will Function: John DeGour, Regulatory Affairs - National Rural Water Association&lt;/li&gt;
+  &lt;li&gt;Next Steps&lt;/li&gt;
+  &lt;li&gt;Open Q&amp;amp;A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Meeting info:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjczZTE0MTUtZWE1ZC00MzBjLWFmNDAtOTg3NmNmOGRiZmFl%40thread.v2/0?context=%7b%22Tid%22%3a%2283b02c92-5f26-48ed-9e5b-6c2fca46a8e6%22%2c%22Oid%22%3a%225c3bef4b-0736-4e0d-b291-5612b9281a17%22%7d&quot;&gt;Join&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Meeting ID: 226 893 649 806&lt;/li&gt;
+  &lt;li&gt;Passcode: MYefzP&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Cybersecurity&quot;]" /><summary type="html">DEF CON Franklin will hold an inaugural townhall meeting to get its first volunteer projects launched.</summary></entry><entry><title type="html">U.S. government launches website standards initiative</title><link href="http://localhost:4000/signal/federal-government-website-standards" rel="alternate" type="text/html" title="U.S. government launches website standards initiative" /><published>2024-09-27T00:00:00-07:00</published><updated>2024-09-27T16:55:40-07:00</updated><id>http://localhost:4000/signal/federal-government-website-standards</id><content type="html" xml:base="http://localhost:4000/signal/federal-government-website-standards">&lt;p&gt;The General Services Administration has started a &lt;a href=&quot;https://standards.digital.gov/&quot;&gt;website standards initiative&lt;/a&gt; to better “deliver consistent, digital-first experiences for the public.”&lt;/p&gt;
 
 &lt;p&gt;“Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone,” says the website. “The standards cover common visual and technical elements and reflect user experience best practices.”&lt;/p&gt;
 
@@ -636,37 +660,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.whitehouse.gov/oncd/briefing-room/2023/08/10/fact-sheet-office-of-the-national-cyber-director-requests-public-comment-on-open-source-software-security-and-memory-safe-programming-languages/&quot;&gt;Fact Sheet: Office of the National Cyber Director Requests Public Comment on Open-Source Software Security and Memory Safe Programming Languages&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.regulations.gov/document/ONCD-2023-0002-0001&quot;&gt;Request for Information on Open-Source Software Security: Areas of Long-Term Focus and Prioritization&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Brief</summary></entry><entry><title type="html">Civic hacking CDC notifiable diseases</title><link href="http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases" rel="alternate" type="text/html" title="Civic hacking CDC notifiable diseases" /><published>2022-12-31T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
-
-&lt;p&gt;We built a hoverable map of weekly notifiable disease cases across the United States using the National Notifiable Diseases Surveillance System API provided by Centers for Disease Control and Prention.&lt;/p&gt;
-
-&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
-
-&lt;p&gt;Data used for this project:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc&quot;&gt;National Notifiable Diseases Surveillance System API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
-
-&lt;p&gt;Big kudos to CDC for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Maintaining a developer portal and public API.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
-
-&lt;p&gt;Notifiable diseases page on USA.GovFresh:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/diseases/&quot;&gt;&lt;img src=&quot;/assets/img/posts/cdc-diseases-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh notifiable diseases page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
-
-&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking USAJOBS</title><link href="http://localhost:4000/signal/civic-hacking-usajobs" rel="alternate" type="text/html" title="Civic hacking USAJOBS" /><published>2022-12-31T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-usajobs</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-usajobs">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Artificial intelligence&quot;, &quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Culture&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Design&quot;, &quot;Digital&quot;, &quot;Open government&quot;, &quot;Open innovation&quot;, &quot;Open source software&quot;]" /><summary type="html">Brief</summary></entry><entry><title type="html">Civic hacking USAJOBS</title><link href="http://localhost:4000/signal/civic-hacking-usajobs" rel="alternate" type="text/html" title="Civic hacking USAJOBS" /><published>2022-12-31T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-usajobs</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-usajobs">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
 
@@ -698,6 +692,36 @@
 &lt;p&gt;Federal government jobs listing on USA.GovFresh:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/jobs/&quot;&gt;&lt;img src=&quot;/assets/img/posts/usajobs-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh federal government page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking CDC notifiable diseases</title><link href="http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases" rel="alternate" type="text/html" title="Civic hacking CDC notifiable diseases" /><published>2022-12-31T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-cdc-notifiable-diseases">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a hoverable map of weekly notifiable disease cases across the United States using the National Notifiable Diseases Surveillance System API provided by Centers for Disease Control and Prention.&lt;/p&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.cdc.gov/NNDSS/NNDSS-Weekly-Data/x9gk-5huc&quot;&gt;National Notifiable Diseases Surveillance System API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to CDC for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a developer portal and public API.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Notifiable diseases page on USA.GovFresh:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/diseases/&quot;&gt;&lt;img src=&quot;/assets/img/posts/cdc-diseases-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh notifiable diseases page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
 
@@ -850,42 +874,4 @@
 
 &lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
 
-&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking National Geodetic Survey survey marks</title><link href="http://localhost:4000/signal/civic-hacking-ngs-survey-marks" rel="alternate" type="text/html" title="Civic hacking National Geodetic Survey survey marks" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-ngs-survey-marks</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-ngs-survey-marks">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
-
-&lt;p&gt;We built a survey mark finder app from data provided by the National Geodetic Survey. This includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;List of survey marks across the United States&lt;/li&gt;
-  &lt;li&gt;Pinpoint to current location&lt;/li&gt;
-  &lt;li&gt;Search survey marks in any location&lt;/li&gt;
-  &lt;li&gt;Survey mark recovery submission&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
-
-&lt;p&gt;Data used for this project:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://geodesy.noaa.gov/datasheets/&quot;&gt;NGS survey marks data&lt;/a&gt; (U.S. National Geodetic Survey)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
-
-&lt;p&gt;Big kudos to NGS for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Providing public data sets.&lt;/li&gt;
-  &lt;li&gt;Creating a public submission recovery form.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
-
-&lt;p&gt;GeoMarks app:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/geomarks/&quot;&gt;&lt;img src=&quot;/assets/img/posts/geomarks-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh space photo of the day page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
-
-&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry></feed>
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry></feed>

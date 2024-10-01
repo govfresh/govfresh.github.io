@@ -20,11 +20,21 @@ layout: news
                 {{ content }}
               </div>
             </articlebody>
+            <div class="mt-5">
+              {% include subscribe-newsletter.html %}
+            </div>
             {% if page.action-link %}
               <h2>Contribute</h2>
-              <a href="{{ page.action-link }}" class="btn btn-primary btn-bd-primary mb-5">{{ page.action-text
-}}</a>
+              <a href="{{ page.action-link }}" class="btn btn-primary btn-bd-primary mb-5">{{ page.action-text }}</a>
             {% endif %}
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          <div class="post">
             {% include share.html %}
             {% include topics.html %}
           </div>
