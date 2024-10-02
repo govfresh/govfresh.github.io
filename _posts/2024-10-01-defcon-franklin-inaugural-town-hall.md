@@ -16,7 +16,7 @@ category:
   - Cybersecurity
 ---
 
-[DEF CON Franklin](https://defconfranklin.com/) will hold an inaugural townhall meeting to get its first volunteer projects launched.
+[DEF CON Franklin](https://defconfranklin.com/) will hold an inaugural town hall meeting to get its first volunteer projects launched.
 
 Announced at DEF CON 2024, the group aims to connect volunteers to "communities that are at gravest risk and least protected from growing attacks, such as water utilities and K-12 school districts."
 

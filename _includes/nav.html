@@ -49,7 +49,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mr-auto"></div>
-          <div class="navbar-nav">
+          <div class="navbar-nav small">
             {% for item in site.data.nav.docs %}
               {% if item.url %}
                 <a class="nav-item nav-link link-primary link-offset-3 {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>

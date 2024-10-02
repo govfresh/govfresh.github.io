@@ -1,4 +1,330 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-01T12:40:20-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">DEF CON Franklin to hold inaugural town meeting</title><link href="http://localhost:4000/signal/defcon-franklin-inaugural-town-hall" rel="alternate" type="text/html" title="DEF CON Franklin to hold inaugural town meeting" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T12:34:26-07:00</updated><id>http://localhost:4000/signal/defcon-franklin-inaugural-town-hall</id><content type="html" xml:base="http://localhost:4000/signal/defcon-franklin-inaugural-town-hall">&lt;p&gt;&lt;a href=&quot;https://defconfranklin.com/&quot;&gt;DEF CON Franklin&lt;/a&gt; will hold an inaugural townhall meeting to get its first volunteer projects launched.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-02T07:01:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">GovFresh</title><subtitle>Design. Technology. Democracy.</subtitle><entry><title type="html">Signal 2024.10.02</title><link href="http://localhost:4000/signal/signal-2024-10-02" rel="alternate" type="text/html" title="Signal 2024.10.02" /><published>2024-10-02T00:00:00-07:00</published><updated>2024-10-02T07:01:15-07:00</updated><id>http://localhost:4000/signal/signal-2024-10-02</id><content type="html" xml:base="http://localhost:4000/signal/signal-2024-10-02">&lt;h2 id=&quot;federal-website-standards-&quot;&gt;Federal website standards 🇺🇲&lt;/h2&gt;
+
+&lt;p&gt;The U.S. Government &lt;a href=&quot;https://govfresh.com/signal/federal-government-website-standards&quot;&gt;launched a website standards initiative&lt;/a&gt; to “deliver consistent, digital-first experiences for the public.”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“will help agencies provide high-quality, consistent digital experiences for everyone”&lt;/li&gt;
+  &lt;li&gt;“cover common visual and technical elements and reflect user experience best practices”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://standards.digital.gov/&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GSA-TTS/federal-website-standards&quot;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GSA-TTS/federal-website-standards/issues&quot;&gt;Issue queue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/orgs/GSA-TTS/projects/48/views/1?filterQuery=label%3A%22Potential+standard%22&quot;&gt;Project board&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GSA-TTS/federal-website-standards/discussions&quot;&gt;Discussions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-pentagon-friends-silicon-valley-&quot;&gt;The Pentagon friends Silicon Valley 🪖&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://govfresh.com/books/unit-x&quot;&gt;My review&lt;/a&gt; of &lt;em&gt;Unit X: How the Pentagon and Silicon Valley Are Transforming the Future of War&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Authors Christopher Kirchhoff and Raj M. Shah:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“the greatest kind of patriots are those who so cherish our country’s ideals that they’re not afraid to challenge the institutions that guard them”&lt;/li&gt;
+  &lt;li&gt;“innovation is an asymmetric means to achieve and maintain peace”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.diu.mil/&quot;&gt;Defense Innovation Unit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;def-con-franklin-town-hall-&quot;&gt;DEF CON Franklin town hall 🪁&lt;/h2&gt;
+
+&lt;p&gt;DEF CON Franklin &lt;a href=&quot;https://govfresh.com/signal/defcon-franklin-inaugural-town-hall&quot;&gt;will hold an inaugural town hall&lt;/a&gt; meeting to get its first volunteer projects launched.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Franklin will mobilize the DEF CON community to solve real world problems.”&lt;/li&gt;
+  &lt;li&gt;“volunteers will connect with and support communities that are at gravest risk and least protected from growing attacks, such as water utilities and K-12 school districts”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://defconfranklin.com/&quot;&gt;DEF CON Franklin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software-as-a-public-good-&quot;&gt;Software as a public good 🌉&lt;/h2&gt;
+
+&lt;p&gt;GitHub on &lt;a href=&quot;https://github.blog/open-source/social-impact/software-as-a-public-good/&quot;&gt;open source software as a public good&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Its open model of collaboration makes it easy for governments, businesses, nonprofits and individuals to work together for the common good.”&lt;/li&gt;
+  &lt;li&gt;“Like with physical infrastructure, we shouldn’t limit ourselves to funding it once a bridge has collapsed.“&lt;/li&gt;
+  &lt;li&gt;“The United Nations’ commitment to open source doesn’t end at hosting a conference.”&lt;/li&gt;
+  &lt;li&gt;“Its goal is for governments to adopt the Global Digital Compact at the Summit.”&lt;/li&gt;
+  &lt;li&gt;“One of the Global Digital Compact’s key commitments is to increase funding for Digital Public Goods (DPGs), that means open source software, open standards, open data, open AI systems, and open content collections that adhere to privacy and other applicable laws and best practices, do no harm, and help attain the Sustainable Development Goals.”&lt;/li&gt;
+  &lt;li&gt;“To help developers connect with these projects, we have launched the For Good First Issue where developers can easily find and contribute to open source projects that support SDGs.”&lt;/li&gt;
+  &lt;li&gt;“This is a great place to start working together with public sector-led open source projects, without having to be a public policy geek.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sdgs.un.org/goals&quot;&gt;Sustainable Development Goals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.un.org/techenvoy/global-digital-compact&quot;&gt;Global Digital Compact&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forgoodfirstissue.github.com/&quot;&gt;For Good First Issue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;craig-funds-civil-cyber-defense-network-&quot;&gt;Craig funds civil cyber defense network 💰&lt;/h2&gt;
+
+&lt;p&gt;Craig Newmark Philanthropies will fund a volunteer civil cyber defense network to “help amplify the work of all of the different volunteer and state and local grassroots efforts to provide cyber assistance.”&lt;/p&gt;
+
+&lt;p&gt;Newmark:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Volunteer networks and no-cost cyber services are important parts of cyber civil defense.”&lt;/li&gt;
+  &lt;li&gt;“Bringing critical resources into communities that need a hand with cyber protection and resilience.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cyberscoop.com/berkeley-volunteer-network-civil-cyber/&quot;&gt;CyberScoop&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“The foundation is donating $1.2 million in funds, which will also be used to continue existing projects created with previous moneys, such as UC Berkeley’s Consortium of Cybersecurity Clinics, a network of universities that sends trained students to help social organizations like nonprofits that face increased attention from governments, corporations and malicious actors.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://globalcyberalliance.org/cyber-civil-defense/&quot;&gt;Cyber Civil Defense Coalition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;open-government-national-action-plan-rfi-&quot;&gt;Open Government National Action Plan RFI 📣&lt;/h2&gt;
+
+&lt;p&gt;The U.S. federal government wants input on its sixth open government national action plan.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deadline: Nov 12&lt;/li&gt;
+  &lt;li&gt;Listening session: Oct. 9, 2-4 p.m. ET (virtual / &lt;a href=&quot;https://gsa.zoomgov.com/meeting/register/vJItceygrDMqHB0Ia7An4tyg9Gx3xlKFVQA&quot;&gt;RSVP&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;“seeking comments and suggestions from individuals, organizations, and other stakeholders”&lt;/li&gt;
+  &lt;li&gt;“first step in our co-creation process between government and civil society”&lt;/li&gt;
+  &lt;li&gt;“we invite you to contribute your ideas and feedback to help shape the future of open government in the United States”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://federalregister.gov/d/2024-20702&quot;&gt;Request for information&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;www.gsa.gov/usopengov&quot;&gt;U.S. Open Government Initiative &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gsa.gov/system/files/Open-Government-Secretariat--Year-End-in-Review.pdf&quot;&gt;U.S. Open Government Secretariat Year One in Review&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fha-adopts-cisa-eval-tool-️&quot;&gt;FHA adopts CISA eval tool 🛣️&lt;/h2&gt;
+
+&lt;p&gt;FedScoop’s Rebecca Heilweil &lt;a href=&quot;https://fedscoop.com/federal-highway-administration-cyber-tool-cisa/&quot;&gt;reports&lt;/a&gt; that the Federal Highway Administration will use the Cybersecurity and Infrastructure Security Agency’s Cybersecurity Evaluation Tool.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“The agency said … it’s often called in to deal with cyber incidents, particularly around its work with federal and state agencies ‘whose primary missions revolve around securing critical transportation infrastructure.’”&lt;/li&gt;
+  &lt;li&gt;“Now, it’s adopting the CISA tool to streamline that process.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;About CSET:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“provides a systematic, disciplined, and repeatable approach for evaluating an organization’s security posture”&lt;/li&gt;
+  &lt;li&gt;“a desktop software tool that guides asset owners and operators through a step-by-step process to evaluate industrial control system (ICS) and information technology (IT) network security practices”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cisa.gov/resources-tools/services/cyber-security-evaluation-tool-cset&quot;&gt;Cybersecurity Evaluation Tool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cisagov/cset&quot;&gt;CSET repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;datagov-dashboard-&quot;&gt;Data.gov dashboard 📊&lt;/h2&gt;
+
+&lt;p&gt;Data.gov &lt;a href=&quot;https://digital.gov/2024/09/13/datagov-launches-metrics-tools/&quot;&gt;launched a dashboard&lt;/a&gt; that gives better insight into the data it hosts.&lt;/p&gt;
+
+&lt;p&gt;Tim Lowden:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“The site’s catalog includes metadata from more than 300,000 datasets across multiple levels of government.”&lt;/li&gt;
+  &lt;li&gt;“There wasn’t a detailed way to see how the public interacted with the dataset pages by publishing organization.”&lt;/li&gt;
+  &lt;li&gt;“Wanted to help our data providers and the public understand and explore how our people use the data and content on our site.”&lt;/li&gt;
+  &lt;li&gt;“Includes a dedicated page for every data provider organization in our system.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.gov/metrics/&quot;&gt;Data.gov metrics dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hacking-congress-️&quot;&gt;Hacking Congress 🏛️&lt;/h2&gt;
+
+&lt;p&gt;Alex Howard &lt;a href=&quot;https://civic-texts.ghost.io/how-the-congressional-hackathon-helped-the-house-work-better-for-the-people/?ref=civic-texts-newsletter&quot;&gt;reports on the 2024 Congressional Hackathon&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“there isn’t a lot of actual hacking going on, unlike the hackathons I’ve attended at universities, tech companies, or ‘crisis camps‘ from a decade ago”&lt;/li&gt;
+  &lt;li&gt;“the Congressional hackathon has instead evolved into a hybrid event featuring speeches from Congressional leaders and House administrative staff, followed by panel discussions, pitches and presentations from staffers or external developers and students, breakout groups that brainstorm ideas that could help Congress work better, and then development over the course of the year to follow”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://civic-texts.ghost.io/&quot;&gt;Civic Texts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;discord--covid-vaccines-&quot;&gt;Discord + COVID vaccines 💉&lt;/h2&gt;
+
+&lt;p&gt;Patrick McKenzie &lt;a href=&quot;https://www.dwarkeshpatel.com/p/patrick-mckenzie&quot;&gt;talks with the Dwarkesh Podcast&lt;/a&gt; about how hackers on Discord helped thousands of people get COVID vaccines.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“At the start, it was just this hackathon project of a bunch of random tech people who thought, ‘hey, we can build a website, make some phone calls, maybe help some people find the vaccine at the margin.’”&lt;/li&gt;
+  &lt;li&gt;“We essentially ended up becoming the public-private partnership that was the clearinghouse for vaccine location information for the United States of America.”&lt;/li&gt;
+  &lt;li&gt;“People in tech need to become radically more skilled at interfacing with government. To the extent that we have some manifest competency issues in government right now, we can’t simply sit out here and gripe about this on podcasts, etc. We’ve got to go out and do something about it.”&lt;/li&gt;
+  &lt;li&gt;“On the government side, one thing we need is dispelling the massive ‘ugh’ field that surrounds software.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/18zpjpPNWRw&quot;&gt;Watch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dwarkeshpatel.com/p/patrick-mckenzie&quot;&gt;Transcript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;logingov-roadmap-️&quot;&gt;Login.gov roadmap 🗺️&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;Login.gov&quot;&gt;Login.gov&lt;/a&gt; has a &lt;a href=&quot;https://digital.gov/2024/08/26/how-login-gov-uses-roadmapping-to-build-trust-with-its-partners-and-the-public/&quot;&gt;public roadmap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Login.gov program is committed to being transparent with the agency partners and members of the public that it serves”&lt;/li&gt;
+  &lt;li&gt;“articulates the values of the Login.gov program, outlines strategic priorities, and documents how the program is approaching nuanced identity topics”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.login.gov/partners/roadmap/&quot;&gt;Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;human-centered-cybersecurity-community-&quot;&gt;Human-centered cybersecurity community 🔒&lt;/h2&gt;
+
+&lt;p&gt;The National Institute of Standards and Technology &lt;a href=&quot;https://www.nist.gov/blogs/cybersecurity-insights/learning-sharing-and-exploring-nists-new-human-centered-cybersecurity&quot;&gt;launched a human-centered cybersecurity community&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;aka HCC&lt;/li&gt;
+  &lt;li&gt;“involves the social, organizational, and technological influences on people’s understanding of and interactions with cybersecurity”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NIST team members &lt;a href=&quot;https://www.nist.gov/blogs/cybersecurity-insights/authors/jody-jacobs&quot;&gt;Jody Jacobs&lt;/a&gt; and &lt;a href=&quot;https://www.nist.gov/blogs/cybersecurity-insights/authors/julie-haney&quot;&gt;Julie Haney&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“We are truly excited to get this long-awaited group off the ground and create a space for researchers and practitioners to interact and begin tackling human-centered cybersecurity issues together.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://csrc.nist.gov/Projects/human-centered-cybersecurity/hcc-coi&quot;&gt;Sign up&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;schneier-on-ai-and-democracy-&quot;&gt;Schneier on AI and democracy ✨&lt;/h2&gt;
+
+&lt;p&gt;Bruce Schneier’s &lt;a href=&quot;https://youtu.be/uqC4nb7fLpY?feature=shared&quot;&gt;AI and the future of democracy TEDxBillings talk&lt;/a&gt; touches on the impact artificial intelligence will have on “law writing, lawyering, law enforcement and adjudication.”&lt;/p&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.schneier.com/blog/archives/2024/05/how-ai-will-change-democracy.html&quot;&gt;How AI Will Change Democracy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.schneier.com/blog/archives/2024/09/ai-and-the-2024-us-elections.html&quot;&gt;AI and the 2024 US Elections&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cfc--eff-&quot;&gt;CFC + EFF 🎁&lt;/h2&gt;
+
+&lt;p&gt;Federal government workers can &lt;a href=&quot;https://www.eff.org/deeplinks/2024/09/us-federal-employees-plant-your-flag-digital-freedoms-today&quot;&gt;support the Electronic Frontier Foundation&lt;/a&gt; via the Combined Federal Campaign.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;EFF ID: 10437&lt;/li&gt;
+  &lt;li&gt;“pledge to support EFF’s lawyers, technologists, and activists in the fight for privacy and free speech online”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://givecfc.org/&quot;&gt;Combined Federal Campaign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;congress-student-app-challenge-&quot;&gt;Congress student app challenge 📱&lt;/h2&gt;
+
+&lt;p&gt;Deadline for the &lt;a href=&quot;https://www.congressionalappchallenge.us/&quot;&gt;Congressional App Challenge&lt;/a&gt; submissions is October 24, 2024.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“We are Members of the U.S. House of Representatives hosting district-wide Congressional App Challenges for middle school and high school students, encouraging them to learn to code and inspiring them to pursue careers in computer science.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.congressionalappchallenge.us/students/participating-districts/&quot;&gt;Participating districts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.congressionalappchallenge.us/students/student-registration/&quot;&gt;Student registration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.congressionalappchallenge.us/students/rules/&quot;&gt;Rules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;no-such-podcast-️&quot;&gt;No such podcast 🎙️&lt;/h2&gt;
+
+&lt;p&gt;The National Security Agency has a &lt;a href=&quot;https://www.nsa.gov/Podcast/&quot;&gt;podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“will bring people to the table from across the agency to discuss our role as a combat support agency, our foreign signals intelligence and cybersecurity missions, and so much more”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deeper:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://directory.libsyn.com/shows/view/id/nosuchpodcast&quot;&gt;Libsyn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@NationalSecurityAgencyGov/podcasts&quot;&gt;YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/ca/podcast/no-such-podcast/id1763301518&quot;&gt;Apple Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://open.spotify.com/show/3E9myEC1Z60USAVhlvN6jH&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;book-club-&quot;&gt;Book club 📚&lt;/h2&gt;
+
+&lt;p&gt;Recent reads (+ listens):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://govfresh.com/books/unit-x&quot;&gt;Unit X: How the Pentagon and Silicon Valley Are Transforming the Future of War&lt;/a&gt;, Raj M. Shah, Christopher Kirchhoff&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Reading (+ listening):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.anneapplebaum.com/book/autocracy/&quot;&gt;Autocracy, Inc.&lt;/a&gt;, Anne Applebaum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community-&quot;&gt;Community 🫶&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://govfresh.com/community&quot;&gt;GovFresh community&lt;/a&gt; is open to anyone.&lt;/li&gt;
+  &lt;li&gt;To join, email &lt;a href=&quot;mailto:community@govfresh.com&quot;&gt;community@govfresh.com&lt;/a&gt; with ‘Community’ in the subject.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;got-tips-&quot;&gt;Got tips? 📫&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Topics: tech, design, open source, data, security, blockchain, AI, civic hacking&lt;/li&gt;
+  &lt;li&gt;Send to: &lt;a href=&quot;mailto:signal@govfresh.com&quot;&gt;signal@govfresh.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Subject: ‘Signal tip’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;got-feedback-&quot;&gt;Got feedback? 😍&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Send to: &lt;a href=&quot;mailto:signal@govfresh.com&quot;&gt;signal@govfresh.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Subject: ‘Signal feedback’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-signal-&quot;&gt;Get Signal 📨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://govfresh.com/subscribe&quot;&gt;Subscribe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Cybersecurity&quot;, &quot;Open government&quot;, &quot;Open source software&quot;]" /><summary type="html">Federal website standards 🇺🇲</summary></entry><entry><title type="html">DEF CON Franklin to hold inaugural town meeting</title><link href="http://localhost:4000/signal/defcon-franklin-inaugural-town-hall" rel="alternate" type="text/html" title="DEF CON Franklin to hold inaugural town meeting" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T12:41:34-07:00</updated><id>http://localhost:4000/signal/defcon-franklin-inaugural-town-hall</id><content type="html" xml:base="http://localhost:4000/signal/defcon-franklin-inaugural-town-hall">&lt;p&gt;&lt;a href=&quot;https://defconfranklin.com/&quot;&gt;DEF CON Franklin&lt;/a&gt; will hold an inaugural town hall meeting to get its first volunteer projects launched.&lt;/p&gt;
 
 &lt;p&gt;Announced at DEF CON 2024, the group aims to connect volunteers to “communities that are at gravest risk and least protected from growing attacks, such as water utilities and K-12 school districts.”&lt;/p&gt;
 
@@ -22,7 +348,7 @@
   &lt;li&gt;&lt;a href=&quot;https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjczZTE0MTUtZWE1ZC00MzBjLWFmNDAtOTg3NmNmOGRiZmFl%40thread.v2/0?context=%7b%22Tid%22%3a%2283b02c92-5f26-48ed-9e5b-6c2fca46a8e6%22%2c%22Oid%22%3a%225c3bef4b-0736-4e0d-b291-5612b9281a17%22%7d&quot;&gt;Join&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Meeting ID: 226 893 649 806&lt;/li&gt;
   &lt;li&gt;Passcode: MYefzP&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Cybersecurity&quot;]" /><summary type="html">DEF CON Franklin will hold an inaugural townhall meeting to get its first volunteer projects launched.</summary></entry><entry><title type="html">U.S. government launches website standards initiative</title><link href="http://localhost:4000/signal/federal-government-website-standards" rel="alternate" type="text/html" title="U.S. government launches website standards initiative" /><published>2024-09-27T00:00:00-07:00</published><updated>2024-09-27T16:55:40-07:00</updated><id>http://localhost:4000/signal/federal-government-website-standards</id><content type="html" xml:base="http://localhost:4000/signal/federal-government-website-standards">&lt;p&gt;The General Services Administration has started a &lt;a href=&quot;https://standards.digital.gov/&quot;&gt;website standards initiative&lt;/a&gt; to better “deliver consistent, digital-first experiences for the public.”&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>GovFresh</name></author><category term="[&quot;Civic hacking&quot;, &quot;Community&quot;, &quot;Cybersecurity&quot;]" /><summary type="html">DEF CON Franklin will hold an inaugural town hall meeting to get its first volunteer projects launched.</summary></entry><entry><title type="html">U.S. government launches website standards initiative</title><link href="http://localhost:4000/signal/federal-government-website-standards" rel="alternate" type="text/html" title="U.S. government launches website standards initiative" /><published>2024-09-27T00:00:00-07:00</published><updated>2024-09-27T16:55:40-07:00</updated><id>http://localhost:4000/signal/federal-government-website-standards</id><content type="html" xml:base="http://localhost:4000/signal/federal-government-website-standards">&lt;p&gt;The General Services Administration has started a &lt;a href=&quot;https://standards.digital.gov/&quot;&gt;website standards initiative&lt;/a&gt; to better “deliver consistent, digital-first experiences for the public.”&lt;/p&gt;
 
 &lt;p&gt;“Federal website standards will help agencies provide high-quality, consistent digital experiences for everyone,” says the website. “The standards cover common visual and technical elements and reflect user experience best practices.”&lt;/p&gt;
 
@@ -725,6 +1051,44 @@
 
 &lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
 
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking National Geodetic Survey survey marks</title><link href="http://localhost:4000/signal/civic-hacking-ngs-survey-marks" rel="alternate" type="text/html" title="Civic hacking National Geodetic Survey survey marks" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-ngs-survey-marks</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-ngs-survey-marks">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;We built a survey mark finder app from data provided by the National Geodetic Survey. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List of survey marks across the United States&lt;/li&gt;
+  &lt;li&gt;Pinpoint to current location&lt;/li&gt;
+  &lt;li&gt;Search survey marks in any location&lt;/li&gt;
+  &lt;li&gt;Survey mark recovery submission&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+
+&lt;p&gt;Data used for this project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://geodesy.noaa.gov/datasheets/&quot;&gt;NGS survey marks data&lt;/a&gt; (U.S. National Geodetic Survey)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
+
+&lt;p&gt;Big kudos to NGS for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Providing public data sets.&lt;/li&gt;
+  &lt;li&gt;Creating a public submission recovery form.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;GeoMarks app:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/geomarks/&quot;&gt;&lt;img src=&quot;/assets/img/posts/geomarks-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh space photo of the day page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
 &lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking the National Park Service</title><link href="http://localhost:4000/signal/civic-hacking-national-park-service" rel="alternate" type="text/html" title="Civic hacking the National Park Service" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-national-park-service</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-national-park-service">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
@@ -785,93 +1149,4 @@
 
 &lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
 
-&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking FDA’s National Drug Code Directory</title><link href="http://localhost:4000/signal/civic-hacking-fda-drugs" rel="alternate" type="text/html" title="Civic hacking FDA’s National Drug Code Directory" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-fda-drugs</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-fda-drugs">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
-
-&lt;p&gt;We built a drug look-up tool of Food and Drug Administration approved medicines using the National Drug Code Directory API. This includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Drug search tool&lt;/li&gt;
-  &lt;li&gt;Page listing for each FDA-approved medicine&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Each drug listing includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Generic name&lt;/li&gt;
-  &lt;li&gt;Manufacturer&lt;/li&gt;
-  &lt;li&gt;Labeler&lt;/li&gt;
-  &lt;li&gt;Ingredients&lt;/li&gt;
-  &lt;li&gt;Packaging&lt;/li&gt;
-  &lt;li&gt;Type&lt;/li&gt;
-  &lt;li&gt;Route&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
-
-&lt;p&gt;Data used for this project:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://open.fda.gov/apis/drug/ndc/&quot;&gt;National Drug Code Directory&lt;/a&gt; (Food and Drug Administration)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
-
-&lt;p&gt;Big kudos to FDA for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Maintaining a public application programming interface of the data.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
-
-&lt;p&gt;Drug search:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/drugs/&quot;&gt;&lt;img src=&quot;/assets/img/posts/drug-search-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh drug search page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Example drug listing:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/drugs/?drug=50580-369_ec2b0f73-44d3-4cfe-b9fb-39adac987116&quot;&gt;&lt;img src=&quot;/assets/img/posts/drug-search-listing-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh drug listing page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
-
-&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry><entry><title type="html">Civic hacking CISA cybersecurity news</title><link href="http://localhost:4000/signal/civic-hacking-cisa-cybersecurity-news" rel="alternate" type="text/html" title="Civic hacking CISA cybersecurity news" /><published>2022-12-30T00:00:00-08:00</published><updated>2023-12-25T18:49:22-08:00</updated><id>http://localhost:4000/signal/civic-hacking-cisa-cybersecurity-news</id><content type="html" xml:base="http://localhost:4000/signal/civic-hacking-cisa-cybersecurity-news">&lt;p&gt;&lt;em&gt;(This post is part of an ongoing series documenting adventures in father-son &lt;a href=&quot;/civichacking&quot;&gt;civic hacking&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;readme&quot;&gt;README&lt;/h2&gt;
-
-&lt;p&gt;We built a cybersecurity news page using the RSS feeds from CISA. This includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#alerts&quot;&gt;Alerts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#bulletins&quot;&gt;Bulletins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#analysis-reports&quot;&gt;Reports&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#tips&quot;&gt;Tips&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#current-activity&quot;&gt;Current activity&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
-
-&lt;p&gt;Data used for this project:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cisa.gov/uscert/mailing-lists-and-feeds&quot;&gt;CISA RSS feeds&lt;/a&gt; (Cybersecurity &amp;amp; Infrastructure Security Agency)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kudos&quot;&gt;Kudos&lt;/h2&gt;
-
-&lt;p&gt;Big kudos to CISA for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Building a making publicly-available RSS feeds.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
-
-&lt;p&gt;Cybersecurity news page:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://usa.govfresh.com/cybersecurity/news.html#all&quot;&gt;&lt;img src=&quot;/assets/img/posts/cisa-news-usagovfresh.png&quot; alt=&quot;Screenshot of USA.GovFresh cybersecurity news page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
-
-&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Cybersecurity&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry></feed>
+&lt;p&gt;Share your feedback on the &lt;a href=&quot;https://github.com/govfresh/usa/&quot;&gt;USA.GovFresh repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Luke Fretwell</name></author><category term="[&quot;Civic hacking&quot;, &quot;Data&quot;, &quot;Digital&quot;, &quot;Open&quot;]" /><summary type="html">(This post is part of an ongoing series documenting adventures in father-son civic hacking.)</summary></entry></feed>
