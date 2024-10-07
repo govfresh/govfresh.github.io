@@ -11,7 +11,7 @@ author: The Government We Need
 tgwn: yes
 season: 1
 number: 6
-audio: https://audio.govfresh.com/tgwn-6.mp3
+audio: https://audio.govfresh.com/.wav
 apple: https://podcasts.apple.com/us/podcast/how-government-can-secure-us-in-the-internet-era/id1468169431?i=1000441311038
 spotify: https://open.spotify.com/episode/0MCbhSL4yDUHhGslfoeIUu
 stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/62805554

@@ -14,25 +14,24 @@
   });
 </script>
 <footer>
-  {% include support.html %}
   <div class="bg-gradient border-top mt-5 py-5">
     <div class="container">
+      <div class="row border-bottom mb-5 pb-5">
+        <div class="col-sm-12">
+          <h4>Connect with us</h4>
+          {% include social.html size="footer" %}
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-12">
-          <h5>Topics</h5>
-          <ul class="list-inline">
+          <h4>Topics</h4>
+          <ul class="list-inline mt-3">
             {% for topic in site.topics %}
               <li class="list-inline-item small mr-3 mb-3">
                 <a href="{{ site.baseurl }}{{ topic.url }}" class="btn btn-primary btn-bd-primary btn-sm">{{ topic.title }}</a>
               </li>
             {% endfor %}
           </ul>
-        </div>
-      </div>
-      <div class="row border-top mb-4 pt-5">
-        <div class="col-sm-12">
-          <h5>Connect with us</h5>
-          {% include social.html size="footer" %}
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: "Public Sans Bold Italic";
-    src: url("/assets/fonts/public-sans/PublicSans-bold-italic.ttf") format("truetype");
+    src: url("/assets/fonts/public-sans/PublicSans-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
@@ -46,6 +46,16 @@
 }
 
 @font-face {
+    font-family: "Fira Mono Medium";
+    src: url("/assets/fonts/fira-mono/FiraMono-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Fira Mono Bold";
+    src: url("/assets/fonts/fira-mono/FiraMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Mona Sans Regular";
     src: url("/assets/fonts/mona-sans/MonaSans-Regular.woff2") format("woff2");
 }
@@ -58,6 +68,11 @@
 @font-face {
     font-family: "Roboto Mono Regular";
     src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Mono Bold";
+    src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.ttf") format("truetype");
 }
 
 /* Light mode */
@@ -93,7 +108,7 @@
     --bs-info: var(--bs-body-color);
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
+    --bs-light: #e7f434;
     --bs-dark: #212529;
     --bs-primary-rgb: 33, 33, 33;
     --bs-secondary-rgb: 333, 333, 333;
@@ -200,6 +215,7 @@
     --bs-body-color: #fff;
     --bs-body-color-rgb: 255, 255, 255;
     --bs-body-bg: #54278f;
+    --bs-body-bg: #000;
     --bs-body-bg-rgb: 84, 39, 143;
     --bs-emphasis-color: #fff;
     --bs-emphasis-color-rgb: 255, 255, 255;
@@ -244,6 +260,7 @@
     --bs-highlight-color: #dee2e6;
     --bs-highlight-bg: #664d03;
     --bs-border-color: #9355dc;
+    --bs-border-color: #5d5d52;
     --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
     --bs-form-valid-color: #75b798;
     --bs-form-valid-border-color: #75b798;
@@ -273,6 +290,32 @@
 
 :root {
     --font-1: "Public Sans Bold", sans-serif;
+}
+
+/* Nav
+
+#nav, footer, .light {
+    background-color: #29e1cb;
+}
+ */
+
+.navbar-brand {
+    font-family: "Public Sans Bold", sans-serif;
+    font-size: 3rem;
+}
+
+nav a, nav a:visited {
+    border-left: 1px solid var(--bs-border-color) !important;
+    padding: 0 1rem !important;
+    margin: .35rem 0 !important;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.card-img-top {
+    border: none !important;
 }
 
 /* Signal */
@@ -336,11 +379,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
 
 /* Anchor links */
 
-h2 a#heading-hashtag {
+h2 a#heading-hashtag, h3 a#heading-hashtag {
     display: none;
 }
 
-h2:hover a#heading-hashtag {
+h2:hover a#heading-hashtag, h3:hover a#heading-hashtag {
     display: revert;
 }
 
@@ -360,7 +403,7 @@ a.btn:hover, .social a:hover, .card:hover {
     /* Adjust the width as needed */
     height: 15px;
     /* Adjust the height as needed */
-    background-color: var(--bs-secondary-bg);
+    background-color: var(--bs-body-color);
     /* Adjust the color as needed */
     margin-left: 10px;
     /* Adjust the margin as needed */
@@ -446,10 +489,12 @@ a.btn:hover, .social a:hover, .card:hover {
     filter: drop-shadow(-5px 5px 0 var(--bs-secondary-bg));
 }
 
+/*
 main img, article img, aside img {
     border: var(--bs-border-color) var(--bs-border-width) var(--bs-border-style);
     margin-bottom: var(--size-7);
 }
+*/
 
 img {
     height: auto;
@@ -600,6 +645,7 @@ input[type="range"] {
     margin: var(--size-6) var(--size-1);
     margin-left: var(--size-9);
     padding: var(--size-9);
+    letter-spacing: normal;
 }
 
 .post-dm h3 a, .post-dm h3 a:visited, .post-dm h3 a:hover {
@@ -608,7 +654,7 @@ input[type="range"] {
 }
 
 .post-dm p, .post-dm ul, .post-dm ol {
-    background-color: var(--bs-tertiary-bg);
+    background-color: var(--bs-light);
     border-radius: var(--size-4);
     color: var(--color-9);
     margin: var(--size-6) var(--size-1);
@@ -664,6 +710,8 @@ blockquote p, blockquote ul {
     padding-top: var(--size-3);
 }
 
+/* Player */
+
 @keyframes plyr-progress {
     to {
         background-position: 25px 0;
@@ -696,9 +744,9 @@ blockquote p, blockquote ul {
 /* Player */
 
 .plyr {
-    margin: 2rem 0 3rem 0;
+    margin: 2rem 0 2rem 0;
     width: 100%;
-    border-radius: 0;
+    border-radius: 3px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     align-items: center;

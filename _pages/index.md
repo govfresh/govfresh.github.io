@@ -3,7 +3,7 @@ schematype: WebSite
 layout: home
 short: "true"
 title: GovFresh
-description: Design. Technology. Democracy.
+description: Design / Technology / Democracy
 thoughts-title: Thoughts
 thoughts-description: Ideas and opinions.
 thoughts-link: /thoughts/

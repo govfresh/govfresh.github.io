@@ -1,8 +1,12 @@
 ---
 layout: cards
 title: Research
-description: Research and deep work.
+description: Notes and deep work.
 permalink: /research/
 parent: research
 icon: "fa-solid fa-book"
+img-feat: brain-feat.png
+img-og: brain-feat.png
+img-twitter: brain-feat.png
+img-alt: "Brain icon"
 ---

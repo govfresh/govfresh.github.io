@@ -2,7 +2,7 @@
   {% assign first = site.order | first %}
   {% for i in site.order %}
     {% assign page = site.pages | where: "parent", i.name | first %}
-    <div class="preview {{ page.parent }} border-top pt-5 pb-2 mt-2 mb-5 {% if i.name == "signal" %}row{% endif %}">
+    <div class="preview {{ page.parent }} border-bottom pb-5 pt-2 mb-2 mt-5 {% if i.name == "signal" %}row{% endif %}">
       {% if i.name == "signal" %}
         <div class="col-4 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       {% endif %}

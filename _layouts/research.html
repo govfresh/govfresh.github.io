@@ -11,12 +11,17 @@ layout: research
     {% include jumbotron.html %}
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
           {% include toc.html html=content %}
         </div>
-        <div class="post col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div id="post">
+            <div class="alert alert-primary">
+              <p class="small text-body-secondary mb-0">Content created with Google NotebookLM and ChatGPT. Have feedback?
+                <a href="https://github.com/govfresh/govfresh.github.io/issues/new/choose">Submit an issue</a>
+                or
+                <a href="{{ site.baseurl }}/contact/">contact us</a>.</p>
+            </div>
             <articlebody>
               {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
             </articlebody>
@@ -25,18 +30,17 @@ layout: research
           {% include share.html %}
           {% include topics.html %}
         </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
       </div>
     </div>
   </article>
-  <aside>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          {% include previews.html show-only="true" %}
-        </div>
-      </div>
-    </div>
-  </aside>
 </main>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      {% include previews.html show-only="true" %}
+    </div>
+  </div>
+</div>
 {% include analytics.html %}
 {% include footer.html %}

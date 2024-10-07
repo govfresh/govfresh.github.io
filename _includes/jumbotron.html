@@ -260,12 +260,12 @@
       </div>
     </div>
   {% elsif page.layout == "home" %}
-    <div class="pt-5 pb-4 mb-2">
+    <div class="pt-4 pb-5 mb-2 border-bottom">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12">
             {% if page.description %}
-              <h1 class="display-5 mt-4 mb-4">{{ page.description }}</h1>
+              <h1 class="display-6 mt-4 mb-4 border-bottom pb-4">{{ page.description }}</h1>
             {% endif %}
             {% include social.html size="footer" %}
           </div>
@@ -273,35 +273,23 @@
       </div>
     </div>
   {% elsif page.layout == "research" %}
-    <div class="pt-5 pb-4 mb-2">
-      <div class="container-fluid">
+    <div class="pt-3 pb-4 mb-2">
+      <div class="container border-bottom pb-3">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-            {% if page.title %}
-              <h1 class="display-4 mb-4">{{ page.title }}</h1>
-            {% endif %}
-          </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
             {% if page.img-feat %}
               <figure>
                 <img
                   src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
                   alt="{{ page.img-alt }}"
-                  class="mb-3 drop-shadow">
+                  class="mb-3 drop-shadow border">
                 {% if page.img-caption %}
                   <figcaption>
                     <p class="small text-body-secondary">
                       <small>
                         {% if page.img-link %}
                           <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
-                        {% endif %}
-                        {{ page.img-caption }}
-                        {% if page.img-link %}
+                            {{ page.img-caption }}
                           </a>
                         {% endif %}
                       </small>
@@ -310,26 +298,51 @@
                 {% endif %}
               </figure>
             {% endif %}
-
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
-            {% if page.description %}
-              <p class="lead">{{ page.description }}</p>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            {% if page.title %}
+              <h1 class="display-6 mb-4">{{ page.title }}</h1>
+            {% endif %}
+            <!--
+              {% if page.description %}  <p class="lead">{{ page.description }}</p>{% endif %}
+            -->
+            {% if page.audio %}
+              <div class="border mt-4 mb-0 pt-2 px-3">
+                <h2 class="pb-0">Listen</h2>
+                <p class="pb-0 small text-body-secondary mb-0 pb-0">A podcast style overview created with Google NotebookLM.</p>
+                <script src="{{ site.baseurl }}/js/plyr.js"></script>
+                <audio id="player" controls>
+                  <source src="{{ site.baseurl }}/assets/audio/{{ page.audio }}" type="audio/wave">
+                </audio>
+                <script>
+                    const plyr = new Plyr('audio', {
+                        controls: [
+                            'play',
+                            'progress',
+                            'current-time',
+                            'duration',
+                            'mute',
+                            'volume'
+                        ]
+                    });
+                </script>
+              </div>
             {% endif %}
             {% if page.feedback %}
-              <div class="alert alert-info mt-5 pt-4">
+              <div class="alert alert-info mt-4 pt-4">
                 <span class="badge text-bg-success mb-3">In progress</span>
                 <p>
                   This is a work in progress and open for public feedback.
                 </p>
-                <p>
-                  <a href="{{ page.feedback-link }}" class="btn btn-primary btn-bd-primary btn-sm">Add your feedback</a>
-                </p>
+                {% if page.feedback-link %}
+                  <p>
+                    <a href="{{ page.feedback-link }}" class="btn btn-primary btn-bd-primary btn-sm">Add your feedback</a>
+                  </p>
+                {% endif %}
               </div>
             {% endif %}
-            {% include toc.html html=content %}
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
       </div>
     </div>
