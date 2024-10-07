@@ -20,7 +20,7 @@ category:
 feature: "true"
 ---
 
-After reading about the Google NotebookLM's new deep dive audio feature, I’m now using it to create my own personal podcast to help me learn more about government technology.
+After reading about Google NotebookLM's new deep dive audio feature, I’m now using it to create my own personal podcast to help me learn more about government technology.
 
 ## Background
 
