@@ -9,7 +9,7 @@ img-twitter: research-idea-act-feat.png
 img-alt: "Light bulb icon"
 img-caption: "Light bulb icon via Font Awesome"
 img-link: https://fontawesome.com/
-audio: idea-act.wav
+audio: idea-act.mp3
 category:
   - Culture
   - Digital

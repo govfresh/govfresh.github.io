@@ -9,7 +9,7 @@ img-twitter: research-fedramp-feat.png
 img-alt: "Cloud icon"
 img-caption: "Cloud icon via Font Awesome"
 img-link: https://fontawesome.com/
-audio: fedramp.wav
+audio: fedramp.mp3
 category:
   - Culture
   - Digital

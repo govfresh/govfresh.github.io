@@ -9,7 +9,7 @@ img-twitter: research-nist-csf-feat.png
 img-alt: "Shield icon"
 img-caption: "Shield icon via Font Awesome"
 img-link: https://fontawesome.com/
-audio: nist-csf.wav
+audio: nist-csf.mp3
 category:
   - Culture
   - Digital

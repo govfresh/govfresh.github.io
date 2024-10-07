@@ -9,7 +9,7 @@ img-twitter: research-zero-trust-feat.png
 img-alt: "Building shield icon"
 img-caption: "Building shield icon via Font Awesome"
 img-link: https://fontawesome.com/
-audio: zero-trust.wav
+audio: zero-trust.mp3
 category:
   - Culture
   - Digital

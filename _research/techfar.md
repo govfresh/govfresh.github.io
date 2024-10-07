@@ -9,7 +9,7 @@ img-twitter: research-techfar-feat.png
 img-alt: "Money check icon"
 img-caption: "Money check icon via Font Awesome"
 img-link: https://fontawesome.com/
-audio: techfar.wav
+audio: techfar.mp3
 category:
   - Culture
   - Digital
