@@ -1,5 +1,5 @@
 ---
-title: "Using AI to build my own personal government technology podcast"
+title: "Using AI to build a personal government technology podcast"
 date: 2024-10-07
 modified: 
 description: "I created podcast-like overviews of FedRAMP, NIST Cybersecurity Framework, TechFAR and Zero Trust with Google NotebookLM's deep dive feature."
