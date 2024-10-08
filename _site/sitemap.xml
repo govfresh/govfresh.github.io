@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/books/autocracy-inc</loc>
+<lastmod>2024-10-07T19:29:10-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/books/citizens</loc>
 <lastmod>2024-08-01T18:44:30-07:00</lastmod>
 </url>
@@ -3222,23 +3226,23 @@
 </url>
 <url>
 <loc>http://localhost:4000/research/idea-act-delivering-digital-first-public-experience</loc>
-<lastmod>2024-10-07T14:01:10-07:00</lastmod>
+<lastmod>2024-10-07T16:49:38-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/fedramp</loc>
-<lastmod>2024-10-07T14:01:10-07:00</lastmod>
+<lastmod>2024-10-07T16:49:38-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/nist-cybersecurity-framework</loc>
-<lastmod>2024-10-07T14:01:10-07:00</lastmod>
+<lastmod>2024-10-07T16:49:38-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/techfar</loc>
-<lastmod>2024-10-07T14:01:10-07:00</lastmod>
+<lastmod>2024-10-07T16:49:38-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/zero-trust</loc>
-<lastmod>2024-10-07T14:01:10-07:00</lastmod>
+<lastmod>2024-10-07T16:49:38-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thoughts/pedigree-public-interest-technology</loc>
@@ -3293,8 +3297,8 @@
 <lastmod>2024-08-19T17:54:46-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/thoughts/using-ai-to-build-government-technology-learning</loc>
-<lastmod>2024-10-07T15:41:53-07:00</lastmod>
+<loc>http://localhost:4000/thoughts/using-ai-to-build-government-technology-podcast</loc>
+<lastmod>2024-10-07T15:55:48-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/topics/ai</loc>
