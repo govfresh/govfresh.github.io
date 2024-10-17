@@ -1,11 +1,37 @@
-<a href="{{ site.baseurl }}{{ item.url }}">
-  <img
-    class="mb-4 drop-shadow"
-    src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
-    alt="{{ item.title }}">
-</a>
-{% if page.title %}
-  <h3 class="h4">
-    <a href="{{ site.baseurl }}{{ item.url }}" class="link-primary">{{ item.title }}</a>
-  </h3>
-{% endif %}
+{% for post in site.posts limit: 1 %}
+  <div class="container border-bottom pb-0 mt-5">
+    <div class="row">
+      <div class="col-4 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+        {% if post.title %}
+          <h2 class="mb-4 display-6">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary link-offset-3 link-underline-opacity-0">{{ post.title }}</a>
+          </h2>
+        {% endif %}
+        {% if post.description %}
+          <p class="lead">
+            {{ post.description }}
+          </p>
+        {% endif %}
+        {% if post.author %}
+          <p class="small text-body-secondary">
+            By
+            {{ post.author }}
+            {% if post.date %}
+              &middot;
+              {% include date.html %}
+            {% endif %}
+          </p>
+        {% endif %}
+        <a href="{{ site.baseurl }}subscribe/" class="btn btn-primary btn-bd-primary btn mt-3">Subscribe</a>
+      </div>
+      <div class="col-4 col-sm-12 col-md-6 col-lg-7 col-xl-7">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img
+            class="mb-4 drop-shadow border"
+            src="{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}"
+            alt="{{ post.title }}">
+        </a>
+      </div>
+    </div>
+  </div>
+{% endfor %}

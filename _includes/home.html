@@ -2,32 +2,18 @@
   {% assign first = site.order | first %}
   {% for i in site.order %}
     {% assign page = site.pages | where: "parent", i.name | first %}
-    <div class="preview {{ page.parent }} border-bottom pb-5 pt-2 mb-2 mt-5 {% if i.name == "signal" %}row{% endif %}">
-      {% if i.name == "signal" %}
-        <div class="col-4 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      {% endif %}
+    <div class="preview {{ page.parent }} border-bottom pb-5 pt-2 mb-2 mt-5">
       <h2>{{ page.title }}</h2>
       <p class="lead">{{ page.description }}</p>
-      {% if i.name == "signal" %}
-          <a href="{{ site.baseurl }}signal/" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
-        </div>
-      {% endif %}
       {% assign amount = 1 %}
-      {% if i.name == "signal" %}
-        {% assign card = "home-signal.html" %}
-        {% else %}
-        {% assign card = "card-" | append: i.name | append: ".html" %}
-      {% endif %}
+      {% assign card = "card-" | append: i.name | append: ".html" %}
       {% if i.site-name %}
         {% assign name = i.site-name %}
       {% else %}
         {% assign name = i.name %}
       {% endif %}
-      <div class="card-group {% if i.name == 'signal' %}col-8 col-sm-12 col-md-6 col-lg-8 col-xl-8{% endif %}">
+      <div class="card-group">
         {% assign items = site.[name] | reverse %}
-        {% if name == "signal" %}
-          {% assign items = site.posts %}
-        {% endif %}
         {% for item in items %}
           {% if amount < i.number %}
             {% include {{ card }} %} {% assign amount = amount | plus: 1 %}
@@ -39,9 +25,6 @@
       {% else %}
         {% assign permalink = page.parent %}
       {% endif %}
-      {% unless i.name == "signal" %}
-        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title}}</a>
-      {% endunless %}
     </div>
   {% endfor %}
 </div>

@@ -32,7 +32,7 @@
   {% elsif pull == "thoughts" %}
     <!-- Thoughts -->
     <!-- Thoughts secondary -->
-    <div class="card-group">
+    <div class="card-group grid">
       {% assign limit = site.thoughts-number | plus: 0 %}
       {% assign amount = 1 %}
       {% for item in site.thoughts reversed %}

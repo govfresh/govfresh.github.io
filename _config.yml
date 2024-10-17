@@ -201,9 +201,6 @@ order:
     name: dm
     number: *dm-number
   - 
-    name: signal
-    number: *signal-number
-  - 
     name: research
     number: *research-number
   - 
