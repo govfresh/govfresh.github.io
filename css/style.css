@@ -395,15 +395,28 @@ a.btn:hover, .social a:hover, .card:hover {
     transform: translatey(1px); */
 }
 
+.btn-primary, a.btn-primary, a.btn-primary:visited, a.btn-primary:active, .btn-primary:active {
+    background: var(--color-2);
+    border-radius: var(--size-1);
+    color: var(--color-1);
+    font-family: var(--font-3);
+    text-decoration: none;
+}
+
+a.btn-primary, a.btn-primary:visited {
+    border: 1px solid var(--bs-body-color);
+    box-shadow: 5px 5px 0 0 rgba(27, 27, 27, 1);
+}
+
 /* Tombstone */
 
-.tombstone {
+#post-tombstone {
     display: inline-block;
     width: 15px;
     /* Adjust the width as needed */
     height: 15px;
     /* Adjust the height as needed */
-    background-color: var(--bs-body-color);
+    background-color: var(--bs-text-color);
     /* Adjust the color as needed */
     margin-left: 10px;
     /* Adjust the margin as needed */

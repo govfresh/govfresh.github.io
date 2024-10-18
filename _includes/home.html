@@ -25,6 +25,9 @@
       {% else %}
         {% assign permalink = page.parent %}
       {% endif %}
+      {% unless i.name == "signal" %}
+        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
+      {% endunless %}
     </div>
   {% endfor %}
 </div>
