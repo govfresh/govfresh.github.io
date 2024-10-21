@@ -1,7 +1,7 @@
 ---
 name: Brief
 about: Brief template
-title: ''
+title: 'Brief: [TITLE]'
 labels: ''
 assignees: ''
 
