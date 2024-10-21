@@ -11,23 +11,10 @@ layout: dm
     {% include jumbotron.html %}
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
           {% assign i = 0 %}
           {% for item in page.name %}
-            <img
-              src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{% if page.group %}{{ page.img[i] }}{% else %}{{ page.img }}{% endif %}"
-              alt="{% if page.group %}{{ page.img-alt[i] }}{% else %}{{ page.img-alt }}{% endif %}"
-              type="{% if page.group %}{{ page.folder[i] }}{% else %} {{ page.folder }}{% endif %}"
-              class="rounded-circle lg mb-3">
-            {% if page.img-caption %}
-              <p class="img-caption">
-                {% if page.group %}
-                  {{ page.img-caption[i] }}
-                {% else %}
-                  {{ page.img-caption }}
-                {% endif %}
-              </p>
-            {% endif %}
+            {% include image.html %}
             <ul class="list-unstyled text-body-secondary">
               <li>
                 {% if page.group %}
@@ -54,7 +41,7 @@ layout: dm
             {% assign i = i | plus: 1 %}
           {% endfor %}
         </div>
-        <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
           {% if content contains 'id="new"' %}
             <div class="alert alert-primary" role="alert">
               <div class="new-dm">
@@ -68,11 +55,10 @@ layout: dm
           <div class="post post-dm">
             <articlebody>{{ content }}</articlebody>
           </div>
-          {% include share.html %}
           {% assign i = 0 %}
           {% for item in page.name %}
-            <div class="alert alert-info border-top pt-4 mt-4 mb-4">
-              <h2>Connect with
+            <div class="alert alert-info pt-2 pb-4 mt-3 mb-3">
+              <h2 class="h4 mb-0 pb-0">Connect with
                 {% if page.group %}
                   {{ page.shortname[i] }}
                 {% else %}
@@ -84,6 +70,8 @@ layout: dm
             </div>
             {% assign i = i | plus: 1 %}
           {% endfor %}
+          {% include feedback.html %}
+          {% include share.html %}
           {% include topics.html %}
         </div>
       </div>

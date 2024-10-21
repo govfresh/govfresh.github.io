@@ -44,7 +44,3 @@ Using source material from official government websites, PDFs and YouTube channe
 * There are slight glitches in the conversations, but very rarely.
 * Government acronyms aren’t always accurately pronounced.
 * The conversations actually makes government technology entertaining.
-
-## Feedback
-
-[Submit a GitHub issue](https://github.com/govfresh/govfresh.github.io/issues/new/choose) or [contact me](/contact) if you have feedback or suggestions for other episodes.

@@ -24,7 +24,7 @@ quote:
 category:
   - Cybersecurity
 author: Luke Fretwell
-feature: yes
+feature: 
 ---
 
 Understanding internet history is crucial for anyone who uses it. It helps us grasp the original intent and motives behind its creation, and how these impact our personal lives today and into the future.

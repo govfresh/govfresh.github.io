@@ -25,7 +25,7 @@ category:
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-citizens
-feature: yes
+feature: 
 ---
 
 No matter what your line of work is, we’re all selling something.

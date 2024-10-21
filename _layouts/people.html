@@ -15,7 +15,7 @@ layout: people
             src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
             alt="{{ page.img-alt }}"
             type="{{ page.folder }}"
-            class="rounded-circle lg mb-3" />
+            class="rounded-circle lg mb-3 drop-shadow border" />
         {% endif %}
         <ul class="list-unstyled text-body-secondary">
           {% if page.name %}
@@ -32,12 +32,11 @@ layout: people
           {% include social.html size = "small" %}
         </div>
       </div>
-      <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-        {{ content }}
-        <div class="mt-5 mb-5">
-          <h2>Connect with {{ page.shortname }}</h2>
-          {% include social.html size="small" %}
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="post">
+          {{ content }}
         </div>
+        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
       </div>
     </div>
   </div>

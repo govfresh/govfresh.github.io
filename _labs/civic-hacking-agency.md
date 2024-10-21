@@ -1,7 +1,7 @@
 ---
 title: "Civic Hacking Agency"
 shortname: "Civic Hacking Agency"
-description: "Bringing technologists together to design, code and learn a new way to experience civics."
+description: "A father-son civic hacking project."
 img-feat: civichackingagency-labs-feat.png
 img-og: civichacking-agency-labs-og.png
 img-twitter: civichackingagency-labs-twitter.png

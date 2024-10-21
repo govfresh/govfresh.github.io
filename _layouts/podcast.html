@@ -10,21 +10,15 @@ layout: podcast
   <div class="container">
     <div class="row border-top pt-5">
       <div class="col-12 col-md-3 col-lg-3 col-xl-3">
-        <figure class="image">
-          <img
-            src="{{ site.baseurl }}/assets/img/people/{{ page.feat-img }}"
-            alt="{{ page.feat-img-alt }}"
-            class="rounded-circle md">
-          <figcaption>
-            <p class="small text-body-secondary">{{ page.feat-img-alt }}</p>
-          </figcaption>
-        </figure>
+        {% include image.html %}
       </div>
-      <div class="post col-12 col-md-7 col-lg-7 col-xl-7">
-        <articlebody>
-        <h2>In this episode</h2>
-        {{ content }}
-        </articlebody>
+      <div class="col-12 col-md-7 col-lg-7 col-xl-7">
+        <div class="post">
+          <articlebody>
+            <h2>In this episode</h2>
+            {{ content }}
+          </articlebody>
+        </div>
         {% if page.short-name %}
           <h2>Connect with {{ page.short-name }}</h2>
         {% endif %}
@@ -70,13 +64,10 @@ layout: podcast
             </li>
           {% endif %}
         </ul>
-        <div class="">
+          {% include feedback.html %}
           {% include share.html %}
-          </div>
-          <div class="pt-5">
           {% include topics.html %}
           </div>
-        </div>
       </div>
       <div class="col-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>

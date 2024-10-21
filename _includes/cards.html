@@ -12,31 +12,29 @@
   {% if pull == "books" %}
     <!-- Books -->
     <!-- Books secondary -->
-    <div class="preview-include">
-      <div class="card-group">
-        {% assign limit = site.books-number | plus: 0 %}
-        {% assign amount = 1 %}
-        {% for x in site.books %}
-          {% assign item = x %}
-            {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-            {% include card-books.html level = "secondary" %}
-            {% assign amount = amount | plus: 1 %}
-          <!-- Books primary -->
-          {% elsif page.short != "true" and title != "Government. Fresh." %}
-            {% include card-books.html %}
-            {% assign amount = amount | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-      </div>
+    <div class="card-group mb-3">
+      {% assign limit = site.books-number | plus: 0 %}
+      {% assign amount = 1 %}
+      {% for x in site.books %}
+        {% assign item = x %}
+          {% if amount < limit and title != item.title and page.short == "true" or title == "Government. Fresh." and amount < limit and title != item.title %}
+          {% include card-books.html level = "secondary" %}
+          {% assign amount = amount | plus: 1 %}
+        <!-- Books primary -->
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+          {% include card-books.html %}
+          {% assign amount = amount | plus: 1 %}
+        {% endif %}
+      {% endfor %}
     </div>
   {% elsif pull == "thoughts" %}
     <!-- Thoughts -->
     <!-- Thoughts secondary -->
-    <div class="card-group grid">
+    <div class="card-group mb-3">
       {% assign limit = site.thoughts-number | plus: 0 %}
       {% assign amount = 1 %}
       {% for item in site.thoughts reversed %}
-        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
+        {% if amount < limit and title != item.title and page.short == "true" or title == "Government. Fresh." %}
           {% include card-thoughts.html level = "secondary" %}
           {% assign amount = amount | plus: 1 %}
         <!-- Thoughts primary -->
@@ -46,10 +44,27 @@
         {% endif %}
       {% endfor %}
     </div>
+  {% elsif pull == "brief" %}
+    <!-- brief -->
+    <!-- brief secondary -->
+    <div class="card-group mb-3">
+      {% assign limit = site.brief-number | plus: 0 %}
+      {% assign amount = 1 %}
+      {% for item in site.brief reversed %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
+          {% include card-brief.html level = "secondary" %}
+          {% assign amount = amount | plus: 1 %}
+        <!-- brief primary -->
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+          {% include card-brief.html %}
+          {% assign amount = amount | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
   {% elsif pull == "research" %}
     <!-- Research -->
     <!-- Research secondary -->
-    <div class="card-group">
+    <div class="card-group mb-3">
       {% assign limit = site.research-number | plus: 0 %}
       {% assign amount = 1 %}
       {% for item in site.research reversed %}
@@ -65,7 +80,7 @@
     </div>
   <!-- People -->
   {% elsif pull == "people" %}
-    <div class="card-group">
+    <div class="card-group mb-3">
       {% for item in site.people %}
         {% include card-people.html %}
       {% endfor %}
@@ -73,7 +88,7 @@
   {% elsif pull == "labs" %}
     <!-- Labs -->
     <!-- Labs secondary -->
-    <div class="card-group">
+    <div class="card-group mb-3">
       {% assign limit = site.labs-number | plus: 0 %}
       {% assign amount = 1 %}
       {% for item in site.labs %}
@@ -89,7 +104,7 @@
     </div>
   {% elsif pull == "dm" %}
     <!-- DM -->
-    <div class="card-group">
+    <div class="card-group mb-3">
       {% unless title == "Government. Fresh." or page.short == "true" %}
         {% assign limit = site.dm | size | plus: 2 %}
       {% else %}
@@ -106,7 +121,7 @@
   {% elsif pull == "podcast" %}
     <!-- Podcast -->
     <!-- Podcast secondary -->
-    <div class="card-group">
+    <div class="card-group mb-3">
       {% assign limit = site.podcast-number | plus: 0 %}
       {% assign amount = 1 %}
       {% for item in site.podcast reversed %}

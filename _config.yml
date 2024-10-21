@@ -1,7 +1,7 @@
 # General
 title: GovFresh
-tagline: "Design. Technology. Democracy."
-description: "Design. Technology. Democracy."
+tagline: "Design / Technology / Democracy"
+description: "Design / Technology / Democracy"
 url: https://govfresh.com
 
 # Social
@@ -42,7 +42,8 @@ date-format: "%B %d, %Y at %I:%M %P %Z"
 permalink: /404.html
 
 # Number limits
-books-number: 7
+brief-number: &brief-number 2
+books-number: &books-number 5
 dm-number: &dm-number 5
 labs-number: 4
 podcast-number: &podcast-number 4
@@ -60,7 +61,7 @@ defaults:
       img-path: "people"
       parent: "dm"
       layout: "dm"
-      short: "false"
+      short: "true"
       schematype: "Article"
   - scope:
       path: "_thoughts"
@@ -70,7 +71,7 @@ defaults:
       img-path: "posts"
       parent: "thoughts"
       layout: "thoughts"
-      short: "false"
+      short: "true"
       schematype: "NewsArticle"
   - scope:
       path: "_books"
@@ -80,7 +81,7 @@ defaults:
       img-path: "books"
       parent: "books"
       layout: "book"
-      short: "false"
+      short: "true"
       schematype: "Book"
   - scope:
       path: "_research"
@@ -90,7 +91,7 @@ defaults:
       img-path: "posts"
       parent: "research"
       layout: "research"
-      short: "false"
+      short: "true"
       schematype: "NewsArticle"
   - scope:
       path: "_people"
@@ -133,7 +134,7 @@ defaults:
       img-path: "posts"
       parent: "labs"
       layout: "profile"
-      short: "false"
+      short: "true"
   - scope:
       path: "_podcast"
       type: "podcast"
@@ -142,7 +143,7 @@ defaults:
       img-path: "people"
       parent: "podcast"
       layout: "podcast"
-      short: "false"
+      short: "true"
       schematype: "PodcastSeries"
   - scope:
       path: "_pages"
@@ -154,12 +155,25 @@ defaults:
       layout: "default"
       short: "false"
       schematype: "PodcastSeries"
+  - scope:
+      path: "_brief"
+      type: "brief"
+    values:
+      folder: "Brief"
+      img-path: "posts"
+      parent: "brief"
+      layout: "brief"
+      short: "true"
+      schematype: ""
 
 # Collections
 collections:
   thoughts:
     output: true
     permalink: /thoughts/:title
+  brief:
+    output: true
+    permalink: /brief/:title
   dm:
     output: true
     permalink: /dm/:title
@@ -189,7 +203,7 @@ collections:
     permalink: topics/:title
 
 # Pagination
-paginate: 12
+paginate: 100
 paginate_path: "/signal/:num"
 
 # Home page order
@@ -197,6 +211,9 @@ order:
   - 
     name: thoughts
     number: *thoughts-number
+  - 
+    name: brief
+    number: *brief-number
   - 
     name: dm
     number: *dm-number
@@ -206,6 +223,9 @@ order:
   - 
     name: podcast
     number: *podcast-number
+  - 
+    name: books
+    number: *books-number
    
 # Exclude
 exclude:

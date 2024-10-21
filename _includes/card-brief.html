@@ -1,8 +1,8 @@
 {% if include.level == "secondary" %}
-  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-stretch">
     <div class="card">
       <div class="row g-0">
-        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
           {% if item.img-feat %}
             <div class="float-start"><img
                 src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
@@ -11,7 +11,7 @@
             </div>
           {% endif %}
         </div>
-        <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+        <div class="col-12 col-sm-12 col-md-11 col-lg-11 col-xl-11">
           <div class="card-body">
             {% if item.title %}
               <h3 class="h4 mt-2">
@@ -32,10 +32,10 @@
     </div>
   </div>
 {% else %}
-  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-stretch">
     <div class="card">
       <div class="row g-0">
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
           {% if item.img-feat %}
             <div class="float-start"><img
                 src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
@@ -44,7 +44,7 @@
             </div>
           {% endif %}
         </div>
-        <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+        <div class="col-12 col-sm-12 col-md-11 col-lg-11 col-xl-11">
           <div class="card-body">
             {% if item.title %}
               <h3 class="h4 mt-2">

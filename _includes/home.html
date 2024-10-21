@@ -12,11 +12,19 @@
       {% else %}
         {% assign name = i.name %}
       {% endif %}
-      <div class="card-group">
+      <div class="card-group mb-3">
         {% assign items = site.[name] | reverse %}
         {% for item in items %}
           {% if amount < i.number %}
-            {% include {{ card }} %} {% assign amount = amount | plus: 1 %}
+            {% if name == "books" %}
+              {% if item.feature %}
+                {% include {{ card }} level="true" %}
+                {% assign amount = amount | plus: 1 %}
+              {% endif %}
+            {% else %}
+              {% include {{ card }} level="true" %}
+              {% assign amount = amount | plus: 1 %}
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>

@@ -19,6 +19,11 @@ podcast-description: Talking with the people at the intersection of design, tech
 podcast-link: /podcast/
 podcast-link-text: Podcast
 podcast-parent: podcast
+compress-title: Compress
+compress-description: Briefings for easier download.
+compress-link: /compress/
+compress-link-text: Compress
+compress-parent: compress
 category:
   - Government
   - Technology

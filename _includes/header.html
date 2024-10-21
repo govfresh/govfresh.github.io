@@ -3,7 +3,11 @@
 
 <head>
     <!-- Title -->
+    {% if page.layout == "home" %}
+        <title>{{ page.description }} - {{ site.title }}</title>
+    {% else %}
     <title>{{ page.title }} - {{ site.title }}</title>
+    {% endif %}
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">

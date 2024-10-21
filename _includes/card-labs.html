@@ -1,11 +1,11 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card mb-4">
+  <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
+    <div class="card">
       {% if item.img-feat %}
         <div class="card-img-top">
           <img
             alt="{{ item.img-alt }}"
-            class="xxl"
+            class="xl border-bottom"
             src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
         </div>
       {% endif %}
@@ -16,19 +16,19 @@
           </h3>
         {% endif %}
         {% if item.description %}
-          <p class="text-body-secondary">{{ item.description }}</p>
+          <p class="text-body-secondary small">{{ item.description }}</p>
         {% endif %}
       </div>
     </div>
   </div>
 {% else %}
-  <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card mb-4">
+  <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
+    <div class="card">
       {% if item.img-feat %}
         <div class="card-img-top">
           <img
             alt="{{ item.img-alt }}"
-            class="xxl"
+            class="xl border-bottom"
             src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
         </div>
       {% endif %}
@@ -39,7 +39,7 @@
           </h3>
         {% endif %}
         {% if item.description %}
-          <p class="text-body-secondary">{{ item.description }}</p>
+          <p class="text-body-secondary small">{{ item.description }}</p>
         {% endif %}
       </div>
     </div>

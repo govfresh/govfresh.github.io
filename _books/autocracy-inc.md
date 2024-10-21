@@ -26,7 +26,6 @@ category:
   - Culture
   - Cybersecurity
   - Data
-  - Open government
 author: 
 feature: yes
 ---

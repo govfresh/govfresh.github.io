@@ -1,9 +1,9 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-    <div class="card mb-3 p-3">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card p-3">
       {% if page.title %}
         <h3 class="h4">
-          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
         </h3>
       {% endif %}
       <p class="text-body-secondary small">
@@ -12,11 +12,11 @@
     </div>
   </div>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-    <div class="card mb-3 p-3">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card p-3">
       {% if page.title %}
         <h3 class="h4">
-          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
         </h3>
       {% endif %}
       <p class="text-body-secondary small">

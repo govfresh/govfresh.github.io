@@ -11,25 +11,22 @@ layout: radar
     {% include jumbotron.html %}
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          {% include subscribe.html %}
+          {% include author.html %}
           <div class="post">
-            {% include author.html %}
             <articlebody>
               <div class="post-signal">
                 {{ content }}
               </div>
             </articlebody>
-            {% if page.action-link %}
-              <h2>Contribute</h2>
-              <a href="{{ page.action-link }}" class="btn btn-primary btn-bd-primary mb-5">{{ page.action-text
-}}</a>
-            {% endif %}
-            {% include share.html %}
-            {% include topics.html %}
           </div>
+          {% include feedback.html %}
+          {% include share.html %}
+          {% include topics.html %}
         </div>
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
       </div>
     </div>
   </article>

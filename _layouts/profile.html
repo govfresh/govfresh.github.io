@@ -10,10 +10,10 @@ layout: profile
   {% assign thoughts = site.thoughts | where: "author", page.title %}
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-        <div class="post">
-          {{ content }}
-        </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        {% include image.html %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <div>
           {% if page.parent == "podcasts" %}
             <div class="listen">
@@ -22,14 +22,18 @@ layout: profile
             </div>
           {% endif %}
           {% if page.parent == "labs" %}
+            {% if page.description %}
+              <p class="lead">{{ page.description }}</p>
+            {% endif %}
             <p>
-              <a href="{{ page.website }}" class="btn btn-primary btn-bd-primary btn-lg mt-3 mb-4">
+              <a href="{{ page.website }}" class="btn btn-primary btn-bd-primary mb-3">
                 Visit project
               </a>
             </p>
           {% endif %}
-          {% if page.parent == "orgs" or page.parent == "signal" or page.parent == "gamechangers" or page.parent == "events" or page.parent == "team" or page.parent == "podcasts" or page.parent == "innovations" or page.parent == "labs" %}
-            <h2>Connect with {{ page.shortname }}</h2>
+          <div class="post">{{ content }}</div>
+          {% if page.parent == "signal" or page.parent == "team" or page.parent == "podcasts" or page.parent == "labs" %}
+            <h2 class="h2">Connect</h2>
             {% include social.html size="small" %}
           {% endif %}
           {% if page.parent == "books" %}
@@ -42,9 +46,7 @@ layout: profile
           {% endif %}
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-        {% include image.html %}
-      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
     </div>
   </div>
   <div class="container">
@@ -100,8 +102,7 @@ layout: profile
                     <div class="card-body">
                       <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
                       <h3 class="h4">
-                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title
-}}</a>
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
                       </h3>
                       <p>
                         <small>{{ item.date | date: "%B %-d, %Y" }}</small>

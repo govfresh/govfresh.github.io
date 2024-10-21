@@ -12,7 +12,7 @@ amazon: https://www.amazon.com/gp/product/9063695438/ref=as_li_tl?ie=UTF8&tag=go
 review-link: 
 category:
   - Design
-feature: yes
+feature: 
 ---
 
 From the publisher:

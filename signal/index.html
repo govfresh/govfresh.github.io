@@ -21,7 +21,7 @@ parent: signal
           </li>
         {% else %}
           <li class="page-item disabled">
-            <span class="page-link">Previous</span>
+            <a class="page-link">Previous</a>
           </li>
         {% endif %}
         {% for page in (1..paginator.total_pages) %}

@@ -31,7 +31,7 @@ category:
   - Design
   - Digital
 author: 
-feature: yes
+feature: 
 ---
 
 A playbook helping local governments build people-centered digital public services.
