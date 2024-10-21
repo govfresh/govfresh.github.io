@@ -1,7 +1,7 @@
 ---
-name: 'Book: ''TITLE'''
+name: Book
 about: Add book to book club
-title: Book
+title: 'Book: ''[TITLE'''
 labels: ''
 assignees: ''
 
