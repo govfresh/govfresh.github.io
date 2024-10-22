@@ -14,7 +14,7 @@ category:
   - Cybersecurity
 ---
 
-*(Disclosure: ScanGov is a project I maintain with my son.)*
+*(Disclosure: [ScanGov](https://scangov.org) is a project I maintain with my son.)*
 
 
 ScanGov [released](https://docs.scangov.org/blog/new-gov-website-security-grades-scores) a new indicator that assesses how federal and state government websites fare on basic cybersecurity practices.
