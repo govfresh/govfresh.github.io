@@ -29,20 +29,14 @@ layout: book
           <div class="post">
             {{ content }}
           </div>
+          {% include feedback.html %}
+          {% include share.html %}
+          {% include topics.html %}
           {% if page.author %}
             </div>
           {% endif %}
           <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"></div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          {% include feedback.html %}
-          {% include share.html %}
-          {% include topics.html %}
-        </div>
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
       </div>
     </div>
   </article>

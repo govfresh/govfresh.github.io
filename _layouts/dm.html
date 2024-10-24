@@ -55,21 +55,7 @@ layout: dm
           <div class="post post-dm">
             <articlebody>{{ content }}</articlebody>
           </div>
-          {% assign i = 0 %}
-          {% for item in page.name %}
-            <div class="alert alert-info pt-2 pb-4 mt-3 mb-3">
-              <h2 class="h4 mb-0 pb-0">Connect with
-                {% if page.group %}
-                  {{ page.shortname[i] }}
-                {% else %}
-                  {{ page.shortname }}
-                {% endif %}
-              </h2>
-              {% assign author_data = page.contact[i] %}
-              {% include social.html size = "small" %}
-            </div>
-            {% assign i = i | plus: 1 %}
-          {% endfor %}
+          {% include connect-with.html %}
           {% include feedback.html %}
           {% include share.html %}
           {% include topics.html %}

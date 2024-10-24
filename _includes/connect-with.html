@@ -1,0 +1,63 @@
+<div class="alert alert-info pt-2 pb-4 mt-3 mb-3">
+    {% if page.layout == "dm" %}
+        {% assign i = 0 %}
+        {% for item in page.name %}
+            <h2 class="h4 mb-0 pb-0">Connect with
+            {% if page.group %}
+                {{ page.shortname[i] }}
+            {% else %}
+                {{ page.shortname }}
+            {% endif %}
+            </h2>
+            {% assign author_data = page.contact[i] %}
+            {% include social.html size = "small" %}
+        {% assign i = i | plus: 1 %}
+        {% endfor %}
+    {% else %}
+        {% if page.short-name %}
+            <h2 class="h4 mb-0 pb-0">Connect with {{ page.short-name }}</h2>
+        {% endif %}
+        <ul class="list-inline mb-5 mt-3">
+            {% if page.website %}
+            <li class="list-inline-item">
+                <a
+                href="{{ page.website }}"
+                aria-label="Website"
+                class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+                <i class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i>
+            </a>
+            </li>
+            {% endif %}
+            {% if page.email %}
+            <li class="list-inline-item">
+                <a
+                aria-label="Email"
+                href="mailto:{{ page.email }}"
+                class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+                <i class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
+            </a>
+            {% endif %}
+            </li>
+            {% if page.linkedin %}
+            <li class="list-inline-item">
+                <a
+                href="{{ page.linkedin }}"
+                aria-label="LinkedIn"
+                class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+                <i class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i>
+            </a>
+            </li>
+            {% endif %}
+            {% if page.twitter %}
+                <li class="list-inline-item">
+                    <a
+                    href="{{ page.twitter }}"
+                    aria-label="Twitter"
+                    class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+                    <i class="{{ site.data.connect.twitter }} {{ site.data.connect.sm }}"></i>
+                </a>
+                </li>
+            {% endif %}
+            </ul>
+    {% endif %}
+</div>
