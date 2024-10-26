@@ -29,6 +29,7 @@ amazon:
 calendar: 
 rss: 
 category:
+  - Artificial intelligence
   - Civic hacking
   - Community
   - Culture
@@ -36,10 +37,12 @@ category:
   - Data
   - Design
   - Digital
-  - Inclusion
   - Innovation
-  - Open
-  - Privacy
+  - Open government
+  - Open innovation
+  - Open source software
 feature: 
+contributors:
+  - 
 ---
 

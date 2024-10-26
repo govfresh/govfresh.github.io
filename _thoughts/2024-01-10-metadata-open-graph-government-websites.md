@@ -15,6 +15,8 @@ category:
   - Design
   - Digital
 feature: "true"
+contributors:
+  - Elias Fretwell
 ---
 
 I’ve engaged with a significant number of federal, state and local government websites in various ways and am still surprised that many fail to meet basic web metadata best practices.

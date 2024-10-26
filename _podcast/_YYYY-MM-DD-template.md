@@ -4,10 +4,18 @@ description: ""
 excerpt: ""
 date: YYYY-MM-DD
 category:
-  -  Civic hacking
-  -  Community
-  -  Culture
-  -  Data
+  - Artificial intelligence
+  - Civic hacking
+  - Community
+  - Culture
+  - Cybersecurity
+  - Data
+  - Design
+  - Digital
+  - Innovation
+  - Open government
+  - Open innovation
+  - Open source software
 author: GovFresh
 season: 
 number: 
@@ -22,7 +30,9 @@ email:
 website: 
 twitter: 
 linkedin: 
-mastadon: 
+mastodon: 
+contributors:
+  - 
 ---
 
 ## In the episode

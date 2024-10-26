@@ -1,15 +1,15 @@
 ---
 title: ""
 date: YYYY-MM-DD
-modified: 
 description: ""
-author: Luke Fretwell
+author: GovFresh
 img-feat: -feat.png
-img-og: -og.png
-img-twitter: -twitter.png
+img-og: -feat.png
+img-twitter: -feat.png
 img-alt: " icon"
-img-caption: " icon via Font Awesome"
-img-link: https://fontawesome.com/
+img-caption: " icon via OpenMoji"
+img-link: https://openmoji.org/
+audio: .mp3
 category:
   - Artificial intelligence
   - Civic hacking
@@ -24,6 +24,9 @@ category:
   - Open innovation
   - Open source software
 feature: "true"
+feedback: #true
+feedback-link: 
+launched: #true
 contributors:
   - 
 ---

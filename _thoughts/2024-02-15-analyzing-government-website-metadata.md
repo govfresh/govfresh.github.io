@@ -16,6 +16,8 @@ category:
   - Design
   - Digital
 feature: "true"
+contributors:
+  - Elias Fretwell
 ---
 
 

@@ -19,8 +19,11 @@ category:
   - Data
   - Design
   - Digital
+  - Innovation
   - Open government
   - Open innovation
   - Open source software
+contributors:
+  - 
 ---
 
