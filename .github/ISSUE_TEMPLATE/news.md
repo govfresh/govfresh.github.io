@@ -1,6 +1,6 @@
 ---
 name: News
-about: News post template
+about: Add a new news post
 title: 'Post: [TITLE]'
 labels: ''
 assignees: ''

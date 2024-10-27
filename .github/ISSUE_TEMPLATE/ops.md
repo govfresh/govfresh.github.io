@@ -1,6 +1,6 @@
 ---
 name: Ops
-about: Operations issue template
+about: Submit a new operations issue
 title: ''
 labels: ops
 assignees: ''

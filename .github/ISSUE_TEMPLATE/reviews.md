@@ -1,6 +1,6 @@
 ---
 name: Reviews
-about: Reviews issue template
+about: Add a new book review
 title: 'Review: [TITLE]'
 labels: reviews
 assignees: ''

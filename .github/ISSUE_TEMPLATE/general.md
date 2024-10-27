@@ -1,6 +1,6 @@
 ---
 name: General
-about: General suggestions
+about: Submit general issue
 title: ''
 labels: general
 assignees: ''

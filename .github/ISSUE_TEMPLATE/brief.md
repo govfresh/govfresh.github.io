@@ -1,6 +1,6 @@
 ---
 name: Brief
-about: Brief template
+about: Add a new brief
 title: 'Brief: [TITLE]'
 labels: ''
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: Signal
-about: Signal issue template
+about: Add a new Signal issue
 title: Signal YYYY.MM.DD
 labels: ''
 assignees: ''

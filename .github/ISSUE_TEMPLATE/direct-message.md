@@ -1,6 +1,6 @@
 ---
 name: Direct message
-about: DM issue template
+about: Add a new DM
 title: 'DM: '
 labels: dm
 assignees: ''

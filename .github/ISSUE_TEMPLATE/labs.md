@@ -1,6 +1,6 @@
 ---
 name: Labs
-about: Labs issue template
+about: Add a new labs project
 title: 'Labs: [TITLE]'
 labels: labs
 assignees: lukefretwell

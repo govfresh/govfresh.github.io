@@ -1,6 +1,6 @@
 ---
 name: Book
-about: Add book to book club
+about: Add a book to book club
 title: 'Book: ''[TITLE'''
 labels: ''
 assignees: ''

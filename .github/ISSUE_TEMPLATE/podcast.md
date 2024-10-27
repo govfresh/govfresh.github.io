@@ -1,6 +1,6 @@
 ---
 name: Podcast
-about: Podcast issue template
+about: Add a new podcast episode
 title: 'Podcast: [TITLE]'
 labels: podcast
 assignees: ''

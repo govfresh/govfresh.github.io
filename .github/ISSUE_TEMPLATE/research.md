@@ -1,6 +1,6 @@
 ---
 name: Research
-about: Research
+about: Add a new research page
 title: 'Research: '
 labels: research
 assignees: ''

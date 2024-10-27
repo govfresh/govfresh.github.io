@@ -1,7 +1,7 @@
 ---
 name: Thoughts
-about: Thoughts issue template
-title: 'Thoughts: '
+about: Add a new thoughts post
+title: 'Thoughts: [TITLE]'
 labels: thoughts
 assignees: ''
 
