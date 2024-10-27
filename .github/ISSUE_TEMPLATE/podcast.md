@@ -34,9 +34,14 @@ assignees: ''
 
 ## Promote
 
+## Promote
+
 - [ ] Send follow-up to guests (in email templates)
-- [ ] [LinkedIn](https://linkedin.com/company/govfresh)
-- [ ] [Twitter](https://twitter.com/govfresh)
-- [ ] [Newsletter](https://govfresh.substack.com/)
-- [ ] [Facebook](https://facebook.com/govfresh)
-- [ ] [Instagram](https://instagram.com/govfresh)
+- [ ] [Substack](https://govfresh.substack.com/)
+- [ ] [LinkedIn](https://www.linkedin.com/company/govfresh)
+- [ ] [X](https://www.x.com/govfresh)
+- [ ] [Tumblr](https://govfresh.tumblr.com/)
+- [ ] [Facebook](https://www.facebook.com/govfresh)
+- [ ] [Instagram](https://www.instagram.com/govfresh)
+- [ ] [Mastodon](https://mastodon.social/@govfresh)
+- [ ] [Bluesky](https://bsky.app/profile/govfresh.bsky.social)
