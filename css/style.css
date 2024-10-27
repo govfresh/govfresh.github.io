@@ -1,11 +1,6 @@
 /* Fonts */
 
 @font-face {
-    font-family: "PT Serif";
-    src: url("/assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "Public Sans Italic";
     src: url("/assets/fonts/public-sans/PublicSans-Italic.ttf") format("truetype");
 }
@@ -31,46 +26,6 @@
 }
 
 @font-face {
-    font-family: "Fira Sans Italic";
-    src: url("/assets/fonts/fira-sans/FiraSans-Italic.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Fira Sans Regular";
-    src: url("/assets/fonts/fira-sans/FiraSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Fira Sans Bold Italic";
-    src: url("/assets/fonts/fira-sans/FiraSans-bold-italic.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Fira Sans Bold";
-    src: url("/assets/fonts/fira-sans/FiraSans-Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Fira Mono Medium";
-    src: url("/assets/fonts/fira-mono/FiraMono-Medium.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Fira Mono Bold";
-    src: url("/assets/fonts/fira-mono/FiraMono-Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Mona Sans Regular";
-    src: url("/assets/fonts/mona-sans/MonaSans-Regular.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Mona Sans Bold";
-    src: url("/assets/fonts/mona-sans/MonaSans-Bold.woff2") format("woff2");
-}
-
-@font-face {
     font-family: "Roboto Mono Regular";
     src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.ttf") format("truetype");
 }
@@ -78,6 +33,11 @@
 @font-face {
     font-family: "Roboto Mono Bold";
     src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url("/assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
 }
 
 /* Light mode */
@@ -414,20 +374,6 @@ a.btn-primary, a.btn-primary:visited {
     transform: translateY(1px);
 }
 
-/* Tombstone */
-
-#post-tombstone {
-    display: inline-block;
-    width: 15px;
-    /* Adjust the width as needed */
-    height: 15px;
-    /* Adjust the height as needed */
-    background-color: var(--bs-text-color);
-    /* Adjust the color as needed */
-    margin-left: 10px;
-    /* Adjust the margin as needed */
-}
-
 /* Monospace */
 
 .text-body-secondary, .lead, a.nav-link, a.nav-link:active, a.nav-link:visited, a.nav-link:hover, .breadcrumb-item a, .breadcrumb-item a:visited, .list-inline-item a, .list-inline-item a:visited, .badge, .btn, .post-dm h2 {
@@ -552,45 +498,51 @@ img.xl {
     width: 20rem;
 }
 
-a[href$=".doc"], a[href$=".docx"], a[href$=".ppt"], a[href$=".pptx"], a[href$=".xls"], a[href$=".xlsx"], a[href$=".pdf"], a[href$=".mp3"], a[href$=".mp4"], a[href$=".avi"], a[href$=".mpg"], a[href$=".mpeg"], a[href$=".mov"], a[href$=".wmv"], a[href$=".mkv"], a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"] {
+a[href$=".doc"]::after, a[href$=".docx"]::after, a[href$=".ppt"]::after, a[href$=".pptx"]::after, a[href$=".xls"]::after, a[href$=".xlsx"]::after, a[href$=".pdf"]::after, a[href$=".mp3"]::after, a[href$=".mp4"]::after, a[href$=".avi"]::after, a[href$=".mpg"]::after, a[href$=".mpeg"]::after, a[href$=".mov"]::after, a[href$=".wmv"]::after, a[href$=".mkv"]::after, a[href$=".jpg"]::after, a[href$=".jpeg"]::after, a[href$=".png"]::after, a[href$=".gif"]::after {
+    /*
     background-position: 100% 50%;
     background-repeat: no-repeat;
     padding-right: var(--size-8);
+    */
+    content: "";
+    padding-left: calc(var(--size-8) - 2px);
+    background-color: var(--bs-body-color);
+    margin-left: 0.5rem;
 }
 
 /* Doc */
-a[href$=".doc"], a[href$=".docx"] {
-    background-image: url(/assets/font-awesome/svgs/solid/file-word.svg);
+a[href$=".doc"]::after, a[href$=".docx"]::after {
+    mask-image: url(/assets/font-awesome/svgs/solid/file-word.svg);
 }
 
 /* Powerpoint */
-a[href$=".ppt"], a[href$=".pptx"] {
-    background-image: url(/assets/font-awesome/svgs/solid/file-powerpoint.svg);
+a[href$=".ppt"]::after, a[href$=".pptx"]::after {
+    mask-image: url(/assets/font-awesome/svgs/solid/file-powerpoint.svg);
 }
 
 /* Excel */
-a[href$=".xls"], a[href$=".xlsx"] {
-    background-image: url(/assets/font-awesome/svgs/solid/file-excel.svg);
+a[href$=".xls"]::after, a[href$=".xlsx"]::after {
+    mask-image: url(/assets/font-awesome/svgs/solid/file-excel.svg);
 }
 
 /* PDF */
-a[href$=".pdf"] {
-    background-image: url(/assets/font-awesome/svgs/solid/file-pdf.svg);
+a[href$=".pdf"]::after {
+    mask-image: url(/assets/font-awesome/svgs/solid/file-pdf.svg);
 }
 
 /* MP3 */
-a[href$=".mp3"] {
-    background-image: url(/assets/font-awesome/svgs/solid/file-audio.svg);
+a[href$=".mp3"]::after {
+    mask-image: url(/assets/font-awesome/svgs/solid/file-audio.svg);
 }
 
 /* MP4 */
-a[href$=".mp4"] {
-    background-image: url(/assets/font-awesome/svgs/solid/file-video.svg);
+a[href$=".mp4"]::after {
+    mask-image: url(/assets/font-awesome/svgs/solid/file-video.svg);
 }
 
 /* Image */
-a[href$=".png"], a[href$=".jpg"] {
-    background-image: url(/assets/font-awesome/svgs/solid/file-image.svg);
+a[href$=".png"]::after, a[href$=".jpg"]::after {
+    mask-image: url(/assets/font-awesome/svgs/solid/file-image.svg);
 }
 
 /* Cards */

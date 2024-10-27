@@ -5,10 +5,3 @@
 {% elsif page %}
   {{ page.date | date: site.date }}
 {% endif %}
-{% if item.modified %}
-  (Updated: {{ item.modified | date: site.date }})
-{% elsif page.modified %}
-  (Updated: {{ page.modified | date: site.date }})
-{% elsif post.modified %}
-  (Updated: {{ post.modified | date: site.date }})
-{% endif %}

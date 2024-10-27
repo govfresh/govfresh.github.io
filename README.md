@@ -1,36 +1,15 @@
 # GovFresh
 
-## About
+Design / Technology / Democracy
 
-Public service with and by the people. GovFresh features the people and innovations changing how democracy works.
-
-Website: [govfresh.com](https://govfresh.com)
-
-## Connect
-
-* [Newsletter](https://govfresh.com/subscribe/)
-* [Social media](https://govfresh.com/connect/)
+* [Website](https://govfresh.com)
+* [Subscribe](https://govfresh.com/subscribe/)
+* [Connect](https://govfresh.com/connect/)
+* [Project board](https://github.com/orgs/govfresh/projects/2/views/1)
+* [Code of conduct](https://govfresh.com/conduct/)
+* [License](https://govfresh.com/license/)
+8 [Submit an issue](https://github.com/govfresh/govfresh.github.io/issues/new/choose)
 
 ## Maintainers
 
-* [Luke Fretwell](https://govfresh.com/people/lukefretwell)
-
-## Roadmap
-
-[Project board](https://github.com/govfresh/govfresh.github.io/projects/1)
-
-## Code of conduct
-
-[GovFresh code of conduct](https://govfresh.com/conduct/)
-
-## License
-
-TBD
-
-## Support
-
-[Submit an issue](https://github.com/govfresh/govfresh.github.io/issues/new/choose)
-
-## Contact
-
-Email: <contact@govfresh.com>
+* [Luke Fretwell](https://github.com/lukefretwell)

@@ -11,6 +11,7 @@
             {% if page.description %}
               <p class="lead">{{ page.description }}</p>
             {% endif %}
+            {% include read-time.html %}
             {% include image.html %}
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
@@ -18,7 +19,7 @@
       </div>
     </div>
   {% elsif page.layout == "news" %}
-    <div class="pt-3 pb-4 mb-2">
+    <div class="pt-3">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
@@ -29,6 +30,7 @@
             {% if page.description %}
               <p class="lead">{{ page.description }}</p>
             {% endif %}
+            {% include read-time.html %}
           </div>
           <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
         </div>
@@ -166,16 +168,9 @@
             {% if page.description %}
               <p class="lead mb-4">{{ page.description }}</p>
             {% endif %}
-            <div id="read-time">
-              {% assign words = content | split: ' ' %}
-              {% assign minutes = words.size | divided_by: 300.0 %}
-              <p class="small text-body-secondary border-bottom pb-5 mb-5">
-                <small>
-                  <i class="fa-regular fa-clock"></i>
-                  Estimated read time: {{ minutes | round }} minutes</small>
-              </p>
-            </div>
+            {% include read-time.html %}
             {% include author.html %}
+            {% include modified.html %}
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
@@ -206,7 +201,7 @@
             {% if page.description %}
               <p class="lead">{{ page.description }}</p>
             {% endif %}
-            {% include author.html %}
+            {% include read-time.html %}
             {% if page.feedback %}
               <div class="alert alert-info mt-4 pt-4">
                 <span class="badge text-bg-success mb-3">In progress</span>
@@ -368,6 +363,7 @@
               <p class="lead">{{ page.description }}</p>
             {% endif %}
             {% include author.html %}
+            {% include modified.html %}
           </div>
         </div>
       </div>

@@ -19,18 +19,3 @@
     if (theme === 'light')
       document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;
 </script>
-
-<script>
-    const postElement = document.getElementById('post-tombstone');
-    const tombstone = document.createElement('span');
-    tombstone.className = 'tombstone';
-
-    const paragraphs = postElement.getElementsByTagName('p');
-    const lastParagraph = paragraphs[paragraphs.length - 1];
-
-    if (lastParagraph) {
-        lastParagraph.appendChild(tombstone);
-    } else {
-        postElement.appendChild(tombstone);
-    }
-</script>

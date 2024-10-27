@@ -8,10 +8,12 @@ img-feat: scangov-security.png
 img-og: scangov-security.png
 img-twitter: scangov-security.png
 img-alt: "Screenshot of web page showing security scores for government websites"
-img-caption: 
+img-caption: "Screenshot of ScanGov web page showing security grades and scores for government websites."
 img-link: 
 category:
+  - Civic hacking
   - Cybersecurity
+  - Digital
 ---
 
 *(Disclosure: [ScanGov](https://scangov.org) is a project I maintain with my son.)*
