@@ -23,8 +23,12 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-paginate"
-  gem "jekyll-last-modified-at"
   gem "jekyll-redirect-from"
+  gem 'logger'
+  gem 'csv'
+  gem 'ostruct'
+  gem 'base64'
+  gem 'bigdecimal'
 end
 
 # Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data gem
@@ -37,4 +41,4 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", platforms: [:mingw, :x64_mingw, :mswin]
 
-gem "webrick", "~> 1.7"
+gem "webrick"
