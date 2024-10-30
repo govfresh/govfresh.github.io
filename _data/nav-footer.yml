@@ -45,6 +45,12 @@ docs:
  - title: DM
    url: /dm/
 
+ - title: Brief
+   url: /brief/
+
+# - title: Demos
+#   url: /demos/
+
  - title: Podcast
    url: /podcast
 

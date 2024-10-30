@@ -329,7 +329,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
     padding-top: 1rem
 }
 
-.post p, .post ul, articlebody p, articlebody ul {
+/*.post articlebody p, .post articlebody ul */
+
+.post p, .post ul {
     font-family: "PT Serif", serif !important;
     margin-bottom: 1.5rem;
 }
@@ -399,7 +401,6 @@ a.btn-primary, a.btn-primary:visited {
 }
 
 #read-time-bar {
-    /* Change height or background-color if you want */
     height: 0.5rem;
     background-color: var(--bs-secondary-bg);
     width: 0;

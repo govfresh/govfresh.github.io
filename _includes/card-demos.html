@@ -1,0 +1,65 @@
+{% if include.level == "secondary" %}
+  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card">
+      {% if item.img-feat %}
+        <div class="card-img-top">
+          <img
+            alt="{{ item.img-alt }}"
+            class="xxl border-bottom"
+            src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+        </div>
+      {% endif %}
+      <div class="card-body">
+        {% if item.title %}
+          <h3 class="h4">
+            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+              {{ item.title }}
+            </a>
+          </h3>
+        {% endif %}
+        {% if item.description %}
+          <p class="text-body-secondary small">
+            {{ item.description }}
+          </p>
+        {% endif %}
+      </div>
+      <p class="text-body-secondary">
+        <small>Watch
+          <i class="fa-solid fa-circle-play"></i>
+        </small>
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card">
+      {% if item.img-feat %}
+        <div class="card-img-top">
+          <img
+            alt="{{ item.img-alt }}"
+            class="xxl border-bottom"
+            src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+        </div>
+      {% endif %}
+      <div class="card-body">
+        {% if item.title %}
+          <h3 class="h4">
+            <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+              {{ item.title }}
+            </a>
+          </h3>
+        {% endif %}
+        {% if item.description %}
+          <p class="text-body-secondary small">
+            {{ item.description }}
+          </p>
+        {% endif %}
+      </div>
+      <div class="card-footer text-body-secondary text-end">
+        <small>Watch
+          <i class="fa-solid fa-circle-play"></i>
+        </small>
+      </div>
+    </div>
+  </div>
+{% endif %}

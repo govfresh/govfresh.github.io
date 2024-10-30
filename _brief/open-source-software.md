@@ -187,7 +187,7 @@ As OSS value becomes more obvious to government work, the public sector will fol
 
 **What’s an OSPO?** It’s “responsible for managing and coordinating an organization's open source activities,” says a Linux Foundation [deep dive](https://www.linuxfoundation.org/research/a-deep-dive-into-open-source-program-offices).
 
-**Inaugural gov OSPO:** The Centers for Medicare and Medicaid Services may be [government’s first OSPO](https://github.com/DSACMS/ospo-guide). CMS works in the open on [GitHub](http://GitHub) (note its [OSPO maturity model](https://github.com/dsacms/repo-scaffolder/blob/main/maturity-model-tiers.md)).
+**Inaugural gov OSPO:** The Centers for Medicare and Medicaid Services may be [government’s first OSPO](https://cms.gov/digital-service/open-source-program-office). CMS works in the open on [GitHub](http://github.com/DSACMS) (note its [OSPO maturity model](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md)).
 
 **Its purpose:** “Establish and maintain guidance, policies, practices, and talent pipelines that advance equity, build trust, and amplify impact across CMS, HHS, and Federal Open Source Ecosystems by working and sharing openly.”
 

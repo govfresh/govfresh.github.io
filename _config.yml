@@ -49,9 +49,20 @@ podcast-number: &podcast-number 4
 research-number: &research-number 5
 thoughts-number: &thoughts-number 5
 signal-number: &signal-number 2
+demos-number: &demos-number 3
 
 # Defaults
 defaults:
+  - scope:
+      path: "_demos"
+      type: "demos"
+    values:
+      folder: "Demos"
+      img-path: "posts"
+      parent: "demos"
+      layout: "demos"
+      short: "true"
+      schematype: "VideoObject"
   - scope:
       path: "_dm"
       type: "dm"
@@ -173,6 +184,9 @@ collections:
   brief:
     output: true
     permalink: /brief/:title
+  demos:
+    output: true
+    permalink: /demos/:title
   dm:
     output: true
     permalink: /dm/:title
@@ -216,6 +230,9 @@ order:
   - 
     name: dm
     number: *dm-number
+#  - 
+#    name: demos
+#    number: *demos-number
   - 
     name: research
     number: *research-number
