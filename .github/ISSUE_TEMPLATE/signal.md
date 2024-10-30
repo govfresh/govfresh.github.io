@@ -13,6 +13,7 @@ assignees: ''
 - [ ] Publish to GovFresh
 - [ ] Publish to Substack
 
+## Promote
 - [ ] [Substack](https://govfresh.substack.com/)
 - [ ] [LinkedIn](https://www.linkedin.com/company/govfresh)
 - [ ] [X](https://www.x.com/govfresh)
