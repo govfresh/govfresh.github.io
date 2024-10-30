@@ -5,8 +5,6 @@ description: As we close out the year, I wanted to reflect on a few things to pu
 author: GovFresh
 ---
 
-[caption id="attachment_16239" align="alignnone" width="700"] Oakland (Photo: Luke Fretwell)[/caption]
-
 As we close out the year, I wanted to reflect on a few things to put our work in perspective and also to lay out the vision for where we want to go in the new year. 2013 was a great year for civic innovation in Oakland. It was a great year for the growing movement to open up government and to build towards a future where our local government is truly by the people, for the people and of the people in the 21st century. But we still have much to do and much to learn. I’m excited about both of those realities.
 
 <a href="http://openoakland.org">OpenOakland</a> was created to fulfill two main goals - to provide a backbone level of support for civic innovation in Oakland, and to support our local government in being more open, more agile and more engaged. Both Eddie Tejeda and I believe that the approach taken by Code for America is perhaps the strongest, smartest way to achieve truly open government in the USA, and we’re proud to be part of a national movement to transform how government works and is how we as citizens and residents interact with government.

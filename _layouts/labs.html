@@ -1,0 +1,41 @@
+---
+layout: labs
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+  {% include jumbotron.html %}
+  {% assign thoughts = site.thoughts | where: "author", page.title %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        {% include image.html %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div>
+          {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+          {% endif %}
+          <p>
+            <a href="{{ page.website }}" class="btn btn-primary btn-bd-primary mb-3">
+              Visit project
+            </a>
+          </p>
+          <div class="post">{{ content }}</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
+      </div>
+    </div>
+  </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

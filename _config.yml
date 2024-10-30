@@ -132,7 +132,7 @@ defaults:
       folder: "Labs"
       img-path: "posts"
       parent: "labs"
-      layout: "profile"
+      layout: "labs"
       short: "true"
   - scope:
       path: "_podcast"
