@@ -74,6 +74,9 @@ docs:
  - title: Disclosure
    url: /disclosure/
 
+ - title: Security
+   url: /security/
+
  - title: Privacy
    url: /privacy/
 

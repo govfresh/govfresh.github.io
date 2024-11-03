@@ -5,4 +5,4 @@ description: Get in touch with GovFresh.
 permalink: /contact/
 ---
 
-* Email: <contact@govfresh.com>
+[Contact us.](https://forms.gle/gm8REnxgwXUjsWWq7)
