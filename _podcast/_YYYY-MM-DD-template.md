@@ -4,6 +4,7 @@ description: ""
 excerpt: ""
 date: YYYY-MM-DD
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community

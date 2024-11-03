@@ -2,7 +2,7 @@
 title: "Open source software"
 date: 2024-10-21
 description: "A brief-ish explanation of open source software."
-author: GovFresh
+author: Luke Fretwell
 img-feat: compress-oss-feat.png
 img-og: compress-oss-feat.png
 img-twitter: compress-oss-feat.png
@@ -21,6 +21,8 @@ feedback-link:
 launched: #true
 contributors:
 #  - 
+redirect_from:
+  - /brief/open-source-software
 ---
 
 

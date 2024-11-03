@@ -1,23 +1,34 @@
 ---
 layout: page
 title: Collaborate
-description: All the ways you can engage with GovFresh.
+description: How you can engage with GovFresh.
 permalink: /collaborate/
 ---
 
 ## How we work
 
-GovFresh is an [open civic organization](/thoughts/open-civic-organizations). We work in the open and encourage feedback and collaboration, because it's more fun and makes us better.
-
-On GitHub:
+GovFresh is an [open civic organization](/thoughts/open-civic-organizations). We work in the open and encourage collaboration, because it's more fun and makes us better.
 
 - [Repository](https://github.com/govfresh/govfresh.github.io)
 - [Project board](https://github.com/orgs/govfresh/projects/2/views/1)
 - [Issues](https://github.com/govfresh/govfresh.github.io/issues)
 
-## How you can work with us
+## Content
 
-- [Submit an issue/idea](https://github.com/govfresh/govfresh.github.io/issues/new/choose)
+### Thoughts
+
+- [Thoughts](/thoughts) are editorial contributions with an idea/opinion on a particular topic.
+- [Contribute to Thoughts](https://forms.gle/gm8REnxgwXUjsWWq7)
+
+### Brief
+
+- [Briefs](/brief) are Smart Brevity style overviews on a specific topic.
+- [Contribute to Briefs](https://forms.gle/gm8REnxgwXUjsWWq7)
+
+### Demos
+
+- [Demos](/demos) are video presentations of a new launch (website, app, even a new feature).
+- [Share a Demo](https://forms.gle/gm8REnxgwXUjsWWq7)
 
 ## Sponsor
 
@@ -33,8 +44,17 @@ On GitHub:
 - [Connect on social media](/connect)
 - [Start or join a discussion](https://github.com/govfresh/govfresh.github.io/discussions)
 
+## News tips/pitches
+
+- [Signal](/signal) is where we post timely news and our newsletter.
+- [Send a tip/pitch](https://forms.gle/gm8REnxgwXUjsWWq7)
+
 ## Contact
 
 Questions or need a different way to connect with us?
 
 - [Contact us](/contact)
+
+## General
+
+- [Submit an issue on GitHub](https://github.com/govfresh/govfresh.github.io/issues/new/choose)

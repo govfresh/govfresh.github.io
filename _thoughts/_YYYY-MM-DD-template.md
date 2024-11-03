@@ -11,6 +11,7 @@ img-alt: " icon"
 img-caption: " icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community

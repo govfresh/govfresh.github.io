@@ -22,7 +22,7 @@
     <div class="pt-3">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
             {% if page.video %}
               <div class="ratio ratio-16x9 mb-3 border">
                 <iframe
@@ -38,8 +38,14 @@
               <p class="text-muted text-body-secondary small">{{ page.date | date: "%B %d, %Y" }}</p>
             {% endif %}
           </div>
-          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            {% include share-video.html %}
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div class="border shadow2 p-3 d-none d-md-block">
+              <h2 class="h4 my-0 py-0">Demo</h2>
+              <p class="text-body-secondary pt-3">Have a new product launch or feature?</p>
+              <p class="text-body-secondary pt-0">
+                <a href="{{ site.baseurl }}/collaborate" class="btn btn-primary dropshadow border">Share your demo</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -215,7 +221,7 @@
         </div>
       </div>
     </div>
-  {% elsif page.layout == "brief" %}
+  {% elsif page.layout == "briefs" %}
     <div class="pt-3 pb-4 mb-2">
       <div class="container border-bottom pb-2">
         <div class="row">

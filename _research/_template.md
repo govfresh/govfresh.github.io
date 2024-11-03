@@ -11,6 +11,7 @@ img-caption: " via Font Awesome"
 img-link: https://fontawesome.com/
 audio: .mp3
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community

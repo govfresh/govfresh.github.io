@@ -61,19 +61,19 @@
         {% endif %}
       {% endfor %}
     </div>
-  {% elsif pull == "brief" %}
-    <!-- brief -->
-    <!-- brief secondary -->
+  {% elsif pull == "briefs" %}
+    <!-- briefs -->
+    <!-- briefs secondary -->
     <div class="card-group mb-3">
-      {% assign limit = site.brief-number | plus: 0 %}
+      {% assign limit = site.briefs-number | plus: 0 %}
       {% assign amount = 1 %}
-      {% for item in site.brief reversed %}
+      {% for item in site.briefs reversed %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
-          {% include card-brief.html level = "secondary" %}
+          {% include card-briefs.html level = "secondary" %}
           {% assign amount = amount | plus: 1 %}
-        <!-- brief primary -->
+        <!-- briesf primary -->
         {% elsif page.short != "true" and title != "Government. Fresh." %}
-          {% include card-brief.html %}
+          {% include card-briefs.html %}
           {% assign amount = amount | plus: 1 %}
         {% endif %}
       {% endfor %}

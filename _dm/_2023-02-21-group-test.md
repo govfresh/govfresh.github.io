@@ -46,6 +46,7 @@ amazon:
 calendar: 
 rss: 
 category:
+  - Accessibility
   - Culture
   - Design
   - Digital

@@ -22,6 +22,7 @@ goodreads: https://www.goodreads.com/
 amazon: https://www.amazon.com
 quote: 
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community

@@ -41,7 +41,7 @@ date-format: "%B %d, %Y at %I:%M %P %Z"
 permalink: /404.html
 
 # Number limits
-brief-number: &brief-number 2
+briefs-number: &briefs-number 2
 books-number: &books-number 5
 dm-number: &dm-number 5
 labs-number: 4
@@ -166,13 +166,13 @@ defaults:
       short: "false"
       schematype: "PodcastSeries"
   - scope:
-      path: "_brief"
-      type: "brief"
+      path: "_briefs"
+      type: "briefs"
     values:
-      folder: "Brief"
+      folder: "Briefs"
       img-path: "posts"
-      parent: "brief"
-      layout: "brief"
+      parent: "briefs"
+      layout: "briefs"
       short: "true"
       schematype: ""
 
@@ -181,9 +181,9 @@ collections:
   thoughts:
     output: true
     permalink: /thoughts/:title
-  brief:
+  briefs:
     output: true
-    permalink: /brief/:title
+    permalink: /briefs/:title
   demos:
     output: true
     permalink: /demos/:title
@@ -225,8 +225,8 @@ order:
     name: thoughts
     number: *thoughts-number
   - 
-    name: brief
-    number: *brief-number
+    name: briefs
+    number: *briefs-number
   - 
     name: dm
     number: *dm-number

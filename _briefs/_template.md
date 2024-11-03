@@ -11,6 +11,7 @@ img-caption: " icon via OpenMoji"
 img-link: https://openmoji.org/
 audio: .mp3
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community

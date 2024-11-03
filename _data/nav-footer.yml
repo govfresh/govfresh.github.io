@@ -45,8 +45,8 @@ docs:
  - title: DM
    url: /dm/
 
- - title: Brief
-   url: /brief/
+ - title: Briefs
+   url: /briefs/
 
 # - title: Demos
 #   url: /demos/
@@ -64,6 +64,9 @@ docs:
    url: /books/
 
 -
+
+ - title: Accessibility statement
+   url: /accessibility-statement/
 
  - title: Code of conduct
    url: /conduct/

@@ -35,11 +35,6 @@
     src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "PT Serif";
-    src: url("/assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
-}
-
 /* Light mode */
 
 :root,
@@ -109,7 +104,7 @@
     --bs-dark-border-subtle: #adb5bd;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
-    --bs-font-serif: "PT Serif", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-serif: "Times New Roman", Times, Baskerville, "Times New Roman", "Baskerville Serif", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-sans-serif: "Public Sans Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: "Roboto Mono Regular", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: none;
@@ -332,7 +327,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
 /*.post articlebody p, .post articlebody ul */
 
 .post p, .post ul {
-    font-family: "PT Serif", serif !important;
     margin-bottom: 1.5rem;
 }
 

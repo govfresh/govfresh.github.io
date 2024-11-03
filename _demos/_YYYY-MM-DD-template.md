@@ -1,9 +1,10 @@
 ---
 title: ""
 description: ""
-excerpt: ""
 date: YYYY-MM-DD
+video: 
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community
@@ -16,31 +17,12 @@ category:
   - Open government
   - Open innovation
   - Open source software
-author: GovFresh
-season: 
-number: 
-audio: https://audio.govfresh.com/
-apple: 
-spotify: 
-img-social: -episode.png
-feat-img: .jpeg
-feat-img-alt: 
-short-name: 
-email: 
-website: 
-twitter: 
-linkedin: 
-mastodon: 
-contributors:
-  - 
+img-feat: .png
+img-og: .png
+img-twitter: .png
+img-alt: "Text: "
 ---
 
-## In the episode
+Related:
 
-[OVERVIEW]
-
-## About [NAME]
-
-## Links
-
-* [x](x)
+- []()

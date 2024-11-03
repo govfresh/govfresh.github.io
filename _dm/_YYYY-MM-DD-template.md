@@ -29,6 +29,7 @@ amazon:
 calendar: 
 rss: 
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community

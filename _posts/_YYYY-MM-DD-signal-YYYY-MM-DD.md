@@ -11,6 +11,7 @@ img-alt: "Icon of satellite dish"
 img-caption: "Satellite dish icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
+  - Accessibility
   - Artificial intelligence
   - Civic hacking
   - Community
