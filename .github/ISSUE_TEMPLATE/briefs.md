@@ -1,5 +1,5 @@
 ---
-name: Brief
+name: Briefs
 about: Add a new brief
 title: 'Brief: [TITLE]'
 labels: ''
@@ -7,8 +7,14 @@ assignees: ''
 
 ---
 
+- [Doc](#)
+
+## Publish
+- [ ] Respond to brief inquiry (email, schedule call)
+- [ ] Set up doc ([template](https://docs.google.com/document/d/1hrht4eCUS9zMbcfwPVlb6NlRfxgf7O9DE10DXhlF8SQ/edit?usp=sharing))
+- [ ] Add doc link to issue
 - [ ] Write brief
-- [ ] Get feedback
+- [ ] Get public feedback
 - [ ] Publish
 - [ ] Promote
 
