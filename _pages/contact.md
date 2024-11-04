@@ -5,4 +5,5 @@ description: Get in touch with GovFresh.
 permalink: /contact/
 ---
 
-[Contact us.](https://forms.gle/gm8REnxgwXUjsWWq7)
+- [Contact us](https://forms.gle/gm8REnxgwXUjsWWq7)
+- Encrypted email: <govfresh@proton.me>

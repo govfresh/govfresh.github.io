@@ -311,6 +311,36 @@ button.close-btn {
     color: var(--bs-body-color);
 }
 
+/* GDPR */
+
+.cookie-banner {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    padding: .5rem;
+    text-align: center;
+    z-index: 1000;
+}
+
+.cookie-banner button {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    border: none;
+    font-family: var(--bs-font-monospace);
+    padding: .5rem;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid var(--bs-body-color);
+    box-shadow: 3px 3px 0 0 rgba(27, 27, 27, 1);
+}
+
+.cookie-banner button.reject {
+    background-color: var(--bs-body-bg);
+}
+
 /* Headings */
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {

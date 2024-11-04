@@ -86,5 +86,8 @@ docs:
  - title: Site index
    url: /site-index/
 
+ - title: Releases
+   url: https://github.com/govfresh/govfresh.github.io/releases
+
  - title: Status
    url: https://stats.uptimerobot.com/4210Ytzl2q

@@ -7,8 +7,11 @@ permalink: /privacy/
 
 ## Encryption
 
-The pages on this website are served using [HTTPS](https://en.wikipedia.org/wiki/HTTPS).
+All pages on this website are served using [HTTPS](https://en.wikipedia.org/wiki/HTTPS).
 
+## Policy
+
+[GovFresh privacy policy](/privacy-policy/)
 
 ## Disclosures
 
