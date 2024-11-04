@@ -2,7 +2,7 @@
 name: Direct message
 about: Add a new DM
 title: 'DM: '
-labels: dm
+labels: content, dm
 assignees: ''
 
 ---

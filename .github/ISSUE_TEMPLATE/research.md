@@ -2,7 +2,7 @@
 name: Research
 about: Add a new research page
 title: 'Research: '
-labels: research
+labels: content, research
 assignees: ''
 
 ---

@@ -2,7 +2,7 @@
 name: News
 about: Add a new news post
 title: 'Post: [TITLE]'
-labels: ''
+labels: content
 assignees: ''
 
 ---

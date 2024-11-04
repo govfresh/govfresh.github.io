@@ -2,7 +2,7 @@
 name: Thoughts
 about: Add a new thoughts post
 title: 'Thoughts: [TITLE]'
-labels: thoughts
+labels: content, thoughts
 assignees: ''
 
 ---

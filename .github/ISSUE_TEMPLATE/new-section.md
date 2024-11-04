@@ -13,6 +13,7 @@ assignees: ''
 - [ ] update config
 - [ ] create page
 - [ ] update nav
+- [ ] add issue label
 - [ ] add homepage section
 - [ ] create test page
 - [ ] publish to live and test

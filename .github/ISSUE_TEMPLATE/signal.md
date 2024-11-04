@@ -2,7 +2,7 @@
 name: Signal
 about: Add a new Signal issue
 title: Signal YYYY.MM.DD
-labels: ''
+labels: content, signal
 assignees: ''
 
 ---

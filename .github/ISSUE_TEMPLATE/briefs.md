@@ -2,7 +2,7 @@
 name: Briefs
 about: Add a new brief
 title: 'Brief: [TITLE]'
-labels: ''
+labels: brief, content
 assignees: ''
 
 ---

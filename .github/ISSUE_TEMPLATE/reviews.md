@@ -2,7 +2,7 @@
 name: Reviews
 about: Add a new book review
 title: 'Review: [TITLE]'
-labels: reviews
+labels: content, reviews
 assignees: ''
 
 ---
