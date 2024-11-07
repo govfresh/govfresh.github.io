@@ -32,7 +32,7 @@ team: true
 
 Luke Fretwell is a champion of open, accessible technologies that drive inclusive and collaborative democracy.
 
-He is the co-founder of[ ProudCity](https://proudcity.com/), a platform that empowers U.S. local governments to deliver better digital services. In its esteemed GovTech 100 list, _Government Technology_ annually recognizes ProudCity as one of the nation’s leading civic technology companies.
+He is the co-founder of [ProudCity](https://proudcity.com/), a platform that empowers U.S. local governments to deliver better digital services. In its esteemed GovTech 100 list, _Government Technology_ annually recognizes ProudCity as one of the nation’s leading civic technology companies.
 
 He maintains [GovFresh](https://govfresh.com/), a media project focused on the intersection of design, technology and democracy.
 

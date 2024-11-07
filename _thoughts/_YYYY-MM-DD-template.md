@@ -25,7 +25,7 @@ category:
   - Open innovation
   - Open source software
 feature: "true"
-contributors:
-  - 
+#contributors:
+#  - 
 ---
 
