@@ -4,12 +4,12 @@ date: 2023-08-02
 modified: 
 description: "How government agencies, academia, nonprofit organizations and public sector vendors can build open, participatory models of operating."
 author: Luke Fretwell
-img-feat: open-feat.png
-img-og: open-feat.png
-img-twitter: open-feat.png
-img-alt: "Door open icon"
-img-caption: "Door open icon via Font Awesome"
-img-link: https://fontawesome.com
+img-feat: oco-feat.png
+img-og: oco-feat.png
+img-twitter: oco-feat.png
+img-alt: "Laurel Wreath"
+img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project (CC BY 3.0)"
+img-link: https://thenounproject.com/icon/laurel-wreath-1383533/
 category:
   - Civic hacking
   - Community
