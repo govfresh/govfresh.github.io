@@ -21,11 +21,10 @@
             {% if item.description %}
               <p class="card-text text-body-secondary small">{{ item.description }}</p>
             {% endif %}
-            {% if item.feedback %}
-              <div class="card-footer">
-                <span class="badge text-bg-success">In progress</span>
-              </div>
-            {% endif %}
+          <!--
+            {% if item.feedback %}  <div class="card-footer">    <span class="badge text-bg-success">In progress</span>  </div>
+          {% endif %}
+          -->
           </div>
         </div>
       </div>
@@ -53,11 +52,6 @@
             {% endif %}
             {% if item.description %}
               <p class="card-text text-body-secondary small">{{ item.description }}</p>
-            {% endif %}
-            {% if item.feedback %}
-              <div class="card-footer">
-                <span class="badge text-bg-success">In progress</span>
-              </div>
             {% endif %}
           </div>
         </div>

@@ -15,14 +15,15 @@ layout: research
           {% include toc.html html=content %}
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          {% include subscribe.html %}
           <div id="post">
-            <div class="alert alert-info">
-              <p class="small text-body-secondary mb-0">Content created with Google NotebookLM and ChatGPT. This is a work in progress. Have feedback?
-                <a href="https://github.com/govfresh/govfresh.github.io/issues/new/choose">Submit an issue</a>
-                or
-                <a href="{{ site.baseurl }}/contact/">contact us</a>.</p>
-            </div>
+            {% if content == "html" %}
+              <div class="alert alert-info">
+                <p class="small text-body-secondary mb-0">Content created with Google NotebookLM and ChatGPT. This is a work in progress. Have feedback?
+                  <a href="https://github.com/govfresh/govfresh.github.io/issues/new/choose">Submit an issue</a>
+                  or
+                  <a href="{{ site.baseurl }}/contact/">contact us</a>.</p>
+              </div>
+            {% endif %}
             <articlebody>
               {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
             </articlebody>

@@ -29,7 +29,7 @@ feedback: #true
 feedback-link: 
 launched: #true
 contributors:
-  - 
+#  - 
 ---
 
 ## Summary
