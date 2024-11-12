@@ -233,6 +233,7 @@
             {% if page.description %}
               <p class="lead">{{ page.description }}</p>
             {% endif %}
+            {% include author.html %}
             {% include read-time.html %}
             {% if page.feedback %}
               <div class="alert alert-info mt-4 pt-4">

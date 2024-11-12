@@ -6,8 +6,15 @@
       <h2>{{ page.title }}</h2>
       <p class="lead">{{ page.description }}</p>
       {% assign amount = 1 %}
-      {% assign card = "card-" | append: i.name | append: ".html" %}
+      {% if i.name == "signal" %}
+        {% assign card = "home-signal.html" %}
+      {% else %}
+        {% assign card = "card-" | append: i.name | append: ".html" %}
+      {% endif %}
       {% if i.site-name %}
+        {% comment %}
+          Signal is under site.posts
+        {% endcomment %}
         {% assign name = i.site-name %}
       {% else %}
         {% assign name = i.name %}
@@ -33,9 +40,7 @@
       {% else %}
         {% assign permalink = page.parent %}
       {% endif %}
-      {% unless i.name == "signal" %}
-        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
-      {% endunless %}
+      <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
     </div>
   {% endfor %}
 </div>

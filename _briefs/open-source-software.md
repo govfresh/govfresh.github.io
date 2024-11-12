@@ -3,9 +3,9 @@ title: "Open source software"
 date: 2024-10-21
 description: "A brief-ish explanation of open source software."
 author: Luke Fretwell
-img-feat: compress-oss-feat.png
-img-og: compress-oss-feat.png
-img-twitter: compress-oss-feat.png
+img-feat: brief-oss-feat.png
+img-og: brief-oss-og.png
+img-twitter: brief-oss-twitter.png
 img-alt: "Code editor icon"
 img-caption: "Code editor icon via OpenMoji"
 img-link: https://openmoji.org/

@@ -40,17 +40,6 @@ date-format: "%B %d, %Y at %I:%M %P %Z"
 # 404
 permalink: /404.html
 
-# Number limits
-briefs-number: &briefs-number 2
-books-number: &books-number 5
-dm-number: &dm-number 5
-labs-number: 4
-podcast-number: &podcast-number 4
-research-number: &research-number 5
-thoughts-number: &thoughts-number 5
-signal-number: &signal-number 2
-demos-number: &demos-number 3
-
 # Defaults
 defaults:
   - scope:
@@ -219,6 +208,17 @@ collections:
 paginate: 100
 paginate_path: "/signal/:num"
 
+# Number limits
+briefs-number: &briefs-number 2
+books-number: &books-number 5
+dm-number: &dm-number 5
+labs-number: &labs-number 4
+podcast-number: &podcast-number 4
+research-number: &research-number 5
+thoughts-number: &thoughts-number 5
+signal-number: &signal-number 2
+demos-number: &demos-number 3
+
 # Home page order
 order:
   - 
@@ -230,6 +230,10 @@ order:
   - 
     name: dm
     number: *dm-number
+  - 
+    name: signal
+    number: *signal-number
+    site-name: posts
 #  - 
 #    name: demos
 #    number: *demos-number
