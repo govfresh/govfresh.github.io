@@ -59,4 +59,4 @@ This is me saying something.
 
 We can no longer be passive about this. A culture of open security is critical to a democratic society.
 
-By bringing this conversation into the open, we move beyond gently encouraging this to happen, but force remediations so that the internet is safer for everyone.
+By bringing this conversation into the open, we move beyond gently encouraging this to happen, but force remediation so that the internet is safer for everyone.
