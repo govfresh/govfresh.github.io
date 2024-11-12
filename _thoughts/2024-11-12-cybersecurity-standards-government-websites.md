@@ -1,6 +1,6 @@
 ---
 title: "Cybersecurity standards for government websites"
-date: 2024-11-04
+date: 2024-11-12
 modified: 
 description: "We need better guidance for a more secure digital government experience."
 author: Luke Fretwell
@@ -23,14 +23,13 @@ feature: "true"
 #  - 
 ---
 
-
 We need better, user-centered federal cybersecurity guidance for government websites.
 
 As the co-founder of a local government website solutions provider, even I feel like I don’t fully know what I don’t know when it comes to addressing above-and-beyond best practices in cybersecurity.
 
 And to be frankly honest, it doesn’t appear that others do as well, vendors and government agencies alike.
 
-The reality of this came to head when we released a new [ScanGov security indicator](https://docs.scangov.org/blog/new-gov-website-security-grades-scores). The grades and scores are alarming in that what we’re scanning for are just four basic practices, yet the [current overall results](https://scangov.org/?field=security&level=1) (federal and state) is an ‘F’ grade and a 27% score.
+The reality of this came to head when [we](https://civichackingagency.org) released a new [ScanGov security indicator](https://docs.scangov.org/blog/new-gov-website-security-grades-scores). The grades and scores are alarming in that what we’re scanning for are just four basic practices, yet the [current overall results](https://scangov.org/?field=security&level=1) (federal and state) is an ‘F’ grade and a 27% score.
 
 Some of what came out of the research and development for the security indicator was the realization that there is no helpful, single source of truth guidance for government website operators.
 
