@@ -1,15 +1,15 @@
 ---
 title: ""
 date: YYYY-MM-DD
-description: ""
+description: "A brief-ish explanation of ."
 author: GovFresh
-img-feat: -feat.png
-img-og: -feat.png
-img-twitter: -feat.png
+img-feat: brief--feat.png
+img-og: brief--og.png
+img-twitter: brief--twitter.png
 img-alt: " icon"
 img-caption: " icon via OpenMoji"
 img-link: https://openmoji.org/
-audio: .mp3
+#audio: .mp3
 category:
   - Accessibility
   - Artificial intelligence
@@ -29,6 +29,6 @@ feedback: #true
 feedback-link: 
 launched: #true
 contributors:
-  - 
+#  - 
 ---
 

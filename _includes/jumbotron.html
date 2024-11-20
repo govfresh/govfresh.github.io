@@ -223,18 +223,18 @@
     </div>
   {% elsif page.layout == "briefs" %}
     <div class="pt-3 pb-4 mb-2">
-      <div class="container border-bottom pb-2">
+      <div class="container border-bottom pb-3">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
             {% if page.title %}
-              <h1 class="display-5 mb-4">{{ page.title }}</h1>
+              <h1 class="mb-4 display-5">{{ page.title }}</h1>
             {% endif %}
             {% if page.description %}
-              <p class="lead">{{ page.description }}</p>
+              <p class="lead mb-4">{{ page.description }}</p>
             {% endif %}
             {% include author.html %}
-            {% include read-time.html %}
+            {% include updated.html %}
             {% if page.feedback %}
               <div class="alert alert-info mt-4 pt-4">
                 <span class="badge text-bg-success mb-3">In progress</span>

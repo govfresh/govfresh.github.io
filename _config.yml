@@ -96,9 +96,9 @@ defaults:
       path: "_people"
       type: "people"
     values:
-      folder: "Team"
+      folder: "People"
       img-path: "people"
-      parent: "team"
+      parent: "people"
       layout: "people"
       short: "false"
       schematype: "ProfilePage"
@@ -209,7 +209,7 @@ paginate: 100
 paginate_path: "/signal/:num"
 
 # Number limits
-briefs-number: &briefs-number 2
+briefs-number: &briefs-number 4
 books-number: &books-number 5
 dm-number: &dm-number 5
 labs-number: &labs-number 4

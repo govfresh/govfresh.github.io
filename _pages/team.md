@@ -1,8 +1,10 @@
 ---
 layout: cards
-title: Team
-description: The GovFresh team.
-permalink: /team/
+title: People
+description: GovFresh maintainers and contributors.
+permalink: /people/
 parent: people
+redirect_from:
+  - /team/
 ---
 
