@@ -19,8 +19,10 @@
       {% else %}
         {% assign name = i.name %}
       {% endif %}
+      {% unless i.name == "signal" %}
       <div class="card-group mb-3">
-        {% assign items = site.[name] | reverse %}
+      {% endunless %}
+      {% assign items = site.[name] | reverse %}
         {% for item in items %}
           {% if amount < i.number %}
             {% if name == "books" %}
@@ -41,6 +43,8 @@
         {% assign permalink = page.parent %}
       {% endif %}
       <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
-    </div>
+    {% unless i.name == "signal" %}
+      </div>
+    {% endunless %}
   {% endfor %}
 </div>
