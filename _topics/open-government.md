@@ -1,5 +1,5 @@
 ---
 title: Open government
-description: 
+description: "Open government on GovFresh."
 icon: "fa-solid fa-landmark"
 ---

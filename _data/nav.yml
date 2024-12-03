@@ -1,6 +1,9 @@
 docs_list_title: nav
 docs:
 
+- title: Topics
+  url: /topics/
+
 - title: Thoughts
   url: /thoughts/
 
@@ -13,6 +16,9 @@ docs:
 #- title: Demos
 #  url: /demos/
 
+- title: Papers
+  url: /papers/
+
 - title: DM
   url: /dm/
 
@@ -21,9 +27,6 @@ docs:
 
 - title: Research
   url: /research/
-
-- title: Community
-  url: /community/
 
 - title: Labs
   url: /labs/

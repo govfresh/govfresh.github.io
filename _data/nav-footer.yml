@@ -39,6 +39,9 @@ docs:
 
 -
 
+ - title: Topics
+   url: /topics/
+
  - title: Thoughts
    url: /thoughts/
 
@@ -50,6 +53,9 @@ docs:
 
 # - title: Demos
 #   url: /demos/
+
+ - title: Papers
+   url: /papers/
 
  - title: Podcast
    url: /podcast

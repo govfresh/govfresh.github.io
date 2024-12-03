@@ -153,6 +153,16 @@
     </figure>
   {% endif %}
 {% endif %}
+{% if page.parent == "papers" %}
+  {% if page.img-og %}
+    <figure>
+      <img
+        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
+        alt="{{ page.img-alt }}"
+        class="mb-3 drop-shadow border">
+    </figure>
+  {% endif %}
+{% endif %}
 {% if page.parent == "team" %}
   {% if page.img-feat %}
     <img

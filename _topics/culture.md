@@ -1,5 +1,5 @@
 ---
 title: Culture
-description: 
+description: "Culture on GovFresh."
 icon: "fa-solid fa-bars-staggered"
 ---

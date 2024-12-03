@@ -2,11 +2,12 @@
   <div class="border-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-2">
-          <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3 pt-1">
+          <a class="navbar-brand logo" href="{{ site.baseurl }}/">
             <svg
               id="logo"
-              width="175"
+              class="drop-shadow2 logo"
+              width="200"
               height=""
               viewBox="0 0 1947 491"
               xmlns="http://www.w3.org/2000/svg">
@@ -16,42 +17,42 @@
         </div>
         <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 pt-3 pb-3 text-end d-none d-md-block">
           <a
-            href="{{ site.baseurl }}/collaborate"
-            class="text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            href="{{ site.baseurl }}/community"
+            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-wand-magic-sparkles"></i>
-            Collaborate
+            <i class="fa-solid fa-circle-nodes drop-shadow4"></i>
+            Community
           </a>
           <a
             href="{{ site.baseurl }}/connect"
-            class="text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-circle-nodes"></i>
+            <i class="fa-solid fa-star drop-shadow4"></i>
             Connect
           </a>
           <a
             href="{{ site.baseurl }}/subscribe"
-            class="text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-envelope-open-text"></i>
+            <i class="fa-solid fa-envelope-open-text drop-shadow4"></i>
             Subscribe
           </a>
           <a
             href="{{ site.baseurl }}/sponsor"
-            class="text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-heart drop-shadow4"></i>
             Sponsor
           </a>
           <a
             href="{{ site.baseurl }}/search"
             style="margin-left: .5rem;"
-            class="link-primary link-underline-opacity-0 link-underline-opacity-0-hover">
+            class="small link-primary link-underline-opacity-0 link-underline-opacity-0-hover">
             <i class="fa-solid fa-magnifying-glass"></i>
           </a>
           <a
             style="margin-left: .5rem;"
-            class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
             href="javascript:void(0);"
             onclick="
             const theme = document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
@@ -83,7 +84,9 @@
           <div class="navbar-nav small">
             {% for item in site.data.nav.docs %}
               {% if item.url %}
-                <a class="nav-item nav-link link-primary link-offset-3 {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <small>
+                  <a class="nav-item nav-link link-primary link-offset-3 {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                </small>
               {% endif %}
             {% endfor %}
           </div>

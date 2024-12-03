@@ -256,6 +256,25 @@
         </div>
       </div>
     </div>
+  {% elsif page.layout == "papers" %}
+    <div class="pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            {% if page.title %}
+              <h1 class="display-5 mb-3">{{ page.title }}</h1>
+            {% endif %}
+            {% if page.description %}
+              <p class="lead">{{ page.description }}</p>
+            {% endif %}
+            {% include author.html %}
+            {% include image.html %}
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
+        </div>
+      </div>
+    </div>
   {% elsif page.layout == "research" %}
     <div class="pt-3 pb-4 mb-2">
       <div class="container border-bottom pb-3">
@@ -388,7 +407,7 @@
         <div class="row">
           <div class="col-12">
             {% if page.title %}
-              <h1 class="display-4">{{ page.title }}</h1>
+              <h1 class="display-5">{{ page.title }}</h1>
             {% endif %}
             {% if page.description %}
               <p class="lead">{{ page.description }}</p>

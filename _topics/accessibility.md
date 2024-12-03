@@ -1,5 +1,5 @@
 ---
 title: Accessibility
-description: "Digital accessibility."
+description: "Accessibility on GovFresh."
 icon: "fa-solid fa-circle-check"
 ---

@@ -1,5 +1,5 @@
 ---
 title: Cybersecurity
-description: 
+description: "Cybersecurity on GovFresh."
 icon: "fa-solid fa-lock"
 ---

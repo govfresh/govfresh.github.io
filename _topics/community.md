@@ -1,5 +1,5 @@
 ---
 title: Community
-description:
+description: "Community on GovFresh."
 icon: "fa-solid fa-bus"
 ---

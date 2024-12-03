@@ -78,6 +78,23 @@
         {% endif %}
       {% endfor %}
     </div>
+  {% elsif pull == "papers" %}
+    <!-- Papers -->
+    <!-- Papers secondary -->
+    <div class="card-group mb-3">
+      {% assign limit = site.papers-number | plus: 0 %}
+      {% assign amount = 1 %}
+      {% for item in site.papers reversed %}
+        {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." %}
+          {% include card-papers.html level = "secondary" %}
+          {% assign amount = amount | plus: 1 %}
+        <!-- Papers primary -->
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+          {% include card-papers.html %}
+          {% assign amount = amount | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
   {% elsif pull == "research" %}
     <!-- Research -->
     <!-- Research secondary -->

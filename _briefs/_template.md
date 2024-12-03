@@ -1,7 +1,7 @@
 ---
 title: ""
 date: YYYY-MM-DD
-description: "A brief-ish explanation of ."
+description: "A brief-ish explainer of ."
 author: GovFresh
 img-feat: brief--feat.png
 img-og: brief--og.png

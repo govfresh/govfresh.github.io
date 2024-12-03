@@ -1,7 +1,7 @@
 ---
 title: "New web accessibility law"
 date: 2024-11-13
-description: "A brief-ish explanation of the new web accessibility law for state and local governments."
+description: "A brief-ish explainer of the new web accessibility law for state and local governments."
 author: Rebecca Woodbury
 img-feat: brief-scroll-feat.png
 img-og: brief-scroll-og.png

@@ -1,5 +1,5 @@
 ---
 title: Artificial intelligence
-description: ""
-icon: "fa-solid fa-brain"
+description: "AI on GovFresh."
+icon: "fa-solid fa-robot"
 ---

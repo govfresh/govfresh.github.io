@@ -1,5 +1,5 @@
 ---
 title: Open source software
-description: ""
+description: "Open source software on GovFresh."
 icon: "fa-solid fa-code"
 ---

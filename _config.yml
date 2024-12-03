@@ -164,6 +164,16 @@ defaults:
       layout: "briefs"
       short: "true"
       schematype: ""
+  - scope:
+      path: "_papers"
+      type: "papers"
+    values:
+      folder: "Papers"
+      img-path: "posts"
+      parent: "papers"
+      layout: "papers"
+      short: "true"
+      schematype: ""
 
 # Collections
 collections:
@@ -194,6 +204,9 @@ collections:
   pages:
     output: true
     permalink: :title
+  papers:
+    output: true
+    permalink: papers/:title
   people:
     output: true
     permalink: people/:title
@@ -215,9 +228,10 @@ dm-number: &dm-number 5
 labs-number: &labs-number 4
 podcast-number: &podcast-number 4
 research-number: &research-number 5
-thoughts-number: &thoughts-number 5
+thoughts-number: &thoughts-number 7
 signal-number: &signal-number 2
 demos-number: &demos-number 3
+papers-number: &papers-number 2
 
 # Home page order
 order:
@@ -237,6 +251,10 @@ order:
 #  - 
 #    name: demos
 #    number: *demos-number
+  - 
+    name: papers
+    number: *papers-number
+    site-name: papers
   - 
     name: research
     number: *research-number

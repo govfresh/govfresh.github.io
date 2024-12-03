@@ -1,5 +1,5 @@
 ---
 title: Open innovation
-description: ""
+description: "Open innovation on GovFresh."
 icon: "fa-solid fa-flask"
 ---

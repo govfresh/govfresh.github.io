@@ -1,0 +1,35 @@
+---
+layout: radar
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+  <article>
+    {% include read-time-bar.html %}
+    {% include jumbotron.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          {% include author.html %}
+          {% include updated.html %}
+          <div class="post">
+            <articlebody>
+              <div class="post-signal">
+                {{ content }}
+              </div>
+            </articlebody>
+          </div>
+          {% include contributors.html %}
+          {% include feedback.html %}
+          {% include topics.html %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      </div>
+    </div>
+  </article>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

@@ -4,7 +4,6 @@ layout: topic
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
 <main>
   {% include jumbotron.html %}
   <div class="container">
@@ -12,8 +11,7 @@ layout: topic
       <div class="col-12">
         <div class="home-include">
           {% for collection in site.data.topics.docs %}
-            {% assign items = site[collection] | where: "categories", page.title | reverse %}
-            {% assign size = items | size %}
+            {% assign items = site[collection] | where: "categories", page.title | reverse %} {% assign size = items | size %}
             {% if size > 0 %}
               {% assign page-to-include = "card-" | append: collection %}
               {% if collection == "posts" %}
@@ -24,8 +22,6 @@ layout: topic
               <div class="preview {% unless collection == site.collections[0] %}{% endunless %} {% if collection == 'posts' %}signal{% else %}{{ collection }}{% endif %}">
                 <h2>
                   {% if collection == 'posts' %}Signal
-                  {% elsif collection == 'orgs' %}
-                    Organizations
                   {% elsif collection == 'dm' %}
                     Direct message
                   {% else %}

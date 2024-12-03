@@ -1,5 +1,5 @@
 ---
 title: Data
-description: 
+description: "Data on GovFresh."
 icon: "fa-solid fa-database"
 ---

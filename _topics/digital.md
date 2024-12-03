@@ -1,5 +1,5 @@
 ---
 title: Digital
-description: 
+description: "Digital on GovFresh."
 icon: "fa-solid fa-keyboard"
 ---

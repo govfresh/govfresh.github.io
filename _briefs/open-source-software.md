@@ -1,7 +1,7 @@
 ---
 title: "Open source software"
 date: 2024-10-21
-description: "A brief-ish explanation of open source software."
+description: "A brief-ish explainer of open source software."
 author: Luke Fretwell
 img-feat: brief-oss-feat.png
 img-og: brief-oss-og.png
