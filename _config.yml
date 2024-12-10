@@ -197,7 +197,7 @@ collections:
     permalink: /books/:title
   posts:
     output: true
-    permalink: /signal/:title
+    permalink: /news/:title
   labs:
     output: true
     permalink: labs/:title
@@ -247,14 +247,12 @@ order:
   - 
     name: signal
     number: *signal-number
-    site-name: posts
 #  - 
 #    name: demos
 #    number: *demos-number
   - 
     name: papers
     number: *papers-number
-    site-name: papers
   - 
     name: research
     number: *research-number

@@ -24,7 +24,7 @@ category:
   - Open government
   - Open innovation
   - Open source software
-feature: "true"
+#feature: "true"
 #contributors:
 #  - 
 ---

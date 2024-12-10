@@ -45,8 +45,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.4.0)
-      rexml
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -55,7 +55,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
     mercenary (0.4.0)
-    ostruct (0.6.0)
+    ostruct (0.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -70,7 +70,7 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
-    webrick (1.8.2)
+    webrick (1.9.1)
 
 PLATFORMS
   x86_64-darwin
@@ -93,4 +93,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.5.22
+   2.5.23
