@@ -7,7 +7,7 @@ author: Luke Fretwell
 img-feat: docs-feat.png
 img-og: docs-og.png
 img-twitter: docs-twitter.png
-img-alt: "File icons"
+img-alt: "Two overlapping sheets of paper, indicating documentation or files."
 img-caption: "File icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
