@@ -11,8 +11,6 @@ img-caption: "Building shield icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: zero-trust.mp3
 category:
-  - Culture
-  - Digital
   - Data
   - Open source software
   - Cybersecurity

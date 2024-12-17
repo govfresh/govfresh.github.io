@@ -10,6 +10,7 @@ shortname: Carla
 img: carla-briceno.jpg
 img-feat: carla-briceno.jpg
 img-alt: Carla Briceno
+#img-caption: ""
 email:
 website: https://www.bixal.com/
 twitter: 
@@ -25,8 +26,7 @@ flickr:
 tumblr:
 rss:
 category:
-  - Culture
-  - Digital
+  - Business
 feature:
 ---
 

@@ -27,9 +27,7 @@ goodreads:
 amazon: 
 review-link: 
 category:
-  - Culture
   - Design
-  - Digital
 author: 
 feature: 
 ---

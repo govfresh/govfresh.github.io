@@ -54,7 +54,7 @@
     --bs-green: #198754;
     --bs-teal: #20c997;
     --bs-cyan: #0dcaf0;
-    --bs-black: #212121;
+    --bs-black: #000000;
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
@@ -67,8 +67,8 @@
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212121;
-    --bs-primary: rgb(33, 33, 33);
-    --bs-secondary: #212121;
+    --bs-primary: rgb(0, 0, 0);
+    --bs-secondary: #000000;
     --bs-success: #198754;
     --bs-info: var(--bs-body-color);
     --bs-warning: #ffc107;
@@ -282,10 +282,17 @@ nav a:hover {
 /* Signal */
 
 .post-signal h2 {
-    border-top: 1px solid var(--bs-tertiary-color);
+    border-top: 1px solid var(--bs-gray-300);
     margin-top: 2rem;
     padding-top: 2rem !important;
 }
+
+.post-signal h2:first-of-type {
+    border-top: none;
+    margin-top: .5rem;
+    padding-top: .5rem !important;
+}
+
 
 /* Links */
 
@@ -361,7 +368,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
 
 /*.post articlebody p, .post articlebody ul */
 
-#post p, #post ul {
+#post p, #post ul, .post p, .post ul {
     font-family: var(--bs-font-serif) !important;
     margin-bottom: 1.5rem;
 }
@@ -372,13 +379,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
     border-color: var(--bs-secondary-bg);
 }
 
+.alert-primary {
+    background-color: var(--bs-gray-100) !important;
+    color: var(--bs-body-color);
+    border-color: var(--bs-gray-300);
+}
+
 /* Anchor links */
 
 h2 a#heading-hashtag, h3 a#heading-hashtag, h4 a#heading-hashtag {
+    color: var(--bs-body-color);
     display: none;
 }
 
 h2:hover a#heading-hashtag, h3:hover a#heading-hashtag, h4:hover a#heading-hashtag {
+    color: var(--bs-body-color);
     display: revert;
 }
 
@@ -816,8 +831,8 @@ blockquote p, blockquote ul {
 }
 
 .plyr__badge {
-    background: #4a5464;
-    background: var(--plyr-badge-background, #4a5464);
+    background: #000000;
+    background: var(--plyr-badge-background, #000000);
     border-radius: 2px;
     border-radius: var(--plyr-badge-border-radius, 2px);
     color: #fff;
@@ -1610,10 +1625,9 @@ a.plyr__control {
 }
 
 .plyr--audio .plyr__controls {
-    background: var(--bs-secondary-bg, #fff);
+    background: var(--bs-primary, #000000);
     border-radius: inherit;
-    color: #4a5464;
-    color: var(--bs-white, #4a5464);
+    color: var(--bs-white, #ffffff);
     padding: 10px;
     padding: var(--plyr-control-spacing, 10px)
 }

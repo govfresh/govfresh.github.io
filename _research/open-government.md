@@ -11,16 +11,8 @@ img-caption: "Open door icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: #.mp3
 category:
-  - Accessibility
-  - Artificial intelligence
   - Civic hacking
-  - Community
-  - Culture
-  - Cybersecurity
   - Data
-  - Design
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software

@@ -13,7 +13,6 @@ audio: #.mp3
 category:
   - Artificial intelligence
   - Data
-  - Digital
 feature: ""
 feedback: true
 feedback-link: https://docs.google.com/document/d/1IzMWrkwsmUfYzz0KZ9MPX6gUiObgqMq0zuAHFGsaDN8/edit?usp=sharing

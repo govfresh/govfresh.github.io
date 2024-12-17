@@ -11,8 +11,8 @@ img-caption: "Code editor icon via OpenMoji"
 img-link: https://openmoji.org/
 audio: cloud-gov.mp3
 category:
-  - Digital
   - Data
+  - Open government
   - Open source software
   - Cybersecurity
 feature: "true"

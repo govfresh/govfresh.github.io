@@ -13,8 +13,8 @@ apple: https://podcasts.apple.com/us/podcast/how-government-can-find-its-purpose
 spotify: https://open.spotify.com/episode/49rzPk8pbAG6fizFHHkEnz
 stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/63211512
 pocketcasts: https://pca.st/WQa8
-feat-img: brian-elms.jpg
-feat-img-alt: Brian Elms
+img-feat: brian-elms.jpg
+img-caption: Brian Elms
 ---
 
 Sometimes, government works on the wrong problem.

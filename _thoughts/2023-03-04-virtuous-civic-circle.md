@@ -11,8 +11,6 @@ img-alt: "Circle laurel icon"
 img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project"
 img-link: https://fontawesome.com
 category:
-  - Community
-  - Culture
   - Open government
 feature: "true"
 ---

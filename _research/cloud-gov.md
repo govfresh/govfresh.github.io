@@ -11,7 +11,6 @@ img-caption: "Cloud icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: cloud-gov.mp3
 category:
-  - Digital
   - Data
   - Open source software
   - Cybersecurity

@@ -5,8 +5,6 @@ excerpt: "A citizen journalist and civic technologist shares his experiences and
 date: 2023-10-09
 category:
   -  Civic hacking
-  -  Community
-  -  Culture
   -  Data
 author: GovFresh
 season: 1
@@ -16,8 +14,8 @@ apple: #https://podcasts.apple.com/us/podcast/how-government-can-secure-us-in-th
 spotify: #https://open.spotify.com/episode/0MCbhSL4yDUHhGslfoeIUu
 pocketcasts: #https://pca.st/WQa8
 img-social: carlos-moreno-episode.png
-feat-img: carlos-moreno.jpeg
-feat-img-alt: Carlos Moreno
+img-feat: carlos-moreno.jpeg
+img-caption: Carlos Moreno
 short-name: Carlos
 email: tulsadesigner@gmail.com
 website: https://about.me/cmoreno

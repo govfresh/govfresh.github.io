@@ -15,6 +15,28 @@ layout: research
           {% include toc.html html=content %}
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          {% if page.audio %}
+            <div class="border shadow2 mb-3 pt-2 px-3">
+              <h2 class="pb-0">Listen</h2>
+              <p class="pb-0 small text-body-secondary mb-0 pb-0">A podcast-like overview created with Google NotebookLM.</p>
+              <script src="{{ site.baseurl }}/js/plyr.js"></script>
+              <audio id="player" controls>
+                <source src="{{ site.url }}/assets/audio/{{ page.audio }}" type="audio/mp3">
+              </audio>
+              <script>
+                      const plyr = new Plyr('audio', {
+                          controls: [
+                              'play',
+                              'progress',
+                              'current-time',
+                              'duration',
+                              'mute',
+                              'volume'
+                          ]
+                      });
+              </script>
+            </div>
+          {% endif %}
           <div id="post">
             {% if content == "html" %}
               <div class="alert alert-info">
@@ -37,12 +59,14 @@ layout: research
     </div>
   </article>
 </main>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      {% include previews.html show-only="true" %}
+<aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
+      </div>
     </div>
   </div>
-</div>
+</aside>
 {% include analytics.html %}
 {% include footer.html %}

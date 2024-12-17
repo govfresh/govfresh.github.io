@@ -11,10 +11,7 @@ goodreads: https://www.goodreads.com/book/show/133207376-docs-as-ecosystem
 amazon: https://www.amazon.com/dp/1484293274?ref_=cm_sw_r_apin_dp_YN6JST4X8KCSA675P2ZD
 quote: "My approach to engineering documentation inspired me to coin a new term, docs-as-ecosystem. The word ecosystem promotes a paradigm where community members treat documentation as a complex and dynamic system that must be managed and nurtured."
 category:
-  - Community
-  - Culture
   - Design
-  - Digital
 author: Luke Fretwell
 ---
 

@@ -13,7 +13,6 @@ audio: gdpr.mp3
 category:
   - Cybersecurity
   - Data
-  - Digital
 feature: "true"
 feedback: #true
 feedback-link: 

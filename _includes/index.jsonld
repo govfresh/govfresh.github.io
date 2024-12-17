@@ -2,7 +2,7 @@
     "@context": "http://schema.org",
     "@type": "{{ page.schematype }}",
     "headline": "{{ page.title }}",
-    "description": "{{ page.description }}",
+    "description": "{{ page.description | xml_escape }}",
     "isAccessibleForFree": true,
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ site.time | date_to_xmlschema }}",

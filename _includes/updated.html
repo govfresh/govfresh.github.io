@@ -1,5 +1,9 @@
 {% if page.modified or post.modified or item.modified %}
-  <p class="small text-body-secondary mt-0 mb-5">(Modified
-    {{ page.modified | date: site.date }})
+  <p class="small text-body-secondary mb-0">
+    <small>
+      <i class="fa-regular fa-calendar-check"></i>
+      Updated:
+      {{ page.modified | date: site.date }}
+    </small>
   </p>
 {% endif %}

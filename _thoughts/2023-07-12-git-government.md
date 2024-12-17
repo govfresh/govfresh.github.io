@@ -11,7 +11,6 @@ img-alt: "Git icon"
 img-caption: "Git icon from Font Awesome"
 img-link: https://fontawesome.com
 category:
-  - Culture
   - Open government
 feature: "true"
 ---

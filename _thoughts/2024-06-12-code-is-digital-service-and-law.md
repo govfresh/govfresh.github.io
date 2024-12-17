@@ -12,7 +12,7 @@ img-caption: "Computer with code icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
   - Design
-  - Digital
+  - Policy
 feature: "true"
 contributors:
   - Elias Fretwell

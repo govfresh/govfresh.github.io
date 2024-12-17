@@ -7,9 +7,9 @@
           <div class="border-top pt-5 pb-3">
             {% assign show = "true" %}
             <h2>{{ loop.title }}</h2>
-            <p class="lead">{{ loop.description }}</p>
+            <p class="lead mb-4">{{ loop.description }}</p>
             {% include cards.html page=loop.parent page-title=title %}
-            <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm">{{ loop.title }}</a>
+            <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm mt-3">{{ loop.title }}</a>
           </div>
         {% endif %}
       {% else %}
@@ -25,9 +25,5 @@
   {% endfor %}
 </div>
 <!--
-  <script>    if (        !document            .querySelector("div.cards-include > div.card-group")            .innerHTML            .includes("<")    ) {        document            .querySelector(".preview-include")
-            .style
-            .display = "none";
-    }
-</script>
+  <script>    if (        !document            .querySelector("div.cards-include > div.card-group")            .innerHTML            .includes("<")    ) {        document            .querySelector(".preview-include")            .style            .display = "none";    }</script>
 -->

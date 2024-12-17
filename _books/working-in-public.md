@@ -11,9 +11,6 @@ goodreads: https://www.goodreads.com/en/book/show/54140556-working-in-public
 amazon: https://www.amazon.com/gp/product/0578675862/ref=as_li_tl?ie=UTF8&tag=govfresh-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0578675862&linkId=56e670c065d0fa93d83fbc2e90f1c21d
 review-link: 
 category:
-  - Community
-  - Culture
-  - Digital
   - Open source software
 author: Luke Fretwell
 feature: 

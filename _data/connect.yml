@@ -40,13 +40,13 @@ mastodon: &mastodon "fa-brands fa-mastodon"
 docs_list_title: connect
 docs:
 
-  - name: Website
-    url: 
-    icon: *website
+#  - name: Website
+#    url: 
+#    icon: *website
 
-  - name: Email
-    url: 
-    icon: *email
+#  - name: Email
+#    url: 
+#    icon: *email
 
   - name: Subscribe
     url: https://govfresh.com/subscribe
@@ -61,7 +61,7 @@ docs:
     icon: *mastodon
 
   - name: X 
-    url: https://twitter.com/govfresh
+    url: https://x.com/govfresh
     icon: *twitter
 
   - name: LinkedIn

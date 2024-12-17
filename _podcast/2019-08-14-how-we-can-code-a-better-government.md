@@ -15,8 +15,8 @@ apple: https://podcasts.apple.com/us/podcast/how-we-can-code-a-better-government
 spotify: https://open.spotify.com/episode/2Q1W7k8sceAUE0uzwl9Pkr
 stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/63211512
 pocketcasts: https://pca.st/WQa8
-feat-img: jen-pahlka.jpg
-feat-img-alt: Jen Pahlka
+img-feat: jen-pahlka.jpg
+img-caption: Jen Pahlka
 ---
 
 Government has historically been challenged in effectively leveraging technology to best serve the people. There are numerous, well-documented cases of public sector mishandling of technology projects, from the very public failed launch of Healthcare.gov to the many unseen, ineffective IT implementations that occur on a daily basis.

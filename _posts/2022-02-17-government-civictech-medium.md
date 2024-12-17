@@ -10,7 +10,6 @@ img-caption: "Medium logo via Medium"
 img-link: 
 category:
   - Design
-  - Digital
   - Inclusion
 feature: "true"
 ---

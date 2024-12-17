@@ -13,7 +13,6 @@ layout: papers
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          {% include read-time.html %}
           {% include download.html %}
           <div id="post">
             <articlebody>
@@ -30,12 +29,14 @@ layout: papers
     </div>
   </article>
 </main>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      {% include previews.html show-only="true" %}
+<aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
+      </div>
     </div>
   </div>
-</div>
+</aside>
 {% include analytics.html %}
 {% include footer.html %}

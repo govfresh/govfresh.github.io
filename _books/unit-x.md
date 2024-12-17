@@ -23,10 +23,10 @@ amazon: https://www.amazon.com/Unit-Pentagon-Silicon-Valley-Transforming/dp/B0CS
 quote: 
 category:
   - Artificial intelligence
-  - Civic hacking
-  - Culture
+  - Business
   - Cybersecurity
   - Data
+  - Procurement
 author: Luke Fretwell
 feature: yes
 ---

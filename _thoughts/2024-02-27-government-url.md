@@ -12,7 +12,6 @@ img-caption: "Link icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
   - Design
-  - Digital
 feature: "true"
 contributors:
   - Elias Fretwell

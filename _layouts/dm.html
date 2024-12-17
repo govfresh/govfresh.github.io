@@ -15,7 +15,7 @@ layout: dm
           {% assign i = 0 %}
           {% for item in page.name %}
             {% include image.html %}
-            <ul class="list-unstyled text-body-secondary">
+            <ul class="list-unstyled text-body-secondary small">
               <li>
                 {% if page.group %}
                   {{ page.name[i] }}
@@ -45,9 +45,9 @@ layout: dm
           {% if content contains 'id="new"' %}
             <div class="alert alert-primary" role="alert">
               <div class="new-dm">
-                <a href="#new">
+                <a href="#new" class="text-body small">
                   Jump to new messages
-                  <i class="fa-solid fa-circle-arrow-down"></i>
+                  <i class="fa-regular fa-circle-down"></i>
                 </a>
               </div>
             </div>
@@ -62,13 +62,15 @@ layout: dm
       </div>
     </div>
   </article>
-  <aside>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">{% include previews.html show-only = "true" %}</div>
+</main>
+<aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
       </div>
     </div>
-  </aside>
-</main>
+  </div>
+</aside>
 {% include analytics.html %}
 {% include footer.html %}

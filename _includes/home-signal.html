@@ -19,15 +19,15 @@
           </p>
         {% endif %}
         {% if post.author %}
-          <p class="small text-body-secondary">
-            By
-            {{ post.author }}
-            {% if post.date %}
-              &middot;
-              {% include date.html %}
-            {% endif %}
+          <p class="small text-body-secondary mb-0">
+            <small>
+              <i class="fa-solid fa-circle-user"></i>
+              By:
+              {{ post.author }}
+            </small>
           </p>
         {% endif %}
+        {% include date.html %}
       </div>
     </div>
   </div>
@@ -45,15 +45,17 @@
           </p>
         {% endif %}
         {% if post.author %}
-          <p class="small text-body-secondary">
-            By
-            {{ post.author }}
-            {% if post.date %}
-              &middot;
-              {% include date.html %}
-            {% endif %}
+          <p class="small text-body-secondary mb-0">
+            <small>
+              <i class="fa-solid fa-circle-user"></i>
+              By:
+              {{ post.author }}
+              {% if post.date %}
+              {% endif %}
+            </small>
           </p>
         {% endif %}
+        {% include date.html %}
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <a href="{{ site.baseurl }}{{ post.url }}">

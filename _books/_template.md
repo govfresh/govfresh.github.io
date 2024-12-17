@@ -1,6 +1,7 @@
 ---
 title: ""
 description: ""
+date: 
 img-book: .jpg
 img-feat: -feat.png
 img-og: -og.png
@@ -24,17 +25,16 @@ quote:
 category:
   - Accessibility
   - Artificial intelligence
+  - Business
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software
+  - Policy
+  - Procurement
 author: 
 feature: yes
 ---

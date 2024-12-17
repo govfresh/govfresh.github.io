@@ -11,9 +11,6 @@ img-alt: "Icon of a certificate seal"
 img-caption: "Certificate icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
-  - Community
-  - Culture
-  - Digital
 feature: "true"
 ---
 

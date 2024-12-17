@@ -11,16 +11,15 @@ github:
 category:
   - Accessibility
   - Artificial intelligence
+  - Business
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software
+  - Policy
+  - Procurement
 ---
 

@@ -13,7 +13,6 @@ img-link:
 category:
   - Civic hacking
   - Cybersecurity
-  - Digital
 ---
 
 *(Disclosure: [ScanGov](https://scangov.org) is a project I maintain with my son.)*

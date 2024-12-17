@@ -1,7 +1,7 @@
 ---
 title: "American Dynamism"
 date: 2024-12-03
-description: "A brief-ish explainer of a16z's American Dynamism."
+description: "A brief-ish explainer of Andreessen Horowitz's American Dynamism."
 author: Luke Fretwell
 img-feat: brief-american-dynamism-feat.png
 img-og: brief-american-dynamism-og.png
@@ -11,12 +11,7 @@ img-caption: "American flag and sparkles icons via OpenMoji"
 img-link: https://openmoji.org/
 #audio: .mp3
 category:
-  - Artificial intelligence
-  - Cybersecurity
-  - Data
-  - Design
-  - Digital
-  - Innovation
+  - Business
 feature: "true"
 feedback: #true
 feedback-link: 
@@ -27,7 +22,7 @@ contributors:
 
 ## What is American Dynamism? 🤔 
 
-[American Dynamism](https://a16z.com/american-dynamism/) is an ideal and investment practice initiated by the venture capital firm [a16z](https://a16z.com).
+[American Dynamism](https://a16z.com/american-dynamism/) is an ideal and investment practice initiated by the venture capital firm [Andreessen Horowitz](https://a16z.com) (aka a16z).
 
 It favors VC-backed innovation over government bureaucracy, and champions the funding and growth of technology startups supporting U.S. national interest.
 

@@ -15,8 +15,8 @@ apple: https://podcasts.apple.com/us/podcast/how-government-can-secure-us-in-the
 spotify: https://open.spotify.com/episode/0MCbhSL4yDUHhGslfoeIUu
 stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/62805554
 pocketcasts: https://pca.st/WQa8
-feat-img: bruce-schneier.jpeg
-feat-img-alt: Bruce Schneier
+img-feat: bruce-schneier.jpeg
+img-caption: Bruce Schneier
 ---
 
 The internet was not originally designed with security in mind. In the early days, this was OK, but today the landscape is more complicated because, in the internet+ era, nearly everything is connected to the internet. A spreadsheet crashes, and you lose your data. A heart device crashes, and you lose your life. Both are computers, maybe connected to the same CPU or operating system. The only difference is that the computers are attached to different things.

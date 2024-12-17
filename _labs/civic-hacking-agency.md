@@ -12,7 +12,5 @@ category:
   - Civic hacking
   - Data
   - Design
-  - Data
-  - Digital
 ---
 

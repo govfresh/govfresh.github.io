@@ -11,8 +11,7 @@ img-caption: "Cloud icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: fedramp.mp3
 category:
-  - Culture
-  - Digital
+  - Business
   - Data
   - Open source software
   - Cybersecurity

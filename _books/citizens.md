@@ -20,8 +20,7 @@ goodreads: https://www.goodreads.com/book/show/60651047-citizens
 amazon: https://www.amazon.com/Citizens-Why-Key-Fixing-Everything/dp/191245484X
 quote: "The absolute precondition for the Citizen Story is belief in ourselves and in human nature as creative, capable, and caring, rather than lazy, self-interested, and competitive within a zero-sum framework."
 category:
-  - Community
-  - Culture
+  - Open government
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-citizens

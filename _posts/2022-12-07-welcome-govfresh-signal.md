@@ -10,12 +10,9 @@ img-caption: ""
 category:
   - Artificial intelligence
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
   - Open government
   - Open innovation
   - Open source software

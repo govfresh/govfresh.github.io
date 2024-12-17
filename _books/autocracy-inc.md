@@ -23,7 +23,6 @@ amazon: https://www.amazon.com/Autocracy-Inc-Dictators-Want-World/dp/0385549938
 quote: 
 category:
   - Artificial intelligence
-  - Culture
   - Cybersecurity
   - Data
 author: 

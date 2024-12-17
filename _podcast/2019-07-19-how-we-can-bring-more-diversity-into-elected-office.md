@@ -13,8 +13,8 @@ apple: https://podcasts.apple.com/us/podcast/how-we-can-bring-more-diversity-int
 spotify: https://open.spotify.com/episode/1EhlNAG0HO7NU02txsG30R
 stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/61974498
 pocketcasts: https://pca.st/WQa8
-feat-img: sarah-horvitz.jpg
-feat-img-alt: Sarah Horvitz
+img-feat: sarah-horvitz.jpg
+img-caption: Sarah Horvitz
 ---
 
 Starting in 2017, a wave of new political candidates began pursuing elected office at all levels of government. Many of them have been historically underrepresented in public leadership. With the support of organizations like Run for Something, fresh faces are getting elected to serve the communities and causes they care about.

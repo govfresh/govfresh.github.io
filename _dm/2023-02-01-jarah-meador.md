@@ -10,7 +10,7 @@ shortname: Jarah
 img: jarah-meador.jpg
 img-feat: jarah-meador.jpg
 img-alt: "Headshot of Jarah Meador"
-img-caption: 
+#img-caption: ""
 email: jarah.meador@gsa.gov
 website: 
 twitter: 
@@ -28,10 +28,7 @@ amazon:
 calendar: 
 rss: 
 category:
-  - Culture
   - Data
-  - Design
-  - Digital
   - Open innovation
   - Open source software
 feature: 

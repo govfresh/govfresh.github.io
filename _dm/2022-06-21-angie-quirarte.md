@@ -10,6 +10,7 @@ shortname: Angie
 img: angie-quirarte.jpg
 img-feat: angie-quirarte.jpg
 img-alt: Angie Quirarte
+#img-caption: ""
 email: angie@techtalentproject.org
 website: https://techtalentproject.org/
 twitter: https://twitter.com/abquirarte
@@ -25,11 +26,6 @@ flickr:
 tumblr:
 rss:
 category:
-  - Community
-  - Culture
-  - Data
-  - Design
-  - Digital
 feature:
 ---
 

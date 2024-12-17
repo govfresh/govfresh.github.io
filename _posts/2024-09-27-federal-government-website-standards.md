@@ -12,7 +12,7 @@ img-caption: ""
 img-link: 
 category:
   - Design
-  - Digital
+  - Open government
 ---
 
 The General Services Administration has started a [website standards initiative](https://standards.digital.gov/) to better “deliver consistent, digital-first experiences for the public.”

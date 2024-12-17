@@ -12,7 +12,6 @@ img-caption: "RSS icon from Font Awesome"
 img-link: https://fontawesome.com
 category:
   - Data
-  - Digital
 feature: "true"
 ---
 

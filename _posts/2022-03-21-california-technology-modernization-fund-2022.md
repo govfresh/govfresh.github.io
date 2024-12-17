@@ -10,8 +10,6 @@ img-alt: "Icon of the state of California"
 img-caption: 
 img-link: 
 category:
-  - Culture
-  - Digital
   - Open
 feature: "true"
 ---

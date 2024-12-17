@@ -10,6 +10,7 @@ shortname: Marlena
 img: marlena-medford.jpg
 img-feat: marlena-medford.jpg
 img-alt: Marlena Medford
+#img-caption: ""
 email: mmedford@codeforamerica.org
 website: 
 twitter: https://twitter.com/MarlenaMedford
@@ -25,9 +26,6 @@ flickr:
 tumblr:
 rss:
 category:
-  - Community
-  - Design
-  - Digital
 share-twitter: https://twitter.com/govfresh/status/1552356068121907200?s=20&t=gPNS9WzTXGDHxMGbHtivBQ
 share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6958121814619279360
 share-facebook: https://www.facebook.com/govfresh/posts/pfbid02hbtF1UmynGDAUrJByueZz2w3cDWJRdQa8Hw3bzjPs3EKMEp7cgF5oMHQDHvUuMvnl

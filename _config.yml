@@ -121,10 +121,14 @@ defaults:
       short: "false"
       schematype: "NewsArticle"
   - scope:
-      path: ""
+      path: "_topics"
       type: "topics"
     values:
+      folder: "Topics"
+      img-path: "posts"
+      parent: "topics"
       layout: "topic"
+      short: "false"
   - scope:
       path: "_labs"
       type: "labs"
@@ -197,7 +201,7 @@ collections:
     permalink: /books/:title
   posts:
     output: true
-    permalink: /news/:title
+    permalink: /signal/:title
   labs:
     output: true
     permalink: labs/:title
@@ -247,6 +251,7 @@ order:
   - 
     name: signal
     number: *signal-number
+    site-name: posts
 #  - 
 #    name: demos
 #    number: *demos-number

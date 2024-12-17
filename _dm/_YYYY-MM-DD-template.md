@@ -11,7 +11,7 @@ img-feat: -dm-feat.png
 img-og: -dm-og.png
 img-twitter: -dm-twitter.png
 img-alt: "Headshot of "
-img-caption: ""
+#img-caption: ""
 email: 
 website: 
 twitter: 
@@ -32,16 +32,14 @@ category:
   - Accessibility
   - Artificial intelligence
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software
+  - Policy
+  - Procurement
 feature: 
 contributors:
   - 

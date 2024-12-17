@@ -12,11 +12,7 @@ img-link: https://fontawesome.com/
 audio: #oss.mp3
 category:
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software

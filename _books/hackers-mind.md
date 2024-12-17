@@ -23,9 +23,7 @@ amazon: https://www.amazon.com/Hackers-Mind-Powerful-Societys-Rules/dp/132407453
 quote: 
 category:
   - Civic hacking
-  - Culture
   - Cybersecurity
-  - Digital
 author: 
 feature: 
 ---

@@ -11,7 +11,6 @@ img-caption: "Right arrow with bracket via Font Awesome"
 img-link: https://fontawesome.com/
 audio: login-gov.mp3
 category:
-  - Digital
   - Data
   - Open source software
   - Cybersecurity

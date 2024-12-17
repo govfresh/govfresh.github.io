@@ -24,6 +24,7 @@ flickr: https://www.flickr.com/photos/govfresh/
 tumblr: https://govfresh.tumblr.com/
 rss: https://govfresh.com/feed.xml
 team:
+show: hide
 ---
 
 GovFresh is an [open civic organization](/thoughts/open-civic-organizations) working at the intersection of design, technology and government.

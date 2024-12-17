@@ -5,8 +5,6 @@ excerpt: "A pioneering civic technologist retrospects and shares his thoughts on
 date: 2023-08-28
 category:
   -  Civic hacking
-  -  Community
-  -  Culture
   -  Data
   -  Open government
 author: GovFresh
@@ -17,8 +15,8 @@ apple: #https://podcasts.apple.com/us/podcast/how-government-can-secure-us-in-th
 spotify: #https://open.spotify.com/episode/0MCbhSL4yDUHhGslfoeIUu
 pocketcasts: #https://pca.st/WQa8
 img-social: steve-spiker-episode.png
-feat-img: steve-spiker.png
-feat-img-alt: Steve Spiker
+img-feat: steve-spiker.png
+img-caption: Steve Spiker
 short-name: Spike
 email: 
 website: 
@@ -26,7 +24,7 @@ twitter: https://twitter.com/spjika/
 linkedin: https://www.linkedin.com/in/stevespiker/
 ---
 
-Steve "Spike" Spiker talks with [The GovFresh Podcast](https://podcast.govfresh.com) about his work in civic hacking, including co-founding OpenOakland, which served as the Code for America Brigade in Oakland, Calif. He shares his thoughts on why civic hacking is important in a healthy digital democracy and how hackers and government can show up and effectively work together. Spike shares a thoughtful retrospective on his time pioneering and actively civic hacking, organizing hackers and how grassroots technologists can continue to leverage their passion and skills to impact civil society.
+Steve "Spike" Spiker talks with [The GovFresh Podcast](https://govfresh.com/podcast) about his work in civic hacking, including co-founding OpenOakland, which served as the Code for America Brigade in Oakland, Calif. He shares his thoughts on why civic hacking is important in a healthy digital democracy and how hackers and government can show up and effectively work together. Spike shares a thoughtful retrospective on his time pioneering and actively civic hacking, organizing hackers and how grassroots technologists can continue to leverage their passion and skills to impact civil society.
 
 ## About Spike
 

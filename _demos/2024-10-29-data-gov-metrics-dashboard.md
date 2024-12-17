@@ -6,13 +6,9 @@ video: LI_Tv-VfP88
 category:
   - Artificial intelligence
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software

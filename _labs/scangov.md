@@ -12,6 +12,6 @@ category:
   - Civic hacking
   - Cybersecurity
   - Data
-  - Digital
+  - Design
 ---
 

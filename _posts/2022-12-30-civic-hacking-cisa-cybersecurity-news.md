@@ -12,7 +12,6 @@ category:
   - Civic hacking
   - Cybersecurity
   - Data
-  - Digital
   - Open
 feature: ""
 ---

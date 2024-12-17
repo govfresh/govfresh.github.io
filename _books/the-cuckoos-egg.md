@@ -11,6 +11,7 @@ goodreads: https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg?from_searc
 amazon: https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/B0845PM1M5/ref=sr_1_1?crid=38I33D1NF190J&keywords=the-cuckoos-egg&qid=1659070187&sprefix=the-cuckoos-egg%2Caps%2C316&sr=8-1
 review-link: 
 category:
+  - Civic hacking
   - Cybersecurity
 ---
 

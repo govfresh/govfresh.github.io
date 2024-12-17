@@ -12,7 +12,7 @@ amazon: https://www.amazon.com/Dignity-Digital-Age-Making-Tech/dp/1982163348/ref
 quote: "The grand promise of the digital age is the possibility of aligning the aims of political justice with economic growth."
 category:
   - Data
-  - Digital
+  - Policy
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-dignity-in-a-digital-age

@@ -13,8 +13,8 @@ apple:
 spotify: 
 stitcher: 
 pocketcasts: 
-feat-img: richard-goerling.jpg
-feat-img-alt: Richard Goerling
+img-feat: richard-goerling.jpg
+img-caption: Richard Goerling
 ---
 
 With police violence in the news, and public scrutiny on the rise, law enforcement is turning to mindfulness to help officers deal with the stress that comes with the work. They are introducing new tools and techniques to help officers better engage with the communities they have sworn an oath to protect.

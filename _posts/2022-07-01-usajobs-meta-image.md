@@ -9,7 +9,6 @@ img-alt: "Lincoln Memorial at night with car lights"
 img-caption: Dmcooperphotography, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
 category:
   - Design
-  - Digital
 feature: ""
 redirect_from:
   - /ideas/usajobs-meta-image/

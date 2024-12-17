@@ -13,17 +13,15 @@ img-link: https://openmoji.org/
 category:
   - Accessibility
   - Artificial intelligence
+  - Business
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software
+  - Policy
 feature: "true"
 feedback: #true
 feedback-link: 

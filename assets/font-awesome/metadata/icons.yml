@@ -8596,8 +8596,7 @@ church:
       - cathedral
       - chapel
       - church
-      - community
-      - cross
+          - cross
       - religion
   styles:
     - solid
@@ -19452,8 +19451,7 @@ group-arrows-rotate:
   label: Group Arrows Rotate
   search:
     terms:
-      - community
-      - engagement
+          - engagement
       - spin
       - sync
   styles:

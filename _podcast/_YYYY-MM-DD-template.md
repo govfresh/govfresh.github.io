@@ -7,16 +7,14 @@ category:
   - Accessibility
   - Artificial intelligence
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
-  - Innovation
   - Open government
   - Open innovation
   - Open source software
+  - Policy
+  - Procurement
 author: GovFresh
 season: 
 number: 
@@ -24,8 +22,8 @@ audio: https://audio.govfresh.com/
 apple: 
 spotify: 
 img-social: -episode.png
-feat-img: .jpeg
-feat-img-alt: 
+img-feat: .jpeg
+img-caption: 
 short-name: 
 email: 
 website: 

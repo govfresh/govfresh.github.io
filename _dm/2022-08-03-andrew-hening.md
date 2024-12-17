@@ -10,6 +10,7 @@ shortname: Andrew
 img: andrew-hening.jpeg
 img-feat: andrew-hening.jpeg
 img-alt: Andrew Hening
+#img-caption: ""
 email: andrew@heningconsulting.com
 website: https://www.howtosolvehomelessness.org
 twitter: 

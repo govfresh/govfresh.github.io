@@ -13,11 +13,8 @@ amazon: https://www.amazon.com/gp/product/1735286508/ref=as_li_tl?ie=UTF8&tag=go
 review-link: review-civic-technologists-practice-guide
 quote: "Civic technology can be the ideal means to put your tech skills to good use - but it will be your communication and collaboration skills that will clear the path for you to do that."
 category:
-  - Community
-  - Culture
   - Data
   - Design
-  - Digital
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-civic-technologists-practice-guide

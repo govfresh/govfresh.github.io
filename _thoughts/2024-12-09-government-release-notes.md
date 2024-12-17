@@ -1,7 +1,7 @@
 ---
 title: "Government release notes"
 date: 2024-12-09
-modified: 
+modified: 2024-12-17
 description: "A simple way to keep public service communications open, authentic and regular."
 author: Luke Fretwell
 img-feat: docs-feat.png
@@ -12,12 +12,12 @@ img-caption: "File icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
   - Open source software
-#feature: "true"
+feature: "true"
 #contributors:
 #  - 
 ---
 
-Government services should include regular release notes to their intended communities. The practice and intent behind release notes can be adopted by all government and civic organizations and services.
+Government services should include regular release notes to their intended communities. The practice and intent of release notes can be adopted by all government and civic organizations and services.
 
 ## About release notes
 
@@ -30,10 +30,10 @@ Similar to release notes are changelogs. These are more technical and detailed, 
 Whether general or technical, government release notes:
 
 * Transparently communicate the work
+* Build a sense of trust and commitment
 * Keep end users and stakeholders updated
 * Document the product or service’s evolution
 * Show public services are continuously improving
-* Build a sense of trust and commitment
 
 ## Examples
 
@@ -47,17 +47,17 @@ ProudCity (disclosure: I’m a co-founder and board member) includes changelog-l
 
 Recommendations for great release notes:
 
-* Know your audience.
 * Don’t embellish.
-* Publish regularly (ideally consistently)
-* Include ways to give feedback
-* Give options to subscribe (email/RSS/social media account)
+* Know your audience.
+* Include feedback mechanisms.
+* Publish regularly/consistently.
+* Give multiple subscription options (email/RSS/social media).
 
 ## Parting thoughts
 
 Whether it’s a digital project or public service, government should publish release notes of some kind. They don’t need to be technical or exhaustive, just regular and informative.
 
-Communications teams can especially benefit from publishing regular release notes. This would be a much better and authentic use of their skills than press releases or embellished blog posts. (Note: This is not an invitation for comms folks to write or review technical release notes. These should be left to technical/documentation writers and managers.)
+Communications teams can especially benefit from publishing regular release notes. This would be a better and authentic use of their skills than press releases or embellished blog posts. (Note: This is not an invitation for comms folks to write or review technical release notes. These should be left to technical/documentation writers and managers.)
 
 Who needs release notes (or a changelog)?
 

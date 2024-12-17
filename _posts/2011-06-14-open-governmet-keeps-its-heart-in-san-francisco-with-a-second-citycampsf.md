@@ -7,7 +7,7 @@ author: GovFresh
 
 
 
-</a>San Francisco will hold its second CityCamp, <a href="http://ccsf2011.eventbrite.com">CityCampSF 2011</a>, this Saturday, June 18, and include municipal employees, journalists, developers and neighborhood leaders "working on solutions for better communities and government." The event is hosted by SF Department of Technology.
+San Francisco will hold its second CityCamp, <a href="http://ccsf2011.eventbrite.com">CityCampSF 2011</a>, this Saturday, June 18, and include municipal employees, journalists, developers and neighborhood leaders "working on solutions for better communities and government." The event is hosted by SF Department of Technology.
 
 We asked CityCampSF founder and organizer (and <a href="http://gov20radio.com">Gov 2.0 Radio</a> host) <a href="http://twitter.com/AdrielHampton">Adriel Hampton</a> to discuss its objectives and goals and share his thoughts on the state of San Francisco open government.
 

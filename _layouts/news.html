@@ -14,10 +14,14 @@ layout: news
         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
           {% include author.html %}
+          {% include date.html %}
           {% include updated.html %}
-          <div class="post">
+          {% include read-time.html %}
+          <div id="post">
             <articlebody>
-              {{ content }}
+              <div class="border-top pt-4 mt-4">
+                {{ content }}
+              </div>
             </articlebody>
           </div>
           {% include contributors.html %}

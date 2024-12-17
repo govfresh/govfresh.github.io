@@ -12,10 +12,7 @@ img-link: https://fontawesome.com/
 audio: #.mp3
 category:
   - Civic hacking
-  - Community
-  - Culture
   - Data
-  - Innovation
   - Open innovation
   - Open source software
 feature: "true"

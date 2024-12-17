@@ -9,7 +9,6 @@ img-alt: "Olay Regenerist beauty product held by a Black woman in her left hand 
 img-caption: "Photo via Olay"
 img-link: 
 category:
-  - Culture
   - Inclusion
   - Open
 ---

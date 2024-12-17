@@ -14,7 +14,6 @@ category:
   - Artificial intelligence
   - Cybersecurity
   - Data
-  - Digital
 #feature: "true"
 feedback: #true
 feedback-link: 

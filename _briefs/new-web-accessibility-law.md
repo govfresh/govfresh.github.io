@@ -8,12 +8,12 @@ img-og: brief-scroll-og.png
 img-twitter: brief-scroll-twitter.png
 img-alt: "Scroll icon"
 img-caption: "Scroll icon via OpenMoji"
-img-link: https://openmoji.org/library/emoji-1F4DC/
+img-link: https://openmoji.org/
 #audio: .mp3
 category:
   - Accessibility
   - Design
-  - Digital
+  - Policy
 feature: "true"
 feedback: #true
 feedback-link: 

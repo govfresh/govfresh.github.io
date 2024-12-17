@@ -11,8 +11,6 @@ img-caption: "Lock via Font Awesome"
 img-link: https://fontawesome.com/
 audio: #.mp3
 category:
-  - Community
-  - Culture
   - Cybersecurity
   - Open source software
 feature: ""

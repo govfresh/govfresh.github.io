@@ -13,8 +13,8 @@ apple: https://podcasts.apple.com/us/podcast/the-government-we-need/id1468169431
 spotify: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
 stitcher: https://www.stitcher.com/s?fid=427823&refid=stpr
 pocketcasts: https://pca.st/WQa8
-feat-img: rick-cole.png
-feat-img-alt: Rick Cole
+img-feat: rick-cole.png
+img-caption: Rick Cole
 ---
 
 Sustainability is a top priority for environmentally-conscious global leaders, and it’s an issue that we’re all faced with on a daily basis, but what role should local government play in mitigating the climate crisis?

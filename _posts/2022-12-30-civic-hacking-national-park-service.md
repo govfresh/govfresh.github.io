@@ -11,7 +11,6 @@ img-link: https://openmoji.org/
 category:
   - Civic hacking
   - Data
-  - Digital
   - Open
 feature: ""
 ---

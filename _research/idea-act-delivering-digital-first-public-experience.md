@@ -11,8 +11,6 @@ img-caption: "Light bulb icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: idea-act.mp3
 category:
-  - Culture
-  - Digital
   - Data
   - Open source software
   - Cybersecurity

@@ -12,7 +12,6 @@ img-link: https://fontawesome.com/
 audio: plain-language.mp3
 category:
   - Design
-  - Digital
 feature: "true"
 feedback: #true
 feedback-link: 

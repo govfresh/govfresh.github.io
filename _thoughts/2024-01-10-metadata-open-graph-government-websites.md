@@ -13,7 +13,6 @@ img-link: https://fontawesome.com
 category:
   - Data
   - Design
-  - Digital
 feature: "true"
 contributors:
   - Elias Fretwell

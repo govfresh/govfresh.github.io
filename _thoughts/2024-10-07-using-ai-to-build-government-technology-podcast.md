@@ -12,11 +12,7 @@ img-caption: "Microphone icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
   - Artificial intelligence
-  - Cybersecurity
   - Data
-  - Design
-  - Digital
-  - Innovation
 feature: "true"
 ---
 

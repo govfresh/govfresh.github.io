@@ -13,7 +13,6 @@ img-link: https://fontawesome.com
 category:
   - Artificial intelligence
   - Data
-  - Digital
 feature: "true"
 ---
 

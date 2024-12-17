@@ -10420,8 +10420,7 @@ church:
       - cathedral
       - chapel
       - church
-      - community
-      - cross
+          - cross
       - religion
   unicode: f51d
   voted: true
@@ -23698,8 +23697,7 @@ group-arrows-rotate:
   label: Group Arrows Rotate
   search:
     terms:
-      - community
-      - engagement
+          - engagement
       - spin
       - sync
   unicode: e4f6

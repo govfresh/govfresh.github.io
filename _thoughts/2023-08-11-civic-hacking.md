@@ -12,10 +12,7 @@ img-caption: "Code icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
   - Civic hacking
-  - Community
-  - Culture
   - Data
-  - Digital
   - Open innovation
 feature: "true"
 ---

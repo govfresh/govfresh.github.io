@@ -14,7 +14,6 @@ category:
   - Civic hacking
   - Data
   - Design
-  - Digital
 feature: "true"
 contributors:
   - Elias Fretwell

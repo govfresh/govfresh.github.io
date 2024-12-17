@@ -12,7 +12,6 @@ img-caption:
 img-link: 
 category:
   - Civic hacking
-  - Community
   - Cybersecurity
 ---
 

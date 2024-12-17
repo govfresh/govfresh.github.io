@@ -28,9 +28,7 @@ amazon:
 calendar: 
 rss: 
 category:
-  - Culture
   - Design
-  - Digital
 feature: 
 ---
 

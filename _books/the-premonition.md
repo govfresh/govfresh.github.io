@@ -10,7 +10,6 @@ bookshop: https://bookshop.org/a/83650/9780393881554
 goodreads: https://www.goodreads.com/book/show/56790170-the-premonition
 amazon: https://www.amazon.com/gp/product/0393881555/ref=as_li_tl?ie=UTF8&tag=govfresh-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0393881555&linkId=10adff7ccd2c316606f67653f524844d
 category:
-  - Culture
 author: Luke Fretwell
 redirect_from:
   - /reviews/review-the-premonition

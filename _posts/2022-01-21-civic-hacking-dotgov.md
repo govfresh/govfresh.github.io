@@ -10,9 +10,7 @@ img-caption: "Icons via OpenMoji"
 img-link: https://openmoji.org/
 category:
   - Civic hacking
-  - Community
   - Data
-  - Digital
   - Open
 ---
 

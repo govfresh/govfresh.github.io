@@ -11,8 +11,8 @@ goodreads: https://www.goodreads.com/book/show/61796680-recoding-america
 amazon: https://www.amazon.com/Recoding-America-Government-Failing-Digital/dp/1250266777/ref=sr_1_1?crid=3VAUGD1DFXLDF&keywords=recoding+america+jennifer+pahlka&qid=1694815296&sprefix=recodin%2Caps%2C208&sr=8-1
 review-link: 
 category:
-  - Design
-  - Digital
+  - Policy
+  - Procurement
 feature: 
 ---
 

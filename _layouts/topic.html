@@ -4,6 +4,7 @@ layout: topic
 
 {% include header.html %}
 {% include nav.html %}
+{% include breadcrumb.html %}
 <main>
   {% include jumbotron.html %}
   <div class="container">
@@ -17,7 +18,7 @@ layout: topic
               {% if collection == "posts" %}
                 {% assign page-to-include = "card-signal" %}
               {% elsif collection == "research" %}
-                {% assign page-to-include = "card-books" %}
+                {% assign page-to-include = "card-research" %}
               {% endif %}
               <div class="preview {% unless collection == site.collections[0] %}{% endunless %} {% if collection == 'posts' %}signal{% else %}{{ collection }}{% endif %}">
                 <h2>
@@ -28,7 +29,7 @@ layout: topic
                     {{ collection | capitalize }}
                   {% endif %}
                 </h2>
-                <div class="card-group {% unless 'ideas' or collection == 'reviews' or collection == 'podcast' %}{% endunless %}">
+                <div class="card-group mt-4 mb-5 {% unless 'ideas' or collection == 'reviews' or collection == 'podcast' %}{% endunless %}">
                   {% for item in items %}
                     {% include {{ page-to-include | append: ".html" }} %}
                   {% endfor %}

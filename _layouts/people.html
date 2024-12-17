@@ -10,14 +10,8 @@ layout: people
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        {% if page.img %}
-          <img
-            src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
-            alt="{{ page.img-alt }}"
-            type="{{ page.folder }}"
-            class="rounded-circle lg mb-3 drop-shadow border" />
-        {% endif %}
-        <ul class="list-unstyled text-body-secondary">
+        {% include image.html %}
+        <ul class="list-unstyled text-body-secondary small">
           {% if page.name %}
             <li>{{ page.name }}</li>
           {% endif %}
@@ -28,7 +22,7 @@ layout: people
             <li>{{ page.org }}</li>
           {% endif %}
         </ul>
-        <div class="border-bottom pb-3 mb-4">
+        <div class="pb-3 mb-4">
           {% include social.html size = "small" %}
         </div>
       </div>

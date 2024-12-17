@@ -11,11 +11,10 @@ img-caption: "Money check icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: techfar.mp3
 category:
-  - Culture
-  - Digital
   - Data
   - Open source software
   - Cybersecurity
+  - Procurement
 feature: "true"
 feedback: #true
 feedback-link: 

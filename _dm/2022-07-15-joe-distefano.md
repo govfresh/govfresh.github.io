@@ -10,6 +10,7 @@ shortname: Joe
 img: joe-distefano.jpg
 img-feat: joe-distefano.jpg
 img-alt: Joe DiStefano
+#img-caption: ""
 email: 
 website: https://urbanfootprint.com/
 twitter: 
@@ -25,8 +26,8 @@ flickr:
 tumblr:
 rss:
 category:
+  - Business
   - Data
-  - Digital
 feature:
 ---
 

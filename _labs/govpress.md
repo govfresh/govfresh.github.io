@@ -11,7 +11,6 @@ github: https://github.com/govfresh/govpress
 category:
   - Civic hacking
   - Design
-  - Digital
 ---
 
-Now inactive, we built a WordPress theme for government that has thousands of downloads and active installations (including non-government).
+We built a WordPress theme for government that has thousands of downloads and active installations (including non-government).

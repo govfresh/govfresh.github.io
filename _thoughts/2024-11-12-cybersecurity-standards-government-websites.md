@@ -11,13 +11,11 @@ img-alt: "Shield icon"
 img-caption: "Shield icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
-  - Community
-  - Culture
   - Cybersecurity
-  - Digital
   - Open government
   - Open innovation
   - Open source software
+  - Policy
 feature: "true"
 #contributors:
 #  - 

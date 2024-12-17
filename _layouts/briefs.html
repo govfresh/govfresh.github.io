@@ -13,7 +13,6 @@ layout: briefs
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          {% include read-time.html %}
           <div id="post">
             <articlebody>
               {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
@@ -29,12 +28,14 @@ layout: briefs
     </div>
   </article>
 </main>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      {% include previews.html show-only="true" %}
+<aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        {% include previews.html show-only="true" %}
+      </div>
     </div>
   </div>
-</div>
+</aside>
 {% include analytics.html %}
 {% include footer.html %}

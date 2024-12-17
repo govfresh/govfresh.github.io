@@ -47,10 +47,16 @@ calendar:
 rss: 
 category:
   - Accessibility
-  - Culture
+  - Artificial intelligence
+  - Civic hacking
+  - Cybersecurity
+  - Data
   - Design
-  - Digital
-  - Open
+  - Open government
+  - Open innovation
+  - Open source software
+  - Policy
+  - Procurement
 feature: 
 ---
 

@@ -13,12 +13,9 @@ action-link: https://www.regulations.gov/commenton/ONCD-2023-0002-0001
 category:
   - Artificial intelligence
   - Civic hacking
-  - Community
-  - Culture
   - Cybersecurity
   - Data
   - Design
-  - Digital
   - Open government
   - Open innovation
   - Open source software

@@ -1,6 +1,7 @@
 ---
 title: "Open civic organizations"
 date: 2024-11-27
+modified: 2024-12-16
 description: "A deep dive on open civic organizations."
 author: Luke Fretwell
 img-feat: oco-feat.png
@@ -11,9 +12,6 @@ img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project (CC BY 3.0)
 img-link: https://thenounproject.com/icon/laurel-wreath-1383533/
 #audio: .mp3
 category:
-  - Community
-  - Culture
-  - Innovation
   - Open government
   - Open innovation
   - Open source software
@@ -25,6 +23,9 @@ download-link: https://docs.google.com/document/d/1lBy6HenXP_UzAPuzAOZZRckQ3nqy2
 contributors:
 #  - 
 ---
+
+*Note: This is a working document. If you have questions or feedback, use the comments feature or email me at [luke@govfresh.com](mailto:luke@govfresh.com).*
+
 
 ## Context
 
@@ -44,7 +45,7 @@ In November 2020, Paradise, Calif., was burning. Sitting at my kitchen island, I
 
 During the first days of the fire, I worked closely with Jake Bayless, a public information officer, web administrator, programmer and analyst for Santa Rosa, Calif. Jake had been called to Paradise based on his professional background and firsthand experience with the Tubbs Fire. Jake called ProudCity, we immediately set up a test site and the two of us began building, using a Trello board to project manage what needed to be done and what each of us were working on. We held quick, regular check-ins – sometimes multiple times a day – to see how we could unblock one another. It was reactive and hacky but, all things considered, it did the job.
 
-Eventually, the site was moved to an official Butte County domain, but we still maintained it short-term until key staff were onboarded to manage it and other tasks full time.
+Eventually, the site was moved to an official Butte County domain, but we still maintained it short-term until key staff were onboarded to manage it and other tasks full-time.
 
 
 ### Going Alpha
@@ -53,7 +54,7 @@ In the winter of 2020, I was part of a small team selected to re-imagine how the
 
 Days after Alpha ended, COVID-19 struck. State employees on the project were called in to lead the digital response team. By all accounts, the way they worked – and delivered – would never have happened had Alpha not been stood up when it was.
 
-Alpha wasn’t a navel gazing innovation exercise as some had thought. It was the proving ground for what would be the state’s single source of truth on all things COVID, delivered in an open, agile way that met the moment.
+Alpha wasn’t a navel-gazing innovation exercise, as some had thought. It was the proving ground for what would be the state’s single source of truth on all things COVID, delivered in an open, agile way that met the moment.
 
 Alpha evolved and is now the California Office of Data and Innovation, supporting state agencies on digital service delivery projects.
 
@@ -104,6 +105,7 @@ Status quo civic organizations are some or all of the following:
 * Wayward, inefficient, rigid
 * Lack sustainable workflows
 * Difficulty managing resources
+* Rely only on internal input
 * Don’t inspire their people
 * Struggle to build a shared sense of purpose
 * Don’t fully fulfill their missions
@@ -118,14 +120,17 @@ OCOs:
 * Are intentional, productive, agile
 * Have seamless, fluid workflows
 * Optimize resources
+* Leverage external communities
 * Inspire pride in individual contributions
 * Build purposeful camaraderie
 * Realize their mission potential
+* Share code, documentation and insights
 
 
 ## Open civic organizations
 
 Simply defined, OCOs are:
+
 
 > **Mission-minded people  
 > powered by open, agile flow,  
@@ -138,16 +143,21 @@ Simply defined, OCOs are:
 
 OCOs matter because they:
 
+
+
 * Scale impact
+* Deepen trust
 * Are more resilient
 * Streamline for service
 * Deliver with intention
 * Give meaning to the work
+* Inherently prioritize ethics
 * Optimize limited resources
 * Cultivate public innovation
 * Condition for collaboration
 * Empower individual growth
 * Foster a sense of community
+* Build trust and contribute to the public good
 
 
 ## How they work
@@ -170,9 +180,9 @@ OCO values:
 
 
 * Joy
+* Equity
 * Impact
 * Humility
-* Equity
 * Diversity
 * Inclusivity
 * Community
@@ -233,7 +243,6 @@ In 2001, 17 software development practitioners convened and developed The Agile 
 
 Key excerpts from the “[Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)”:
 
-
 > Our highest priority is to satisfy the customer through early and continuous delivery  of valuable software.
 
 
@@ -271,6 +280,7 @@ writes Csikszentmihalyi. “The best moments usually occur when a person’s bod
 And Wikipedia defines flow as “the mental state in which a person or organization* performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.” *(* we added ‘or organization’)*
 
 Csikszentmihalyi’s flow channel diagram best illustrates the relationship between challenges and skills and keeping both the individual and organization working with a sense of commitment to their respective areas of work.
+
 
 <img src="/assets/img/posts/flow-channel.png" alt="Flow channel" class="border">
 
@@ -342,7 +352,7 @@ OCO narratives are:
 * Authentic (little to no embellishment)
 * Evergreen (documentation)
 * Regular/consistent (weekly/monthly)
-* Multi-channel (web, email, social)
+* Multichannel (web, email, social)
 * Feedback-friendly (online form, email)
 
 
@@ -375,6 +385,7 @@ Core components of open civic organizations include publicly available:
 * Documentation
 * README
 * Repository
+* Contributor guides
 
 
 ## Roles
@@ -411,8 +422,9 @@ Contributors include:
 
 * Stakeholders
 * Designers
+* User researchers
 * Developers
-* Subject matter experts
+* Subject-matter experts
 * General public
 
 
@@ -457,13 +469,13 @@ More than ever, with expedited emerging technologies and a society in constant f
 
 
 
-* Am I inspired in my role?
 * Am I committed to the mission?
-* Is leadership leading by example?
+* Am I inspired in my role?
 * Do we empower individuals to learn/grow?
 * Is there strong organizational camaraderie?
 * Are our workflows adaptive and responsive?
-* Are we individually/collectively willing to change?
+* What changes can I make that will help others join us?
+* Is leadership leading by example?
 
 
 ### Checklist

@@ -11,10 +11,8 @@ img-alt: "Data icon"
 img-caption: "Data icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
-  - Culture
   - Data
   - Design
-  - Digital
 feature: "true"
 ---
 
