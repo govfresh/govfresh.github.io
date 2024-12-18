@@ -11,6 +11,10 @@ assignees: ''
 - [ ] Add image folder (if necessary)
 - [ ] create layout template/includes (cards, etc.)
 - [ ] update config
+- [ ] create json
+- [ ] create img
+- [ ] add to site index
+- [ ] add to topics
 - [ ] create page
 - [ ] update nav
 - [ ] add issue label
