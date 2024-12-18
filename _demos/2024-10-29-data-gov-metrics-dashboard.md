@@ -3,12 +3,12 @@ title: "Data.gov metrics dashboard"
 description: "Data.gov Product Manager Tim Lowden demos the new metrics dashboard."
 date: 2022-10-29
 video: LI_Tv-VfP88
+video-title: "Data.gov metrics dashboard"
 category:
   - Artificial intelligence
   - Civic hacking
   - Cybersecurity
   - Data
-  - Design
   - Open government
   - Open innovation
   - Open source software

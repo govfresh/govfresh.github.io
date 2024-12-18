@@ -2,12 +2,14 @@
 layout: page
 title: Collaborate
 description: How you can engage with GovFresh.
+img-og: collaborate-og.png
+img-alt: ""
 permalink: /collaborate/
 ---
 
 ## How we work
 
-GovFresh is an [open civic organization](/thoughts/open-civic-organizations). We work in the open and encourage collaboration, because it's more fun and makes us better.
+GovFresh is an [open civic organization](https://oco.govfresh.com). We work in the open and encourage collaboration, because it's more fun and makes us better.
 
 - [Repository](https://github.com/govfresh/govfresh.github.io)
 - [Project board](https://github.com/orgs/govfresh/projects/2/views/1)

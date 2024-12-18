@@ -11,6 +11,5 @@ github: https://github.com/civichackingagency/
 category:
   - Civic hacking
   - Data
-  - Design
 ---
 

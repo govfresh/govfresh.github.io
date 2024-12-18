@@ -37,21 +37,22 @@ layout: research
               </script>
             </div>
           {% endif %}
+          <div class="alert alert-info">
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-solid fa-robot"></i>
+                Content created with artificial general intelligence. This is a work in progress. Have feedback?
+                <a href="https://github.com/govfresh/govfresh.github.io/issues/new/choose">Submit an issue</a>
+                or
+                <a href="{{ site.baseurl }}/contact/">contact us</a>.</small>
+            </p>
+          </div>
           <div id="post">
-            {% if content == "html" %}
-              <div class="alert alert-info">
-                <p class="small text-body-secondary mb-0">Content created with Google NotebookLM and ChatGPT. This is a work in progress. Have feedback?
-                  <a href="https://github.com/govfresh/govfresh.github.io/issues/new/choose">Submit an issue</a>
-                  or
-                  <a href="{{ site.baseurl }}/contact/">contact us</a>.</p>
-              </div>
-            {% endif %}
             <articlebody>
               {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
             </articlebody>
           </div>
           {% include contributors.html %}
-          {% include feedback.html %}
           {% include topics.html %}
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>

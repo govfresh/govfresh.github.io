@@ -73,6 +73,16 @@ defaults:
       short: "true"
       schematype: "NewsArticle"
   - scope:
+      path: "_events"
+      type: "events"
+    values:
+      folder: "Events"
+      img-path: "logos"
+      parent: "events"
+      layout: "events"
+      short: "true"
+      schematype: "Event"
+  - scope:
       path: "_books"
       type: "books"
     values:
@@ -184,6 +194,9 @@ collections:
   thoughts:
     output: true
     permalink: /thoughts/:title
+  events:
+    output: true
+    permalink: /events/:title
   briefs:
     output: true
     permalink: /briefs/:title
@@ -236,6 +249,7 @@ thoughts-number: &thoughts-number 7
 signal-number: &signal-number 2
 demos-number: &demos-number 3
 papers-number: &papers-number 2
+events-number: &events-number 4
 
 # Home page order
 order:

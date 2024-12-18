@@ -1,65 +1,8 @@
-<div class="alert alert-info mt-2 pt-2 mb-2 shadow2">
-  <h2 class="h3 mb-0 pb-0">Feedback</h2>
-  <p class="small text-body-secondary mt-2">Have feedback on this page?</p>
-  <p>
-    <a href="https://github.com/govfresh/govfresh.github.io/issues/new/choose" class="btn btn-primary btn-sm dropshadow border">
-      <i class="fa-brands fa-github"></i>
-      Submit an issue</a>
-  </p>
-  <h2 class="h3">Share this</h2>
-  <a
-    href="javascript:void(0);"
-    onclick="navigator.clipboard.writeText('{{ site.url }}{{ page.url }}')"
-    title="Copy link to clipboard"
-    class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
-    <i class="fa-solid fa-copy"></i>
-    Copy link to clipboard</a>
-  <a
-    href="mailto:?subject={{ page.title }}body=FYI on GovFresh: '{{ page.title }}': {{ site.url }}{{ page.url }}"
-    rel="nofollow"
-    target="_blank"
-    title="Email"
-    class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
-    <i class="fa-solid fa-envelope"></i>
-    Email</a>
-  <a
-    href="https://mail.google.com/mail/?view=cm&to=%7Bemail_address%7D&su={{ page.title }}&body=FYI on GovFresh: '{{ page.title }}': {{ site.url }}{{ page.url }}&bcc=%7Bemail_address%7D&cc=%7Bemail_address%7D"
-    target="_blank"
-    rel="nofollow noopener"
-    title="Share on Gmail"
-    class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
-    <i class="fa-brands fa-google"></i>
-    Gmail</a>
-  <a
-    href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}"
-    rel="nofollow"
-    target="_blank"
-    title="Share on LinkedIn"
-    class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
-    <i class="fa-brands fa-linkedin-in"></i>
-    LinkedIn</a>
-  <a
-    href="https://twitter.com/intent/tweet?text={{ page.title }}&via={{ site.twitter-username }}&url={{ site.url }}{{ page.url }}"
-    rel="nofollow"
-    target="_blank"
-    title="Share on X"
-    class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
-    <i class="fa-brands fa-x-twitter"></i>
-    X</a>
-  <a
-    href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"
-    rel="nofollow"
-    target="_blank"
-    title="Share on Facebook"
-    class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
-    <i class="fa-brands fa-facebook-f"></i>
-    Facebook</a>
-  <a
-    href="whatsapp://send?text="
-    rel="nofollow"
-    target="_blank"
-    title="Share on Facebook"
-    class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-2 text-start">
-    <i class="fa-brands fa-whatsapp"></i>
-    WhatsApp</a>
-</div>
+<p class="small text-body-secondary mb-0">
+  <small>
+    <a href="{{ site.baseurl }}/feedback" class="link-body-emphasis link-offset-3">
+      <i class="fa-solid fa-message"></i>
+      Feedback
+    </a>
+  </small>
+</p>

@@ -2,6 +2,8 @@
 layout: page
 title: Sponsor
 description: Financial support for GovFresh.
+img-og: sponsor-og.png
+img-alt: ""
 permalink: /sponsor/
 ---
 

@@ -28,14 +28,14 @@ docs:
  - title: Connect
    url: /connect/
 
- - title: Support
-   url: /support/
+ - title: Sponsor
+   url: /sponsor/
 
  - title: Contact
    url: /contact/
 
- - title: Suggest
-   url: /suggest/
+ - title: Feedback
+   url: /feedback/
 
 -
 
@@ -69,9 +69,14 @@ docs:
  - title: Book club
    url: /books/
 
+- 
+
+ - title: Events
+   url: /events/
+
 -
 
- - title: Accessibility statement
+ - title: Accessibility
    url: /accessibility-statement/
 
  - title: Code of conduct

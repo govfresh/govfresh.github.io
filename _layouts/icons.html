@@ -4,7 +4,7 @@ layout: default
 
 {% if page.title == "Topics" %}
   <div class="col-sm-12">
-    <div class="card-group">
+    <div class="card-group mb-3">
       {% for item in site.topics %}
         {% if item.title != 'Template' %}
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
@@ -29,7 +29,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <div class="card-group">
+        <div class="card-group mb-3">
           {% for item in site.data.icons.docs %}
             {% if item.title == page.title %}
               {% for page in item.pages %}

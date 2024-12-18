@@ -3,6 +3,7 @@ title: ""
 description: ""
 date: YYYY-MM-DD
 video: 
+video-title: ""
 category:
   - Accessibility
   - Artificial intelligence

@@ -2,8 +2,20 @@
 layout: page
 title: Contribute
 description: Ways to share your content on GovFresh.
+img-og: contribute-og.png
+img-alt: ""
 permalink: /contribute/
+redirect_from:
+  - /contributors/
 ---
+
+We welcome contributions and try to acknowledge them as best as possible.
+
+Contribution types:
+
+- Content (draft feedback, subject matter expertise, guest editorial)
+- Inspiration for ideas (conversations, social media posts, talks, presentations, etc.)
+- Technical (bug submissions etc.)
 
 ## Thoughts
 

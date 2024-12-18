@@ -52,9 +52,13 @@ docs:
     url: https://govfresh.com/subscribe
     icon: *subscribe
 
-#  - name: Discord
-#    url: 
-#    icon: *discord
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/govfresh
+    icon: *linkedin
+
+  - name: Bluesky
+    url: https://govfresh.bsky.social
+    icon: *bluesky
 
   - name: Mastodon 
     url: https://mastodon.social/@govfresh
@@ -64,25 +68,21 @@ docs:
     url: https://x.com/govfresh
     icon: *twitter
 
-  - name: LinkedIn
-    url: https://www.linkedin.com/company/govfresh
-    icon: *linkedin
-
-  - name: Bluesky
-    url: https://govfresh.bsky.social
-    icon: *bluesky
+  - name: YouTube
+    url: https://www.youtube.com/@GovFresh
+    icon: *youtube
 
   - name:  Facebook
     url: https://www.facebook.com/govfresh
     icon: *facebook
 
+#  - name: Discord
+#    url: 
+#    icon: *discord
+
 #  - name: Medium
 #    url: 
 #    icon: *medium
-
-  - name: YouTube
-    url: https://www.youtube.com/@GovFresh
-    icon: *youtube
 
 #  - name: Vimeo
 #    url: 

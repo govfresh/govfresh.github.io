@@ -1,0 +1,14 @@
+{% if page.video %}
+  {% if page.layout == "events" %}
+    <h2>Watch</h2>
+  {% endif %}
+  {% if page.video-description %}
+    <p>{{ page.video-description }}</p>
+  {% endif %}
+  <div class="ratio ratio-16x9 mb-4 border">
+    <iframe
+      src="https://www.youtube.com/embed/{{ page.video }}"
+      title="{{ video.title }}"
+      allowfullscreen></iframe>
+  </div>
+{% endif %}

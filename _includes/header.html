@@ -34,6 +34,11 @@
         {% include podcast.jsonld %}
         </script>
     {% endif %}
+    {% if page.schematype == "Event" %}
+        <script type="application/ld+json">
+        {% include event.jsonld %}
+        </script>
+    {% endif %}
     {% if page.schematype == "NewsArticle" %}
         <script type="application/ld+json">
         {% include index.jsonld %}
@@ -86,6 +91,8 @@
     <meta name="twitter:description" content="{{ page.description }}">
     {% if page.img-twitter %}
     <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-twitter }}">
+    {% elsif page.img-og %}
+    <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-og }}">
     {% else %}
     <meta property="twitter:image" content="{{ site.url }}/assets/img/avatar-twitter.png">
     {% endif %}
