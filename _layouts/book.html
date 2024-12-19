@@ -15,10 +15,14 @@ layout: book
         <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-6">
           {% if page.author %}
             <h2 class="mb-3">Review</h2>
-            {% include author.html %}
-            {% include read-time.html %}
           {% endif %}
-          {% if page.author %}
+            <div class="mb-4">
+              {% if page.author %}
+                {% include author.html %}
+                {% include date.html %}
+                {% include feedback.html %}
+                {% include share.html %}
+                </div>
             <div id="post">
           {% endif %}
           {% if page.quote %}

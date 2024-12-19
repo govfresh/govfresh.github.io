@@ -11,6 +11,7 @@ github:
 category:
   - Accessibility
   - Artificial intelligence
+  - Blockchain
   - Business
   - Civic hacking
   - Cybersecurity

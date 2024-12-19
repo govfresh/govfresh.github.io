@@ -16,7 +16,7 @@
             "postalCode": "{{ page.zip }}",
             "addressRegion": "{{ page.state }}",
             "addressCountry": "{{ page.country }}",
-            "url": "{{ page.event-link-virtual }}"
+            "url": "{{ page.event-link }}"
         }
     },
     "image": [

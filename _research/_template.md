@@ -13,6 +13,7 @@ audio: #.mp3
 category:
   - Accessibility
   - Artificial intelligence
+  - Blockchain
   - Business
   - Civic hacking
   - Cybersecurity

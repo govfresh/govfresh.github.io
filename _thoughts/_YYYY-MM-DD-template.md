@@ -13,6 +13,7 @@ img-link: https://fontawesome.com/
 category:
   - Accessibility
   - Artificial intelligence
+  - Blockchain
   - Business
   - Civic hacking
   - Cybersecurity

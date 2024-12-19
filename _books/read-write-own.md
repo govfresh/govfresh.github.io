@@ -23,6 +23,7 @@ amazon: https://www.amazon.com/Read-Write-Own-Building-Internet-ebook/dp/B0C8FNF
 quote: 
 category:
   - Artificial intelligence
+  - Blockchain
   - Data
   - Open source software
 author: Luke Fretwell

@@ -31,6 +31,7 @@ rss:
 category:
   - Accessibility
   - Artificial intelligence
+  - Blockchain
   - Civic hacking
   - Cybersecurity
   - Data

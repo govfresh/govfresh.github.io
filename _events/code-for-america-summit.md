@@ -8,6 +8,8 @@ end-date: 2025-05-30
 event-type: Place #VirtualLocation / Place
 event-location: Washington, D.C.
 event-link: https://summit.codeforamerica.org/
+event-link-text: summit.codeforamerica.org
+event-link-register: https://summit.codeforamerica.org/
 org: Code for America
 org-link: https://codeforamerica.org
 hashtag: "#CfASummit"

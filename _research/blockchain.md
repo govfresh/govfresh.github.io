@@ -11,6 +11,7 @@ img-caption: "Link icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: #.mp3
 category:
+  - Blockchain
   - Data
   - Open source software
 feature: ""

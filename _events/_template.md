@@ -1,18 +1,35 @@
 ---
 title: ""
-date: YYYY-MM-DD
-modified: 
 description: ""
-author: Luke Fretwell
+author: GovFresh
+event-date: #"May 29–30, 2025"
+start-date: #2025-05-29
+end-date: #2025-05-30
+event-type: #VirtualLocation / Place
+event-location: #Washington, D.C.
+event-link: 
+event-link-text: 
+event-link-register: 
+org: 
+org-link: 
+hashtag: #"#"
 img-feat: -feat.png
 img-og: -og.png
 img-twitter: -twitter.png
-img-alt: " icon"
-img-caption: " icon via Font Awesome"
-img-link: https://fontawesome.com/
+img-alt: " logo"
+img-caption: ""
+img-link: 
+street-address: 
+city: 
+state: 
+country: 
+video: 
+video-title: #""
+video-description: #"Watch the xyz playlist:"
 category:
   - Accessibility
   - Artificial intelligence
+  - Blockchain
   - Business
   - Civic hacking
   - Cybersecurity
@@ -24,7 +41,6 @@ category:
   - Policy
   - Procurement
 #feature: "true"
-#contributors:
-#  - 
 ---
 
+## About

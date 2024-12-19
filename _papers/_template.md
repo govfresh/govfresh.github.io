@@ -13,6 +13,7 @@ img-link: https://openmoji.org/
 category:
   - Accessibility
   - Artificial intelligence
+  - Blockchain
   - Civic hacking
   - Cybersecurity
   - Data

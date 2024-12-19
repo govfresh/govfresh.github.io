@@ -16,7 +16,7 @@
       </div>
     </div>
   {% elsif page.layout == "events" %}
-    <div class="container pt-4 mb-3">
+    <div class="container py-4 mb-4 border-bottom">
       <div class="row">
         <div class="col-12">
           {% if page.title %}
@@ -56,9 +56,13 @@
                 <small>
                   <i class="fa-regular fa-building"></i>
                   Host:
-                  <a href="{{ page.org-link }}" class="link-body-emphasis link-offset-3">
-                    {{ page.org }}
-                  </a>
+                  {% if page.org-link %}
+                    <a href="{{ page.org-link }}" class="link-body-emphasis link-offset-3">
+                  {% endif %}
+                  {{ page.org }}
+                  {% if page.org-link %}
+                    </a>
+                  {% endif %}
                 </small>
               </p>
             {% endif %}
@@ -72,8 +76,19 @@
               </p>
             {% endif %}
             {% if page.event-link %}
+              <p class="small text-body-secondary mb-0">
+                <small>
+                  <i class="fa-solid fa-link"></i>
+                  Website:
+                  <a href="{{ page.event-link }}" class="link-body-emphasis link-offset-3">
+                    {{ page.event-link-text }}
+                  </a>
+                </small>
+              </p>
+            {% endif %}
+            {% if page.event-link-register %}
               <p>
-                <a href="{{ page.event-link }}" class="btn btn-primary btn-bd-primary my-3">
+                <a href="{{ page.event-link-register }}" class="btn btn-primary btn-bd-primary my-3">
                   Register
                 </a>
               </p>
@@ -139,7 +154,7 @@
           {% include image.html %}
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <ul class="list-unstyled mb-4">
+          <ul class="list-unstyled mb-0 text-body-secondary small">
             {% if page.book-author %}
               <li>By {{ page.book-author }}</li>
             {% endif %}
@@ -165,6 +180,19 @@
               <li>Publisher: {{ page.publisher }}</li>
             {% endif %}
           </ul>
+          {% if page.bookshop %}
+            <p>
+              <a href="{{ page.bookshop }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-2">
+                Buy
+              </a>
+            </p>
+          {% elsif page.amazon %}
+            <p>
+              <a href="{{ page.amazon }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-2">
+                Buy
+              </a>
+            </p>
+          {% endif %}
           {% if page.website %}
             <a
               href="{{ page.website }}"
@@ -204,19 +232,6 @@
               class="text-decoration-none d-block btn btn-primary btn-bd-primary btn-sm mb-3 text-start">
               <i class="fab fa-amazon"></i>
               Amazon</a>
-          {% endif %}
-          {% if page.bookshop %}
-            <p>
-              <a href="{{ page.bookshop }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-2">
-                Buy
-              </a>
-            </p>
-          {% elsif page.amazon %}
-            <p>
-              <a href="{{ page.amazon }}" class="btn btn-primary btn-bd-primary btn-lg mt-4 mb-2">
-                Buy
-              </a>
-            </p>
           {% endif %}
           {% include disclosure.html %}
         </div>

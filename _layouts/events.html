@@ -14,6 +14,15 @@ layout: events
         <div id="post">
           <div class="pb-4">{{ content }}
             {% include video.html %}
+            {% if page.event-link-register %}
+              <h2>Register</h2>
+              <p>
+                <a href="{{ page.event-link-register }}" class="btn btn-primary btn-bd-primary my-3">
+                  Register
+                </a>
+              </p>
+            {% endif %}
+
           </div>
         </div>
         {% include topics.html %}
