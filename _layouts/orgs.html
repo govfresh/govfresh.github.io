@@ -1,5 +1,5 @@
 ---
-layout: events
+layout: orgs
 ---
 
 {% include header.html %}
@@ -14,11 +14,10 @@ layout: events
         <div id="post">
           <div class="pb-4">{{ content }}
             {% include video.html %}
-            {% if page.event-link-register %}
-              <h2>Register</h2>
+            {% if page.link %}
               <p>
-                <a href="{{ page.event-link-register }}" class="btn btn-primary btn-bd-primary my-3">
-                  Register
+                <a href="{{ page.link }}" class="btn btn-primary btn-bd-primary my-3">
+                  Learn more
                 </a>
               </p>
             {% endif %}

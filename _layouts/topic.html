@@ -25,6 +25,8 @@ layout: topic
                   {% if collection == 'posts' %}Signal
                   {% elsif collection == 'dm' %}
                     Direct message
+                  {% elsif collection == 'orgs' %}
+                    Organizations
                   {% else %}
                     {{ collection | capitalize }}
                   {% endif %}

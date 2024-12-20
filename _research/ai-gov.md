@@ -1,5 +1,5 @@
 ---
-title: "AI and the U.S. government"
+title: "AI and the U.S. federal government"
 date: 2024-11-26
 description: "GovFresh research notes on artificial intelligence and the U.S. government."
 author: GovFresh

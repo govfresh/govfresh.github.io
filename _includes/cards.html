@@ -78,6 +78,23 @@
         {% endif %}
       {% endfor %}
     </div>
+  {% elsif pull == "orgs" %}
+    <!-- Orgs -->
+    <!-- Orgs secondary -->
+    <div class="card-group mb-3">
+      {% assign limit = site.orgs-number | plus: 0 %}
+      {% assign amount = 1 %}
+      {% for item in site.orgs reversed %}
+        {% if amount < limit and title != item.title and page.short == "true" or title == "Government. Fresh." %}
+          {% include card-orgs.html level = "secondary" %}
+          {% assign amount = amount | plus: 1 %}
+        <!-- Orgs primary -->
+        {% elsif page.short != "true" and title != "Government. Fresh." %}
+          {% include card-orgs.html %}
+          {% assign amount = amount | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
   {% elsif pull == "briefs" %}
     <!-- briefs -->
     <!-- briefs secondary -->

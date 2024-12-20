@@ -11,7 +11,7 @@
       {% endif %}
       {% if item.title %}
         <div class="card-body">
-          <h2 class="h3">
+          <h2 class="h4">
             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
           </h2>
           <p class="card-text text-body-secondary small">
@@ -21,34 +21,6 @@
           </p>
         </div>
       {% endif %}
-      <div class="card-footer">
-        {% if item.event-date %}
-          <p class="small text-body-secondary mb-0">
-            <small>
-              <i class="fa-regular fa-calendar"></i>
-              Date:
-              {{ item.event-date }}
-            </small>
-          </p>
-        {% endif %}
-        {% if item.event-location %}
-          <p class="small text-body-secondary mb-0">
-            <small>
-              <i class="fa-solid fa-location-pin"></i>
-              Location:
-              {{ item.event-location }}
-            </small>
-          </p>
-        {% endif %}
-        {% if item.org %}
-          <p class="text-body-secondary small mb-0">
-            <small>
-              <i class="fa-regular fa-building"></i>
-              Host:
-              {{ item.org }}</small>
-          </p>
-        {% endif %}
-      </div>
     </div>
   </div>
 {% else %}
@@ -65,7 +37,7 @@
       {% endif %}
       {% if item.title %}
         <div class="card-body">
-          <h2 class="h3">
+          <h2 class="h4">
             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
           </h2>
           <p class="card-text text-body-secondary small">
@@ -75,34 +47,6 @@
           </p>
         </div>
       {% endif %}
-      <div class="card-footer">
-        {% if item.event-date %}
-          <p class="small text-body-secondary mb-0">
-            <small>
-              <i class="fa-regular fa-calendar"></i>
-              Date:
-              {{ item.event-date }}
-            </small>
-          </p>
-        {% endif %}
-        {% if item.event-location %}
-          <p class="small text-body-secondary mb-0">
-            <small>
-              <i class="fa-solid fa-location-pin"></i>
-              Location:
-              {{ item.event-location }}
-            </small>
-          </p>
-        {% endif %}
-        {% if item.org %}
-          <p class="text-body-secondary small mb-0">
-            <small>
-              <i class="fa-regular fa-building"></i>
-              Host:
-              {{ item.org }}</small>
-          </p>
-        {% endif %}
-      </div>
     </div>
   </div>
 {% endif %}

@@ -98,6 +98,109 @@
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
       </div>
     </div>
+  {% elsif page.layout == "orgs" %}
+    <div class="container py-4 mb-4 border-bottom">
+      <div class="row">
+        <div class="col-12">
+          {% if page.title %}
+            <h1 class="display-6 mb-4">{{ page.title }}</h1>
+          {% endif %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          {% include image.html %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          {% if page.description %}
+            <p class="lead mb-4">{{ page.description }}</p>
+          {% endif %}
+          {% if page.link %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-solid fa-link"></i>
+                <a href="{{ page.link }}" class="link-body-emphasis link-offset-3">
+                  Website
+                </a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.github %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-github"></i>
+                <a href="{{ page.github }}" class="link-body-emphasis link-offset-3">
+                  GitHub</a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.linkedin %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="{{ page.linkedin }}" class="link-body-emphasis link-offset-3">
+                  LinkedIn</a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.instagram %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="{{ page.instagram }}" class="link-body-emphasis link-offset-3">
+                  Instagram</a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.threads %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-threads"></i>
+                <a href="{{ page.threads }}" class="link-body-emphasis link-offset-3">
+                  Threads</a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.youtube %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-youtube"></i>
+                <a href="{{ page.youtube }}" class="link-body-emphasis link-offset-3">
+                  YouTube</a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.x %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-x-twitter"></i>
+                <a href="https://x.com/{{ page.x }}" class="link-body-emphasis link-offset-3">
+                  X</a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.facebook %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="{{ page.facebook }}" class="link-body-emphasis link-offset-3">
+                  Facebook</a>
+              </small>
+            </p>
+          {% endif %}
+          {% if page.medium %}
+            <p class="small text-body-secondary mb-0">
+              <small>
+                <i class="fa-brands fa-medium"></i>
+                <a href="{{ page.medium }}" class="link-body-emphasis link-offset-3">
+                  Medium</a>
+              </small>
+            </p>
+          {% endif %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+    </div>
   {% elsif page.layout == "demos" %}
     <div class="container pt-3">
       <div class="row">

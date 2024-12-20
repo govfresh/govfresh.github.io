@@ -83,6 +83,16 @@ defaults:
       short: "true"
       schematype: "Event"
   - scope:
+      path: "_orgs"
+      type: "orgs"
+    values:
+      folder: "Organizations"
+      img-path: "logos"
+      parent: "orgs"
+      layout: "orgs"
+      short: "true"
+      schematype: "Organization"
+  - scope:
       path: "_books"
       type: "books"
     values:
@@ -197,6 +207,9 @@ collections:
   events:
     output: true
     permalink: /events/:title
+  orgs:
+    output: true
+    permalink: /orgs/:title
   briefs:
     output: true
     permalink: /briefs/:title
@@ -250,6 +263,7 @@ signal-number: &signal-number 2
 demos-number: &demos-number 3
 papers-number: &papers-number 2
 events-number: &events-number 4
+orgs-number: &orgs-number 4
 
 # Home page order
 order:
