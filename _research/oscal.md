@@ -12,7 +12,7 @@ img-link: https://fontawesome.com/
 audio: oscal.mp3
 category:
   - Cybersecurity
-  - Open source software
+  - Open source
 feature: "true"
 feedback: #true
 feedback-link: 

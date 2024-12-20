@@ -15,7 +15,7 @@ category:
   - Cybersecurity
   - Open government
   - Open innovation
-  - Open source software
+  - Open source
 feature: ""
 feedback: true
 feedback-link: https://docs.google.com/document/d/1mU6ZmKOylQzVtkSbyClQA0SbKiQu7DnOqzL9y363XG4/edit?usp=sharing

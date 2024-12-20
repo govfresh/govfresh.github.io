@@ -13,7 +13,7 @@ audio: fedramp.mp3
 category:
   - Business
   - Data
-  - Open source software
+  - Open source
   - Cybersecurity
 feature: "true"
 feedback: #true

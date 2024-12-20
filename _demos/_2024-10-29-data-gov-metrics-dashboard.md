@@ -11,7 +11,7 @@ category:
   - Data
   - Open government
   - Open innovation
-  - Open source software
+  - Open source
 img-feat: data-gov-metrics-dashboard-demo.png
 img-og: data-gov-metrics-dashboard-demo.png
 img-twitter: data-gov-metrics-dashboard-demo.png

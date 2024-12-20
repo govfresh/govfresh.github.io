@@ -14,7 +14,7 @@ img-link: https://thenounproject.com/icon/laurel-wreath-1383533/
 category:
   - Open government
   - Open innovation
-  - Open source software
+  - Open source
 #feature: "true"
 #feedback: true
 #feedback-link: 

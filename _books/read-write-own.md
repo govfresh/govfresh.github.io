@@ -25,7 +25,7 @@ category:
   - Artificial intelligence
   - Blockchain
   - Data
-  - Open source software
+  - Open source
 author: Luke Fretwell
 feature: yes
 ---

@@ -14,7 +14,7 @@ category:
   - Cybersecurity
   - Open government
   - Open innovation
-  - Open source software
+  - Open source
   - Policy
 feature: "true"
 #contributors:

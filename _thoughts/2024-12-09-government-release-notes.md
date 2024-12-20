@@ -11,7 +11,7 @@ img-alt: "Two overlapping sheets of paper, indicating documentation or files."
 img-caption: "File icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
-  - Open source software
+  - Open source
 feature: "true"
 #contributors:
 #  - 

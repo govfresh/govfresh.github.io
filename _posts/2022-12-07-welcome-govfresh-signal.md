@@ -15,7 +15,7 @@ category:
   - Design
   - Open government
   - Open innovation
-  - Open source software
+  - Open source
 ---
 
 Welcome to GovFresh Signal, the official GovFresh newsletter.

@@ -35,7 +35,7 @@ category:
   - Design
   - Open government
   - Open innovation
-  - Open source software
+  - Open source
   - Policy
   - Procurement
 #feature: "true"

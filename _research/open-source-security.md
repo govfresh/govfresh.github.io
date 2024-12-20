@@ -12,7 +12,7 @@ img-link: https://fontawesome.com/
 audio: #.mp3
 category:
   - Cybersecurity
-  - Open source software
+  - Open source
 feature: ""
 feedback: true
 feedback-link: https://docs.google.com/document/d/1Mn8yQRKiqCVUEBrTuRbroNonyo-NvxSdwlt_HeDzflI/edit?usp=sharing

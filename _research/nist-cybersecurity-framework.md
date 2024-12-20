@@ -12,7 +12,7 @@ img-link: https://fontawesome.com/
 audio: nist-csf.mp3
 category:
   - Data
-  - Open source software
+  - Open source
   - Cybersecurity
 feature: "true"
 feedback: #true

@@ -145,7 +145,7 @@ defaults:
       type: "topics"
     values:
       folder: "Topics"
-      img-path: "posts"
+      img-path: "pages"
       parent: "topics"
       layout: "topic"
       short: "false"

@@ -77,7 +77,7 @@ It’s an approach I am using in the upcoming <a href="https://www.facebook.com/
 
 I’ve <a href="http://radar.oreilly.com/2011/07/app-outreach-and-sustainabilit.html#comments">argued in the past</a> that one of the key benefits of civic hackathons is that they stretch traditional notions of public service delivery and show governments what is possible to do with their data. I can’t think of a more effective way to do this than through a civic hacking event.
 
-There is also the very real potential for these events to generate reusable components - open source software that can be used by other developers or governments to build civic applications down the road.
+There is also the very real potential for these events to generate reusable components - Open source that can be used by other developers or governments to build civic applications down the road.
 
 Nick Judd of <em>TechPresident</em> <a href="http://techpresident.com/short-post/code-americas-chief-geek-says-civic-hackers-should-fix-hackathons-next">said this much more eloquently</a> than I:
 

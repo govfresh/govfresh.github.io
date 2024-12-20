@@ -30,7 +30,7 @@ rss:
 category:
   - Data
   - Open innovation
-  - Open source software
+  - Open source
 feature: 
 ---
 

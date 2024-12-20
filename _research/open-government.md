@@ -15,7 +15,7 @@ category:
   - Data
   - Open government
   - Open innovation
-  - Open source software
+  - Open source
 feature: ""
 feedback: true
 feedback-link: https://docs.google.com/document/d/1xDsQ9daRMlZhW3pRchiIgEZtUxHvKGcj9rSX7dcAp_I/edit?usp=sharing

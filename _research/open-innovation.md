@@ -14,7 +14,7 @@ category:
   - Civic hacking
   - Data
   - Open innovation
-  - Open source software
+  - Open source
 feature: "true"
 feedback: true
 feedback-link: https://docs.google.com/document/d/1RF8uPWERWIFxZnTOBDV2nJ4U_zdmqcmiruJdrz4CC98/edit?usp=sharing

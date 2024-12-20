@@ -13,7 +13,7 @@ audio: #.mp3
 category:
   - Blockchain
   - Data
-  - Open source software
+  - Open source
 feature: ""
 feedback: true
 feedback-link: https://docs.google.com/document/d/1kjR92gZIVwkHtcKE7jEoEoGzmCr4ddkoVKE0MUzjZJM/edit?usp=sharing

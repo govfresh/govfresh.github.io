@@ -12,7 +12,7 @@ img-link: https://fontawesome.com/
 audio: zero-trust.mp3
 category:
   - Data
-  - Open source software
+  - Open source
   - Cybersecurity
 feature: "true"
 feedback: #true
