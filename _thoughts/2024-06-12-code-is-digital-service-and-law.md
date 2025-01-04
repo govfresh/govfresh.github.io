@@ -11,6 +11,7 @@ img-alt: "Computer with code icon"
 img-caption: "Computer with code icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
+  - Customer experience
   - Design
   - Policy
 feature: "true"

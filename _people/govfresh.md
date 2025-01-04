@@ -27,6 +27,6 @@ team:
 show: hide
 ---
 
-GovFresh is an [open civic organization](/thoughts/open-civic-organizations) working at the intersection of design, technology and government.
+GovFresh is an [open civic organization](https://oco.govfresh.com) working at the intersection of design, technology and government.
 
-GovFresh was founded by [Luke Fretwell](/people/lukefretwell) in May 2009.
+GovFresh was founded by [Luke Fretwell](https://lukefretwell.com) in May 2009.

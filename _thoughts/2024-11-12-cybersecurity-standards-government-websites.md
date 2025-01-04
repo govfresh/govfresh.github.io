@@ -12,9 +12,6 @@ img-caption: "Shield icon via Font Awesome"
 img-link: https://fontawesome.com/
 category:
   - Cybersecurity
-  - Open government
-  - Open innovation
-  - Open source
   - Policy
 feature: "true"
 #contributors:

@@ -2,11 +2,12 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap/bootstrap.min.css">
   <!-- Custom CSS -->
 <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
-  <!-- Syntax highlighting -->
+{% if page.layout "podcast" or page.layout == "research" %}
+  <link href="{{site.baseurl}}/css/plyr.css" rel="stylesheet">{% endif %}
+<!-- Syntax highlighting -->
 <link rel="stylesheet" href="{{site.baseurl}}/css/base16.dark.css">
   <!-- Font Awesome -->
 <link
   rel="stylesheet"
   href="{{site.baseurl}}/assets/font-awesome/css/all.min.css"
-  crossorigin="anonymous">
-<script src="{{site.baseurl}}/assets/font-awesome/js/all.min.js" crossorigin="anonymous"></script>
+  crossorigin="anonymous"><script src="{{site.baseurl}}/assets/font-awesome/js/all.min.js" crossorigin="anonymous"></script>

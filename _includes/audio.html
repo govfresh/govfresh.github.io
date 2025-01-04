@@ -1,0 +1,28 @@
+{% if page.audio %}
+  <div class="border drop-shadow2 mb-3 pt-2 px-3">
+    <h2 class="pb-0">Listen</h2>
+    {% if page.layout == "research" %}
+      <p class="pb-0 small text-body-secondary mb-0 pb-0">A podcast-like overview created with Google NotebookLM.</p>
+    {% endif %}
+    <script src="{{ site.baseurl }}/js/plyr.js"></script>
+    <audio id="player" controls>
+      {% if page.layout == "research" %}
+        <source src="{{ site.url }}/assets/audio/{{ page.audio }}" type="audio/mp3">
+      {% else %}
+        <source src="{{ page.audio }}" type="audio/mp3">
+      {% endif %}
+    </audio>
+    <script>
+              const plyr = new Plyr('audio', {
+                  controls: [
+                      'play',
+                      'progress',
+                      'current-time',
+                      'duration',
+                      'mute',
+                      'volume'
+                  ]
+              });
+    </script>
+  </div>
+{% endif %}

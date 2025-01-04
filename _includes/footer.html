@@ -1,7 +1,9 @@
+<!-- Footer -->
 <button
   href="javascript:void(0);"
   id="back-to-top"
-  onclick="document.documentElement.scrollTop = 0;">
+  onclick="document.documentElement.scrollTop = 0;"
+  aria-label="Back to top">
   <i class="fas fa-chevron-up fa-lg"></i>
 </button>
 <script>
@@ -42,8 +44,8 @@
           <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 mb-3">
             <ul class="nav flex-column">
               {% for item in col %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0 text-body-secondary">{{ item.title }}</a>
+                <li class="small">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link link-offset-3 p-0">{{ item.title }}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -54,7 +56,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 border-top pt-4">
-          <p class="small text-body-secondary">
+          <p class="small">
             <small>{{ site.title }} {{ "now" | date: "%Y" }}</small>
           </p>
         </div>

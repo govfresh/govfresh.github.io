@@ -1,10 +1,10 @@
 {% for post in site.posts limit: 1 %}
-  <div class="container d-md-none">
+  <div class="card-group d-md-none mt-3">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         {% if post.title %}
           <h3 class="mb-4">
-            <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary link-offset-3 link-underline-opacity-0">{{ post.title }}</a>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="link-offset-3 link-underline-opacity-0">{{ post.title }}</a>
           </h3>
         {% endif %}
         <a href="{{ site.baseurl }}{{ post.url }}">
@@ -14,24 +14,17 @@
             alt="{{ post.title }}">
         </a>
         {% if post.description %}
-          <p class="text-body-secondary">
+          <p class="lead text-body-secondary">
             {{ post.description }}
           </p>
         {% endif %}
-        {% if post.author %}
-          <p class="small text-body-secondary mb-0">
-            <small>
-              <i class="fa-solid fa-circle-user"></i>
-              By:
-              {{ post.author }}
-            </small>
-          </p>
-        {% endif %}
+        {% include author.html %}
         {% include date.html %}
+        {% include updated.html %}
       </div>
     </div>
   </div>
-  <div class="container d-none d-md-block">
+  <div class="card-group d-none d-md-block mt-3">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         {% if post.title %}
@@ -40,22 +33,13 @@
           </h3>
         {% endif %}
         {% if post.description %}
-          <p class="text-body-secondary">
+          <p class="lead text-body-secondary">
             {{ post.description }}
           </p>
         {% endif %}
-        {% if post.author %}
-          <p class="small text-body-secondary mb-0">
-            <small>
-              <i class="fa-solid fa-circle-user"></i>
-              By:
-              {{ post.author }}
-              {% if post.date %}
-              {% endif %}
-            </small>
-          </p>
-        {% endif %}
+        {% include author.html %}
         {% include date.html %}
+        {% include updated.html %}
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <a href="{{ site.baseurl }}{{ post.url }}">

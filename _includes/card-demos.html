@@ -5,7 +5,7 @@
         <div class="card-img-top">
           <img
             alt="{{ item.img-alt }}"
-            class="xxl border-bottom"
+            class="xxl"
             src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
         </div>
       {% endif %}
@@ -19,11 +19,11 @@
         {% endif %}
         {% if item.description %}
           <p class="text-body-secondary small mb-0 pb-0">
-            {{ item.description }}
+            <small>{{ item.description }}</small>
           </p>
         {% endif %}
       </div>
-      <p class="text-body-secondary">
+      <div class="card-footer text-body-secondary text-end small">
         <small>Watch
           <i class="fa-solid fa-circle-play"></i>
         </small>
@@ -37,25 +37,25 @@
         <div class="card-img-top">
           <img
             alt="{{ item.img-alt }}"
-            class="xxl border-bottom"
+            class="xxl"
             src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
         </div>
       {% endif %}
       <div class="card-body">
         {% if item.title %}
-          <h3 class="h4">
+          <h2 class="h4">
             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
               {{ item.title }}
             </a>
-          </h3>
+          </h2>
         {% endif %}
         {% if item.description %}
           <p class="text-body-secondary small mb-0 pb-0">
-            {{ item.description }}
+            <small>{{ item.description }}</small>
           </p>
         {% endif %}
       </div>
-      <div class="card-footer text-body-secondary text-end">
+      <div class="card-footer text-body-secondary text-end small">
         <small>Watch
           <i class="fa-solid fa-circle-play"></i>
         </small>

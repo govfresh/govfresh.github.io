@@ -12,6 +12,7 @@ img-link:
 audio: uswds.mp3
 category:
   - Accessibility
+  - Customer experience
   - Design
 feature: #"true"
 feedback: #true

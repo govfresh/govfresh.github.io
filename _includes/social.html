@@ -1,5 +1,4 @@
 {% if include.size == "footer" %}
-  <!-- Footer -->
   <ul class="list-inline mb-5 mt-3">
     {% for item in site.data.connect.docs %}
       {% if item.url %}
@@ -7,8 +6,8 @@
           <a
             href="{{ item.url }}"
             aria-label="{{ item.name }}"
-            class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
-            <i class="{{ item.icon }} {{ site.data.connect.md }} mr-2 p-2 drop-shadow4"></i>
+            class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
+            <i class="{{ item.icon }} {{ site.data.connect.md }} mr-2 p-2 drop-shadow3"></i>
           </a>
         </li>
       {% endif %}
@@ -27,7 +26,7 @@
         <a
           href="{{ data.website }}"
           aria-label="Website"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -37,7 +36,7 @@
         <a
           aria-label="Email"
           href="mailto:{{ data.email }}"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -47,7 +46,7 @@
         <a
           aria-label="Calendar"
           href="{{ data.calendar }}"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class=" {{ site.data.connect.calendar }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -57,7 +56,7 @@
         <a
           href="{{ data.subscribe }}"
           aria-label="Subscribe"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.subscribe }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -67,7 +66,7 @@
         <a
           href="{{ data.linkedin }}"
           aria-label="LinkedIn"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -78,7 +77,7 @@
           href="{{ data.bluesky }}"
           rel="me"
           aria-label="Bluesky"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.bluesky }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -89,7 +88,7 @@
           href="{{ data.mastodon }}"
           rel="me"
           aria-label="Mastodon"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.mastodon }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -99,7 +98,7 @@
         <a
           href="{{ data.patreon }}"
           aria-label="Patreon"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.patreon }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -109,7 +108,7 @@
         <a
           href="{{ data.twitter }}"
           aria-label="Twitter"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.twitter }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -119,7 +118,7 @@
         <a
           href="{{ data.facebook }}"
           aria-label="Facebook"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.facebook }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -129,7 +128,7 @@
         <a
           href="{{ data.medium }}"
           aria-label="Medium"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.medium }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -139,7 +138,7 @@
         <a
           href="{{ data.youtube }}"
           aria-label="YouTube"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.youtube }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -149,7 +148,7 @@
         <a
           href="{{ data.vimeo }}"
           aria-label="Vimeo"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.vimeo }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -159,7 +158,7 @@
         <a
           href="{{ data.instagram }}"
           aria-label="Instagram"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.instagram }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -169,7 +168,7 @@
         <a
           href="{{ data.flickr }}"
           aria-label="Flickr"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.flickr }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -179,7 +178,7 @@
         <a
           href="{{ data.figma }}"
           aria-label="Figma"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.figma }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -189,7 +188,7 @@
         <a
           href="{{ data.tumblr }}"
           aria-label="Tumblr"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.tumblr }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -199,7 +198,7 @@
         <a
           href="{{ data.library }}"
           aria-label="Library"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.library }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -209,7 +208,7 @@
         <a
           href="{{ data.bookshop }}"
           aria-label="Bookshop"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.bookshop }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -219,7 +218,7 @@
         <a
           href="{{ data.goodreads }}"
           aria-label="GoodReads"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.goodreads}} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -229,7 +228,7 @@
         <a
           href="{{ data.amazon }}"
           aria-label="Amazon"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.amazon }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -239,7 +238,7 @@
         <a
           href="{{ data.apple }}"
           aria-label="Apple"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.apple }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -249,7 +248,7 @@
         <a
           href="{{ data.spotify }}"
           aria-label="Spotify"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.spotify }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -259,7 +258,7 @@
         <a
           href="{{ data.rss }}"
           aria-label="RSS"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.rss }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -269,7 +268,7 @@
         <a
           href="{{ data.github }}"
           aria-label="GitHub"
-          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow4">
+          class="link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover drop-shadow3">
           <i class="{{ site.data.connect.github }} {{ site.data.connect.sm }}"></i>
         </a>
       </li>
@@ -281,9 +280,12 @@
     <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
       <div class="card py-5">
         <div class="card-body">
-          <a href="{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+          <a
+            href="{{ item.url }}"
+            aria-label="hidden"
+            class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
             <p class="mb-4">
-              <i class="{{ item.icon }} {{ site.data.connect.lg }} drop-shadow4"></i>
+              <i class="{{ item.icon }} {{ site.data.connect.lg }} drop-shadow3"></i>
             </p>
           </a>
           <p class="text-body-secondary small">{{ item.name }}</p>

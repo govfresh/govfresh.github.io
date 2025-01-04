@@ -26,6 +26,7 @@ category:
   - Business
   - Cybersecurity
   - Data
+  - Policy
   - Procurement
 author: Luke Fretwell
 feature: yes

@@ -13,6 +13,7 @@ audio: cloud-gov.mp3
 category:
   - Data
   - Open government
+  - Open innovation
   - Open source
   - Cybersecurity
 feature: "true"

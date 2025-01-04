@@ -1,13 +1,15 @@
-<p class="small text-body-secondary mb-0">
-  <small>
-    <i class="fa-regular fa-calendar"></i>
-    Posted:
-    {% if item.date %}
-      {{ item.date | date: site.date }}
-    {% elsif post.date %}
-      {{ post.date | date: site.date }}
-    {% elsif page.date %}
-      {{ page.date | date: site.date }}
-    {% endif %}
-  </small>
-</p>
+{% if page.date or post.date or item.date %}
+  <p class="small text-body-secondary mb-0">
+    <small>
+      <i class="fa-regular fa-calendar"></i>
+      Posted:
+      {% if post.date %}
+        {{ post.date | date: site.date }}
+      {% elsif item.date %}
+        {{ item.date | date: site.date }}
+      {% elsif page.date %}
+        {{ page.date | date: site.date }}
+      {% endif %}
+    </small>
+  </p>
+{% endif %}

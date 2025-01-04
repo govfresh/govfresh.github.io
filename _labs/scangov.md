@@ -10,6 +10,7 @@ website: https://scangov.org/
 github: 
 category:
   - Civic hacking
+  - Customer experience
   - Cybersecurity
   - Data
   - Design

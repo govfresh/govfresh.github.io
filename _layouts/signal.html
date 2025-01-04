@@ -19,9 +19,10 @@ layout: signal
           {% include read-time.html %}
           {% include feedback.html %}
           {% include share.html %}
-          <div id="post">
+          <div class="post">
             <articlebody>
               <div class="post-signal border-top pt-4 mt-4">
+                {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
                 {{ content }}
               </div>
             </articlebody>

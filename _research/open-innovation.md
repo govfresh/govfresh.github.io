@@ -13,6 +13,7 @@ audio: #.mp3
 category:
   - Civic hacking
   - Data
+  - Open government
   - Open innovation
   - Open source
 feature: "true"

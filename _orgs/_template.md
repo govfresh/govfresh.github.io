@@ -30,6 +30,7 @@ category:
   - Blockchain
   - Business
   - Civic hacking
+  - Customer experience
   - Cybersecurity
   - Data
   - Design

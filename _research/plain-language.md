@@ -11,6 +11,8 @@ img-caption: "Language icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: plain-language.mp3
 category:
+  - Accessibility
+  - Customer experience
   - Design
 feature: "true"
 feedback: #true

@@ -11,6 +11,7 @@ goodreads: https://www.goodreads.com/book/show/23258978-the-open-organization
 amazon: https://amzn.to/3mt8CAJ
 review-link: 
 category:
+  - Open government
   - Open innovation
   - Open source
 ---

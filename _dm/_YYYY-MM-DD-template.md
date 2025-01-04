@@ -33,6 +33,7 @@ category:
   - Artificial intelligence
   - Blockchain
   - Civic hacking
+  - Customer experience
   - Cybersecurity
   - Data
   - Design

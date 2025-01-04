@@ -11,8 +11,6 @@ img-caption: "Building shield icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: zero-trust.mp3
 category:
-  - Data
-  - Open source
   - Cybersecurity
 feature: "true"
 feedback: #true

@@ -22,7 +22,6 @@ goodreads: https://www.goodreads.com/book/show/183932735-autocracy-inc?from_sear
 amazon: https://www.amazon.com/Autocracy-Inc-Dictators-Want-World/dp/0385549938
 quote: 
 category:
-  - Artificial intelligence
   - Cybersecurity
   - Data
 author: 

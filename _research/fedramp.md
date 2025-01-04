@@ -12,8 +12,6 @@ img-link: https://fontawesome.com/
 audio: fedramp.mp3
 category:
   - Business
-  - Data
-  - Open source
   - Cybersecurity
 feature: "true"
 feedback: #true

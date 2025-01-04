@@ -12,6 +12,7 @@ goodreads: https://www.goodreads.com/book/show/15783275-citizenville
 amazon: https://www.amazon.com/Citizenville-Square-Digital-Reinvent-Government/dp/0143124471
 review-link: 
 category:
+  - Open government
 ---
 
 From the publisher:

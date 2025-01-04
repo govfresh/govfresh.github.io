@@ -14,28 +14,8 @@ layout: podcast
           {% include image.html %}
         </div>
         <div class="col-12 col-md-7 col-lg-7 col-xl-7">
-          {% if page.audio %}
-            <div class="border shadow2 mb-3 pt-2 px-3">
-              <h2 class="pb-0">Listen</h2>
-              <script src="{{ site.baseurl }}/js/plyr.js"></script>
-              <audio id="player" controls>
-                <source src="{{ page.audio }}" type="audio/mp3">
-              </audio>
-              <script>
-                    const plyr = new Plyr('audio', {
-                        controls: [
-                            'play',
-                            'progress',
-                            'current-time',
-                            'duration',
-                            'mute',
-                            'volume'
-                        ]
-                    });
-              </script>
-            </div>
-          {% endif %}
-          <div id="post">
+          {% include audio.html %}
+          <div class="post">
             <articlebody>
               <h2>In this episode</h2>
               {{ content }}

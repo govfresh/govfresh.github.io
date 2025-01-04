@@ -51,8 +51,8 @@ docs:
  - title: Briefs
    url: /briefs/
 
-# - title: Demos
-#   url: /demos/
+ - title: Demos
+   url: /demos/
 
  - title: Papers
    url: /papers/
@@ -96,8 +96,8 @@ docs:
  - title: Colophon
    url: /colophon/
 
- - title: Site index
-   url: /site-index/
+ - title: Site map
+   url: /site-map/
 
  - title: Releases
    url: https://github.com/govfresh/govfresh.github.io/releases

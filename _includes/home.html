@@ -4,7 +4,7 @@
     {% assign page = site.pages | where: "parent", i.name | first %}
     <div class="preview {{ page.parent }} border-bottom pb-5 pt-2 mb-2 mt-5">
       <h2>{{ page.title }}</h2>
-      <p class="lead">{{ page.description }}</p>
+      <p class="lead text-body-secondary">{{ page.description }}</p>
       {% assign amount = 1 %}
       {% if i.name == "signal" %}
         {% assign card = "home-signal.html" %}

@@ -15,7 +15,7 @@ layout: dm
           {% assign i = 0 %}
           {% for item in page.name %}
             {% include image.html %}
-            <ul class="list-unstyled text-body-secondary small">
+            <ul class="list-unstyled small">
               <li>
                 {% if page.group %}
                   {{ page.name[i] }}
@@ -43,7 +43,7 @@ layout: dm
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
           {% if content contains 'id="new"' %}
-            <div class="alert alert-primary" role="alert">
+            <div class="alert alert-info" role="alert">
               <div class="new-dm">
                 <a href="#new" class="text-body small">
                   Jump to new messages

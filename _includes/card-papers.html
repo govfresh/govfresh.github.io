@@ -1,6 +1,6 @@
 {% if include.level == "secondary" %}
   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card shadow2 mx-2 mb-3">
+    <div class="card drop-shadow2 mx-2 mb-3">
       {% if item.img-og %}
         <img
           src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
@@ -26,7 +26,7 @@
   </div>
 {% else %}
   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card shadow2 mx-2 mb-3">
+    <div class="card drop-shadow2 mx-2 mb-3">
       {% if item.img-og %}
         <img
           src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
@@ -35,9 +35,9 @@
       {% endif %}
       <div class="card-body">
         {% if item.title %}
-          <h3 class="h4 mt-2">
+          <h2 class="h4 mt-2">
             <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
-          </h3>
+          </h2>
         {% endif %}
         {% if item.description %}
           <p class="card-text text-body-secondary small">{{ item.description }}</p>

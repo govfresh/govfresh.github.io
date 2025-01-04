@@ -11,6 +11,7 @@ img-caption: "Money check icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: techfar.mp3
 category:
+  - Business
   - Procurement
 feature: "true"
 feedback: #true

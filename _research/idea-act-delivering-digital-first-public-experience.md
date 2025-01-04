@@ -11,6 +11,7 @@ img-caption: "Light bulb icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: idea-act.mp3
 category:
+  - Customer experience
   - Design
 feature: "true"
 feedback: #true

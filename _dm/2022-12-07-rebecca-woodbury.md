@@ -28,6 +28,7 @@ amazon:
 calendar: 
 rss: 
 category:
+  - Customer experience
   - Design
 feature: 
 ---

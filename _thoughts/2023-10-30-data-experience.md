@@ -11,6 +11,7 @@ img-alt: "Data icon"
 img-caption: "Data icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
+  - Customer experience
   - Data
   - Design
 feature: "true"

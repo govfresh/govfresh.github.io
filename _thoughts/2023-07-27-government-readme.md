@@ -11,7 +11,8 @@ img-alt: "Doc icon"
 img-caption: "Doc icon via Font Awesome"
 img-link: https://fontawesome.com
 category:
-  - Open innovation
+  - Open government
+  - Open source
 feature: "true"
 ---
 

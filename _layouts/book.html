@@ -11,8 +11,8 @@ layout: book
     {% include jumbotron.html %}
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"></div>
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-6">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
           {% if page.author %}
             <h2 class="mb-3">Review</h2>
           {% endif %}
@@ -23,23 +23,21 @@ layout: book
                 {% include feedback.html %}
                 {% include share.html %}
                 </div>
-            <div id="post">
           {% endif %}
           {% if page.quote %}
             <blockquote>
               <p>"{{ page.quote }}"</p>
             </blockquote>
-            <p class="small text-body-secondary mb-5">&mdash; {{ page.book-author }}</p>
+            <p class="small text-body-secondary mb-5 text-end">&mdash; {{ page.book-author }}</p>
           {% endif %}
           <div class="post">
-            {{ content }}
+            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
           </div>
           {% include topics.html %}
           {% if page.author %}
             </div>
           {% endif %}
-          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-3"></div>
-        </div>
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
       </div>
     </div>
   </article>

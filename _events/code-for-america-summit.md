@@ -29,7 +29,6 @@ video-description: "Watch the 2024 Code for America Summit playlist:"
 category:
   - Accessibility
   - Artificial intelligence
-  - Business
   - Civic hacking
   - Cybersecurity
   - Data
@@ -37,7 +36,6 @@ category:
   - Open government
   - Open innovation
   - Open source
-  - Policy
   - Procurement
 #feature: "true"
 ---

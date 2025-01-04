@@ -3,7 +3,13 @@
     <small>
       <i class="fa-regular fa-calendar-check"></i>
       Updated:
-      {{ page.modified | date: site.date }}
+      {% if item.modified %}
+        {{ item.modified | date: site.date }}
+      {% elsif post.modified %}
+        {{ post.modified | date: site.date }}
+      {% elsif page.modified %}
+        {{ page.modified | date: site.date }}
+      {% endif %}
     </small>
   </p>
 {% endif %}

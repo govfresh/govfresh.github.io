@@ -3,7 +3,8 @@
   {% for x in site.pages %}
     {% for loop in site.pages %}
       {% if include.show-only %}
-        {% if loop.parent == page.parent and show != "true" and site.[loop.parent] | size > 1 %}
+        {% assign size = site.[loop.parent] | size %}
+        {% if loop.parent == page.parent and show != "true" and size > 1 %}
           <div class="border-top pt-5 pb-3">
             {% assign show = "true" %}
             <h2>{{ loop.title }}</h2>

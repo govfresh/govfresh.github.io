@@ -1,16 +1,16 @@
-{% if page.parent == "signal" %}
-  {% if page.img-og %}
+{% if page.parent == "books" %}
+  {% if page.img-book %}
     <figure>
       <img
-        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
-        alt="{{ page.img-alt }}"
-        class="mb-3 drop-shadow border">
+        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-book }}"
+        alt="{{ page.book-title }}"
+        class="mb-3 drop-shadow border xl">
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
             <small>
               {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis">
               {% endif %}
               {{ page.img-caption }}
               {% if page.img-link %}
@@ -23,11 +23,11 @@
     </figure>
   {% endif %}
 {% endif %}
-{% if page.parent == "thoughts" %}
-  {% if page.img-feat %}
+{% if page.parent == "papers" or page.parent == "news" or page.parent == "research" or page.parent == "signal" %}
+  {% if page.img-og %}
     <figure>
       <img
-        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
+        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
         alt="{{ page.img-alt }}"
         class="mb-3 drop-shadow border xxl">
       {% if page.img-caption %}
@@ -35,7 +35,7 @@
           <p class="small text-body-secondary mb-4">
             <small>
               {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis">
               {% endif %}
               {{ page.img-caption }}
               {% if page.img-link %}
@@ -48,120 +48,20 @@
     </figure>
   {% endif %}
 {% endif %}
-{% if page.parent == "labs" or page.parent == "events" or page.parent == "orgs" %}
+{% if page.parent == "labs" or page.parent == "events" or page.parent == "orgs" or page.parent == "briefs" or page.parent == "thoughts" %}
   {% if page.img-feat %}
     <figure>
       <img
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
         alt="{{ page.img-alt }}"
         type="{{ page.folder }}"
-        class="lg mb-2 drop-shadow border">
+        class="mb-3 drop-shadow border xxl">
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
             <small>
               {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
-              {% endif %}
-              {{ page.img-caption }}
-              {% if page.img-link %}
-                </a>
-              {% endif %}
-            </small>
-          </p>
-        </figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-{% endif %}
-{% if page.parent == "books" %}
-  {% if page.img-book %}
-    <figure>
-      <img
-        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-book }}"
-        alt="{{ page.book-title }}"
-        class="xl mb-3 drop-shadow border">
-      {% if page.img-caption %}
-        <figcaption>
-          <p class="small text-body-secondary mb-4">
-            <small>
-              {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
-              {% endif %}
-              {{ page.img-caption }}
-              {% if page.img-link %}
-                </a>
-              {% endif %}
-            </small>
-          </p>
-        </figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-{% endif %}
-{% if page.parent == "news" %}
-  {% if page.img-og %}
-    <figure>
-      <img
-        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
-        alt="{{ page.img-alt }}"
-        class="mb-3 drop-shadow border">
-      {% if page.img-caption %}
-        <figcaption>
-          <p class="small text-body-secondary mb-4">
-            <small>
-              {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
-              {% endif %}
-              {{ page.img-caption }}
-              {% if page.img-link %}
-                </a>
-              {% endif %}
-            </small>
-          </p>
-        </figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-{% endif %}
-{% if page.parent == "research" %}
-  {% if page.img-feat %}
-    <figure>
-      <img
-        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
-        alt="{{ page.img-alt }}"
-        class="mb-3 drop-shadow border">
-      {% if page.img-caption %}
-        <figcaption>
-          <p class="small text-body-secondary mb-4">
-            <small>
-              {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
-              {% endif %}
-              {{ page.img-caption }}
-              {% if page.img-link %}
-                </a>
-              {% endif %}
-            </small>
-          </p>
-        </figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-{% endif %}
-{% if page.parent == "podcast" %}
-  {% if page.img-feat %}
-    <figure>
-      <img
-        src="{{ site.baseurl }}/assets/img/people/{{ page.img-feat }}"
-        alt="{{ page.img-caption }}"
-        class="rounded-circle md mb-3 drop-shadow border">
-      {% if page.img-caption %}
-        <figcaption>
-          <p class="small text-body-secondary mb-4">
-            <small>
-              {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis">
               {% endif %}
               {{ page.img-caption }}
               {% if page.img-link %}
@@ -181,13 +81,26 @@
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{% if page.group %}{{ page.img[i] }}{% else %}{{ page.img }}{% endif %}"
         alt="{% if page.group %}{{ page.img-alt[i] }}{% else %}{{ page.img-alt }}{% endif %}"
         type="{% if page.group %}{{ page.folder[i] }}{% else %} {{ page.folder }}{% endif %}"
-        class="rounded-circle lg mb-4 drop-shadow border">
+        class="mb-3 drop-shadow border rounded-circle lg">
+        {% if page.parent == "podcast" %}
+            <figure>
+              <img
+                src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                alt="{{ page.img-alt }}"
+                type="{{ page.folder }}"
+                class="
+                mb-3
+                drop-shadow
+                border
+                rounded-circle
+                lg">
+        {% endif %}
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
             <small>
               {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis">
               {% endif %}
               {{ page.img-caption }}
               {% if page.img-link %}
@@ -200,69 +113,25 @@
     </figure>
   {% endif %}
 {% endif %}
-{% if page.parent == "briefs" %}
-  {% if page.img-feat %}
-    <figure>
-      <img
-        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
-        alt="{{ page.img-alt }}"
-        class="lg mb-3 drop-shadow border">
-      {% if page.img-caption %}
-        <figcaption>
-          <p class="small text-body-secondary mb-4">
-            <small>
-              {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
-              {% endif %}
-              {{ page.img-caption }}
-              {% if page.img-link %}
-                </a>
-              {% endif %}
-            </small>
-          </p>
-        </figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-{% endif %}
-{% if page.parent == "papers" %}
-  {% if page.img-og %}
-    <figure>
-      <img
-        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
-        alt="{{ page.img-alt }}"
-        class="mb-3 drop-shadow border">
-      {% if page.img-caption %}
-        <figcaption>
-          <p class="small text-body-secondary mb-4">
-            <small>
-              {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
-              {% endif %}
-              {{ page.img-caption }}
-              {% if page.img-link %}
-                </a>
-              {% endif %}
-            </small>
-          </p>
-        </figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-{% endif %}
-{% if page.parent == "team" %}
+{% if page.parent == "podcast" %}
   {% if page.img-feat %}
     <figure>
       <img
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
         alt="{{ page.img-alt }}"
-        type="{{ page.folder }}">
+        type="{{ page.folder }}"
+        class="
+        mb-3
+        drop-shadow
+        border
+        rounded-circle
+        lg">
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
             <small>
               {% if page.img-link %}
-                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary">
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis">
               {% endif %}
               {{ page.img-caption }}
               {% if page.img-link %}

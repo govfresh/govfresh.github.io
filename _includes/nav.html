@@ -2,11 +2,14 @@
   <div class="border-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3 pt-1">
-          <a class="navbar-brand logo" href="{{ site.baseurl }}/">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 py-3">
+          <a
+            class="navbar-brand"
+            href="{{ site.baseurl }}/"
+            aria-label="GovFresh">
             <svg
               id="logo"
-              class="drop-shadow2 logo"
+              class="drop-shadow4 logo"
               width="200"
               height=""
               viewBox="0 0 1947 491"
@@ -15,83 +18,84 @@
             </svg>
           </a>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 pt-3 pb-3 text-end d-none d-md-block">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 pt-3 pb-3 text-end d-none d-lg-block">
           <a
             href="{{ site.baseurl }}/subscribe"
-            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-envelope-open-text drop-shadow4"></i>
+            <i class="fa-solid fa-envelope-open-text drop-shadow3"></i>
             Subscribe
           </a>
           <a
             href="{{ site.baseurl }}/community"
-            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-circle-nodes drop-shadow4"></i>
+            <i class="fa-solid fa-circle-nodes drop-shadow3"></i>
             Community
           </a>
           <a
             href="{{ site.baseurl }}/connect"
-            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-star drop-shadow4"></i>
+            <i class="fa-solid fa-star drop-shadow3"></i>
             Connect
           </a>
           <a
             href="{{ site.baseurl }}/sponsor"
-            class="small text-body-secondary link-primary link-underline-opacity-0 link-underline-opacity-0-hover"
+            class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
             style="margin-left: .5rem;">
-            <i class="fa-solid fa-heart drop-shadow4"></i>
+            <i class="fa-solid fa-heart drop-shadow3"></i>
             Sponsor
           </a>
           <a
             href="{{ site.baseurl }}/search"
+            aria-label="Search"
             style="margin-left: .5rem;"
-            class="small link-primary link-underline-opacity-0 link-underline-opacity-0-hover">
+            class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
             <i class="fa-solid fa-magnifying-glass"></i>
           </a>
           <a
-            style="margin-left: .5rem;"
+            style="margin-left: .5rem; display: inline-block; width: 1em;"
             class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
             href="javascript:void(0);"
             onclick="
             const theme = document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
             document.body.setAttribute('data-bs-theme', theme);
             document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-${theme==='light'?'moon':'sun'}' id='theme-toggle-icon'></i>`;
-            localStorage.setItem('theme', theme);">
+            localStorage.setItem('theme', theme);"
+            aria-label="Mode">
             <i class="fa-solid fa-sun" id="theme-toggle-icon"></i>
           </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="border-bottom">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <button
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          class="navbar-toggler ml-auto"
-          data-target="#navbarNavAltMarkup"
-          data-toggle="collapse"
-          type="button"
-          onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mr-auto"></div>
-          <div class="navbar-nav small">
-            {% for item in site.data.nav.docs %}
-              {% if item.url %}
-                <small>
-                  <a class="nav-item nav-link link-primary link-offset-3 {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                </small>
-              {% endif %}
-            {% endfor %}
-          </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <button
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler ml-auto"
+        data-target="#navbarNavAltMarkup"
+        data-toggle="collapse"
+        type="button"
+        onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto"></div>
+        <div class="navbar-nav small">
+          {% for item in site.data.nav.docs %}
+            {% if item.url %}
+              <small>
+                <a class="nav-item nav-link link-offset-3 {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+              </small>
+            {% endif %}
+          {% endfor %}
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </div>
 </div>
+<div id="main-content"></div>

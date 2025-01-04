@@ -11,7 +11,7 @@ layout: people
     <div class="row">
       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
         {% include image.html %}
-        <ul class="list-unstyled text-body-secondary small">
+        <ul class="list-unstyled small">
           {% if page.name %}
             <li>{{ page.name }}</li>
           {% endif %}
@@ -22,8 +22,11 @@ layout: people
             <li>{{ page.org }}</li>
           {% endif %}
         </ul>
-        <div class="pb-3 mb-4">
+        <div class="pb-3">
           {% include social.html size = "small" %}
+        </div>
+        <div class="pb-3">
+          {% include role.html %}
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">

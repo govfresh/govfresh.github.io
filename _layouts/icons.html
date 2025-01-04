@@ -11,12 +11,12 @@ layout: default
             <div class="card text-center pt-3 pb-3">
               <div class="card-body">
                 {% if item.icon %}
-                  <i class="{{ item.icon }} {{ site.data.connect.lg }} mb-3 drop-shadow4"></i>
+                  <i class="{{ item.icon }} {{ site.data.connect.lg }} mb-3 drop-shadow3" aria-label="hidden"></i>
                 {% endif %}
                 {% if item.url %}
-                  <h3 class="h4">
+                  <h2 class="h4">
                     <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{ item.title }}</a>
-                  </h3>
+                  </h2>
                 {% endif %}
               </div>
             </div>
@@ -38,7 +38,7 @@ layout: default
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
                       <div class="card text-center pt-3 pb-3">
                         <div class="card-body">
-                          <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3 shadow"></i>
+                          <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3 shadow" aria-label="hidden"></i>
                           <h2 class="h3">
                             <a href="{{ site.baseurl }}/{{ website.parent }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">{{
 website.title }}</a>

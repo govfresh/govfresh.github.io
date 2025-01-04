@@ -12,6 +12,7 @@ img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project (CC BY 3.0)
 img-link: https://thenounproject.com/icon/laurel-wreath-1383533/
 #audio: .mp3
 category:
+  - Civic hacking
   - Open government
   - Open innovation
   - Open source

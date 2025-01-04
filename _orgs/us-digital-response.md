@@ -22,12 +22,9 @@ video-title: #""
 video-description: #"Watch the xyz playlist:"
 category:
   - Accessibility
-  - Artificial intelligence
   - Civic hacking
-  - Cybersecurity
   - Data
   - Design
-  - Policy
   - Procurement
 #feature: "true"
 ---

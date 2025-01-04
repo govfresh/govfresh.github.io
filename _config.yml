@@ -248,17 +248,17 @@ collections:
     permalink: topics/:title
 
 # Pagination
-paginate: 100
+paginate: 6
 paginate_path: "/signal/:num"
 
 # Number limits
 briefs-number: &briefs-number 4
-books-number: &books-number 5
+books-number: &books-number 7
 dm-number: &dm-number 5
 labs-number: &labs-number 4
 podcast-number: &podcast-number 4
 research-number: &research-number 5
-thoughts-number: &thoughts-number 7
+thoughts-number: &thoughts-number 5
 signal-number: &signal-number 2
 demos-number: &demos-number 3
 papers-number: &papers-number 2

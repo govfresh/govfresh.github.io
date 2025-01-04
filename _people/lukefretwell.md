@@ -28,15 +28,16 @@ flickr:
 tumblr: 
 rss: 
 team: true
+role: Maintainer
 ---
 
 Luke Fretwell is a champion of open, accessible technologies that drive inclusive and collaborative democracy.
 
+He is the founder and maintainer of [GovFresh](https://govfresh.com/), a media and innovation lab focused on the intersection of design, technology and democracy.
+
 He is the co-founder of [ProudCity](https://proudcity.com/), a platform that empowers U.S. local governments to deliver better digital services. In its esteemed GovTech 100 list, _Government Technology_ annually recognizes ProudCity as one of the nation’s leading civic technology companies.
 
-He maintains [GovFresh](https://govfresh.com/), a media project focused on the intersection of design, technology and democracy.
-
-Luke has helped a number of early-stage government-focused companies gain momentum, including FedScoop and StateScoop, where he stood up editorial and digital operations, and the open data platform company NuCivic (acquired in 2014), where he led product marketing.
+Luke has helped early-stage government-focused companies gain momentum, including FedScoop and StateScoop, where he stood up editorial and digital operations, and the open data platform company NuCivic (acquired in 2014), where he led product marketing.
 
 He served as product designer for California’s[ Alpha](https://lukefretwell.com/work/alphacagov) team, an innovation project by the State of California to re-imagine CA.gov. He also worked with the state on[ Code California](https://lukefretwell.com/work/code-california), aimed at creating internal awareness around open source software and culture.
 

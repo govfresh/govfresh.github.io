@@ -1,0 +1,13 @@
+{% if page.role %}
+  {% assign role = page.role %}
+{% elsif item.role %}
+  {% assign role = item.role %}
+{% elsif author_data.role %}
+  {% assign role = author_data.role %}
+{% endif %}
+{% if role == "Maintainer" %}
+  <span class="badge badge-primary">Maintainer</span>
+{% endif %}
+{% if role == "Contributor" %}
+  <span class="badge badge-secondary">Contributor</span>
+{% endif %}

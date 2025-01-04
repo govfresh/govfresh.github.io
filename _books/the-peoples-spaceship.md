@@ -19,6 +19,7 @@ goodreads:
 amazon: https://www.amazon.com/Spaceship-All-Shuttle-Public-Engagement/dp/0822947668/ref=sr_1_1?crid=3G5F8YQRQ182F&dib=eyJ2IjoiMSJ9.ThNBZm3RfNfzWFMYGDRGFM2KFPElbVUSBC7Y-6iPesXFVQ_KDADAVz7Gy892r_cH8LBkNrCLc8FPIWEMmeP5g4GhPGg0CbTjeHA_u9nSMAv_VsGOvEoZ7b2sbxR-CFbdCOG7iJdz-4TvY_Fj0ekF5xLrYPawyh9tnf619K6ckst4SOqTimT3ZSQAyJDBqqqDAmfC0M4lfmuko3Sg3mBqXSaokQKf_aXQYwxsN-QRtKQ.Q06EqD2N8RP-_XRGxP9G5QOaekKVNGEyo4opJOFlUdg&dib_tag=se&keywords=The+People%E2%80%99s+Spaceship&qid=1718395592&sprefix=%2Caps%2C331&sr=8-1
 review-link: 
 category:
+  - Open government
 #author: Luke Fretwell
 feature: yes
 ---

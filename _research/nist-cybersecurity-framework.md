@@ -11,7 +11,6 @@ img-caption: "Shield icon via Font Awesome"
 img-link: https://fontawesome.com/
 audio: nist-csf.mp3
 category:
-  - Data
   - Open source
   - Cybersecurity
 feature: "true"
