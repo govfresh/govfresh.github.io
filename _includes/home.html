@@ -1,46 +1,48 @@
-<div class="home-include">
-  {% assign first = site.order | first %}
-  {% for i in site.order %}
-    {% assign page = site.pages | where: "parent", i.name | first %}
-    <div class="preview {{ page.parent }} border-bottom pb-5 pt-2 mb-2 mt-5">
-      <h2>{{ page.title }}</h2>
-      <p class="lead text-body-secondary">{{ page.description }}</p>
-      {% assign amount = 1 %}
-      {% if i.name == "signal" %}
-        {% assign card = "home-signal.html" %}
-      {% else %}
-        {% assign card = "card-" | append: i.name | append: ".html" %}
-      {% endif %}
-      {% if i.site-name %}
-        {% comment %}
-          Signal is under site.posts
-        {% endcomment %}
-        {% assign name = i.site-name %}
-      {% else %}
-        {% assign name = i.name %}
-      {% endif %}
-      <div class="card-group mb-3">
-        {% assign items = site.[name] | reverse %}
-        {% for item in items %}
-          {% if amount < i.number %}
-            {% if name == "books" %}
-              {% if item.feature %}
+<div id="main-content">
+  <div class="home-include">
+    {% assign first = site.order | first %}
+    {% for i in site.order %}
+      {% assign page = site.pages | where: "parent", i.name | first %}
+      <div class="preview {{ page.parent }} border-bottom mt-2 mb-2 pt-2 pb-3">
+        <h2>{{ page.title }}</h2>
+        <p class="lead text-body-secondary">{{ page.description }}</p>
+        {% assign amount = 1 %}
+        {% if i.name == "signal" %}
+          {% assign card = "home-signal.html" %}
+        {% else %}
+          {% assign card = "card-" | append: i.name | append: ".html" %}
+        {% endif %}
+        {% if i.site-name %}
+          {% comment %}
+            Signal is under site.posts
+          {% endcomment %}
+          {% assign name = i.site-name %}
+        {% else %}
+          {% assign name = i.name %}
+        {% endif %}
+        <div class="card-group mb-3">
+          {% assign items = site.[name] | reverse %}
+          {% for item in items %}
+            {% if amount < i.number %}
+              {% if name == "books" %}
+                {% if item.feature %}
+                  {% include {{ card }} level="true" %}
+                  {% assign amount = amount | plus: 1 %}
+                {% endif %}
+              {% else %}
                 {% include {{ card }} level="true" %}
                 {% assign amount = amount | plus: 1 %}
               {% endif %}
-            {% else %}
-              {% include {{ card }} level="true" %}
-              {% assign amount = amount | plus: 1 %}
             {% endif %}
-          {% endif %}
-        {% endfor %}
+          {% endfor %}
+        </div>
+        {% if page.permalink %}
+          {% assign permalink = page.permalink %}
+        {% else %}
+          {% assign permalink = page.parent %}
+        {% endif %}
+        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
       </div>
-      {% if page.permalink %}
-        {% assign permalink = page.permalink %}
-      {% else %}
-        {% assign permalink = page.parent %}
-      {% endif %}
-      <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>

@@ -1,6 +1,6 @@
 <div id="main-content">
   {% if page.layout == "signal" %}
-    <div class="container pt-3">
+    <div class="container pt-1 pb-2 mb-2">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
@@ -16,7 +16,7 @@
       </div>
     </div>
   {% elsif page.layout == "events" %}
-    <div class="container py-4 mb-4 border-bottom">
+    <div class="container pt-1 pb-2 mb-2 border-bottom">
       <div class="row">
         <div class="col-12">
           {% if page.title %}
@@ -99,7 +99,7 @@
       </div>
     </div>
   {% elsif page.layout == "orgs" %}
-    <div class="container py-4 mb-4 border-bottom">
+    <div class="container pt-1 pb-2 mb-2 border-bottom">
       <div class="row">
         <div class="col-12">
           {% if page.title %}
@@ -219,7 +219,7 @@
       </div>
     </div>
   {% elsif page.layout == "news" %}
-    <div class="container pt-3">
+    <div class="container pt-1">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
         <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
@@ -241,7 +241,7 @@
       </div>
     </div>
   {% elsif page.layout == "book" %}
-    <div class="container pt-3 pb-4 mb-2">
+    <div class="container pt-1 pb-2 mb-3 border-bottom">
       <div class="row">
         <div class="col-12">
           {% if page.title %}
@@ -252,7 +252,7 @@
           {% endif %}
         </div>
       </div>
-      <div class="row border-bottom">
+      <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
           {% include image.html %}
@@ -343,7 +343,7 @@
       </div>
     </div>
   {% elsif page.layout == "thoughts" %}
-    <div class="container border-bottom pt-3 pb-4 mb-4">
+    <div class="container pt-1 pb-3 mb-4 border-bottom">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
           {% if page.title %}
@@ -357,7 +357,7 @@
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
           {% if page.description %}
-            <p class="lead text-body-secondary mb-5">{{ page.description }}</p>
+            <p class="lead text-body-secondary mb-4">{{ page.description }}</p>
           {% endif %}
           {% include author.html %}
           {% include date.html %}
@@ -370,7 +370,7 @@
       </div>
     </div>
   {% elsif page.layout == "briefs" %}
-    <div class="container border-bottom pt-3 pb-3">
+    <div class="container pt-1 pb-3 mb-4 border-bottom">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
           {% include image.html %}
@@ -406,7 +406,7 @@
       </div>
     </div>
   {% elsif page.layout == "papers" %}
-    <div class="container border-bottom pb-3 pt-3 mb-3">
+    <div class="container pt-1 pb-3 mb-4 border-bottom">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
@@ -428,7 +428,7 @@
       </div>
     </div>
   {% elsif page.layout == "research" %}
-    <div class="container border-bottom pt-3 pb-4 mb-4">
+    <div class="container pt-1 pb-3 mb-4 border-bottom">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
           {% include image.html %}
@@ -463,7 +463,7 @@
       </div>
     </div>
   {% elsif page.layout == "dm" %}
-    <div class="pt-3 pb-4 mb-2">
+    <div class="pt-1 pb-2 mb-2">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -479,7 +479,7 @@
     </div>
   {% elsif page.layout == "podcast" %}
     <!-- Audio player -->
-    <div class="container border-bottom pt-4 pb-4 mb-5">
+    <div class="container pt-1 pb-3 mb-4 border-bottom">
       <div class="row">
         <div class="col-sm-12">
           <h1 class="display-5 mb-3">{{ page.title }}</h1>
@@ -510,7 +510,7 @@
       {% endif %}
     </div>
   {% elsif page.layout == "labs" %}
-    <div class="container pt-4 mb-5">
+    <div class="container pt-1 pb-2 mb-2">
       <div class="row">
         <div class="col-12">
           {% if page.title %}
@@ -539,11 +539,11 @@
       </div>
     </div>
   {% else %}
-    <div class="container pt-4 pb-4">
+    <div class="container pt-1">
       <div class="row">
         <div class="col-12">
           {% if page.title %}
-            <h1 class="display-5 mb-4">{{ page.title }}</h1>
+            <h1 class="display-5 mb-3">{{ page.title }}</h1>
           {% endif %}
           {% if page.description %}
             <p class="lead text-body-secondary mb-4">{{ page.description }}</p>

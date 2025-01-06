@@ -280,9 +280,9 @@ order:
     name: signal
     number: *signal-number
     site-name: posts
-#  - 
-#    name: demos
-#    number: *demos-number
+  - 
+    name: demos
+    number: *demos-number
   - 
     name: papers
     number: *papers-number
