@@ -63,42 +63,6 @@
       </div>
     </div>
   </div>
-<!-- <div class="cookie-banner border-top" id="cookieBanner">  This website uses cookies to improve your experience.  <button onclick="acceptCookies()">Accept</button>
-  <button class="reject" onclick="rejectCookies()">Reject</button>
-</div>
-<script>
-  function setCookie(name, value, days) {
-      const d = new Date();
-      d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-      let expires = "expires=" + d.toUTCString();
-      document.cookie = name + "=" + value + ";" + expires + ";path=/";
-  }
-
-  function getCookie(name) {
-      let nameEQ = name + "=";
-      let ca = document.cookie.split(';');
-      for(let i = 0; i < ca.length; i++) {
-          let c = ca[i];
-          while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-      }
-      return null;
-  }
-
-  function acceptCookies() {
-      setCookie("cookieConsent", "accepted", 30);
-      document.getElementById("cookieBanner").style.display = "none";
-  }
-  function rejectCookies() {
-      setCookie("cookieConsent", "rejected", 30);
-      document.getElementById("cookieBanner").style.display = "none";
-  }
-  window.onload = function() {
-      if (!getCookie("cookieConsent")) {
-          document.getElementById("cookieBanner").style.display = "block";
-      }
-  }
-</script> -->
 </footer>
 {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
