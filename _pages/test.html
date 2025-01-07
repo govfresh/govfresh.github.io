@@ -1,0 +1,61 @@
+---
+title: Test
+description: Test page for mobile.
+permalink: /test/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Three Posts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container d-sm-none">
+      <div class="row row-cols-1 g-4">
+        {% assign sorted_thoughts = site.thoughts | sort: 'date' | reverse %}
+        {% for page in sorted_thoughts limit: 3 %}
+          <div class="col">
+            <div class="card flex-row">
+              <img
+                src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
+                class="img-fluid"
+                alt="Post 1"
+                style="width: 150px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="{{ site.baseurl }}{{ page.url }}" class="link-primary link-offset-3 link-underline-opacity-0">{{ page.title }}</a>
+                </h5>
+                <p class="card-text text-body-secondary">{{ page.description }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="container d-sm-none">
+      <div class="row row-cols-1 g-4">
+        {% for page in site.posts limit: 3 %}
+          <div class="col">
+            <div class="card flex-row">
+              <img
+                src="{{ site.baseurl }}/assets/img/posts/{{ page.img-feat }}"
+                class="img-fluid"
+                alt="Post 1"
+                style="width: 150px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="{{ site.baseurl }}{{ page.url }}" class="link-primary link-offset-3 link-underline-opacity-0">{{ page.title }}</a>
+                </h5>
+                <p class="card-text text-body-secondary">{{ page.description }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

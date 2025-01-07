@@ -36,7 +36,7 @@
 }
 
 @font-face {
-    font-family: "Pt Serif Regular";
+    font-family: "PT Serif Regular";
     src: url("/assets/fonts/pt-serif/PtSerif-Regular.ttf") format("truetype");
 }
 
@@ -462,8 +462,8 @@ nav a:hover {
 
 .alert-info {
     background-color: var(--bs-info-bg) !important;
-    color: var(--bs-body-color);
-    border-color: var(--bs-border-color);
+    color: var(--bs-body-color) !important;
+    border-color: var(--bs-border-color) !important;
 }
 
 /* Buttons */
