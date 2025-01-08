@@ -27,7 +27,9 @@ layout: dm
                 {% if page.group %}
                   {{ page.position[i] }},
                 {% else %}
-                  {{ page.position }},
+                  {% if page.position %}
+                    {{ page.position }},
+                  {% endif %}
                 {% endif %}
                 {% if page.group %}
                   {{ page.org[i] }}
