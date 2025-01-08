@@ -421,19 +421,21 @@ article h2, article h3, article h4 {
 }
 
 .post-dm h3 {
-    background-color: var(--bs-primary);
+    background-color: var(--bs-body-color);
     border-radius: var(--size-4);
-    color: var(--bs-white);
+    color: var(--bs-body-bg);
     font-family: var(--bs-font-sans-serif) !important;
     font-size: var(--size-7) !important;
+    line-height: 1.6 !important;
     margin: var(--size-6) var(--size-1);
     margin-left: var(--size-9);
     padding: var(--size-9);
     letter-spacing: normal;
+    box-shadow: -5px 5px 0px 0px var(--bs-gray);
 }
 
 .post-dm h3 a, .post-dm h3 a:visited, .post-dm h3 a:hover {
-    color: var(--bs-body-color);
+    color: var(--bs-body-bg) !important;
     text-decoration: underline !important;
 
 }
@@ -560,6 +562,7 @@ img.xxl {
     margin: var(--size-6) var(--size-1);
     margin-right: var(--size-9);
     padding: var(--size-9);
+    box-shadow: 5px 5px 0px 0px var(--bs-body-color);
 }
 
 .post-dm a, .post-dm a:visited, .post-dm a:hover {

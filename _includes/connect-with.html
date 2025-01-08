@@ -1,3 +1,4 @@
+{% if page.linkedin or page.twitter or page.email or page.website %}
 <div class="alert alert-info pt-2 pb-4 mt-3 mb-3 drop-shadow2">
     {% if page.layout == "dm" %}
         {% assign i = 0 %}
@@ -61,3 +62,4 @@
             </ul>
     {% endif %}
 </div>
+{% endif %}
