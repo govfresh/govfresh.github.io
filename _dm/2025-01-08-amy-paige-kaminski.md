@@ -4,8 +4,8 @@ date: 2025-01-08
 description: "Author, catalyst, & champion for public engagement with space, science, & technology"
 author: GovFresh
 name: Amy Paige Kaminski
-position: Chief of Public Engagement
-org: Science Mission Directorate, NASA
+position: 
+org: 
 shortname: Amy
 img: amy-kaminski.jpg
 img-feat: amy-kaminski-dm-feat.jpg
