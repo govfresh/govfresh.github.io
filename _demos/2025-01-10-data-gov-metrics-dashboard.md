@@ -1,14 +1,12 @@
 ---
 title: "Data.gov metrics dashboard"
 description: "Data.gov Product Manager Tim Lowden demos the new metrics dashboard."
-date: 2025-01-06
+date: 2025-01-10
 author: GovFresh
-video: CqJgTuQC42M
-video-title: "Data.gov metrics dashboard"
+video: V_q2ga7SA_I
+video-title: "Data.gov metrics dashboard demo"
 category:
-  - Artificial intelligence
   - Civic hacking
-  - Cybersecurity
   - Data
   - Open government
   - Open innovation
@@ -19,7 +17,7 @@ img-twitter: data-gov-metrics-dashboard-demo.png
 img-alt: "Text: Data.gov metrics dashboard"
 ---
 
-Tim Lowden gives a demo of the new [Data.gov metrics dashboard](https://data.gov/metrics/).
+Data.gov Product Manager Tim Lowden gives a demo of [Data.gov](https://data.gov) and its [new metrics dashboard](https://data.gov/metrics/).
 
 Related:
 
