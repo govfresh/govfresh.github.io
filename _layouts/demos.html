@@ -7,10 +7,12 @@ layout: demos
 {% include breadcrumb.html %}
 <main>
   <article>
-    {% include jumbotron.html %}
-    <div class="container">
-      <div class="row border-top mt-4 pt-4">
-        <div class="col-12 col-md-9 col-lg-9 col-xl-9">
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          <div class="pt-1 pb-3 mb-3 border-bottom">
+            {% include jumbotron.html %}
+          </div>
           <div class="pb-3 post">
             <articlebody>
               {{ content }}
@@ -18,7 +20,9 @@ layout: demos
           </div>
           {% include topics.html %}
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          {% include demos.html %}
+        </div>
       </div>
     </div>
   </article>

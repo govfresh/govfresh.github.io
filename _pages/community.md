@@ -48,6 +48,6 @@ We adhere to the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_Hous
 
 Have feedback on the community?
 
-* Post to the #feedback channel
+* Post to the #general channel
 * [Submit a GitHub issue](
 https://github.com/govfresh/govfresh.github.io/issues/new?assignees=&labels=general&template=general.md&title=)

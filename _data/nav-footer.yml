@@ -8,9 +8,6 @@ docs:
  - title: People
    url: /people/
 
- - title: Contributors
-   url: /contributors/
-
  - title: Services
    url: /services/
 
@@ -27,6 +24,9 @@ docs:
 
  - title: Connect
    url: /connect/
+
+ - title: Collaborate
+   url: /collaborate/
 
  - title: Sponsor
    url: /sponsor/
