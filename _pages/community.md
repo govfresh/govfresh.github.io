@@ -28,11 +28,11 @@ The GovFresh community is an open community of practice for civic technologists,
 * Openness
 * Inclusiveness
 
-## Open community of practice
+## Open civic organization
 
-How we define open community of practice:
+We are an [open civic organization](https://oco.govfresh.com):
 
-> Mission-minded people, powered by open culture, joining together, learning from one another and making better democracy.
+> Mission-minded people, powered by open, agile flow, joining together, learning from one another, building a better civic experience for the communities they serve.
 
 ## Chatham House Rule
 
@@ -50,4 +50,4 @@ Have feedback on the community?
 
 * Post to the #general channel
 * [Submit a GitHub issue](
-https://github.com/govfresh/govfresh.github.io/issues/new?assignees=&labels=general&template=general.md&title=)
+https://github.com/govfresh/govfresh.github.io/issues/new?assignees=&labels=community&projects=&template=community.md&title=)
