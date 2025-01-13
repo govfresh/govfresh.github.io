@@ -64,12 +64,12 @@ Contribution types:
 - [Signal](/signal) is where we post timely news and our newsletter.
 - [Send a tip/pitch](https://forms.gle/gm8REnxgwXUjsWWq7)
 
+## General
+
+- [Submit an issue on GitHub](https://github.com/govfresh/govfresh.github.io/issues/new/choose)
+
 ## Contact
 
 Questions or need a different way to connect with us?
 
 - [Contact us](/contact)
-
-## General
-
-- [Submit an issue on GitHub](https://github.com/govfresh/govfresh.github.io/issues/new/choose)

@@ -35,7 +35,7 @@
       {% assign amount = 1 %}
       {% for item in site.demos reversed %}
         {% if amount < limit and title != item.title and page.short == "true" or title == "Government. Fresh." %}
-          {% include card-demos.html level = "secondary" %}
+          {% include card-demos.html level="secondary" %}
           {% assign amount = amount | plus: 1 %}
         <!-- Demos primary -->
         {% elsif page.short != "true" and title != "Government. Fresh." %}

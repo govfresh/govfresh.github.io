@@ -6,14 +6,13 @@ author: GovFresh
 video: V_q2ga7SA_I
 video-title: "Data.gov metrics dashboard demo"
 category:
-  - Civic hacking
   - Data
   - Open government
   - Open innovation
   - Open source
-img-feat: data-gov-metrics-dashboard-demo.png
-img-og: data-gov-metrics-dashboard-demo.png
-img-twitter: data-gov-metrics-dashboard-demo.png
+img-feat: demo-datagov-metrics-dashboard-feat.png
+img-og: demo-data-gov-metrics-dashboard-og.png
+img-twitter: demo-data-gov-metrics-dashboard-og.png
 img-alt: "Text: Data.gov metrics dashboard"
 ---
 

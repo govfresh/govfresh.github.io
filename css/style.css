@@ -599,8 +599,8 @@ blockquote p, blockquote ul {
 
 /* Cards */
 
-.card {
-    width: 100%;
+.card, .card-body, .row-cols-1 {
+    width: 100% !important;
 }
 
 .card-img-top {
@@ -609,6 +609,11 @@ blockquote p, blockquote ul {
 
 .home-include .border-bottom:last-child {
     border-bottom: none !important;
+}
+
+h3.demos {
+    letter-spacing: normal !important;
+    line-height: normal !important;
 }
 
 /* Lists */

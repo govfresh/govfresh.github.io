@@ -13,27 +13,25 @@ layout: demos
           <div class="pt-1 pb-3 mb-3 border-bottom">
             {% include jumbotron.html %}
           </div>
-          <div class="pb-3 post">
+          <div class="post">
             <articlebody>
               {{ content }}
             </articlebody>
           </div>
+          {% include demos.html %}
           {% include topics.html %}
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-          {% include demos.html %}
+          {% if site.demos.size > 1 %}
+            <aside>
+              <h2 class="h4 pt-0 pb-3 my-0">More demos</h2>
+              {% include cards.html %}
+              <a href="{{ site.baseurl }}/demos" class="btn btn-primary btn-bd-primary btn-sm">Demos</a>
+            </aside>
+          {% endif %}
         </div>
       </div>
     </div>
   </article>
 </main>
-<aside>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        {% include previews.html show-only="true" %}
-      </div>
-    </div>
-  </div>
-</aside>
 {% include footer.html %}
