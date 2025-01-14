@@ -8,9 +8,9 @@ position:
 org: 
 shortname: 
 img: .jpg
-img-feat: dm--feat.png
-img-og: dm--og.png
-img-twitter: dm--twitter.png
+img-feat: -dm-feat.png
+img-og: -dm-og.png
+img-twitter: -dm-twitter.png
 img-alt: "Headshot of "
 #img-caption: ""
 email: 

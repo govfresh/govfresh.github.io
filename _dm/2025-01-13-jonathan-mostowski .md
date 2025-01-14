@@ -8,9 +8,9 @@ position: President
 org: Agile Acquisitions, LLC
 shortname: Jonathan
 img: jonathan-mostowski.jpeg
-img-feat: dm-jonathan-mostowski-feat.png
-img-og: dm-jonathan-mostowski-og.png
-img-twitter: dm-jonathan-mostowski-twitter.png
+img-feat: jonathan-mostowski-dm-feat.png
+img-og: jonathan-mostowski-dm-og.png
+img-twitter: jonathan-mostowski-dm-twitter.png
 img-alt: "Headshot of Jonathan Mostowski"
 #img-caption: ""
 email: jonmost@agileacq.com
