@@ -7,9 +7,10 @@ name:
 position: 
 org: 
 shortname: 
-img-feat: -dm-feat.png
-img-og: -dm-og.png
-img-twitter: -dm-twitter.png
+img: .jpg
+img-feat: dm--feat.png
+img-og: dm--og.png
+img-twitter: dm--twitter.png
 img-alt: "Headshot of "
 #img-caption: ""
 email: 
@@ -32,6 +33,7 @@ category:
   - Accessibility
   - Artificial intelligence
   - Blockchain
+  - Business
   - Civic hacking
   - Customer experience
   - Cybersecurity
