@@ -19,7 +19,7 @@ assignees: ''
 
 Copy:
 
-New @GovFresh research page on '' 🔬
+New @GovFresh research notes on '' 🔬
 
 [LINK]
 
