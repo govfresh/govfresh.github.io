@@ -1,6 +1,6 @@
 ---
 title: "Public AI"
-date: 2025-01-20
+date: 2025-01-21
 description: "GovFresh research notes on public artificial intelligence."
 author: GovFresh
 img-feat: research-road-feat.png
