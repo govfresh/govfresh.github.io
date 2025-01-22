@@ -16,6 +16,16 @@ assignees: ''
 - [ ] Publish
 
 ## Promote
+
+Copy:
+
+New @GovFresh research page on '' 🔬
+
+[LINK]
+
+#
+
+- [ ] [Slack]
 - [ ] [Substack](https://govfresh.substack.com/)
 - [ ] [LinkedIn](https://www.linkedin.com/company/govfresh)
 - [ ] [X](https://www.x.com/govfresh)
