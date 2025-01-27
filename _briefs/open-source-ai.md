@@ -376,6 +376,11 @@ Related:
 
 * “Supporting open-source AI communities will be essential for promoting ethical and innovative AI developments, benefiting individual projects, and advancing technology responsibly.”
 
+## This just in 🚨
+
+[DeepSeek](https://www.deepseek.com/)'s open source approach and claims of a "significant breakthrough in inference speed" has [put the tech industry (and the market) on high alert](https://www.axios.com/2025/01/27/deepseek-ai-china-venture-capital).
+
+More to come on this front, but another indicator that we're just at the beginning of open source AI. 
 
 ## To be continued 💭
 
