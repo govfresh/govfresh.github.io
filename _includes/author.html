@@ -7,7 +7,7 @@
   {% for author in itemAuthor %}
     {% assign author_data = site.people | where: "title", author | first %}
     {% if author_data.content.size > 1 %}
-      <p class="small text-body-secondary mb-0">
+      <p class="small text-body-secondary mb-1">
         <small>
           <i class="fa-solid fa-circle-user"></i>
           By:

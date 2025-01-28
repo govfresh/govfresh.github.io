@@ -1,79 +1,79 @@
-<div class="dropdown">
-  <p
-    class="small text-body-secondary mb-0"
-    id="shareDropdown"
-    data-bs-toggle="dropdown"
-    aria-expanded="false"
-    style="cursor: pointer;">
+<ul class="list-inline mb-1">
+  <li class="small list-inline-item text-body-secondary">
     <small>
-      <i class="fa-solid fa-share"></i>
-      Share this
+      <i class="fa-solid fa-share" aria-hidden="true"></i>
+      Share:
     </small>
-  </p>
-  <ul class="dropdown-menu" aria-labelledby="shareDropdown">
-    <li class="small text-body-secondary">
-      <button
-        class="dropdown-item"
-        type="button"
-        onclick="copyLink()">
-        <i class="fa-solid fa-link me-2"></i>Copy link
-      </button>
-    </li>
-    <li class="small text-body-secondary">
-      <a
-        class="dropdown-item"
-        href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}"
-        target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa-brands fa-linkedin me-2"></i>LinkedIn
-      </a>
-    </li>
-    <!-- Bluesky Share Link -->
-    <li class="small text-body-secondary">
-      <a
-        class="dropdown-item"
-        href="https://bsky.app/share?url={{ site.url }}{{ page.url }}"
-        target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa-brands fa-bluesky me-2"></i>Bluesky
-      </a>
-    </li>
-    <!-- Mastodon Share Link -->
-    <li class="small text-body-secondary">
-      <a
-        class="dropdown-item"
-        href="https://mastodon.social/share?url={{ site.url }}{{ page.url }}"
-        target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa-brands fa-mastodon me-2"></i>Mastodon
-      </a>
-    </li>
-    <li class="small text-body-secondary">
-      <a
-        class="dropdown-item"
-        href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}"
-        target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa-brands fa-x-twitter me-2"></i>X
-      </a>
-    </li>
-    <li class="small text-body-secondary">
-      <a
-        class="dropdown-item"
-        href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
-        target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa-brands fa-facebook me-2"></i>Facebook
-      </a>
-    </li>
-    <li class="small text-body-secondary">
-      <a
-        class="dropdown-item"
-        href="mailto:?subject=Check this out&body={{ site.url }}{{ page.url }}"
-        target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa-solid fa-envelope me-2"></i>Email
-      </a>
-    </li>
-  </ul>
-</div>
+  </li>
+  <li class="small list-inline-item">
+    <a
+      class="link-body-emphasis"
+      href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      <i class="fa-brands fa-linkedin me-1" aria-hidden="true"></i>
+      <span class="visually-hidden">LinkedIn</span>
+    </a>
+  </li>
+  <!-- Bluesky Share Link -->
+  <li class="small list-inline-item">
+    <a
+      class="link-body-emphasis"
+      href="https://bsky.app/share?url={{ site.url }}{{ page.url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      <i class="fa-brands fa-bluesky me-1" aria-hidden="true"></i>
+      <span class="visually-hidden">Bluesky</span>
+    </a>
+  </li>
+  <!-- Mastodon Share Link -->
+  <li class="small list-inline-item">
+    <a
+      class="link-body-emphasis"
+      href="https://mastodon.social/share?url={{ site.url }}{{ page.url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      <i class="fa-brands fa-mastodon me-1" aria-hidden="true"></i>
+      <span class="visually-hidden">Mastodon</span>
+    </a>
+  </li>
+  <li class="small list-inline-item">
+    <a
+      class="link-body-emphasis"
+      href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      <i class="fa-brands fa-x-twitter me-1" aria-hidden="true"></i>
+      <span class="visually-hidden">X</span>
+    </a>
+  </li>
+  <li class="small list-inline-item">
+    <a
+      class="link-body-emphasis"
+      href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      <i class="fa-brands fa-facebook me-1" aria-hidden="true"></i>
+      <span class="visually-hidden">Facebook</span>
+    </a>
+  </li>
+  <li class="small list-inline-item">
+    <a
+      class="link-body-emphasis"
+      href="mailto:?subject=Check this out&body={{ site.url }}{{ page.url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      <i class="fa-solid fa-envelope me-1" aria-hidden="true"></i>
+      <span class="visually-hidden">Email</span>
+    </a>
+  </li>
+  <li class="small list-inline-item">
+    <button
+      class="dropdown-item"
+      type="button"
+      onclick="copyLink()">
+      <i class="fa-solid fa-link me-1" aria-hidden="true"></i>
+      <span class="visually-hidden">Copy link</span>
+    </button>
+  </li>
+</ul>
