@@ -3,7 +3,7 @@ layout: news
 title: "DEF CON Franklin to host inaugural release of 'The Hackers' Almanack'"
 date: 2025-02-04
 author: GovFresh
-description: "An annual report contains 'the most innovative and impactful findings from DEF CON'."
+description: "Analysis of policy implications from DEF CON 32 findings."
 img-feat: defcon-franklin-feat.png
 img-og: defcon-franklin-og.png
 img-twitter: defcon-franklin-twitter.png
@@ -23,10 +23,10 @@ Catered lunch and refreshments will be served. All attendees will receive a copy
 
 Announced at DEF CON 2024, DEF CON Franklin aims to connect volunteers to "communities that are at gravest risk and least protected from growing attacks, such as water utilities and K-12 school districts."
 
-The Almanack is a product of Franklin, a joint project of DEF CON and the University of Chicago, Cyber Policy Initiative.
+The Almanack is a product of Franklin, a joint project of [DEF CON](https://defcon.org/) and the [University of Chicago, Cyber Policy Initiative](https://harris.uchicago.edu/news-events/news/harris-public-policy-announces-first-its-kind-cyber-policy-initiative).
 
 ## Event details
 
-- February 6, 11:00 am - 1:00 pm ET
+- February 6, 11:00 a.m. - 1:00 p.m. ET
 - 1730 Pennsylvania Avenue NW, Suite 275, Washington, D.C.
 - [RSVP](https://docs.google.com/forms/d/e/1FAIpQLSddYa5sBmsEgaML7LJ7KL4-TBRqt5QCK_ONUe6zlWE_H5lLjg/viewform)
