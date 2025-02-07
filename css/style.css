@@ -753,3 +753,13 @@ pre {
 .pagination .page-link {
     color: var(--bs-body-color) !important;
 }
+
+/* Feedback */
+
+.subscribe {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
