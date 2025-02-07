@@ -754,12 +754,11 @@ pre {
     color: var(--bs-body-color) !important;
 }
 
-/* Feedback */
+/* Subscribe */
 
 .subscribe {
     position: fixed;
     bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 2rem;
     z-index: 1000;
 }

@@ -1,7 +1,7 @@
 ---
 title: "Fork in the code"
 date: 2025-02-06
-modified: 
+modified: 2025-02-07
 description: "Repository bureaucracy and how the general public can help preserve government technology assets."
 author: Luke Fretwell
 img-feat: fork-feat.png
@@ -39,7 +39,7 @@ While the intent behind this (removing DEI references) was the main story, the c
 
 ## Git 101
 
-[Git](https://git-scm.com/) is a tool for managing code and working with other developers on software projects. A git repository is a place where project code, change history and related documentation is housed.
+[Git](https://git-scm.com/) is a tool for managing code and working with other developers on software projects. A git repository is a place where project code, change history and related documentation are housed.
 
 The U.S. federal government hosts hundreds (thousands?) of code repositories on collaborative development platforms like [GitHub](https://github.com) and [GitLab](https:/gitlab.com). This code could be data, applications or even an entire website.
 
@@ -51,11 +51,13 @@ While forking code may seem complicated, platforms make it easy, with the click 
 
 ## Fork the code
 
-To fork government code is to preserve today what may not be accessible tomorrow. There's no indication these repos won't be deleted, but there's also good reason to believe they might be.
+To fork government code is to preserve today what may not be accessible tomorrow. There's no indication these repos won't be deleted, but there's also good reason to believe they might.
 
 Citizen archivists can easily preserve this code by working together to fork as much as possible, before it's too late. A movement to do this in a collective effort housed in a centralized organization would be a proactive way to archive millions (billions?) of dollars of technical work available to the public at large.
 
 For example, repositories I forked within minutes include [Code.gov](https://github.com/civichackingagency/code-gov), [Data.gov](https://github.com/civichackingagency/data.gov), the [U.S. Web Design System](https://github.com/civichackingagency/uswds) and [Digital Services Playbook](https://github.com/civichackingagency/playbook).
+
+Note: Private repos that are forked will be deleted if the original repository is deleted. You must clone (download) these ([GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository), [GitLab](https://docs.gitlab.com/ee/topics/git/clone.html)).
 
 ## Thank you for your service
 

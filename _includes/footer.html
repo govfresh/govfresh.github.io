@@ -1,4 +1,20 @@
 <footer>
+  <a
+    href="/subscribe"
+    id="subscribe-button"
+    aria-label="Subscribe"
+    class="subscribe btn btn-primary">
+    Subscribe
+  </a>
+  <script>
+      const feedbackButton = document.getElementById("subscribe-button");
+      window.addEventListener('scroll', () => {
+    if (document.documentElement.scrollTop > window.innerHeight * .4) 
+      feedbackButton.style.opacity = '1';
+    else
+      feedbackButton.style.opacity = '0';
+      });
+  </script>
   <div class="py-3">
     <div class="container">
       <div class="row border-top border-bottom mb-5 pb-5 pt-5">
@@ -47,22 +63,6 @@
     </div>
   </div>
 </footer>
-<a
-  href="/subscribe"
-  id="subscribe-button"
-  aria-label="Subscribe"
-  class="subscribe btn btn-primary">
-  Subscribe
-</a>
-<script>
-  const feedbackButton = document.getElementById("subscribe-button");
-  window.addEventListener('scroll', () => {
-    if (document.documentElement.scrollTop > window.innerHeight * .4) 
-      feedbackButton.style.opacity = '1';
-    else
-      feedbackButton.style.opacity = '0';
-  });
-</script>
 
 {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
