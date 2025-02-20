@@ -12,7 +12,7 @@ assignees: ''
 ## Publish
 - [ ] Set up doc ([template](https://docs.google.com/document/d/1GdhZmFvKs7QUWCZ9bt55_Qoe_RGAHN4_FxLOGhxDgDs/edit?usp=sharing))
 - [ ] Add research
-- [ ] Share with community for feedback
+- [ ] Create meta images/thumbnail ([source](https://www.figma.com/design/qFVPWaHjk1l4k1iVybz9vy/GovFresh-brand-assets?node-id=707-16&t=yo4ffkC9FAsAgPBk-1)
 - [ ] Publish
 
 ## Promote
