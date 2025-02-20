@@ -116,17 +116,17 @@ docs:
 #    url: 
 #    icon: *goodreads
 
-#  - name: Amazon
-#    url: 
-#    icon: *amazon
+  - name: Amazon
+    url: https://music.amazon.com/podcasts/9d78e4a4-657a-456f-8cab-c031c791ee31/the-govfresh-podcast
+    icon: *amazon
  
 #  - name: Apple
 #    url: https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1468169431
 #    icon: *apple 
     
-#  - name: Spotify
-#    url: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
-#    icon: *spotify
+  - name: Spotify
+    url: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
+    icon: *spotify
 
   - name: RSS
     url: https://govfresh.com/feed.xml
