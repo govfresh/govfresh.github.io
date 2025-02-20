@@ -34,8 +34,6 @@ assignees: ''
 
 ## Promote
 
-## Promote
-
 - [ ] Send follow-up to guests (in email templates)
 - [ ] [Substack](https://govfresh.substack.com/)
 - [ ] [LinkedIn](https://www.linkedin.com/company/govfresh)
