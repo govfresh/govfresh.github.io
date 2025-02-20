@@ -7,9 +7,13 @@ assignees: ''
 
 ---
 
+[Doc](#)
+
 ## Publish
+- [ ] Set up doc ([template](https://docs.google.com/document/d/1pHdZCJDVy6i1IuWDErLU3TLo-bI_D3sAUTi5i6r7YD8/edit?usp=sharing))
 - [ ] Create meta images/thumbnail
 - [ ] Publish
+- [ ] Delete doc
 
 ## Promote
 - [ ] [Substack](https://govfresh.substack.com/)
