@@ -12,6 +12,11 @@
         {% else %}
           {% assign card = "card-" | append: i.name | append: ".html" %}
         {% endif %}
+        {% if i.name == "podcast" %}
+          {% assign items = site.data.podcast.docs %}
+        {% else %}
+          {% assign items = site[i.name] | reverse %}
+        {% endif %}
         {% if i.site-name %}
           {% comment %}
             Signal is under site.posts
@@ -21,7 +26,6 @@
           {% assign name = i.name %}
         {% endif %}
         <div class="card-group mb-3">
-          {% assign items = site.[name] | reverse %}
           {% for item in items %}
             {% if amount < i.number %}
               {% if name == "books" %}
@@ -41,7 +45,7 @@
         {% else %}
           {% assign permalink = page.parent %}
         {% endif %}
-        <a href="{{ site.baseurl }}{{ permalink }}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
+        <a href="{% if i.name == "podcast" %}https://podcast.govfresh.com{% else %}{{ site.baseurl }}{{ permalink }}{% endif %}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
       </div>
     {% endfor %}
   </div>

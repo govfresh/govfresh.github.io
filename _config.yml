@@ -159,16 +159,6 @@ defaults:
       layout: "labs"
       short: "true"
   - scope:
-      path: "_podcast"
-      type: "podcast"
-    values:
-      folder: "Podcast"
-      img-path: "people"
-      parent: "podcast"
-      layout: "podcast"
-      short: "true"
-      schematype: "PodcastSeries"
-  - scope:
       path: "_pages"
       type: "pages"
     values:
@@ -177,7 +167,7 @@ defaults:
       parent: "pages"
       layout: "default"
       short: "false"
-      schematype: "PodcastSeries"
+      schematype: ""
   - scope:
       path: "_briefs"
       type: "briefs"
@@ -240,9 +230,6 @@ collections:
   people:
     output: true
     permalink: people/:title
-  podcast:
-    output: true
-    permalink: podcast/:title
   topics:
     output: true
     permalink: topics/:title

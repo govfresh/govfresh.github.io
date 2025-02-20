@@ -6,4 +6,5 @@ img-og: podcast-og.png
 img-alt: ""
 permalink: /podcast/
 parent: podcast
+redirect_to: https://podcast.govfresh.com
 ---

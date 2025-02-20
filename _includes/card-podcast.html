@@ -27,14 +27,14 @@
   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
     <div class="card mx-2 mb-3 drop-shadow2">
       <div class="card-body p-4">
-        {% if item.img-feat %}
+        {% if item.img %}
           <img
-            src="{{ site.baseurl }}/assets/img/people/{{ item.img-feat }}"
+            src="{{ item.img }}"
             alt="{{ item.title }}"
             class="sm rounded-circle mb-4 drop-shadow border">
         {% endif %}
         <h2 class="h4">
-          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
+          <a href="{{ item.url }}" class="stretched-link link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
             {{ item.title }}
           </a>
         </h2>
@@ -44,7 +44,7 @@
       </div>
       {% if item.number %}
         <div class="card-footer text-body-secondary small">
-          <small>Season {{ item.season }} / Episode {{ item.number }}</small>
+          <small>#{{ item.number }}</small>
         </div>
       {% endif %}
     </div>

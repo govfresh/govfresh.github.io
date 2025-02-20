@@ -16,14 +16,9 @@ reviews-link-text: Reviews
 reviews-parent: review
 podcast-title: Podcast
 podcast-description: Talking with the people at the intersection of design, technology and democracy.
-podcast-link: /podcast/
+podcast-link: https://podcast.govfresh.com
 podcast-link-text: Podcast
 podcast-parent: podcast
-compress-title: Compress
-compress-description: Briefings for easier download.
-compress-link: /compress/
-compress-link-text: Compress
-compress-parent: compress
 category:
   - Government
   - Technology
