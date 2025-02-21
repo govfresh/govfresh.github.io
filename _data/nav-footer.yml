@@ -3,104 +3,105 @@ docs:
 
 - 
  - title: About
-   url: /about/
+   url: /about
 
  - title: People
-   url: /people/
+   url: /people
 
  - title: Services
-   url: /services/
+   url: /services
 
  - title: Community
-   url: /community/
+   url: /community
 
  - title: Office hours
-   url: /office-hours/
+   url: /office-hours
 
  - title: Labs
-   url: /labs/
+   url: /labs
 
 - 
 
  - title: Subscribe
-   url: /subscribe/
+   url: /subscribe
 
  - title: Connect
-   url: /connect/
+   url: /connect
 
  - title: Collaborate
-   url: /collaborate/
+   url: /collaborate
 
  - title: Sponsor
-   url: /sponsor/
+   url: /sponsor
 
  - title: Contact
    url: /contact/
 
  - title: Feedback
-   url: /feedback/
+   url: /feedback
 
 -
 
  - title: Topics
-   url: /topics/
+   url: /topics
 
  - title: Thoughts
-   url: /thoughts/
+   url: /thoughts
 
  - title: DM
-   url: /dm/
+   url: /dm
 
  - title: Briefs
-   url: /briefs/
+   url: /briefs
 
  - title: Demos
-   url: /demos/
+   url: /demos
 
  - title: Papers
-   url: /papers/
+   url: /papers
 
  - title: Podcast
    url: https://podcast.govfresh.com
 
  - title: Research
-   url: /research/
+   url: /research
 
  - title: Signal
-   url: /signal/
+   url: /signal
 
  - title: Book club
-   url: /books/
+   url: /books
 
 - 
 
  - title: Organizations
-   url: /orgs/
+   url: /orgs
+
  - title: Events
-   url: /events/
+   url: /events
 
 -
 
  - title: Accessibility
-   url: /accessibility-statement/
+   url: /accessibility-statement
 
  - title: Code of conduct
-   url: /conduct/
+   url: /conduct
 
  - title: Disclosure
-   url: /disclosure/
+   url: /disclosure
 
  - title: Security
-   url: /security/
+   url: /security
 
  - title: Privacy
-   url: /privacy/
+   url: /privacy
 
  - title: Colophon
-   url: /colophon/
+   url: /colophon
 
  - title: Site map
-   url: /site-map/
+   url: /site-map
 
  - title: Releases
    url: https://github.com/govfresh/govfresh.github.io/releases
