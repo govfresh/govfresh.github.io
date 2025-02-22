@@ -1,0 +1,15 @@
+{% if page.duration or post.duration or item.duration %}
+  <p class="small text-body-secondary mb-1">
+    <small>
+      <i class="fa-regular fa-clock"></i>
+      Duration:
+      {% if post.duration %}
+        {{ post.duration | duration: site.duration }}
+      {% elsif item.duration %}
+        {{ item.duration | duration: site.duration }}
+      {% elsif page.duration %}
+        {{ page.duration | duration: site.duration }}
+      {% endif %}
+    </small>
+  </p>
+{% endif %}

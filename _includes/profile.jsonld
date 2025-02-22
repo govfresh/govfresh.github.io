@@ -10,7 +10,7 @@
         "description": "{{ page.description}}",
         "image": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img }}",
         "url": "{{ page.website }}",
-        "sameAs": "{{ page.twitter }}, {{ page.linkedin }}, {{ page.email }}",
+        "sameAs": "{% if page.twitter %}{{ page.twitter }}{% if page.linkedin or page.email %}, {% endif %}{% endif %}{% if page.linkedin %}{{ page.linkedin }}{% if page.email %}, {% endif %}{% endif %}{% if page.email %}{{ page.email }}{% endif %}",
         "jobTitle": "{{ page.position }}",
         "worksFor": {
             "@type": "Organization",
