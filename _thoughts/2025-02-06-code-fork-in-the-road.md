@@ -1,7 +1,7 @@
 ---
 title: "Fork in the code"
 date: 2025-02-06
-modified: 2025-02-07
+modified: 2025-03-01
 description: "Repository bureaucracy and how the general public can help preserve government technology assets."
 author: Luke Fretwell
 img-feat: fork-feat.png
@@ -55,7 +55,7 @@ To fork government code is to preserve today what may not be accessible tomorrow
 
 Citizen archivists can easily preserve this code by working together to fork as much as possible, before it's too late. A movement to do this in a collective effort housed in a centralized organization would be a proactive way to archive millions (billions?) of dollars of technical work available to the public at large.
 
-For example, repositories I forked within minutes include [Code.gov](https://github.com/civichackingagency/code-gov), [Data.gov](https://github.com/civichackingagency/data.gov), the [U.S. Web Design System](https://github.com/civichackingagency/uswds) and [Digital Services Playbook](https://github.com/civichackingagency/playbook).
+**I created a [govforks GitHub organization](https://github.com/govforks). [Contact me](https://govfresh.com/contact) if you're interested in joining the org and adding forking repos here.**
 
 Note: Private repos that are forked will be deleted if the original repository is deleted. You must clone (download) these ([GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository), [GitLab](https://docs.gitlab.com/ee/topics/git/clone.html)).
 
