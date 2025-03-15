@@ -12,11 +12,7 @@
         {% else %}
           {% assign card = "card-" | append: i.name | append: ".html" %}
         {% endif %}
-        {% if i.name == "podcast" %}
-          {% assign items = site.data.podcast.docs %}
-        {% else %}
-          {% assign items = site[i.name] | reverse %}
-        {% endif %}
+
         {% if i.site-name %}
           {% comment %}
             Signal is under site.posts
@@ -24,6 +20,12 @@
           {% assign name = i.site-name %}
         {% else %}
           {% assign name = i.name %}
+        {% endif %}
+
+        {% if i.name == "podcast" %}
+          {% assign items = site.data.podcast.docs %}
+        {% else %}
+          {% assign items = site[name] | reverse %}
         {% endif %}
         <div class="card-group mb-3">
           {% for item in items %}
