@@ -1,6 +1,6 @@
 ---
 layout: news
-title: ""
+title: "Signal YYYY.MM.DD"
 date: YYYY-MM-DD
 author: GovFresh
 description: "What's on our radar."
@@ -24,7 +24,7 @@ category:
   - Open source
   - Policy
   - Procurement
-contributors:
-  - 
+#contributors:
+#  - 
 ---
 
