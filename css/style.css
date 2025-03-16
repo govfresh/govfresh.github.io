@@ -172,7 +172,7 @@
     /* Logo */
 
     .drop-shadow4 {
-        filter: drop-shadow(-4px 4px 0 var(--bs-gray));
+        filter: drop-shadow(-4px 4px 0px var(--bs-gray));
     }
 
     a.btn-primary, a.btn-primary:visited {

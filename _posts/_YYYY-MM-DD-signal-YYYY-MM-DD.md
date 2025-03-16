@@ -2,6 +2,7 @@
 layout: news
 title: "Signal YYYY.MM.DD"
 date: YYYY-MM-DD
+modified:
 author: GovFresh
 description: "What's on our radar."
 img-feat: signal-feat.png
