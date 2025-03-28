@@ -1,4 +1,4 @@
-{% assign featured_posts = site.posts | concat: site.briefs | concat: site.papers | concat: site.demos | concat: site.dm | concat: site.podcast | concat: site.thoughts %}
+{% assign featured_posts = site.posts | concat: site.briefs | concat: site.papers | concat: site.demos | concat: site.dm | concat: site.podcast | concat: site.thoughts | concat: site.research %}
 {% assign featured_posts = featured_posts | where: "feature", true | sort: "date" | reverse %}
 {% for post in featured_posts limit: 1 %}
   <div class="card-group border-bottom pb-3 d-sm-none">
