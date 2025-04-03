@@ -1,7 +1,7 @@
 ---
 name: Podcast
 about: Add a new podcast episode
-title: 'Podcast: [TITLE]'
+title: 'Podcast: '
 labels: podcast
 assignees: ''
 
@@ -29,7 +29,6 @@ assignees: ''
 
 ## Publish
 
-- [ ] Publish to [LibSyn](https://libsyn.com/)
 - [ ] Post to website
 
 ## Promote
