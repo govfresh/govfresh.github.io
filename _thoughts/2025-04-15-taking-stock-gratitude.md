@@ -93,7 +93,7 @@ Gratitude: Dustin Haisler
 
 The first [CityCamp](https://lukefretwell.com/work/citycamp) was organized by Code for America Brigades founder Kevin Curry and Jen Pahlka in January 2010 in Chicago. It was part barcamp, part hackathon, and was another one of those special moments.
 
-Afterwards, others began asking about holding a CityCamp in their city. Kevin Curry (founder of Code for America Brigades) and I worked together (over Skype, beers and a three-hour time difference) and developed a strategy that would [open source the brand](https://opensource.com/government/11/5/how-citycamp-became-open-source-brand) so other cities could easily replicate the format locally. Ultimately, cities worldwide held CityCamps. For a few years, it was a source of connection between civic hackers and local government, but also for civic technologists globally.
+Afterwards, others began asking about holding a CityCamp in their city. Kevin Curry and I worked together (over Skype, beers and a three-hour time difference) and developed a strategy that would [open source the brand](https://opensource.com/government/11/5/how-citycamp-became-open-source-brand) so other cities could easily replicate the format locally. Ultimately, cities worldwide held CityCamps. For a few years, it was a source of connection between civic hackers and local government, but also for civic technologists globally.
 
 Save the date, because, with the help of the Alliance for Civic Technologists and others, CityCamp is making a comeback.
 
