@@ -268,7 +268,7 @@ It has since evolved into [ScanGov](https://scangov.com) and [Project ScanGov](h
 
 With ScanGov, I’ve learned deeper about how you can impact bureaucratic change from the outside. I'm proud of the way Elias and I worked together to build it, and I'm grateful for the back channel feedback from senior government leaders and public support from the broader civic technology community.
 
-Recently, Aaron Hans joined as a maintainer to expand its scope and impact, but also prototype a commercial offering. The work we’re doing with ScanGov can truly help empower great government digital services at scale, and I’m extremely excited about its potential.publi
+Recently, Aaron Hans joined as a maintainer to expand its scope and impact, but also prototype a commercial offering. The work we’re doing with ScanGov can truly help empower great government digital services at scale, and I’m extremely excited about its potential.
 
 Gratitude: Elias Fretwell, Aaron Hans
 
@@ -284,7 +284,7 @@ Gratitude: Paul Taylor, Keeley Quinlan, Rebecca Heilweil, Troy Schneider, Dennis
 
 Gratitude to these folks (not mentioned above) for friendship, camaraderie and service to the people:
 
-Ryan Wold, Mary Lazzeri, Hillary Hartley, Steve Spiker, Joy Bonaguro, Lenae Storey, Jake Rozran, Carlos Moreno, Carla Briceno, Greg Elin, Beth Archibald, Mai-ling Garcia, Mark Headd, Camille Tuutti, Ido Ivry, Adriel Hampton, Lawrence Grodeska, Brian Purchia, Alex Howard
+Ryan Wold, Mary Lazzeri, Hillary Hartley, Steve Spiker, Joy Bonaguro, Lenae Storey, Jake Rozran, Carlos Moreno, Carla Briceno, Greg Elin, Beth Archibald, Mai-Ling Garcia, Mark Headd, Camille Tuutti, Ido Ivry, Adriel Hampton, Lawrence Grodeska, Brian Purchia, Alex Howard
 
 ### Open civic organizations
 
