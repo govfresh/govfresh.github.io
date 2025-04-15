@@ -1,6 +1,13 @@
 docs_list_title: podcast
 docs:
 
+ - title: "California Alpha (Part 1)"
+   description: "Setting an Alpha foundation with Angie Quirarte."
+   date: 2025-04-02
+   url: https://podcast.govfresh.com/episode/california-alpha-part-1
+   img: https://podcast.govfresh.com/assets/img/people/ca-alpha.png
+   number: 11
+
  - title: "Civic hacking with Carlos Moreno"
    description: "A citizen journalist and civic technologist shares his experiences and lessons learned civic hacking."
    date: 2023-10-09
