@@ -5,6 +5,7 @@ date: YYYY-MM-DD
 author: GovFresh
 video: 
 video-title: ""
+duration: "06:14"
 category:
   - Accessibility
   - Artificial intelligence
