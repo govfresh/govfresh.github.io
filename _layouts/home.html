@@ -12,7 +12,7 @@ layout: home
           <h1 style="display: none;">{{ site.title }} - {{ site.description }}
         </h1>
           <!-- Featured item -->
-          {% assign featured_posts = site.posts | concat: site.briefs | concat: site.papers | concat: site.demos | concat: site.dm | concat: site.thoughts | concat: site.research %}
+          {% assign featured_posts = site.posts | concat: site.briefs | concat: site.papers | concat: site.demos | concat: site.dm | concat: site.thoughts | concat: site.research | concat: site.data.podcast.docs %}
           {% assign featured_posts = featured_posts | where: "feature", true | sort: "date" | reverse %}
           {% for post in featured_posts limit: 1 %}
             <div class="card-group border-bottom pb-3 d-sm-none">
@@ -26,7 +26,7 @@ layout: home
                   <a href="{{ site.baseurl }}{{ post.url }}">
                     <img
                       class="mb-4 drop-shadow border"
-                      src="{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}"
+                      src="{% if post.img_src == "remote" %}{{ post.img-og }}{% else %}{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}{% endif %}"
                       alt="{{ post.title }}">
                   </a>
                   {% if post.description %}
@@ -46,7 +46,7 @@ layout: home
                   <a href="{{ site.baseurl }}{{ post.url }}">
                     <img
                       class="mb-4 drop-shadow border"
-                      src="{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}"
+                      src="{% if post.img_src == "remote" %}{{ post.img-og }}{% else %}{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}{% endif %}"
                       alt="{{ post.title }}">
                   </a>
                 </div>

@@ -29,7 +29,7 @@ category:
   - Policy
   - Procurement
 author: Luke Fretwell
-feature: yes
+feature: 
 ---
 
 *Unit X* exposes the double-edged sword of civil servants and congressional aides entrenched in the intricacies of budge and procurement policy -- and how much America’s public sector ability to innovate hinges on the creativity and personality of these bureaucratic subject matter experts.
