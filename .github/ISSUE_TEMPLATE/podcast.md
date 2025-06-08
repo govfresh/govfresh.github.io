@@ -30,6 +30,7 @@ assignees: ''
 ## Publish
 
 - [ ] Post to website
+- [ ] Add to YouTube
 - [ ] Add to GF podcast data file
 
 ## Promote
