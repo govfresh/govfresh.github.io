@@ -12,7 +12,6 @@ layout: home
           <h1 style="display: none;">{{ site.title }} - {{ site.description }}
         </h1>
           <!-- Featured item -->
-          {% comment %} Safe concatenation to avoid array comparison errors {% endcomment %}
           {% assign featured_posts = site.posts | default: empty %}
 
           {% if site.briefs and site.briefs.size > 0 %}
