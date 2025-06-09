@@ -12,7 +12,37 @@ layout: home
           <h1 style="display: none;">{{ site.title }} - {{ site.description }}
         </h1>
           <!-- Featured item -->
-          {% assign featured_posts = site.posts | concat: site.briefs | concat: site.papers | concat: site.demos | concat: site.dm | concat: site.thoughts | concat: site.research | concat: site.data.podcast.docs %}
+          {% comment %} Safe concatenation to avoid array comparison errors {% endcomment %}
+          {% assign featured_posts = site.posts | default: empty %}
+
+          {% if site.briefs and site.briefs.size > 0 %}
+            {% assign featured_posts = featured_posts | concat: site.briefs %}
+          {% endif %}
+
+          {% if site.papers and site.papers.size > 0 %}
+            {% assign featured_posts = featured_posts | concat: site.papers %}
+          {% endif %}
+
+          {% if site.demos and site.demos.size > 0 %}
+            {% assign featured_posts = featured_posts | concat: site.demos %}
+          {% endif %}
+
+          {% if site.dm and site.dm.size > 0 %}
+            {% assign featured_posts = featured_posts | concat: site.dm %}
+          {% endif %}
+
+          {% if site.thoughts and site.thoughts.size > 0 %}
+            {% assign featured_posts = featured_posts | concat: site.thoughts %}
+          {% endif %}
+
+          {% if site.research and site.research.size > 0 %}
+            {% assign featured_posts = featured_posts | concat: site.research %}
+          {% endif %}
+
+          {% if site.data.podcast and site.data.podcast.docs and site.data.podcast.docs.size > 0 %}
+            {% assign featured_posts = featured_posts | concat: site.data.podcast.docs %}
+          {% endif %}
+
           {% assign featured_posts = featured_posts | where: "feature", true | sort: "date" | reverse %}
           {% for post in featured_posts limit: 1 %}
             <div class="card-group border-bottom pb-3 d-sm-none">
