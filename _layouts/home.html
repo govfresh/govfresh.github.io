@@ -12,37 +12,80 @@ layout: home
           <h1 style="display: none;">{{ site.title }} - {{ site.description }}
         </h1>
           <!-- Featured item -->
-          {% assign featured_posts = site.posts | default: empty %}
+          {% comment %} Build featured posts array safely {% endcomment %}
+          {% assign featured_posts = "" | split: "" %}
 
-          {% if site.briefs and site.briefs.size > 0 %}
-            {% assign featured_posts = featured_posts | concat: site.briefs %}
+          {% comment %} Add posts with feature flag {% endcomment %}
+          {% if site.posts %}
+            {% for post in site.posts %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
 
-          {% if site.papers and site.papers.size > 0 %}
-            {% assign featured_posts = featured_posts | concat: site.papers %}
+          {% if site.briefs %}
+            {% for post in site.briefs %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
 
-          {% if site.demos and site.demos.size > 0 %}
-            {% assign featured_posts = featured_posts | concat: site.demos %}
+          {% if site.papers %}
+            {% for post in site.papers %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
 
-          {% if site.dm and site.dm.size > 0 %}
-            {% assign featured_posts = featured_posts | concat: site.dm %}
+          {% if site.demos %}
+            {% for post in site.demos %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
 
-          {% if site.thoughts and site.thoughts.size > 0 %}
-            {% assign featured_posts = featured_posts | concat: site.thoughts %}
+          {% if site.dm %}
+            {% for post in site.dm %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
 
-          {% if site.research and site.research.size > 0 %}
-            {% assign featured_posts = featured_posts | concat: site.research %}
+          {% if site.thoughts %}
+            {% for post in site.thoughts %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
 
-          {% if site.data.podcast and site.data.podcast.docs and site.data.podcast.docs.size > 0 %}
-            {% assign featured_posts = featured_posts | concat: site.data.podcast.docs %}
+          {% if site.research %}
+            {% for post in site.research %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
 
-          {% assign featured_posts = featured_posts | where: "feature", true | sort: "date" | reverse %}
+          {% comment %} Add podcast docs {% endcomment %}
+          {% if site.data.podcast and site.data.podcast.docs %}
+            {% for post in site.data.podcast.docs %}
+              {% if post.feature == true %}
+                {% assign featured_posts = featured_posts | push: post %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
+          {% comment %} Sort safely - only sort if we have items with dates {% endcomment %}
+          {% if featured_posts.size > 0 %}
+            {% assign featured_posts = featured_posts | sort: "date" | reverse %}
+          {% endif %}
+
           {% for post in featured_posts limit: 1 %}
             <div class="card-group border-bottom pb-3 d-sm-none">
               <div class="row">
