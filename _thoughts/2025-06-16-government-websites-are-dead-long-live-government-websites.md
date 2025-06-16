@@ -23,9 +23,9 @@ feature: "true"
 
 ## The digital government paradox
 
-Traditional government websites—with overly aesthetic designs and weak content structures—are becoming obsolete in the age of artificial intelligence. As digital becomes essential to public service delivery, the public sector must confront this cultural and operational shift now, not later.
+Traditional government websites—with overly aesthetic designs and weak content structures—are now obsolete in the age of artificial intelligence. As digital becomes essential to government service delivery, the public sector must confront this cultural and operational shift now, not later.
 
-I say this after 15 years working on government websites, from developing a widely used goverment WordPress theme to co-founding a software-as-a-service company that supports municipalities with web hosting and content tools.
+I say this after 15 years working on government websites, from developing a widely used goverment WordPress theme to co-founding a software-as-a-service company that supports municipalities with web hosting and content management tools.
 
 I’ve seen the good, bad, and baffling in government websites. I’ve had countless conversations with government leaders about digital strategy. After asking my advice, I've been told "we're going to do it the other way" only to hear later that "we should have done it that way."
 
