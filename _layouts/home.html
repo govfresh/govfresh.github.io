@@ -9,9 +9,9 @@ layout: home
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 style="display: none;">{{ site.title }} - {{ site.description }}
+          <h1 class="visually-hidden">{{ site.title }} - {{ site.description }}
         </h1>
-          <!-- Featured item -->
+
           {% comment %} Build featured posts array safely {% endcomment %}
           {% assign featured_posts = "" | split: "" %}
 
@@ -82,71 +82,86 @@ layout: home
           {% endif %}
 
           {% comment %} Sort safely - only sort if we have items with dates {% endcomment %}
-          {% if featured_posts.size > 0 %}
-            {% assign featured_posts = featured_posts | sort: "date" | reverse %}
-          {% endif %}
+          {% comment %} Skip sorting to avoid array comparison errors {% endcomment %}
 
+          {% comment %} Display featured content {% endcomment %}
           {% for post in featured_posts limit: 1 %}
-            <div class="card-group border-bottom pb-3 d-sm-none">
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                  {% if post.title %}
-                    <h2 class="mb-3 display-6">
-                      <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary link-offset-3 link-underline-opacity-0">{{ post.title }}</a>
-                    </h2>
-                  {% endif %}
-                  <a href="{{ site.baseurl }}{{ post.url }}">
-                    <img
-                      class="mb-4 drop-shadow border"
-                      src="{% if post.img_src == "remote" %}{{ post.img-og }}{% else %}{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}{% endif %}"
-                      alt="{{ post.title }}">
-                  </a>
-                  {% if post.description %}
-                    <p class="lead text-body-secondary mb-4">
-                      {{ post.description }}
-                    </p>
-                  {% endif %}
-                  {% include podcast.html %}
-                  {% include author.html %}
-                  {% include date.html %}
-                  {% include updated.html %}
+            {% assign img_url = post.img-og %}
+            {% if post.img_src != "remote" %}
+              {% assign img_url = site.baseurl | append: "/assets/img/posts/" | append: post.img-og %}
+            {% endif %}
+
+            <article class="featured-post border-bottom pb-4 mb-4">
+              {% comment %} Mobile layout {% endcomment %}
+              <div class="d-sm-none">
+                {% if post.title %}
+                  <h2 class="mb-3 display-6">
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary text-decoration-none">
+                      {{ post.title }}
+                    </a>
+                  </h2>
+                {% endif %}
+
+                <a href="{{ site.baseurl }}{{ post.url }}" class="d-block mb-3">
+                  <img
+                    class="img-fluid drop-shadow border rounded"
+                    src="{{ img_url }}"
+                    alt="{{ post.title | default: 'Featured content' }}"
+                    loading="lazy">
+                </a>
+
+                {% if post.description %}
+                  <p class="lead text-body-secondary mb-4">{{ post.description }}</p>
+                {% endif %}
+
+                {% include podcast.html %}
+                {% include author.html %}
+                {% include date.html %}
+                {% include updated.html %}
+              </div>
+
+              {% comment %} Desktop layout {% endcomment %}
+              <div class="d-none d-sm-block">
+                <div class="row align-items-center">
+                  <div class="col-md-6 col-lg-6">
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                      <img
+                        class="img-fluid drop-shadow border rounded"
+                        src="{{ img_url }}"
+                        alt="{{ post.title | default: 'Featured content' }}"
+                        loading="lazy">
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                    {% if post.title %}
+                      <h2 class="mb-3 display-6">
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary text-decoration-none">
+                          {{ post.title }}
+                        </a>
+                      </h2>
+                    {% endif %}
+
+                    {% if post.description %}
+                      <p class="lead text-body-secondary mb-4">{{ post.description }}</p>
+                    {% endif %}
+
+                    {% include podcast.html %}
+                    {% include author.html %}
+                    {% include date.html %}
+                    {% include updated.html %}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="card-group border-bottom mt-1 pb-3 d-none d-sm-block">
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                  <a href="{{ site.baseurl }}{{ post.url }}">
-                    <img
-                      class="mb-4 drop-shadow border"
-                      src="{% if post.img_src == "remote" %}{{ post.img-og }}{% else %}{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}{% endif %}"
-                      alt="{{ post.title }}">
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                  {% if post.title %}
-                    <h2 class="mt-2 mb-2 display-6">
-                      <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary link-offset-3 link-underline-opacity-0">{{ post.title }}</a>
-                    </h2>
-                  {% endif %}
-                  {% if post.description %}
-                    <p class="lead text-body-secondary mb-5">
-                      {{ post.description }}
-                    </p>
-                  {% endif %}
-                  {% include podcast.html %}
-                  {% include author.html %}
-                  {% include date.html %}
-                  {% include updated.html %}
-                </div>
-              </div>
-            </div>
-          {% endfor %}
+            </article>
+        {% endfor %}
+
+          {% comment %} Additional home content {% endcomment %}
           {% include home.html %}
         </div>
       </div>
     </div>
   </section>
 </main>
+
 {% include analytics.html %}
 {% include footer.html %}
