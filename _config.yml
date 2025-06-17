@@ -18,7 +18,6 @@ twitter: "@govfresh"
 linkedin: https://www.linkedin.com/company/govfresh
 
 # Build settings
-theme:
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -220,19 +219,19 @@ collections:
     permalink: /signal/:title
   labs:
     output: true
-    permalink: labs/:title
+    permalink: /labs/:title
   pages:
     output: true
-    permalink: :title
+    permalink: /:title
   papers:
     output: true
-    permalink: papers/:title
+    permalink: /papers/:title
   people:
     output: true
-    permalink: people/:title
+    permalink: /people/:title
   topics:
     output: true
-    permalink: topics/:title
+    permalink: /topics/:title
 
 # Pagination
 paginate: 6
@@ -254,33 +253,24 @@ orgs-number: &orgs-number 4
 
 # Home page order
 order:
-  - 
-    name: thoughts
+  - name: thoughts
     number: *thoughts-number
-  - 
-    name: briefs
+  - name: briefs
     number: *briefs-number
-  - 
-    name: dm
+  - name: dm
     number: *dm-number
-  - 
-    name: signal
+  - name: signal
     number: *signal-number
     site-name: posts
-  - 
-    name: demos
+  - name: demos
     number: *demos-number
-  - 
-    name: papers
+  - name: papers
     number: *papers-number
-  - 
-    name: research
+  - name: research
     number: *research-number
-  - 
-    name: podcast
+  - name: podcast
     number: *podcast-number
-  - 
-    name: books
+  - name: books
     number: *books-number
    
 # Exclude
