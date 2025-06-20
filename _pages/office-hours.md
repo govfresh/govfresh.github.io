@@ -2,7 +2,7 @@
 layout: page
 title: Office hours
 description: Serendipitous chat time.
-img-og: seedling.png
+img-og: seedling-og.png
 img-alt: "Seedling icon"
 ---
 
