@@ -1,6 +1,6 @@
 ---
 title: Carlos Moreno
-description: 
+description: Data enthusiast, civic hacker, local historian
 name: Carlos Moreno
 shortname: Carlos
 bio-short: "Carlos Moreno, MPA is a client advocate at 9b Corp, using data research to help cities cultivate insights and innovation."

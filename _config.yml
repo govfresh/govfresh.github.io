@@ -1,10 +1,12 @@
-# General
+# Site Information
 title: GovFresh
+author: GovFresh
 tagline: "Design / Technology / Democracy"
 description: "Design / Technology / Democracy"
 url: https://govfresh.com
+timezone: America/Los_Angeles
 
-# Social
+# Social Media
 social:
   name: GovFresh
   links:
@@ -14,14 +16,14 @@ social:
     - https://github.com/govfresh
 
 twitter-username: govfresh
-twitter: "@govfresh"
 linkedin: https://www.linkedin.com/company/govfresh
 
-# Build settings
+# Build Settings
 markdown: kramdown
 highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -29,164 +31,53 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
 
-# Date/time
+# Date/Time Formatting
 date: "%B %-d, %Y"
-timezone: America/Los_Angeles
-
-last-modified-at:
 date-format: "%B %d, %Y at %I:%M %P %Z"
 
-# 404
+# Pagination
+paginate: 6
+paginate_path: "/signal/:num"
+
+# 404 Page
 permalink: /404.html
 
-# Defaults
-defaults:
-  - scope:
-      path: "_demos"
-      type: "demos"
-    values:
-      folder: "Demos"
-      img-path: "posts"
-      parent: "demos"
-      layout: "demos"
-      short: "true"
-      schematype: "VideoObject"
-  - scope:
-      path: "_dm"
-      type: "dm"
-    values:
-      folder: "Direct message"
-      img-path: "people"
-      parent: "dm"
-      layout: "dm"
-      short: "true"
-      schematype: "Article"
-  - scope:
-      path: "_thoughts"
-      type: "thoughts"
-    values:
-      folder: "Thoughts"
-      img-path: "posts"
-      parent: "thoughts"
-      layout: "thoughts"
-      short: "true"
-      schematype: "NewsArticle"
-  - scope:
-      path: "_events"
-      type: "events"
-    values:
-      folder: "Events"
-      img-path: "logos"
-      parent: "events"
-      layout: "events"
-      short: "true"
-      schematype: "Event"
-  - scope:
-      path: "_orgs"
-      type: "orgs"
-    values:
-      folder: "Organizations"
-      img-path: "logos"
-      parent: "orgs"
-      layout: "orgs"
-      short: "true"
-      schematype: "Organization"
-  - scope:
-      path: "_books"
-      type: "books"
-    values:
-      folder: "Book club"
-      img-path: "books"
-      parent: "books"
-      layout: "book"
-      short: "true"
-      schematype: "Book"
-  - scope:
-      path: "_research"
-      type: "research"
-    values:
-      folder: "Research"
-      img-path: "posts"
-      parent: "research"
-      layout: "research"
-      short: "true"
-      schematype: "NewsArticle"
-  - scope:
-      path: "_people"
-      type: "people"
-    values:
-      folder: "People"
-      img-path: "people"
-      parent: "people"
-      layout: "people"
-      short: "false"
-      schematype: "ProfilePage"
-  - scope:
-      path: ""
-      type: ""
-    values:
-      folder: ""
-      img-path: ""
-      parent: ""
-      layout: "cards"
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      folder: "Signal"
-      img-path: "posts"
-      parent: "signal"
-      layout: "signal"
-      short: "false"
-      schematype: "NewsArticle"
-  - scope:
-      path: "_topics"
-      type: "topics"
-    values:
-      folder: "Topics"
-      img-path: "pages"
-      parent: "topics"
-      layout: "topic"
-      short: "false"
-  - scope:
-      path: "_labs"
-      type: "labs"
-    values:
-      folder: "Labs"
-      img-path: "posts"
-      parent: "labs"
-      layout: "labs"
-      short: "true"
-  - scope:
-      path: "_pages"
-      type: "pages"
-    values:
-      folder: "Pages"
-      img-path: "pages"
-      parent: "pages"
-      layout: "default"
-      short: "false"
-      schematype: ""
-  - scope:
-      path: "_briefs"
-      type: "briefs"
-    values:
-      folder: "Briefs"
-      img-path: "posts"
-      parent: "briefs"
-      layout: "briefs"
-      short: "true"
-      schematype: ""
-  - scope:
-      path: "_papers"
-      type: "papers"
-    values:
-      folder: "Papers"
-      img-path: "posts"
-      parent: "papers"
-      layout: "papers"
-      short: "true"
-      schematype: ""
+# Content Type Limits
+content_limits:
+  briefs: &briefs-number 4
+  books: &books-number 7
+  dm: &dm-number 5
+  labs: &labs-number 4
+  podcast: &podcast-number 4
+  research: &research-number 5
+  thoughts: &thoughts-number 5
+  signal: &signal-number 2
+  demos: &demos-number 4
+  papers: &papers-number 2
+  events: &events-number 4
+  orgs: &orgs-number 4
+
+# Home Page Content Order
+order:
+  - name: thoughts
+    number: *thoughts-number
+  - name: briefs
+    number: *briefs-number
+  - name: dm
+    number: *dm-number
+  - name: signal
+    number: *signal-number
+    site-name: posts
+  - name: demos
+    number: *demos-number
+  - name: papers
+    number: *papers-number
+  - name: research
+    number: *research-number
+  - name: podcast
+    number: *podcast-number
+  - name: books
+    number: *books-number
 
 # Collections
 collections:
@@ -233,47 +124,185 @@ collections:
     output: true
     permalink: /topics/:title
 
-# Pagination
-paginate: 6
-paginate_path: "/signal/:num"
+# Default Settings
+defaults:
+  # Demos
+  - scope:
+      path: "_demos"
+      type: "demos"
+    values:
+      folder: "Demos"
+      img-path: "posts"
+      parent: "demos"
+      layout: "demos"
+      short: "true"
+      schematype: "VideoObject"
+  
+  # Direct Messages
+  - scope:
+      path: "_dm"
+      type: "dm"
+    values:
+      folder: "Direct message"
+      img-path: "people"
+      parent: "dm"
+      layout: "dm"
+      short: "true"
+      schematype: "Article"
+  
+  # Thoughts
+  - scope:
+      path: "_thoughts"
+      type: "thoughts"
+    values:
+      folder: "Thoughts"
+      img-path: "posts"
+      parent: "thoughts"
+      layout: "thoughts"
+      short: "true"
+      schematype: "NewsArticle"
+  
+  # Events
+  - scope:
+      path: "_events"
+      type: "events"
+    values:
+      folder: "Events"
+      img-path: "logos"
+      parent: "events"
+      layout: "events"
+      short: "true"
+      schematype: "Event"
+  
+  # Organizations
+  - scope:
+      path: "_orgs"
+      type: "orgs"
+    values:
+      folder: "Organizations"
+      img-path: "logos"
+      parent: "orgs"
+      layout: "orgs"
+      short: "true"
+      schematype: "Organization"
+  
+  # Books
+  - scope:
+      path: "_books"
+      type: "books"
+    values:
+      folder: "Book club"
+      img-path: "books"
+      parent: "books"
+      layout: "book"
+      short: "true"
+      schematype: "Book"
+  
+  # Research
+  - scope:
+      path: "_research"
+      type: "research"
+    values:
+      folder: "Research"
+      img-path: "posts"
+      parent: "research"
+      layout: "research"
+      short: "true"
+      schematype: "NewsArticle"
+  
+  # People
+  - scope:
+      path: "_people"
+      type: "people"
+    values:
+      folder: "People"
+      img-path: "people"
+      parent: "people"
+      layout: "people"
+      short: "false"
+      schematype: "ProfilePage"
+  
+  # Posts (Signal)
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      folder: "Signal"
+      img-path: "posts"
+      parent: "signal"
+      layout: "signal"
+      short: "false"
+      schematype: "NewsArticle"
+  
+  # Topics
+  - scope:
+      path: "_topics"
+      type: "topics"
+    values:
+      folder: "Topics"
+      img-path: "pages"
+      parent: "topics"
+      layout: "topic"
+      short: "false"
+  
+  # Labs
+  - scope:
+      path: "_labs"
+      type: "labs"
+    values:
+      folder: "Labs"
+      img-path: "posts"
+      parent: "labs"
+      layout: "labs"
+      short: "true"
+  
+  # Pages
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      folder: "Pages"
+      img-path: "pages"
+      parent: "pages"
+      layout: "default"
+      short: "false"
+      schematype: ""
+  
+  # Briefs
+  - scope:
+      path: "_briefs"
+      type: "briefs"
+    values:
+      folder: "Briefs"
+      img-path: "posts"
+      parent: "briefs"
+      layout: "briefs"
+      short: "true"
+      schematype: ""
+  
+  # Papers
+  - scope:
+      path: "_papers"
+      type: "papers"
+    values:
+      folder: "Papers"
+      img-path: "posts"
+      parent: "papers"
+      layout: "papers"
+      short: "true"
+      schematype: ""
+  
+  # Default for all other content
+  - scope:
+      path: ""
+      type: ""
+    values:
+      folder: ""
+      img-path: ""
+      parent: ""
+      layout: "cards"
 
-# Number limits
-briefs-number: &briefs-number 4
-books-number: &books-number 7
-dm-number: &dm-number 5
-labs-number: &labs-number 4
-podcast-number: &podcast-number 4
-research-number: &research-number 5
-thoughts-number: &thoughts-number 5
-signal-number: &signal-number 2
-demos-number: &demos-number 4
-papers-number: &papers-number 2
-events-number: &events-number 4
-orgs-number: &orgs-number 4
-
-# Home page order
-order:
-  - name: thoughts
-    number: *thoughts-number
-  - name: briefs
-    number: *briefs-number
-  - name: dm
-    number: *dm-number
-  - name: signal
-    number: *signal-number
-    site-name: posts
-  - name: demos
-    number: *demos-number
-  - name: papers
-    number: *papers-number
-  - name: research
-    number: *research-number
-  - name: podcast
-    number: *podcast-number
-  - name: books
-    number: *books-number
-   
-# Exclude
+# Build Exclusions
 exclude:
   - gemfiles/
   - Gemfile

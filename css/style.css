@@ -26,13 +26,19 @@
 }
 
 @font-face {
-    font-family: "Roboto Mono Regular";
+    font-family: "Roboto Mono";
     src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "Roboto Mono Bold";
+    font-family: "Roboto Mono";
     src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -56,7 +62,7 @@
     --bs-info-border-subtle: var(--bs-secondary-bg);
     --bs-font-serif: "PT Serif Regular", Times, Baskerville, "Times New Roman", "Baskerville Serif", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-sans-serif: "Public Sans Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --bs-font-monospace: "Roboto Mono Regular", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-font-monospace: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-body-font-family: var(--bs-font-sans-serif);
     --bs-body-font-size: 1.2rem;
     --bs-body-font-weight: 400;

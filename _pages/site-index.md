@@ -1,6 +1,6 @@
 ---
 layout: site-index
 title: Site index
-description: 
+description: "GovFresh site index."
 permalink: /site-index/
 ---

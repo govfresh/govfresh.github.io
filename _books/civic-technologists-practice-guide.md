@@ -1,6 +1,6 @@
 ---
 title: "A Civic Technologist's Practice Guide"
-description:
+description: "A Civic Technologist's Practice Guide"
 img-book: civic-technologists-practice-guide.webp
 img-feat: civic-technologists-practice-guide.webp
 img-alt: "Cover of 'A Civic Technologist's Practice Guide'"

@@ -1,6 +1,0 @@
-Contact: https://govfresh.com/contact
-Contact: govfresh@proton.me
-Contact: https://github.com/govfresh/govfresh.github.io/issues/new?assignees=&labels=security&projects=&template=security.md&title=
-Canonical: https://www.govfresh.com/.well-known/security.txt
-Expires: 2030-01-01T20:00:00.000Z
-Preferred-Languages: en

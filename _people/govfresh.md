@@ -1,6 +1,6 @@
 ---
 title: GovFresh
-description: 
+description: Democracy / Design / Technology
 name: GovFresh
 shortname: GovFresh
 img: avatar.png

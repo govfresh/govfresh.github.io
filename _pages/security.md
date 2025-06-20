@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Security
-description: Help us make GovFresh more secure.
+description: "Help us make GovFresh more secure."
 permalink: /security/
 ---
 

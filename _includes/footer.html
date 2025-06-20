@@ -43,7 +43,7 @@
           <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 mb-3">
             <ul class="nav flex-column">
               {% for item in col %}
-                <li class="small">
+                <li class="small my-1">
                   <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link link-offset-3 p-0">{{ item.title }}</a>
                 </li>
               {% endfor %}
@@ -63,7 +63,6 @@
     </div>
   </div>
 </footer>
-
 {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
 {% endif %}
