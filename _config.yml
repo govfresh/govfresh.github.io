@@ -137,6 +137,7 @@ defaults:
       layout: "demos"
       short: "true"
       schematype: "VideoObject"
+      og-type: "video.other"
   
   # Direct Messages
   - scope:
@@ -149,6 +150,7 @@ defaults:
       layout: "dm"
       short: "true"
       schematype: "Article"
+      og-type: "website"
   
   # Thoughts
   - scope:
@@ -161,6 +163,7 @@ defaults:
       layout: "thoughts"
       short: "true"
       schematype: "NewsArticle"
+      og-type: "article"
   
   # Events
   - scope:
@@ -173,7 +176,8 @@ defaults:
       layout: "events"
       short: "true"
       schematype: "Event"
-  
+      og-type: "website"
+ 
   # Organizations
   - scope:
       path: "_orgs"
@@ -185,6 +189,7 @@ defaults:
       layout: "orgs"
       short: "true"
       schematype: "Organization"
+      og-type: "website"
   
   # Books
   - scope:
@@ -197,6 +202,7 @@ defaults:
       layout: "book"
       short: "true"
       schematype: "Book"
+      og-type: "book"
   
   # Research
   - scope:
@@ -209,6 +215,7 @@ defaults:
       layout: "research"
       short: "true"
       schematype: "NewsArticle"
+      og-type: "article"
   
   # People
   - scope:
@@ -221,6 +228,7 @@ defaults:
       layout: "people"
       short: "false"
       schematype: "ProfilePage"
+      og-type: "profile"
   
   # Posts (Signal)
   - scope:
@@ -233,6 +241,7 @@ defaults:
       layout: "signal"
       short: "false"
       schematype: "NewsArticle"
+      og-type: "article"
   
   # Topics
   - scope:
@@ -244,7 +253,9 @@ defaults:
       parent: "topics"
       layout: "topic"
       short: "false"
-  
+      schematype: "WebPage"
+      og-type: "website"
+
   # Labs
   - scope:
       path: "_labs"
@@ -255,7 +266,9 @@ defaults:
       parent: "labs"
       layout: "labs"
       short: "true"
-  
+      schematype: "WebPage"
+      og-type: "website"
+
   # Pages
   - scope:
       path: "_pages"
@@ -266,7 +279,8 @@ defaults:
       parent: "pages"
       layout: "default"
       short: "false"
-      schematype: ""
+      schematype: "WebPage"
+      og-type: "website"
   
   # Briefs
   - scope:
@@ -278,7 +292,8 @@ defaults:
       parent: "briefs"
       layout: "briefs"
       short: "true"
-      schematype: ""
+      schematype: "NewsArticle"
+      og-type: "article"
   
   # Papers
   - scope:
@@ -290,7 +305,8 @@ defaults:
       parent: "papers"
       layout: "papers"
       short: "true"
-      schematype: ""
+      schematype: "NewsArticle"
+      og-type: "article"
   
   # Default for all other content
   - scope:

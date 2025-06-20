@@ -2,7 +2,7 @@
 layout: page
 title: Office hours
 description: Serendipitous chat time.
-img-og: seedling-og.png
+img-og: office-hours-og.png
 img-alt: "Seedling icon"
 ---
 
@@ -15,18 +15,19 @@ img-alt: "Seedling icon"
 
 ## Themes
 
+- Product design/development
+- Open source/data/innovation/culture
+- Gov/civic tech
+- Digital service
 - Accessibility
 - Civic hacking
 - Web standards
-- Gov/civic tech
-- Digital service
-- Product design/development
 - Open source/data/innovation/culture
-- CityCamp
-- GovFresh
-- ScanGov
+- [CityCamp](https://citycamp.com/)
+- [GovFresh](https://govfresh.com/)
+- [ScanGov](https://scangov.com/)
 
 ## Problems joining?
 
 - Email <luke@govfresh.com>.
-- Ping Luke in [GovFresh community](/community).
+- Ping Luke in the [GovFresh community](https://govfresh.com/community).
