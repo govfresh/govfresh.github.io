@@ -1,3 +1,7 @@
+{% comment %}
+  Image display template for different page types
+{% endcomment %}
+
 {% if page.parent == "books" %}
   {% if page.img-book %}
     <figure>
@@ -22,8 +26,8 @@
       {% endif %}
     </figure>
   {% endif %}
-{% endif %}
-{% if page.parent == "papers" or page.parent == "news" or page.parent == "signal" %}
+
+{% elsif page.parent == "papers" or page.parent == "news" or page.parent == "signal" %}
   {% if page.img-og %}
     <figure>
       <img
@@ -47,7 +51,8 @@
       {% endif %}
     </figure>
   {% endif %}
-{% endif %}{% if page.layout == "research" %}
+
+{% elsif page.layout == "research" %}
   {% if page.img-feat %}
     <figure>
       <img
@@ -71,8 +76,8 @@
       {% endif %}
     </figure>
   {% endif %}
-{% endif %}
-{% if page.parent == "labs" or page.parent == "events" or page.parent == "orgs" or page.parent == "briefs" or page.parent == "thoughts" %}
+
+{% elsif page.parent == "labs" or page.parent == "events" or page.parent == "orgs" or page.parent == "briefs" or page.parent == "thoughts" %}
   {% if page.img-feat %}
     <figure>
       <img
@@ -97,28 +102,15 @@
       {% endif %}
     </figure>
   {% endif %}
-{% endif %}
-{% if page.parent == "dm" or page.parent == "people" %}
+
+{% elsif page.parent == "dm" or page.parent == "people" %}
   {% if page.img-feat %}
     <figure>
       <img
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{% if page.group %}{{ page.img[i] }}{% else %}{{ page.img }}{% endif %}"
         alt="{% if page.group %}{{ page.img-alt[i] }}{% else %}{{ page.img-alt }}{% endif %}"
-        type="{% if page.group %}{{ page.folder[i] }}{% else %} {{ page.folder }}{% endif %}"
+        type="{% if page.group %}{{ page.folder[i] }}{% else %}{{ page.folder }}{% endif %}"
         class="mb-3 drop-shadow border rounded-circle lg">
-        {% if page.parent == "podcast" %}
-            <figure>
-              <img
-                src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}"
-                alt="{{ page.img-alt }}"
-                type="{{ page.folder }}"
-                class="
-                mb-3
-                drop-shadow
-                border
-                rounded-circle
-                lg">
-        {% endif %}
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -136,20 +128,15 @@
       {% endif %}
     </figure>
   {% endif %}
-{% endif %}
-{% if page.parent == "podcast" %}
+
+{% elsif page.parent == "podcast" %}
   {% if page.img-feat %}
     <figure>
       <img
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
         alt="{{ page.img-alt }}"
         type="{{ page.folder }}"
-        class="
-        mb-3
-        drop-shadow
-        border
-        rounded-circle
-        lg">
+        class="mb-3 drop-shadow border rounded-circle lg">
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -167,4 +154,57 @@
       {% endif %}
     </figure>
   {% endif %}
+
+{% else %}
+  {% comment %} Default case for general pages {% endcomment %}
+  {% if page.img-og %}
+    <figure>
+      <img
+        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-og }}"
+        alt="{{ page.img-alt | default: page.title }}"
+        {% if page.folder %}
+        type="{{ page.folder }}"
+        {% endif %}
+        class="mb-3 drop-shadow border">
+      {% if page.img-caption %}
+        <figcaption>
+          <p class="small text-body-secondary mb-4">
+            <small>
+              {% if page.img-link %}
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis link-offset-3">
+              {% endif %}
+              {{ page.img-caption }}
+              {% if page.img-link %}
+                </a>
+              {% endif %}
+            </small>
+          </p>
+        </figcaption>
+      {% endif %}
+    </figure>
+  {% elsif page.image %}
+    {% comment %} Fallback for pages using 'image' instead of 'img-feat' {% endcomment %}
+    <figure>
+      <img
+        src="{{ site.baseurl }}/assets/img/{% if page.img-path %}{{ page.img-path }}/{% endif %}{{ page.image }}"
+        alt="{{ page.img-alt | default: page.title }}"
+        class="mb-3 drop-shadow border">
+      {% if page.img-caption %}
+        <figcaption>
+          <p class="small text-body-secondary mb-4">
+            <small>
+              {% if page.img-link %}
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis link-offset-3">
+              {% endif %}
+              {{ page.img-caption }}
+              {% if page.img-link %}
+                </a>
+              {% endif %}
+            </small>
+          </p>
+        </figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
+
 {% endif %}
