@@ -2,21 +2,18 @@
 layout: page
 title: Office hours
 description: Serendipitous chat time.
-img-og: open-door-og.png
-img-alt: "Open door icon"
+img-og: seedling.png
+img-alt: "Seedling icon"
 ---
 
 ## Logistics
 
-- Host: [Luke Fretwell](/people/luke-fretwell)
+- Host: [Luke Fretwell](https://lukefretwell.com)
 - Date/time: Fridays, 9:00-9:30 a.m. PT
 - Location: [Zoom](https://us05web.zoom.us/j/82630980410?pwd=DGBn5c0BXciGcvoA8qxqYM3scb4w6E.1)
+- Format: Open Q&A. Ask me (and anyone who joins) anything.
 
-## What's the format?
-
-Open Q&A. Ask me (and anyone who joins) anything.
-
-## Themes?
+## Themes
 
 - Accessibility
 - Civic hacking
@@ -25,14 +22,9 @@ Open Q&A. Ask me (and anyone who joins) anything.
 - Digital service
 - Product design/development
 - Open source/data/innovation/culture
-
-## Do I need to RSVP?
-
-No, just join at the designated time.
-
-## Can I invite others?
-
-Yes!
+- CityCamp
+- GovFresh
+- ScanGov
 
 ## Problems joining?
 
