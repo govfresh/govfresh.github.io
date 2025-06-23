@@ -5,10 +5,11 @@ description: "Help us make GovFresh more secure."
 permalink: /security/
 ---
 
-## Our security
+## Protocol
 
-- All pages served over HTTPS.
+- All pages served over HTTPS/HSTS
+- Active Content security policy (CSP)
 
 ## Reporting
 
-- [GovFresh security.txt](https://github.com/govfresh/govfresh.github.io/blob/main/.well-known/security.txt)
+- [GovFresh security.txt](https://govfresh.com/security.txt)
