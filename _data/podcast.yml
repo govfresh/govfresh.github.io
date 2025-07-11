@@ -1,6 +1,16 @@
 docs_list_title: podcast
 docs:
 
+- title: "California Alpha (Part 2)"
+  description: "Going Alpha."
+  date: 2025-07-10
+  url: https://podcast.govfresh.com/episode/california-alpha-part-2
+  img-og: https://podcast.govfresh.com/assets/img/people/ca-alpha-og.png
+  img: https://podcast.govfresh.com/assets/img/people/ca-alpha.png
+  img_src: "remote"
+  number: 14
+  feature: true
+
 - title: "Hack to the Future with Emily Crose"
   description: "Government's history, relationship and evolution with hackers and hacking."
   date: 2025-05-28
