@@ -29,6 +29,14 @@ assignees: ''
 
 ## Publish
 
+```
+New GovFresh Podcast episode 🎙️ ✨
+
+TITLE
+
+LINK
+```
+
 - [ ] Post to website
 - [ ] Add to [YouTube](https://studio.youtube.com/channel/UCTyc3WwH1Fx7dxCr8YLiXLg/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D)
 - [ ] Add to GF podcast data file
