@@ -97,7 +97,7 @@
     --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
     */
     --bs-alert-bg: var(--bs-body-bg);
-    --bs-selection-bg: #face00;
+    --bs-selection-bg: #d5bfff;
     --bs-selection-color: var(--bs-body-color);
     --bs-card-border-color: var(--bs-gray) !important;
     --bs-gray: #ccc;
@@ -766,6 +766,6 @@ pre {
     opacity: 0;
     position: fixed;
     bottom: 2rem;
-    right: 2rem;
+    left: 2rem;
     z-index: 1000;
 }

@@ -1,27 +1,27 @@
 <div class="preview-include">
   {% assign title = page.title %}
-  {% for x in site.pages %}
-    {% for loop in site.pages %}
-      {% if include.show-only %}
-        {% assign size = site.[loop.parent] | size %}
-        {% if loop.parent == page.parent and show != "true" and size > 1 %}
-          <div class="border-top pt-5 pb-3">
-            {% assign show = "true" %}
-            <h2>{{ loop.title }}</h2>
-            <p class="lead mb-4">{{ loop.description }}</p>
-            {% include cards.html page=loop.parent page-title=title %}
-            <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm mt-3">{{ loop.title }}</a>
-          </div>
-        {% endif %}
-      {% else %}
-        <div class="preview">
+  {% for loop in site.pages %}
+    {% if include.show-only %}
+      {% assign size = site.[loop.parent] | size %}
+      {% if loop.parent == page.parent and show != "true" and size > 1 %}
+        <div class="border-top pt-5 pb-3">
+          {% assign show = "true" %}
           <h2>{{ loop.title }}</h2>
-          <p class="lead">{{ loop.description }}</p>
-          {% assign page = loop %}
-          {% include cards.html page-title=title %}
-          <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm">{{ loop.title }}</a>
+          <p class="lead mb-4">{{ loop.description }}</p>
+          {% include cards.html page=loop.parent page-title=title %}
+          <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm mt-3">{{ loop.title }}</a>
         </div>
+
+        {% break %}
       {% endif %}
-    {% endfor %}
+    {% else %}
+      <div class="preview">
+        <h2>{{ loop.title }}</h2>
+        <p class="lead">{{ loop.description }}</p>
+        {% assign page = loop %}
+        {% include cards.html page-title=title %}
+        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm">{{ loop.title }}</a>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
