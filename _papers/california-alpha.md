@@ -384,19 +384,3 @@ Thank you to the following who inspired this work:
 Fellow Team Alpha members: Chad Bratton, Kimberly Glenn, Oriel Gomez, Aaron Hans, Rebecca Huval, Hilary Hoeber, Artem Khomishen, Carter Medlin, JP Petrucione
 
 Others:  Marybel Batjer, Stuart Drown, Mike Wilkening, Julie Lee, Lynda Gledhill, Yolanda Richardson, Tamara Srzentic, Chaeny Emanavin,  Michael Valle, Jon Kirkham, Greg Gearheart, Krista Canellakis,  Justin Cohan-Shapiro, Ryan Ko,  Emma Gawen, James Stewart, Mikey Dickerson, Tom Loosemore, Jen Tress, Carrie Bishop, Elizabeth Steffensen, Cheryl Katsen, Corey Mahoney, Elisabeth Noriega, Shivani Bose-Varela, Joy Bonaguro,  Amy Tong and many many more. 
-
-
----
-
-
-## Authors
-
-
-### Luke Fretwell
-
-*Luke Fretwell is the founder and maintainer of [GovFresh](https://govfresh.com), a media and innovation lab working at the intersection of design, technology and democracy. He is also the co-founder of [ScanGov](https://scangov.com) and [ChatCivic](https://chatcivic.ai). Contact him at [luke@govfresh.com](mailto:luke@govfresh.com) or visit his website at [lukefretwell.com](http://lukefretwell.com).*
-
-
-### Angelica Quirarte
-
-*Angie most recently served as Senior Advisor in the White House Office of Management and Budget where she led policy and implementation efforts in the realms of the federal workforce, cybersecurity and AI. Angie has built digital service teams including leading Alpha, helped transform the California DMV,  led the COVID-19 digital response team, matched hundreds of technologists in the public sector, and implemented policies and programs around open data, open source, web standards, and web accessibility. She is a [2025 Federal 100](https://www.nextgov.com/people/2025/01/announcing-2025-federal-100/402639/) recipient.*
