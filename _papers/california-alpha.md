@@ -1,6 +1,6 @@
 ---
 title: "California Alpha"
-date: 2025-07-25
+date: 2025-07-30
 description: "How a short-term, experimental project scaled digital service innovation and impact across the State of California."
 author:
   - Luke Fretwell
@@ -29,7 +29,6 @@ launched: #true
 contributors:
 #  - 
 ---
-
 
 
 ## Overview
@@ -151,7 +150,7 @@ The team documented everything—not just what they did, but how they did it—i
 
 #### Design
 
-Before shipping a feature, each release was checked for accessibility, readability, and user testing.
+Human-centered design practices helped us put people first and re-imagine digital government services.
 
 While there were resource limitations to conducting formal user testing, the team was able to incorporate some practices into the product, from guerrilla user testing in the park to the creation of feedback forms and conducting interviews. The team also bought low-priced, Android phones and used them as part of the testing process for all new feature development.
 
@@ -165,6 +164,8 @@ The team also developed a set of principles to align on design vision and decisi
 * Optimize performance
 * Make it accessible and inclusive
 * Do the hard work to make things simple- understand context
+
+Before shipping a feature, each release was checked for accessibility, readability, and user testing.
 
 
 #### Development
