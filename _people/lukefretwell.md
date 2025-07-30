@@ -3,9 +3,9 @@ title: Luke Fretwell
 description: Democracy and open, accessible technology.
 name: Luke Fretwell
 shortname: Luke
-bio-short: "Luke Fretwell is the founder and maintainer of GovFresh."
+bio-short: "Luke Fretwell is the founder and maintainer of GovFresh and co-founder of ScanGov."
 position: Founder / maintainer
-org: GovFresh
+org: GovFresh / ScanGov
 img: luke-fretwell.jpg
 img-feat: luke-fretwell.jpg
 img-alt: Luke Fretwell
@@ -34,6 +34,8 @@ role: Maintainer
 Luke Fretwell is a champion of open, accessible technologies that drive inclusive and collaborative democracy.
 
 He is the founder and maintainer of [GovFresh](https://govfresh.com/), a media and innovation lab focused on the intersection of design, technology and democracy.
+
+He is also co-founder of [ScanGov](https://scangov.com/), a government digital experience platform.
 
 He is the co-founder of [ProudCity](https://proudcity.com/), a platform that empowers U.S. local governments to deliver better digital services. In its esteemed GovTech 100 list, _Government Technology_ annually recognizes ProudCity as one of the nation’s leading civic technology companies.
 
