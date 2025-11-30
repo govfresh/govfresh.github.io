@@ -25,8 +25,7 @@ category:
   - Open source
   - Policy
   - Procurement
-#feature: "true"
+#feature: true
 #contributors:
 #  - 
 ---
-
