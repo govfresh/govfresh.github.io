@@ -1,0 +1,42 @@
+---
+layout: quick-thoughts
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include breadcrumb.html %}
+<main>
+  <article>
+    {% include read-time-bar.html %}
+    {% include jumbotron.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="post post-dm-quick-thoughts fs-4">
+            <articlebody>
+              {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-hashtag'></i>" %}
+            </articlebody>
+          </div>
+          <div class="pt-4">
+            {% include share.html %}
+          </div>
+          {% include bio.html %}
+          {% include topics.html %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+    </div>
+  </article>
+</main>
+<aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include previews.html show-only="true" %}
+      </div>
+    </div>
+  </div>
+</aside>
+{% include analytics.html %}
+{% include footer.html %}

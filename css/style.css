@@ -21,6 +21,11 @@
 }
 
 @font-face {
+    font-family: "Public Sans Extra Bold";
+    src: url("/assets/fonts/public-sans/PublicSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Public Sans Black";
     src: url("/assets/fonts/public-sans/PublicSans-Black.ttf") format("truetype");
 }
@@ -212,6 +217,12 @@
 
 :root {
     --font-1: "Public Sans Bold", sans-serif;
+    --font-2: "Public Sans Regular", sans-serif;
+    --font-3: "Public Sans Extra Bold", sans-serif;
+}
+
+strong {
+    font-family: var(--font-1) !important;
 }
 
 /* Monospace */
@@ -567,6 +578,16 @@ img.xxl {
     font-family: var(--bs-font-sans-serif) !important;
     margin: var(--size-6) var(--size-1);
     margin-right: var(--size-9);
+    padding: var(--size-9);
+    box-shadow: 5px 5px 0px 0px var(--bs-body-color);
+}
+
+.post-dm-quick-thoughts p, .post-dm-quick-thoughts ul, .post-dm-quick-thoughts ol {
+    background-color: var(--bs-gray-200);
+    border-radius: var(--size-4);
+    color: var(--bs-black) !important;
+    font-family: var(--bs-font-sans-serif) !important;
+    margin: var(--size-7) var(--size-1);
     padding: var(--size-9);
     box-shadow: 5px 5px 0px 0px var(--bs-body-color);
 }

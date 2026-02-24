@@ -3,7 +3,7 @@ title: Luke Fretwell
 description: Democracy and open, accessible technology.
 name: Luke Fretwell
 shortname: Luke
-bio-short: "Luke Fretwell is the founder and maintainer of GovFresh and co-founder of ScanGov."
+bio-short: Luke Fretwell is the founder and maintainer of <a href="https://govfresh.com/">GovFresh</a> and co-founder of <a href="https://scangov.com/">ScanGov</a>.
 position: Founder / maintainer
 org: GovFresh / ScanGov
 img: luke-fretwell.jpg
@@ -15,7 +15,7 @@ subscribe:
 patreon: 
 bluesky: https://lukefretwell.bsky.social/
 mastodon: https://mastodon.social/@lukefretwell
-twitter: https://twitter.com/govfresh
+twitter: 
 medium: 
 figma: 
 youtube: 

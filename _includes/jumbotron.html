@@ -3,7 +3,7 @@
     <div class="container pt-1 pb-2 mb-2">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2"></div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-8">
           {% if page.title %}
             <h1 class="display-5 mb-3">{{ page.title }}</h1>
           {% endif %}
@@ -96,6 +96,20 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+      </div>
+    </div>
+  {% elsif page.layout == "quick-thoughts" %}
+    <div class="container pt-1 pb-3">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          {% if page.title %}
+            <h1 class="display-6">{{ page.title }}</h1>
+          {% endif %}
+          {% include date.html %}
+          {% include author.html %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
       </div>
     </div>
   {% elsif page.layout == "orgs" %}
