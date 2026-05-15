@@ -323,3 +323,4 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - .claude/
