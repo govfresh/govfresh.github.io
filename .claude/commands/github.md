@@ -46,10 +46,11 @@ git push -u origin <current-branch>
 
 5. Create PR targeting `main`:
 ```
-gh pr create --base main --title "<commit message>" --body ""
+GH=$(which gh 2>/dev/null || find /usr/local /opt/homebrew ~/.local -name "gh" 2>/dev/null | head -1)
+$GH pr create --base main --title "<commit message>" --body ""
 ```
 
-Return the PR URL.
+If `gh` is not found, return the PR URL from the `git push` output instead (GitHub prints it in the push response).
 
 ---
 
