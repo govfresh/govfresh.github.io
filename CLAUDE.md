@@ -6,6 +6,7 @@
 |---|---|
 | `update jekyll` | `.claude/commands/update-jekyll.md` |
 | `security check` | `.claude/commands/security-check.md` |
+| `migrate to web awesome` | `.claude/commands/migrate-to-web-awesome.md` |
 | `new branch` | `.claude/commands/github.md` → `new branch` |
 | `commit and pr` | `.claude/commands/github.md` → `commit and pr` |
 | `merged` | `.claude/commands/github.md` → `merged` |
