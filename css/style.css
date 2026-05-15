@@ -51,6 +51,123 @@
     src: url("/assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
 }
 
+/* ============================================
+   CSS Reboot (Bootstrap reboot equivalents)
+   ============================================ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--bs-body-bg, #fff);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif, system-ui, sans-serif);
+    font-size: var(--bs-body-font-size, 1rem);
+    font-weight: var(--bs-body-font-weight, 400);
+    line-height: var(--bs-body-line-height, 1.5);
+    color: var(--bs-body-color, #000);
+    background-color: var(--bs-body-bg, #fff);
+    -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+h1 { font-size: calc(1.375rem + 1.5vw); }
+h2 { font-size: calc(1.325rem + 0.9vw); }
+h3 { font-size: calc(1.3rem + 0.6vw); }
+h4 { font-size: calc(1.275rem + 0.3vw); }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+@media (min-width: 1200px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.75rem; }
+    h4 { font-size: 1.5rem; }
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul, ol {
+    padding-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 0.25rem;
+}
+
+a {
+    color: var(--bs-link-color, #0d6efd);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--bs-link-hover-color, #0a58ca);
+}
+
+img, svg {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+
+th {
+    text-align: inherit;
+    text-align: -webkit-match-parent;
+}
+
+thead, tbody, tfoot, tr, td, th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, input {
+    overflow: visible;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid var(--bs-border-color, #ccc);
+    opacity: 1;
+}
+
+blockquote {
+    margin: 0 0 1rem;
+}
+
 /* Light mode */
 
 :root,
