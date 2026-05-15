@@ -85,8 +85,8 @@
           class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
           href="javascript:void(0);"
           onclick="
-            const theme = document.body.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
-            document.body.setAttribute('data-bs-theme', theme);
+            const theme = document.body.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+            document.body.setAttribute('data-theme', theme);
             document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-${theme==='light'?'moon':'sun'}' id='theme-toggle-icon'></i>`;
             localStorage.setItem('theme', theme);"
           aria-label="Mode">

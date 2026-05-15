@@ -26,9 +26,9 @@ layout: profile
               <p class="lead">{{ page.description }}</p>
             {% endif %}
             <p>
-              <a href="{{ page.website }}" class="btn btn-primary btn-bd-primary mb-3">
+              <wa-button href="{{ page.website }}" variant="brand" class="mb-3">
                 Visit project
-              </a>
+              </wa-button>
             </p>
           {% endif %}
           <div class="post">{{ content }}</div>
@@ -65,25 +65,23 @@ layout: profile
             <div class="card-group">
               {% for item in thoughts %}
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                  <div class="card">
-                    <div class="card-body">
-                      {% if item.img-feat %}
-                        <img
-                          alt="{{ item.img-alt }}"
-                          class="xl"
-                          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
-                      {% endif %}
-                      {% if item.img-feat %}
-                        <h3>
-                          <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.img-feat
-}}</a>
-                        </h3>
-                      {% endif %}
-                      {% if item.description %}
-                        <p>{{ item.description }}</p>
-                      {% endif %}
-                    </div>
-                  </div>
+                  <wa-card>
+                    {% if item.img-feat %}
+                      <img
+                        slot="media"
+                        alt="{{ item.img-alt }}"
+                        class="xl"
+                        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+                    {% endif %}
+                    {% if item.img-feat %}
+                      <h3>
+                        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.img-feat }}</a>
+                      </h3>
+                    {% endif %}
+                    {% if item.description %}
+                      <p>{{ item.description }}</p>
+                    {% endif %}
+                  </wa-card>
                 </div>
               {% endfor %}
             </div>
@@ -98,17 +96,15 @@ layout: profile
             <div class="card-group">
               {% for item in posts %}
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                  <div class="card">
-                    <div class="card-body">
-                      <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
-                      <h3 class="h4">
-                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                      </h3>
-                      <p>
-                        <small>{{ item.date | date: "%B %-d, %Y" }}</small>
-                      </p>
-                    </div>
-                  </div>
+                  <wa-card>
+                    <i class="fa-solid fa-satellite-dish {{ site.data.connect.md }}"></i>
+                    <h3 class="h4">
+                      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                    </h3>
+                    <p>
+                      <small>{{ item.date | date: "%B %-d, %Y" }}</small>
+                    </p>
+                  </wa-card>
                 </div>
               {% endfor %}
             </div>

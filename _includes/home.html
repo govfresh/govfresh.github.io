@@ -48,7 +48,7 @@
         {% else %}
           {% assign permalink = page.parent %}
         {% endif %}
-        <a href="{% if i.name == "podcast" %}https://podcast.govfresh.com{% else %}{{ site.baseurl }}{{ permalink }}{% endif %}" class="btn btn-primary btn-bd-primary btn-sm">{{ page.title }}</a>
+        <wa-button href="{% if i.name == "podcast" %}https://podcast.govfresh.com{% else %}{{ site.baseurl }}{{ permalink }}{% endif %}" variant="brand" size="small">{{ page.title }}</wa-button>
       </div>
     {% endfor %}
   </div>

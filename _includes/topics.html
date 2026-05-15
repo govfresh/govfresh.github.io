@@ -9,7 +9,7 @@
     <ul class="list-inline">
       {% for category in categories %}
         <li class="list-inline-item small mr-1 mb-2">
-          <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="btn btn-primary btn-bd-primary btn-sm">{{ category }}</a>
+          <wa-button href="{{ site.baseurl }}/topics/{{ category|slugify }}" variant="brand" size="small">{{ category }}</wa-button>
         </li>
       {% endfor %}
     </ul>

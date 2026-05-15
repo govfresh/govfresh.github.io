@@ -9,7 +9,7 @@
           <h2>{{ loop.title }}</h2>
           <p class="lead mb-4">{{ loop.description }}</p>
           {% include cards.html page=loop.parent page-title=title %}
-          <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm mt-3">{{ loop.title }}</a>
+          <wa-button href="{{ site.baseurl }}/{{ page.parent }}" variant="brand" size="small" class="mt-3">{{ loop.title }}</wa-button>
         </div>
 
         {% break %}
@@ -20,7 +20,7 @@
         <p class="lead">{{ loop.description }}</p>
         {% assign page = loop %}
         {% include cards.html page-title=title %}
-        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-primary btn-bd-primary btn-sm">{{ loop.title }}</a>
+        <wa-button href="{{ site.baseurl }}/{{ page.parent }}" variant="brand" size="small">{{ loop.title }}</wa-button>
       </div>
     {% endif %}
   {% endfor %}

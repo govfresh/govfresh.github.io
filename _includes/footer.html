@@ -1,11 +1,12 @@
 <footer>
-  <a
+  <wa-button
     href="/subscribe"
     id="subscribe-button"
     aria-label="Subscribe"
-    class="subscribe btn btn-primary">
+    variant="brand"
+    class="subscribe">
     Subscribe
-  </a>
+  </wa-button>
   <script>
       const feedbackButton = document.getElementById("subscribe-button");
       window.addEventListener('scroll', () => {
@@ -31,7 +32,7 @@
           <ul class="list-inline mt-3">
             {% for topic in site.topics %}
               <li class="list-inline-item small mr-1 mb-2">
-                <a href="{{ site.baseurl }}{{ topic.url }}" class="btn btn-primary btn-bd-primary btn-sm">{{ topic.title }}</a>
+                <wa-button href="{{ site.baseurl }}{{ topic.url }}" variant="brand" size="small">{{ topic.title }}</wa-button>
               </li>
             {% endfor %}
           </ul>
