@@ -1161,10 +1161,10 @@ pre {
 .link-underline-opacity-0   { text-decoration-color: transparent !important; }
 .link-underline-opacity-0-hover:hover { text-decoration-color: currentColor !important; }
 
-/* Card group */
+/* Card group — same 12-column grid as .row so col-* children work */
 .card-group {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 /* Navbar */
