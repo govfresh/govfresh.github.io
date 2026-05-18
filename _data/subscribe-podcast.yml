@@ -2,13 +2,13 @@ docs_list_title: subscribe-podcast
 docs:
 
  - title: Apple Podcasts
-   url: https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1468169431
-   img: assets/img/logos/apple-podcasts.png
+   url: https://podcasts.apple.com/us/podcast/the-govfresh-podcast/id1797658196
+   icon: fa-brands fa-apple
 
  - title: Spotify
    url: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
-   img: assets/img/logos/spotify.png
+   icon: fa-brands fa-spotify
 
- - title: Pocket Casts
-   url: https://pca.st/WQa8
-   img: assets/img/logos/pocket-casts.png
+ - title: Amazon Music
+   url: https://music.amazon.com/podcasts/9d78e4a4-657a-456f-8cab-c031c791ee31/the-govfresh-podcast
+   icon: fa-brands fa-amazon

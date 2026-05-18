@@ -1,0 +1,56 @@
+---
+layout: null
+permalink: /podcast/feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:spotify="http://www.spotify.com/ns/rss"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+  <channel>
+    <title>The GovFresh Podcast</title>
+    <link>{{ site.url }}/podcast/</link>
+    <atom:link href="{{ site.url }}/podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Design. Technology. Democracy.</description>
+    <language>en-us</language>
+    <copyright>{{ site.time | date: "%Y" }} GovFresh</copyright>
+    <itunes:author>GovFresh</itunes:author>
+    <itunes:summary>Design. Technology. Democracy.</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ site.url }}/assets/img/avatar.png" />
+    <itunes:category text="Government" />
+    <itunes:category text="Technology" />
+    <itunes:owner>
+      <itunes:name>GovFresh</itunes:name>
+      <itunes:email>podcast@govfresh.com</itunes:email>
+    </itunes:owner>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+
+    {% for post in site.podcast reversed %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <description>{{ post.content | xml_escape }}</description>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid>{{ site.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <itunes:author>GovFresh</itunes:author>
+      <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>{{ post.duration }}</itunes:duration>
+      {% if post.img-cover %}
+      <itunes:image href="{{ site.url }}/assets/img/people/{{ post.img-cover }}" />
+      {% else %}
+      <itunes:image href="{{ site.url }}/assets/img/avatar-episode.png" />
+      {% endif %}
+      <enclosure url="https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/{{ post.audio }}" type="audio/mpeg" length="{{ post.audio_length }}" />
+      <spotify:audio url="https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/{{ post.audio }}" />
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,17 +1,14 @@
-<div class="container border-top mt-5 pt-5 pb-5">
+<div class="mt-4 pb-3">
   <h2>Subscribe</h2>
-  <div class="wa-grid" style="--min-column-size: 200px">
-    {% for subscribe-podcast in site.data.subscribe-podcast.docs %}
+  <div class="wa-grid" style="--min-column-size: 160px">
+    {% for item in site.data.subscribe-podcast.docs %}
       <wa-card class="text-center">
-        <img
-          src="{{ site.baseurl }}/{{ subscribe-podcast.img }}"
-          class="xxs mb-3"
-          alt="{{ subscribe-podcast.title }}">
-        <h3 class="h5">
-          <a href="{{ subscribe-podcast.url }}" class="card-link">
-            {{ subscribe-podcast.title }}
-          </a>
-        </h3>
+        <a href="{{ item.url }}" aria-label="{{ item.title }}" class="body-link">
+          <p class="mb-4">
+            <i class="{{ item.icon }} {{ site.data.connect.lg }} drop-shadow3"></i>
+          </p>
+        </a>
+        <p class="small">{{ item.title }}</p>
       </wa-card>
     {% endfor %}
   </div>

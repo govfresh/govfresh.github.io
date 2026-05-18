@@ -18,7 +18,12 @@
   </wa-card>
 {% else %}
   <wa-card>
-    {% if item.img %}
+    {% if item.img-feat %}
+      <img
+        src="{{ site.baseurl }}/assets/img/people/{{ item.img-feat }}"
+        alt="{{ item.title }}"
+        class="sm wa-border-radius-circle mb-4 drop-shadow border">
+    {% elsif item.img %}
       <img
         src="{{ item.img }}"
         alt="{{ item.title }}"

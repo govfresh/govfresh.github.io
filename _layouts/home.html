@@ -70,9 +70,9 @@ layout: home
         {% endfor %}
       {% endif %}
 
-      {% comment %} Add podcast docs {% endcomment %}
-      {% if site.data.podcast and site.data.podcast.docs %}
-        {% for post in site.data.podcast.docs %}
+      {% comment %} Add podcast episodes {% endcomment %}
+      {% if site.podcast %}
+        {% for post in site.podcast %}
           {% if post.feature == true %}
             {% assign featured_posts = featured_posts | push: post %}
           {% endif %}
@@ -91,7 +91,7 @@ layout: home
             <div>
               <a href="{{ site.baseurl }}{{ post.url }}">
                 <img
-                  class="img-fluid drop-shadow border"
+                  class="drop-shadow border"
                   src="{{ img_url }}"
                   alt="{{ post.img-alt | default: post.title }}"
                   loading="eager"

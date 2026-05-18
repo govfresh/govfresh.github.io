@@ -21,11 +21,7 @@
         {% else %}
           {% assign name = i.name %}
         {% endif %}
-        {% if i.name == "podcast" %}
-          {% assign items = site.data.podcast.docs %}
-        {% else %}
-          {% assign items = site[name] | reverse %}
-        {% endif %}
+        {% assign items = site[name] | reverse %}
         {% if i.name == "books" %}
           {% assign grid_size = "220px" %}
         {% elsif i.name == "briefs" %}
@@ -63,7 +59,7 @@
         {% else %}
           {% assign permalink = page.parent %}
         {% endif %}
-        <wa-button href="{% if i.name == "podcast" %}https://podcast.govfresh.com{% else %}{{ site.baseurl }}{{ permalink }}{% endif %}" class="mb-3" variant="brand" size="small">{{ page.title }}</wa-button>
+        <wa-button href="{{ site.baseurl }}{{ permalink }}" class="mb-3" variant="brand" size="small">{{ page.title }}</wa-button>
         <wa-divider></wa-divider>
       </div>
     {% endfor %}

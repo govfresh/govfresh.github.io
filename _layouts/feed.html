@@ -26,6 +26,8 @@ layout: feed
       {% assign feed_items = feed_items | push: item %}{% endfor %}
     {% for item in site.research %}
       {% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.podcast %}
+      {% assign feed_items = feed_items | push: item %}{% endfor %}
     {% assign post_count = 0 %}
     {% for item in site.posts %}
       {% if post_count < 60 %}
@@ -46,6 +48,17 @@ layout: feed
         {% endunless %}
         <article class="feed-post py-4{% if forloop.index > per_page %} feed-hidden{% endif %}">
 
+          {% if section_name == "thoughts" %}{% assign badge_label = "Thought" %}
+          {% elsif section_name == "podcast" %}{% assign badge_label = "Podcast" %}
+          {% elsif section_name == "briefs" %}{% assign badge_label = "Brief" %}
+          {% elsif section_name == "dm" %}{% assign badge_label = "Direct Message" %}
+          {% elsif section_name == "papers" %}{% assign badge_label = "Paper" %}
+          {% elsif section_name == "demos" %}{% assign badge_label = "Demo" %}
+          {% elsif section_name == "research" %}{% assign badge_label = "Research" %}
+          {% elsif section_name == "labs" %}{% assign badge_label = "Lab" %}
+          {% else %}{% assign badge_label = section_name | capitalize %}{% endif %}
+          <p class="mb-2"><wa-badge variant="brand">{{ badge_label }}</wa-badge></p>
+
           {% assign img_src = "" %}
           {% if item.img-og %}
             {% assign img_src = item.img-og %}
@@ -62,10 +75,12 @@ layout: feed
           {% endif %}
 
           {% if item.audio %}
-            <audio
-              controls
-              src="{{ site.baseurl }}/assets/audio/{{ item.audio }}"
-              class="w-100 mb-3"></audio>
+            {% if item.collection == "podcast" %}
+              {% assign audio_src = "https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/" | append: item.audio %}
+            {% else %}
+              {% assign audio_src = site.baseurl | append: "/assets/audio/" | append: item.audio %}
+            {% endif %}
+            <audio controls src="{{ audio_src }}" class="w-100 mb-3"></audio>
           {% endif %}
 
           {% if item.title %}
