@@ -5,7 +5,7 @@ description: The California Department of Technology has published unified desig
 author: GovFresh
 ---
 
-[caption id="attachment_24270" align="alignnone" width="1992"] Source: webstandards.ca.gov[/caption]
+
 
 The California Department of Technology has published unified design standards and accompanying resources for official state government websites.
 

@@ -1,7 +1,7 @@
-<div id="nav">
+<nav id="nav" aria-label="Main navigation">
   <div class="container">
-    <div class="row">
-      <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 py-4">
+    <div class="wa-split">
+      <div class="py-4">
         <a
           class="navbar-brand"
           href="{{ site.baseurl }}/"
@@ -17,112 +17,35 @@
           </svg>
         </a>
       </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 d-block d-md-none text-end">
-        <nav class="navbar navbar-expand-xs">
-          <button
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            class="navbar-toggler ms-auto"
-            data-target="#navbarNavAltMarkup"
-            data-toggle="collapse"
-            type="button"
-            onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mr-auto"></div>
-            <div class="navbar-nav small">
-              {% for item in site.data.nav.docs %}
-                {% if item.url %}
-                  <small>
-                    <a class="nav-item nav-link link-offset-3 {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                  </small>
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        </nav>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 pt-3 pb-3 text-end d-none d-lg-block">
-        <a
-          href="{{ site.baseurl }}/subscribe"
-          class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
-          style="margin-left: .5rem;">
-          <i class="fa-solid fa-envelope-open-text drop-shadow3"></i>
-          Subscribe
-        </a>
-        <a
-          href="{{ site.baseurl }}/community"
-          class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
-          style="margin-left: .5rem;">
-          <i class="fa-solid fa-circle-nodes drop-shadow3"></i>
-          Community
-        </a>
-        <a
-          href="{{ site.baseurl }}/connect"
-          class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
-          style="margin-left: .5rem;">
-          <i class="fa-solid fa-star drop-shadow3"></i>
-          Connect
-        </a>
-        <a
-          href="{{ site.baseurl }}/sponsor"
-          class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
-          style="margin-left: .5rem;">
-          <i class="fa-solid fa-heart drop-shadow3"></i>
-          Sponsor
-        </a>
-        <a
-          href="{{ site.baseurl }}/search"
-          aria-label="Search"
-          style="margin-left: .5rem;"
-          class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </a>
-        <a
-          style="margin-left: .5rem; display: inline-block; width: 1em;"
-          class="small link-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-0-hover"
-          href="javascript:void(0);"
-          onclick="
-            const theme = document.body.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-            document.body.setAttribute('data-theme', theme);
-            document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-${theme==='light'?'moon':'sun'}' id='theme-toggle-icon'></i>`;
-            localStorage.setItem('theme', theme);"
-          aria-label="Mode">
-          <i class="fa-solid fa-sun" id="theme-toggle-icon"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="d-block d-md-none border-bottom mb-3"></div>
-  <div class="border-bottom border-top mb-3 d-none d-md-block">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <button
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          class="navbar-toggler ml-auto body-color"
-          data-target="#navbarNavAltMarkup"
-          data-toggle="collapse"
-          type="button"
-          onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('collapse')">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mr-auto"></div>
-          <div class="navbar-nav small">
+      <div class="py-4 wa-cluster wa-justify-content-end">
+        <div class="d-block d-lg-none">
+          <wa-dropdown>
+            <button slot="trigger" class="navbar-toggler" aria-label="Toggle navigation" type="button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
             {% for item in site.data.nav.docs %}
-              {% if item.url %}
-                <small>
-                  <a class="nav-item nav-link link-offset-3 {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                </small>
-              {% endif %}
+              <wa-dropdown-item
+                href="{{ site.baseurl }}{{ item.url }}"
+                {% if page.url contains item.url %}aria-current="page"{% endif %}>
+                {{ item.title }}
+              </wa-dropdown-item>
             {% endfor %}
-          </div>
+          </wa-dropdown>
         </div>
-      </nav>
+        <div class="d-none d-lg-block text-end">
+          {% for item in site.data.nav.docs %}
+            <a
+              href="{{ site.baseurl }}{{ item.url }}"
+              class="small nav-link ms-2 d-inline"
+              {% if item.icon-only %}aria-label="{{ item.title }}"{% endif %}
+              {% unless item.url contains 'http' %}
+                {% if page.url contains item.url %}aria-current="page"{% endif %}
+              {% endunless %}>
+              <i class="fa-solid {{ item.icon }} drop-shadow3"></i>{% unless item.icon-only %} {{ item.title }}{% endunless %}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</nav>

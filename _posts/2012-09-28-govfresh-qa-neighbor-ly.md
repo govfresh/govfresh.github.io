@@ -5,7 +5,7 @@ description: Neighbor.ly is a civic crowdfunding platform for U.S. cities and ci
 author: GovFresh
 ---
 
-[caption id="attachment_14953" align="alignnone" width="600"] Neighbor.ly[/caption]
+
 
 <em>GovFresh highlights the products and start-ups powering the civic revolution. <a href="http://govfresh.com/2011/10/how-civic-entrepreneurs-and-developers-can-share-your-work-with-govfresh-readers/">Learn how you can get featured.</a></em>
 

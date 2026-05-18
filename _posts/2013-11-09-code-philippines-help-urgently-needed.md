@@ -5,7 +5,7 @@ description: By now you’ve no doubt heard of the horrific consequences of supe
 author: GovFresh
 ---
 
-[caption id="attachment_16716" align="alignnone" width="640"] The Philippines after October 2009 typhoon. (Photo: <a href="http://www.flickr.com/photos/21532636@N05/4244093557/in/photolist-7t369R-7t36rD-7t74cb-7t74iG-7t74mG-7t74sY-7HgsoM-7K2Q1j-8WuxVP-7xFXo6-dzdknf-agNBqW-agKNRX-agKNPH-agKNQK-agNCbb-dkQ4TR-8nVZ1v-dLXEWX-ap9NYe-7HtqK1-g5vn4h-g5vk8d-g9TjJQ-9ARXxH-9Fecxr-83m2BS-a5yJpX-8sjPtM-brM4xa-9ARXxr-7He1jh-9Yevur-cCaEp5-cCaFuj-cCawDm-bBNCxo-crPh5h-azT6F4-bX8ctC-ft7Qgy-bqsTNt-8sjLT8-bdCDPz-7KG1uu-gueoTp-bCq8WH-9hjhub-9hga6V-azBDuq-9uefut">IFRC</a>)[/caption]
+
 
 By now you’ve no doubt heard of the horrific consequences of <a href="http://www.usatoday.com/story/news/world/2013/11/09/typhoon-haiyan-philippines-vietnam/3483099/" target="_blank">super Typhoon Haiyan</a> which has devastated the Philippines. In addition to an inconceivable death toll, thousands are displaced and without shelter.
 

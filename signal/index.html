@@ -6,51 +6,16 @@ parent: signal
 redirect_from:
   - /signal
 ---
-<div class="col-sm-12">
-  <div class="card-group">
-    {% assign posts = paginator.posts %}
-    {% for post in posts %}
-      {% assign item = post %}
-      {% include card-signal.html %}
-    {% endfor %}
-  </div>
-  {% if paginator.total_pages > 1 %}
-    <nav aria-label="Page navigation">
-      <ul class="pagination flex-wrap mt-5">
-        {% if paginator.previous_page %}
-          <li class="page-item small">
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link mx-1">Previous</a>
-          </li>
-        {% else %}
-          <li class="page-item small disabled">
-            <a class="page-link mx-1">Previous</a>
-          </li>
-        {% endif %}
-        {% for page in (1..paginator.total_pages) %}
-          {% if page == paginator.page %}
-            <li class="page-item small active">
-              <a class="page-link mx-1" href="#">{{ page }}</a>
-            </li>
-          {% elsif page == 1 %}
-            <li class="page-item small">
-              <a href="{{ site.baseurl }}/signal/" class="page-link">{{ page }}</a>
-            </li>
-          {% else %}
-            <li class="page-item small">
-              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-link mx-1">{{ page }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-        {% if paginator.next_page %}
-          <li class="page-item small">
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link mx-1">Next</a>
-          </li>
-        {% else %}
-          <li class="page-item small disabled">
-            <span class="page-link mx-1">Next</span>
-          </li>
-        {% endif %}
-      </ul>
-    </nav>
-  {% endif %}
+<div class="wa-grid" style="--min-column-size: 300px">
+  {% for post in site.posts limit: 100 %}
+    <wa-card>
+      <h2 class="h5 mb-2">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
+      </h2>
+      {% if post.description %}
+        <p class="small text-body-secondary mb-2">{{ post.description }}</p>
+      {% endif %}
+      <p class="small text-body-secondary mb-0">{{ post.date | date: site.date }}</p>
+    </wa-card>
+  {% endfor %}
 </div>

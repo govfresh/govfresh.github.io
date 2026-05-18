@@ -5,7 +5,7 @@ description: To win in the Regulatory Era, founders, funders, executives, and po
 author: GovFresh
 ---
 
-[caption id="attachment_24195" align="alignnone" width="4250"] Evan Burfield speaking at Startup Turkey (Photo: Startup Turkey)[/caption]
+
 
 Silicon Valley's approach to disruption is often hindered by hubris or naivet&eacute;, but neither of these are sustainable business strategies in highly-regulated industries, where bureaucratic, political and legal barriers are inevitable impediments to startup innovation, especially for those who think they can just 'Uber' their way to success.
 

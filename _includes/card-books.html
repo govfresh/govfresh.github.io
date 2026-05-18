@@ -1,53 +1,47 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-    <wa-card{% if item.book-author %} with-footer{% endif %}>
-      {% if item.img-book %}
-        <img
-          class="xxs mb-4 drop-shadow border"
-          src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-book }}"
-          alt="{{ item.img-alt }}">
-      {% endif %}
-      {% if item.title %}
-        <h3 class="h5">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h3>
-      {% endif %}
-      {% if item.description %}
-        <p class="small text-body-secondary">
-          <small>{{ item.description }}</small>
-        </p>
-      {% endif %}
-      {% if item.book-author %}
-        <div slot="footer">
-          <small>By {{ item.book-author }}</small>
-        </div>
-      {% endif %}
-    </wa-card>
-  </div>
+  <wa-card>
+    {% if item.img-book %}
+      <img
+        class="xxs mb-4 drop-shadow border"
+        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-book }}"
+        alt="{{ item.img-alt }}"
+        loading="lazy">
+    {% endif %}
+    {% if item.title %}
+      <h3 class="h5">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h3>
+    {% endif %}
+    {% if item.description %}
+      <p class="small text-body-secondary">
+        <small>{{ item.description }}</small>
+      </p>
+    {% endif %}
+    {% if item.book-author %}
+      <p class="small text-body-secondary mb-0"><small>By {{ item.book-author }}</small></p>
+    {% endif %}
+  </wa-card>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-4 col-lg-2 col-xl-2 d-flex align-items-stretch">
-    <wa-card{% if item.book-author %} with-footer{% endif %}>
-      {% if item.img-book %}
-        <img
-          class="xxs mb-4 drop-shadow border"
-          src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-book }}"
-          alt="{{ item.img-alt }}">
-      {% endif %}
-      {% if item.title %}
-        <h2 class="h5">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h2>
-      {% endif %}
-      {% if item.description %}
-        <p class="small text-body-secondary">
-          <small>{{ item.description }}</small>
-        </p>
-      {% endif %}
-      {% if item.book-author %}
-        <div slot="footer">
-          <small>By {{ item.book-author }}</small>
-        </div>
-      {% endif %}
-    </wa-card>
-  </div>
+  <wa-card>
+    {% if item.img-book %}
+      <img
+        class="xxs mb-4 drop-shadow border"
+        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-book }}"
+        alt="{{ item.img-alt }}"
+        loading="lazy">
+    {% endif %}
+    {% if item.title %}
+      <h2 class="h5">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h2>
+    {% endif %}
+    {% if item.description %}
+      <p class="small text-body-secondary">
+        <small>{{ item.description }}</small>
+      </p>
+    {% endif %}
+    {% if item.book-author %}
+      <p class="small text-body-secondary mb-0"><small>By {{ item.book-author }}</small></p>
+    {% endif %}
+  </wa-card>
 {% endif %}

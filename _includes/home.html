@@ -1,9 +1,10 @@
 <div id="main-content">
   <div class="home-include">
-    {% assign first = site.order | first %}
-    {% for i in site.order %}
+    {% assign featured_item = site.thoughts | where: "feature", true | last %}
+    {% assign featured_url = featured_item.url %}
+    {% for i in site.data.order.docs %}
       {% assign page = site.pages | where: "parent", i.name | first %}
-      <div class="preview {{ page.parent }} border-bottom mt-2 mb-2 pt-2 pb-3">
+      <div class="preview {{ page.parent }} mt-2 mb-2 pt-2 pb-3">
         <h2>{{ page.title }}</h2>
         <p class="lead text-body-secondary">{{ page.description }}</p>
         {% assign amount = 1 %}
@@ -25,12 +26,26 @@
         {% else %}
           {% assign items = site[name] | reverse %}
         {% endif %}
-        <div class="card-group mb-3">
+        {% if i.name == "books" %}
+          {% assign grid_size = "220px" %}
+        {% elsif i.name == "briefs" %}
+          {% assign grid_size = "100%" %}
+        {% elsif i.name == "research" %}
+          {% assign grid_size = "440px" %}
+        {% elsif i.name == "papers" %}
+          {% assign grid_size = "460px" %}
+        {% elsif i.name == "demos" %}
+          {% assign grid_size = "30%" %}
+        {% else %}
+          {% assign grid_size = "320px" %}
+        {% endif %}
+        <div class="wa-grid mb-3" style="--min-column-size: {{ grid_size }}">
           {% for item in items %}
-            {% comment %} Fix: Convert to integer and add safety check {% endcomment %}
             {% assign max_items = i.number | plus: 0 | default: 5 %}
             {% assign current_amount = amount | plus: 0 %}
-            {% if current_amount <= max_items %}
+            {% if i.name == "thoughts" and item.url == featured_url %}
+              {% comment %}Skip thought already shown in featured section{% endcomment %}
+            {% elsif current_amount < max_items %}
               {% if name == "books" %}
                 {% if item.feature %}
                   {% include {{ card }} level="true" %}
@@ -48,8 +63,10 @@
         {% else %}
           {% assign permalink = page.parent %}
         {% endif %}
-        <wa-button href="{% if i.name == "podcast" %}https://podcast.govfresh.com{% else %}{{ site.baseurl }}{{ permalink }}{% endif %}" variant="brand" size="small">{{ page.title }}</wa-button>
+        <wa-button href="{% if i.name == "podcast" %}https://podcast.govfresh.com{% else %}{{ site.baseurl }}{{ permalink }}{% endif %}" class="mb-3" variant="brand" size="small">{{ page.title }}</wa-button>
+        <wa-divider></wa-divider>
       </div>
     {% endfor %}
+    {% include topics.html home=true %}
   </div>
 </div>

@@ -5,7 +5,7 @@ description: For those of you who identify as civic hackers and are unaffiliated
 author: GovFresh
 ---
 
-[caption id="attachment_18584" align="alignnone" width="800"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 <em>(Note: These views represent mine and not Spike’s. Big thanks to him for providing initial feedback on this. He doesn’t agree with everything and says we can still continue meeting for drinks.)</em>
 

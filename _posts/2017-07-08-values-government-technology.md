@@ -5,7 +5,7 @@ description: Earlier this year, CityGrows co-founder Catherine Geanuracos propos
 author: GovFresh
 ---
 
-[caption id="attachment_21645" align="alignnone" width="1024"] Photo: <a href="https://www.flickr.com/photos/kevharb/5314268567/">Kevin Harber</a>[/caption]
+
 
 Earlier this year, <a href="https://citygro.ws/">CityGrows</a> co-founder Catherine Geanuracos proposed <a href="https://blog.citygro.ws/a-values-operating-system-for-govtech-c845bf4cb1c3">values for government technology</a>, and its a great foundation for those serving government or the public to adopt.
 

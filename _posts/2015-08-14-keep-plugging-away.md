@@ -5,7 +5,7 @@ description: BallotPath founder Jim Cupples sent me a follow-up note, and it hit
 author: GovFresh
 ---
 
-[caption id="attachment_20146" align="alignnone" width="756"] Photo: ENERGY.GOV[/caption]
+
 
 BallotPath founder Jim Cupples sent me a follow-up note (see below), and it hits home two important points.
 

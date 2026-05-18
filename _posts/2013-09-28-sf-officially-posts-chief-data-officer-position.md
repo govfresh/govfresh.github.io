@@ -5,7 +5,7 @@ description: After nearly a year since it first announced proposed open data leg
 author: GovFresh
 ---
 
-[caption id="attachment_16230" align="alignnone" width="700"] Port of San Francisco (Photo: Luke Fretwell)[/caption]
+
 
 After nearly a year since it first announced proposed open data legislation that included the creation of a city chief data officer, San Francisco has officially <a href="http://www.jobaps.com/sf/sup/BulPreview.asp?R1=PEX&amp;R2=0902&amp;R3=062271">posted the position</a>.
 

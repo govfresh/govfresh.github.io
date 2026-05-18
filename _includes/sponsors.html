@@ -1,61 +1,47 @@
 {% if page.title == 'Sponsors' %}
   <div class="container py-4">
-    <div class="row">
-      <div class="col-12">
-        <div class="card-group mb-4">
-          {% assign sorted_docs = site.data.sponsors.docs | sort: 'order' %}
-          {% for item in sorted_docs %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-              <wa-card class="border drop-shadow2 mx-2 p-2">
-                <i class="fa-solid fa-heart fa-xl mb-2 text-shadow" aria-label="hidden"></i>
-                <h2 class="h4 mt-0 pt-0 mb-1">
-                  <a
-                    href="{{ item.url }}"
-                    target="_blank">{{ item.title }}</a>
-                </h2>
-                <p class="mb-0 pb-0 small">{{ item.description }}</p>
-              </wa-card>
-            </div>
-          {% endfor %}
-        </div>
-        {% unless page.title == 'Sponsors' %}
-          <p>
-            <wa-button href="{{ site.baseurl }}/sponsor" variant="brand">Sponsor</wa-button>
-          </p>
-        {% endunless %}
-      </div>
+    <div class="wa-grid mb-4" style="--min-column-size: 440px">
+      {% assign sorted_docs = site.data.sponsors.docs | sort: 'order' %}
+      {% for item in sorted_docs %}
+        <wa-card class="border drop-shadow2 p-2">
+          <i class="fa-solid fa-heart fa-xl mb-2 text-shadow" aria-label="hidden"></i>
+          <h2 class="h4 mt-0 pt-0 mb-1">
+            <a
+              href="{{ item.url }}"
+              target="_blank">{{ item.title }}</a>
+          </h2>
+          <p class="mb-0 pb-0 small">{{ item.description }}</p>
+        </wa-card>
+      {% endfor %}
     </div>
+    {% unless page.title == 'Sponsors' %}
+      <p>
+        <wa-button href="{{ site.baseurl }}/sponsor" variant="brand">Sponsor</wa-button>
+      </p>
+    {% endunless %}
   </div>
 {% else %}
   <div class="container border-top mt-5 py-4">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="h3 mb-3">Sponsors</h2>
-        <p class="lead">
-          Thank you to our sponsors.
-        </p>
-        <div class="card-group mt-4 mb-4">
-          {% assign sorted_docs = site.data.sponsors.docs | sort: 'order' %}
-          {% for item in sorted_docs %}
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-              <wa-card class="border drop-shadow2 mx-2 p-2">
-                <i class="fa-solid fa-heart fa-xl mb-2 text-shadow" aria-label="hidden"></i>
-                <h3 class="h4 mt-0 pt-0 mb-1">
-                  <a
-                    href="{{ item.url }}"
-                    target="_blank">{{ item.title }}</a>
-                </h3>
-                <p class="mb-0 pb-0 small">{{ item.description }}</p>
-              </wa-card>
-            </div>
-          {% endfor %}
-        </div>
-        {% unless page.title == 'Sponsor' %}
-          <p>
-            <wa-button href="{{ site.baseurl }}/sponsor" variant="brand">Sponsor</wa-button>
-          </p>
-        {% endunless %}
-      </div>
+    <h2 class="h3 mb-3">Sponsors</h2>
+    <p class="lead">Thank you to our sponsors.</p>
+    <div class="wa-grid mt-4 mb-4" style="--min-column-size: 440px">
+      {% assign sorted_docs = site.data.sponsors.docs | sort: 'order' %}
+      {% for item in sorted_docs %}
+        <wa-card class="border drop-shadow2 p-2">
+          <i class="fa-solid fa-heart fa-xl mb-2 text-shadow" aria-label="hidden"></i>
+          <h3 class="h4 mt-0 pt-0 mb-1">
+            <a
+              href="{{ item.url }}"
+              target="_blank">{{ item.title }}</a>
+          </h3>
+          <p class="mb-0 pb-0 small">{{ item.description }}</p>
+        </wa-card>
+      {% endfor %}
     </div>
+    {% unless page.title == 'Sponsor' %}
+      <p>
+        <wa-button href="{{ site.baseurl }}/sponsor" variant="brand">Sponsor</wa-button>
+      </p>
+    {% endunless %}
   </div>
 {% endif %}

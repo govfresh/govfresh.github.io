@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19309" align="alignnone" width="1024"] (Photo: Official White House/Chuck Kennedy)[/caption]
+
 
 The most brilliant <a href="http://www.cnn.com/videos/politics/2015/04/06/michelle-obama-easter-dance-origxwx-ac.cnn">viral video</a> of the week is of First Lady Michelle Obama dancing to "<a href="https://www.youtube.com/watch?v=OPf0YbXqDm0">Uptown Funk</a>" to promote the fifth anniversary of her childhood obesity "<a href="http://www.letsmove.gov/">Let's Move</a>" campaign, and it's a great opportunity for federal agencies to both support this initiative and promote engagement around their respective citizen services.
 

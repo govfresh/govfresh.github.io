@@ -5,7 +5,7 @@ description: Marquis Cabrera is extremely insightful on many topics, a great thi
 author: GovFresh
 ---
 
-[caption id="attachment_24286" align="alignnone" width="1024"] Marquis Cabrera at the 2018 Code for America Summit (Photo: Drew Bird)[/caption]
+
 
 Marquis Cabrera and I first met last year at an <a href="https://www.agilegovleaders.org/">Agile Government Leadership</a> meetup in Sacramento, and I was struck by his breadth of knowledge of the government technology ecosystem and the innovation needed to holistically transform government.
 
@@ -27,7 +27,7 @@ A few years ago at the World Economic Forum, I heard former HP CEO, Meg Whitman,
 
 Today, IBM is a cognitive insights and cloud platform company. We’re helping sports teams create better drafting applications, transforming global trade to make it more efficient, and enabling citizens to take back control of their digital identity. But we’re also a world leader in quantum computing and implementing Blockchains. At a recent IBM hosted Blockchain for Arkansas Conference, Governor Asa Hutchinson touted the use of blockchain and said the technology could help secure data used by state farmers as they send their food along the distribution chain. We also just landed a major deal to transform the whole-of-government in Australia, using technologies, like artificial intelligence, quantum, and blockchain. This is SO exciting because my job is to drive innovation into our global government accounts with speed, so I work across all industries (Social Services, Public Safety, Defense, Cybersecurity, Tax, Insurance, Customs, etc.). I have been bringing the best of IBM to our public sector clients to improve the world, which is no doubt hard but rewarding. It’s been an honor and a privilege to represent and work for and help to elevate IBM.
 
-[caption id="attachment_24287" align="alignnone" width="1024"] Marquis Cabrera at the 2018 Code for America Summit (Photo: Drew Bird)[/caption]
+
 <h2>You recently spoke at the 2018 Code for America Summit with a inspiring call to action. Can you share what you touched on?</h2>
 In summation:
 <ul>
@@ -52,7 +52,7 @@ Life is an open book test, and it’s fun when you answer your own questions: Pe
 
 <strong>Invest in Charismatic “Medici” Learners and Doers:</strong> Code for America’s CEO Jen Pahlka recently said: “May the kids save us.” My advice to investors is to find and invest in generation Z and unicorn millennials who are cross-industry life-long learners and have guts, meaning they have both failed and won at something, have held service jobs (waitress, librarian, aid), and can pattern their learnings. Harvard Law JD Candidate Wendy Chu and Harvard PhD Candidate Nick Deporzio are prime examples. In my opinion, these are the people who will transform entire industries. Think: Jeff Bezos!
 
-[caption id="attachment_24288" align="alignnone" width="1024"] Marquis Cabrera at the 2018 Code for America Summit (Photo: Drew Bird)[/caption]
+
 <h2>And your advice to the civic and government technology community at large?</h2>
 Often times, we forget how hard change is for the people behind the systems, processes, and technology. This is not because our public sector teams aren’t innovative, but it is’ because they have to play in restricted sandbox. Policy-making is a slow process. Digital transformation in the global public sector is hard. For example, how do you enable Dubai to go from paperless to blockchain? How do you enable a whole-of-government approach in Security? How do you enable North Carolina Department of Technology to host blockchain apps at scale for their agencies? How do you help Africa modernize their ports and prevent? How do you track and trace Invasive Species? How do you use tech to advance #MadeInAduDhabi?
 

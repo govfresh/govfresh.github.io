@@ -5,7 +5,7 @@ description: An odd thing happened in Dehradun, the capital city of the northern
 author: GovFresh
 ---
 
-[caption id="attachment_21616" align="alignnone" width="1280"] Railway station of Dehradun, Uttarakhand, India. Photo by Lennon Rodgers <a href="https://commons.wikimedia.org/wiki/Category:CC-BY-SA-3.0-migrated-with-disclaimers">CC-BY-SA-3.0-migrated-with-disclaimers</a>[/caption]
+
 
 <em>This is part three of a five-part series that looks at successful strategies we at <a href="http://www.OpenDataSoft.com">OpenDataSoft</a> have seen our clients and others use to foster innovation and align their smart city and open data goals. The full series is available as a <a href="http://bit.ly/2aiptUq">free PDF download</a>.</em>
 
@@ -33,7 +33,7 @@ Consider <a href="http://www.roadify.com/">Roadify Transit</a>, for example. Thi
 
 It aggregates open real-time arrival, advisory and schedule data from transit agencies with tweets and comments from users. The application, which was developed by a civic technology start-up, took first prize at the second <a href="http://bigapps.nyc/p/">BigApps competition</a>, which is an annual contest sponsored by the New York City government to get developers to use city and other government data to create useful apps for NYC citizens and visitors.
 
-[caption id="attachment_21609" align="alignnone" width="1440"] Citygram[/caption]
+
 
 Another example is the award-winning <a href="https://www.citygram.org/">Citygram</a>. It is a mobile application that uses open data to push updates and alerts via text or email to users based on locations important to them. Alerts and updates include information about planned land development and rezoning projects, crime incident data, planned road closures, real-time data on traffic accidents and roadway obstructions, and other topics of importance to citizens. Now being deployed in multiple cities, Citygram was originally developed in Charlotte, North Carolina during a 2014 <a href="https://www.codeforamerica.org/">Code for America</a> fellowship program, and refined through a collaboration between the City of Charlotte and the local Code for America brigade, <a href="http://www.codeforcharlotte.org/">Code for Charlotte</a>.
 

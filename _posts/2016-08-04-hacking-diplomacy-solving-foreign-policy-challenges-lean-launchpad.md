@@ -5,7 +5,7 @@ description: Join a select cross-disciplinary class that takes real problems fro
 author: GovFresh
 ---
 
-[caption id="attachment_21434" align="alignnone" width="1200"] Photo: State Department[/caption]
+
 
 <a href="http://web.stanford.edu/class/msande298/">Hacking for Diplomacy</a> is a new course from the <a href="https://msande.stanford.edu/">Management Science and Engineering</a> department in Stanford’s Engineering school and Stanford’s <a href="https://ips.stanford.edu/">International Policy Studies program</a> that will be first offered in the Fall of 2016.
 

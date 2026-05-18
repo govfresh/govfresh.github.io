@@ -1,11 +1,11 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "{{ page.schematype }}",
     "headline": "{{ page.title }}",
     "description": "{{ page.description | xml_escape }}",
     "isAccessibleForFree": true,
     "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ site.time | date_to_xmlschema }}",
+    "dateModified": "{{ page.modified | default: site.time | date_to_xmlschema }}",
     "author": [
         {
             "@type": "Person",

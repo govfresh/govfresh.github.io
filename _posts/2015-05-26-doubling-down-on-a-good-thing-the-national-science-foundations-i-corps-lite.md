@@ -79,7 +79,7 @@ NSF led the development of the SBIR program in the late 1970s. It has since been
 </ul>
 </blockquote>
 
-[soundcloud url="https://api.soundcloud.com/tracks/205520630" params="show_artwork=false" width="100%" height="66" iframe="true" /]
+
 
 <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled">
 

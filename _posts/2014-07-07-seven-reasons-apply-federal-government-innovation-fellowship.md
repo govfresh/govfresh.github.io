@@ -5,7 +5,7 @@ description: If you’re interested in working for the federal government with a
 author: GovFresh
 ---
 
-[caption id="attachment_17811" align="alignnone" width="1977"] Photo: CFPB / Justin James[/caption]
+
 
 If you're interested in working for the federal government with an agency that doesn't have the institutional legacy of entrenched bureaucracy and truly gets design and open source innovation, and has a direct impact on American consumers, the <a href="http://www.consumerfinance.gov/jobs/technology-innovation-fellows">Consumer Financial Protection Bureau has just the opportunity for you</a>.
 

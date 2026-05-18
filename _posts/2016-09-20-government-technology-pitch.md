@@ -7,7 +7,7 @@ category:
     - Technology
 ---
 
-[caption id="attachment_21729" align="alignnone" width="1024"] President Barack Obama joins a toast with tech business leaders at a dinner in Woodside, California, Feb. 17, 2011. (Official White House Photo by Pete Souza)[/caption]
+
 
 <em><a href="https://techcrunch.com/2016/09/18/the-government-technology-pitch/">Originally published</a> at TechCrunch</em>
 <p dir="ltr">Crisis has a history of dictating government technology disruption. We’ve seen this with the anticipation of Soviet Union aerospace and military dominance that sparked the emergence of DARPA, as<span class="il">well</span> as with the response to 9/11 and subsequent establishment of the U.S. Department of Homeland Security.</p>

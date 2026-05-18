@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16814" align="alignnone" width="640"] Golden Gate Bridge (Photo: Luke Fretwell)[/caption]
+
 
 <strong><em>Update: A DGS representative notified us that these restrictions will be lifted "ballpark in the next few months" once the state has updated its cloud computing terms and conditions policy, which is currently under review.</em>
 </strong>

@@ -5,7 +5,7 @@ description: The Federal Aviation Administration is looking for a chief data off
 author: GovFresh
 ---
 
-[caption id="attachment_21127" align="alignnone" width="1024"] Photo: White House / Pete Souza[/caption]
+
 
 The Federal Aviation Administration is looking for a chief data officer.
 

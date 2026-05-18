@@ -1,50 +1,44 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <wa-card{% if item.img-og %} with-media{% endif %} with-footer>
-      {% if item.img-og %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xxl"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}">
-      {% endif %}
-      {% if page.title %}
-        <h3 class="h5">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h3>
-      {% endif %}
-      <div slot="footer">
-        <p class="small text-body-secondary">
-          {% include date.html %}
-        </p>
-      </div>
-    </wa-card>
-  </div>
+  <wa-card{% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xxl"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+        loading="lazy">
+    {% endif %}
+    {% if page.title %}
+      <h3 class="h5">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h3>
+    {% endif %}
+    <p class="small text-body-secondary mb-0">
+      {{ item.date | date: site.date }}
+    </p>
+  </wa-card>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <wa-card class="mx-2 mb-3"{% if item.img-og %} with-media{% endif %}{% if item.date %} with-footer{% endif %}>
-      {% if item.img-og %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xxl"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}">
+  <wa-card class="mx-2 mb-3"{% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xxl"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+        loading="lazy">
+    {% endif %}
+    {% if page.title %}
+      <h2 class="h5">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h2>
+      {% if page.description %}
+        <p class="small text-body-secondary">
+          <small>{{ item.description }}</small>
+        </p>
       {% endif %}
-      {% if page.title %}
-        <h2 class="h5">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h2>
-        {% if page.description %}
-          <p class="small text-body-secondary">
-            <small>{{ item.description }}</small>
-          </p>
-        {% endif %}
-      {% endif %}
-      {% if item.date %}
-        <div slot="footer">
-          {% include date.html %}
-        </div>
-      {% endif %}
-    </wa-card>
-  </div>
+    {% endif %}
+    {% if item.date %}
+      <p class="small text-body-secondary mb-0">{{ item.date | date: site.date }}</p>
+    {% endif %}
+  </wa-card>
 {% endif %}

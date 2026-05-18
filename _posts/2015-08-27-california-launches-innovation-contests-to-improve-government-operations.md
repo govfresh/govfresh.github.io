@@ -5,7 +5,7 @@ description: The state of California has launched a $25K Find a New Way innovati
 author: GovFresh
 ---
 
-[caption id="attachment_20176" align="alignnone" width="1024"] Photo: Architect of the Capitol[/caption]
+
 
 The state of California has launched a <a href="http://www.dot.ca.gov/InnovAward/">$25K Find a New Way</a> innovation contest that gives residents a chance "to identify areas of improvement within the state government and share their untapped expertise to create solutions."
 

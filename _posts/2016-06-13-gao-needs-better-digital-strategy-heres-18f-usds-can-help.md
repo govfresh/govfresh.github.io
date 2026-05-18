@@ -5,7 +5,7 @@ description: The U.S. Government Accountability Office released a report on the 
 author: GovFresh
 ---
 
-[caption id="attachment_21094" align="alignnone" width="2433"] Source: gao.gov[/caption]
+
 
 The U.S. Government Accountability Office released a <a href="http://www.gao.gov/products/GAO-16-733T">report</a> on the fiscal and administrative state of 18F and the U.S. Digital Service, both established to make federal government digital services work better for users, and it appears the agency could use some help from the two on its own website, <a href="http://gao.gov">gao.gov</a>.
 

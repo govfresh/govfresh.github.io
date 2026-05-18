@@ -1,7 +1,13 @@
 {
-    "@context": "http://schema.org",
-    "@type": "{{ page.schematype }}",
-    "isAccessibleForFree": true,
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
     "url": "{{ site.url }}",
-    "name": "{{ site.title }}"
+    "sameAs": [{% for link in site.social.links %}"{{ link }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}"
+    }
 }

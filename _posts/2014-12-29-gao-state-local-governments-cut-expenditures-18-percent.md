@@ -5,7 +5,7 @@ description: The U.S. Government Accountability Office released its 2014 state a
 author: GovFresh
 ---
 
-[caption id="attachment_18785" align="alignnone" width="1431"] State and Local Simulated Operating Balance Measure, as a Percentage of Gross Domestic Product (GDP) (Source: GAO)[/caption]
+
 
 The U.S. Government Accountability Office released its <a href="http://www.gao.gov/multimedia/podcast/667597">2014 state and local fiscal outlook model</a> that indicates state and local government need to cut current expenditures by 18 percent to achieve fiscal balance over the next 50 years.
 

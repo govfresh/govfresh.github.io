@@ -5,7 +5,7 @@ description: The White House released an official Federal Source Code policy tha
 author: GovFresh
 ---
 
-[caption id="attachment_20481" align="alignnone" width="1024"] Photo: White House/Pete Souza[/caption]
+
 
 The White House released an official <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf">Federal Source Code policy</a> (yes, it's a .pdf) that green lights the use and free distribution of software code developed for and by the U.S. Government.
 

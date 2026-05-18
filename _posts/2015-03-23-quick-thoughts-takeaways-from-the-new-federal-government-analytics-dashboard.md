@@ -5,7 +5,7 @@ description: After reviewing the first iteration of the newly-launched analytics
 author: GovFresh
 ---
 
-[caption id="attachment_19210" align="alignnone" width="1526"] Source: analytics.usa.gov[/caption]
+
 
 After reviewing the first iteration of the newly-launched <a href="http://analytics.usa.gov">analytics.usa.gov</a>, here are some quick thoughts and takeaways:
 

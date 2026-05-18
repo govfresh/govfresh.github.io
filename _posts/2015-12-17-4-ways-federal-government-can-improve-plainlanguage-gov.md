@@ -5,7 +5,7 @@ description: Managed by the Federal Aviation Administration, plainlanguage.gov, 
 author: GovFresh
 ---
 
-[caption id="attachment_20535" align="alignnone" width="1755"] Source: plainlanguage.gov[/caption]
+
 
 Managed by the Federal Aviation Administration, <a href="http://www.plainlanguage.gov/">plainlanguage.gov</a>, the federal government website tasked with helping agencies write better for those it serves needs renewed attention. While momentum on better government digital services is in full-swing, it's time to re-invent how plain language is presented.
 

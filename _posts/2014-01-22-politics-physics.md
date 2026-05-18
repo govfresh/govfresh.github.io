@@ -5,7 +5,7 @@ description: Since last October the U.S. media, in full orgasmic throng, has bee
 author: GovFresh
 ---
 
-[caption id="attachment_16971" align="alignnone" width="800"] Photo: U.S. Health &amp; Human Services[/caption]
+
 
 Since last October the U.S. media, in full orgasmic throng, has been barking madly over the fate of the Healthcare.gov rollout. There has been overwhelming and obdurate polarization around positions on issues that would, in other arenas, be viewed through the objective lens of what most agree are facts. 
 

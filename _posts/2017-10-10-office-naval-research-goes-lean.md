@@ -5,7 +5,7 @@ description: The Office of Naval Research has been one of the largest supporters
 author: GovFresh
 ---
 
-[caption id="attachment_23412" align="aligncenter" width="2048"] Photo: <a href="https://www.flickr.com/photos/usnavyresearch/23496649615/">Office of Naval Research</a>[/caption]
+
 
 The <a href="https://www.onr.navy.mil/" target="_blank" rel="noopener">Office of Naval Research</a> has been one of the largest supporters of innovation in the U.S. Now they are starting to use the <a href="https://hbr.org/2017/09/what-your-innovation-process-should-look-like" target="_blank" rel="noopener">Lean Innovation process</a> (see <a href="https://steveblank.com/2017/09/14/how-companies-strangle-innovation/" target="_blank" rel="noopener">here</a> and <a href="https://hbr.org/2017/09/what-your-innovation-process-should-look-like" target="_blank" rel="noopener">here</a>) to turn ideas into solutions. The result will be defense innovation with speed and urgency.
 

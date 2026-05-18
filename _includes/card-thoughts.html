@@ -1,55 +1,49 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <wa-card class="m-1"{% if item.img-feat %} with-media{% endif %}{% if item.author %} with-footer{% endif %}>
-      {% if item.img-feat %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xxl"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+  <wa-card{% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xxl"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+        loading="lazy">
+    {% endif %}
+    {% if item.title %}
+      <h3 class="h4">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h3>
+      {% if item.description %}
+        <p class="small text-body-secondary">
+          <small>{{ item.description }}</small>
+        </p>
       {% endif %}
-      {% if item.title %}
-        <h3 class="h4">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h3>
-        {% if item.description %}
-          <p class="small text-body-secondary">
-            <small>{{ item.description }}</small>
-          </p>
-        {% endif %}
-      {% endif %}
-      {% if item.author %}
-        <div slot="footer">
-          <small>By {{ item.author }}</small>
-        </div>
-      {% endif %}
-    </wa-card>
-  </div>
+    {% endif %}
+    {% if item.author %}
+      <p class="small text-body-secondary mb-0"><small>By {{ item.author }}</small></p>
+    {% endif %}
+  </wa-card>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <wa-card class="m-1"{% if item.img-feat %} with-media{% endif %}{% if item.author %} with-footer{% endif %}>
-      {% if item.img-feat %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xxl"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+  <wa-card{% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xxl"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+        loading="lazy">
+    {% endif %}
+    {% if item.title %}
+      <h2 class="h4">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h2>
+      {% if item.description %}
+        <p class="small text-body-secondary">
+          <small>{{ item.description }}</small>
+        </p>
       {% endif %}
-      {% if item.title %}
-        <h2 class="h4">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h2>
-        {% if item.description %}
-          <p class="small text-body-secondary">
-            <small>{{ item.description }}</small>
-          </p>
-        {% endif %}
-      {% endif %}
-      {% if item.author %}
-        <div slot="footer">
-          <small>By {{ item.author }}</small>
-        </div>
-      {% endif %}
-    </wa-card>
-  </div>
+    {% endif %}
+    {% if item.author %}
+      <p class="small text-body-secondary mb-0"><small>By {{ item.author }}</small></p>
+    {% endif %}
+  </wa-card>
 {% endif %}

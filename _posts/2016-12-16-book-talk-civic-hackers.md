@@ -5,7 +5,7 @@ description: Civic hacker icon Mark Headd has written a book to help government 
 author: GovFresh
 ---
 
-[caption id="attachment_18584" align="alignnone" width="800"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 Civic hacker icon Mark Headd has written a book to help government officials best engage with community technologists.
 

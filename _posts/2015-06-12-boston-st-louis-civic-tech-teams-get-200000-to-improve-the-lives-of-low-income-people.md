@@ -5,7 +5,7 @@ description: The Boston team will focus on connecting youth to summer jobs and t
 author: GovFresh
 ---
 
-[caption id="attachment_16710" align="alignnone" width="800"] Photo: <a href="http://www.flickr.com/photos/codeforamerica/">Code for America</a>[/caption]
+
 
 Civic technology teams in Boston and St. Louis were awarded $200,000 each to leverage data and technology to improve the lives of low-income residents as part of the new <a href="https://www.livingcities.org/blog/848-introducing-the-civic-tech-and-data-collaborative">Civic Tech and Data Collaborative</a> sponsored by Living Cities, Code for America and Urban Institute's National Neighborhood Indicators Partnership.
 

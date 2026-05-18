@@ -10,12 +10,10 @@ timezone: America/Los_Angeles
 social:
   name: GovFresh
   links:
-    - https://twitter.com/govfresh
     - https://www.facebook.com/govfresh
     - https://www.linkedin.com/company/govfresh
     - https://github.com/govfresh
 
-twitter-username: govfresh
 linkedin: https://www.linkedin.com/company/govfresh
 
 # Build Settings
@@ -26,58 +24,35 @@ kramdown:
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
 
+# Jekyll Feed
+feed:
+  posts_limit: 20
+
 # Date/Time Formatting
 date: "%B %-d, %Y"
-date-format: "%B %d, %Y at %I:%M %P %Z"
 
 # Pagination
 paginate: 6
 paginate_path: "/signal/:num"
 
-# 404 Page
-permalink: /404.html
-
 # Content Type Limits
 # Number limits
 briefs-number: &briefs-number 4
-books-number: &books-number 7
-dm-number: &dm-number 5
+books-number: &books-number 5
+dm-number: &dm-number 4
 labs-number: &labs-number 4
 podcast-number: &podcast-number 4
 research-number: &research-number 5
-thoughts-number: &thoughts-number 5
-signal-number: &signal-number 2
+thoughts-number: 4
+signal-number: &signal-number 1
 demos-number: &demos-number 4
-papers-number: &papers-number 2
+papers-number: &papers-number 3
 events-number: &events-number 4
 orgs-number: &orgs-number 4
-
-# Home Page Content Order
-order:
-  - name: thoughts
-    number: *thoughts-number
-  - name: briefs
-    number: *briefs-number
-  - name: dm
-    number: *dm-number
-  - name: signal
-    number: *signal-number
-    site-name: posts
-  - name: demos
-    number: *demos-number
-  - name: papers
-    number: *papers-number
-  - name: research
-    number: *research-number
-  - name: podcast
-    number: *podcast-number
-  - name: books
-    number: *books-number
 
 # Collections
 collections:
@@ -324,3 +299,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .claude/
+  - _config_dev.yml

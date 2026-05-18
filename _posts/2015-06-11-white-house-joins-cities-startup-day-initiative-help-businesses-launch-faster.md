@@ -5,7 +5,7 @@ description: In an effort to help entrepreneurs get businesses legally establish
 author: GovFresh
 ---
 
-[caption id="attachment_19656" align="alignnone" width="1200"] San Francisco Mayor Ed Lee shops at Foggy Notion in the Inner Richmond with Supervisor Eric Mar all in support of local small businesses. (Photo: <a href="https://www.flickr.com/photos/mayoredlee/16215985562/in/photolist-nkgsR3-nk7X8D-nBjtY2-nk7H86-k47atc-qqASpR-qEJAYE-qGRCy2-qGXaxY-pL2h8L-k47Ms4-k47a2R-k47NZc-nkgmqB-k49DJ5-ppFVDN-q5gcnF-qmF8pp-ppVqnx-rrmn5h-r9TfTY-a9P3Aq-cSjVYq-cSjWaN-cSjWpJ-9J7g8R-9J7fSD-9J7gjc-a9Le6c-a9Lefz-eXu6MP-eXFuNq-eXu7bX-eXu79M">Mayor Ed Lee</a>)[/caption]
+
 
 In an effort to help entrepreneurs get businesses legally established without the red tape hassle, the White House, Small Business Administration and National League of Cities are rallying cities to provide simpler online tools and processes for those applying for licenses and permits.
 

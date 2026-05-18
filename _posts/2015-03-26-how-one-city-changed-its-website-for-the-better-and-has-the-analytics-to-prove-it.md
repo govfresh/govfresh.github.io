@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19269" align="alignnone" width="600"] Source: City of Ferndale[/caption]
+
 
 A few years ago after I let the first government WordPress theme I created languish, I got an email from <a href="http://cityofferndale.org">City of Ferndale</a> Assistant City Administrator <a href="https://www.linkedin.com/profile/view?id=99595628&amp;authType=NAME_SEARCH&amp;authToken=1vhd&amp;locale=en_US&amp;trk=tyah&amp;trkInfo=clickedVertical%3Amynetwork%2Cidx%3A1-1-1%2CtarId%3A1427401769754%2Ctas%3Asam+taylor">Sam Taylor</a> asking if he could get the latest version (which was no longer available).
 

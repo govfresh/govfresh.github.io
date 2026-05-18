@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_18699" align="alignnone" width="2048"] Photo: White House/Pete Souza[/caption]
+
 
 There's a great <a href="http://youtu.be/XGlZHOltSbk">Code for America Summit talk</a> from Philadelphia Chief Data Officer Tim Wisniewski on what they're doing to build a city-wide culture of innovation, including a physical open space office where anyone can work, a $100,000 internal innovation fund and tapping into external talent.
 

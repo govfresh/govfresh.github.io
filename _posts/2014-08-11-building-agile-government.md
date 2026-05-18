@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_17999" align="alignnone" width="907"] Source: agileforgov.org[/caption]
+
 
 Earlier this year, I began doing research work with <a href="http://civicactions.com">CivicActions</a> on agile development in government — who was doing it, how and what the needs were to successfully get it deployed.
 

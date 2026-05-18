@@ -5,7 +5,7 @@ description: Many of us are attracted to practices that move us towards that pla
 author: GovFresh
 ---
 
-[caption id="attachment_21596" align="alignnone" width="1200"] President Barack Obama greets His Holiness the Dalai Lama at the entrance of the Map Room of the White House, June 15, 2016. (Official White House Photo by Pete Souza)<br />[/caption]
+
 
 For my friends who work at the U.S. Digital Service, 18F and inside other government agencies of change, I hear stories of people so full of hope, embedded in teams where egos reign, working all day holding onto a glimmer of hope that they can move the needle forward even just a little.
 

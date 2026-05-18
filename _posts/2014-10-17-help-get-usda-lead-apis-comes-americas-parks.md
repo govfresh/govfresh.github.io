@@ -5,7 +5,7 @@ description: As part of this work I’m always on the look out for valuable publ
 author: GovFresh
 ---
 
-[caption id="attachment_18484" align="alignnone" width="1024"] Photo: USDA[/caption]
+
 
 I need your help with something. 
 

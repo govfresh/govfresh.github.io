@@ -1,75 +1,67 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <wa-card class="mx-2"{% if item.img-og %} with-media{% endif %} with-footer>
-      {% if item.img-og %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xxl border-bottom"
-          src="{{ site.baseurl }}/assets/img/logos/{{ item.img-og }}">
-      {% endif %}
-      {% if item.title %}
-        <h2 class="h3">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h2>
-        <p class="small text-body-secondary">
-          <small>{{ item.description }}</small>
-        </p>
-      {% endif %}
-      <div slot="footer">
-        {% if item.event-date %}
-          <p class="small text-body-secondary mb-0">
-            <small><i class="fa-regular fa-calendar"></i> Date: {{ item.event-date }}</small>
-          </p>
-        {% endif %}
-        {% if item.event-location %}
-          <p class="small text-body-secondary mb-0">
-            <small><i class="fa-solid fa-location-pin"></i> Location: {{ item.event-location }}</small>
-          </p>
-        {% endif %}
-        {% if item.org %}
-          <p class="small text-body-secondary mb-0">
-            <small><i class="fa-regular fa-building"></i> Host: {{ item.org }}</small>
-          </p>
-        {% endif %}
-      </div>
-    </wa-card>
-  </div>
+  <wa-card class="mx-2"{% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xxl border-bottom"
+        src="{{ site.baseurl }}/assets/img/logos/{{ item.img-og }}">
+    {% endif %}
+    {% if item.title %}
+      <h2 class="h3">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h2>
+      <p class="small text-body-secondary">
+        <small>{{ item.description }}</small>
+      </p>
+    {% endif %}
+    {% if item.event-date %}
+      <p class="small text-body-secondary mb-0">
+        <small><i class="fa-regular fa-calendar"></i> Date: {{ item.event-date }}</small>
+      </p>
+    {% endif %}
+    {% if item.event-location %}
+      <p class="small text-body-secondary mb-0">
+        <small><i class="fa-solid fa-location-pin"></i> Location: {{ item.event-location }}</small>
+      </p>
+    {% endif %}
+    {% if item.org %}
+      <p class="small text-body-secondary mb-0">
+        <small><i class="fa-regular fa-building"></i> Host: {{ item.org }}</small>
+      </p>
+    {% endif %}
+  </wa-card>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <wa-card class="mx-2"{% if item.img-og %} with-media{% endif %} with-footer>
-      {% if item.img-og %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xxl border-bottom"
-          src="{{ site.baseurl }}/assets/img/logos/{{ item.img-og }}">
-      {% endif %}
-      {% if item.title %}
-        <h2 class="h3">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h2>
-        <p class="small text-body-secondary">
-          <small>{{ item.description }}</small>
-        </p>
-      {% endif %}
-      <div slot="footer">
-        {% if item.event-date %}
-          <p class="small text-body-secondary mb-0">
-            <small><i class="fa-regular fa-calendar"></i> Date: {{ item.event-date }}</small>
-          </p>
-        {% endif %}
-        {% if item.event-location %}
-          <p class="small text-body-secondary mb-0">
-            <small><i class="fa-solid fa-location-pin"></i> Location: {{ item.event-location }}</small>
-          </p>
-        {% endif %}
-        {% if item.org %}
-          <p class="small text-body-secondary mb-0">
-            <small><i class="fa-regular fa-building"></i> Host: {{ item.org }}</small>
-          </p>
-        {% endif %}
-      </div>
-    </wa-card>
-  </div>
+  <wa-card class="mx-2"{% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xxl border-bottom"
+        src="{{ site.baseurl }}/assets/img/logos/{{ item.img-og }}">
+    {% endif %}
+    {% if item.title %}
+      <h2 class="h3">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h2>
+      <p class="small text-body-secondary">
+        <small>{{ item.description }}</small>
+      </p>
+    {% endif %}
+    {% if item.event-date %}
+      <p class="small text-body-secondary mb-0">
+        <small><i class="fa-regular fa-calendar"></i> Date: {{ item.event-date }}</small>
+      </p>
+    {% endif %}
+    {% if item.event-location %}
+      <p class="small text-body-secondary mb-0">
+        <small><i class="fa-solid fa-location-pin"></i> Location: {{ item.event-location }}</small>
+      </p>
+    {% endif %}
+    {% if item.org %}
+      <p class="small text-body-secondary mb-0">
+        <small><i class="fa-regular fa-building"></i> Host: {{ item.org }}</small>
+      </p>
+    {% endif %}
+  </wa-card>
 {% endif %}

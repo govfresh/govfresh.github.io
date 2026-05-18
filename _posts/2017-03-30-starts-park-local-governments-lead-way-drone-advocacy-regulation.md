@@ -7,7 +7,7 @@ category:
     - Technology
 ---
 
-[caption id="attachment_22571" align="alignnone" width="2048"] Photo: <a href="http://foto.wuestenigel.com/phantom-3-professional-drone/?utm_source=33548789806&amp;utm_campaign=FlickrDescription&amp;utm_medium=link">Marco Verch</a>[/caption]
+
 
 This summer, families across the world will be upgrading their toy kites to toy drones. A local park is an ideal space for play – plenty of open space, clear skies, and fun activities to film, from jungle gym adventures to grand slams at little league. It’s up to our families and neighbors to decide how, when and where to use toy drones. Local governments are taking a crucial role to lead the conversation in integrating technology in to city programs, and to create local guidelines to help guide residents on safe and proper use of drones.
 

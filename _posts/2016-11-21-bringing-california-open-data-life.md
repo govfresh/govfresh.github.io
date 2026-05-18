@@ -5,7 +5,7 @@ description: "Okay, I admit it: Even as a champion of open data, I find that it�
 author: GovFresh
 ---
 
-[caption id="attachment_21911" align="alignnone" width="2048"] Photo: <a href="https://www.flickr.com/photos/codeforamerica/15686347828/">Code for America</a>[/caption]
+
 
 Okay, I admit it: Even as a champion of open data, I find that it’s often mundane to view data on a portal. Simple lists of datasets — and even the maps and charts you can create — don’t truly show the intrinsic value of data that’s been freed to benefit communities.
 

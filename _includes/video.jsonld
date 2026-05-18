@@ -1,0 +1,11 @@
+{
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "{{ page.title }}",
+    "description": "{{ page.description }}",
+    "thumbnailUrl": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-og }}",
+    "uploadDate": "{{ page.date | date_to_xmlschema }}",
+    "contentUrl": "https://www.youtube.com/watch?v={{ page.video }}",
+    "embedUrl": "https://www.youtube.com/embed/{{ page.video }}",
+    "url": "{{ site.url }}{{ page.url }}"
+}

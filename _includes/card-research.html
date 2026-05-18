@@ -1,41 +1,41 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-    <wa-card class="mb-2 mx-1" orientation="horizontal"{% if item.img-feat %} with-media{% endif %}>
-      {% if item.img-feat %}
-        <img
-          slot="media"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
-          class="md img-fluid"
-          alt="{{ item.img-alt }}">
-      {% endif %}
+  <wa-card orientation="horizontal" class="research-card"{% if item.img-feat %} with-media{% endif %}>
+    {% if item.img-feat %}
+      <img
+        slot="media"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
+        alt="{{ item.img-alt }}"
+        loading="lazy">
+    {% endif %}
+    <div>
       {% if item.title %}
-        <h3 class="h4 mt-2">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        <h3 class="h4 mb-1">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
         </h3>
       {% endif %}
       {% if item.description %}
-        <p class="small text-body-secondary">{{ item.description }}</p>
+        <p class="small text-body-secondary mb-0">{{ item.description }}</p>
       {% endif %}
-    </wa-card>
-  </div>
+    </div>
+  </wa-card>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-    <wa-card class="mb-2 mx-1" orientation="horizontal"{% if item.img-feat %} with-media{% endif %}>
-      {% if item.img-feat %}
-        <img
-          slot="media"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
-          class="img-fluid md"
-          alt="{{ item.img-alt }}">
-      {% endif %}
+  <wa-card orientation="horizontal" class="research-card"{% if item.img-feat %} with-media{% endif %}>
+    {% if item.img-feat %}
+      <img
+        slot="media"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}"
+        alt="{{ item.img-alt }}"
+        loading="lazy">
+    {% endif %}
+    <div>
       {% if item.title %}
-        <h2 class="h4 mt-2">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        <h2 class="h4 mb-1">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
         </h2>
       {% endif %}
       {% if item.description %}
-        <p class="small text-body-secondary">{{ item.description }}</p>
+        <p class="small text-body-secondary mb-0">{{ item.description }}</p>
       {% endif %}
-    </wa-card>
-  </div>
+    </div>
+  </wa-card>
 {% endif %}

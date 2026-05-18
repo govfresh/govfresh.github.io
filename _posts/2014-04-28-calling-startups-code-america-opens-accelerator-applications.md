@@ -5,7 +5,7 @@ description: The program lasts four months and includes training and mentorship,
 author: GovFresh
 ---
 
-[caption id="attachment_17647" align="alignnone" width="1024"] Photo: Ryan Resella / <a href="codeforamerica.org">Code for America</a>[/caption]
+
 
 Code for America is now accepting applications for its <a href="http://codeforamerica.org/geeks/accelerator-apply/">2014 Civic Startup Accelerator</a> program.
 

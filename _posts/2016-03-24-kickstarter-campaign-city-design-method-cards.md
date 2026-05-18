@@ -5,7 +5,7 @@ description: GreaterPlaces is holding a fundraiser for city design method cards 
 author: GovFresh
 ---
 
-[caption id="attachment_20726" align="alignnone" width="1790"] Photo: Andy Boenau, Speakeasy Media[/caption]
+
 
 <a href="http://greaterplaces.com/">GreaterPlaces</a> is holding a fundraiser for <a href="https://www.kickstarter.com/projects/910898498/city-design-method-cards?ref=nav_search">city design method cards</a> and a mobile app that "brings all aspects of city design together in one resource designed for everyone."
 

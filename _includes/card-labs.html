@@ -1,41 +1,37 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <wa-card{% if item.img-feat %} with-media{% endif %}>
-      {% if item.img-feat %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xl border-bottom"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
-      {% endif %}
-      {% if item.title %}
-        <h3>
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h3>
-      {% endif %}
-      {% if item.description %}
-        <p class="text-body-secondary small">{{ item.description }}</p>
-      {% endif %}
-    </wa-card>
-  </div>
+  <wa-card{% if item.img-feat %} with-media{% endif %}>
+    {% if item.img-feat %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xl border-bottom"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+    {% endif %}
+    {% if item.title %}
+      <h3>
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h3>
+    {% endif %}
+    {% if item.description %}
+      <p class="text-body-secondary small">{{ item.description }}</p>
+    {% endif %}
+  </wa-card>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
-    <wa-card{% if item.img-feat %} with-media{% endif %}>
-      {% if item.img-feat %}
-        <img
-          slot="media"
-          alt="{{ item.img-alt }}"
-          class="xl border-bottom"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
-      {% endif %}
-      {% if item.title %}
-        <h2>
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h2>
-      {% endif %}
-      {% if item.description %}
-        <p class="text-body-secondary small">{{ item.description }}</p>
-      {% endif %}
-    </wa-card>
-  </div>
+  <wa-card{% if item.img-feat %} with-media{% endif %}>
+    {% if item.img-feat %}
+      <img
+        slot="media"
+        alt="{{ item.img-alt }}"
+        class="xl border-bottom"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-feat }}">
+    {% endif %}
+    {% if item.title %}
+      <h2>
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h2>
+    {% endif %}
+    {% if item.description %}
+      <p class="text-body-secondary small">{{ item.description }}</p>
+    {% endif %}
+  </wa-card>
 {% endif %}

@@ -5,7 +5,7 @@ description: IBM Research Manager Charity Wayua’s “A few ways to fix a gover
 author: GovFresh
 ---
 
-[caption id="attachment_23279" align="aligncenter" width="538"] Photo: <a href="https://www.flickr.com/photos/ibm_research_zurich/32242859334">IBM Research</a>[/caption]
+
 
 IBM Research Manager Charity Wayua's "<a href="https://www.ted.com/talks/charity_wayua_a_few_ways_to_fix_an_ailing_government">A few ways to fix a government</a>" talk is an inspirational example of how government (and its partners) can -- when tasked with goals and measurable results -- leverage user and data analytics research to successfully create better results for those it serves.
 

@@ -5,7 +5,7 @@ description: Today the City of Chicago launched the City of Chicago Data Dictio
 author: GovFresh
 ---
 
-[caption id="attachment_16464" align="alignnone" width="1024"] Photo:  <a href="http://www.flickr.com/photos/gravitywave/180184743/sizes/l/in/photostream/">Josh*m</a>[/caption]
+
 
 Today the City of Chicago launched the <a href="http://datadictionary.cityofchicago.org/" target="_blank">City of Chicago Data Dictionary</a>, a single, comprehensive database catalog for the City of Chicago and City of Chicago sister agencies. The data dictionary contains detailed information on every data set held by City agencies and departments, how and if it may be accessed, and in which formats it may be accessed.
 

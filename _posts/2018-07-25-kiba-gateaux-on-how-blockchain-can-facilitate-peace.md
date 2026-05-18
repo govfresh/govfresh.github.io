@@ -5,7 +5,7 @@ description: Kiba Gateaux shares his thoughts on the role blockchain can play in
 author: GovFresh
 ---
 
-[caption id="attachment_24273" align="alignnone" width="600"] Kiba Gateaux (Photo: Brian Jamie)[/caption]
+
 
 Kiba Gateaux is the founder of Blockchain for Peace, an initiative started by <a href="https://www.peaceaccelerators.com/">Peace Accelerators</a>, a New York City non-profit using data and their technology network to “co-create a peaceful future for our planet as efficiently as possible.” The organization includes a community of more than 2,000 thought leaders, futurists, and creators that hosts technology, culture and social impact events.
 

@@ -5,7 +5,7 @@ description: Having access to timely and comprehensive election data is fundamen
 author: GovFresh
 ---
 
-[caption id="attachment_21785" align="alignnone" width="1500"] Photo: White House[/caption]
+
 
 Having access to timely and comprehensive election data is fundamental to democracy. Knowing when and where to vote, as well as what your ballot options are is critical to being fully informed.
 

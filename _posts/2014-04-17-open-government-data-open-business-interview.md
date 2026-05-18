@@ -5,7 +5,7 @@ description: "'Open Data Now' author Joel Gurin discusses the impact of open dat
 author: GovFresh
 ---
 
-[caption id="attachment_17607" align="alignnone" width="700"] Photo courtesy of Joel Gurin[/caption]
+
 
 <h2>What compelled you to write this book?</h2>
 

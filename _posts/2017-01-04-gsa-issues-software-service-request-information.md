@@ -5,7 +5,7 @@ description: The General Services Administration has issued a request for inform
 author: GovFresh
 ---
 
-[caption id="attachment_20771" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 The General Services Administration has issued a request for information related to the federal government's use of software-as-a-service.
 

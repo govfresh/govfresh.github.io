@@ -5,7 +5,7 @@ description: Steve Blank interviews Errol Arkilic, former lead program director 
 author: GovFresh
 ---
 
-[caption id="attachment_19957" align="alignnone" width="1200"] Photo: U.S. Department of Energy[/caption]
+
 
 <em>The following post is <a href="http://steveblank.com/2015/07/20/how-we-changed-the-way-the-u-s-government-commercializes-science-part-1-of-episode-6-on-sirius-xm-channel-111-errol-arkilic/">re-published</a> with permission from <a href="http://steveblank.com/about/">Steve Blank</a>'s blog. Steve interviews Errol Arkilic, former lead program director for the <a href="http://steveblank.com/category/nsf-national-science-foundation/" target="_blank">National Science Foundation I-Corps</a>, which uses his <a href="http://steveblank.com/2010/12/07/the-lean-launchpad-%E2%80%93-teaching-entrepreneurship-as-a-management-science/" target="_blank">Lean LaunchPad</a> curriculum to teach scientists and engineers how to take their technology out of the lab and into the marketplace.</em>
 
@@ -15,7 +15,7 @@ Today he is the founder of <a href="http://www.m34capital.com/" target="_blank">
 
 Listen to my entire interview with Errol:
 
-[soundcloud url="https://api.soundcloud.com/tracks/214708654" params="color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true" width="100%" height="20" iframe="true" /]
+
 
 If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/errol-arkilic-with-steve-blank-on-bay-area-ventures">here</a>.
 <h2>The origins of National Science Foundation I-Corps</h2>
@@ -45,19 +45,19 @@ I was ready to hang up on the call until you said there are 10,000 potential sci
 
 <strong>Errol</strong>: And we did. And I think that the principles of the scientific method applied to the commercial opportunity is spot on. That’s what scientists and engineers needed to embrace.
 
-[soundcloud url="https://api.soundcloud.com/tracks/214726536" params="color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true" width="100%" height="20" iframe="true" /]
+
 
 If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/origins-of-the-nsf-i-corps">here</a>
 <h2>What made him call Steve?</h2>
 “A consistent theme we recognized at NSF, was that a lot of the startup companies [we were funding] really weren’t practicing what we knew to be the best and most effective way of taking technologies out of labs. … What we saw were practices that any investor would look at and say there’s got to be a better way of doing it.  And it wasn’t exclusive to the [NSF commercialization] program. It was a crappy way [the U.S. government had] of taking technology out of [all of its] labs.”
 
-[soundcloud url="https://api.soundcloud.com/tracks/214721763" params="color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true" width="100%" height="20" iframe="true" /]
+
 
 If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/what-made-him-call-steve">here</a>
 <h2>How I-Corps Teams are selected</h2>
 We started the interview process like most people – [we] asked about the idea and the status of the technology was and got spun up on the story. We pretty quickly identified that was the wrong way to go. Because really what we needed were teams that were totally aligned with one another and could work together under extreme pressure and extreme ambiguity because the ideas change anyway. … The teams that are coming together to investigate their commercial opportunity, they need to look way beyond the technical boundaries of their discipline to see if there is a business there. … The key thing is that we’re trying to take teams on a journey with us and with one anther, and some people are not amenable to change and not amenable to coaching and not amenable to advice.
 
-[soundcloud url="https://api.soundcloud.com/tracks/214735451" params="color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true" width="100%" height="20" iframe="true" /]
+
 
 If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/how-i-corps-teams-are-selected">here</a><strong> </strong>
 <h2>How the I-Corps has grown</h2>
@@ -69,18 +69,18 @@ If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/how-
 
 <strong>Steve</strong>: We’re losing count, but there’s a bunch of them now that started from that phone call. 550 teams; <a href="http://venturewell.org/i-corps/nodes-and-sites/" target="_blank">20 universities [as nodes and another 36 as sites</a>]; must be 30-40-50 instructors now playing Steve Blank. This kind of makes it one of the largest accelerators in the United States, probably up there with TechStars and Y Combinator except it’s a U.S. government accelerator that takes \ no equity. So, Errol, congratulations, you’ve created something wonderful.
 
-[soundcloud url="https://api.soundcloud.com/tracks/214831817" params="color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true" width="100%" height="20" iframe="true" /]
+
 
 If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/what-happened-to-the-i-corps">here</a>
 <h2>Lessons for the country</h2>
 I think the strong takeaway is that the commercial considerations must be done in parallel with the technical considerations. It’s not an after thought, it’s not something you come in later and tack on the end. If your goal is to get the technology out of the lab, it’s never too early to start thinking who the customer for that solution is. … If you are a scientist and you think that your science is addressing human needs, you better be talking to some humans. … I think the most rewarding element of the Innovation Corps is when a principle investigator comes back and says, ‘I’m now changing the way I think about crafting my research moving forward.’ That feedback is an incredible demonstration of a significant change.
 
-[soundcloud url="https://api.soundcloud.com/tracks/214738331" params="color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true" width="100%" height="20" iframe="true" /]
+
 
 If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/lessons-for-the-country">here</a>
 <h2>What is M34 Capital?</h2>
 M34 is a fund that focuses on taking Customer Discovery and the Lean Startup process and applying it in the venture model. We look at companies at their earliest stage of development and we believe with our capital that through the approach of the lean process and customer discovery that we can get companies up the learning curve, up the value curve, more effectively than other approaches.  …  The companies that come out of I-Corps are primed for success but they still need help. That wasn’t surprising to us. We knew that there were gaps that needed to be filled – capital gaps, management gaps, experience gaps and we saw it as an opportunity to get back out and become an entrepreneur again. … We look across the board at any company that has the discipline of customer discovery and Lean and the reason we need that is because it’s just a different way of looking at things. It’s evidence-based, it’s the scientific method and when the company has that on Day Zero, the conversations that we have are just that more meaningful. … If they don’t get it, we’re not touching them. “
 
-[soundcloud url="https://api.soundcloud.com/tracks/214832044" params="color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true" width="100%" height="20" iframe="true" /]
+
 
 If you can’t hear the clip, click <a href="https://soundcloud.com/sgblank/what-is-m34-capital">here</a>

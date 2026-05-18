@@ -5,7 +5,7 @@ description: New York City was honored as the ‘City of the Year’ in our  201
 author: GovFresh
 ---
 
-[caption id="attachment_13260" align="alignnone" width="640" caption="Mayor Bloomberg unveils Road Map for the Digital City with Chief Digital Officer Rachel Sterne on May 16, 2011. (Photo Credit: Spencer T Tucker)"][/caption]
+
 
 New York City was honored as the ‘City of the Year’ in our  <a href="../2011/12/2011-govfresh-awards-winners/">2011 GovFresh Awards</a>. We asked NYC Chief Digital Officer <a href="http://twitter.com/rachelsterne">Rachel Sterne</a> to highlight the work done in 2011, what made it happen, and share what's to come in 2012.
 <h2>What happened in NYC this year?</h2>

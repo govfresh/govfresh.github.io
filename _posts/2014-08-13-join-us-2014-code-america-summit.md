@@ -5,7 +5,7 @@ description: The 2014 Code for America Summit is set for September 23-24 and reg
 author: GovFresh
 ---
 
-[caption id="attachment_18012" align="alignnone" width="640"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 The <a href="http://www.codeforamerica.org/summit/">2014 Code for America Summit</a> is set for September 23-24 and <a href="https://www.eventbrite.com/e/the-2014-code-for-america-summit-registration-11424407711">registration is now open</a>.
 

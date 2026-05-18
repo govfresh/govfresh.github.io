@@ -5,7 +5,7 @@ description: For those unsatisfied with the recent USAspending.gov re-launch and
 author: GovFresh
 ---
 
-[caption id="attachment_19290" align="alignnone" width="1985"] Source: USAspending.gov[/caption]
+
 
 For those unsatisfied with the recent <a href="http://govfresh.com/2015/04/how-to-not-be-the-next-usaspending-gov/">USAspending.gov re-launch</a> and would like to submit public feedback, <a href="https://github.com/fedspendingtransparency/USASpending-Issue-Tracker">there's now an official GitHub repo for that</a>.
 

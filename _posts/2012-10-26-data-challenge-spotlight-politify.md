@@ -5,7 +5,7 @@ description: Politify simulates of the financial impacts of the plans proposed b
 author: GovFresh
 ---
 
-[caption id="attachment_15144" align="alignnone" width="600"] Politify founders Nikita Bier and Jeremy Blalock.[/caption]
+
 
 <em>"Data Challenge Spotlight" is a collaboration with the <a href="http://www.ncoc.net/">National Conference on Citizenship</a> and GovFresh that highlights winners of the 2012 <a href="http://www.civicdatachallenge.org/">Civic Data Challenge</a>. Follow the Civic Data Challenge on Twitter (<a href="https://twitter.com/CivicData" target="_blank">@CivicData</a>) and on <a href="http://www.facebook.com/CivicDataChallenge" target="_blank">Facebook</a>.</em>
 

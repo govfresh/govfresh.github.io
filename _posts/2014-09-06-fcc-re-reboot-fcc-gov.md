@@ -5,7 +5,7 @@ description: It took 10 years for the Federal Communications Commission to re-do
 author: GovFresh
 ---
 
-[caption id="attachment_18107" align="alignnone" width="992"] FCC.gov[/caption]
+
 
 It took 10 years for the Federal Communications Commission to re-do its first website, and now <a href="http://FCC.gov">FCC.gov</a> is set to undergo a second overhaul since it <a href="http://www.fcc.gov/blog/delivering-our-open-government-promise">relaunched in 2011</a>. 
 

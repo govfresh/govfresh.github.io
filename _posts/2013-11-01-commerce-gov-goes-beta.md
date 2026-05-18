@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16609" align="alignnone" width="1211"] beta.commerce.gov[/caption]
+
 
 The Department of Commerce <a href="http://www.commerce.gov/blog/2013/10/30/redesigning-commercegov">announced</a> the launched a beta version of its future website at <a href="http://beta.commerce.gov/">beta.commerce.gov</a>. 
 

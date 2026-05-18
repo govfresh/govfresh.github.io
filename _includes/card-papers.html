@@ -1,47 +1,39 @@
 {% if include.level == "secondary" %}
-  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <wa-card class="drop-shadow2 mx-2 mb-3"{% if item.img-og %} with-media{% endif %}>
-      {% if item.img-og %}
-        <img
-          slot="media"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
-          class="xxl"
-          alt="{{ item.img-alt }}">
-      {% endif %}
-      {% if item.title %}
-        <h3 class="h4 mt-2">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h3>
-      {% endif %}
-      {% if item.description %}
-        <p class="small text-body-secondary">{{ item.description }}</p>
-      {% endif %}
-      {% if item.feedback %}
-        <wa-badge variant="success">In progress</wa-badge>
-      {% endif %}
-    </wa-card>
-  </div>
+  <wa-card {% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+        class="xxl"
+        alt="{{ item.img-alt }}"
+        loading="lazy">
+    {% endif %}
+    {% if item.title %}
+      <h3 class="h4 mt-2">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h3>
+    {% endif %}
+    {% if item.description %}
+      <p class="small text-body-secondary">{{ item.description }}</p>
+    {% endif %}
+  </wa-card>
 {% else %}
-  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <wa-card class="drop-shadow2 mx-2 mb-3"{% if item.img-og %} with-media{% endif %}>
-      {% if item.img-og %}
-        <img
-          slot="media"
-          src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
-          class="xxl"
-          alt="{{ item.img-alt }}">
-      {% endif %}
-      {% if item.title %}
-        <h2 class="h4 mt-2">
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </h2>
-      {% endif %}
-      {% if item.description %}
-        <p class="small text-body-secondary">{{ item.description }}</p>
-      {% endif %}
-      {% if item.feedback %}
-        <wa-badge variant="success">In progress</wa-badge>
-      {% endif %}
-    </wa-card>
-  </div>
+  <wa-card {% if item.img-og %} with-media{% endif %}>
+    {% if item.img-og %}
+      <img
+        slot="media"
+        src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+        class="xxl"
+        alt="{{ item.img-alt }}"
+        loading="lazy">
+    {% endif %}
+    {% if item.title %}
+      <h2 class="h4 mt-2">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+      </h2>
+    {% endif %}
+    {% if item.description %}
+      <p class="small text-body-secondary">{{ item.description }}</p>
+    {% endif %}
+  </wa-card>
 {% endif %}

@@ -5,7 +5,7 @@ description: Earlier this year, the Information Technology and Innovation Founda
 author: GovFresh
 ---
 
-[caption id="attachment_23302" align="aligncenter" width="2269"] Source: analytics.usa.gov[/caption]
+
 
 Earlier this year, the Information Technology and Innovation Foundation published an assessment of federal government websites that includes rankings around page load speeds, mobile friendliness, Domain Name System Security Extensions, Secure Sockets Layer and accessibility.
 

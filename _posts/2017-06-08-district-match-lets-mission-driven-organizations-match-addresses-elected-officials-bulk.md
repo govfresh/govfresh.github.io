@@ -5,7 +5,7 @@ description: Azavea Product Specialist Patrick Han and Product Manager Stephanie
 author: GovFresh
 ---
 
-[caption id="attachment_22826" align="alignnone" width="999"] Image via District Match[/caption]
+
 
 Azavea Product Specialist <a href="https://www.azavea.com/about/teammate/patrick-han/">Patrick Han</a> and Product Manager <a href="https://www.azavea.com/about/teammate/stephanie-thome/">Stephanie Thome</a> share how Cicero’s <a href="https://www.cicerodata.com/districtmatch/">District Match</a> app makes it easy for nonprofits to mobilize their constituents to contact their elected officials.
 <h3>Give us the 140-character elevator pitch.</h3>

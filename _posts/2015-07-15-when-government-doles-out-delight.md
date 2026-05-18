@@ -5,7 +5,7 @@ description: Fast Company writer Diana Budds has an excellent background story o
 author: GovFresh
 ---
 
-[caption id="attachment_19903" align="alignnone" width="1200"] Source: businessportal.sfgov.org[/caption]
+
 
 <em>Fast Company</em> writer Diana Budds has an excellent background story on <a href="http://www.tomorrowpartners.com/">Tomorrow Partners</a>' involvement in helping San Francisco re-imagine its <a href="http://businessportal.sfgov.org/">small business portal</a>.
 

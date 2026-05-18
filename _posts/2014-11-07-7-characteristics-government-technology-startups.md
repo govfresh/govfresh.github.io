@@ -5,7 +5,7 @@ description: Code for America recently held a “Bay Area Government Technology 
 author: GovFresh
 ---
 
-[caption id="attachment_18590" align="alignnone" width="2048"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 Code for America recently held a "<a href='http://www.codeforamerica.org/companies/bay-area-government-technology-showcase/'>Bay Area Government Technology Showcase</a>" featuring ventures and investors pitching their ideas, and CfA's Ashley Meyers and Dharmishta Rood opened the event with an overview of seven traits of the next generation of government technology startups.
 

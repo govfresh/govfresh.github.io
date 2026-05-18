@@ -5,7 +5,7 @@ description: By the end of the class our sponsors inside State had experienced a
 author: GovFresh
 ---
 
-[caption id="attachment_22248" align="alignnone" width="2048"] Photo: U.S. Department of State[/caption]
+
 
 We just held our final week of the <a href="http://web.stanford.edu/class/msande298/" target="_blank">Hacking for Diplomacy</a> class, teaching students entrepreneurship and “Lean Startup” principles while they engaged in national public service applying advanced technologies to solve global challenges. Seven student teams delivered their final Lessons Learned presentations documenting their intellectual journey over just 10 short weeks in front of several hundred people in person and online. And what a journey it’s been.
 
@@ -39,7 +39,7 @@ Hacking for Diplomacy Lessons Learned presentations are different. Each team pre
 
 As an example, Team Trace worked with the State Department Office to Monitor and Combat Trafficking in Persons. The team was challenged to help companies push policies of responsible business lower down the supply chain. The key thing to note in this presentation is not only that the team came up with a solution, but also how in talking to 85 people, their understanding of the problem evolved, and as it did, so did their solution. (see Slides 12 and 25).
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=ds3Qg2AFXbQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/ds3Qg2AFXbQ" target="_blank">here</a>.
 
@@ -49,7 +49,7 @@ If you can’t see the presentation click <a href="http://www.slideshare.net/sbl
 
 Team Hacking CT was sponsored by Bureau of Counterterrorism and Countering Violent Extremism with the goal of deterring individuals from joining violent extremist groups. After 100 interviews, the team realized that a bottom-up approach, focusing on support for friends and family of those at risk for radicalization, might be effective.
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=jx-vyNUICKs?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/jx-vyNUICKs" target="_blank">here</a>.
 
@@ -79,7 +79,7 @@ As teams talk to stakeholders they gather evidence to either validate, invalida
 
 As an example, Team Aggregate DB was working with the State Department Bureau of Conflict and Stabilization Operations (CSO). CSO helps embassies and diplomats to visualize, understand, and stabilize conflict. The team’s challenge was to get helps embassies and diplomats get more information about informal leader networks. Getting out of the building and talking to 87 people gave the team got a firsthand view of the downside when an embassy does not have access to the right local contacts. (Slides 3-9)
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=20Qp8k1j4FY?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/20Qp8k1j4FY" target="_blank">here</a>.
 
@@ -93,7 +93,7 @@ As they developed MVPs, our students took these solutions out into the real worl
 
 For example, Team 621 – Fatal Journeys worked with the State Department Bureau of Population, Refugees, and Migration. The team’s challenge: how to get more data on missing or perished refugees. In this presentation, note how the team’s understanding of the problem evolved over the course of talking to 88 people. They realized there was a missing link between key stakeholders that limited identification of perished refugees and prevented emotional and legal closure for their families. The team pivoted three times as they gained deeper and deeper insight into their problem. With each pivot, their solution radically changed. (Their first pass of problem/solution understanding is on Slides 1-29, but then they get additional insight in slides 36-50. Finally, slides 51-64 is their third and final iteration).
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=LHP4jPwva0o?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/LHP4jPwva0o" target="_blank">here</a>.
 
@@ -125,7 +125,7 @@ On the eve of Thursday’s class, team members Katie Joseff and Berk Coker had a
 
 <h2>Team Exodus: Coordinating information to better serve refugees</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=8zcoyyDDlco?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/8zcoyyDDlco" target="_blank">here</a>.
 
@@ -149,7 +149,7 @@ Quintanilla said that working with Space Evaders drove home for him the merits o
 
 <h2>Team Space Evaders: Reducing space junk</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=pbyP-KejWlc?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/pbyP-KejWlc" target="_blank">here</a>.
 
@@ -169,7 +169,7 @@ Thursday’s wrap-up session attracted a diverse audience, including representat
 
 <h2>Team Hacking 4 Peacekeeping: Better data on, and decision-making about, peacekeeping forces</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=5v3uqjJ2L4w?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/5v3uqjJ2L4w" target="_blank">here</a>.
 

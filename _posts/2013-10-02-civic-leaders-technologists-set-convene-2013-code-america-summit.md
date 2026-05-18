@@ -5,7 +5,7 @@ description: Registration is still open for the 2013 Code for America Summit set
 author: GovFresh
 ---
 
-[caption id="attachment_16272" align="alignnone" width="800"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 Registration is still open for the <a href="http://cfasummit.org/">2013 Code for America Summit</a> set for October 15 to 17 in San Francisco.
 

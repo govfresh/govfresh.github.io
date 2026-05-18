@@ -5,11 +5,11 @@ layout: people
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+<main id="main-content">
   {% include jumbotron.html %}
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+    <div class="wa-flank wa-gap-l wa-align-items-start">
+      <div class="people-sidebar people-layout-sidebar">
         {% include image.html %}
         <ul class="list-unstyled small">
           {% if page.name %}
@@ -22,18 +22,13 @@ layout: people
             <li>{{ page.org }}</li>
           {% endif %}
         </ul>
-        <div class="pb-3">
-          {% include social.html size = "small" %}
-        </div>
-        <div class="pb-3">
-          {% include role.html %}
-        </div>
+        {% include social.html size = "small" %}
+        {% include role.html %}
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <div>
         <div class="post">
           {{ content }}
         </div>
-        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
       </div>
     </div>
   </div>

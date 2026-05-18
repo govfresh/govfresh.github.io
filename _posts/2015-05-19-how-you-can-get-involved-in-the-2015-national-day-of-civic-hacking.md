@@ -5,7 +5,7 @@ description: The 2015 National Day of Civic Hacking will be held on June 6. To d
 author: GovFresh
 ---
 
-[caption id="attachment_19519" align="alignnone" width="600"] Photo: Luke Fretwell[/caption]
+
 
 The 2015 <a href="http://hackforchange.org/?mc_cid=3915e47e47&amp;mc_eid=49a5bcce42">National Day of Civic Hacking</a> will be held on June 6. To date, <a href="https://hackforchange.org/events/">more than 70 events</a> around the world have been scheduled.
 

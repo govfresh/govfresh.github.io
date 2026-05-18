@@ -5,7 +5,7 @@ description: Perhaps the biggest civic open source story of 2013 was the governm
 author: GovFresh
 ---
 
-[caption id="attachment_17086" align="alignnone" width="1004"] beta.govt.nz[/caption]
+
 
 Perhaps the biggest civic open source story of 2013 was the government of New Zealand's copying of the United Kingdom's <a href="http://gov.uk">gov.uk</a> code to begin building a new version of its own website, now located at <a href="https://beta.govt.nz/">beta.govt.nz</a>.
 

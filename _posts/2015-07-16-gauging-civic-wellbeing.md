@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19918" align="alignnone" width="1200"] Santa Monica Pier (Photo: <a href="https://www.flickr.com/photos/maelick/14737905638/in/photolist-oskBTm-dAeH8y-e34xGN-7LNe1H-ii8sxF-4f9odW-9gRheq-fkHCPj-jeqM1z-dEK48G-dJ6jB5-awbo2M-aiGrzR-k2gjTi-6XMuTU-5ChsFV-8tmJu2-91Lcqi-6eyEsW-fkHBk5-hXvCxt-7xs88S-6eyD4A-6xsQDt-byML4K-6e36vw-e9NvZ3-dT6XPA-68MQb1-4zkNUf-q5NkCR-qo1W1F-hCZX7E-6euyTr-9ak8Z9-9SyDDK-8tmcY3-btTjS6-e9YbE3-oFgu8W-8Ac253-dT6XX5-dusTBb-eSCh3A-7GNPW4-hXujNn-eSCgNQ-3SP45F-fp32ZL-mbCuJ6">Maëlick</a>)[/caption]
+
 
 There's been much emphasis on the smart city, using data to analyze efficiency and manage sensory understanding of infrastructure, but we continue to see an evolution of emotional intelligence coming from government, from Louisville's <a href="https://louisvilleky.gov/government/compassionate-city/compassionate-cities-mission-statement">Compassionate City Campaign</a> to San Francisco's emphasis on <a href="http://www.govfresh.com/2015/07/when-government-doles-out-delight/">delight</a>, and now Santa Monica's <a href="http://wellbeing.smgov.net/">The Wellbeing Project</a>, an index that takes into account health, place, community, learning and economic opportunity.
 

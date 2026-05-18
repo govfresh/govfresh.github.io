@@ -43,11 +43,3 @@ We adhere to the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_Hous
 ## Code of conduct
 
 [GovFresh code of conduct](/conduct/)
-
-## Feedback
-
-Have feedback on the community?
-
-* Post to the #general channel
-* [Submit a GitHub issue](
-https://github.com/govfresh/govfresh.github.io/issues/new?assignees=&labels=community&projects=&template=community.md&title=)

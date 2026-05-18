@@ -5,7 +5,7 @@ description: Y Combinator is looking for a team of people to lead research on ho
 author: GovFresh
 ---
 
-[caption id="attachment_18280" align="alignnone" width="1024"] Y Combinator (Photo: <a href="https://www.flickr.com/photos/paulmiller/5475205694/">Paul Miller</a>)[/caption]
+
 
 Y Combinator is looking for a team of people to lead research on how to make cities better, and will use the findings to help determine how to invest in future ventures.
 

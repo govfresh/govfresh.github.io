@@ -5,7 +5,7 @@ description: While it is commonly acknowledged that cities today produce massive
 author: GovFresh
 ---
 
-[caption id="attachment_21656" align="alignnone" width="1200"] Photo: <a href="https://www.flickr.com/photos/12614773@N07/">Jordi Martorell</a>[/caption]
+
 
 <em>This is part four of a five-part series that looks at successful strategies we at <a href="http://www.opendatasoft.com/">OpenDataSoft</a> have seen our clients and others use to foster innovation and align their smart city and open data goals. The complete series "<a href="http://bit.ly/2aiptUq">Driving Smart City Innovation with Open Sensor Data: 5 Lessons Learned</a>" is available as a free PDF download.</em>
 

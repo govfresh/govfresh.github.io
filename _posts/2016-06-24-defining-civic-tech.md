@@ -18,7 +18,7 @@ There have been numerous attempts to define this, but Omidyar's is concise yet c
 
 But more than the simple definition, this chart of the subset -- “Citizen to Citizen,” “Citizen to Government,” “Government Technology” -- is what provided clarity for me:
 
-[caption id="attachment_21134" align="alignnone" width="1200"] Source: Omidyar Network[/caption]
+
 
 I do think, however, much like we've seen with "green" terminology inside the environmental movement, we need to better define principles around what differentiates the genetically modified versus natural versus organic civic technology. 
 

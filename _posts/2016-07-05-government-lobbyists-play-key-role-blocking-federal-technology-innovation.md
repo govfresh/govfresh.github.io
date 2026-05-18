@@ -5,7 +5,7 @@ description: Government Technology's Jason Shueh finally brings to light the cor
 author: GovFresh
 ---
 
-[caption id="attachment_21204" align="alignnone" width="1200"] Photo: Architect of the Capitol[/caption]
+
 
 Government Technology's Jason Shueh finally brings to light the core impetus surrounding backlash against 18F efforts to fix federal government technology development and procurement practices.
 

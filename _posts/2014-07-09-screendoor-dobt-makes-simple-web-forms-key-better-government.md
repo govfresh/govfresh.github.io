@@ -5,7 +5,7 @@ description: After Adam Becker and Clay Johnson completed their stints as White 
 author: GovFresh
 ---
 
-[caption id="attachment_17846" align="aligncenter" width="889"] Image: DOBT[/caption]
+
 
 After Adam Becker and Clay Johnson completed their stints as White House Presidential Innovation Fellows working together on <a href="https://rfpez.sba.gov/">Project RFP-EZ</a>, they were inspired to scale IT simplicity so that governments everywhere would no longer have to deal with traditional mediocre software solutions most legacy vendors provide.
 

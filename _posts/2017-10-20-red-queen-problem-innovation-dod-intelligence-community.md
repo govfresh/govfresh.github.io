@@ -7,7 +7,7 @@ category:
     - Department of Defense
 ---
 
-[caption id="attachment_23432" align="aligncenter" width="2048"] Photo: U.S. Department of Defense[/caption]
+
 <blockquote>“…it takes all the running you can do to keep in the same place. ”
 
 - The Red Queen Alice in Wonderland</blockquote>

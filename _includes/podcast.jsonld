@@ -9,7 +9,7 @@
     "partOfSeries": {
         "@type": "PodcastSeries",
         "name": "The GovFresh Podcast",
-        "url": "http://www.govfresh.com/podcast"
+        "url": "{{ site.url }}/podcast"
     },
     "seasonNumber": "{{ page.season }}",
     "partOfSeason": "{{ page.number }}",
@@ -22,7 +22,7 @@
     "publisher": {
         "@type": "Organization",
         "name": "{{ page.author }}",
-        "url": "http://www.govfresh.com"
+        "url": "{{ site.url }}"
     },
     "audio": {
         "@type": "AudioObject",

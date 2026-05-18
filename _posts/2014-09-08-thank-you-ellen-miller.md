@@ -5,7 +5,7 @@ description: Today, Sunlight Foundation announced Chris Gates will take over as 
 author: GovFresh
 ---
 
-[caption id="attachment_18254" align="alignnone" width="1024"] Ellen Miller (Photo: Sunlight Foundation)[/caption]
+
 
 Today, Sunlight Foundation <a href="http://sunlightfoundation.com/blog/2014/09/08/sunlight-announces-chris-gates-as-new-president/">announced</a> Chris Gates will take over as its new president in October after co-founder and executive director Ellen Miller <a href="http://sunlightfoundation.com/blog/2014/02/24/time-to-pass-the-baton-at-sunlight/">said</a> she would step down from <a href="http://sunlightfoundation.com/blog/2014/04/24/happy-birthday-sunlight-heres-to-eight-great-years-and-many-more/">eight years</a> at the helm.
 

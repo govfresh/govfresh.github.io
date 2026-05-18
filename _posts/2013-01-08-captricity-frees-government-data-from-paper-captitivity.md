@@ -5,7 +5,7 @@ description: Captricity solves the “paper problem,” unlocking digital, machi
 author: GovFresh
 ---
 
-[caption id="attachment_15445" align="alignnone" width="700"] Captricity co-founder Kuang Chen. (Photo: Captricity)[/caption]
+
 
 <em>GovFresh highlights the products and <a href="http://govfresh.com/category/topics/startups/">start-ups</a> powering the civic revolution. Note: This is not a product promotion or endorsement. <a href="http://govfresh.com/2011/10/how-civic-entrepreneurs-and-developers-can-share-your-work-with-govfresh-readers/">Learn how you can get featured.</a></em>
 

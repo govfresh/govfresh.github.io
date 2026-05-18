@@ -5,7 +5,7 @@ description: CivicSponsor wants to disrupt the traditional way we fund our publi
 author: GovFresh
 ---
 
-[caption id="attachment_14178" align="alignnone" width="600" caption="Source: civicsponsor.com"][/caption]
+
 
 CivicSponsor wants to change the traditional way we fund our public spaces. Here, its three co-founders outline how their new venture aims to help citizens and public servants think outside the taxpayer box.
 

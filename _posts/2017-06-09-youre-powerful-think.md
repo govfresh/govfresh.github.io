@@ -5,7 +5,7 @@ description: Whether you’re an agitated activist frustrated with the current s
 author: GovFresh
 ---
 
-[caption id="attachment_22829" align="alignnone" width="1024"] Photo: <a href="https://www.flickr.com/photos/resistfromday1/32550362725/">ResistFromDay1</a>[/caption]
+
 
 Whether you're an agitated activist frustrated with the current state of politics, a civic hacker, government technology entrepreneur or public servant trying change the foundations of democracy from inside or out, "<a href="https://www.amazon.com/Youre-More-Powerful-than-Think/dp/161039707X">You're More Powerful Than You Think</a>" is an accessible guide for helping us all rethink what it means to have power and how to obtain it.
 

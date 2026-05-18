@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19551" align="alignnone" width="1200"] Photo: <a href="https://www.flickr.com/photos/shinyasuzuki/15451548486/">Shinya Suzuki</a>[/caption]
+
 
 Last week at <a href="https://events.drupal.org/losangeles2015">DrupalCon</a>, representatives from the city of Los Angeles, <a href="http://civicactions.com">CivicActions</a> and <a href="http://acquia.com">Acquia</a> shared their development and project management process to begin migrating and consolidating websites across 40 agencies to a single instance using <a href="https://www.acquia.com/products-services/acquia-cloud-site-factory">Acquia Cloud Site Factory</a>.
 

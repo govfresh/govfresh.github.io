@@ -5,7 +5,7 @@ description: Government communications platform GovDelivery announced today it h
 author: GovFresh
 ---
 
-[caption id="attachment_20011" align="alignnone" width="1024"] Textizen co-founder and then Code for America Fellow Michelle Lee posts Textizen signs around Philadelphia. (Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 <em>(See <a href="http://www.govfresh.com/disclosures/">disclosures</a> related to this post)</em>
 

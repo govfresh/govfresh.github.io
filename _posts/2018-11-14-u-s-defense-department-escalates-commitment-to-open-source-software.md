@@ -5,7 +5,7 @@ description: The U.S. Defense Department is escalating its commitment to open so
 author: GovFresh
 ---
 
-[caption id="attachment_24399" align="alignnone" width="2048"] Photo: U.S. Defense Department[/caption]
+
 
 The U.S. Defense Department is escalating its commitment to open source software with a proactive push for agency participation to publicly share custom-developed code.
 

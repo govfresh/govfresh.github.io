@@ -5,7 +5,7 @@ description: If you live in the San Francisco Bay Area and woke up at to a 6.1 e
 author: GovFresh
 ---
 
-[caption id="attachment_18033" align="alignnone" width="1047"] Source: toolkit.sf72.org[/caption]
+
 
 If you live in the San Francisco Bay Area and woke up at to a 6.1 earthquake at 3:30 a.m. this morning, now would be a good time for citizens and local governments everywhere to take a look at <a href="http://toolkit.sf72.org">City72 Toolkit</a>.
 

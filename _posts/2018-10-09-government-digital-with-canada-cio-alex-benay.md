@@ -5,7 +5,7 @@ description: "Alex Benay is the Chief Information Officer Government of Canada a
 author: GovFresh
 ---
 
-[caption id="attachment_24312" align="alignnone" width="2000"] Government of Canada Chief Information Officer Alex Benay[/caption]
+
 
 Alex Benay is the Chief Information Officer Government of Canada and an open and relentless advocate for digital government innovation.
 

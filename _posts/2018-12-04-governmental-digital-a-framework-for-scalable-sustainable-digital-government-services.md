@@ -7,7 +7,7 @@ category:
     - Technology
 ---
 
-[caption id="attachment_24422" align="alignnone" width="1599"] GDS Launch (Photo: Paul Clarke)[/caption]
+
 
 Anything online is digital and, today, everything is online. To use the term ‘digital government’ in many ways is redundant, because whether it’s streamlining our experience with DMV or <a href="http://www.govtech.com/biz/ProudCity-Builds-Recovery-Website-for-Paradise-Calif-in-3-Days.html">responding to natural disasters</a>, all public-facing government services must be prioritized going forward through the lens of digital.
 

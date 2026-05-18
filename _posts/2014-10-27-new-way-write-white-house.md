@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_18099" align="alignnone" width="1024"] Official White House Photo by Pete Souza[/caption]
+
 
 The White House has officially released the write version of the "We the People" application programming interface that now allows developers to feed data back into the petition platform via third-party applications.
 

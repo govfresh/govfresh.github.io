@@ -5,7 +5,7 @@ description: Fresh off off getting recognized as â€˜Public Servant of the Yearâ€
 author: GovFresh
 ---
 
-[caption id="attachment_13230" align="alignnone" width="650" caption="Photo courtesy of Matthew Esquibel"][/caption]
+
 
 Fresh off off getting recognized as the <a href="http://govfresh.com/2011/12/2011-govfresh-awards-winners/">2011 GovFresh Awards</a> 'Public Servant of the Year,' we asked the City of Austin's Matthew Esquibel, Programmer Analyst Supervisor for Internet/Intranet Web Design in the Office of Communications &amp; Technology Management, to share more about his work.
 

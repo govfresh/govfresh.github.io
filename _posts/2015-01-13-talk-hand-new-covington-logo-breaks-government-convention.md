@@ -5,7 +5,7 @@ description: I'm a huge fan of government re-branding to modernize away from the
 author: GovFresh
 ---
 
-[caption id="attachment_18860" align="alignnone" width="814"] Source: City of Covington[/caption]
+
 
 I'm a huge fan of government re-branding to modernize away from the antiquated look of the traditional seal, mostly because I believe it can play a huge role in citizen sentiment and how employees see themselves and their roles as public servants.
 

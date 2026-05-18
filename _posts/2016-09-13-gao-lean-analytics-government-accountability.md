@@ -7,7 +7,7 @@ category:
     - Government Accountability Office
 ---
 
-[caption id="attachment_21645" align="alignnone" width="1024"] Photo: <a href="https://www.flickr.com/photos/kevharb/5314268567/">Kevin Harber</a>[/caption]
+
 
 U.S. Government Accountability Office <a href="https://blog.gao.gov/2016/09/13/our-new-center-for-advanced-analytics/">announced</a> it will create a Center for Advanced Analytics to bring a more data-driven approach into its work.
 

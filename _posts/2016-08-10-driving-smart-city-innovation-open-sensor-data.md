@@ -13,7 +13,7 @@ For many years, open access to data has been viewed as an important means of imp
 
 But open data has proven to be more than just tool for advancing open government and citizen engagement, it is proving itself to be an important tool for developing innovative solutions that advance core quality of life, sustainability and economic development goals.
 
-[caption id="attachment_21475" align="alignnone" width="1087"] Illustrative <a href="http://smartcities.gov.in/writereaddata/SmartCityGuidelines.pdf">list of smart city solutions</a> from the Ministry of Urban Development, Government of India, June 2015[/caption]
+
 
 This is especially true today as new and innovative approaches are being sought to perennial urban challenges such as water, waste, and energy management in addition to transportation and mobility. Many of the highest impact approaches use technology to support innovation, optimization and automation of services and infrastructures. This is driving an investment in technology-driven “smart city” solutions that analysts like <a href="http://ww2.frost.com/news/press-releases/frost-sullivan-global-smart-cities-market-reach-us156-trillion-2020">Frost &amp; Sullivan forecast</a> will hit US$1.6 trillion by 2020.
 
@@ -37,7 +37,7 @@ The Digital Matatus project began when the University of Nairobi, Columbia, MIT 
 
 Armed with smartphones, volunteer college students rode the buses every day for several months and transmitted data via mobile phones. This data was used to plot routes, stops and intervals in a first-ever digital map of this informal transit system. The team also worked with Google to adapt its General Transit Feed Specification standard to accommodate inconsistent transit networks so that the data could be pushed to services such as Google Maps.
 
-[caption id="attachment_21476" align="alignnone" width="1200"] The official Matatu map of Nairobi developed by the project team.  Sarah Williams and Wenfei Xu, MIT Civic Data Design Lab[/caption]
+
 
 The Digital Matatus project gave the government its first comprehensive view of the existing informal system to guide transit planning, and it is being used by UN HABITAT to guide the Bus Rapid Transit it is helping Nairobi to develop. Citizens are benefitting from mobile apps for smart (and not-so-smart) phones to plan trips and discover efficient routes they didn’t even know existed. Even matatu drivers are using the data to plan more routes to underserved areas and reduce congestion on saturated routes. And, as the data, maps and apps are free and available to the public, the project provides a crowd-sourced model other cities can replicate for their informal transit systems.
 

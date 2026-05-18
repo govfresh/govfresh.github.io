@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_17124" align="alignnone" width="676"] Photo courtesy Pete Peterson[/caption]
+
 
 Davenport Institute's Pete Peterson has spent the last seven years working with local governments on improving their approach to public engagement. Now, he's running for California secretary of state on a platform centered around civic innovation.
 

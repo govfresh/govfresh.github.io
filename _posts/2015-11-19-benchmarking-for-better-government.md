@@ -35,7 +35,7 @@ This became the seed that grew into ClearGov.
 
 A year later, the team at ClearGov has crafted a platform that transforms publicly available finances from local governments into easy-to-understand infographics. Each metric is accompanied by a comparison benchmark powered by a sophisticated algorithm that benchmarks local governments by size of population and median home values within a given radius of the city or town. Currently covering California, Massachusetts and New York, ClearGov has over 2,000 profiles of local governments revenues, expenditures and debt.
 
-[caption id="attachment_20452" align="alignnone" width="719"] Source: ClearGov[/caption]
+
 
 An example of an infographic created by ClearGov.</i>
 
@@ -43,7 +43,7 @@ It is our hope that this data can help citizens make more informed votes on upco
 
 And, by the way, I did find the answers to my questions. My town’s debt is 7 percent higher than similar towns and it spends 14 percent more than similar towns on education.
 
-[caption id="attachment_20453" align="alignnone" width="794"] Source: ClearGov[/caption]
+
 
 My town’s debt is reasonable in comparison to similar towns in the area.</i>
 

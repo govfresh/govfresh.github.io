@@ -5,7 +5,7 @@ description: As part of a new What Works Cities initiative, Bloomberg Philanthro
 author: GovFresh
 ---
 
-[caption id="attachment_20129" align="alignnone" width="800"] Photo: <a href="https://www.flickr.com/photos/mikebloomberg/14220750748/">Mike Bloomberg</a>[/caption]
+
 
 As part of a new <a href="http://whatworkscities.bloomberg.org/">What Works Cities</a> initiative, Bloomberg Philanthropies <a href="http://www.bloomberg.org/press/releases/bloomberg-philanthropies-announces-first-cities-selected-to-join-what-works-cities-initiative/">announced</a> a $42 million effort to help 100 U.S. cities "elevate and accelerate" their "use of data and evidence to engage citizens, make government more effective, and improve people’s lives."
 

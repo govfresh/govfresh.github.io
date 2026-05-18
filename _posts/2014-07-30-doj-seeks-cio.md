@@ -5,7 +5,7 @@ description: The U.S. Department of Justice is looking for a chief information o
 author: GovFresh
 ---
 
-[caption id="attachment_17930" align="alignnone" width="1433"] U.S. Department of Justice (Photo: <a href="http://commons.wikimedia.org/wiki/User:Sebmol">Sebmol</a>)[/caption]
+
 
 The U.S. Department of Justice is looking for a chief information officer.
 

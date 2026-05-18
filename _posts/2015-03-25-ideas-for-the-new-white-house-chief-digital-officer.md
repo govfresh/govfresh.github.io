@@ -5,7 +5,7 @@ description: In his announcement Goldman asks citizens (using the hashtag #socia
 author: GovFresh
 ---
 
-[caption id="attachment_19250" align="alignnone" width="654"] Photo: Pete Souza/White House[/caption]
+
 
 On Tuesday, the White House <a href="http://www.politico.com/story/2015/03/barack-obama-names-two-new-top-aides-116349.html?hp=lc2_4">named</a> former Twitter product lead Jason Goldman as the nation's first chief digital officer.
 

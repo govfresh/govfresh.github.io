@@ -5,7 +5,7 @@ description: The goal of the annual event is to "bring together citizens, softwa
 author: GovFresh
 ---
 
-[caption id="attachment_17663" align="alignnone" width="1949"] Source: National Day of Civic Hacking[/caption]
+
 
 Civic leaders and organizations around the world are preparing for events surrounding the <a href="http://hackforchange.org/">National Day of Civic Hacking</a>, scheduled for the weekend of May 31 to June 1, with activities already underway.
 

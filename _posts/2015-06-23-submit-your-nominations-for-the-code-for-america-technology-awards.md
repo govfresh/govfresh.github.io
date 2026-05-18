@@ -7,7 +7,7 @@ category:
     - Code for America
 ---
 
-[caption id="attachment_19745" align="alignnone" width="1200"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 Code for America has opened up applications for its inaugural <a href="http://awards.codeforamerica.org/">Code for America Technology Awards</a> to honor "outstanding products and implementations of government technology."
 

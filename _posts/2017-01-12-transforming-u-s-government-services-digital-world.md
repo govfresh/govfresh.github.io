@@ -5,7 +5,7 @@ description: 18F has developed a framework for how it helps agencies with digita
 author: GovFresh
 ---
 
-[caption id="attachment_21221" align="alignnone" width="1200"] Photo: General Services Administration Office of Communications[/caption]
+
 
 18F has developed a framework for how it helps agencies with digital transformation efforts and has created a deck, "<a href="https://github.com/18F/transformation-services/blob/master/18F-Transformation-Terraform-DECK.pdf">Transforming U.S. government services in a digital world</a>," that offers a blueprint for others looking to do this on their own.
 

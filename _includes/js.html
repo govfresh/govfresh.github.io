@@ -1,20 +1,3 @@
 <!-- Web Awesome -->
-<script src="{{ site.baseurl }}/assets/web-awesome/webawesome.loader.js" data-webawesome="{{ site.baseurl }}/assets/web-awesome/"></script>
-
-<script>
-  let theme = localStorage.getItem('theme');
-  if (!theme)
-    theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
-  document.body.setAttribute('data-theme', theme);
-  if (theme === 'light')
-    document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;
-</script>
-
-<script>
-  function copyLink() {
-    const currentURL = window.location.href;
-    navigator.clipboard.writeText(currentURL).then(() => {
-      alert("Link copied to clipboard!");
-    });
-  }
-</script>
+<script type="module" src="{{ site.baseurl }}/assets/web-awesome/webawesome.loader.js" data-webawesome="{{ site.baseurl }}/assets/web-awesome/"></script>
+<script src="{{ site.baseurl }}/js/theme.js"></script>

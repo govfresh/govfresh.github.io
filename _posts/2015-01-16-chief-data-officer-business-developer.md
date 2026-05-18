@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_18911" align="alignnone" width="640"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 I occasionally get asked about thoughts on how to increase open data consumption, and think about this more and more, especially as it increasingly becomes an issue for those seeking validation and return on investment.
 

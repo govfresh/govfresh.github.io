@@ -7,7 +7,7 @@ category:
     - Commentary
 ---
 
-[caption id="attachment_18584" align="alignnone" width="800"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 <blockquote>“Civic Hacking” is the awareness of a condition that is suboptimal in a neighborhood, community or place and the perception of one’s own ability to effect change on that condition. The apps are incidental.</blockquote>
 In 2008, civic hacking was the furthest thing from my mind.
@@ -47,7 +47,7 @@ Despite the perceived novelty of this approach in the world of technology, there
 
 I believe that these examples hold the key to informing how governments should collaborate with outside civic hackers to develop new solutions that can improve the performance of government and the quality of the services they deliver.
 <h3>DISSATISFACTION AS A FOUNDATION FOR ACTION</h3>
-<div class="jetpack-video-wrapper"><span class="embed-youtube">[youtube https://www.youtube.com/watch?v=XuuyJIo4Cds?version=3&amp;rel=1&amp;fs=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span></div>
+<div class="jetpack-video-wrapper"><span class="embed-youtube"></span></div>
 The video above was captured in September 2013 in the UK, and shows a group of people heading home after a night out on the town. The surprising thing about this footage is that it didn’t capture people behaving badly – in fact, it shows the group working collaboratively to fix a damaged bike rack.
 
 Distilled to its essence – this is what civic hacking is. It is the awareness of a condition that is suboptimal in a neighborhood, community or place and the perception of one’s own ability to effect change on that condition. There is no prerequisite that civic hacking involve technology or software, it only needs to involve people willing to help fix problems – apps are incidental to the larger goal of fixing a community problem.

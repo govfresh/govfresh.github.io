@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_17292" align="alignnone" width="1024"] Photo: D.A.T.A.[/caption]
+
 
 GovFresh 2013 Civic Organization of the Year, <a href="http://www.datauy.org/">Datos Abiertos, Transparencia y Acceso a la información</a>, or D.A.T.A., shares its work and plans for the future.
 

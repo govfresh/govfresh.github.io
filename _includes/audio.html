@@ -4,7 +4,7 @@
     {% if page.layout == "research" %}
       <p class="pb-0 small text-body-secondary mb-0 pb-3">A podcast-like overview created with Google NotebookLM.</p>
     {% endif %}
-    <script src="{{ site.baseurl }}/js/plyr.js"></script>
+    <script src="{{ site.baseurl }}/js/plyr.js" defer></script>
     <audio id="player" controls>
       {% if page.layout == "research" %}
         <source src="{{ site.url }}/assets/audio/{{ page.audio }}" type="audio/mp3">
@@ -12,17 +12,6 @@
         <source src="{{ page.audio }}" type="audio/mp3">
       {% endif %}
     </audio>
-    <script>
-              const plyr = new Plyr('audio', {
-                  controls: [
-                      'play',
-                      'progress',
-                      'current-time',
-                      'duration',
-                      'mute',
-                      'volume'
-                  ]
-              });
-    </script>
+    <script src="{{ site.baseurl }}/js/audio-init.js" defer></script>
   </div>
 {% endif %}

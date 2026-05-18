@@ -5,7 +5,7 @@ description: There have been countless, beautiful anecdotes on Jake’s compassi
 author: GovFresh
 ---
 
-[caption id="attachment_20243" align="alignnone" width="640"] Jake Brewer speaking at PDF 2014. (Photo: Personal Democracy Media)[/caption]
+
 
 I'm still stunned and heartbroken by the news that we've <a href="https://www.washingtonpost.com/local/crime/cyclist-participating-in-charity-ride-dies-in-collision-with-car/2015/09/19/ed04a6ec-5f2f-11e5-9757-e49273f05f65_story.html?postshare=9121442746537148">lost Jake Brewer</a>.
 

@@ -5,7 +5,7 @@ description: When no one in Nick Gaines' UC Berkeley freshman political science 
 author: GovFresh
 ---
 
-[caption id="attachment_14142" align="alignnone" width="600" caption="Source: GovHub"][/caption]
+
 
 When no one in Nick Gaines' UC Berkeley freshman political science class could answer the question “Who is your state senator?," he tuned in, dropped out and started <a href="http://GovHub.org">GovHub</a> with co-founder Adam Becker. Here, Becker shares more about their pursuit of the American dream and how they want to help citizens better engage with their elected officials.
 

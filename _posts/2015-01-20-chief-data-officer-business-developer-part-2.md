@@ -5,7 +5,7 @@ description: Chicago Chief Data Officer Tom Schenk has a great follow-up blog po
 author: GovFresh
 ---
 
-[caption id="attachment_18925" align="alignnone" width="640"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 Chicago Chief Data Officer Tom Schenk has a great follow-up <a href="http://tomschenkjr.net/blog/cdo-as-business-development-some-notes-from-experience/">blog post</a> riffing off my <a href="http://govfresh.com/2015/01/chief-data-officer-business-developer/">Friday commentary</a> on the CDO's role as business developer.
 

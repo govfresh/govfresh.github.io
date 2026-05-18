@@ -7,7 +7,7 @@ category:
     - Code for America
 ---
 
-[caption id="attachment_18297" align="alignnone" width="2048"] Photo: <a href="//codeforamerica.org”">Code for America</a>[/caption]
+
 
 The 2014 <a href="http://www.codeforamerica.org/summit/">Code for America Summit</a> kicks off today in San Francisco and runs through Thursday. For most of you reading this, 99% of your Twitter stream will reference what has become one of the most important government technology events of the year.
 

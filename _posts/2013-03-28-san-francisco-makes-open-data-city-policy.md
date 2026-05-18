@@ -5,7 +5,7 @@ description: Today, open data and its power to transform a city and a nation by 
 author: GovFresh
 ---
 
-[caption id="attachment_15946" align="alignnone" width="600"] SF Mayor Ed Lee introduced open data legislation on October 15 that would create a chief data officer and promote the use of open data in city government. (Photo: City of San Francisco)[/caption]
+
 
 Today, open data and its power to transform a city and a nation by engaging tech savvy citizens will be on display at San Francisco City Hall. And just as importantly, companies that have been successful because of forward thinking open data policies will testify to our elected leaders about its importance. As a founder of one of these sustainable companies, <a href="http://www.appallicious.com/">Appallicious</a>, I am proud to be speaking on behalf of the open data movement.
 

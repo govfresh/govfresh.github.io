@@ -7,7 +7,7 @@ category:
     - White House
 ---
 
-[caption id="attachment_18699" align="alignnone" width="2048"] Photo: White House/Pete Souza[/caption]
+
 
 <em><a href="https://www.presidentialinnovation.org/news/2017/1/20/presidential-innovation-fellows-made-permanent-through-bipartisan-talent-act">Re-posted from the Presidential Innovation Fellows Foundation</a></em>
 

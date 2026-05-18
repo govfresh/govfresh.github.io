@@ -5,7 +5,7 @@ description: I first met Alex Howard in Los Angeles at Gov20LA a few years ago. 
 author: GovFresh
 ---
 
-[caption id="attachment_16041" align="alignnone" width="640"] Alex Howard[/caption]
+
 
 I first met Alex Howard in Los Angeles at Gov20LA a few years ago. This was shortly before he joined O'Reilly Media as its Washington correspondent covering the open government/Gov 2.0 beat.
 
