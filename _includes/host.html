@@ -1,0 +1,14 @@
+{% if page.host %}
+  {% assign host_person = site.people | where: "name", page.host | first %}
+  <p class="small text-body-secondary mb-1">
+    <small>
+      <i class="fa-solid fa-circle-user"></i>
+      Host:
+      {% if host_person %}
+        <a href="{{ site.baseurl }}{{ host_person.url }}" class="author-link">{{ page.host }}</a>
+      {% else %}
+        {{ page.host }}
+      {% endif %}
+    </small>
+  </p>
+{% endif %}

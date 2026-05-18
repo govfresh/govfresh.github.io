@@ -6,10 +6,12 @@
       {% if loop.parent == page.parent and show != "true" and size > 1 %}
         <div class="border-top pt-5 pb-3">
           {% assign show = "true" %}
-          <h2>{{ loop.title }}</h2>
-          <p class="lead mb-4">{{ loop.description }}</p>
           {% include cards.html page=loop.parent page-title=title %}
           <wa-button href="{{ site.baseurl }}/{{ page.parent }}" variant="brand" size="small" class="mt-3">{{ loop.title }}</wa-button>
+          {% if page.parent == "podcast" %}
+            <wa-divider class="mt-4"></wa-divider>
+            {% include subscribe-podcast.html %}
+          {% endif %}
         </div>
 
         {% break %}

@@ -5,7 +5,7 @@ docs:
   icon: fa-tower-broadcast
 
 - title: Podcast
-  url: https://podcast.govfresh.com
+  url: /podcast/
   icon: fa-podcast
 
 - title: Community

@@ -25,7 +25,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate
   - jekyll-redirect-from
 
 # Jekyll Feed
@@ -34,10 +33,6 @@ feed:
 
 # Date/Time Formatting
 date: "%B %-d, %Y"
-
-# Pagination
-paginate: 6
-paginate_path: "/signal/:num"
 
 # Content Type Limits
 # Number limits
@@ -98,6 +93,9 @@ collections:
   topics:
     output: true
     permalink: /topics/:title
+  podcast:
+    output: true
+    permalink: /podcast/:title
 
 # Default Settings
 defaults:
@@ -231,6 +229,19 @@ defaults:
       schematype: "WebPage"
       og-type: "website"
 
+  # Podcast
+  - scope:
+      path: "_podcast"
+      type: "podcast"
+    values:
+      folder: "Podcast"
+      img-path: "people"
+      parent: "podcast"
+      layout: "podcast"
+      short: "true"
+      schematype: "PodcastEpisode"
+      og-type: "audio"
+
   # Labs
   - scope:
       path: "_labs"
@@ -300,3 +311,9 @@ exclude:
   - Gemfile.lock
   - .claude/
   - _config_dev.yml
+  - assets/font-awesome/svgs/
+  - assets/web-awesome/chunks/
+  - assets/web-awesome/components/
+  - assets/web-awesome/skills/
+  - assets/web-awesome/events/
+  - assets/web-awesome/internal/

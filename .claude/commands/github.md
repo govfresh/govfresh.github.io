@@ -44,12 +44,11 @@ git commit -m "<message>"
 git push -u origin <current-branch>
 ```
 
-5. Create PR targeting `main`:
-```
-gh pr create --base main --title "<commit message>" --body ""
-```
+5. Return this PR link (do not use `gh` CLI):
 
-Return the PR URL.
+```
+https://github.com/govfresh/govfresh.github.io/compare/<current-branch>?expand=1
+```
 
 ---
 

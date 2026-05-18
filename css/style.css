@@ -1,31 +1,18 @@
 /* Fonts */
 
 @font-face {
-    font-family: "Public Sans Italic";
-    src: url("/assets/fonts/public-sans/PublicSans-Italic.ttf") format("truetype");
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
     font-family: "Public Sans Regular";
-    src: url("/assets/fonts/public-sans/PublicSans-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/public-sans/PublicSans-Regular.woff2") format("woff2"),
+         url("/assets/fonts/public-sans/PublicSans-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Public Sans Bold Italic";
-    src: url("/assets/fonts/public-sans/PublicSans-BoldItalic.ttf") format("truetype");
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
     font-family: "Public Sans Bold";
-    src: url("/assets/fonts/public-sans/PublicSans-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/public-sans/PublicSans-Bold.woff2") format("woff2"),
+         url("/assets/fonts/public-sans/PublicSans-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -33,23 +20,17 @@
 
 @font-face {
     font-family: "Public Sans Extra Bold";
-    src: url("/assets/fonts/public-sans/PublicSans-ExtraBold.ttf") format("truetype");
+    src: url("/assets/fonts/public-sans/PublicSans-ExtraBold.woff2") format("woff2"),
+         url("/assets/fonts/public-sans/PublicSans-ExtraBold.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Public Sans Black";
-    src: url("/assets/fonts/public-sans/PublicSans-Black.ttf") format("truetype");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: "Roboto Mono";
-    src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.woff2") format("woff2"),
+         url("/assets/fonts/roboto-mono/RobotoMono-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -57,7 +38,8 @@
 
 @font-face {
     font-family: "Roboto Mono";
-    src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.woff2") format("woff2"),
+         url("/assets/fonts/roboto-mono/RobotoMono-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -65,7 +47,8 @@
 
 @font-face {
     font-family: "PT Serif Regular";
-    src: url("/assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/pt-serif/PTSerif-Regular.woff2") format("woff2"),
+         url("/assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -249,12 +232,10 @@ blockquote {
     --bs-border-radius: 0.175rem;
     --bs-border-radius-sm: 0.25rem;
     --bs-gray: #ccc;
-    --bs-gray-200: #e9ecef;
     --bs-black: #000;
-    --bs-dark: #212529;
     --bs-selection-bg: #d5bfff;
     --bs-selection-color: var(--bs-body-color);
-    --bs-info-bg: #cff4fc;
+    --shadow-offset-color: #dddddd;
 
     /* DM bubble colors */
     --dm-bubble-q-bg: #000;
@@ -288,22 +269,6 @@ blockquote {
     .card-border-top-gray {
         border-top: 1px solid var(--bs-gray) !important;
     }
-
-    .drop-shadow {
-        box-shadow: var(--wa-shadow-l);
-    }
-
-    .drop-shadow2 {
-        box-shadow: var(--wa-shadow-m);
-    }
-
-    .drop-shadow3 {
-        filter: drop-shadow(-2px 2px 0 #dddddd);
-    }
-
-    .drop-shadow4 {
-        filter: drop-shadow(-4px 4px 0 #dddddd);
-    }
 }
 
 /* Dark mode */
@@ -332,29 +297,7 @@ blockquote {
     --bs-selection-color: var(--bs-body-bg);
     --bs-gray: #333;
 
-    /* Images */
-
-    .drop-shadow {
-        box-shadow: var(--wa-shadow-l);
-    }
-
-    /* Audio/Bio/DM/Papers/People/Podcast/Collaborate/Connect with/Subscribe/ */
-
-    .drop-shadow2 {
-        box-shadow: var(--wa-shadow-m);
-    }
-
-    /* Icons */
-
-    .drop-shadow3 {
-        filter: drop-shadow(-2px 2px 0 var(--bs-gray));
-    }
-
-    /* Logo */
-
-    .drop-shadow4 {
-        filter: drop-shadow(-4px 4px 0px var(--bs-gray));
-    }
+    --shadow-offset-color: var(--bs-gray);
 
     /* Web Awesome dark mode token overrides */
     --wa-color-brand-fill-loud: var(--bs-body-bg);
@@ -385,6 +328,24 @@ blockquote {
     --dm-bubble-a-bg: #2a2a2a;
     --dm-bubble-a-color: #fff;
 
+}
+
+/* Drop shadows — respond to theme via --wa-shadow-* and --shadow-offset-color */
+
+.drop-shadow {
+    box-shadow: var(--wa-shadow-l);
+}
+
+.drop-shadow2 {
+    box-shadow: var(--wa-shadow-m);
+}
+
+.drop-shadow3 {
+    filter: drop-shadow(-2px 2px 0 var(--shadow-offset-color));
+}
+
+.drop-shadow4 {
+    filter: drop-shadow(-4px 4px 0 var(--shadow-offset-color));
 }
 
 /* Sizes & Fonts */
@@ -938,6 +899,10 @@ blockquote p, blockquote ul {
 
 /* Cards */
 
+wa-card p.small {
+    font-family: var(--bs-font-monospace) !important;
+}
+
 wa-card {
     width: 100% !important;
     box-shadow: var(--wa-shadow-m);
@@ -987,6 +952,7 @@ ul.list-inline li {
 wa-badge::part(base) {
     border: none;
     border-radius: 0;
+    box-shadow: none;
     font-weight: normal;
     font-family: var(--bs-font-monospace);
 }
@@ -995,6 +961,12 @@ wa-badge::part(base) {
 a:has(> wa-badge) {
     text-decoration: none;
     color: inherit;
+}
+
+wa-badge[appearance="outlined"]::part(base) {
+    color: var(--bs-body-color);
+    border-color: var(--bs-body-color);
+    box-shadow: none;
 }
 
 /* Bio callout box and avatar */
@@ -1077,32 +1049,12 @@ a:has(> wa-badge) {
 pre {
     border-radius: 0;
     display: block;
-    color: var(--bs-dark);
+    color: var(--bs-body-color);
     white-space: pre-wrap;
     overflow-wrap: break-word;
     max-width: 100%;
     min-width: 100px;
     padding: var(--size-8);
-}
-
-/* Pagination */
-
-.pagination {
-    color: var(--bs-body-color) !important;
-}
-
-.disabled>.page-link {
-    background-color: var(--bs-body-bg) !important;
-}
-
-.pagination .active>.page-link {
-    background-color: var(--bs-body-color) !important;
-    border-color: var(--bs-body-color) !important;
-    color: var(--bs-body-bg) !important;
-}
-
-.pagination .page-link {
-    color: var(--bs-body-color) !important;
 }
 
 /* Subscribe */
@@ -1194,12 +1146,12 @@ pre {
     margin-bottom: calc(var(--spacer) * 3) !important;
 }
 
-.me-2, .mr-2 {
-    margin-right: calc(var(--spacer) * .5) !important;
+.me-2 {
+    margin-inline-end: calc(var(--spacer) * .5) !important;
 }
 
 .ms-2 {
-    margin-left: calc(var(--spacer) * .5) !important;
+    margin-inline-start: calc(var(--spacer) * .5) !important;
 }
 
 .mx-2 {
@@ -1308,17 +1260,6 @@ pre {
 .lunrsearchresult a { display: block; color: var(--bs-body-color); }
 .lunrsearchresult a:hover, .lunrsearchresult a:focus { text-decoration: none; }
 .lunrsearchresult a:hover .title { text-decoration: underline; }
-
-/* Badge — WCAG contrast and remove outlined inner shadow */
-wa-badge::part(base) {
-    box-shadow: none;
-}
-
-wa-badge[appearance="outlined"]::part(base) {
-    color: var(--bs-body-color);
-    border-color: var(--bs-body-color);
-    box-shadow: none;
-}
 
 /* Responsive video embed */
 .video-responsive {

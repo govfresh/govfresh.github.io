@@ -10,7 +10,9 @@ layout: topic
   <div class="container">
     <div class="home-include">
       {% for collection in site.data.topics.docs %}
-        {% assign items = site[collection] | where: "categories", page.title | reverse %}
+        {% assign items_by_cat = site[collection] | where: "categories", page.title %}
+        {% assign items_by_topic = site[collection] | where: "topics", page.title %}
+        {% assign items = items_by_cat | concat: items_by_topic | reverse %}
         {% assign size = items | size %}
         {% if size > 0 %}
           {% if collection == "posts" %}

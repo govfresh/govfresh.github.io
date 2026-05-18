@@ -9,12 +9,24 @@ layout: podcast
   <article>
     {% include jumbotron.html %}
     <div class="container">
-      <div class="wa-flank wa-gap-l">
+      <div class="wa-flank wa-gap-l wa-align-items-start">
         <div>
-          {% include image.html %}
+          {% include image.html loading="eager" %}
         </div>
         <div>
           {% include audio.html %}
+          {% if page.number %}
+            <div class="mb-3">
+              <p class="small text-body-secondary mb-0">
+                <small>
+                  <i class="fa-solid fa-microphone-lines"></i>
+                  Episode {{ page.number }}</small>
+              </p>
+              {% include date.html %}
+              {% include host.html %}
+              {% include duration.html %}
+            </div>
+          {% endif %}
           <div class="post">
             <div>
               <h2>In this episode</h2>

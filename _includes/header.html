@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
-  <link rel="preconnect" href="https://podcast.govfresh.com">
-  <link rel="dns-prefetch" href="https://podcast.govfresh.com">
+  <link rel="dns-prefetch" href="https://media.githubusercontent.com">
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
@@ -127,13 +126,17 @@
       <script type="application/ld+json">
         {% include webpage.jsonld %}
       </script>
+    {% when "PodcastEpisode" %}
+      <script type="application/ld+json">
+        {% include episode.jsonld %}
+      </script>
   {% endcase %}
   
   <!-- CSS -->
   {% include style.html %}
   
   <!-- Content Security Policy -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; media-src https://podcast.govfresh.com; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; media-src https://podcast.govfresh.com https://media.githubusercontent.com; base-uri 'self'; form-action 'self';">
 
 </head>
 

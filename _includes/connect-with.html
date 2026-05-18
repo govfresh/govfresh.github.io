@@ -1,5 +1,5 @@
-{% if page.linkedin or page.twitter or page.email or page.website %}
-  <wa-callout class="mt-3 mb-3">
+{% if page.linkedin or page.twitter or page.email or page.website or page.bluesky or page.mastodon %}
+  <div class="mt-3 mb-3">
     {% if page.layout == "dm" %}
       {% assign i = 0 %}
       {% for item in page.name %}
@@ -16,42 +16,40 @@
       {% endfor %}
     {% else %}
       {% if page.short-name %}
-        <h2 class="h4 mb-0 pb-0">Connect with {{ page.short-name }}</h2>
+        <h2 class="h4 mb-1">Connect with {{ page.short-name }}</h2>
       {% endif %}
-      <div class="wa-cluster wa-gap-l mt-3">
+      <div class="wa-cluster wa-gap-l mt-2">
         {% if page.website %}
-          <a
-            href="{{ page.website }}"
-            aria-label="Website"
-            class="icon-link drop-shadow3">
+          <a href="{{ page.website }}" aria-label="Website" class="icon-link drop-shadow3">
             <i class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
         {% if page.email %}
-          <a
-            aria-label="Email"
-            href="mailto:{{ page.email }}"
-            class="icon-link drop-shadow3">
-            <i class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
+          <a href="mailto:{{ page.email }}" aria-label="Email" class="icon-link drop-shadow3">
+            <i class="{{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
+          </a>
+        {% endif %}
+        {% if page.bluesky %}
+          <a href="{{ page.bluesky }}" aria-label="Bluesky" class="icon-link drop-shadow3">
+            <i class="{{ site.data.connect.bluesky }} {{ site.data.connect.sm }}"></i>
+          </a>
+        {% endif %}
+        {% if page.mastodon %}
+          <a href="{{ page.mastodon }}" rel="me" aria-label="Mastodon" class="icon-link drop-shadow3">
+            <i class="{{ site.data.connect.mastodon }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
         {% if page.linkedin %}
-          <a
-            href="{{ page.linkedin }}"
-            aria-label="LinkedIn"
-            class="icon-link drop-shadow3">
+          <a href="{{ page.linkedin }}" aria-label="LinkedIn" class="icon-link drop-shadow3">
             <i class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
         {% if page.twitter %}
-          <a
-            href="{{ page.twitter }}"
-            aria-label="Twitter"
-            class="icon-link drop-shadow3">
+          <a href="{{ page.twitter }}" aria-label="Twitter" class="icon-link drop-shadow3">
             <i class="{{ site.data.connect.twitter }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
       </div>
     {% endif %}
-  </wa-callout>
+  </div>
 {% endif %}
