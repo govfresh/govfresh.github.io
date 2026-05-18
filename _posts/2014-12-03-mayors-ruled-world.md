@@ -5,7 +5,7 @@ description: Freakonomics Radio has a great episode on the dynamics of mayors an
 author: GovFresh
 ---
 
-[caption id="attachment_18681" align="alignnone" width="1024"] Los Angeles Mayor Eric Garcetti (Photo: Eric Garcetti)[/caption]
+
  
 Freakonomics Radio has a great episode on the dynamics of mayors and their ability (compared to governors and presidents) to directly and immediately impact the lives of citizens, primarily because they deal with tactical issues with relatively less political obstacles.
 

@@ -5,7 +5,7 @@ description: This year's Code for America Summit is September 30 to October 2 in
 author: GovFresh
 ---
 
-[caption id="attachment_20112" align="alignnone" width="1200"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 This year's <a href="https://www.codeforamerica.org/summit/">Code for America Summit</a> is September 30 to October 2 in Oakland, California, and friends of GovFresh get a 10 percent discount.
 

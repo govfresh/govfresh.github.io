@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19174" align="alignnone" width="791"] Source: analytics.usa.gov[/caption]
+
 
 Despite a digital strategy issued by the White House two years ago calling for more mobile-friendly citizen services, the top four most-visited  federal government websites over the past 30 days fail this test according to new analytics numbers released by the General Services Administration.
 

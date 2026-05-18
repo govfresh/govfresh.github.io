@@ -5,7 +5,7 @@ description: A California bipartisan oversight committee, the Little Hoover Comm
 author: GovFresh
 ---
 
-[caption id="attachment_20389" align="alignnone" width="1200"] California State Capitol Building (Photo: <a href="https://www.flickr.com/photos/respres/21320615374/in/photolist-yu2J9N-8WjmsP-rQeDMM-gtpDe-dZaEky-dF4k1C-am5etR-yX23o-8HJ7gd-8PMgxJ-fC99vC-KzdeJ-8PMjUu-8PJbNv-dZ4Xvp-9bUoUQ-9gnHon-8kUQ9M-9aD1Mx-7eHJLs-8PMf99-dW163B-8mABLX-odjz6G-gBDwYL-am5frB-ecb8Xj-h3HTyK-aafpR-y6K8U5-9WShWo-7NcR3N-xBHeS-5TSqfQ-aafrL-wpUKst-8j77TS-9gqH8d-5wFQhS-zrVnjp-5mxMzR-9WShz9-8mDHow-5wBDY4-5wBDZH-3YTVFD-3YXSSE-5rJT2v-pXe5J-7bXbpV">Jeff Turner</a>)[/caption]
+
 
 A California bipartisan oversight committee, the Little Hoover Commission, has issued recommendations on how the state can bring a more customer-centric government to residents and visitors.
 

@@ -7,7 +7,7 @@ category:
     - Technology
 ---
 
-[caption id="attachment_24222" align="alignnone" width="2048"] Philadelphia City Council Meeting. (Photo: Jared Piper)[/caption]
+
 
 Traditional government meetings software, used to publish agendas, minutes, and livestream and archive videos, are in dire need of a modern, affordable upgrade. 
 

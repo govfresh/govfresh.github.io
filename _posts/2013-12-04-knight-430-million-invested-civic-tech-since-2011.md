@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16804" align="alignnone" width="1024"] Growth of Civic Tech (Knight Foundation)[/caption]
+
 
 A new report from the Knight Foundation, “<a href="http://www.knightfoundation.org/media/uploads/publication_pdfs/knight-civic-tech.pdf">The Emergence of Civic Tech: Investments in a Growing Field</a>,” finds more than $430 million dollars was invested in civic-based technology companies and organizations from January 2011 to May 2013.
 

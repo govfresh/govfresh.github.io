@@ -5,7 +5,7 @@ description: The U.S. Department of Veterans Affairs released a beta version of 
 author: GovFresh
 ---
 
-[caption id="attachment_20428" align="alignnone" width="2246"] Source: Vets.gov[/caption]
+
 
 The U.S. Department of Veterans Affairs released a beta version of <a href="http://Vets.gov">Vets.gov</a>, and it's the future of federal government digital development.
 

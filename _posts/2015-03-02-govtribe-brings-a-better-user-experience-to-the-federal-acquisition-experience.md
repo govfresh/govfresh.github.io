@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19073" align="alignnone" width="600"] Source: govtribe.com[/caption]
+
 
 In an industry that constantly talks about transforming government procurement, one startup is been quietly making a go of it, and it just keeps getting better.
 

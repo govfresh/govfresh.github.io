@@ -5,7 +5,7 @@ description: NASA Deputy CIO and CTO for Information Technology Deborah Diaz int
 author: GovFresh
 ---
 
-[caption id="attachment_17630" align="alignnone" width="1024"] Photo: (NASA/Bill Ingalls)[/caption]
+
 
 NASA Deputy Chief Information Officer and Chief Technology Officer for Information Technology Deborah Diaz introduced a new open innovation team via a rebooted <a href="http://open.nasa.gov">open.nasa.gov</a>.
 

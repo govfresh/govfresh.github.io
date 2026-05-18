@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19480" align="alignnone" width="800"] Photo: <a href="http://codeforamerica.org">Code for America</a>[/caption]
+
 
 Former Code for America Chief Program Officer Bob Sofman has joined procurement startup SmartProcure as government sector executive vice president.
 

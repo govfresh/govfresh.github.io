@@ -5,7 +5,7 @@ description: Open Gov’s CEO Zac Bookman shares how OpenGov the company’s new
 author: GovFresh
 ---
 
-[caption id="attachment_21846" align="aligncenter" width="648"] Source: data.cityofdenton.com[/caption]
+
 
 Earlier this year, OpenGov <a href="https://opengov.com/blog/opengov-acquires-open-data-leader-ontodia/">acquired</a> the open data company Ontodia, enabling the government technology company to expand its smart government platform to include an open source open data platform. 
 

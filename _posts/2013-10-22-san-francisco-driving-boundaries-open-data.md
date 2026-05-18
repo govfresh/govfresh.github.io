@@ -5,7 +5,7 @@ description: During last week’s 2013 Code for America summit at the Yerba Bu
 author: GovFresh
 ---
 
-[caption id="attachment_16230" align="alignnone" width="700"] Port of San Francisco (Photo: Luke Fretwell)[/caption]
+
 
 During last week’s <a href="http://cfasmmit.org/" target="_blank">2013 Code for America summit</a> at the Yerba Buena Center, officials from cities including Louisville, New York City, South Bend and New Orleans spoke about how open data had changed the complexion of their communities in public safety, citizen services and blight mapping.
 

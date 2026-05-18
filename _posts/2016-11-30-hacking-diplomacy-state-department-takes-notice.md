@@ -5,7 +5,7 @@ description: We’ve just held our seventh and eighth weeks of Hacking for Diplo
 author: GovFresh
 ---
 
-[caption id="attachment_21927" align="alignnone" width="2048"] U.S. Secretary of State John Kerry poses for a photo with State Department Representative to Silicon Valley Zvika Krieger and a group of Stanford University engineering and computer science students - who work with the State Department to develop technology solutions for foreign policy problems. (Photo: U.S. Department of State)[/caption]
+
 
 We’ve just held our seventh and eighth weeks of <a href="http://hacking4diplomacy.stanford.edu/" target="_blank">Hacking for Diplomacy</a> at Stanford, and the attention our course is getting from Washington – and around the world – has been interesting. Following Secretary of State John Kerry’s <a href="https://twitter.com/JohnKerry/status/785561015908007937">meeting with the students</a> early in the quarter, Deputy Secretary of State <a href="https://en.wikipedia.org/wiki/Tony_Blinken" target="_blank">Tony Blinken</a> paid a visit to the class in Week 7 and four foreign ministers in week 8
 

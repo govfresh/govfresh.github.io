@@ -5,7 +5,7 @@ description: A new roundtable series focused on “Transforming Government IT”
 author: GovFresh
 ---
 
-[caption id="attachment_19420" align="alignnone" width="1024"] Photo: U.S. Navy / Gary Nichols[/caption]
+
 
 A new roundtable series focused on "<a href="http://reinventors.net/series/civic-tech">Transforming Government IT</a>" will bring together <a href="http://reinventors.net/transforming-government-it-series-network/">leaders</a> in both the public and private sectors from Washington, D.C., to Silicon Valley, to discuss how the federal government can reinvent its approach to technology.
 

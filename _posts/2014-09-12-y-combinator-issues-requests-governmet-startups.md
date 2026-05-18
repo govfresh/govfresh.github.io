@@ -5,7 +5,7 @@ description: Y Combinator posted a list of sectors it's interested in hearing pi
 author: GovFresh
 ---
 
-[caption id="attachment_18280" align="alignnone" width="1024"] Y Combinator (Photo: <a href="https://www.flickr.com/photos/paulmiller/5475205694/">Paul Miller</a>[/caption]
+
 
 Leading Silicon Valley accelerator Y Combinator posted a list of sectors it's interested in hearing pitches from in a "<a href="http://www.ycombinator.com/rfs/">request for startups</a>" that includes government-focused technology ventures.
 

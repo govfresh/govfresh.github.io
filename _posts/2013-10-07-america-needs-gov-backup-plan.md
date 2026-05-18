@@ -5,7 +5,7 @@ description: Regardless of what's happening between the opposite ends of Pennsyl
 author: GovFresh
 ---
 
-[caption id="attachment_16302" align="alignnone" width="800"] Photo: White House/Pete Souza[/caption]
+
 
 The federal government is closed indefinitely as are many of its <a href="http://qz.com/130255/why-is-nasa-gov-shut-down-while-cia-gov-is-still-open/">websites</a>, including <a href="http://data.gov">data.gov</a>, a foundation of U.S. entrepreneurial innovation and public information.
 

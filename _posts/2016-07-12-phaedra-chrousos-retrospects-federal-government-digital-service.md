@@ -5,7 +5,7 @@ description: After two years of helping lay a new foundation for how the federal
 author: GovFresh
 ---
 
-[caption id="attachment_21221" align="alignnone" width="1200"] Photo: General Services Administration Office of Communications[/caption]
+
 
 After two years of helping lay a new foundation for how the federal government buys, builds and delivers government digital services, Technology Transformation Service Commissioner Phaedra Chrousos announced she is stepping down.
 

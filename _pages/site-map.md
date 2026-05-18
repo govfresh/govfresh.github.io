@@ -1,6 +1,6 @@
 ---
-layout: site-map
 title: Site map
-description: 
 permalink: /site-map/
+redirect_to: /site-index/
+sitemap: false
 ---

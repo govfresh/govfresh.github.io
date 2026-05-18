@@ -5,7 +5,7 @@ description: The U.S. Digital Service has soft-launched new U.S. Web Design Stan
 author: GovFresh
 ---
 
-[caption id="attachment_20256" align="alignnone" width="2157"] U.S. Web Design Standards[/caption]
+
 
 The U.S. Digital Service has soft-launched new <a href="https://pages.18f.gov/designstandards/">U.S. Web Design Standards</a> to "create consistency and beautiful user experiences across U.S. federal government websites."
 

@@ -5,7 +5,7 @@ description: Bloomberg Philanthropies’ What Work Cities initiative announced a
 author: GovFresh
 ---
 
-[caption id="attachment_16464" align="alignnone" width="1024"] Photo:  <a href="http://www.flickr.com/photos/gravitywave/180184743/sizes/l/in/photostream/">Josh*m</a>[/caption]
+
 
 Bloomberg Philanthropies' What Work Cities initiative announced a new <a href="https://whatworkscities.bloomberg.org/certification/">certification program</a> that rewards achievements and provides "a clear path to excellence."
 

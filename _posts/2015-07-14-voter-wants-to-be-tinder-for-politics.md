@@ -5,7 +5,7 @@ description: Voter co-founder Hunter Scarborough shares the vision and mission b
 author: GovFresh
 ---
 
-[caption id="attachment_19880" align="alignnone" width="1200"] Photo: Voter[/caption]
+
 
 <a href="http://www.voterapp.us">Voter</a> co-founder Hunter Scarborough shares the vision and mission behind his new venture.
 <h3>Give us the 140-character elevator pitch.</h3>

@@ -1,32 +1,26 @@
-docs_list_title: nav
 docs:
 
-- title: Topics
-  url: /topics/
-
-- title: Thoughts
-  url: /thoughts/
-
-- title: Signal
-  url: /signal/
-
-- title: Briefs
-  url: /briefs/
-
-- title: Papers
-  url: /papers/
-
-- title: DM
-  url: /dm/
-
-- title: Demos
-  url: /demos/
+- title: Latest
+  url: /latest/
+  icon: fa-tower-broadcast
 
 - title: Podcast
   url: https://podcast.govfresh.com
+  icon: fa-podcast
 
-- title: Research
-  url: /research/
+- title: Community
+  url: /community/
+  icon: fa-circle-nodes
 
-- title: Labs
-  url: /labs/
+- title: Services
+  url: /services/
+  icon: fa-briefcase
+
+- title: Connect
+  url: /connect/
+  icon: fa-plug
+
+- title: Search
+  url: /search/
+  icon: fa-magnifying-glass
+  icon-only: true

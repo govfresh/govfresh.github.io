@@ -5,7 +5,7 @@ description: The General Services Administration announced a new re-design of ac
 author: GovFresh
 ---
 
-[caption id="attachment_19365" align="alignnone" width="800"] Source: acquisition.gov[/caption]
+
 
 The General Services Administration <a href="http://gsablogs.gsa.gov/gsablog/2015/04/13/gsa-turns-the-lights-on-at-acquisition-gov/">announced</a> a new re-design of <a href="http://acquisitions.gov">acquisition.gov</a>, the official website for the Federal Acquisition Regulations.
 
@@ -15,7 +15,7 @@ Here are my thoughts and observations:
 
 As you can see, this is not the case for the old FAR URL, <a href="http://www.acquisition.gov/far">acquisition.gov/far</a>:
 
-[caption id="attachment_19367" align="alignnone" width="1200"] Source: acquisition.gov[/caption]
+
 
 <strong>It's open source.</strong> Don't quote me on this, but I believe the original was developed in Microsoft's Active Server Pages. The new site is built on the open source content management system Drupal which, of course, is a positive direction towards federal government open source adoption. 
 

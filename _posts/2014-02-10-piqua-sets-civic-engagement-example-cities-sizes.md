@@ -5,7 +5,7 @@ description: GovFresh 2013 Small City of the Year Piqua, Ohio, is a shining exam
 author: GovFresh
 ---
 
-[caption id="attachment_17101" align="alignnone" width="2048"] Photo courtesy of Piqua, Ohio.[/caption]
+
 
 GovFresh 2013 Small City of the Year <a href="http://www.piquaoh.org/">Piqua, Ohio</a>, is a shining example of the old adage "small is beautiful." With its multi-pronged approach to engaging citizens, Piqua is proof that it doesn't take a big city budget to execute big civic ideas.
 

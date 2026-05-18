@@ -5,7 +5,7 @@ description: "In \"Peace Through Entrepreneurship: Investing in a Startup Cultur
 author: GovFresh
 ---
 
-[caption id="attachment_23523" align="alignnone" width="2048"] Photo: USAID Afghanistan[/caption]
+
 
 In "<a href="https://www.brookings.edu/book/peace-through-entrepreneurship/">Peace Through Entrepreneurship: Investing in a Startup Culture for Security and Development</a>," former State Department staffer Steven Koltai makes the case that world peace can best be achieved through nonmilitary means, especially entrepreneurship that leads to global job creation.
 

@@ -5,7 +5,7 @@ description: Angie Quirarte is a behind-the-scenes hero for the state of Califor
 author: GovFresh
 ---
 
-[caption id="attachment_23550" align="alignnone" width="800"] Photo: Angie Quirarte[/caption]
+
 
 Angie Quirarte is a behind-the-scenes hero for the state of California, leading on issues such as public sector workforce recruitment and retention, public data, creating a user-friendly government, improving  internal government processes and more. 
 

@@ -5,7 +5,7 @@ description: e.Republic published a best practices guide to procuring software-a
 author: GovFresh
 ---
 
-[caption id="attachment_22292" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 e.Republic published a <a href="http://www.govtech.com/library/papers/Best-Practice-Guide-for-Cloud-and-As-A-Service-Procurements-70192.html">best practices guide</a> to procuring software-as-a-service, and the conclusion is a must-read for anyone in government responsible for technology purchases. 
 

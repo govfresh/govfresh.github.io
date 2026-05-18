@@ -5,7 +5,7 @@ description: The U.S. Patent and Trade Office plans to move its beta website, lo
 author: GovFresh
 ---
 
-[caption id="attachment_18987" align="alignnone" width="1988"] Source: http://beta.uspto.gov/[/caption]
+
 
 The U.S. Patent and Trade Office plans to move its beta website, located at <a href="http://beta.uspto.gov/">beta.uspto.gov</a>, to the official agency domain, USPTO.gov, on February 5.
 

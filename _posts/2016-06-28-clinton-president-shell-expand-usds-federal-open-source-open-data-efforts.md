@@ -5,7 +5,7 @@ description: Hillary Clinton released her technology and innovation agenda that 
 author: GovFresh
 ---
 
-[caption id="attachment_21164" align="alignnone" width="1200"] Photo: <a href="https://www.flickr.com/photos/hillaryclinton/27652305985/">Barbara Kinney for Hillary for America</a>[/caption]
+
 
 Hillary Clinton released her <a href="https://www.hillaryclinton.com/briefing/factsheets/2016/06/27/hillary-clintons-initiative-on-technology-innovation/">technology and innovation agenda</a> that promises to expand the U.S. Digital Service and agency-specific digital teams, encourage the continued adoption of open source and open data and bring a more user-friendly approach to federal government operations.
 

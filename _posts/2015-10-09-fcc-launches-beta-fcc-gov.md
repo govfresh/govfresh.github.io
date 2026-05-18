@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_20337" align="alignnone" width="1200"] Source: prototype.fcc.gov[/caption]
+
 
 Based on "extensive user research," the Federal Communications Commission has launched a beta version of fcc.gov that aims to make the site "more useful and accessible to FCC stakeholders."
 

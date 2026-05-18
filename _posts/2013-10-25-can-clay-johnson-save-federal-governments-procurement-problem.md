@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16570" align="alignnone" width="1024"] Clay Johnson (Photo: Joi Ito)[/caption]
+
 
 Clay Johnson has been talking about procurement and how it's <a href="http://www.informationdiet.com/blog/read/procurement-is-americas-big-problem">America's big problem</a> since (at least) 2010, and <a href="http://www.nytimes.com/2013/10/25/opinion/getting-to-the-bottom-of-healthcaregovs-flop.html?_r=0&amp;adxnnl=1&amp;adxnnlx=1382718443-/mCWY+jOZnGJOKNtdQrASw">he has yet to let up</a>. 
 

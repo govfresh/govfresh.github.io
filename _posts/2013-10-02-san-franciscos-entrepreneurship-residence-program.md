@@ -5,7 +5,7 @@ description: Spearheaded by SF's Office of Innovation and led by Mayor Ed Lee Se
 author: GovFresh
 ---
 
-[caption id="attachment_16190" align="alignnone" width="800"] (Photo: San Francisco Office of the Mayor)[/caption]
+
 
 The trend towards injecting fresh perspectives into the business of government via innovation fellowships, civic startup incubators and accelerators continues to grow with San Francisco's <a href="http://www.codeforamerica.org/2013/09/23/sf-entrepreneurship-in-residence-seeks-world-class-entrepreneurs/">recent announcement</a> of a city entrepreneurship-in-residence program.
 

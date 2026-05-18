@@ -5,7 +5,7 @@ description: After reading Ashlee Vance's new Elon Musk biography, I find myself
 author: GovFresh
 ---
 
-[caption id="attachment_20318" align="alignnone" width="1200"] Photo: NASA[/caption]
+
 
 After reading Ashlee Vance's <a href="http://www.amazon.com/gp/product/0062301233?keywords=Elon%20Musk&amp;qid=1444150283&amp;ref_=sr_1_1&amp;sr=8-1">new Elon Musk biography</a>, I find myself wondering whether we should really worry about bad government websites, and instead chalk them up as inspiration for those who will change the world.
 

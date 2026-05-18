@@ -5,7 +5,7 @@ description: In what is probably the best municipal technology job opportunity s
 author: GovFresh
 ---
 
-[caption id="attachment_17736" align="alignnone" width="1024"] New Orleans city hall (Photo: <a href="https://www.flickr.com/photos/wallyg/">Wally Gobetz</a>[/caption]
+
 
 In what is probably the best municipal technology job opportunity since Oakland was recruiting a chief information officer, the city of New Orleans is looking for <a href="http://nola.gov/jobs/chief-information-officer/">new CIO</a>.
 

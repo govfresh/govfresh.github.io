@@ -5,7 +5,7 @@ description: Effective use of personas must be taken seriously when designing tr
 author: GovFresh
 ---
 
-[caption id="attachment_24184" align="alignnone" width="1624"] Source: U.S. National Archives[/caption]
+
 
 Personas are an important tool used in human-centered design to help a service provider better understand the needs of the intended users.
 

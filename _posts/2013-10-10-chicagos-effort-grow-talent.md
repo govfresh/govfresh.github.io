@@ -5,7 +5,7 @@ description: In recent months, we've highlighted several efforts to teach young 
 author: GovFresh
 ---
 
-[caption id="" align="alignnone" width="640"]<a title="Englewood Codes by CivicWhitaker, on Flickr" href="http://www.flickr.com/photos/91210421@N03/9627538325/"></a> Englewood Codes Demo Day[/caption]
+
 
 In recent months, we've highlighted several efforts to teach young people how to code and about technology. These efforts have included <a href="http://www.smartchicagocollaborative.org/hack-night-live-with-englewood-codes/" target="_blank">Englewood Codes</a>, <a href="http://www.smartchicagocollaborative.org/what-we-learned-in-our-first-civicsummer/">Civic Summer</a> and <a href="http://www.smartchicagocollaborative.org/hacking-for-chicagos-youth-at-the-adler-planetarium/" target="_blank">Adler Planetarium's Youth Hackathon</a>. Smart Chicago is proud to have supported these efforts and looks forward to supporting more STEM (Science Technology Engineering and Math) programs like these in the future.
 
@@ -21,11 +21,11 @@ Mayor Rahm Emanuel has said:
 
 STEM programs integrated into Chicago Public Schools, like the <a href="http://weconnectchicago.org/stem-education-prosser-advanced-technology-group/" target="_blank">ATG Group at Prosser Career Academy</a>, provide valuable job skills to CPS and help serve their neighborhoods. Programs like Englewood Codes, run by the non-profit group <a href="http://www.teamworkenglewood.org/index.html" target="_blank">Teamwork Englewood</a>, give students an opportunity to learn coding skills that will give them an advantage when applying for colleges.
 
-[caption id="" align="alignnone" width="640"]<a title="OpenGovChicago: City of Chicago Tech Diversity Council Discussion by danxoneil, on Flickr" href="http://www.flickr.com/photos/juggernautco/9555588160/"></a> Neal Sales Griffin speaking about the Diversity Tech Council at Open Gov Chicago[/caption]
+
 
 Additionally, programs like these help to increase the diversity of the technology space as a whole. One of the major points of <a href="http://www.smartchicagocollaborative.org/creating-a-more-diverse-tech-scene/">Mayor Emanuel's Technology Diversity Council</a>'s recommendation is helping to build a pipeline through which <a href="http://www.cps.edu/Pages/home.aspx">Chicago Public Schools</a> and <a href="http://www.ccc.edu/Pages/default.aspx">City Colleges of Chicago</a> students can transition into the technology economy.
 
-[caption id="" align="alignnone" width="640"]<a title="P9231664_2 by Kiwithing, on Flickr" href="http://www.flickr.com/photos/kiwisaotome/8490911269/"></a> Free Geek Chicago, Photo by Shara Miller[/caption]
+
 
 And it isn't just youth programs that are helping to grow talent. Private code schools like <a href="http://www.starterleague.com/" target="_blank">Starter League</a> and <a href="http://devbootcamp.com/" target="_blank">Dev Bootcamp</a> are training new web developers, designers, and user experience designers. At the volunteer level, the <a href="http://freegeekchicago.org/" target="_blank">Free Geek Chicago</a> teaches not only web development but computer repair.
 

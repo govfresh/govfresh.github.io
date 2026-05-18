@@ -5,7 +5,7 @@ description: It's now time for public leaders to familiarize themselves with Fac
 author: GovFresh
 ---
 
-[caption id="attachment_23809" align="alignnone" width="2048"] Facebook CEO Mark Zuckerberg gives then U.S. Secretary of State John Kerry a tour of Facebook's new headquarters in Menlo Park, California, on June 23, 2016. (Photo: U.S. Department of State)[/caption]
+
 
 In the aftermath of <a href="https://www.vox.com/policy-and-politics/2018/3/23/17151916/facebook-cambridge-analytica-trump-diagram">Facebook's Cambridge Analytica scandal</a>, users of the social media network are becoming more aware, <a href="https://www.theguardian.com/technology/2018/mar/25/facebook-logs-texts-and-calls-users-find-as-they-delete-accounts-cambridge-analytica">and alarmed</a>, at how it turns member personal data into a hugely successful business model.
 

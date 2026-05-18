@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16239" align="alignnone" width="700"] Oakland (Photo: Luke Fretwell)[/caption]
+
 
 Oakland is looking for its next chief information officer to help position the city "at the forefront of American cities in its use of technology."
 

@@ -5,7 +5,7 @@ description: Given the ubiquity of both government and software-as-a-service in 
 author: GovFresh
 ---
 
-[caption id="attachment_20771" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 <em>Originally published on <a href="http://elgl.org/2016/03/31/government-software-as-a-service/">Engaging Local Government Leaders</a></em>
 

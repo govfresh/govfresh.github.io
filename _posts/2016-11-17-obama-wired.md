@@ -5,7 +5,7 @@ description: President Obama served as guest editor for the November issue of Wi
 author: GovFresh
 ---
 
-[caption id="attachment_21882" align="alignright" width="186"] Source: Wired[/caption]
+
 
 President Obama served as guest editor for the November issue of Wired, and the entire print issue is worth investing in.
 

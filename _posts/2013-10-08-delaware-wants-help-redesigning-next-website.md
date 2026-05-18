@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16341" align="alignnone" width="800"] Delaware Gov. Jack Markell (Photo: Office of Gov. Jack Markell)[/caption]
+
 
 Delaware is in the process of beginning a new <a href="http://delaware.gov">delaware.gov</a> redesign and is asking for the public's input in the form of a short <a href="https://docs.google.com/forms/d/1kCEdcRwsy4RkCzoBPdhJNF6FQMRVwTsBqBQFYYPl1Z0/viewform">survey</a>.
 

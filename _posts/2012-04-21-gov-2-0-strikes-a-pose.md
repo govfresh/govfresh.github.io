@@ -5,7 +5,7 @@ description: Congratulations to New York City Chief Digital Officer Rachel Stern
 author: GovFresh
 ---
 
-[caption id="attachment_14309" align="alignnone" width="600" caption="Source: vogue.com"][/caption]
+
 
 Congratulations to New York City Chief Digital Officer <a href="https://twitter.com/#!/rachelsterne">Rachel Sterne</a> on her <a href="http://www.vogue.com/magazine/article/tech-savvy-rachel-sterne/#1">Vogue magazine profile</a>.
 

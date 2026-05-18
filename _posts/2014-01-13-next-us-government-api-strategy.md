@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16958" align="alignnone" width="800"] U.S. Chief Technology Officer Todd Park with President Obama (Photo: White House)[/caption]
+
 
 I was asked to provides some thoughts on what is next for the U.S. government's application programming interface strategy. I've put a lot of thought into it during my work and travels over the last couple months since I’ve left Washington, D.C., and I keep coming back to one thought: strengthen what we have.
 

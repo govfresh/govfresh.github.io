@@ -5,7 +5,7 @@ description: We've recently seen an uptick in venture capital interest around go
 author: GovFresh
 ---
 
-[caption id="attachment_18388" align="alignnone" width="1200"] Photo: Luke Fretwell[/caption]
+
 
 We've recently seen an uptick in venture capital interest around government and civic technology startups, but before we enthusiastically celebrate these investments, we must ask ourselves whether this potential bubble will truly reshape government IT or simply leave us five years from now in the same place we are today.
 

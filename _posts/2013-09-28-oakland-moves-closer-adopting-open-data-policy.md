@@ -5,7 +5,7 @@ description: The policy calls for the city "to make every reasonable effort to p
 author: GovFresh
 ---
 
-[caption id="attachment_16239" align="alignnone" width="700"] Photo: Luke Fretwell[/caption]
+
 
 Oakland's city council has <a href="https://oakland.legistar.com/LegislationDetail.aspx?ID=1477754&amp;GUID=1E651152-34F5-4D60-8D37-62A5CCD6EBDD&amp;Options=&amp;Search=&amp;utm_source=Where%27s+Your+Spot%3F&amp;utm_campaign=Where%27s+your+spot%3F&amp;utm_medium=email">published a proposed city-wide open data policy</a> that will be reviewed by the finance and management committee on October 8 and, if approved, moves to the full council for a final vote scheduled for October 15.
 

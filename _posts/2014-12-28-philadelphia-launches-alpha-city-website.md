@@ -5,7 +5,7 @@ description: The new site, located at alpha.phila.gov, is powered by WordPress w
 author: GovFresh
 ---
 
-[caption id="attachment_18767" align="alignnone" width="1929"] Source: alpha.phila.gov[/caption]
+
 
 Philadelphia has launched an alpha version of a new <a href="http://phila.gov">phila.gov</a>.
 

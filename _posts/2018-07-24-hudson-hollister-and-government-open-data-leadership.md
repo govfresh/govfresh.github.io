@@ -5,7 +5,7 @@ description: As he steps down from his role as executive director of the Data Co
 author: GovFresh
 ---
 
-[caption id="attachment_24263" align="alignnone" width="2400"] Hudson Hollister (Photo: The Data Coalition)[/caption]
+
 
 Hudson Hollister is a pioneer and hero of the government open data movement. As he steps down from his role as executive director of the <a href="https://www.datacoalition.org/">Data Coalition</a>, Hudson reflects on the organization he founded and shares his insights, appreciation and advice to the open data community at large.
 

@@ -7,7 +7,7 @@ category:
     - Department of Defense
 ---
 
-[caption id="attachment_22322" align="alignnone" width="1725"] Eric Schmidt, center, executive chairman of Alphabet Inc., the parent company of Google, and chair of the Defense Innovation Advisory Board, speaks to reporters at the Pentagon following the board's second meeting, Jan. 9. 2017. In the meeting, board members approved 11 recommendations aimed at enhancing the Defense Department in technology, culture, operations and processes. (Photo: U.S. Department of Defense)[/caption]
+
 
 The U.S. Department of Defense's Defense Innovation Advisory Board <a href="https://www.defense.gov/News/Article/Article/1045458/advisory-board-approves-11-dod-innovation-recommendations">approved 11 recommendations</a> "aimed at keeping the Defense Department on the cutting edge in technology, culture, operations and processes."
 

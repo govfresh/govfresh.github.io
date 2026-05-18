@@ -5,7 +5,7 @@ description: In a peculiar approach to web design strategy, the U.S. State Depar
 author: GovFresh
 ---
 
-[caption id="attachment_16693" align="alignnone" width="981"] m.state.gov[/caption]
+
 
 In a peculiar approach to web design strategy, the U.S. State Department has <a href="http://howtomobile.apps.gov/2013/11/07/state-department-mobile-site-goes-responsive/">upgraded</a> its mobile website, <a href="http://m.state.gov/">m.state.gov</a>, to a responsive design.
 

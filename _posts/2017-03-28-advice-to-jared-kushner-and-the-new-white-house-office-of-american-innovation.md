@@ -5,7 +5,7 @@ description: With the help of GSA and the brand power of USA, the opportunity to
 author: GovFresh
 ---
 
-[caption id="attachment_22292" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 The White House reportedly will create an Office of American Innovation, led by White House Senior Advisor <a href="https://en.wikipedia.org/wiki/Jared_Kushner">Jared Kushner</a>. 
 

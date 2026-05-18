@@ -5,7 +5,7 @@ description: Continuing on my book cleaning spree, I wanted to highlight a few w
 author: GovFresh
 ---
 
-[caption id="attachment_20171" align="alignnone" width="1200"] Photo: Luke Fretwell[/caption]
+
 
 Continuing on my <a href="http://www.govfresh.com/2015/07/12-books-for-better-government/">book cleaning spree</a>, I wanted to highlight a few web product design and development books I'm getting rid of that are helpful for anyone focused on providing government digital services. <a href="https://www.facebook.com/govfresh/posts/10153444988880289">Share your suggestions on our Facebook page.</a>
 

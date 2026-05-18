@@ -5,7 +5,7 @@ description: To get an idea of how badly Oakland needs to upgrade its digital in
 author: GovFresh
 ---
 
-[caption id="attachment_16239" align="alignnone" width="700"] Oakland (Photo: Luke Fretwell)[/caption]
+
 
 To get an idea of how badly Oakland needs to upgrade its digital infrastructure, you just need to read this one line from Tuesday's city council <a href="https://oakland.legistar.com/LegislationDetail.aspx?ID=1812408&amp;GUID=B9F66DB3-7090-42F1-896F-131FE43B8ADE&amp;Options=&amp;Search=">staff report</a>:
 

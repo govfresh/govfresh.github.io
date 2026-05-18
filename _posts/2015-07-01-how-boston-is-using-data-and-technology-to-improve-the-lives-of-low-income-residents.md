@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19805" align="alignnone" width="1200"] Photo: <a href="https://www.flickr.com/photos/navaneethkn/7161702317/in/photolist-bURAAa-fvGMbQ-e7V8GZ-fTJdWx-9uH1xU-8e8ina-eDTqKz-qPahg1-fw5aqi-9WuJFK-g3Np3z-7q5agy-dKvwU-fQKdTV-dgdGyz-8NTYBy-cD41P-8UfEJK-4vP7aw-5xbSXp-eckncQ-rqKXzN-bo65HS-8FgGBi-71UfUa-bPkHhK-rxfA1m-7bgh9Q-nQrALa-yvJUP-BLEXe-eM4mr-nwPmJ1-fnjriA-7bctka-aXKg9n-9MYdE-aKLYrt-7bghh5-dDAEd2-9V4Fs6-rsqZZR-9VnCv8-fxvopH-rwveDY-dMUFWB-pV9owq-fHkhjY-fEN21i-fFMoad">Navaneeth KN</a>[/caption]
+
 
 As part of the new <a href="https://www.livingcities.org/blog/848-introducing-the-civic-tech-and-data-collaborative">Civic Tech and Data Collaborative</a> sponsored by Living Cities, Code for America and Urban Institute’s National Neighborhood Indicators Partnership, civic technology teams in Boston and St. Louis were awarded $200,000 each to leverage data and technology to improve the lives of low-income residents.
 

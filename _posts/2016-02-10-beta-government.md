@@ -5,7 +5,7 @@ description: The beta period has eliminated the fear associated with the a big l
 author: GovFresh
 ---
 
-[caption id="attachment_20606" align="alignnone" width="1200"] West Carrollton BETA[/caption]
+
 
 For those unfamiliar with the concept of beta, it's a term used in software development to push a public prototype to get design and functionality feedback, as well as test and report technical bugs before launching the project as an official service.
 

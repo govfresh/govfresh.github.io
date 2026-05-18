@@ -5,16 +5,12 @@ layout: labs
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+<main id="main-content">
   {% include jumbotron.html %}
 </main>
 <aside>
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        {% include previews.html show-only="true" %}
-      </div>
-    </div>
+    {% include previews.html show-only="true" %}
   </div>
 </aside>
 {% include analytics.html %}

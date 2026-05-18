@@ -7,7 +7,7 @@ category:
     - Technology
 ---
 
-[caption id="attachment_22292" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 It’s Tuesday morning. The Muslim travel ban is four days old. Stories of refugees coerced into signing away their green cards, children separated from parents, doctors denied entry into the land of the free dominate the airwaves. Protests have erupted in airports from SFO to JFK. Court orders are ignored. Chaos reigns.
 

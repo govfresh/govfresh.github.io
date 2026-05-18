@@ -5,7 +5,7 @@ description: U.S. Secretary of Commerce Penny Pritzker recently announced the D
 author: GovFresh
 ---
 
-[caption id="attachment_17921" align="alignnone" width="800"] U.S. Secretary of Commerce Penny Pritzker announcing the agency's new chief data officer position. (Photo: U.S. Secretary of Commerce)[/caption]
+
 
 <em><a href="http://apievangelist.com/2014/07/15/chief-data-officer-needs-to-make-the-department-of-commerce-developer-portal-the-center-of-api-economy/">Re-published from API Evangelist</a></em>
 

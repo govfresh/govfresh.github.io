@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16915" align="alignnone" width="800"] Photo: House Oversight and Reform Committee[/caption]
+
 
 As discussed in the previous <a href="http://govfresh.com/2013/12/government-contracting-business-size-implications-cheating/">post</a>, there have been some issues in the U.S. government lately with government contracting. 
 

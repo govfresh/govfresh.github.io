@@ -5,7 +5,7 @@ description: In a series of blog posts, the UK Government Digital Service team h
 author: GovFresh
 ---
 
-[caption id="attachment_19728" align="alignnone" width="1200"] GOV.UK (Photo: <a href="https://www.flickr.com/photos/rooreynolds/16094419483/in/pool-govuk/">Roo Reynolds</a>)[/caption]
+
 
 In a series of blog posts, the UK Government Digital Service team has announced a new post-migration roadmap that includes updates to its go-forward strategy, team structure and key goals for 2015-2016.
 

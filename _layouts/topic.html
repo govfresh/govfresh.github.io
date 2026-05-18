@@ -5,42 +5,44 @@ layout: topic
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+<main id="main-content">
   {% include jumbotron.html %}
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="home-include">
-          {% for collection in site.data.topics.docs %}
-            {% assign items = site[collection] | where: "categories", page.title | reverse %} {% assign size = items | size %}
-            {% if size > 0 %}
-              {% assign page-to-include = "card-" | append: collection %}
-              {% if collection == "posts" %}
-                {% assign page-to-include = "card-signal" %}
-              {% elsif collection == "research" %}
-                {% assign page-to-include = "card-research" %}
-              {% endif %}
-              <div class="preview {% unless collection == site.collections[0] %}{% endunless %} {% if collection == 'posts' %}signal{% else %}{{ collection }}{% endif %}">
-                <h2>
-                  {% if collection == 'posts' %}Signal
-                  {% elsif collection == 'dm' %}
-                    Direct message
-                  {% elsif collection == 'orgs' %}
-                    Organizations
-                  {% else %}
-                    {{ collection | capitalize }}
-                  {% endif %}
-                </h2>
-                <div class="card-group mt-4 mb-5 border-bottom pb-4 {% unless 'ideas' or collection == 'reviews' or collection == 'podcast' %}{% endunless %}">
-                  {% for item in items %}
-                    {% include {{ page-to-include | append: ".html" }} %}
-                  {% endfor %}
-                </div>
-              </div>
+    <div class="home-include">
+      {% for collection in site.data.topics.docs %}
+        {% assign items = site[collection] | where: "categories", page.title | reverse %}
+        {% assign size = items | size %}
+        {% if size > 0 %}
+          {% if collection == "posts" %}
+            {% assign card-include = "card-signal.html" %}
+            {% assign section-label = "Signal" %}
+          {% elsif collection == "dm" %}
+            {% assign card-include = "card-dm.html" %}
+            {% assign section-label = "Direct message" %}
+          {% else %}
+            {% assign card-include = "card-" | append: collection | append: ".html" %}
+            {% assign section-label = collection | capitalize %}
+          {% endif %}
+          <div class="preview {{ section-label | downcase }}">
+            <h2>{{ section-label }}</h2>
+            {% if collection == "briefs" or collection == "research" %}
+              <div class="wa-stack mt-4 mb-5 pb-4 border-bottom">
+            {% elsif collection == "papers" %}
+              <div class="wa-grid mt-4 mb-5 pb-4 border-bottom" style="--min-column-size: 375px">
+            {% elsif collection == "books" %}
+              <div class="wa-grid mt-4 mb-5 pb-4 border-bottom" style="--min-column-size: 220px">
+            {% elsif collection == "demos" %}
+              <div class="wa-grid demos-grid mt-4 mb-5 pb-4 border-bottom">
+            {% else %}
+              <div class="wa-grid mt-4 mb-5 pb-4 border-bottom" style="--min-column-size: 280px">
             {% endif %}
-          {% endfor %}
-        </div>
-      </div>
+              {% for item in items %}
+                {% include {{ card-include }} %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </main>

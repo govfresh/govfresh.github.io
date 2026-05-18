@@ -5,7 +5,7 @@ description: Over the past few years, the civic innovation movement has grown tr
 author: GovFresh
 ---
 
-[caption id="attachment_16464" align="alignnone" width="1024"] Photo:  <a href="http://www.flickr.com/photos/gravitywave/180184743/sizes/l/in/photostream/">Josh*m</a>[/caption]
+
 
 Ladies and gentlemen, welcome to the wall.
 
@@ -15,7 +15,7 @@ There has been a <em>lot</em> of work done these past few years. However, we've
 
 What's the wall? The wall is the set of challenges that prevent the civic technology movement from progressing further. These challenges include: expanding the community, civic and digital literacy, procurement reform, and creating startup opportunities through civic app development (sustainability).
 
-[caption id="" align="alignnone" width="640"]<a title="cruising the sea wall by Jesus Arellanes, on Flickr" href="http://www.flickr.com/photos/jarellanes/2904520253/"></a> Chicago Sea Wall, by Jesus Arellanes[/caption]
+
 
 <h3>Challenge One: Expanding the community</h3>
 

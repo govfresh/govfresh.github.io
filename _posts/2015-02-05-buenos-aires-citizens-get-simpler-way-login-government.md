@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19031" align="alignnone" width="1110"] Source: buenosaires.gob.ar[/caption]
+
 
 As part of a broad effort to simplify access to government services, Buenos Aires now offers citizens and visitors a digital identity system that provides for single sign-on and personal dashboards.
 

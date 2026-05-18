@@ -5,7 +5,7 @@ description: The San Francisco Mayor’s Office of Civic Innovation and Fuse Cor
 author: GovFresh
 ---
 
-[caption id="attachment_16230" align="alignnone" width="700"] Port of San Francisco (Photo: Luke Fretwell)[/caption]
+
 
 The San Francisco Mayor’s Office of Civic Innovation and Fuse Corps are now accepting fellowship applications for a total of five fellowship opportunities.
 

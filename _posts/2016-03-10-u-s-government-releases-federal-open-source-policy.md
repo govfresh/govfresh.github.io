@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_20706" align="alignnone" width="2000"] Photo: U.S. Air Force[/caption]
+
 
 The White House has published a federal <a href="https://sourcecode.cio.gov/">source code policy</a> that requires custom code paid for by the U.S. government be made available to all federal agencies, and a portion be released to the public.
 

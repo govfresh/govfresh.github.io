@@ -4,161 +4,138 @@ layout: home
 
 {% include header.html %}
 {% include nav.html %}
-<main>
+<main id="main-content">
   <section>
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="visually-hidden">{{ site.title }} - {{ site.description }}
-        </h1>
+      <h1 class="wa-visually-hidden">{{ site.title }} - {{ site.description }}
+      </h1>
 
-          {% comment %} Build featured posts array safely {% endcomment %}
-          {% assign featured_posts = "" | split: "" %}
+      {% comment %} Build featured posts array safely {% endcomment %}
+      {% assign featured_posts = "" | split: "" %}
 
-          {% comment %} Add posts with feature flag {% endcomment %}
-          {% if site.posts %}
-            {% for post in site.posts %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
+      {% comment %} Add posts with feature flag {% endcomment %}
+      {% if site.posts %}
+        {% for post in site.posts %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
           {% endif %}
-
-          {% if site.briefs %}
-            {% for post in site.briefs %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% if site.papers %}
-            {% for post in site.papers %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% if site.demos %}
-            {% for post in site.demos %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% if site.dm %}
-            {% for post in site.dm %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% if site.thoughts %}
-            {% for post in site.thoughts %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% if site.research %}
-            {% for post in site.research %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% comment %} Add podcast docs {% endcomment %}
-          {% if site.data.podcast and site.data.podcast.docs %}
-            {% for post in site.data.podcast.docs %}
-              {% if post.feature == true %}
-                {% assign featured_posts = featured_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% comment %} Sort safely - only sort if we have items with dates {% endcomment %}
-          {% comment %} Skip sorting to avoid array comparison errors {% endcomment %}
-
-          {% comment %} Display featured content {% endcomment %}
-          {% for post in featured_posts limit: 1 %}
-            {% assign img_url = post.img-og %}
-            {% if post.img_src != "remote" %}
-              {% assign img_url = site.baseurl | append: "/assets/img/posts/" | append: post.img-og %}
-            {% endif %}
-
-            <article class="featured-post border-bottom pb-4 mb-4">
-              {% comment %} Mobile layout {% endcomment %}
-              <div class="d-sm-none">
-                {% if post.title %}
-                  <h2 class="mb-3 display-6">
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary text-decoration-none">
-                      {{ post.title }}
-                    </a>
-                  </h2>
-                {% endif %}
-
-                <a href="{{ site.baseurl }}{{ post.url }}" class="d-block mb-3">
-                  <img
-                    class="img-fluid drop-shadow border rounded"
-                    src="{{ img_url }}"
-                    alt="{{ post.title | default: 'Featured content' }}"
-                    loading="lazy">
-                </a>
-
-                {% if post.description %}
-                  <p class="lead text-body-secondary mb-4">{{ post.description }}</p>
-                {% endif %}
-
-                {% include podcast.html %}
-                {% include author.html %}
-                {% include date.html %}
-                {% include updated.html %}
-              </div>
-
-              {% comment %} Desktop layout {% endcomment %}
-              <div class="d-none d-sm-block">
-                <div class="row align-items-center">
-                  <div class="col-md-6 col-lg-6">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                      <img
-                        class="img-fluid drop-shadow border rounded"
-                        src="{{ img_url }}"
-                        alt="{{ post.title | default: 'Featured content' }}"
-                        loading="lazy">
-                    </a>
-                  </div>
-                  <div class="col-md-6 col-lg-6">
-                    {% if post.title %}
-                      <h2 class="mb-3 display-6">
-                        <a href="{{ site.baseurl }}{{ post.url }}" class="link-primary text-decoration-none">
-                          {{ post.title }}
-                        </a>
-                      </h2>
-                    {% endif %}
-
-                    {% if post.description %}
-                      <p class="lead text-body-secondary mb-4">{{ post.description }}</p>
-                    {% endif %}
-
-                    {% include podcast.html %}
-                    {% include author.html %}
-                    {% include date.html %}
-                    {% include updated.html %}
-                  </div>
-                </div>
-              </div>
-            </article>
         {% endfor %}
+      {% endif %}
 
-          {% comment %} Additional home content {% endcomment %}
-          {% include home.html %}
-        </div>
-      </div>
+      {% if site.briefs %}
+        {% for post in site.briefs %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if site.papers %}
+        {% for post in site.papers %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if site.demos %}
+        {% for post in site.demos %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if site.dm %}
+        {% for post in site.dm %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if site.thoughts %}
+        {% for post in site.thoughts %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if site.research %}
+        {% for post in site.research %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% comment %} Add podcast docs {% endcomment %}
+      {% if site.data.podcast and site.data.podcast.docs %}
+        {% for post in site.data.podcast.docs %}
+          {% if post.feature == true %}
+            {% assign featured_posts = featured_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% comment %} Sort safely - only sort if we have items with dates {% endcomment %}
+      {% comment %} Skip sorting to avoid array comparison errors {% endcomment %}
+
+      {% comment %} Display featured content {% endcomment %}
+      {% for post in featured_posts limit: 1 %}
+        {% assign img_url = site.baseurl | append: "/assets/img/posts/" | append: post.img-og %}
+
+        <article class="featured-post pb-5">
+          <div class="featured-grid">
+            <div>
+              <a href="{{ site.baseurl }}{{ post.url }}">
+                <img
+                  class="img-fluid drop-shadow border"
+                  src="{{ img_url }}"
+                  alt="{{ post.img-alt | default: post.title }}"
+                  loading="eager"
+                  fetchpriority="high">
+              </a>
+            </div>
+            <div>
+              {% if post.title %}
+                <h2 class="mb-3">
+                  <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
+                </h2>
+              {% endif %}
+              {% if post.description %}
+                <p class="text-body-secondary mb-3">{{ post.description }}</p>
+              {% endif %}
+              <div class="wa-cluster wa-gap-l">
+                {% if post.author %}
+                  {% assign author_obj = site.people | where: "name", post.author | first %}
+                  {% if author_obj %}
+                    <div class="wa-cluster wa-gap-s">
+                      <wa-avatar
+                        image="{{ site.baseurl }}/assets/img/people/{{ author_obj.img }}"
+                        label="{{ author_obj.name }}"
+                        class="bio-avatar"
+                        style="--size: 1.25rem">
+                      </wa-avatar>
+                      <a href="{{ site.baseurl }}{{ author_obj.url }}" class="author-link small">{{ post.author }}</a>
+                    </div>
+                  {% else %}
+                    <span class="small text-body-secondary">{{ post.author }}</span>
+                  {% endif %}
+                {% endif %}
+                {% if post.date %}
+                  <span class="small text-body-secondary">{{ post.date | date: "%B %-d, %Y" }}</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </article>
+        <wa-divider class="mb-4"></wa-divider>
+      {% endfor %}
+
+      {% comment %} Additional home content {% endcomment %}
+      {% include home.html %}
     </div>
   </section>
 </main>

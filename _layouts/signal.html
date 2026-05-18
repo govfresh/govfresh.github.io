@@ -5,34 +5,33 @@ layout: signal
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+<main id="main-content">
   <article>
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          {% include author.html %}
-          {% include date.html %}
-          {% include updated.html %}
-          {% include read-time.html %}
-          {% include feedback.html %}
-          {% include share.html %}
-          <div class="post-signal">
-            <articlebody>
-              <div class="post-signal border-top pt-4 mt-4">
-                {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-hashtag'></i>" %}
-              </div>
-            </articlebody>
+      <div class="content-narrow">
+        {% include author.html %}
+        {% include date.html %}
+        {% include updated.html %}
+        {% include read-time.html %}
+        <div class="post-signal">
+          <div>
+            <div class="post-signal border-top pt-4 mt-4">
+              {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+            </div>
           </div>
-          {% include contributors.html %}
-          {% include topics.html %}
         </div>
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        {% include contributors.html %}
+        {% include topics.html %}
       </div>
     </div>
   </article>
 </main>
+<aside>
+  <div class="container">
+    {% include previews.html show-only="true" %}
+  </div>
+</aside>
 {% include analytics.html %}
 {% include footer.html %}

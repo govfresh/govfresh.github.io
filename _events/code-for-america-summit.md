@@ -2,9 +2,6 @@
 title: "Code for America Summit"
 description: "Designing for change, delivering for the future"
 author: GovFresh
-event-date: "May 29–30, 2025"
-start-date: 2025-05-29
-end-date: 2025-05-30
 event-type: Place #VirtualLocation / Place
 event-location: Washington, D.C.
 event-link: https://summit.codeforamerica.org/

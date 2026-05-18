@@ -1,2 +1,1 @@
-exclude:
-  - _posts/201*.md
+limit_posts: 30

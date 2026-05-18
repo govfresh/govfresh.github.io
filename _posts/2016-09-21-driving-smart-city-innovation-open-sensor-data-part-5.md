@@ -5,7 +5,7 @@ description: While there is much technology that can be sifted into must-have, n
 author: GovFresh
 ---
 
-[caption id="attachment_21659" align="alignnone" width="1200"] Photo: <a href="https://www.flickr.com/photos/esthervargasc/">Esther Vargas</a>[/caption]
+
 
 <em>This is part five of a five-part series that looks at successful strategies we at <a href="http://www.opendatasoft.com/">OpenDataSoft</a> have seen our clients and others use to foster innovation and align their smart city and open data goals. The full series is available as a <a href="http://bit.ly/2aiptUq">free PDF download</a>.</em>
 

@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_20344" align="alignnone" width="1200"] Source: Cloud.gov[/caption]
+
 
 Enabling internal government tech shops to quickly stand up applications in a secure testing environment is fundamental to quick prototyping, and 18F's new <a href="http://Cloud.gov">Cloud.gov</a> is a major step in realizing ultimate IT flexibility.
 

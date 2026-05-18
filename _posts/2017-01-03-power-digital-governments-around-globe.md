@@ -7,7 +7,7 @@ category:
     - Technology
 ---
 
-[caption id="attachment_22280" align="alignnone" width="800"] Singapore's Government Chief Information Officer, and the Government Technology Agency's Deputy Chief Executive. (Photo courtesy of Cheow Hoe)<br />[/caption]
+
 
 With the advent of artificial intelligence, augmented reality, smart sensors and the Internet of Things, the digital and physical worlds have become more integrated than ever. While these technologies once seemed like a distant reality, they are now rapidly being adopted by mainstream consumers and a wide range of industries, from financial services to healthcare.
 

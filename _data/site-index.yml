@@ -1,0 +1,25 @@
+sections:
+  - label: Topics
+    collection: topics
+  - label: Briefs
+    collection: briefs
+  - label: Papers
+    collection: papers
+  - label: Thoughts
+    collection: thoughts
+  - label: Research
+    collection: research
+  - label: Direct message
+    collection: dm
+  - label: Demos
+    collection: demos
+  - label: Podcast
+    collection: podcast
+  - label: Books
+    collection: books
+  - label: Labs
+    collection: labs
+  - label: Pages
+    collection: pages
+  - label: Signal
+    collection: posts

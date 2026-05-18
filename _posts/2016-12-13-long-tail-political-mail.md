@@ -5,7 +5,7 @@ description: Danielle Winterhalter, SpeakEasy co-founder and director of strateg
 author: GovFresh
 ---
 
-[caption id="attachment_22234" align="alignnone" width="1328"] Left to right: Eric Jaye, Bergen Kenny, Danielle Winterhalter (Photo: SpeakEasy Political)[/caption]
+
 
 <a href="http://www.speakeasypolitical.com">SpeakEasy Political</a> wants to make it easier for everyone to run for elected office.
 

@@ -5,13 +5,13 @@ layout: dm
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+<main id="main-content">
   <article>
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+      <div class="wa-flank wa-gap-l wa-align-items-start">
+        <div>
           {% assign i = 0 %}
           {% for item in page.name %}
             {% include image.html %}
@@ -43,19 +43,19 @@ layout: dm
             {% assign i = i | plus: 1 %}
           {% endfor %}
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <div>
           {% if content contains 'id="new"' %}
-            <div class="alert alert-info" role="alert">
+            <wa-callout>
               <div class="new-dm">
                 <a href="#new" class="text-body small">
                   Jump to new messages
                   <i class="fa-regular fa-circle-down"></i>
                 </a>
               </div>
-            </div>
+            </wa-callout>
           {% endif %}
           <div class="post post-dm">
-            <articlebody>{{ content }}</articlebody>
+            <div>{{ content }}</div>
           </div>
           {% include connect-with.html %}
           {% include topics.html %}
@@ -66,11 +66,7 @@ layout: dm
 </main>
 <aside>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        {% include previews.html show-only="true" %}
-      </div>
-    </div>
+    {% include previews.html show-only="true" %}
   </div>
 </aside>
 {% include analytics.html %}

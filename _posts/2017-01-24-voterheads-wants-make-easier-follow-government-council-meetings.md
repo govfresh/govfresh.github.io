@@ -5,7 +5,7 @@ description: Voterheads lets anyone keep track of any council meeting, down to t
 author: GovFresh
 ---
 
-[caption id="attachment_22372" align="alignnone" width="2048"] Photo: <a href="https://www.flickr.com/photos/weho/16819847656/">Jon Viscott</a>[/caption]
+
 
 <a href="https://www.voterheads.com/">Voterheads</a> lets anyone keep track of any council meeting, down to the specific topic. 
 

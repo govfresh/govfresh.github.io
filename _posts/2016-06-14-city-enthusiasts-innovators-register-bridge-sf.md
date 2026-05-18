@@ -5,7 +5,7 @@ description: San Francisco Bay Area city enthusiasts and innovators can now regi
 author: GovFresh
 ---
 
-[caption id="attachment_21067" align="alignnone" width="640"] Golden Gate Bridge (photo: Luke Fretwell)[/caption]
+
 
 San Francisco Bay Area city enthusiasts and innovators can now register for <a href="http://www.bridgesf.city/">BRIDGE SF</a>, "a collaboration of public, private, non-profit, and academic institutions coming together to challenge assumptions, develop skills, share best practices, and build partnerships that drive innovation for a better tomorrow."
 

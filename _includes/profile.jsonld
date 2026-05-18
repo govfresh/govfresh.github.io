@@ -1,16 +1,15 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "{{ page.schematype }}",
-    "dateCreated": "{{ page.date }}",
-    "dateModified": "",
+    "dateCreated": "{{ page.date | date_to_xmlschema }}",
     "mainEntity": {
         "@type": "Person",
         "name": "{{ page.name }}",
-        "alternateName": "{{ page.shortname}}",
-        "description": "{{ page.description}}",
+        "alternateName": "{{ page.shortname }}",
+        "description": "{{ page.description }}",
         "image": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img }}",
         "url": "{{ page.website }}",
-        "sameAs": "{% if page.twitter %}{{ page.twitter }}{% if page.linkedin or page.email %}, {% endif %}{% endif %}{% if page.linkedin %}{{ page.linkedin }}{% if page.email %}, {% endif %}{% endif %}{% if page.email %}{{ page.email }}{% endif %}",
+        "sameAs": [{% assign sameAs = "" | split: "" %}{% if page.twitter %}{% assign sameAs = sameAs | push: page.twitter %}{% endif %}{% if page.linkedin %}{% assign sameAs = sameAs | push: page.linkedin %}{% endif %}{% if page.website %}{% assign sameAs = sameAs | push: page.website %}{% endif %}{% for item in sameAs %}"{{ item }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
         "jobTitle": "{{ page.position }}",
         "worksFor": {
             "@type": "Organization",

@@ -116,7 +116,7 @@ If you can’t see the presentation click <a href="http://www.slideshare.net/sbl
 
 <a href="http://www.slideshare.net/sblank/skynet-week-7-h4d-stanford-2016" target="_blank"><strong>Skynet</strong></a> is using drones to provide ground troops with situational awareness – helping prevent battlefield fatalities by pinpointing friendly and enemy positions.
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=V1I8rcmAJus?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 Mission achievement on slide 2 needs a bit of explanation; the team has met and exceeded their basic goals to reach: 80% accuracy on target identification. From<a href="https://en.wikipedia.org/wiki/United_States_Special_Operations_Command" target="_blank">SOCOM’s</a> perspective the team has achieved their initial mission. Now Skynet has moved beyond their original scope into an interesting area. Slide 9 and 10 show their further refinement of buy in- for SOCOM and the Border Patrol.
 
@@ -146,6 +146,6 @@ If you can’t see the presentation click <a href="http://www.slideshare.net/sbl
 </ul>
 </blockquote>
 
-[soundcloud url="https://api.soundcloud.com/tracks/264729381" params="visual=true&amp;show_artwork=false" width="100%" height="66" iframe="true" /]
+
 
 

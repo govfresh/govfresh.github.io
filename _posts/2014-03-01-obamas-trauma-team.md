@@ -5,7 +5,7 @@ description: Brill's "Obama's Trauma Team" features U.S. Chief Technology Office
 author: GovFresh
 ---
 
-[caption id="attachment_16971" align="alignnone" width="800"] Photo: U.S. Health &amp; Human Services[/caption]
+
 
 Steven Brill has a great in-depth, behind-the-scenes write-up on the HealthCare.gov IT aftermath and the team that helped steer the project to success.
 

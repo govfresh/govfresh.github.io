@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19448" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 Within the context of digital government and civic engagement, we focus much of our efforts around concepts like open data, open source, analytics, technical frameworks and user experience, but rarely, if ever, do we discuss proactively delivering happiness to citizens.
 

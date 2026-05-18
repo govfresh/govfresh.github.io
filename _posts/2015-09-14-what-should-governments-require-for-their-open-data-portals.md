@@ -5,7 +5,7 @@ description: My fundamental suggestion is that government-run open data platform
 author: GovFresh
 ---
 
-[caption id="attachment_20199" align="alignnone" width="1540"] Source: <a href="http://data.nucivic.com/dashboard">data.nucivic.com/dashboard</a>[/caption]
+
 
 Johns Hopkins University’s new Center for Government Excellence is developing a much-needed <a href="http://labs.centerforgov.org/open-data-portal-requirements/">open data portal requirements</a> resource to serve as a "set of sample requirements to help governments evaluate, develop (or procure), deploy, and launch an open data web site (portal)."
 

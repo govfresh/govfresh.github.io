@@ -5,7 +5,7 @@ description: Bay Area Rapid Transit Web Services Manager Timothy Moore discusses
 author: GovFresh
 ---
 
-[caption id="attachment_17057" align="alignnone" width="800"] Photo: <a href="http://www.flickr.com/photos/ari/10440609306/">Steve Rhodes</a>[/caption]
+
 
 Bay Area Rapid Transit Web Services Manager Timothy Moore discusses the recent upgrade of its flagship website, <a href="http://bart.gov">BART.gov</a>, including a Drupal migration, embracing agile development, encouraging third-party developers to build off its open data and APIs, and plans for the future.
 

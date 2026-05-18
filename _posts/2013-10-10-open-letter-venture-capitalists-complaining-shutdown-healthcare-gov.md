@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16369" align="alignnone" width="1024"] Photo: <a href="http://www.flickr.com/photos/michaelreuter/4068776519/">historilla</a>[/caption]
+
 
 Lately, what's happening between both ends of Pennsylvania Avenue is starting to catch the ire of some venture capitalists who, like many Americans already, are starting to publicly vent their frustrations.
 

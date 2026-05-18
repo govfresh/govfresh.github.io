@@ -17,7 +17,7 @@ Olay's [Open to Change](https://www.olay.com/opentochange) advertising campaign 
 
 Open to Change focuses on Olay making its jar design more accessible. A new lid makes it easy to open, but also has “face cream” in Braille on the top.
 
-I first saw this as an advertisement in the print edition of The New York Times, but there is also an accompanying [video](https://www.youtube.com/watch?v=p2cpLH1xLcE) and [website](https://www.olay.com/opentochange).
+I first saw this as an advertisement in the print edition of The New York Times, but there is also an accompanying (https://www.youtube.com/watch?v=p2cpLH1xLcE) and [website](https://www.olay.com/opentochange).
 
 The first page of the four-page spread has negative testimonials from Olay users, such as:
 

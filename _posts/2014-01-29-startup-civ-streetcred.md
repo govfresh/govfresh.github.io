@@ -5,7 +5,7 @@ description: StreetCred helps law enforcement agencies locate fugitives, get the
 author: GovFresh
 ---
 
-[caption id="attachment_17048" align="alignnone" width="800"] Nick Selby, co-founder and CEO, StreetCred (Photo: <a href="http://codeforamerica.org">Code for America</a>)[/caption]
+
 
 <em>'Startup.civ' is a regular GovFresh feature highlighting the <a href="http://govfresh.com/category/topics/startups/">startups</a> powering the civic movement.</em>
 

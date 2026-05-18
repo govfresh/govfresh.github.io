@@ -5,7 +5,7 @@ description: Last February, officials from San Francisco collaborated with the C
 author: GovFresh
 ---
 
-[caption id="attachment_14108" align="alignnone" width="634" caption="SF Mayor Ed Lee and Chief Innovation Officer Jay Nath with SF Taxi &amp; Mass Communication Challenge attendees (Photo: Mix &amp; Stir Studio)"][/caption]
+
 
 Last February, officials from San Francisco collaborated with the California College of the Arts and <a href="http://mixandstirstudio.com/">Mix &amp; Stir Studio</a> for the <a href="http://mixandstirstudio.com/unhack/">SF Taxi &amp; Mass Communication Challenge</a>, a 24-hour "unhackathon" focused on "design-driven technology solutions to real world problems." SF Chief Innovation Officer Jay Nath and Mix &amp; Stir's Christopher Ireland share their thoughts on building a hackathon that incorporated design thinking and "learning about customers from the start."
 

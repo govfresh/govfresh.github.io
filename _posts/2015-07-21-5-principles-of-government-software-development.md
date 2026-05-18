@@ -7,7 +7,7 @@ category:
     - Open source
 ---
 
-[caption id="attachment_19968" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 Technology has always been a prime concern of government. The U.S. Constitution created the power to confer patents and copyrights. The Manhattan project, Apollo program, eradication of smallpox, and the Internet were all government projects.
 

@@ -1,11 +1,4 @@
 <div id="read-time-container" class="d-none d-md-block">
   <div id="read-time-bar"></div>
 </div>
-
-<script>
-    const bar = document.getElementById('read-time-bar');
-      const article = document.querySelector('article');
-    addEventListener('scroll',   () => {
-        bar.style.width = `${Math.min((document.documentElement.scrollTop / article.scrollHeight),1) * 100}%`;  
-    });
-</script>
+<script src="{{ site.baseurl }}/js/read-time-bar.js" defer></script>

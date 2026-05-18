@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16682" align="alignnone" width="1024"] Photo: Pete Souza/White House[/caption]
+
 
 The White House will soon open a limited beta test to developers on a new <a href="http://petitions.whitehouse.gov/">We the People</a> Write API that allows third-party applications to submit information to official petitions.
 

@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19926" align="alignnone" width="900"] Pluto (Photo: NASA)[/caption]
+
 
 Flying by unchartered planetary territory is a good way to drive traffic to your website.
 

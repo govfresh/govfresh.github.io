@@ -5,7 +5,7 @@ description: San Francisco announced the creation of a new internal digital agen
 author: GovFresh
 ---
 
-[caption id="attachment_16230" align="alignnone" width="700"] Port of San Francisco (Photo: Luke Fretwell)[/caption]
+
 
 San Francisco announced the creation of a new <a href="http://digitalservices.sfgov.org/">internal digital agency</a> and is looking for a <a href="http://digitalservices.sfgov.org/CDSO.html">chief digital services officer</a> to lead its efforts.
 

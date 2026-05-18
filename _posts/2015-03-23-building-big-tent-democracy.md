@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19202" align="alignnone" width="1200"] Photo: Luke Fretwell[/caption]
+
 
 We started <a href="http://civicmakers.org">CivicMakers</a> for one simple reason–to connect passionate citizens who are building a better democracy in our communities, workplaces and political institutions.
 

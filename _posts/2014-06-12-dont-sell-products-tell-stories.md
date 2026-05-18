@@ -7,7 +7,7 @@ category:
     - Featured
 ---
 
-[caption id="attachment_17762" align="alignnone" width="1200"] Photo: Jordan Raynor[/caption]
+
 
 <em>Jordan Raynor, a Co-founder of <a href="http://govfresh.com/2014/01/civic-values/" target="_blank">Citizinvestor</a> (a crowdfunding and civic engagement platform for government projects), released a book today chronicling the first two years of the civic startup's life. The book, <a href="http://www.amazon.com/Startup-Stories-Lessons-Learned-Startups/dp/149957391X" target="_blank">Startup Stories: Lessons Learned from a Startup's Launch, Grind, and Growth</a>, is available for <a href="http://www.amazon.com/Startup-Stories-Lessons-Learned-Startups/dp/149957391X" target="_blank">half-off today only</a>. The following is one of the book's twenty short chapters.</em>
 

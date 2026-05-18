@@ -5,7 +5,7 @@ description: With the release of a new identity management platform, 18F is slow
 author: GovFresh
 ---
 
-[caption id="attachment_20771" align="alignnone" width="1024"] Photo: White House[/caption]
+
 
 With the release of a new identity management platform, 18F is slowly culling together all the requisite pieces for an easy-to-deploy, cloud-based federal government web management platform.
 

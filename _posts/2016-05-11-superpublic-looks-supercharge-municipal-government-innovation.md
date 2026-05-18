@@ -5,7 +5,7 @@ description: The 5,000 sq. ft. lab Superpublic unites under the same roof for th
 author: GovFresh
 ---
 
-[caption id="attachment_20861" align="alignright" width="250"] City Innovate CEO Kamran Saddique[/caption]
+
 
 Earlier this week, the <a href="http://cityinnovate.org/">City Innovate Foundation</a> was joined by San Francisco Mayor Ed Lee, U.S. General Services Administration Administrator Denise Turner Roth and the U.S. Department of Commerce to announce a<a href="http://www.sfchronicle.com/business/article/Superpublic-lab-in-SF-to-focus-on-urban-problems-7423635.php#photo-10001713"> first-of-its-kind Innovation lab</a> to solve urban problems and scale solutions at 50 United Nations Plaza -- the birthplace of the U.N. 
 

@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /search.json
+---
+{% assign search_items = "" | split: "" %}{% for page in site.pages %}{% unless page.url contains '.xml' or page.url contains 'assets' or page.url contains 'json' %}{% assign search_items = search_items | push: page %}{% endunless %}{% endfor %}{% for page in site.posts %}{% assign search_items = search_items | push: page %}{% endfor %}[{% for item in search_items %}{"id":{{ forloop.index0 }},"url":{{ site.url | append: item.url | jsonify }},"title":{{ item.title | default: "" | jsonify }},"body":{{ item.description | default: "" | strip_html | strip_newlines | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]

@@ -5,7 +5,7 @@ description: The U.S. Department of Education has published a request for inform
 author: GovFresh
 ---
 
-[caption id="attachment_17614" align="alignnone" width="640"] Photo: U.S. Department of Education[/caption]
+
 
 The U.S. Department of Education has published a <a href="https://www.federalregister.gov/articles/2014/04/16/2014-08649/request-for-information-on-the-use-of-apis-in-higher-education-data-and-student-aid-processes">request for information</a> asking for public feedback on how the agency can innovate with open data, particularly application programming interfaces.
 

@@ -5,7 +5,7 @@ description: "I finished reading Charles Duhigg’s latest book, \"Smarter Faste
 author: GovFresh
 ---
 
-[caption id="attachment_22317" align="alignnone" width="1024"] Photo: U.S. Marine Corps[/caption]
+
 
 I finished reading Charles Duhigg's latest book, "<a href="http://charlesduhigg.com/books/smarter-faster-better/">Smarter Faster Better: The Secrets of Being Productive in Life and Business</a>," and in it are two great government-related anecdotes around motivation and agile thinking.
 

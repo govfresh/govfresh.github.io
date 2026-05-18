@@ -5,7 +5,7 @@ description: Code for America today announced the next class of municipalities f
 author: GovFresh
 ---
 
-[caption id="attachment_18372" align="alignnone" width="1024"] Photo: <a href="//codeforamerica.org”">Code for America</a>[/caption]
+
 Code for America today announced the next class of municipalities for its 2015 Fellowship Program that partners civic technologists with local governments for one year to "explore answers to local challenges by engaging with the community, building applications, and testing the results."
 
 Participating governments include Albuquerque, New Mexico; Indianapolis, Indiana; Miami-Dade County, Florida; Pittsburgh, Pennsylvania; Somerville, Massachusetts; Vallejo, California; and West Sacramento, California.

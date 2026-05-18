@@ -5,7 +5,7 @@ description: The Defense Information Systems Agency has released a series of vid
 author: GovFresh
 ---
 
-[caption id="attachment_21651" align="alignnone" width="1024"] Photo: U.S. Navy[/caption]
+
 
 The Defense Information Systems Agency has released a <a href="https://www.youtube.com/watch?v=kLZVNpMw95s&amp;list=PLRPVoCgP5zRZHvLAsp4AwV6wqI0OfioEh&amp;index=1">series of videos</a> and <a href="https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=ee32f2cb2066e5062b7636c11c65547e&amp;tab=core&amp;_cview=0">request for information</a> for the National Background Investigation System, created in the wake of <a href="https://www.opm.gov/cybersecurity/cybersecurity-incidents/">security incidents</a> that lead to data breaches of millions of federal government employees and contractors.
 

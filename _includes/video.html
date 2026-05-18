@@ -5,10 +5,13 @@
   {% if page.video-description %}
     <p>{{ page.video-description }}</p>
   {% endif %}
-  <div class="ratio ratio-16x9 mb-4 border">
+  <div class="video-responsive mb-4 border">
     <iframe
-      src="https://www.youtube.com/embed/{{ page.video }}?modestbranding=1&rel=0"
-      title="{{ page.title }}"
-      allowfullscreen></iframe>
+      src="https://www.youtube.com/embed/{{ page.video }}?rel=0&modestbranding=1"
+      title="{{ page.video-title | default: page.title }}"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
   </div>
 {% endif %}

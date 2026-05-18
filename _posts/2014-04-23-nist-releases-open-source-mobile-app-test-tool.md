@@ -5,7 +5,7 @@ description: The National Institute of Standards and Technology has released an 
 author: GovFresh
 ---
 
-[caption id="attachment_17625" align="alignnone" width="600"] AppVet (Image: NIST)[/caption]
+
 
 There's now an AppVet for that.
 

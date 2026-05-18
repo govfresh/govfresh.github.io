@@ -5,7 +5,7 @@ description: U.S. Defense Secretary Ash Carter announced the DOD will open its t
 author: GovFresh
 ---
 
-[caption id="attachment_21687" align="alignnone" width="1200"] Defense Secretary Ash Carter speaks during a visit to Capitol Factory, Austin, Tex., September 14, 2016. (DoD photo by U.S. Army Sgt. Amber I. Smith)[/caption]
+
 
 U.S. Defense Secretary Ash Carter <a href="http://www.defense.gov/News/Article/Article/944767/carter-opens-diux-outpost-in-texas">announced</a> the DOD will open its third technology innovation "outpost" in Austin, expanding the reach of the <a href="https://www.diux.mil/">Defense Innovation Unit Experimental</a> that serves as a "bridge between those in the U.S. military executing on some of our nation’s toughest security challenges and companies operating at the cutting edge of technology." 
 

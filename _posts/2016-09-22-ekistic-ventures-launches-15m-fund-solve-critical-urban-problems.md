@@ -5,7 +5,7 @@ description: Adding to the increased interest in investment opportunities around
 author: GovFresh
 ---
 
-[caption id="attachment_21736" align="alignnone" width="1200"] Photo: <a href="https://www.flickr.com/photos/mariano-mantel/27042141284/in/photolist-HcC3tf-KFEdSp-xYdtNW-yPghFr-ov1VKW-L4gttx-JL1F9p-wcWun6-buJ6E4-yfTTX1-dNNiK9-9hTbK-t7uuRd-dwEJkj-8CHYdj-6rhXat-yuy48i-KjTx4W-LWp8Bs-K64J1g-bo6D68-d5uuCy-gd82aA-62vAsR-4Tqodn-fLSH2S-hF3tcT-8oX1d1-7jaYw-nenNcS-6VEGHG-FtbSg-8xNdht-nacnXZ-4TuGub-4RN2at-8TQHzX-8wAp1N-e2zaKD-wcPcTY-raXDkQ-a9WFqL-deAGSV-chmTwq-4j27Wg-xvojaA-edSpf9-KHvsau-dYSEjP-xU8UNx">Mariano Mantel</a>[/caption]
+
 
 Adding to the increased interest in investment opportunities around civic and government technology, a new venture fund, <a href="http://www.ekistic.com/">Ekistic Ventures</a>, launched with the intent of "building a portfolio of companies that will solve critical urban problems."
 

@@ -1,15 +1,5 @@
-<div class="container d-none d-md-block">
-  <div class="row">
-    <div class="col-12">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb mb-0 pb-0">
-          <li aria-current="page" class="breadcrumb-item small">
-            <small>
-              <a href="{{ site.baseurl }}/{{ page.parent }}/" class="nav-link">{{ page.folder }}</a>
-            </small>
-          </li>
-        </ol>
-      </nav>
-    </div>
-  </div>
+<div class="container d-none d-md-block py-2">
+  <wa-breadcrumb>
+    <wa-breadcrumb-item href="{{ site.baseurl }}/{{ page.parent }}/">{{ page.folder }}</wa-breadcrumb-item>
+  </wa-breadcrumb>
 </div>

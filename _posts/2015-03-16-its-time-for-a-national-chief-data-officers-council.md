@@ -5,7 +5,7 @@ description: As momentum around appointing public sector chief data officers gro
 author: GovFresh
 ---
 
-[caption id="attachment_19151" align="alignnone" width="800"] U.S. Chief Data Scientist DJ Patil  (Photo: <a href="https://www.flickr.com/photos/oreillyconf/16583022141">O'Reilly Conferences</a>)[/caption]
+
 
 As momentum around appointing public sector chief data officers grows, it's time for the federal government to get ahead of the curve and create a formal chief data officers council similar to, but more inclusive, proactive and public than the already-established U.S. Chief Information Officers Council.
 

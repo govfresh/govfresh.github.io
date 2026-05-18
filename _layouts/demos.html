@@ -5,32 +5,36 @@ layout: demos
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+<main id="main-content">
   <article>
     <div class="container pt-3">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          <div class="pt-1 pb-3 mb-3 border-bottom">
-            {% include jumbotron.html %}
-          </div>
-          <div class="post">
-            <articlebody>
-              {{ content }}
-            </articlebody>
-          </div>
-          {% include demos.html %}
-          {% include topics.html %}
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-          {% if site.demos.size > 2 %}
-            <aside>
-              <h2 class="h4 pt-0 pb-3 my-0">More demos</h2>
-              {% include cards.html %}
-              <a href="{{ site.baseurl }}/demos" class="btn btn-primary btn-bd-primary btn-sm">Demos</a>
-            </aside>
-          {% endif %}
+      <div class="pt-1 pb-3 mb-3">
+        {% include jumbotron.html %}
+      </div>
+      <wa-divider class="mb-3"></wa-divider>
+      <div class="post">
+        <div>
+          {{ content }}
         </div>
       </div>
+      {% include demos.html %}
+      {% include topics.html %}
+      {% if site.demos.size > 2 %}
+        <aside class="mt-5 pt-4 border-top">
+          <h2 class="h4 pb-3 my-0">More demos</h2>
+          <div class="wa-grid demos-grid mb-3">
+            {% assign demos_limit = site.demos-number | plus: 0 %}
+            {% assign demos_count = 1 %}
+            {% for item in site.demos reversed %}
+              {% if item.title != page.title and demos_count < demos_limit %}
+                {% include card-demos.html %}
+                {% assign demos_count = demos_count | plus: 1 %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <wa-button href="{{ site.baseurl }}/demos" variant="brand" size="small">Demos</wa-button>
+        </aside>
+      {% endif %}
     </div>
   </article>
 </main>

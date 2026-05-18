@@ -3,69 +3,23 @@ layout: site-index
 ---
 {% include header.html %}
 {% include nav.html %}
-<main>
+<main id="main-content">
   {% include jumbotron.html %}
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2>Pages</h2>
-        <ul>
-          {% for post in site.pages %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h2>Thoughts</h2>
-        <ul>
-          {% for post in site.thoughts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h2>DM</h2>
-        <ul>
-          {% for post in site.dm %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h2>Podcast</h2>
-        <ul>
-          {% for post in site.podcast %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h2>Research</h2>
-        <ul>
-          {% for post in site.research %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h2>Books</h2>
-        <ul>
-          {% for post in site.books %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h2>Posts</h2>
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
+    {% for section in site.data.site-index.sections %}
+      <h2 class="h4 mb-3">{{ section.label }}</h2>
+      <div class="wa-grid mb-5" style="--min-column-size: 300px">
+        {% assign items = site[section.collection] %}
+        {% for post in items %}
+          {% unless post.sitemap == false or post.title == nil or post.title == "" %}
+            <wa-card>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
+              {% if post.description and post.description != "undefined" %}<p class="small text-body-secondary mb-0 mt-1">{{ post.description }}</p>{% endif %}
+            </wa-card>
+          {% endunless %}
+        {% endfor %}
       </div>
-    </div>
+    {% endfor %}
   </div>
 </main>
 {% include analytics.html %}

@@ -5,47 +5,32 @@ layout: research
 {% include header.html %}
 {% include nav.html %}
 {% include breadcrumb.html %}
-<main>
+<main id="main-content">
   <article>
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
-          {% include toc.html html=content %}
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+      <div class="thoughts-layout">
+        <div>
           {% include audio.html %}
-          <div class="alert alert-info mt-4">
-            <p class="small text-body-secondary mb-0">
-              <small>
-                <i class="fa-solid fa-robot"></i>
-                Content created with artificial general intelligence. This is a work in progress. Have feedback?
-                <a href="https://github.com/govfresh/govfresh.github.io/issues/new/choose">Submit an issue</a>
-                or
-                <a href="{{ site.baseurl }}/contact/">contact us</a>.</small>
-            </p>
-          </div>
           <div class="post">
-            <articlebody>
-              {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-hashtag'></i>" %}
-            </articlebody>
+            <div>
+              {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+            </div>
           </div>
           {% include contributors.html %}
           {% include topics.html %}
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+        <div class="thoughts-toc">
+          {% include toc.html html=content %}
+        </div>
       </div>
     </div>
   </article>
 </main>
 <aside>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        {% include previews.html show-only="true" %}
-      </div>
-    </div>
+    {% include previews.html show-only="true" %}
   </div>
 </aside>
 {% include analytics.html %}

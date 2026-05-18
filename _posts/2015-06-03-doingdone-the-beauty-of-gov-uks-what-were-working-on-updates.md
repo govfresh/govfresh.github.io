@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_19583" align="alignnone" width="1600"] Photo: <a href="https://www.flickr.com/photos/rooreynolds/16094419483/in/pool-govuk/">Roo Reynolds</a>[/caption]
+
 
 GOV.UK's occasional "<a href="https://insidegovuk.blog.gov.uk/category/what-were-working-on/">What we're working on</a>" post is an excellent example of how government can share regular updates on recent accomplishments and what will be worked on next.
 

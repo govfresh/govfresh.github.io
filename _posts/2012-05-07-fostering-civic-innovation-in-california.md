@@ -39,6 +39,6 @@ I’m currently looking for policy interns so if you’re interested in learning
 
 Listen to Black's interview on the <a href="http://soundcloud.com/cafwd/cafwd-radio-show-ca-civic">CAFwd Radio Show</a>:
 
-[soundcloud url="http://api.soundcloud.com/tracks/44287374" params="show_artwork=true" width="100%" height="166" iframe="true" /]
+
 
 

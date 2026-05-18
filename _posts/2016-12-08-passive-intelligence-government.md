@@ -5,7 +5,7 @@ description: Every government wants to use data to make better decisions.
 author: GovFresh
 ---
 
-[caption id="attachment_22223" align="alignnone" width="2048"] Photo: <a href="https://www.flickr.com/photos/codeforamerica/22313415678/">Code for America</a>[/caption]
+
 
 Every government wants to use data to make better decisions. 
 

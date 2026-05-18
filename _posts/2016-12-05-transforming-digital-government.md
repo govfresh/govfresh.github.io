@@ -5,7 +5,7 @@ description: Earlier this year, 18F released a preliminary report on “what mak
 author: GovFresh
 ---
 
-[caption id="attachment_21924" align="alignnone" width="1024"] Photo: The White House[/caption]
+
 
 Earlier this year, 18F released a <a href="https://github.com/18F/transformation-research">preliminary report</a> on "what makes modern digital practices 'stick' within a government entity."
 

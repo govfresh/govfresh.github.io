@@ -1,4 +1,20 @@
-{% if page.categories %}
+{% if include.home %}
+  {% if site.topics %}
+    <div class="mt-2 mb-2 pt-2 pb-3">
+      <h2 class="mb-3">Topics</h2>
+      <ul class="list-inline mb-3">
+        {% for topic in site.topics %}
+          <li class="list-inline-item small mr-2 mb-3">
+            <wa-button
+              href="{{ site.baseurl }}{{ topic.url }}"
+              variant="brand"
+              size="small">{{ topic.title }}</wa-button>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% elsif page.categories.size > 0 or post %}
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -8,8 +24,11 @@
     <h2 class="h4">Topics</h2>
     <ul class="list-inline">
       {% for category in categories %}
-        <li class="list-inline-item small mr-1 mb-2">
-          <a href="{{ site.baseurl }}/topics/{{ category|slugify }}" class="btn btn-primary btn-bd-primary btn-sm">{{ category }}</a>
+        <li class="list-inline-item small mr-2 mb-3">
+          <wa-button
+            href="{{ site.baseurl }}/topics/{{ category|slugify }}"
+            variant="brand"
+            size="small">{{ category }}</wa-button>
         </li>
       {% endfor %}
     </ul>

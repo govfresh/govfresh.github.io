@@ -7,7 +7,7 @@ category:
     - Procurement
 ---
 
-[caption id="attachment_22864" align="alignnone" width="1024"] Photo: <a href="https://www.flickr.com/photos/marine_corps/5030714510/">U.S. Marines</a>[/caption]
+
 
 I'm late to the party on this, but finally watched <a href="https://en.wikipedia.org/wiki/War_Dogs_(2016_film)">War Dogs</a>, and it's the great American federal government procurement movie.
 

@@ -5,7 +5,7 @@ description: Perhaps the old saw "lipstick on a pig" is the best description for
 author: GovFresh
 ---
 
-[caption id="attachment_16331" align="alignnone" width="800"] Photo: U.S. Department of Health and Human Services[/caption]
+
 
 Perhaps the old saw "lipstick on a pig" is the best description for the information technology fiasco that was <a href="http://Healthcare.gov">Healthcare.gov</a> on October 1, 2013. 
 

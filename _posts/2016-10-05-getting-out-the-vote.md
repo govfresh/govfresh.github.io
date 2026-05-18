@@ -5,7 +5,7 @@ description: Make sure you're registered to vote.
 author: GovFresh
 ---
 
-[caption id="attachment_21785" align="alignnone" width="1500"] Photo: White House[/caption]
+
 
 Make sure you're registered to vote.
 

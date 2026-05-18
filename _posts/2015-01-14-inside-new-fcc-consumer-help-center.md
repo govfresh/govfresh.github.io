@@ -5,7 +5,7 @@ description: The new site, powered by Zendesk, provides FCC with a full-scale, c
 author: GovFresh
 ---
 
-[caption id="attachment_18879" align="alignnone" width="2336"] Source: consumercomplaints.fcc.gov[/caption]
+
 
 In an effort to make the agency "more user-friendly, accessible and transparent to consumers," the Federal Communications Commission <a href="http://www.fcc.gov/blog/new-consumer-help-center-designed-empower-consumers-streamline-complaint-system">launched</a> a new <a href="https://consumercomplaints.fcc.gov/hc/en-us">consumer help center</a> this past January.
 

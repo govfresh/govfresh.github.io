@@ -5,7 +5,7 @@ description: Code for America is looking for a developer relations engineer.
 author: GovFresh
 ---
 
-[caption id="attachment_16710" align="alignnone" width="800"] Photo: <a href="http://www.flickr.com/photos/codeforamerica/">Code for America</a>[/caption]
+
 
 Code for America is looking for a <a href="http://codeforamerica.theresumator.com/apply/jobs/details/kO1AL6?">developer relations engineer</a>.
 

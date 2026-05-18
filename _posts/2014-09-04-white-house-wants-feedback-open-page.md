@@ -5,7 +5,7 @@ description: The White House is looking for input on how it can improve the open
 author: GovFresh
 ---
 
-[caption id="attachment_18099" align="alignnone" width="1024"] Official White House Photo by Pete Souza[/caption]
+
 
 The White House is looking for input on how it can improve the open government section of its website, located at <a href="http://whitehouse.gov/open">whitehouse.gov/open</a>.
 

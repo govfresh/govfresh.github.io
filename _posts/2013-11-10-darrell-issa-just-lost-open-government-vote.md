@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_16723" align="alignnone" width="800"] Todd Park (Photo: U.S. Department of Health and Human Services/Chris Smith)[/caption]
+
 
 With a single <a href="http://www.scribd.com/doc/183034686/Letter-to-U-S-CTO-Todd-Park-from-Congressman-Darrell-Issa">subpoena</a> to one of the most admired public servants in America, Congressman Darrell Issa has managed to rankle the ire of open government leaders and alienate a key constituency in a movement he co-founded his own organization around.
 

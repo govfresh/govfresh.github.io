@@ -5,7 +5,7 @@ description: The General Services Administration wants your ideas on how it can 
 author: GovFresh
 ---
 
-[caption id="attachment_16673" align="alignnone" width="1024"] Wayne L. Morse U.S. Courthouse in Euegene, Oregon (Photo: U.S. General Services Administration)[/caption]
+
 
 The General Services Administration recently <a href="http://gsa.gov/ideas">asked for ideas</a> from the public on how it can help make the federal government more energy efficient.
 

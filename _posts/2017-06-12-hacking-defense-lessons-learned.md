@@ -7,7 +7,7 @@ category:
     - Department of Defense
 ---
 
-[caption id="attachment_22857" align="alignnone" width="2048"] Photo: U.S. Department of Defense[/caption]
+
 
 We just finished our second <a href="http://hacking4defense.stanford.edu/">Hacking for Defense</a> class at Stanford. Eight teams presented their Lessons Learned presentations.
 
@@ -26,7 +26,7 @@ Finally, we also wanted to show our sponsors in the Department of Defense and In
 
 Here’s a brief description of the Lean Methodology our students used:
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=557&amp;end=799&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/k7wzxOVtt4k?t=9m15s" target="_blank" rel="noopener">here</a>
 
@@ -53,13 +53,13 @@ The teams presented in front of several hundred people in person and online.
 
 <h2>21<sup>st</sup> Century Frogman</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=Pm7-iqETnXQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/Pm7-iqETnXQ" target="_blank" rel="noopener">here</a>
 
 The video of the team presenting is below. You can see all their slides right below this video.
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=1012&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/k7wzxOVtt4k?t=16m52s" target="_blank" rel="noopener">here</a>
 
@@ -68,13 +68,13 @@ If you can’t see the presentation slides click <a href="https://www.slideshar
 
 <h2>VA Companion</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=asfoCq6kG4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/asfoCq6kG4k" target="_blank" rel="noopener">here</a>
 
 The video of the team presenting is below.  You can see all their  slides right below this video
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=1904&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/k7wzxOVtt4k?t=31m44s" target="_blank" rel="noopener">here</a>
 
@@ -83,13 +83,13 @@ If you can’t see the presentation slides click <a href="https://www.slideshar
 
 <h2>Austra Lumina</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=etNFewxgw-o?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/etNFewxgw-o" target="_blank" rel="noopener">here</a>
 
 The video of the team presenting is below.  You can see all their  slides right below this video
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=2820&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/k7wzxOVtt4k?t=47m" target="_blank" rel="noopener">here
 </a>
@@ -99,13 +99,13 @@ If you can’t see the presentation slides  click <a href="https://www.slidesh
 
 <h2>Xplomo</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=2kRDjveut7o?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/2kRDjveut7o" target="_blank" rel="noopener">here</a>
 
 The video of the team presenting is below.  You can see all their slides right below this video
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=3705&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/k7wzxOVtt4k?t=1h2m45s" target="_blank" rel="noopener">here
 </a>
@@ -115,7 +115,7 @@ If you can’t see the presentation slides click <a href="https://www.slideshar
 
 <h2>Seacurity</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=M8nI0RAZDls?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/M8nI0RAZDls" target="_blank" rel="noopener">here
 </a><a href="https://www.slideshare.net/sblank/seacurity-hacking-for-defense-2017-video-76717284/edit?src=slideview" target="_blank" rel="noopener">
@@ -123,7 +123,7 @@ If you can’t see the video click <a href="https://youtu.be/M8nI0RAZDls" targe
 
 The video of the team presenting is below. You can see all their slides right below this video.
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=5710&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video slides click <a href="https://youtu.be/k7wzxOVtt4k?t=1h35m10s" target="_blank" rel="noopener">here</a>
 
@@ -133,13 +133,13 @@ If you can’t see the presentation click <a href="https://www.slideshare.net/s
 
 <h2>Surgency</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=yiMAt4-E8kI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/yiMAt4-E8kI" target="_blank" rel="noopener">here</a>
 
 The video of the team presenting is below.  You can see all their slides right below this video
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=6519&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the slides click <a href="https://youtu.be/k7wzxOVtt4k?t=1h48m39s" target="_blank" rel="noopener">here</a>
 
@@ -148,13 +148,13 @@ If you can’t see the presentation slides click <a href="https://www.slideshar
 
 <h2>Broadcom</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=KVsObwF5M-4?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/KVsObwF5M-4" target="_blank" rel="noopener">here</a>
 
 The video of the team presenting is below. You can see all their slides right below this video.
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=k7wzxOVtt4k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=7706&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the slides click <a href="https://youtu.be/k7wzxOVtt4k?t=2h8m26s" target="_blank" rel="noopener">here</a>
 
@@ -163,7 +163,7 @@ If you can’t see the presentation slides click <a href="https://www.slideshar
 
 <h2>Librarian</h2>
 
-<span class="embed-youtube">[youtube https://www.youtube.com/watch?v=2AwI9r2xkLM?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent]</span>
+<span class="embed-youtube"></span>
 
 If you can’t see the video click <a href="https://youtu.be/2AwI9r2xkLM" target="_blank" rel="noopener">here</a>
 

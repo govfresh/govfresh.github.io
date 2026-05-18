@@ -5,7 +5,7 @@ description: The U.S. Government Accountability Office released a status report 
 author: GovFresh
 ---
 
-[caption id="attachment_21645" align="alignnone" width="1024"] Photo: <a href="https://www.flickr.com/photos/kevharb/5314268567/">Kevin Harber</a>[/caption]
+
 
 The U.S. Government Accountability Office released a status report on federal government technology reform progress, and it's an insightful read more than anything on the the lack of synchronization between agencies and GAO.
 

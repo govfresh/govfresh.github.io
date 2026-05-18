@@ -5,7 +5,7 @@ description: undefined
 author: GovFresh
 ---
 
-[caption id="attachment_20138" align="alignnone" width="744"] Photo: White House[/caption]
+
 
 The White House continues to roll out a better mobile experience with a newly-designed <a href="https://www.whitehouse.gov/blog">White House blog</a>.
 

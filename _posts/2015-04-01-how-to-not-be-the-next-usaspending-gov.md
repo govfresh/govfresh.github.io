@@ -5,7 +5,7 @@ description: Regardless of the vendor drama and complexity around delivering dat
 author: GovFresh
 ---
 
-[caption id="attachment_19290" align="alignnone" width="600"] Source: USAspending.gov[/caption]
+
 
 Rightfully so, there's somewhat of a <a href="http://www.fiercegovernmentit.com/story/usaspendinggov-updated-functionality-drastically-diminished-say-businesses/2015-04-01">backlash</a> to the newly re-designed <a href="http://usaspending.gov">USAspending.gov</a> that launched today.
 

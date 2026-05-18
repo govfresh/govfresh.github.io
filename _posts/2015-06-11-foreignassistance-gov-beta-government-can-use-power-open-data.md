@@ -7,7 +7,7 @@ category:
     - Technology
 ---
 
-[caption id="attachment_19692" align="alignnone" width="1185"] Source: ForeignAssistance.gov[/caption]
+
 
 The new beta of U.S. Department of State's <a href="http://ForeignAssistance.gov">ForeignAssistance.gov</a> shows how government can leverage the power of data and visualizations to communicate the story behind its mission deliverables.
 
