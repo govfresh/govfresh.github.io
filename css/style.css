@@ -444,6 +444,61 @@ wa-dropdown-item:hover::part(label) {
     color: var(--bs-link-color);
 }
 
+/* Mobile nav — native details/summary */
+details#mobile-nav {
+    position: relative;
+}
+
+details#mobile-nav summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+details#mobile-nav summary::-webkit-details-marker {
+    display: none;
+}
+
+details#mobile-nav summary::marker {
+    display: none;
+}
+
+.mobile-nav-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: var(--bs-body-bg);
+    border: 1px solid var(--bs-border-color);
+    box-shadow: var(--wa-shadow-m);
+    min-width: 180px;
+    padding: 0.25rem 0;
+    z-index: 100;
+}
+
+.mobile-nav-menu.is-open {
+    display: block;
+}
+
+.mobile-nav-link {
+    display: block;
+    padding: 0.625rem 1rem;
+    min-height: 44px;
+    color: var(--bs-body-color);
+    text-decoration: none;
+    font-family: var(--bs-font-monospace);
+    font-size: 0.875rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link[aria-current="page"] {
+    color: var(--bs-link-color);
+}
+
 
 /* Logo */
 
@@ -694,6 +749,9 @@ a[href$=".png"]::after, a[href$=".jpg"]::after {
     height: 0.65em;
     background-color: var(--bs-body-color);
     margin-left: 0.35rem;
+    -webkit-mask-image: url(/assets/font-awesome/svgs/solid/arrow-up-right-from-square.svg);
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
     mask-image: url(/assets/font-awesome/svgs/solid/arrow-up-right-from-square.svg);
     mask-size: contain;
     mask-repeat: no-repeat;
@@ -1007,6 +1065,15 @@ wa-badge[appearance="outlined"]::part(base) {
     width: 100%;
     background: none;
     z-index: 2;
+    pointer-events: none;
+}
+
+.plyr {
+    z-index: 3;
+}
+
+.plyr__controls {
+    pointer-events: auto;
 }
 
 #read-time-bar {
@@ -1514,13 +1581,17 @@ pre {
 
 /* Briefs horizontal card */
 .brief-card img[slot='media'] {
-    max-width: 200px;
+    width: 200px;
+    min-width: 200px;
+    flex-shrink: 0;
     object-fit: cover;
 }
 
 /* Research horizontal card */
 .research-card img[slot='media'] {
-    max-width: 150px;
+    width: 150px;
+    min-width: 150px;
+    flex-shrink: 0;
     object-fit: cover;
 }
 
@@ -1562,5 +1633,130 @@ pre {
 
     .people-layout {
         flex-direction: column;
+    }
+
+    .wa-grid {
+        --min-column-size: 100%;
+    }
+
+    .brief-card,
+    .research-card {
+        flex-direction: column;
+    }
+
+    .brief-card img[slot='media'],
+    .research-card img[slot='media'] {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* Font sizes */
+    :root, [data-theme=light], [data-theme=dark] {
+        --bs-body-font-size: 1.1rem;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+
+    /* List indentation */
+    ul, ol {
+        padding-left: 1.5rem;
+    }
+
+    /* Drop shadows — reduce offset from 5px to 3px */
+    :root, [data-theme=light] {
+        --wa-shadow-s: 3px 3px 0px 0px var(--bs-secondary-bg);
+        --wa-shadow-m: 3px 3px 0px 0px var(--bs-body-color);
+        --wa-shadow-l: -3px 3px 0px 0px var(--bs-body-color);
+    }
+
+    [data-theme=dark] {
+        --wa-shadow-s: 3px 3px 0px 0px var(--bs-secondary-bg);
+        --wa-shadow-m: 3px 3px 0px 0px var(--bs-gray);
+        --wa-shadow-l: -3px 3px 0px 0px var(--bs-gray);
+    }
+
+    .drop-shadow3 {
+        filter: drop-shadow(-1px 2px 0 var(--shadow-offset-color));
+    }
+
+    .drop-shadow4 {
+        filter: drop-shadow(-2px 3px 0 var(--shadow-offset-color));
+    }
+
+    /* Touch targets */
+    .navbar-toggler {
+        min-height: 44px;
+        padding: 10px 14px;
+    }
+
+    wa-dropdown-item {
+        min-height: 44px;
+    }
+
+    wa-button::part(base) {
+        min-height: 44px;
+    }
+
+    /* DM bubbles — reduce padding and margins */
+    .post-dm h3 {
+        margin-left: 0.5rem;
+        padding: 1rem;
+    }
+
+    .post-dm p,
+    .post-dm ul,
+    .post-dm ol {
+        margin-right: 0.5rem;
+        padding: 1rem;
+    }
+
+    .post-dm-quick-thoughts p,
+    .post-dm-quick-thoughts ul,
+    .post-dm-quick-thoughts ol {
+        padding: 1rem;
+    }
+
+    /* Blockquote */
+    blockquote {
+        margin-left: 0.5rem;
+        padding-left: 0.75rem;
+    }
+
+    /* Tables — horizontal scroll instead of overflow */
+    table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Code blocks — horizontal scroll */
+    pre {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* WA card internal padding */
+    wa-card {
+        --spacing: var(--wa-space-m);
+    }
+
+    /* Featured grid gap */
+    .featured-grid {
+        gap: 1rem;
+    }
+
+    /* Nav margin */
+    #nav {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Very small screens (max-width: 360px) */
+@media (max-width: 360px) {
+    .container {
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
     }
 }
