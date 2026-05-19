@@ -42,6 +42,8 @@ permalink: /podcast/feed.xml
       <itunes:author>GovFresh</itunes:author>
       <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      {% if post.number %}<itunes:episode>{{ post.number }}</itunes:episode>{% endif %}
       <itunes:duration>{{ post.duration }}</itunes:duration>
       {% if post.img-cover %}
       <itunes:image href="{{ site.url }}/assets/img/people/{{ post.img-cover }}" />
