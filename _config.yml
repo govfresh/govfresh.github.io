@@ -23,13 +23,8 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
-
-# Jekyll Feed
-feed:
-  posts_limit: 20
 
 # Date/Time Formatting
 date: "%B %-d, %Y"

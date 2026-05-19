@@ -1,0 +1,63 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <copyright>{{ site.time | date: "%Y" }} {{ site.author }}</copyright>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {% assign feed_items = "" | split: "" %}
+    {% for item in site.thoughts %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.briefs %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.dm %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.papers %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.demos %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.research %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.podcast %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% for item in site.posts %}{% assign feed_items = feed_items | push: item %}{% endfor %}
+    {% assign feed_items = feed_items | sort: "date" | reverse %}
+    {% assign item_limit = 20 %}
+    {% assign item_count = 0 %}
+    {% for item in feed_items %}
+      {% if item_count >= item_limit %}{% break %}{% endif %}
+      {% assign item_count = item_count | plus: 1 %}
+      {% assign section = item.parent | default: item.collection | default: "signal" %}
+      {% if section == "thoughts" %}{% assign category = "Thought" %}
+      {% elsif section == "podcast" %}{% assign category = "Podcast" %}
+      {% elsif section == "briefs" %}{% assign category = "Brief" %}
+      {% elsif section == "dm" %}{% assign category = "Direct Message" %}
+      {% elsif section == "papers" %}{% assign category = "Paper" %}
+      {% elsif section == "demos" %}{% assign category = "Demo" %}
+      {% elsif section == "research" %}{% assign category = "Research" %}
+      {% else %}{% assign category = "Signal" %}{% endif %}
+    <item>
+      <title>{{ item.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ item.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ item.url }}</guid>
+      <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+      <category>{{ category }}</category>
+      {% if item.author %}<dc:creator>{{ item.author | xml_escape }}</dc:creator>{% endif %}
+      <description>{{ item.description | default: item.excerpt | strip_html | truncate: 160 | xml_escape }}</description>
+      {% if item.audio %}
+        {% if item.collection == "podcast" %}
+          {% assign audio_url = "https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/" | append: item.audio %}
+        {% else %}
+          {% assign audio_url = site.url | append: "/assets/audio/" | append: item.audio %}
+        {% endif %}
+      <enclosure url="{{ audio_url }}" type="audio/mpeg" length="{{ item.audio_length | default: 0 }}"/>
+      <itunes:duration>{{ item.duration }}</itunes:duration>
+      {% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
