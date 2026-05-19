@@ -4,3 +4,5 @@ _site
 license.md
 .DS_Store
 */.DS_Store
+.claude/
+.vscode/
