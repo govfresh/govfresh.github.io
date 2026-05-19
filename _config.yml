@@ -307,8 +307,3 @@ exclude:
   - .claude/
   - _config_dev.yml
   - assets/font-awesome/svgs/
-  - assets/web-awesome/chunks/
-  - assets/web-awesome/components/
-  - assets/web-awesome/skills/
-  - assets/web-awesome/events/
-  - assets/web-awesome/internal/
