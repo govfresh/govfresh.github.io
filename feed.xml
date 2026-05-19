@@ -50,7 +50,7 @@ permalink: /feed.xml
       <description>{{ item.description | default: item.excerpt | strip_html | truncate: 160 | xml_escape }}</description>
       {% if item.audio %}
         {% if item.collection == "podcast" %}
-          {% assign audio_url = "https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/" | append: item.audio %}
+          {% assign audio_url = "https://media.githubusercontent.com/media/govfresh/podcast-archive/refs/heads/main/assets/audio/" | append: item.audio %}
         {% else %}
           {% assign audio_url = site.url | append: "/assets/audio/" | append: item.audio %}
         {% endif %}

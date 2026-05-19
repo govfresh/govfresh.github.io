@@ -50,8 +50,8 @@ permalink: /podcast/feed.xml
       {% else %}
       <itunes:image href="{{ site.url }}/assets/img/avatar-episode.png" />
       {% endif %}
-      <enclosure url="https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/{{ post.audio }}" type="audio/mpeg" length="{{ post.audio_length }}" />
-      <spotify:audio url="https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/{{ post.audio }}" />
+      <enclosure url="https://media.githubusercontent.com/media/govfresh/podcast-archive/refs/heads/main/assets/audio/{{ post.audio }}" type="audio/mpeg" length="{{ post.audio_length }}" />
+      <spotify:audio url="https://media.githubusercontent.com/media/govfresh/podcast-archive/refs/heads/main/assets/audio/{{ post.audio }}" />
     </item>
     {% endfor %}
   </channel>
