@@ -53,7 +53,7 @@ The Cybersecurity Information Sharing Act of 2015 (CISA 2015) creates protection
 
 ### How can information be shared with JCDC?
 
-Information can be shared via email at CISA.JCDC@cisa.dhs.gov, following the Traffic Light Protocol (TLP) marking system.
+Information can be shared via email at [JCDC@cisa.dhs.gov](mailto:JCDC@cisa.dhs.gov), following the Traffic Light Protocol (TLP) marking system.
 
 ### What is TLP?
 

@@ -701,61 +701,101 @@ a.logo:active, .logo:active {
 
 a[href$=".doc"]::after, a[href$=".docx"]::after, a[href$=".ppt"]::after, a[href$=".pptx"]::after, a[href$=".xls"]::after, a[href$=".xlsx"]::after, a[href$=".pdf"]::after, a[href$=".mp3"]::after, a[href$=".mp4"]::after, a[href$=".avi"]::after, a[href$=".mpg"]::after, a[href$=".mpeg"]::after, a[href$=".mov"]::after, a[href$=".wmv"]::after, a[href$=".mkv"]::after, a[href$=".jpg"]::after, a[href$=".jpeg"]::after, a[href$=".png"]::after, a[href$=".gif"]::after {
     content: "";
-    padding-left: calc(var(--size-8) - 2px);
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
     background-color: var(--bs-body-color);
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
+    vertical-align: middle;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
 }
 
 /* Doc */
 a[href$=".doc"]::after, a[href$=".docx"]::after {
-    mask-image: url(/assets/font-awesome/svgs/solid/file-word.svg);
+    mask-image: url(/assets/img/icons/file-word.svg);
 }
 
 /* Powerpoint */
 a[href$=".ppt"]::after, a[href$=".pptx"]::after {
-    mask-image: url(/assets/font-awesome/svgs/solid/file-powerpoint.svg);
+    mask-image: url(/assets/img/icons/file-powerpoint.svg);
 }
 
 /* Excel */
 a[href$=".xls"]::after, a[href$=".xlsx"]::after {
-    mask-image: url(/assets/font-awesome/svgs/solid/file-excel.svg);
+    mask-image: url(/assets/img/icons/file-excel.svg);
 }
 
 /* PDF */
 a[href$=".pdf"]::after {
-    mask-image: url(/assets/font-awesome/svgs/solid/file-pdf.svg);
+    mask-image: url(/assets/img/icons/file-pdf.svg);
 }
 
 /* MP3 */
 a[href$=".mp3"]::after {
-    mask-image: url(/assets/font-awesome/svgs/solid/file-audio.svg);
+    mask-image: url(/assets/img/icons/file-audio.svg);
 }
 
 /* MP4 */
 a[href$=".mp4"]::after {
-    mask-image: url(/assets/font-awesome/svgs/solid/file-video.svg);
+    mask-image: url(/assets/img/icons/file-video.svg);
 }
 
 /* Image */
 a[href$=".png"]::after, a[href$=".jpg"]::after {
-    mask-image: url(/assets/font-awesome/svgs/solid/file-image.svg);
+    mask-image: url(/assets/img/icons/file-image.svg);
+}
+
+/* Email */
+a[href^="mailto:"]:not(.icon-link)::after {
+    content: "";
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    background-color: var(--bs-body-color);
+    margin-left: 0.3rem;
+    vertical-align: middle;
+    mask-image: url(/assets/img/icons/envelope.svg);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+/* Phone */
+a[href^="tel:"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    background-color: var(--bs-body-color);
+    margin-left: 0.3rem;
+    vertical-align: middle;
+    mask-image: url(/assets/img/icons/phone.svg);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
 }
 
 /* External link */
-.post a[href^="http"]:not([href*="govfresh.com"])::after {
+.post a[href^="http"]:not([href*="govfresh.com"]):not([href$=".pdf"])::after {
     content: "";
     display: inline-block;
-    width: 0.65em;
-    height: 0.65em;
+    width: 0.7em;
+    height: 0.7em;
     background-color: var(--bs-body-color);
-    margin-left: 0.35rem;
-    -webkit-mask-image: url(/assets/font-awesome/svgs/solid/arrow-up-right-from-square.svg);
-    -webkit-mask-size: contain;
-    -webkit-mask-repeat: no-repeat;
-    mask-image: url(/assets/font-awesome/svgs/solid/arrow-up-right-from-square.svg);
+    margin-left: 0.3rem;
+    vertical-align: middle;
+    mask-image: url(/assets/img/icons/arrow-up-right-from-square.svg);
     mask-size: contain;
     mask-repeat: no-repeat;
-    vertical-align: middle;
+    mask-position: center;
+}
+
+/* PDF about annotation */
+.pdf-about {
+    font-size: 0.75em;
+    font-family: var(--bs-font-monospace);
 }
 
 /* Headings */
@@ -877,6 +917,13 @@ img.xl {
 
 img.xxl {
     width: 50rem;
+}
+
+/* Figcaption */
+
+figcaption a:hover {
+    color: var(--bs-link-color) !important;
+    text-decoration: underline !important;
 }
 
 /* Posts */
@@ -1074,6 +1121,26 @@ wa-badge[appearance="outlined"]::part(base) {
 
 .plyr__controls {
     pointer-events: auto;
+}
+
+[data-theme=light] .plyr--audio .plyr__controls {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+[data-theme=light] .plyr--audio .plyr__control:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+[data-theme=dark] .plyr--audio .plyr__controls {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+[data-theme=dark] .plyr--audio .plyr__control:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #read-time-bar {
@@ -1318,6 +1385,10 @@ pre {
     display: none;
 }
 
+.feed-byline {
+    font-family: var(--bs-font-monospace);
+}
+
 /* Search */
 
 #lunrsearchresults { padding-top: 0.2rem; }
@@ -1330,16 +1401,11 @@ pre {
 
 /* Responsive video embed */
 .video-responsive {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
 
 .video-responsive iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 }
@@ -1579,10 +1645,20 @@ pre {
 
 
 
+/* Prevent CLS: reserve space for card and feed images */
+wa-card img[slot='media'],
+.feed-post img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
 /* Briefs horizontal card */
 .brief-card img[slot='media'] {
     width: 200px;
     min-width: 200px;
+    aspect-ratio: auto;
     flex-shrink: 0;
     object-fit: cover;
 }
@@ -1591,6 +1667,7 @@ pre {
 .research-card img[slot='media'] {
     width: 150px;
     min-width: 150px;
+    aspect-ratio: auto;
     flex-shrink: 0;
     object-fit: cover;
 }

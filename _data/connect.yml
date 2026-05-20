@@ -8,7 +8,7 @@ xl: "fa-4x"
 # Social media icons
 
 website: &website "fas fa-window-maximize"
-email: &email "fas fa-at"
+email: &email "fas fa-envelope"
 calendar: &calendar "fa-solid fa-calendar"
 subscribe: &subscribe "fa-solid fa-envelope-open-text"
 bluesky: &bluesky "fab fa-bluesky"

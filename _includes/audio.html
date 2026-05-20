@@ -4,7 +4,7 @@
     {% if page.layout == "research" %}
       <p class="pb-0 small text-body-secondary mb-0 pb-3">A podcast-like overview created with Google NotebookLM.</p>
     {% endif %}
-    <audio id="player" controls preload="none">
+    <audio id="player" controls preload="metadata">
       {% if page.layout == "research" %}
         <source src="/assets/audio/{{ page.audio }}" type="audio/mpeg">
       {% elsif page.layout == "podcast" %}

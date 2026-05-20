@@ -76,11 +76,11 @@ layout: feed
 
           {% if item.audio %}
             {% if item.collection == "podcast" %}
-              {% assign audio_src = "https://media.githubusercontent.com/media/govfresh/podcast/refs/heads/main/assets/audio/" | append: item.audio %}
+              {% assign audio_src = "https://media.githubusercontent.com/media/govfresh/podcast-archive/refs/heads/main/assets/audio/" | append: item.audio %}
             {% else %}
               {% assign audio_src = site.baseurl | append: "/assets/audio/" | append: item.audio %}
             {% endif %}
-            <audio controls src="{{ audio_src }}" class="w-100 mb-3"></audio>
+            <audio class="feed-player mb-3" preload="metadata" src="{{ audio_src }}"></audio>
           {% endif %}
 
           {% if item.title %}
@@ -93,20 +93,22 @@ layout: feed
             <p class="text-body-secondary small mb-2">{{ item.description }}</p>
           {% endif %}
 
-          <div class="wa-cluster wa-gap-l">
+          <div class="wa-cluster wa-gap-l feed-byline">
             {% if item.author %}
-              {% assign author_obj = site.people | where: "name", item.author | first %}
-              {% if author_obj %}
-                <div class="wa-cluster wa-gap-s">
-                  <wa-avatar
-                    image="{{ site.baseurl }}/assets/img/people/{{ author_obj.img }}"
-                    label="{{ author_obj.name }}"
-                    style="--size: 1.25rem"></wa-avatar>
-                  <a href="{{ site.baseurl }}{{ author_obj.url }}" class="author-link small">{{ item.author }}</a>
-                </div>
-              {% else %}
-                <span class="small text-body-secondary">{{ item.author }}</span>
-              {% endif %}
+              {% for author in item.author %}
+                {% assign author_obj = site.people | where: "name", author | first %}
+                {% if author_obj %}
+                  <div class="wa-cluster wa-gap-s">
+                    <wa-avatar
+                      image="{{ site.baseurl }}/assets/img/people/{{ author_obj.img }}"
+                      label="{{ author_obj.name }}"
+                      style="--size: 1.25rem"></wa-avatar>
+                    <a href="{{ site.baseurl }}{{ author_obj.url }}" class="author-link small">{{ author }}</a>
+                  </div>
+                {% else %}
+                  <span class="small text-body-secondary">{{ author }}</span>
+                {% endif %}
+              {% endfor %}
             {% endif %}
             <span class="small text-body-secondary">{{ item.date | date: "%B %-d, %Y" }}</span>
           </div>
@@ -127,6 +129,8 @@ layout: feed
   </div>
 </main>
 
+<script src="{{ site.baseurl }}/js/plyr.js" defer></script>
+<script src="{{ site.baseurl }}/js/audio-feed-init.js" defer></script>
 <script src="{{ site.baseurl }}/js/load-more.js" defer></script>
 
 {% include analytics.html %}

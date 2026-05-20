@@ -9,7 +9,8 @@
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-book }}"
         alt="{{ page.book-title }}"
         class="mb-3 drop-shadow border xl"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -35,7 +36,8 @@
         src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
         alt="{{ page.img-alt }}"
         class="mb-3 drop-shadow border xxl"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -61,7 +63,8 @@
         src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
         alt="{{ page.img-alt }}"
         class="mb-3 drop-shadow border xxl"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -87,7 +90,8 @@
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-og }}"
         alt="{{ page.img-alt }}"
         class="mb-2 drop-shadow border xxl"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -113,7 +117,8 @@
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
         alt="{{ page.img-alt }}"
         class="mb-2 drop-shadow border xxl"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -139,7 +144,8 @@
         src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
         alt="{{ page.img-alt }}"
         class="mb-2 drop-shadow border xxl"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -185,7 +191,8 @@
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
         alt="{{ page.img-alt }}"
         class="mb-3 drop-shadow border wa-border-radius-circle lg"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -212,7 +219,8 @@
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-og }}"
         alt="{{ page.img-alt | default: page.title }}"
         class="mb-3 drop-shadow border"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
@@ -236,7 +244,8 @@
         src="{{ site.baseurl }}/assets/img/{% if page.img-path %}{{ page.img-path }}/{% endif %}{{ page.image }}"
         alt="{{ page.img-alt | default: page.title }}"
         class="mb-3 drop-shadow border"
-        loading="{{ include.loading | default: 'lazy' }}">
+        loading="{{ include.loading | default: 'lazy' }}"
+        {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
         <figcaption>
           <p class="small text-body-secondary mb-4">
