@@ -32,7 +32,7 @@ layout: default
             {% for website in site.pages %}
               {% if website.parent == page %}
                 <wa-card class="text-center pt-3 pb-3">
-                  <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3 shadow" aria-label="hidden"></i>
+                  <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3 shadow" aria-hidden="true"></i>
                   <h2 class="h3">
                     <a href="{{ site.baseurl }}/{{ website.parent }}" class="card-link">{{ website.title }}</a>
                   </h2>

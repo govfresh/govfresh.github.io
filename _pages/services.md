@@ -65,6 +65,74 @@ permalink: /services/
 
 ---
 
-Areas of focus: digital services and transformation, civic and government technology, open culture, open data, open source, ecosystem development, agile methodologies, software evaluation, web standards, accessibility, procurement, security.
+<h2>Focus areas</h2>
 
-[Contact us]({{ site.baseurl }}/contact) to learn more.
+<div class="wa-grid mb-5" style="--min-column-size: 47%">
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-gears fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Digital services and transformation</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-landmark fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Civic and government technology</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-door-open fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Open culture</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-database fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Open data</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-code fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Open source</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-seedling fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Ecosystem development</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-rotate fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Agile methodologies</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-magnifying-glass fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Software evaluation</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-globe fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Web standards</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-universal-access fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Accessibility</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-file-contract fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Procurement</p>
+  </wa-card>
+
+  <wa-card class="text-center">
+    <i class="fa-solid fa-shield-halved fa-lg mb-2"></i>
+    <p class="small mb-0" style="font-family: var(--bs-font-monospace)">Security</p>
+  </wa-card>
+
+</div>
+
+---
+
+<h2>Get started</h2>
+
+<p><a href="{{ site.baseurl }}/connect"><wa-button>Contact us</wa-button></a></p>
