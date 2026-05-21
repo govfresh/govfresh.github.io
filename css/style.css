@@ -1075,7 +1075,7 @@ wa-card {
 }
 
 wa-card:has(.card-link, .body-link):hover {
-    --wa-color-surface-border: var(--bs-link-color);
+    --wa-color-surface-border: color-mix(in srgb, var(--bs-link-color) 50%, transparent);
 }
 
 wa-card h2, wa-card h3, wa-card h4 {
