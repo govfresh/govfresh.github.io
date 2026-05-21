@@ -1,6 +1,7 @@
 ---
 title: "U.S. Department of Energy has a new chief data officer"
 date: 2015-02-10
+modified:
 description: According to a U.S. Project Open Data GitHub pull request, it appears the U.S. Department of Energy has named Dave Dutton as its chief data officer.
 author: GovFresh
 ---

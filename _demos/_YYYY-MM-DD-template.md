@@ -2,6 +2,7 @@
 title: ""
 description: ""
 date: YYYY-MM-DD
+modified:
 author: GovFresh
 video: 
 video-title: ""
@@ -23,7 +24,6 @@ category:
   - Procurement
 img-feat: .png
 img-og: .png
-img-twitter: .png
 img-alt: "Text: "
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Joe DiStefano"
 date: 2022-07-15
+modified:
 description: "Resiliency planner, startup founder, SimCity aficionado"
 author: GovFresh
 name: Joe DiStefano
@@ -11,20 +12,11 @@ img: joe-distefano.jpg
 img-feat: joe-distefano.jpg
 img-alt: Joe DiStefano
 #img-caption: ""
-email: 
+
 website: https://urbanfootprint.com/
-twitter: 
-medium:
-figma:
-youtube:
-vimeo:
+
 linkedin: https://www.linkedin.com/in/joe-distefano-5aaa8a4/
-instagram:
-facebook:
-github:
-flickr:
-tumblr:
-rss:
+
 category:
   - Business
   - Data

@@ -1,6 +1,7 @@
 ---
 title: "Space Force outlines its vision for a digital service"
 date: 2021-05-06
+modified:
 description: The U.S. Space Force has outlined its vision for a digital service.
 author: GovFresh
 category:

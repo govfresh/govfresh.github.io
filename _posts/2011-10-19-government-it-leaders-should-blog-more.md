@@ -1,6 +1,7 @@
 ---
 title: "Government IT leaders should blog more"
 date: 2011-10-19
+modified:
 description: When I talk to city and local government technology leaders about their challenges and lessons learned, I'm often surprised they don't openly and regularly share their experiences with the civic technology community or, in general, the citizens they serve.
 author: GovFresh
 ---

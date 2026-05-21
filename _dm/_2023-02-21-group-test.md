@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Group test"
 date: 2023-02-20
+modified:
 description: "Group test"
 author: GovFresh
 name: 
@@ -21,30 +22,17 @@ img:
 img-feat: avatar.png
 img-alt: "jh"
 img-caption: 
-email: 
+
     - jarah.meador@gsa.gov
     - luke@lukefretwell.com
-website: 
-twitter: 
-medium: 
-figma: 
-youtube: 
-vimeo: 
-linkedin: 
+
     - 
         name: Jarah 
         value: "test"
     - 
         - Luke
         - "luke"
-instagram: 
-facebook: 
-github: 
-flickr: 
-tumblr: 
-amazon: 
-calendar: 
-rss: 
+
 category:
   - Accessibility
   - Artificial intelligence

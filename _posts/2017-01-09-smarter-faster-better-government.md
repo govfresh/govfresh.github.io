@@ -1,6 +1,7 @@
 ---
 title: "'Smarter Faster Better' government"
 date: 2017-01-09
+modified:
 description: "I finished reading Charles Duhigg’s latest book, \"Smarter Faster Better: The Secrets of Being Productive in Life and Business,\" and in it are two great government-related anecdotes around motivation and agile thinking."
 author: GovFresh
 ---

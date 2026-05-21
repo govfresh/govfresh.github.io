@@ -1,6 +1,7 @@
 ---
 title: "FAA seeks chief data officer"
 date: 2016-06-14
+modified:
 description: The Federal Aviation Administration is looking for a chief data officer. Salary is $124,900 to $175,700. Application deadline is July 12.
 author: GovFresh
 ---

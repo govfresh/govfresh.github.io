@@ -1,6 +1,7 @@
 ---
 title: "Opening Chicago with CTO John Tolva"
 date: 2012-04-20
+modified:
 description: Chicago Chief Technology Officer John Tolva joins us to discuss the city’s open data and open311 initiatives, as well as its work with Code for America.
 author: GovFresh
 ---

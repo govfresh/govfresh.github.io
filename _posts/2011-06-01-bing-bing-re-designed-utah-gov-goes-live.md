@@ -1,6 +1,7 @@
 ---
 title: "Bing Bing: Re-designed Utah.gov goes live"
 date: 2011-06-01
+modified:
 description: With a bold background image of Delicate Arch and a search box front and center, the newly-designed Utah.gov  borrows a page from Microsoft search engine Bing to help its residents find everything they need to know about their state government.
 author: GovFresh
 ---

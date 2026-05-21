@@ -1,6 +1,7 @@
 ---
 title: "New video roundtable series: 'Transforming Government IT'"
 date: 2015-04-24
+modified:
 description: A new roundtable series focused on “Transforming Government IT” will bring together leaders in both the public and private sectors from Washington, D.C., to Silicon Valley, to discuss how the federal government can reinvent its approach to technology.
 author: GovFresh
 ---

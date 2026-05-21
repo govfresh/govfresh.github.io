@@ -1,6 +1,7 @@
 ---
 title: "NSA launches new cybersecurity directorate to 'prevent and eradicate threats to national security systems and critical infrastructure'"
 date: 2019-10-01
+modified:
 description: The National Security Agency announced the creation of a new fifth domain-focused internal organization that will "work to prevent and eradicate threats to national security systems and critical infrastructure, with an initial focus on the defense industrial  base and the improvement of our weapons’ security."
 author: GovFresh
 ---

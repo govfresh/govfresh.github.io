@@ -1,6 +1,7 @@
 ---
 title: "Wrapping up Code for Oakland 2012"
 date: 2012-07-21
+modified:
 description: undefined
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "What should governments require for their open data portals?"
 date: 2015-09-14
+modified:
 description: My fundamental suggestion is that government-run open data platforms be fully open source. There are a number of technical and procurement reasons for this, which I will address in the future, but I believe strongly that if the platform you’re hosting data on doesn’t adhere to the same licensing standards you hold for your data, you’re only doing open data half right.
 author: GovFresh
 ---

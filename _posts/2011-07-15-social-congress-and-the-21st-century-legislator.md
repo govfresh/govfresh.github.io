@@ -1,6 +1,7 @@
 ---
 title: "Social Congress and the 21st century legislator"
 date: 2011-07-15
+modified:
 description: How is it possible, in the 21st century, that I can Skype with friends in China, keep up with my friends across the country via Facebook and exchange messages with the CEO of a startup I admire on Twitter, but yet when I try to communicate with my members of Congress, it seems like everything I do is swallowed up by the black abyss?
 author: GovFresh
 ---

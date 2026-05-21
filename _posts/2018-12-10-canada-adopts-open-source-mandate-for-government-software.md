@@ -1,6 +1,7 @@
 ---
 title: "Canada adopts open source mandate for government software"
 date: 2018-12-10
+modified:
 description: The Government of Canada has issued an information technology directive on business, information, application, technology and security architectures that includes a mandate to prioritize open source software.
 author: GovFresh
 ---

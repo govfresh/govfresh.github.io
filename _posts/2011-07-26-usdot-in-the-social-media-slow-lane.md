@@ -1,6 +1,7 @@
 ---
 title: "USDOT in the social media slow lane"
 date: 2011-07-26
+modified:
 description: The U.S. Department of Transportation is officially nowhere to be found in social media circles, but DOT Secretary Ray LaHood is everywhere, including Facebook, Twitter and Flickr.
 author: GovFresh
 ---

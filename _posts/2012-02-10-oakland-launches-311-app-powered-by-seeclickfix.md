@@ -1,6 +1,7 @@
 ---
 title: "Oakland launches 311 app powered by SeeClickFix"
 date: 2012-02-10
+modified:
 description: Oakland, Ca. is the latest major U.S. city to launch a 311 application that allows citizens to report issues directly to government from their smartphones.
 author: GovFresh
 ---

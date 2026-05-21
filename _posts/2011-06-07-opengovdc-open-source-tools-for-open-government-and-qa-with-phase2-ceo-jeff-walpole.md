@@ -1,6 +1,7 @@
 ---
 title: "OpenGovDC, 'open source tools for open government' and Q&A with Phase2 CEO Jeff Walpole"
 date: 2011-06-07
+modified:
 description: Federal government open source and open government practitioners will convene for a one-day conference, OpenGovDC, June 14 at Woolly Mammoth Theatre in Washington, DC.
 author: GovFresh
 ---

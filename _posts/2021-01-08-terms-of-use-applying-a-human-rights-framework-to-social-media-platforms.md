@@ -1,6 +1,7 @@
 ---
 title: "Terms of use: Applying a human rights framework to social media platforms"
 date: 2021-01-08
+modified:
 description: To better demarcate the lines between freedom of speech and censorship, the Electronic Frontier Foundation calls for social media platforms such as Twitter, Facebook, Instagram to apply a human rights framework to their terms of use.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "GSA takes a big step towards baking agile into federal procurement"
 date: 2015-01-12
+modified:
 description: The U.S. General Services Administration is working to make it easier for agencies to procure agile development services via a government-wide blanket purchase agreement, which could be finalized as early as the end of this year.
 author: GovFresh
 ---

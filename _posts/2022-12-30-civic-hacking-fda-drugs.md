@@ -1,6 +1,7 @@
 ---
 title: "Civic hacking FDA's National Drug Code Directory"
 date: 2022-12-30
+modified:
 description: "Building a look-up of Food and Drug Administration approved medicines."
 author: Luke Fretwell
 img: civic-hacking-header.png

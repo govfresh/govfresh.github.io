@@ -1,6 +1,7 @@
 ---
 title: "Voter wants to be Tinder for politics"
 date: 2015-07-14
+modified:
 description: Voter co-founder Hunter Scarborough shares the vision and mission behind his new venture.
 author: GovFresh
 ---

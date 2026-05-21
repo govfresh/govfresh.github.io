@@ -1,6 +1,7 @@
 ---
 title: "The security book everyone in government must read in 2019"
 date: 2018-12-23
+modified:
 description: "If we're ever going to get security right, technologists must embrace the need for policy and government leaders must do the same with technology, which is why Bruce Schneier's Click Here to Kill Everybody: Security and Survival in a Hyper-connected World is the 2019 must-read book for every government leader, elected and administrative."
 author: GovFresh
 ---

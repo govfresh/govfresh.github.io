@@ -1,6 +1,7 @@
 ---
 title: "Design thinking in the intelligence community"
 date: 2020-05-05
+modified:
 description: The NavalX Centers for Adaptive Warfighting hosted a discussion on design thinking with Office of the Director of National Intelligence Director of Lateral Innovation Katherine Tobin. Tobin shared her design thinking journey and how ODNI incorporates it into its work.
 author: GovFresh
 ---

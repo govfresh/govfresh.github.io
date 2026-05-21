@@ -1,6 +1,7 @@
 ---
 title: "North Dakota names new CIO"
 date: 2013-10-11
+modified:
 description: Gov. Jack Dalrymple named Mike Ressler as the state's new chief information officer on Thursday.
 author: GovFresh
 ---

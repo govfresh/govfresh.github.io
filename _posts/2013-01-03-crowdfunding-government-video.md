@@ -1,6 +1,7 @@
 ---
 title: "Crowdfunding government (VIDEO)"
 date: 2013-01-03
+modified:
 description: Citizinvestor co-founder Jordan Raynor discusses the rise of the 'micro-philanthropist' and how digital tools are empowering citizens to help crowdfund public projects.
 author: GovFresh
 ---

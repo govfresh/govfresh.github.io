@@ -1,6 +1,7 @@
 ---
 title: "Who determines government's 'Best of the Web?'"
 date: 2011-09-01
+modified:
 description: Government Technology announced its list of 2011 Best of the Web Award Winners today, and I’m completely confused as to how they came to these conclusions.
 author: GovFresh
 ---

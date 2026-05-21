@@ -1,6 +1,7 @@
 ---
 title: "Civic hacking NASA (astronomy picture of the day)"
 date: 2022-11-03
+modified:
 description: "Building a space photo of the day page using NASA's astronomy picture of the day API."
 author: Luke Fretwell
 img: civic-hacking-header.png

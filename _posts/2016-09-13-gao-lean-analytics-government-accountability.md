@@ -1,6 +1,7 @@
 ---
 title: "GAO to lean more on analytics for government accountability"
 date: 2016-09-13
+modified:
 description: U.S. Government Accountability Office announced it will create a Center for Advanced Analytics to bring a more data-driven approach into its work.
 author: GovFresh
 category:

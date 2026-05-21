@@ -1,6 +1,7 @@
 ---
 title: "GitHub opens up about its relationship with ICE"
 date: 2019-10-09
+modified:
 description: In a post on the GitHub blog, CEO Nat Friedman publicly addressed the company's business relationship with U.S. Immigration & Customs Enforcement, its opinion on the current administration's immigration policy and "the principles by which we make decisions in these areas."
 author: GovFresh
 ---

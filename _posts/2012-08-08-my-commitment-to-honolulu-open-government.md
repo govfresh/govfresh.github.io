@@ -1,6 +1,7 @@
 ---
 title: "My commitment to Honolulu open government"
 date: 2012-08-08
+modified:
 description: The recent Open Government Pledge on Honolulu.Govfresh.com brought a moment of pause for me as I watched all three Mayoral candidates respond with a YES within minutes of each other. I am one of the three candidates and the incumbent Mayor, Peter Carlisle.
 author: GovFresh
 ---

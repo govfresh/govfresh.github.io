@@ -1,6 +1,7 @@
 ---
 title: "How hackers can code a better America"
 date: 2012-07-05
+modified:
 description: With the launch of the new Code for America Brigade website, we asked Program Director Kevin Curry to talk about its mission and how you can bring ‘civic hacking’ to where you live.
 author: GovFresh
 ---

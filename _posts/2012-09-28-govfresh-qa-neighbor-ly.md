@@ -1,6 +1,7 @@
 ---
 title: "GovFresh Q&A: Neighbor.ly"
 date: 2012-09-28
+modified:
 description: Neighbor.ly is a civic crowdfunding platform for U.S. cities and civic-minded organizations.
 author: GovFresh
 ---

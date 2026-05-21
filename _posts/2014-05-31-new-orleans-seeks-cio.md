@@ -1,6 +1,7 @@
 ---
 title: "New Orleans seeks CIO"
 date: 2014-05-31
+modified:
 description: In what is probably the best municipal technology job opportunity since Oakland was recruiting a chief information officer, the city of New Orleans is looking for new CIO.
 author: GovFresh
 ---

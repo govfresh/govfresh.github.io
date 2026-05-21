@@ -1,6 +1,7 @@
 ---
 title: "Get 10% off Code for America Summit registration with GovFresh discount code"
 date: 2015-08-11
+modified:
 description: This year's Code for America Summit is September 30 to October 2 in Oakland, California, and friends of GovFresh get a 10 percent discount.
 author: GovFresh
 ---

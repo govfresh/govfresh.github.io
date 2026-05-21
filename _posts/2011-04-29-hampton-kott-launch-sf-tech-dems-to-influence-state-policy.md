@@ -1,6 +1,7 @@
 ---
 title: "Hampton, Kott, launch SF Tech Dems to influence state policy"
 date: 2011-04-29
+modified:
 description: Today, Suki Kott and I formally launched SF Tech Dems, a new political club aimed at shaping tech policy in the SF Bay Area  and throughout California.
 author: GovFresh
 ---

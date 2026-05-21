@@ -1,6 +1,7 @@
 ---
 title: "Is AOL-Huffington Post making a gov 2.0 play?"
 date: 2011-10-04
+modified:
 description: Huffington Post Media Group, owned by AOL, announced it has purchased civic platform Localocracy for “under $1 million,” according to AllThingsD.
 author: GovFresh
 ---

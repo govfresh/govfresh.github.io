@@ -1,6 +1,7 @@
 ---
 title: "California seeks chief data officer"
 date: 2016-04-13
+modified:
 description: undefined
 author: GovFresh
 ---

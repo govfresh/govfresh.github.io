@@ -1,6 +1,7 @@
 ---
 title: "Open government's double standard"
 date: 2013-03-30
+modified:
 description: Despite open government calls for performance metrics and financial transparency in government, you'd be hard-pressed to find any of this for the movement behind it.
 author: GovFresh
 ---

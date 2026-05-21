@@ -1,6 +1,7 @@
 ---
 title: "Facebook announces Roy Austin will lead new internal civil rights organization"
 date: 2021-01-11
+modified:
 description: Facebook announced that Roy L. Austin, Jr., will join the company as vice president of civil rights and deputy general counsel to establish the company’s new internal civil rights organization.
 author: GovFresh
 ---

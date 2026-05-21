@@ -1,6 +1,7 @@
 ---
 title: "New DOTGOV Online Trust in Government Act gives governments easier access to official .gov domains"
 date: 2021-01-05
+modified:
 description: I've been an advocate of U.S.-based government organizations having .gov domains for quite sometime, so it's great to see Congress has made this easier and potentially cheaper to achieve.
 author: GovFresh
 category:

@@ -1,6 +1,7 @@
 ---
 title: "Second Summer of Smart hackathon tackles buildings, transportation and sustainability"
 date: 2011-08-08
+modified:
 description: Building data. It’s a small thing, but what if the buildings where we live, work and play were able to show us how they work?
 author: GovFresh
 ---

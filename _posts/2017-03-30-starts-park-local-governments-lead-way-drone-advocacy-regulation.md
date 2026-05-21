@@ -1,6 +1,7 @@
 ---
 title: "It starts at the park: Local governments lead the way in drone advocacy and regulation"
 date: 2017-03-30
+modified:
 description: Drone use is the next frontier and integration to the concept of a “Smart City,” a notion that describes how local governments are integrating multiple information and communication technology (ICT) and Internet of things (IoT) solutions to manage a city's assets.
 author: GovFresh
 category:

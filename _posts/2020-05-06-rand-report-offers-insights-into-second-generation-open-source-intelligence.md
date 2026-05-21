@@ -1,6 +1,7 @@
 ---
 title: "RAND report offers insights into second generation open source intelligence"
 date: 2020-05-06
+modified:
 description: The RAND Corporation published Defining Second Generation Open Source Intelligence (OSINT) for the Defense Enterprise, a thoroughly informative report on how the intelligence community can better define and leverage technology to improve its approach to open source intelligence.
 author: GovFresh
 ---

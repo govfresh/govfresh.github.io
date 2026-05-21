@@ -1,6 +1,7 @@
 ---
 title: "Inside Palo Alto's new Civic Technology Center"
 date: 2015-04-17
+modified:
 description: Last week, I met with Palo Alto Chief Information Officer Jonathan Reichental to get a tour of the city's new Civic Technology Center, an open space that centralizes the city's information technology staff, call and data centers into one working area. 
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Motivating developers to attend and make meaningful contributions at civic hackathons"
 date: 2012-02-06
+modified:
 description: Mark Headd has an interesting thought on how to encourage better participation at civic hackathons, suggesting perhaps a registration fee would encourage more reliable participation.
 author: GovFresh
 ---

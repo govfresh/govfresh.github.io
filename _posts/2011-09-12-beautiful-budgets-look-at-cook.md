@@ -1,6 +1,7 @@
 ---
 title: "Beautiful budgets? Look at Cook"
 date: 2011-09-12
+modified:
 description: Developed and designed by Derek Eder and Nick Rougeux, open data and visualization project Look at Cook was created in collaboration with Cook County (IL) Commissioner John Fritchey to bring aesthetics to the county’s budget and expenses.
 author: GovFresh
 ---

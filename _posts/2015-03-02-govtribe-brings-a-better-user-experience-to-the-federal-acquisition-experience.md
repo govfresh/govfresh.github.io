@@ -1,6 +1,7 @@
 ---
 title: "GovTribe brings a better user experience to federal government acquisition"
 date: 2015-03-02
+modified:
 description: undefined
 author: GovFresh
 ---

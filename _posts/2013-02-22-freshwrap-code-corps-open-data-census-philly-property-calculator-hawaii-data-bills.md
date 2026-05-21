@@ -1,6 +1,7 @@
 ---
 title: "FreshWrap: Code Corps, open data census, Philly property calculator, Hawaii data bills"
 date: 2013-02-22
+modified:
 description: Weekly wrap-up of civic news.
 author: GovFresh
 ---

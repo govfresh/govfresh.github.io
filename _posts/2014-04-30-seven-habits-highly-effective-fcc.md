@@ -1,6 +1,7 @@
 ---
 title: "Seven habits of a highly effective FCC"
 date: 2014-04-30
+modified:
 description: Federal Communications Commission Chief Information Officer David Bray has outlined a new technology modernization strategy that includes teleworking, cloud-based collaborations, access to open data, an “open source by default” policy and more transparency into agency operations. 
 author: GovFresh
 ---

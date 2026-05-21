@@ -6,7 +6,6 @@ description: "A simple practice can help give clarity to public sector projects 
 author: Luke Fretwell
 img-feat: doc-feat.png
 img-og: doc-og.png
-img-twitter: doc-twitter.png
 img-alt: "Doc icon"
 img-caption: "Doc icon via Font Awesome"
 img-link: https://fontawesome.com

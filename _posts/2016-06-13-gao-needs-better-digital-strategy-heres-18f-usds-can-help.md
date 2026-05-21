@@ -1,6 +1,7 @@
 ---
 title: "GAO needs a better digital strategy. Here's how 18F and USDS can help."
 date: 2016-06-13
+modified:
 description: The U.S. Government Accountability Office released a report on the fiscal and administrative state of 18F and the U.S. Digital Service, both established to make federal government websites work better for users, and it appears the agency could use some help from the two on its own site, gao.gov.
 author: GovFresh
 ---

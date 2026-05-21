@@ -1,6 +1,7 @@
 ---
 title: "When government doles out delight"
 date: 2015-07-15
+modified:
 description: Fast Company writer Diana Budds has an excellent background story on Tomorrow Partners' involvement in helping San Francisco re-imagine its small business portal.
 author: GovFresh
 ---

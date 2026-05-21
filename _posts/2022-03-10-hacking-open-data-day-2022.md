@@ -1,6 +1,7 @@
 ---
 title: "Father-son civic hacking: Open Data Day 2022"
 date: 2022-03-10
+modified:
 description: "Kickstarting USA.GovFresh, beginning with Federal Register open data."
 author: Luke Fretwell
 img: civic-hacking-header.png

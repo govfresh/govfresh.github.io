@@ -1,6 +1,7 @@
 ---
 title: "Government technology market snapshot"
 date: 2015-06-09
+modified:
 description: Dustin Haisler, eRepublic chief innovation officer, has published a “GovTech Market Snapshot” highlighting the government technology market, including key companies (startups and established vendors), venture capital firms and analytical data on market size.
 author: GovFresh
 ---

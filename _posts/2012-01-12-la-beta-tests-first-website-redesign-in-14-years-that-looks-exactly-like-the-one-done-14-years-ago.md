@@ -1,6 +1,7 @@
 ---
 title: "LA beta tests first website redesign in 14 years that looks just like the one done 14 years ago"
 date: 2012-01-12
+modified:
 description: Government Technology reports that Los Angeles is beta testing a new website, the first major redesign in 14 years, but a cursory review of the homepage leaves me wondering why the city spent $100,000 on a usability expert to get essentially the same site it’s had since 1998.
 author: GovFresh
 ---

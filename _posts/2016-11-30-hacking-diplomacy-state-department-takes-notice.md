@@ -1,6 +1,7 @@
 ---
 title: "Hacking for Diplomacy – The State Department takes notice"
 date: 2016-11-30
+modified:
 description: We’ve just held our seventh and eighth weeks of Hacking for Diplomacy at Stanford, and the attention our course is getting from Washington – and around the world – has been interesting.
 author: GovFresh
 ---

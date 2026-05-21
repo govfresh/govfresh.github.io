@@ -1,6 +1,7 @@
 ---
 title: "Open government keeps its heart in San Francisco with (second) CityCampSF"
 date: 2011-06-14
+modified:
 description: CityCampSF 2011 will be held this Saturday, June 18, 2011, and feature municipal employees, journalists, developers and neighborhood leaders "working on solutions for better communities and government."
 author: GovFresh
 ---

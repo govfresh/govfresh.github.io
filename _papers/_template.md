@@ -1,11 +1,11 @@
 ---
 title: ""
 date: YYYY-MM-DD
+modified:
 description: "A deep dive on ."
 author: GovFresh
 img-feat: paper--feat.png
 img-og: paper--og.png
-img-twitter: paper--twitter.png
 img-alt: " icon"
 img-caption: " icon via OpenMoji"
 img-link: https://openmoji.org/

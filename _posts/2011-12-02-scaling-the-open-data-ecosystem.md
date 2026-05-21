@@ -1,6 +1,7 @@
 ---
 title: "Scaling the open data ecosystem"
 date: 2011-12-02
+modified:
 description: Open Knowledge Foundation co-founder Rufus Pollock discusses his ideas on scaling an open data ecosystem.
 author: GovFresh
 ---

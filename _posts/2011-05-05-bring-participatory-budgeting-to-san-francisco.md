@@ -1,6 +1,7 @@
 ---
 title: "Bring participatory budgeting to San Francisco"
 date: 2011-05-05
+modified:
 description: Would the government work better if you had more say? At Reset San Francisco, we think the answer to that question is absolutely yes, which is why we were so excited when the folks behind the movement for Participatory Budgeting paid a visit to City Hall last week.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Public service bravery: Michael Lewis' The Premonition shows what it takes to fight a pandemic"
 date: 2021-07-06
+modified:
 description: In The Premonition, as he tends to do, Michael Lewis turns everyday people willing to tell us what we need to hear at a critical societal moment into a cast of characters we can't help but cheer on, but also leave wishing the world had more brave voices such as these.
 author: GovFresh
 category:

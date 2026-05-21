@@ -1,6 +1,7 @@
 ---
 title: "Ash Carter wants to keep DOD weird"
 date: 2016-09-15
+modified:
 description: U.S. Defense Secretary Ash Carter announced the DOD will open its third technology innovation “outpost” in Austin, expanding the reach of the Defense Innovation Unit Experimental that serves as a “bridge between those in the U.S. military executing on some of our nation’s toughest security challenges and companies operating at the cutting edge of technology.”
 author: GovFresh
 ---

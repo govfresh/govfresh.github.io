@@ -1,6 +1,7 @@
 ---
 title: "Open source government"
 date: 2011-12-16
+modified:
 description: San Francisco Director of Innovation Jay Nath's TEDxSoMa talk from earlier this year
 author: GovFresh
 ---

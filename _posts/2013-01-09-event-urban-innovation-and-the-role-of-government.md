@@ -1,6 +1,7 @@
 ---
 title: "Civic accelerator Tumml to host 'Urban Innovation and the Role of Government' talk"
 date: 2013-01-09
+modified:
 description: "Urban ventures accelerator Tumml will host a panel discussion, Uncharted Territory: Urban Innovation and the Role of Government, on January 28 from 5:30 to 7:00 p.m. at the Hatchery in San Francisco (Register here)."
 author: GovFresh
 ---

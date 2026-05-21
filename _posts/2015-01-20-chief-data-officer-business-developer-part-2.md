@@ -1,6 +1,7 @@
 ---
 title: "Chief data officer as business developer (part 2)"
 date: 2015-01-20
+modified:
 description: Chicago Chief Data Officer Tom Schenk has a great follow-up blog post riffing off my Friday commentary on the CDO’s role as business developer.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "CivStart wants to help government leverage technology that serves the needs of vulnerable, underserved communities"
 date: 2019-07-17
+modified:
 description: CivStart is a new government-focused start-up accelerator that wants to ensure civic technology products "don’t get made in a vacuum — that they serve the needs of our most vulnerable and underserved communities."
 author: GovFresh
 ---

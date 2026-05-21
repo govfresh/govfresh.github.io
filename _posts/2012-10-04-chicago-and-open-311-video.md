@@ -1,6 +1,7 @@
 ---
 title: "Chicago and Open 311 (VIDEO)"
 date: 2012-10-04
+modified:
 description: Great video from the Chicago mayor's office on their Open 311 deployment.
 author: GovFresh
 ---

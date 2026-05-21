@@ -1,13 +1,20 @@
 ---
 layout: page
 title: Subscribe
-description: Subscribe to the GovFresh newsletter.
+description: Get the GovFresh newsletter.
 img-og: subscribe-og.png
-img-alt: ""
+img-alt: "Envelope icon"
 permalink: /subscribe/
 redirect_from:
   - /support
   - /subscribe
 ---
 
-<iframe src="https://govfresh.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no" loading="lazy"></iframe>
+<div class="iframe-embed">
+  <iframe
+    src="https://govfresh.substack.com/embed"
+    height="320"
+    frameborder="0"
+    scrolling="no"
+    loading="lazy"></iframe>
+</div>

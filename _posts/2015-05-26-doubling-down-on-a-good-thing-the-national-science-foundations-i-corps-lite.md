@@ -1,6 +1,7 @@
 ---
 title: "Doubling down on a good thing: The National Science Foundation’s I-Corps Lite"
 date: 2015-05-26
+modified:
 description: I’ve known Edmund Pendleton from the University of Maryland as the Director of the D.C. National Science Foundation (NSF) I-Corps Node (a collaboration among the University of Maryland, Virginia Tech, George Washington, and Johns Hopkins).
 author: GovFresh
 ---

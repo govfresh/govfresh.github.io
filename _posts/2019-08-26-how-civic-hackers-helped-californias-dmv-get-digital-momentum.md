@@ -1,6 +1,7 @@
 ---
 title: "How civic hackers helped California's DMV get digital momentum"
 date: 2019-08-26
+modified:
 description: CivicDMV and the Code for America Brigades helped inspire DMV to "unlock" California’s DMV Web Services.
 author: GovFresh
 ---

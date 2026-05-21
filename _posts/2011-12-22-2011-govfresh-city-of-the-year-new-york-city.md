@@ -1,6 +1,7 @@
 ---
 title: "2011 GovFresh City of the Year: New York City"
 date: 2011-12-22
+modified:
 description: New York City was honored as the ‘City of the Year’ in our  2011 GovFresh Awards. We asked NYC Chief Digital Officer Rachel Sterne to summarize the work done in 2011, what made it happen, and share what's to come in 2012.
 author: GovFresh
 ---

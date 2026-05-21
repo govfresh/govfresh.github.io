@@ -1,6 +1,7 @@
 ---
 title: "Defense Department launches digital COVID-19 symptom checker"
 date: 2020-05-04
+modified:
 description: The U.S. Department of Defense has launched an online COVID-19 symptom checker at MySymptoms.mil.
 author: GovFresh
 ---

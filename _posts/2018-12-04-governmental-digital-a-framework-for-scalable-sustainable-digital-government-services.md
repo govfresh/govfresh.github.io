@@ -1,6 +1,7 @@
 ---
 title: "Governmental digital: A framework for scalable, sustainable digital government services"
 date: 2018-12-04
+modified:
 description: Given its nascency, however, for now we must continue to use the phrase ‘digital government services’ to define both informational and transactional online activities, and provide a framework for public sector success into the future.
 author: GovFresh
 category:

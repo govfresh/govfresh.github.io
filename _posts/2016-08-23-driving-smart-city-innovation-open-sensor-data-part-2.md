@@ -1,6 +1,7 @@
 ---
 title: "Driving smart city innovation with open sensor data (part 2)"
 date: 2016-08-23
+modified:
 description: You can accomplish many smart city goals in a timely and inexpensive manner by exploring options for leveraging an existing infrastructure of low-tech, collaborative information and communication technologies like mobile phones, social media, online platforms and low-cost sensor kits, before making hefty new technology investments.
 author: GovFresh
 ---

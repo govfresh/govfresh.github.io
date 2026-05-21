@@ -1,6 +1,7 @@
 ---
 title: "Turn and hack the change"
 date: 2011-05-25
+modified:
 description: Change.org announced it will host a Hack for Change contest June 17-18 to build "apps for social good." 
 author: GovFresh
 category:

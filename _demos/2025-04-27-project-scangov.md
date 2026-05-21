@@ -2,6 +2,7 @@
 title: "Project ScanGov"
 description: "Project ScanGov co-maintainer Luke Fretwell gives a demo of the latest updates."
 date: 2025-04-27
+modified:
 author: GovFresh
 video: hNXllQR_pTk
 video-title: "Project ScanGov demo"
@@ -14,7 +15,6 @@ category:
   - Open source
 img-feat: demo-scangov-og.png
 img-og: demo-scangov-og.png
-img-twitter: demo-scangov-og.png.png
 img-alt: "Text: Project ScanGov demo"
 ---
 

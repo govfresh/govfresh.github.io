@@ -1,6 +1,7 @@
 ---
 title: "Data Challenge Spotlight: Politify"
 date: 2012-10-26
+modified:
 description: Politify simulates of the financial impacts of the plans proposed by Mitt Romney and Barack Obama.
 author: GovFresh
 ---

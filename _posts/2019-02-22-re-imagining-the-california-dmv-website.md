@@ -1,6 +1,7 @@
 ---
 title: "Re-imagining the California DMV website"
 date: 2019-02-22
+modified:
 description: I recently visited my local California Department of Motor Vehicles field office to renew my driver license and, because I scheduled an appointment ahead of time, my experience wasn't the nightmare it's traditionally made out to be. However, the designer in me couldn't help but think about how the entire DMV process could be re-imagined, offline and online.
 author: GovFresh
 ---

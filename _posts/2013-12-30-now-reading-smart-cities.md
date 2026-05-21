@@ -1,6 +1,7 @@
 ---
 title: "Now reading: 'Smart Cities'"
 date: 2013-12-30
+modified:
 description: undefined
 author: GovFresh
 category:

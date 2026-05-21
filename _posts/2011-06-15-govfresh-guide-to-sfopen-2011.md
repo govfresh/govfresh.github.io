@@ -1,6 +1,7 @@
 ---
 title: "GovFresh guide to SFOpen 2011"
 date: 2011-06-15
+modified:
 description: SFOpen 2011 brings together the 2011 San Francisco Mayoral candidates for a discussion on open government, civic engagement, technology and innovation.
 author: GovFresh
 ---

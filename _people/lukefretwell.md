@@ -11,22 +11,14 @@ img-feat: luke-fretwell.jpg
 img-alt: Luke Fretwell
 email: luke@govfresh.com
 website: https://lukefretwell.com
-subscribe: 
-patreon: 
+
 bluesky: https://lukefretwell.bsky.social/
 mastodon: https://mastodon.social/@lukefretwell
-twitter: 
-medium: 
-figma: 
-youtube: 
-vimeo: 
+
 linkedin: https://www.linkedin.com/in/lukefretwell
-instagram: 
-facebook: 
+
 github: https://github.com/lukefretwell
-flickr: 
-tumblr: 
-rss: 
+
 team: true
 role: Maintainer
 ---

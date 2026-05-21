@@ -1,6 +1,7 @@
 ---
 title: "New SF effort will embed startup DNA into government"
 date: 2013-10-02
+modified:
 description: Spearheaded by SF's Office of Innovation and led by Mayor Ed Lee Senior Advisor Rahul Mewawalla, the program will embed "world-class entrepreneurial teams" into the inner workings of government to help inspire the next big civic thing and a new spin on the initial public offering.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "NSF to governments: Science must be open, transparent, collaborative"
 date: 2019-07-15
+modified:
 description: The National Science Foundation issued a statement admonishing governments that "endeavor to benefit from the global research ecosystem" and fail to uphold the agency's values of openness, transparency and collaboration.
 author: GovFresh
 category:

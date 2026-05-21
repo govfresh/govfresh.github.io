@@ -1,6 +1,7 @@
 ---
 title: "6 charts to help entrepreneurs and investors understand the business opportunity in government"
 date: 2017-04-07
+modified:
 description: e.Republic has published a series of graphs that provide an overview of the state and local government market, and it’s a great reference for investors and entrepreneurs trying to better understand the business potential.
 author: GovFresh
 ---

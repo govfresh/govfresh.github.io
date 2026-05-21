@@ -2,11 +2,11 @@
 layout: news
 title: "U.S. government launches website standards initiative"
 date: 2024-09-27
+modified:
 author: Luke Fretwell
 description: Will help “deliver consistent, digital-first experiences for the public."
 img-feat: federal-website-standards.png
 img-og: federal-website-standards.png
-img-twitter: federal-website-standards.png
 img-alt: "Screenshot of federal website standards website"
 img-caption: ""
 img-link: 

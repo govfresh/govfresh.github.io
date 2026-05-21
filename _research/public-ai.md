@@ -1,11 +1,11 @@
 ---
 title: "Public AI"
 date: 2025-01-21
+modified:
 description: "GovFresh research notes on public artificial intelligence."
 author: GovFresh
 img-feat: research-road-feat.png
 img-og: research-road-feat.png
-img-twitter: research-road-feat.png
 img-alt: "Road icon"
 img-caption: "Road icon via Font Awesome"
 img-link: https://fontawesome.com/

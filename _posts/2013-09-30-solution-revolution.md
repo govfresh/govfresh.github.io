@@ -1,6 +1,7 @@
 ---
 title: "Talkin' 'bout a (solution) revolution"
 date: 2013-09-30
+modified:
 description: A Q&A with "The Solution Revolution" co-authors William D. Eggers and Paul Macmillan.
 author: GovFresh
 ---

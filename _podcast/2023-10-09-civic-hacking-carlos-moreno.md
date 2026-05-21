@@ -3,6 +3,7 @@ title: "Civic hacking with Carlos Moreno"
 description: "A citizen journalist and civic technologist shares his experiences and lessons learned civic hacking."
 excerpt: "A citizen journalist and civic technologist shares his experiences and lessons learned civic hacking."
 date: 2023-10-09
+modified:
 topics:
   - Civic hacking
   - Data
@@ -21,7 +22,7 @@ img-alt: Carlos Moreno
 short-name: Carlos
 email: tulsadesigner@gmail.com
 website: https://about.me/cmoreno
-twitter: 
+
 linkedin: https://www.linkedin.com/in/tulsadesigner/
 redirect_from: /episode/civic-hacking-carlos-moreno
 ---

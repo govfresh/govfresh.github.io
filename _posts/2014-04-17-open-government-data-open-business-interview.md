@@ -1,6 +1,7 @@
 ---
 title: "'Open Data Now' author Joel Gurin on how businesses and government are building the data economy"
 date: 2014-04-17
+modified:
 description: "'Open Data Now' author Joel Gurin discusses the impact of open data on the innovation economy and how governments are addressing this new demand."
 author: GovFresh
 ---

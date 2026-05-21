@@ -1,6 +1,7 @@
 ---
 title: "The collaborative state"
 date: 2014-11-06
+modified:
 description: “Civic Hacking” is the awareness of a condition that is suboptimal in a neighborhood, community or place and the perception of one’s own ability to effect change on that condition.
 author: GovFresh
 category:

@@ -1,6 +1,7 @@
 ---
 title: "U.S. Air Force is doing a brand review 'to ensure an inclusive and professional environment'"
 date: 2021-01-05
+modified:
 description: The Department of the Air Force has directed commanders to conduct a comprehensive review of official and unofficial unit emblems, morale patches, mottos, nicknames, coins and other forms of unit recognition and identity to ensure an inclusive and professional environment within 60 days from Dec. 23, 2020.
 author: GovFresh
 ---

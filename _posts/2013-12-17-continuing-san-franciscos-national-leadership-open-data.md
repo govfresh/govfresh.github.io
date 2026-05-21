@@ -1,6 +1,7 @@
 ---
 title: "Continuing San Francisco’s national leadership on open data"
 date: 2013-12-17
+modified:
 description: Today, the San Francisco Board of Supervisors will take its final vote to approve my update to our city’s groundbreaking open data law. My open data ordinance, in its simplest terms, standardizes and sets timelines for the release of appropriate city government data.
 author: GovFresh
 ---

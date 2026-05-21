@@ -1,6 +1,7 @@
 ---
 title: "White House adds 'agile and responsive' security practices to trusted internet connections updates"
 date: 2019-09-12
+modified:
 description: The White House announced updates to the federal government Trusted Internet Connections initiative with the intent to empower agencies with security practices that aim to remove barriers to modern technology adoption.
 author: GovFresh
 ---

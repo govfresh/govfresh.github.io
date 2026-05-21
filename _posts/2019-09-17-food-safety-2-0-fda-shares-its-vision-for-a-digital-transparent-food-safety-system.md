@@ -1,6 +1,7 @@
 ---
 title: "Food Safety 2.0: FDA shares its vision for a digital, transparent food safety system"
 date: 2019-09-17
+modified:
 description: In an interview with the agency, the Food and Drug Administration Deputy Commissioner Frank Yiannas discussed its latest efforts to "leverage new and emerging technologies to prevent contamination and rapidly trace the origin of a tainted food to its source."
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "'No ugly, old IT.'"
 date: 2015-10-20
+modified:
 description: "\"No ugly, old IT\" jumped out at me when I first reviewed DataSF's strategic plan, \"Data in San Francisco: Meeting supply, spurring demand,\" and it still sticks, mostly because someone inside government was so bold as to make this a priority and openly communicate it and also because this should be a mantra for everyone building civic technology."
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "7 characteristics of government technology startups"
 date: 2014-11-07
+modified:
 description: Code for America recently held a “Bay Area Government Technology Showcase” featuring ventures and investors pitching their ideas, and CfA’s Ashley Meyers and Dharmishta Rood opened the event with an overview of seven traits of the next generation of government technology startups.
 author: GovFresh
 ---

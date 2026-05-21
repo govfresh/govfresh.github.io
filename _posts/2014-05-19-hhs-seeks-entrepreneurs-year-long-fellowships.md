@@ -1,6 +1,7 @@
 ---
 title: "HHS seeks entrepreneurs for year-long fellowships"
 date: 2014-05-19
+modified:
 description: Applications for the Department of Health & Human Services HHS Entrepreneurs program are now open to innovators interested in working for a year-long stint alongside federal government employees on "high-risk, high-reward projects."
 author: GovFresh
 ---

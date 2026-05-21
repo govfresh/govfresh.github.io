@@ -1,6 +1,7 @@
 ---
 title: "NYC chief urban designer to speak at CivicMeet Oakland Nov. 7"
 date: 2013-11-04
+modified:
 description: undefined
 author: GovFresh
 ---

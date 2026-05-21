@@ -1,6 +1,7 @@
 ---
 title: "Distributed teams are critical to the future success of digital government services"
 date: 2020-02-26
+modified:
 description: We’re at the point in the organizational and civic evolutionary cycle where distributed teams can and should play a critical role in building highly-effective digital government service teams.
 author: GovFresh
 category:

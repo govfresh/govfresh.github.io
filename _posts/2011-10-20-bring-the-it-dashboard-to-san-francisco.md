@@ -1,6 +1,7 @@
 ---
 title: "Bring the IT Dashboard to San Francisco"
 date: 2011-10-20
+modified:
 description: San Francisco has led the nation with Gov 2.0 innovations, like Twitter311 – connecting the City’s 311 Call Center to Twitter — allowing residents to contact the City about potholes, graffiti and interact with government in real time with a tweet, DataSF.org – the City’s one stop shop for government data that has empowered developers to create incredible apps that bring city data to life, and Open311 the first national API in government.
 author: GovFresh
 ---

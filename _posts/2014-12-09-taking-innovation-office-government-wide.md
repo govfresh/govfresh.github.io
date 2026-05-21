@@ -1,6 +1,7 @@
 ---
 title: "Taking the innovation office government-wide"
 date: 2014-12-09
+modified:
 description: undefined
 author: GovFresh
 ---

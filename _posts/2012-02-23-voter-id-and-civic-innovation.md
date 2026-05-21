@@ -1,6 +1,7 @@
 ---
 title: "Voter ID and Civic Innovation"
 date: 2012-02-23
+modified:
 description: undefined
 author: GovFresh
 ---

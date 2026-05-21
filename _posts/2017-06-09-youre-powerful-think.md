@@ -1,6 +1,7 @@
 ---
 title: "'You're More Powerful Than You Think'"
 date: 2017-06-09
+modified:
 description: Whether you’re an agitated activist frustrated with the current state of politics, a civic hacker, government technology entrepreneur or public servant trying change the foundations of democracy from inside or out, “You’re More Powerful Than You Think” is an accessible guide for helping us all rethink what it means to have power and how to obtain it.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "GAO tells Defense Department to 'fully implement' open source pilot program"
 date: 2019-09-10
+modified:
 description: The U.S. Government Accountability Office released a report assessing the lackluster status of the Defense Department's open source pilot program, saying that until the agency effectively implements this, "the department will not be positioned to take advantage of significant cost savings and efficiencies." 
 author: GovFresh
 ---

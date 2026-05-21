@@ -6,7 +6,6 @@ description: "Every government website must have an RSS feed. This guarantees an
 author: Luke Fretwell
 img-feat: rss-feat.png
 img-og: rss-og.png
-img-twitter: rss-twitter.png
 img-alt: "RSS icon"
 img-caption: "RSS icon from Font Awesome"
 img-link: https://fontawesome.com

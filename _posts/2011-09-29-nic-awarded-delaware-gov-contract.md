@@ -1,6 +1,7 @@
 ---
 title: "NIC awarded delaware.gov contract"
 date: 2011-09-29
+modified:
 description: "\"The First State\" will become the twenty-fourth state website to be managed by e-government firm NIC Inc."
 author: GovFresh
 ---

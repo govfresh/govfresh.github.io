@@ -1,6 +1,7 @@
 ---
 title: "New GovLove podcast focuses on local government issues"
 date: 2015-01-15
+modified:
 description: Podcasting is all the rage these days, and SeeClickFix is now in the mix with GovLove, focused on local government issues.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "'We see this digital space of empowering our citizens as the next generation of city government.'"
 date: 2012-12-08
+modified:
 description: Great “Connected Empowerment” video featuring San Francisco Chief Innovation Officer Jay Nath and civic action platform, Neighborland.
 author: GovFresh
 ---

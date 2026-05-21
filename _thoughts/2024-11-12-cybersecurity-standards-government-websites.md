@@ -6,7 +6,6 @@ description: "We need better guidance for a more secure digital government exper
 author: Luke Fretwell
 img-feat: shield-feat.png
 img-og: shield-og.png
-img-twitter: shield-twitter.png
 img-alt: "Shield icon"
 img-caption: "Shield icon via Font Awesome"
 img-link: https://fontawesome.com/

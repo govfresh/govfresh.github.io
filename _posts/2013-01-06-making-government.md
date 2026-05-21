@@ -1,6 +1,7 @@
 ---
 title: "'Making' government"
 date: 2013-01-06
+modified:
 description: MIT Technology Review Editor David Rotman’s commentary on the difference between makers and manufacturers applies to what's happening with government these days around open data applications, open source software development and civic hackathons.
 author: GovFresh
 ---

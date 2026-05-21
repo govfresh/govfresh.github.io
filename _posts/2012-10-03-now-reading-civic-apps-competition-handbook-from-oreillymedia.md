@@ -1,6 +1,7 @@
 ---
 title: "Now reading: 'Civic Apps Competition Handbook' from @oreillymedia"
 date: 2012-10-03
+modified:
 description: undefined
 author: GovFresh
 category:

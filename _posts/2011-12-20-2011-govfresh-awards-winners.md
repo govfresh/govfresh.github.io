@@ -1,6 +1,7 @@
 ---
 title: "2011 GovFresh Awards winners"
 date: 2011-12-20
+modified:
 description: Thank you to everyone who participated in the 2011 GovFresh Awards. Thank you also to our judges and partners. This was an incredible experience for us to be part of. 
 author: GovFresh
 ---

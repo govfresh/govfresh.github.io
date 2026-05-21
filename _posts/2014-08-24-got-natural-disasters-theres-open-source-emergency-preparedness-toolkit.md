@@ -1,6 +1,7 @@
 ---
 title: "Got natural disasters? There's an open source emergency preparedness toolkit for that"
 date: 2014-08-24
+modified:
 description: If you live in the San Francisco Bay Area and woke up at to a 6.1 earthquake at 3:30 a.m. this morning, now would be a good time for citizens and local governments everywhere to take a look at City72 Toolkit.
 author: GovFresh
 ---

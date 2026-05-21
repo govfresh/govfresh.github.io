@@ -1,6 +1,7 @@
 ---
 title: "Pokémon Go(vernment)"
 date: 2016-07-13
+modified:
 description: For those focused on civic technology, Pokémon Go shatters the notion that an application whose brand and sole objective is civic-focused may never be as powerful and well-used as one tied into one with a consumer focus.
 author: GovFresh
 ---

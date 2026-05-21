@@ -11,6 +11,14 @@
   </wa-button>
   <script src="{{ site.baseurl }}/js/subscribe-button.js" defer></script>
   {% endunless %}
+  <div class="container mt-5">
+    <wa-callout class="mb-4">
+      <small>
+        <i class="fa-solid fa-lightbulb"></i>
+        Help make GovFresh better: <a href="{{ site.baseurl }}/feedback">Send us your feedback</a>
+      </small>
+    </wa-callout>
+  </div>
   <wa-divider></wa-divider>
   <div class="container footer-bar">
     <ul class="footer-nav">
@@ -27,7 +35,4 @@
     </p>
   </div>
 </footer>
-{% if jekyll.environment == 'production' %}
-  {% include analytics.html %}
-{% endif %}
 {% include js.html %}</body></html>

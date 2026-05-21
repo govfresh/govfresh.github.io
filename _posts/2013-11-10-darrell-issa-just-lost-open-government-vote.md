@@ -1,6 +1,7 @@
 ---
 title: "Darrell Issa may have just lost the open government vote"
 date: 2013-11-10
+modified:
 description: undefined
 author: GovFresh
 ---

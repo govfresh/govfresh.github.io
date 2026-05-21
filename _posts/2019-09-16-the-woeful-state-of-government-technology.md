@@ -1,6 +1,7 @@
 ---
 title: "'The woeful state of government technology'"
 date: 2019-09-16
+modified:
 description: San Francisco Chief Digital Services Officer Carrie Bishop published an excellent commentary piece that touches on several issues we in the digital government industry don't talk much about, or at all.
 author: GovFresh
 ---

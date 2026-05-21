@@ -1,6 +1,7 @@
 ---
 title: "Obama's IT 'trauma team' and recruiting Silicon Valley"
 date: 2014-03-01
+modified:
 description: Brill's "Obama's Trauma Team" features U.S. Chief Technology Officer Todd Park, Obama's fix-it man Jeff Zients, presidential innovation fellows, venture capitalist John Doerr, members of Obama's campaign tech team and some of Silicon Valley's entrepreneurs.
 author: GovFresh
 ---

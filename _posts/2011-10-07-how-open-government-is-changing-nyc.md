@@ -1,6 +1,7 @@
 ---
 title: "How open government is changing NYC"
 date: 2011-10-07
+modified:
 description: New York City Chief Digital Officer Rachel Sterne's Strata New York 2011 presentation is a great overview of the city's open government work.
 author: GovFresh
 ---

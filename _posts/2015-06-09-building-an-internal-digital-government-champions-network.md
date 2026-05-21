@@ -1,6 +1,7 @@
 ---
 title: "Building an internal digital government champions network"
 date: 2015-06-09
+modified:
 description: Jenny Cearns from GOV.UK’s Department of Health has a great post on cultivating a community of digital champions within government that mirrors what I know some chief data officers are doing around creating an internal network of data coordinators.
 author: GovFresh
 ---

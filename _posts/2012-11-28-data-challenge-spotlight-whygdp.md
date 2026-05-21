@@ -1,6 +1,7 @@
 ---
 title: "Data Challenge Spotlight: WhyGDP?"
 date: 2012-11-28
+modified:
 description: "We're told American success equals economic growth. The data tell a different story: GDP doesn't predict better lives, but civic measures do."
 author: GovFresh
 ---

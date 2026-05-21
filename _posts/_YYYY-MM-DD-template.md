@@ -6,7 +6,6 @@ author: GovFresh
 description: "."
 img-feat: -feat.png
 img-og: -og.png
-img-twitter: -twitter.png
 img-alt: "Icon of "
 img-caption: " icon via Font Awesome"
 img-link: https://fontawesome.com

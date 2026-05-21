@@ -1,6 +1,7 @@
 ---
 title: "Cleaning up the neighborhood: A San Francisco case study"
 date: 2011-08-25
+modified:
 description: What if you could make litter, graffiti, and other problems in your neighborhood go away just by using your phone?
 author: GovFresh
 ---

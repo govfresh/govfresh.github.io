@@ -1,12 +1,12 @@
 docs_list_time: topics
 docs:
 
-- "briefs"
-- "papers"
 - "thoughts"
-- "dm"
-- "demos"
 - "podcast"
+- "demos"
+- "papers"
+- "briefs"
+- "dm"
 - "research"
 - "posts"
 - "books"

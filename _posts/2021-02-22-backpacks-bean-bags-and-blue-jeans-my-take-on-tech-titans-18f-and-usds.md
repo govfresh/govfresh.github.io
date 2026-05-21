@@ -1,6 +1,7 @@
 ---
 title: "Backpacks, bean bags and blue jeans: My take on 'tech titans,' 18F and USDS"
 date: 2021-02-22
+modified:
 description: Apparently, in 2021, there are people who still refuse to recognize the holistic, energetic and sustainable impact 18F and the U.S. Digital Services has -- and continues to have -- on keeping the federal government digital services industry and profession relevant and attractive to highly-qualified designers, developers, product and project managers and anyone generally interested in well-functioning U.S. Government technology.
 author: GovFresh
 category:

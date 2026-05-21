@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Rebecca Woodbury"
 date: 2022-12-07
+modified:
 description: "Local gov content strategist"
 author: GovFresh
 name: Rebecca Woodbury
@@ -13,20 +14,12 @@ img-alt: "Headshot of Rebecca Woodbury"
 img-caption: "Photo: Christine Foster"
 email: rebecca@deptofcivicthings.com
 website: https://deptofcivicthings.com/
-twitter: https://twitter.com/bexwoodbury
-medium: 
-figma: 
-youtube: 
-vimeo: 
+
 linkedin: https://www.linkedin.com/in/rebeccawoodbury
 instagram: https://www.instagram.com/deptofcivicthings/
-facebook: 
+
 github: https://github.com/rebeccawoodbury
-flickr: 
-tumblr: 
-amazon: 
-calendar: 
-rss: 
+
 category:
   - Customer experience
   - Design

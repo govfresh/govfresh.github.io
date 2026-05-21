@@ -1,6 +1,7 @@
 ---
 title: "Y Combinator wants to make cities better"
 date: 2016-07-01
+modified:
 description: Y Combinator is looking for a team of people to lead research on how to make cities better, and will use the findings to help determine how to invest in future ventures.
 author: GovFresh
 ---

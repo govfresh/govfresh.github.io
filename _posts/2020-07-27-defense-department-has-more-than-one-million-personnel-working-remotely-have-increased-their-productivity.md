@@ -1,6 +1,7 @@
 ---
 title: "Defense Department has more than one million personnel working remotely, have 'increased their productivity'"
 date: 2020-07-27
+modified:
 description: The U.S. Department of Defense is publicly sharing its gradual transformation to distributed government teams and said there are more than one million personnel working remotely.
 author: GovFresh
 ---

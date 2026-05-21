@@ -1,6 +1,7 @@
 ---
 title: "Superpublic wants to supercharge municipal government innovation"
 date: 2016-05-11
+modified:
 description: The 5,000 sq. ft. lab Superpublic unites under the same roof for the first time innovation teams from the private industry, federal, state and city government agencies and from universities.
 author: GovFresh
 ---

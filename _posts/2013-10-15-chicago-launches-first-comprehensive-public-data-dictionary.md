@@ -1,6 +1,7 @@
 ---
 title: "Chicago launches first comprehensive, public data dictionary"
 date: 2013-10-15
+modified:
 description: Today the City of Chicago launched the City of Chicago Data Dictionary, a single, comprehensive database catalog for the City of Chicago and City of Chicago sister agencies.
 author: GovFresh
 ---

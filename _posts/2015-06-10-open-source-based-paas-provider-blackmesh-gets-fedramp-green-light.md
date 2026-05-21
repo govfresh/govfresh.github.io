@@ -1,6 +1,7 @@
 ---
 title: "Open source-based PaaS provider BlackMesh gets FedRAMP green light"
 date: 2015-06-10
+modified:
 description: The company’s authority to operate, granted in May, was sponsored by the U.S. Department of Energy.
 author: GovFresh
 ---

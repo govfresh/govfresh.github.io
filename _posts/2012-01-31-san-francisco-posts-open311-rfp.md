@@ -1,6 +1,7 @@
 ---
 title: "San Francisco posts Open311 RFP"
 date: 2012-01-31
+modified:
 description: San Francisco has published a request for proposal to integrate Open311 with the city's CRM software, Langan. Bid submissions are due February 3.
 author: GovFresh
 ---

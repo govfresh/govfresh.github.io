@@ -1,6 +1,7 @@
 ---
 title: "Civic hacking the Federal Register"
 date: 2022-10-31
+modified:
 description: "Building an executive branch agency list using the National Archives' Federal Register API."
 author: Luke Fretwell
 img: civic-hacking-header.png

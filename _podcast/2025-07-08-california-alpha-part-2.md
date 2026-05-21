@@ -3,6 +3,7 @@ title: "California Alpha (Part 2)"
 description: "Going Alpha."
 excerpt: "Going Alpha."
 date: 2025-07-08 -0700
+modified:
 topics:
   - Data
   - Design
@@ -20,13 +21,7 @@ img-og: ca-alpha-part-2-episode-og.png
 img-cover: ca-alpha-part-2-episode.png
 img-alt: "California Alpha"
 short-name: 
-email: 
-website: 
-bluesky: 
-mastodon: 
-github: 
-twitter: 
-linkedin: 
+
 links:
 redirect_from: /episode/california-alpha-part-2
 ---

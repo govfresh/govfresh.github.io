@@ -6,7 +6,6 @@ description: "Properly managing and delivering citizen data should be the U.S. g
 author: Luke Fretwell
 img-feat: database-feat.png
 img-og: database-og.png
-img-twitter: database-twitter.png
 img-alt: "Data icon"
 img-caption: "Data icon via Font Awesome"
 img-link: https://fontawesome.com

@@ -1,6 +1,7 @@
 ---
 title: "Build a better civic hackathon: lessons from Education Hack Day"
 date: 2011-12-12
+modified:
 description: ShineOn Storytelling created an excellent video overview of Education Hack Day, held November 12 and 13 in Baltimore.
 author: GovFresh
 ---

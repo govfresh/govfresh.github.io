@@ -1,6 +1,7 @@
 ---
 title: "Florida, Washington seek chief information officers"
 date: 2011-09-30
+modified:
 description: Florida and Washington are both seeking chief information officers.
 author: GovFresh
 ---

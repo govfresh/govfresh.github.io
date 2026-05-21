@@ -95,7 +95,7 @@
       {% endfor %}
     </div>
   {% elsif pull == "papers" %}
-    <div class="wa-grid mb-3" style="--min-column-size: 375px">
+    <div class="wa-grid papers-grid mb-3">
       {% assign limit = site.papers-number | plus: 0 %}
       {% assign amount = 1 %}
       {% for item in site.papers reversed %}
@@ -161,7 +161,6 @@
     {% if page.short != "true" and title != "Government. Fresh." %}
       {% include subscribe-podcast.html %}
       <wa-divider class="mb-4 mt-2"></wa-divider>
-      <h2>Episodes</h2>
     {% endif %}
     <div class="wa-grid mb-3" style="--min-column-size: 320px">
       {% assign limit = site.podcast-number | plus: 0 %}

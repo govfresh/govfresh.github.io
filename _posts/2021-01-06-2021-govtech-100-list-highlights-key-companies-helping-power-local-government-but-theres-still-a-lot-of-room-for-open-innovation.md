@@ -1,6 +1,7 @@
 ---
 title: "2021 GovTech 100 list highlights key companies helping power local government, but there's still a lot of room for open innovation"
 date: 2021-01-06
+modified:
 description: Government Technology released its annual GovTech 100 list for 2021 and, while there are newcomers to the list, there is still a lot of room for new innovation.
 author: GovFresh
 category:

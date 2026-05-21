@@ -1,6 +1,7 @@
 ---
 title: "Big shout to everyone at #codeforoakland. Kudos to attendees, organizers, sponsors for making it happen!"
 date: 2012-07-21
+modified:
 description: undefined
 author: GovFresh
 category:

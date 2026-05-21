@@ -1,6 +1,7 @@
 ---
 title: "Is San Francisco sittin' on the dock of the open data bay?"
 date: 2013-02-25
+modified:
 description: In October 2012, in the form of proposed legislation, San Francisco announced it would appoint a chief data officer to “be responsible for sharing City data with the public, facilitating the sharing of information between City departments, and analyzing how data sets can be used to improve city decision making.”
 author: GovFresh
 ---

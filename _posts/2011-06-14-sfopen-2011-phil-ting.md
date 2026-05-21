@@ -1,6 +1,7 @@
 ---
 title: "SFOpen 2011: Phil Ting"
 date: 2011-06-14
+modified:
 description: San Francisco mayoral candidate Phil Ting discusses his ideas on open government and Government 2.0.
 author: GovFresh
 ---

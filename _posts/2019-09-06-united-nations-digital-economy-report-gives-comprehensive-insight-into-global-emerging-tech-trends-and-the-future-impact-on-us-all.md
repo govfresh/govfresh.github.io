@@ -1,6 +1,7 @@
 ---
 title: "United Nations digital economy report gives comprehensive insight into global emerging tech trends and the future impact on us all"
 date: 2019-09-06
+modified:
 description: The United Nations published its 2019 Digital Economy Report that is a comprehensive must-read for civic leaders who want to understand how emerging technologies will impact the global labor market, security, privacy, economy and more.
 author: GovFresh
 ---

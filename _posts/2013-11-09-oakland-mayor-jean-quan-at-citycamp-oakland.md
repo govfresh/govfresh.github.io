@@ -1,6 +1,7 @@
 ---
 title: "Oakland Mayor Jean Quan at CityCamp Oakland"
 date: 2013-11-09
+modified:
 description: undefined
 author: GovFresh
 category:

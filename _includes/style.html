@@ -1,9 +1,3 @@
-<!-- Preload critical fonts -->
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/public-sans/PublicSans-Regular.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/public-sans/PublicSans-Bold.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/public-sans/PublicSans-ExtraBold.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/roboto-mono/RobotoMono-Regular.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/pt-serif/PTSerif-Regular.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
 <!-- Preload critical CSS -->
 <link rel="preload" href="{{ site.baseurl }}/assets/web-awesome/styles/webawesome.css" as="style">
 <link rel="preload" href="{{ site.baseurl }}/css/style.css" as="style">
@@ -11,13 +5,7 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/web-awesome/styles/webawesome.css">
 <!-- Custom CSS -->
 <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
-{% if page.layout == "podcast" or page.layout == "research" or page.layout == "feed" %}
+{% if page.layout == "podcast" or page.layout == "research" or page.layout == "latest" %}
   <link href="{{site.baseurl}}/css/plyr.css" rel="stylesheet">{% endif %}
 <!-- Font Awesome -->
-<link
-  rel="stylesheet"
-  href="{{site.baseurl}}/assets/font-awesome/css/all.min.css"
-  crossorigin="anonymous"
-  media="print"
-  onload="this.media='all'">
-<noscript><link rel="stylesheet" href="{{site.baseurl}}/assets/font-awesome/css/all.min.css" crossorigin="anonymous"></noscript>
+<link rel="stylesheet" href="{{site.baseurl}}/assets/font-awesome/css/all.min.css" crossorigin="anonymous">

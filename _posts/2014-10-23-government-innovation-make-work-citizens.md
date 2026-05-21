@@ -1,6 +1,7 @@
 ---
 title: "Government innovation and how to make it work"
 date: 2014-10-23
+modified:
 description: undefined
 author: GovFresh
 ---

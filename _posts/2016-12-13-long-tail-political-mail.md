@@ -1,6 +1,7 @@
 ---
 title: "The long tail of political mail"
 date: 2016-12-13
+modified:
 description: Danielle Winterhalter, SpeakEasy co-founder and director of strategic partnerships, shares how they're addressing a fundamental aspect of lowering the barrier to entry, especially when it comes to political (snail) mail, which is still more relevant than you might think.
 author: GovFresh
 ---

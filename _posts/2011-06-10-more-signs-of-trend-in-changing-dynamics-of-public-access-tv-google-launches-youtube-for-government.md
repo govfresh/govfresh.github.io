@@ -1,6 +1,7 @@
 ---
 title: "More signs of trend in changing dynamics of public access TV? Google launches YouTube for Government"
 date: 2011-06-10
+modified:
 description: Google announced the launch of YouTube for Government with a simple landing page and playlist of examples of how elected officials and government is using its video platform.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Help crowdfund this open source city book"
 date: 2013-02-26
+modified:
 description: Jason Hibbetts is a great guy and a true leader in the open government community, and he is asking for your support in helping fund the first 500 copies of his upcoming book, “The Foundation for an Open Source City.”
 author: GovFresh
 ---

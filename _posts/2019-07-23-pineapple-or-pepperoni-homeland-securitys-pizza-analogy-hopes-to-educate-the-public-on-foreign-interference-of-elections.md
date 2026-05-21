@@ -1,6 +1,7 @@
 ---
 title: "Pineapple or pepperoni? Homeland Security's pizza analogy hopes to educate the public on foreign interference of elections"
 date: 2019-07-23
+modified:
 description: Because "responding to foreign interference requires a whole of society approach," the U.S. Department of Homeland Security has published resources that help educate the public on ways hackers can impact U.S. elections.
 author: GovFresh
 ---

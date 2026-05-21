@@ -1,6 +1,7 @@
 ---
 title: "Spike and Eddie kick off CityCamp Oakland #citycampoak @openoakland"
 date: 2013-11-09
+modified:
 description: undefined
 author: GovFresh
 category:

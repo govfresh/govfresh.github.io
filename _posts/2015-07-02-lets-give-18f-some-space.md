@@ -1,6 +1,7 @@
 ---
 title: "Let's give 18F some space"
 date: 2015-07-02
+modified:
 description: The questions and criticisms posed in MeriTalk CEO Steve O'Keeffe's"WT18F?" blog post perfectly highlights the staid sentiments of yesterday's approach to government technology -- one that is comfortable with the status quo, unwilling to embrace change and quick to critique a much-needed experiment before it can properly get off the ground.
 author: GovFresh
 ---

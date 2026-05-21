@@ -1,6 +1,7 @@
 ---
 title: "Calling .gov startups: apply for the 2014 Code for America accelerator"
 date: 2014-04-28
+modified:
 description: The program lasts four months and includes training and mentorship, network and publicity, in-kind services and support and $25,000.
 author: GovFresh
 ---

@@ -1,11 +1,11 @@
 ---
 title: "OpenACR"
 date: 2025-03-28
+modified:
 description: "GovFresh research notes on OpenACR Editor."
 author: GovFresh
 img-feat: research-openacr-feat.png
 img-og: research-openacr-feat.png
-img-twitter: research-openacr-twitter.png
 img-alt: "OpenACR icon"
 img-caption:
 img-link:

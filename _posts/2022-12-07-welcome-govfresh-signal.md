@@ -1,6 +1,7 @@
 ---
 title: "Welcome to GovFresh Signal"
 date: 2022-12-07
+modified:
 author: Luke Fretwell
 description: "Subscribe to the official GovFresh newsletter."
 img: signal-feat.png

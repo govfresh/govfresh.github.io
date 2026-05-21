@@ -1,6 +1,7 @@
 ---
 title: "SFOpen 2011: John Avalos"
 date: 2011-06-15
+modified:
 description: San Francisco mayoral candidate John Avalos discusses his ideas on open government and Government 2.0.
 author: GovFresh
 ---

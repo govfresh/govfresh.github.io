@@ -3,6 +3,7 @@ title: "California Alpha (Part 1)"
 description: "Setting an Alpha foundation with Angie Quirarte."
 excerpt: "Setting an Alpha foundation with Angie Quirarte."
 date: 2025-04-02
+modified:
 topics:
   - Data
   - Design
@@ -20,12 +21,10 @@ img-og: ca-alpha-part-1-episode-og.png
 img-cover: ca-alpha-part-1-episode.png
 img-alt: "California Alpha"
 short-name: Angie
-email: 
-website: 
+
 bluesky: https://bsky.app/profile/abquirarte.bsky.social
-mastodon: 
+
 github: https://github.com/abquirarte
-twitter: https://x.com/abquirarte
 linkedin: https://www.linkedin.com/in/angelicaquirarte/
 links:
 redirect_from: /episode/california-alpha-part-1

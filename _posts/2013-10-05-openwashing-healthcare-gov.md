@@ -1,6 +1,7 @@
 ---
 title: "The openwashing of Healthcare.gov"
 date: 2013-10-05
+modified:
 description: Perhaps the old saw "lipstick on a pig" is the best description for the information technology fiasco that was Healthcare.gov on October 1, 2013.
 author: GovFresh
 ---

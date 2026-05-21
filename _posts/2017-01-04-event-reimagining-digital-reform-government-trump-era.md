@@ -1,6 +1,7 @@
 ---
 title: "Event: Reimagining the Digital Reform of Government in the Trump Era"
 date: 2017-01-04
+modified:
 description: Reinvent will host Code for America Founder Jen Pahlka and O’Reilly Media Founder Tim O’Reilly on January 19 in San Francisco in a discussion on how civic-minded technologists should approach the ongoing reinvention of government in the Trump era.
 author: GovFresh
 category:

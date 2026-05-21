@@ -1,6 +1,7 @@
 ---
 title: "Hacking for defense: Connecting Silicon Valley innovation culture and mindset to the defense and intelligence communities"
 date: 2016-01-26
+modified:
 description: undefined
 author: GovFresh
 category:

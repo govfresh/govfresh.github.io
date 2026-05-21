@@ -1,6 +1,7 @@
 ---
 title: "Government-funded report on government-funded research not accessible to the people who funded it"
 date: 2019-07-22
+modified:
 description: A federally-funded grant that researched the impact of government-funded research on innovation, such as private-sector intellectual property and inventions, is inaccessible to most of the people who funded it.
 author: GovFresh
 ---

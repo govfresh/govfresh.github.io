@@ -1,6 +1,7 @@
 ---
 title: "Dilbert: We need a 'user interface branch of the government'"
 date: 2011-12-01
+modified:
 description: Dilbert creator Scott Adams has a great editorial in The Wall Street Journal where he provides serious commentary on government and how civic-focused design would help modernize and better meet citizen expectations.
 author: GovFresh
 category:

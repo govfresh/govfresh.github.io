@@ -1,6 +1,7 @@
 ---
 title: "FutureGov founder Dominic Campbell on 'Networking Government'"
 date: 2011-08-22
+modified:
 description: Excellent TEDxLondonBusinessSchool talk on open government by FutureGov founder Dominic Campbell.
 author: GovFresh
 ---

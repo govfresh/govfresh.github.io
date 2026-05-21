@@ -1,6 +1,7 @@
 ---
 title: "Oakland gets its code on"
 date: 2012-07-17
+modified:
 description: Code for Oakland will be held July 21 at the Kaiser Center in Oakland, Ca. Steve Spiker, OpenOakland Brigade Captain and Director of Research & Technology for Urban Strategies Council, discusses Oakland’s open data progress and what attendees can expect from the event.
 author: GovFresh
 ---

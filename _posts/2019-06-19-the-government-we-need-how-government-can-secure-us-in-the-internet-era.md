@@ -1,6 +1,7 @@
 ---
 title: "The Government We Need: How government can secure us in the internet+ era"
 date: 2019-06-19
+modified:
 description: The Government We Need talks with Bruce Schneier about internet+ security and government’s role in keeping us safe.
 author: GovFresh
 ---

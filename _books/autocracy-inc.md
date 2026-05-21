@@ -4,7 +4,6 @@ description: "The Dictators Who Want to Run the World"
 img-book: autocracy-inc.jpg
 img-feat: autocracy-inc-feat.png
 img-og: autocracy-inc-og.png
-img-twitter: autocracy-inc-twitter.png
 img-alt: "Cover of Autocracy, Inc."
 book-author: Anne Applebaum
 published: July 2024

@@ -1,6 +1,7 @@
 ---
 title: "Federal agency blockchain group to convene July 18"
 date: 2017-06-27
+modified:
 description: The General Services Administration will host an in-person U.S. Federal Blockchain Forum meeting on July 18 in Washington, D.C., as part of an effort to facilitate virtual currency adoption within the federal government.
 author: GovFresh
 ---

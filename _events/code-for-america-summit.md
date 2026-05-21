@@ -12,7 +12,6 @@ org-link: https://codeforamerica.org
 hashtag: "#CfASummit"
 img-feat: code-for-america-summit-feat.png
 img-og: code-for-america-summit-og.png
-img-twitter: code-for-america-summit-twitter.png
 img-alt: "Code for America Summit logo"
 img-caption: ""
 img-link: 

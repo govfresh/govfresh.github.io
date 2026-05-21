@@ -10,23 +10,15 @@ img: angie-quirarte.jpg
 img-feat: angie-quirarte.jpg
 img-alt: Angelica Quirarte
 email: angelica.quirarte@gmail.com
-website: 
-subscribe: 
-patreon: 
+
 bluesky: https://abquirarte.bsky.social
 mastodon: https://mastodon.social/@Abquirarte
-twitter: https://twitter.comabq13
 medium: https://medium.com/@angelicaquirarte
-figma: 
-youtube: 
-vimeo: 
+
 linkedin: https://www.linkedin.com/in/angelicaquirarte
-instagram: 
-facebook: 
+
 github: https://github.com/abquirarte
-flickr: 
-tumblr: 
-rss: 
+
 team: 
 role: Contributor
 ---

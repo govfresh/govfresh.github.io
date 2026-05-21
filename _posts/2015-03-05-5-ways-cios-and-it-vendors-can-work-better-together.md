@@ -1,6 +1,7 @@
 ---
 title: "5 ways CIOs and IT vendors can work better together"
 date: 2015-03-05
+modified:
 description: The National Association of State Chief Information Officers has released a great brief on how CIOs can work better together.
 author: GovFresh
 ---

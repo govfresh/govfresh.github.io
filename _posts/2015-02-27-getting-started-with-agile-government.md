@@ -1,6 +1,7 @@
 ---
 title: "Getting started with Agile government"
 date: 2015-02-27
+modified:
 description: It was an excellent discussion that went a little beyond the basics, and there were a number of questions we didn’t get to, but overall it’s a helpful introduction that includes some great panelist anecdotes.
 author: GovFresh
 ---

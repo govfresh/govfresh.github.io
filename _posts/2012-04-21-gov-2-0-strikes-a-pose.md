@@ -1,6 +1,7 @@
 ---
 title: "Gov 2.0 strikes a pose"
 date: 2012-04-21
+modified:
 description: Congratulations to New York City Chief Digital Officer Rachel Sterne on her Vogue magazine profile.
 author: GovFresh
 ---

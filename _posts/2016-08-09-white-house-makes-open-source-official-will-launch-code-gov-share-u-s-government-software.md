@@ -1,6 +1,7 @@
 ---
 title: "White House makes open source official, will launch Code.gov to share U.S. government software"
 date: 2016-08-09
+modified:
 description: The White House released an official Federal Source Code policy that green lights the use and free distribution of software code developed for and by the U.S. Government.
 author: GovFresh
 ---

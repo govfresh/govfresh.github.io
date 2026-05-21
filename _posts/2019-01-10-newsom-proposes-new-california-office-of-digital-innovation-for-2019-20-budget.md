@@ -1,6 +1,7 @@
 ---
 title: "Newsom proposes new California Office of Digital Innovation for 2019-20 budget"
 date: 2019-01-10
+modified:
 description: California Governor Gavin Newsom has proposed a new Office of Digital Innovation as part of the state's 2019-20 budget with initial start-up costs of $36.2 million and 50 positions. The proposal also includes an innovation academy and $20 million innovation fund.
 author: GovFresh
 ---

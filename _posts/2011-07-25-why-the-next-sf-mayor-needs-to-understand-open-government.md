@@ -1,6 +1,7 @@
 ---
 title: "Why the next SF mayor needs to understand open government"
 date: 2011-07-25
+modified:
 description: In August of 1993, San Francisco officially adopted the Sunshine Ordinance, a law that allowed any citizen to request city documents, records, filings or correspondence, attend meetings of any group that meets with the Mayor or city department heads and make any meeting of the governing bodies of certain local, state, regional and federal agencies attended by City representatives public.
 author: GovFresh
 ---

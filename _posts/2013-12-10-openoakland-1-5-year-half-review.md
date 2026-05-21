@@ -1,6 +1,7 @@
 ---
 title: "OpenOakland 1.5: A year and a half in review"
 date: 2013-12-10
+modified:
 description: As we close out the year, I wanted to reflect on a few things to put our work in perspective and also to lay out the vision for where we want to go in the new year.
 author: GovFresh
 ---

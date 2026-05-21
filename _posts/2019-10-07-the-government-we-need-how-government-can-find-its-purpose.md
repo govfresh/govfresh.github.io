@@ -1,6 +1,7 @@
 ---
 title: "The Government We Need: How government can find its purpose"
 date: 2019-10-07
+modified:
 description: The Government We Need talks with Brian Elms about how government can ask the right questions and find its true public service purpose.
 author: GovFresh
 ---

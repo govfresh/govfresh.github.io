@@ -1,6 +1,7 @@
 ---
 title: "Virtual queuing and appointment startup Whyline raises $1.25M from e.Republic Ventures"
 date: 2021-01-28
+modified:
 description: Virtual queuing and appointment startup Whyline has completed a $1.25 million pre-series A round led by e.Republic Ventures.
 author: GovFresh
 category:

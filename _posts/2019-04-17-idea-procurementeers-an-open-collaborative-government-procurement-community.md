@@ -1,6 +1,7 @@
 ---
 title: "Idea: Procurementeers, an open, collaborative government procurement community"
 date: 2019-04-17
+modified:
 description: It's cliche to say that government procurement needs to be fixed, but much of the conversation around this topic happens randomly on social media, in a vacuum through exclusive or elusive groups, or through traditional organizations that operate in a closed, dated mindset with respect to broader inclusion or true innovation.
 author: GovFresh
 category:

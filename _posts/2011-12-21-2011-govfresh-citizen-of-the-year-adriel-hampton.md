@@ -1,6 +1,7 @@
 ---
 title: "2011 GovFresh Citizen of the Year: Adriel Hampton"
 date: 2011-12-21
+modified:
 description: Fresh off off getting recognized as the 2011 GovFresh Awards ‘Citizen of the Year,’ we asked Adriel Hampton to share more about his work and what drives him.
 author: GovFresh
 ---

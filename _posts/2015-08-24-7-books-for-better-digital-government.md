@@ -1,6 +1,7 @@
 ---
 title: "7 books for better digital government"
 date: 2015-08-24
+modified:
 description: Continuing on my book cleaning spree, I wanted to highlight a few web product design and development books I'm getting rid of that are helpful for anyone focused on providing government digital services.
 author: GovFresh
 ---

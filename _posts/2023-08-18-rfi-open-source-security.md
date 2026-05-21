@@ -1,6 +1,7 @@
 ---
 title: "White House wants your input on open source software security"
 date: 2023-08-18
+modified:
 author: GovFresh
 description: "A 'civic opportunity to help shape the government’s thinking about open-source software security.'"
 img: signal-feat.png

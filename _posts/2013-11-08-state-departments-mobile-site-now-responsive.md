@@ -1,6 +1,7 @@
 ---
 title: "The State Department's mobile site is now responsive"
 date: 2013-11-08
+modified:
 description: In a peculiar approach to web design strategy, the U.S. State Department has upgraded its mobile website, m.state.gov, to a responsive design.
 author: GovFresh
 ---

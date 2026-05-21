@@ -1,6 +1,7 @@
 ---
 title: "DISA kicks off overhaul of federal background checks"
 date: 2016-09-13
+modified:
 description: The Defense Information Systems Agency has released a series of videos and request for information for the National Background Investigation System, created in the wake of security incidents that lead to data breaches of millions of federal government employees and contractors.
 author: GovFresh
 ---

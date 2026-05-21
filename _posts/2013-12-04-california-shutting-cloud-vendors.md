@@ -1,6 +1,7 @@
 ---
 title: "Is California forcing state agencies under one private cloud?"
 date: 2013-12-04
+modified:
 description: undefined
 author: GovFresh
 ---

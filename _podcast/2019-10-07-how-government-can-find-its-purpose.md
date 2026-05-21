@@ -3,6 +3,7 @@ title: "How government can find its purpose"
 description: The Government We Need talks with Brian Elms about how government can ask the right questions and find its true public service purpose.
 excerpt: The Government We Need talks with Brian Elms about how government can ask the right questions and find its true public service purpose.
 date: 2019-10-07
+modified:
 topics:
 author: The Government We Need
 tgwn: yes

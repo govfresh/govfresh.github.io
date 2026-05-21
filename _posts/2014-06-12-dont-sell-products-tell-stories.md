@@ -1,6 +1,7 @@
 ---
 title: "Don’t sell products, tell stories"
 date: 2014-06-12
+modified:
 description: While I was in Tampa for another infamously humid summer, my Co-founder, Tony DeSisto, was spending six weeks in beautiful Rhode Island visiting family. This was a tradition for Tony and his family, one that I had learned to live with as his startup spouse.
 author: GovFresh
 category:

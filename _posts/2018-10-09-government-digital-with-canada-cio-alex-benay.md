@@ -1,6 +1,7 @@
 ---
 title: "'Government Digital' with Canada CIO Alex Benay"
 date: 2018-10-09
+modified:
 description: "Alex Benay is the Chief Information Officer Government of Canada and an open and relentless advocate for digital government innovation. He is also the author of the new book, \"Government Digital: The Quest to Regain Public Trust,\" so we asked him to share his thoughts on the role of the CIO, Canada’s proactive move to technology modernization, and what it means for government to go digital."
 author: GovFresh
 ---

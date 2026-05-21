@@ -1,6 +1,7 @@
 ---
 title: "Book: 'How to Talk to Civic Hackers'"
 date: 2016-12-16
+modified:
 description: Civic hacker icon Mark Headd has written a book to help government officials best engage with community technologists.
 author: GovFresh
 ---

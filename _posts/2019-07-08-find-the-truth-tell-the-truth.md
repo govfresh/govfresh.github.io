@@ -1,6 +1,7 @@
 ---
 title: "Find the truth. Tell the truth."
 date: 2019-07-08
+modified:
 description: “Find the truth. Tell the truth.” is a core value of the U.S. Digital Service, and Ben Damman uses the mantra to share his sentiments on how it applies to California technology projects, particularly related to the nascent Office of Digital Innovation.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Romulus wants to make constituent relationship management more delightful"
 date: 2015-10-21
+modified:
 description: Seneca Systems CEO Chris Maddox shares the inspiration behind the new constituent relationship management system, Romulus.
 author: GovFresh
 ---

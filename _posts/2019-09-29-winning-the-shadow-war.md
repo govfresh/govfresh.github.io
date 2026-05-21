@@ -1,6 +1,7 @@
 ---
 title: "Winning 'The Shadow War'"
 date: 2019-09-29
+modified:
 description: "Whether it's online, on land, underwater or in space, CNN national security correspondent Jim Sciutto's \"The Shadow War: Inside Russia's and China's Secret Operations to Defeat America\" offers ominous insights into how the United States' key adversaries are changing the dynamics of national security."
 author: GovFresh
 ---

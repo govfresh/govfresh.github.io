@@ -1,6 +1,7 @@
 ---
 title: "Bringing California open data to life"
 date: 2016-11-21
+modified:
 description: "Okay, I admit it: Even as a champion of open data, I find that it’s often mundane to view data on a portal. Simple lists of datasets — and even the maps and charts you can create — don’t truly show the intrinsic value of data that’s been freed to benefit communities."
 author: GovFresh
 ---

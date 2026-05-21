@@ -1,6 +1,7 @@
 ---
 title: "Register: 'Agile Government and the State of Maine'"
 date: 2015-05-18
+modified:
 description: Agile Government Leadership will host its next AGL Live, “Agile Government and the State of Maine,” featuring Maine Director of Business Process Management Douglas Averill.
 author: GovFresh
 ---

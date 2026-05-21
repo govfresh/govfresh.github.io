@@ -1,6 +1,7 @@
 ---
 title: "9 reasons why Vets.gov is the future of federal government websites"
 date: 2015-11-11
+modified:
 description: The U.S. Department of Veterans Affairs released a beta version of Vets.gov, and it’s the future of federal government digital development.
 author: GovFresh
 ---

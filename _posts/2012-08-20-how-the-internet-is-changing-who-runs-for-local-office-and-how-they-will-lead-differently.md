@@ -1,6 +1,7 @@
 ---
 title: "How the Internet is changing who runs for local office and how they will lead differently"
 date: 2012-08-20
+modified:
 description: South Orange, New Jersey, mayor Alex Torpey has a great speech from Personal Democracy Forum 2012, where he discussed how the Internet is changing the way politicians learn, listen and engage with citizens, as well as the changing dynamic of who will seek elected office in the future.
 author: GovFresh
 ---

@@ -12,6 +12,12 @@ layout: briefs
     <div class="container">
       <div class="thoughts-layout">
         <div>
+          {% include image.html loading="eager" fetchpriority="high" %}
+          {% include author.html %}
+          {% include date.html %}
+          {% include updated.html %}
+          {% include read-time.html %}
+          <wa-divider class="mb-4 mt-3"></wa-divider>
           <div class="post mb-5">
             <div>
               {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
@@ -33,5 +39,6 @@ layout: briefs
     {% include previews.html show-only="true" %}
   </div>
 </aside>
+<script src="{{ site.baseurl }}/js/toc-active.js" defer></script>
 {% include analytics.html %}
 {% include footer.html %}

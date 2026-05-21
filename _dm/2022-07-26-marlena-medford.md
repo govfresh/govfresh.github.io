@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Marlena Medford"
 date: 2022-07-27
+modified:
 description: "Civic tech evangelizer. Storyteller. Diversity seeker."
 author: GovFresh
 name: Marlena Medford
@@ -12,19 +13,10 @@ img-feat: marlena-medford.jpg
 img-alt: Marlena Medford
 #img-caption: ""
 email: mmedford@codeforamerica.org
-website: 
-twitter: https://twitter.com/MarlenaMedford
-medium:
-figma:
-youtube:
-vimeo:
+
+
 linkedin: https://www.linkedin.com/in/marlena-medford/
-instagram:
-facebook:
-github:
-flickr:
-tumblr:
-rss:
+
 category:
 share-twitter: https://twitter.com/govfresh/status/1552356068121907200?s=20&t=gPNS9WzTXGDHxMGbHtivBQ
 share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6958121814619279360

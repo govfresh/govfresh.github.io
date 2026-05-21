@@ -1,6 +1,7 @@
 ---
 title: "Thank you, Ellen Miller"
 date: 2014-09-08
+modified:
 description: Today, Sunlight Foundation announced Chris Gates will take over as its new president in October after co-founder and executive director Ellen Miller said she would step down from eight years at the helm.
 author: GovFresh
 ---

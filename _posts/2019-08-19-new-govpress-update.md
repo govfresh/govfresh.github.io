@@ -1,6 +1,7 @@
 ---
 title: "New GovPress update"
 date: 2019-08-19
+modified:
 description: After a long hiatus, GovPress -- the WordPress theme for government -- has been updated.
 author: GovFresh
 ---

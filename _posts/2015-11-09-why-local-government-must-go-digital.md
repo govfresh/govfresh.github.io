@@ -1,6 +1,7 @@
 ---
 title: "Why local government must go digital"
 date: 2015-11-09
+modified:
 description: The Welsh Government released a report of its findings on how local government in Wales can better leverage digital technologies and realize significant savings while still providing quality, scalable citizen services.
 author: GovFresh
 category:

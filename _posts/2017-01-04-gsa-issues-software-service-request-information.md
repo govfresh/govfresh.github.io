@@ -1,6 +1,7 @@
 ---
 title: "GSA issues software-as-a-service request for information"
 date: 2017-01-04
+modified:
 description: The General Services Administration has issued a request for information related to the federal government's use of software-as-a-service.
 author: GovFresh
 ---

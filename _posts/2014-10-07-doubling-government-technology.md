@@ -1,6 +1,7 @@
 ---
 title: "Doubling down on government technology"
 date: 2014-10-07
+modified:
 description: We've recently seen an uptick in venture capital interest around government and civic technology startups, but before we enthusiastically celebrate these investments, we must ask ourselves whether this potential bubble will truly reshape government IT or simply leave us five years from now in the same place we are today.
 author: GovFresh
 ---

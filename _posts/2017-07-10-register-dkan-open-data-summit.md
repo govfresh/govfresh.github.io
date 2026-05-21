@@ -1,6 +1,7 @@
 ---
 title: "Register for DKAN Open Data Summit"
 date: 2017-07-10
+modified:
 description: For those passionate about cultivating a more sustainable, open source oriented open data community, the first DKAN Open Data Summit is scheduled for August 1, 2017, in Washington, D.C.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "GSA: Distributed work  makes government teams happier, more productive and inclusive"
 date: 2021-01-12
+modified:
 description: The U.S. General Services Administration's 18F has a great post on why distributed government is critical to highly-functioning public service teams, emphasizing a 'distributed first' approach to work.
 author: GovFresh
 ---

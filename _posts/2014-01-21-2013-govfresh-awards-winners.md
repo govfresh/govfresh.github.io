@@ -1,6 +1,7 @@
 ---
 title: "2013 GovFresh Awards winners"
 date: 2014-01-21
+modified:
 description: Congratulations to the 2013 GovFresh Awards winners and thank you to everyone who participated in the process, including the incredible judges, as well as CivicActions and NuCivic who support my work here at GovFresh.
 author: GovFresh
 ---

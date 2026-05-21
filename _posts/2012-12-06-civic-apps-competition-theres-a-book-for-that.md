@@ -1,6 +1,7 @@
 ---
 title: "Civic apps competition? There's a book for that."
 date: 2012-12-06
+modified:
 description: There’s been a great deal of discussion around the value of civic apps contests, and now there’s a book for that.
 author: GovFresh
 ---

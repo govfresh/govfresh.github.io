@@ -1,4 +1,4 @@
-{% if page.linkedin or page.twitter or page.email or page.website or page.bluesky or page.mastodon %}
+{% if page.linkedin or page.email or page.website or page.bluesky or page.mastodon %}
   <div class="mt-3 mb-3">
     {% if page.layout == "dm" %}
       {% assign i = 0 %}
@@ -18,7 +18,7 @@
       {% if page.short-name %}
         <h2 class="mb-1">Connect with {{ page.short-name }}</h2>
       {% endif %}
-      <div class="wa-cluster wa-gap-l mt-2">
+      <div class="wa-cluster wa-gap-l mt-2 connect-with-icons">
         {% if page.website %}
           <a
             href="{{ page.website }}"
@@ -58,14 +58,6 @@
             aria-label="LinkedIn"
             class="icon-link drop-shadow3">
             <i class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i>
-          </a>
-        {% endif %}
-        {% if page.twitter %}
-          <a
-            href="{{ page.twitter }}"
-            aria-label="Twitter"
-            class="icon-link drop-shadow3">
-            <i class="{{ site.data.connect.twitter }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
       </div>

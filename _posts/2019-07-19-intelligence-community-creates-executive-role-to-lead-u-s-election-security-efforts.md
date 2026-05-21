@@ -1,6 +1,7 @@
 ---
 title: "Intelligence community creates executive role to lead U.S. election security efforts"
 date: 2019-07-19
+modified:
 description: The Director of National Intelligence announced the creation of a new DNI executive position focused specifically on election threats. The new position will be led by Shelby Pierson, who previously served as DNI election security crisis manager during the 2018 midterm elections.
 author: GovFresh
 category:

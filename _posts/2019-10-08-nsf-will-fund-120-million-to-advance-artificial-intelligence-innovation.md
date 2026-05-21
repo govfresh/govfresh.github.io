@@ -1,6 +1,7 @@
 ---
 title: "NSF will fund $120 million to advance artificial intelligence innovation"
 date: 2019-10-08
+modified:
 description: The National Science Foundation announced $120 million in funding for a new organization -- the National Artificial Intelligence Research Institutes -- "that will significantly advance research in AI and accelerate the development of transformational, AI-powered innovation."
 author: GovFresh
 ---

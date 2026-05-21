@@ -1,6 +1,7 @@
 ---
 title: "SF releases first 5-year 'Information, Communications and Technology Plan'"
 date: 2011-06-06
+modified:
 description: San Francisco's Committee on Information Technology (COIT) has released its first Information, Communications and Technology Plan that "focuses the City’s resources on the issues of security, access, infrastructure, communication and efficient computing."
 author: GovFresh
 ---

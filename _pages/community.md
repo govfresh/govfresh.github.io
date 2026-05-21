@@ -3,13 +3,9 @@ layout: page
 title: Community
 description: About the GovFresh community.
 img-og: community-og.png
-img-alt: ""
+img-alt: "Nodes icons by Font Awesome"
 permalink: /community/
 ---
-
-## Request invite
-
-To request an invite, email <community@govfresh.com> with 'GovFresh community' in the subject.
 
 ## About
 
@@ -43,3 +39,7 @@ We adhere to the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_Hous
 ## Code of conduct
 
 [GovFresh code of conduct](/conduct/)
+
+## Request invite
+
+To request an invite, email <community@govfresh.com> with 'GovFresh community' in the subject.

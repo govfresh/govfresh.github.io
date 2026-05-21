@@ -1,6 +1,7 @@
 ---
 title: "Defining civic tech"
 date: 2016-06-24
+modified:
 description: Over the past few days, I’ve been thinking about Omidyar Network’s recent report, “Engines of Change,” and the need to better label and define the movement happening around civics and government with respect to technology.
 author: GovFresh
 ---

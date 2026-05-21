@@ -1,6 +1,7 @@
 ---
 title: "Kickstarter campaign for city design method cards"
 date: 2016-03-24
+modified:
 description: GreaterPlaces is holding a fundraiser for city design method cards and a mobile app that “brings all aspects of city design together in one resource designed for everyone.”
 author: GovFresh
 ---

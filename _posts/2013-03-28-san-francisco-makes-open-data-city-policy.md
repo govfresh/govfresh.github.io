@@ -1,6 +1,7 @@
 ---
 title: "San Francisco makes open data city policy"
 date: 2013-03-28
+modified:
 description: Today, open data and its power to transform a city and a nation by engaging tech savvy citizens will be on display at San Francisco City Hall. And just as importantly, companies that have been successful because of forward thinking open data policies will testify to our elected leaders about its importance.
 author: GovFresh
 ---

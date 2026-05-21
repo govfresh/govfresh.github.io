@@ -1,6 +1,7 @@
 ---
 title: "The 411 on the 311: Q&A with Commons founder Suzanne Kirkpatrick"
 date: 2011-07-18
+modified:
 description: We asked new 311 iPhone app Commons co-founder Suzanne Kirkpatrick to share her thoughts on the new venture, 311 and trends in open government and Gov 2.0.
 author: GovFresh
 ---

@@ -7,7 +7,7 @@ description: GovFresh notes on Portable Document Formats.
 permalink: /pdfs/
 ---
 
-We link to external PDFs when they are relevant.
+We link to external PDFs when they are relevant and there's no other option.
 
 We don't host any on [govfresh.com](https://govfresh.com), and we don't advise their use, because they are likely to be inaccessible to people with disabilities, and they are not mobile-friendly.
 

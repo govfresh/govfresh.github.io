@@ -1,6 +1,7 @@
 ---
 title: "Does government innovation need its own department?"
 date: 2011-09-21
+modified:
 description: In an interview with the San Francisco Chronicle, SF city attorney and mayoral candidate Dennis Herrera said, if elected, he would create an innovation department and appoint a Chief Digital Officer to lead the city's web and social media strategy that embraces open engagement with citizens.
 author: GovFresh
 ---

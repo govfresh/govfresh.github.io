@@ -1,6 +1,7 @@
 ---
 title: "California commission wants the state to design a better government"
 date: 2015-10-25
+modified:
 description: A California bipartisan oversight committee, the Little Hoover Commission, has issued recommendations on how the state can bring a more customer-centric government to residents and visitors.
 author: GovFresh
 ---

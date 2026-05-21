@@ -1,6 +1,7 @@
 ---
 title: "Procurement app hōrd gets an upgrade"
 date: 2013-10-08
+modified:
 description: undefined
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Washington gives national security innovation a boost"
 date: 2017-07-21
+modified:
 description: Two good things just happened in Washington – these days that should be enough of a headline.
 author: GovFresh
 category:

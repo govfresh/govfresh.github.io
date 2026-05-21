@@ -1,6 +1,7 @@
 ---
 title: "Dan Morgan starts first day as first U.S. DOT chief data officer"
 date: 2014-07-28
+modified:
 description: "What has been known for weeks and already publicly celebrated by open data insiders was today formally acknowledged by the U.S. Department of Transportation in a Twitter retweet: Dan Morgan is the agency's new chief data officer."
 author: GovFresh
 ---

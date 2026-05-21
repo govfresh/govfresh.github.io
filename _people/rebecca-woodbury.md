@@ -12,21 +12,11 @@ img-alt: Rebecca Woodbury
 email: rebecca@deptofcivicthings.com
 website: https://deptofcivicthings.com/
 subscribe: https://deptcivicthings.substack.com/
-patreon: 
-bluesky: 
-mastodon: 
-twitter: 
-medium: 
-figma: 
-youtube: 
-vimeo: 
+
 linkedin: https://www.linkedin.com/in/rebeccawoodbury/
-instagram: 
-facebook: 
+
 github: https://github.com/rebeccawoodbury
-flickr: 
-tumblr: 
-rss: 
+
 team: 
 role: Contributor
 ---

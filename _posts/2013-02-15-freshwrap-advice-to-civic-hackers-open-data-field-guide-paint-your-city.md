@@ -1,6 +1,7 @@
 ---
 title: "FreshWrap: Advice to civic hackers, open data field guide, paint your city"
 date: 2013-02-15
+modified:
 description: Weekly wrap-up of civic news.
 author: GovFresh
 ---

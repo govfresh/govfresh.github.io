@@ -1,6 +1,7 @@
 ---
 title: "CivicMeet January: Sacramento, SF, Vancouver"
 date: 2013-01-21
+modified:
 description: January CivicMeets will be held in Sacramento, San Francisco and Vancouver (Rumor has it Oakland is starting one soon).
 author: GovFresh
 category:

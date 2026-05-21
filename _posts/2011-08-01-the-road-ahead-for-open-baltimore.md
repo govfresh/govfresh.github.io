@@ -1,6 +1,7 @@
 ---
 title: "The Road ahead for Open Baltimore"
 date: 2011-08-01
+modified:
 description: A couple of months ago, I wrote about the state of the open data program in the city of Baltimore.
 author: GovFresh
 ---

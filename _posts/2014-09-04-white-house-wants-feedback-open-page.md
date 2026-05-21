@@ -1,6 +1,7 @@
 ---
 title: "White House wants feedback on its open government website"
 date: 2014-09-04
+modified:
 description: The White House is looking for input on how it can improve the open government section of its website, located at whitehouse.gov/open.
 author: GovFresh
 ---

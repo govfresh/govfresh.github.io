@@ -3,6 +3,7 @@ title: "How government can make public budgeting more participatory"
 description: Shari Davis talks with The Government We Need about building a more inclusive, democratic public budgeting process.
 excerpt: Shari Davis talks with The Government We Need about building a more inclusive, democratic public budgeting process.
 date: 2020-08-05
+modified:
 topics:
   - Procurement
 author: The Government We Need

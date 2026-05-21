@@ -1,6 +1,7 @@
 ---
 title: "DHS report outlines challenges, opportunities of open source in government"
 date: 2014-10-20
+modified:
 description: The report emphasizes the importance of case studies to highlight open source execution within government, bringing more awareness to support and warranty options, simplify code release process and increase education around license guidance and procurement.
 author: GovFresh
 ---

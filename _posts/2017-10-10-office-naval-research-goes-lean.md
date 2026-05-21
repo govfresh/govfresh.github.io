@@ -1,6 +1,7 @@
 ---
 title: "Office of Naval Research goes lean"
 date: 2017-10-10
+modified:
 description: The Office of Naval Research has been one of the largest supporters of innovation in the U.S. Now they are starting to use the Lean Innovation process to turn ideas into solutions. The result will be defense innovation with speed and urgency.
 author: GovFresh
 ---

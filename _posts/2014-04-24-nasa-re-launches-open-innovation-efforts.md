@@ -1,6 +1,7 @@
 ---
 title: "NASA re-launches open innovation efforts"
 date: 2014-04-24
+modified:
 description: NASA Deputy CIO and CTO for Information Technology Deborah Diaz introduced a new open innovation team via a rebooted open.nasa.gov.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Digital government transformation at scale"
 date: 2019-04-15
+modified:
 description: "While several books have contributed to the knowledge share of the digital government narrative, few have effectively addressed transformation holistically from firsthand experience, and Digital Transformation at Scale: Why the Strategy Is Delivery does just this."
 author: GovFresh
 ---

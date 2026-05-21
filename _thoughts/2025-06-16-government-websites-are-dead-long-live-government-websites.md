@@ -6,7 +6,6 @@ description: "AI will expedite government services moving from aesthetic design 
 author: Luke Fretwell
 img-feat: refresh-feat.png
 img-og: refresh-og.png
-img-twitter: refresh-twitter.png
 img-alt: "Refresh icon"
 img-caption: "Refresh icon via Font Awesome"
 img-link: https://fontawesome.com/

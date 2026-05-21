@@ -1,6 +1,7 @@
 ---
 title: "San Francisco mayoral candidates to share their open government ideas at SFOpen 2011"
 date: 2011-04-14
+modified:
 description: undefined
 author: GovFresh
 ---

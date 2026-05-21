@@ -1,6 +1,7 @@
 ---
 title: "U.S. Digital Service opens itself up to the public"
 date: 2015-01-20
+modified:
 description: After getting some grief for not having a strong public presence, the U.S. Digital Service is beginning to open itself up with a new website, video and Twitter account.
 author: GovFresh
 category:

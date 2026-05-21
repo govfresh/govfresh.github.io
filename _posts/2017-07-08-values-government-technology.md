@@ -1,6 +1,7 @@
 ---
 title: "Values for government technology"
 date: 2017-07-08
+modified:
 description: Earlier this year, CityGrows co-founder Catherine Geanuracos proposed values for government technology, and its a great foundation for those serving government or the public to adopt.
 author: GovFresh
 ---

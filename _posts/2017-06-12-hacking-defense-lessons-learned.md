@@ -1,6 +1,7 @@
 ---
 title: "Hacking for Defense lessons learned"
 date: 2017-06-12
+modified:
 description: We just finished our second Hacking for Defense class at Stanford. Eight teams presented their Lessons Learned presentations.
 author: GovFresh
 category:

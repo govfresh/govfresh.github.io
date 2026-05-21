@@ -1,6 +1,7 @@
 ---
 title: "U.S. intelligence community releases annual transparency report"
 date: 2020-04-30
+modified:
 description: The Office of the Director of National Intelligence released its annual transparency report.
 author: GovFresh
 category:

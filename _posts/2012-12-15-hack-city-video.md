@@ -1,6 +1,7 @@
 ---
 title: "'Hack City' (VIDEO)"
 date: 2012-12-15
+modified:
 description: Great video highlighting what a civic hackathon is and how it works via a re-cap of GreenBiz’s recent three-day ‘Hack City.’
 author: GovFresh
 ---

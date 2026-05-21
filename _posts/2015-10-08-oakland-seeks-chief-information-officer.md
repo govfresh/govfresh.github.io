@@ -1,6 +1,7 @@
 ---
 title: "Oakland seeks chief information officer"
 date: 2015-10-08
+modified:
 description: undefined
 author: GovFresh
 ---

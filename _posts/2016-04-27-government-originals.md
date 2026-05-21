@@ -1,6 +1,7 @@
 ---
 title: "Government 'Originals'"
 date: 2016-04-27
+modified:
 description: Grant cites two government originals, Central Intelligence Agency analyst Carmen Medina and U.S. Navy lieutenant Josh Steinman, who both worked to change traditional thinking within two large bureaucracies.
 author: GovFresh
 ---

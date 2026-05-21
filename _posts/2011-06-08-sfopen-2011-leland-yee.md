@@ -1,6 +1,7 @@
 ---
 title: "SFOpen 2011: Leland Yee"
 date: 2011-06-08
+modified:
 description: San Francisco mayoral candidate Leland Yee discusses his ideas on open government and Government 2.0.
 author: GovFresh
 ---

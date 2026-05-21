@@ -1,11 +1,11 @@
 ---
 title: "Declaration for the Future of the Internet"
 date: 2025-02-11
+modified:
 description: "GovFresh research notes on the Declaration for the Future of the Internet."
 author: GovFresh
 img-feat: research-scroll-feat.png
 img-og: research-scroll-feat.png
-img-twitter: research-scroll-feat.png
 img-alt: "Scroll icon"
 img-caption: "Scroll icon via Font Awesome"
 img-link: https://fontawesome.com/

@@ -1,6 +1,7 @@
 ---
 title: "PTI makes 2012 local government IT predictions"
 date: 2012-01-14
+modified:
 description: The Public Technology Institute released its list of “What’s Out and What’s In?” technology predictions for 2012 based on interviews with local government IT executives and vendors who service city and county governments.
 author: GovFresh
 ---

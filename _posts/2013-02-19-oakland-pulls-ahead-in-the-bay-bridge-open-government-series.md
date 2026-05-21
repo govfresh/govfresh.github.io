@@ -1,6 +1,7 @@
 ---
 title: "Oakland pulls ahead of SF in the Bay Bridge Open Government Series"
 date: 2013-02-19
+modified:
 description: It hasn't garnered the accolades San Francisco historically has, but it appears Oakland is starting to pull ahead in the Bay Bridge Open Government Series.
 author: GovFresh
 ---

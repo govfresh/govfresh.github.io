@@ -1,6 +1,7 @@
 ---
 title: "The Freakonomics of 'Government Employees Gone Wild'"
 date: 2014-12-01
+modified:
 description: I’ve been on a podcast kick lately and stumbled on an old Freakonomics Radio episode highlighting the U.S. Department of Defense ethics guide, “The Encyclopedia of Ethical Failure.”
 author: GovFresh
 ---

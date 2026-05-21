@@ -1,6 +1,7 @@
 ---
 title: "How we changed the way the U.S. government commercializes science"
 date: 2015-07-21
+modified:
 description: Steve Blank interviews Errol Arkilic, former lead program director for the National Science Foundation I-Corps, which uses his Lean LaunchPad curriculum to teach scientists and engineers how to take their technology out of the lab and into the marketplace.
 author: GovFresh
 ---

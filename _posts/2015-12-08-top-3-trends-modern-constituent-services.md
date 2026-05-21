@@ -1,6 +1,7 @@
 ---
 title: "Top 3 trends in modern constituent services"
 date: 2015-12-08
+modified:
 description: The end of the year is a great time to look back and reflect. All aspects of our digital society change at a faster pace every year and how local governments serve their municipalities is no exception. Let’s take a look at three major trends in modern constituent services.
 author: GovFresh
 category:

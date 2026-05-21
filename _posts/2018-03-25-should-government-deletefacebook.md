@@ -1,6 +1,7 @@
 ---
 title: "Should government #DeleteFacebook?"
 date: 2018-03-25
+modified:
 description: It's now time for public leaders to familiarize themselves with Facebook's government terms and conditions and learn more about -- and appreciate -- data governance issues, starting with General Data Protection Regulation.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Tipping my open government hat"
 date: 2013-05-03
+modified:
 description: I first met Alex Howard in Los Angeles at Gov20LA a few years ago. This was shortly before he joined O'Reilly Media as its Washington correspondent covering the open government/Gov 2.0 beat.
 author: GovFresh
 ---

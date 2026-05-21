@@ -1,6 +1,7 @@
 ---
 title: "Is the cloud saving government money?"
 date: 2019-07-10
+modified:
 description: The U.S. Government Accountability Office published a bullish report on the impact cloud services has had on federal government agency technology savings.
 author: GovFresh
 ---

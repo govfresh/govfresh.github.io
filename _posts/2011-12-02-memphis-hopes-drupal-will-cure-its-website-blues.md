@@ -1,6 +1,7 @@
 ---
 title: "Memphis hopes Drupal will cure its website blues"
 date: 2011-12-02
+modified:
 description: Memphis announced it will develop its new website using the open source platform Drupal and OpenPublic. Mediacurrent, Linx Consulting and Phase2 Technology will collaborate on the project.
 author: GovFresh
 ---

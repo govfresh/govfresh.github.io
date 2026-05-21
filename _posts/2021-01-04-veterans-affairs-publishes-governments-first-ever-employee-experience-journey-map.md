@@ -1,6 +1,7 @@
 ---
 title: "Veterans Affairs publishes 'government’s first-ever employee experience journey map'"
 date: 2021-01-04
+modified:
 description: The U.S. Department of Veterans Affairs published what it says is the government's first-ever employee experience journey map.
 author: GovFresh
 ---

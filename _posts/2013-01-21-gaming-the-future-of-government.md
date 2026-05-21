@@ -1,6 +1,7 @@
 ---
 title: "Gaming the future of government"
 date: 2013-01-21
+modified:
 description: On January 22-23, the Institute for the Future will host Connected Citizens, a 24-hour collective forecasting game to "to rethink and reprogram government services for a complex and connected world."
 author: GovFresh
 ---

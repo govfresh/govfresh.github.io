@@ -6,7 +6,6 @@ description: "By adopting a simple public engagement framework, we can build a m
 author: Luke Fretwell
 img-feat: virtuous-civic-circle-feat.png
 img-og: virtuous-civic-circle-og.png
-img-twitter: virtuous-civic-circle-twitter.png
 img-alt: "Circle laurel icon"
 img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project"
 img-link: https://fontawesome.com

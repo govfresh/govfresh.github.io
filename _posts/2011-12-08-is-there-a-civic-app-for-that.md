@@ -1,6 +1,7 @@
 ---
 title: "Is there a civic app for that?"
 date: 2011-12-08
+modified:
 description: The 2011 GovFresh Awards are going strong, but entries and voting in the apps categories could use a lot more love.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "San Francisco publishes year two plan, continues to lead on open data"
 date: 2015-08-03
+modified:
 description: San Francisco’s DataSF team continues to quietly and effectively demonstrate what an efficient, holistic and personable approach to open data looks like with the announcement of its year two plan and retrospective of the past year.
 author: GovFresh
 ---

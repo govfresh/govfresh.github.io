@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Angie Quirarte"
 date: 2022-06-21
+modified:
 description: "Civic techie, bureaucracy hacker, dot connecter"
 author: GovFresh
 name: Angie Quirarte
@@ -13,18 +14,9 @@ img-alt: Angie Quirarte
 #img-caption: ""
 email: angie@techtalentproject.org
 website: https://techtalentproject.org/
-twitter: https://twitter.com/abquirarte
-medium:
-figma:
-youtube:
-vimeo:
+
 linkedin: https://www.linkedin.com/in/angelicaquirarte
-instagram:
-facebook:
-github:
-flickr:
-tumblr:
-rss:
+
 category:
 feature:
 ---

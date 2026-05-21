@@ -1,6 +1,7 @@
 ---
 title: "Hacking taxis and 'making life in SF a little better'"
 date: 2012-03-23
+modified:
 description: Last February, officials from San Francisco collaborated with the California College of the Arts and Mix & Stir Studio for the SF Taxi & Mass Communication Challenge, a 24-hour hackathon focused on “design-driven technology solutions to real world problems.”
 author: GovFresh
 ---

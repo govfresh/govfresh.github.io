@@ -1,6 +1,7 @@
 ---
 title: "8 of 9 major SF mayor candidates commit to 'Open Government Pledge for San Francisco'"
 date: 2011-06-07
+modified:
 description: Eight of the 9 major San Francisco mayoral candidates have committed to the Open Government Pledge for San Francisco.
 author: GovFresh
 ---

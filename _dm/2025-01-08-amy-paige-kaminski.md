@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Amy Paige Kaminski"
 date: 2025-01-08
+modified:
 description: "Author, catalyst, & champion for public engagement with space, science, & technology"
 author: GovFresh
 name: Amy Paige Kaminski
@@ -10,25 +11,9 @@ shortname: Amy
 img: amy-kaminski.jpg
 img-feat: amy-kaminski-dm-feat.jpg
 img-og: amy-kaminski-dm-og.png
-img-twitter: amy-kaminski-dm-twitter.png
 img-alt: "Headshot of Amy Paige Kaminski"
 #img-caption: ""
-email: 
-website: 
-twitter: 
-medium: 
-figma: 
-youtube: 
-vimeo: 
-linkedin: 
-instagram: 
-facebook: 
-github: 
-flickr: 
-tumblr: 
-amazon: 
-calendar: 
-rss: 
+
 category:
   - Customer experience
   - Open government

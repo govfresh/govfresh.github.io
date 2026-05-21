@@ -1,6 +1,7 @@
 ---
 title: "ArchiveSocial helps keep government social media on the record books"
 date: 2013-10-25
+modified:
 description: ArchiveSocial enables public sector organizations to embrace social media by minimizing risk and eliminating compliance barriers.
 author: GovFresh
 ---

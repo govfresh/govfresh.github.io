@@ -1,6 +1,7 @@
 ---
 title: "New Zealand forks the United Kingdom"
 date: 2014-02-04
+modified:
 description: Perhaps the biggest civic open source story of 2013 was the government of New Zealand's copying of the United Kingdom's gov.uk code to begin building a new version of its own website.
 author: GovFresh
 ---

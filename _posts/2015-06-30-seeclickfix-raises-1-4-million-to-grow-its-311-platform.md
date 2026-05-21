@@ -1,6 +1,7 @@
 ---
 title: "SeeClickFix raises $1.4 million to grow its 311 platform"
 date: 2015-06-30
+modified:
 description: undefined
 author: GovFresh
 ---

@@ -2,11 +2,11 @@
 layout: news
 title: "DEF CON Franklin to host inaugural release of 'The Hackers' Almanack'"
 date: 2025-02-04
+modified:
 author: GovFresh
 description: "Analysis of policy implications from DEF CON 32 findings."
 img-feat: defcon-franklin-feat.png
 img-og: defcon-franklin-og.png
-img-twitter: defcon-franklin-twitter.png
 img-alt: "Cartoon image of Ben Franklin in a skull and cross bones imagery"
 img-caption: 
 img-link: 

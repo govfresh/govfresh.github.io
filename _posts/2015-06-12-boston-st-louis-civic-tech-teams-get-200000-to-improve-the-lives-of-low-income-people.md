@@ -1,6 +1,7 @@
 ---
 title: "Boston, St. Louis civic tech teams get $200,000 to improve the lives of low-income people"
 date: 2015-06-12
+modified:
 description: The Boston team will focus on connecting youth to summer jobs and the St. Louis team on making it easier to navigate the criminal justice system.
 author: GovFresh
 ---

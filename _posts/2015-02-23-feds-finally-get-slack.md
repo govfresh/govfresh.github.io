@@ -1,6 +1,7 @@
 ---
 title: "Feds finally get some Slack"
 date: 2015-02-23
+modified:
 description: The U.S. General Services Administration announced approved terms of service agreements for the collaboration service Slack.
 author: GovFresh
 ---

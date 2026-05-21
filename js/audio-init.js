@@ -3,6 +3,7 @@ if (el) {
   el.removeAttribute('controls');
   new Plyr(el, {
     controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume'],
-    autoplay: false
+    autoplay: false,
+    iconUrl: '/assets/plyr/plyr.svg'
   });
 }

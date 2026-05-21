@@ -1,6 +1,7 @@
 ---
 title: "Hack civic hacking"
 date: 2016-08-02
+modified:
 description: For those of you who identify as civic hackers and are unaffiliated with political, governmental or corporate constraints, you have the good fortune of not needing to adhere to bureaucratic, organizational rules that stunt open, immediate impact and innovation.
 author: GovFresh
 ---

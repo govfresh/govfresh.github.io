@@ -1,6 +1,7 @@
 ---
 title: "Feds publish guide to setting up an open source project"
 date: 2015-07-30
+modified:
 description: 18F has published a guide that helps federal government workers standardize GitHub use and better leverage the social coding platform when setting up open source projects.
 author: GovFresh
 ---

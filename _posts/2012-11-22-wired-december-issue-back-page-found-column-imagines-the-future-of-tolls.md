@@ -1,6 +1,7 @@
 ---
 title: ".@Wired December issue back page 'Found' column imagines the future of tolls."
 date: 2012-11-22
+modified:
 description: undefined
 author: GovFresh
 category:

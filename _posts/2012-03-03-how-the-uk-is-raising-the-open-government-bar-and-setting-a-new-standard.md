@@ -1,6 +1,7 @@
 ---
 title: "How the UK is raising the open government bar and setting a new standard"
 date: 2012-03-03
+modified:
 description: I’ve been collecting links (below) from the UK’s Government Digital Service blog for a while wondering when they’ll stop executing their great “beta” work on GOV.UK, but they continue to outdo themselves.
 author: GovFresh
 ---

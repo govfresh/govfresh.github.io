@@ -1,6 +1,7 @@
 ---
 title: "Obama 'Wired'"
 date: 2016-11-17
+modified:
 description: President Obama served as guest editor for the November issue of Wired, and the entire print issue is worth investing in. Here are articles that might be of interest to those of you focused more on the civic and government technology fronts.
 author: GovFresh
 ---

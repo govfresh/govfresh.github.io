@@ -1,6 +1,7 @@
 ---
 title: "Ideas for the new White House chief digital officer"
 date: 2015-03-25
+modified:
 description: In his announcement Goldman asks citizens (using the hashtag #socialcivics) to share their answers to the question, "How can we — our government and you and your communities — better connect online to make America better?"
 author: GovFresh
 ---

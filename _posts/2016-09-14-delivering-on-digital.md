@@ -1,6 +1,7 @@
 ---
 title: "'Delivering on Digital'"
 date: 2016-09-14
+modified:
 description: "I finished Bill Eggers latest book, \"Delivering on Digital: The Innovators and Technologies That Are Transforming Government,\" and highly recommend to public sector technology practitioners, especially governments who don’t have the resources to contract with a high-end consulting firm to build out a holistic strategy on their own."
 author: GovFresh
 ---

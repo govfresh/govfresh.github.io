@@ -6,7 +6,6 @@ description: "True democracy – and great technology – is organic, collaborat
 author: Luke Fretwell
 img-feat: git-feat.png
 img-og: git-og.png
-img-twitter: git-twitter.png
 img-alt: "Git icon"
 img-caption: "Git icon from Font Awesome"
 img-link: https://fontawesome.com

@@ -1,6 +1,7 @@
 ---
 title: "Bring DontEat.At to San Francisco and save public health dollars"
 date: 2011-05-02
+modified:
 description: Today on Gov 2.0 Radio, Allison Hornery of CivicTEC in Sydney pointed to a new app by New York University computer science student Max Stoller that mashes up NY health inspection data with Foursquare, and provides a text message warning if the restaurant isn’t making the grade. It’s called DontEat.At.
 author: GovFresh
 ---

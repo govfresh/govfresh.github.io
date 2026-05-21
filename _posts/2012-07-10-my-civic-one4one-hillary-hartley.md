@@ -1,6 +1,7 @@
 ---
 title: "My civic #one4one: Hillary Hartley"
 date: 2012-07-10
+modified:
 description: #one4one is the latest Twitter meme making the rounds encouraging digital influencers to “name someone whose identity has a radically different trait as their One. If you’re a dude, name a woman. If you’re white, name a person of color. If you’re straight, name an LGBTQ person.”
 author: GovFresh
 ---

@@ -1,11 +1,11 @@
 ---
 title: "AI and the U.S. federal government"
 date: 2024-11-26
+modified:
 description: "GovFresh research notes on artificial intelligence and the U.S. government."
 author: GovFresh
 img-feat: research-robot-2-feat.png
 img-og: research-robot-2-feat.png
-img-twitter: research-robot-2-feat.png
 img-alt: "Robot icon"
 img-caption: "Robot via Font Awesome"
 img-link: https://fontawesome.com/

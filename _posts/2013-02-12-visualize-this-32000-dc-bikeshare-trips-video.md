@@ -1,6 +1,7 @@
 ---
 title: "Visualize this: 32,000 DC Bikeshare Trips (VIDEO)"
 date: 2013-02-12
+modified:
 description: undefined
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "GOV.UK refreshes digital services strategy, goals"
 date: 2015-06-19
+modified:
 description: In a series of blog posts, the UK Government Digital Service team has announced a new post-migration roadmap that includes updates to its go-forward strategy, team structure and key goals for 2015-2016.
 author: GovFresh
 ---

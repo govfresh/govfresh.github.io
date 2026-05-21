@@ -1,6 +1,7 @@
 ---
 title: "Quick thoughts, takeaways from the new federal government analytics dashboard"
 date: 2015-03-23
+modified:
 description: After reviewing the first iteration of the newly-launched analytics.usa.gov, here are some quick thoughts and takeaways.
 author: GovFresh
 ---

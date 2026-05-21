@@ -1,6 +1,7 @@
 ---
 title: "500 Startups opens its doors to (better) government technology"
 date: 2016-05-16
+modified:
 description: The Department of Better Technology was one of 42 companies accepted into the latest round of the highly-regarded 500 Startups accelerator program, a “4-month curriculum of customer acquisition coaching, fundraising training, and access to 500’s massive ecosystem.”
 author: GovFresh
 ---

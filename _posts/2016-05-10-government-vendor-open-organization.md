@@ -1,6 +1,7 @@
 ---
 title: "Government vendor as an 'open organization'"
 date: 2016-05-10
+modified:
 description: Earlier, I wrote about the book “Open Organization” and, via a post originally published on ProudCity, wanted to share my extended thoughts on how this applies to government vendors in the context of the work I’m doing there.
 author: GovFresh
 ---

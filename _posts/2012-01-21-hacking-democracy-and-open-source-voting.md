@@ -1,6 +1,7 @@
 ---
 title: "'Hacking Democracy' and open source voting"
 date: 2012-01-21
+modified:
 description: Hacking Democracy, released in 2007, documents the improprieties and lack of security around proprietary voting software vendor Diebold Elections Systems.
 author: GovFresh
 ---

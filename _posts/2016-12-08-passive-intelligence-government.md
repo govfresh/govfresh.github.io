@@ -1,6 +1,7 @@
 ---
 title: "Passive intelligence for government"
 date: 2016-12-08
+modified:
 description: Every government wants to use data to make better decisions.
 author: GovFresh
 ---

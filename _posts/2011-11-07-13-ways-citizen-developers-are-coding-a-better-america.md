@@ -1,6 +1,7 @@
 ---
 title: "13 ways citizen developers are coding a better America"
 date: 2011-11-07
+modified:
 description: Code for America has published videos of CfA Fellows demoing their apps during the Code for America Summit held October 13-14 in San Francisco.
 author: GovFresh
 ---

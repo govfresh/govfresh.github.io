@@ -5,17 +5,13 @@ author: GovFresh
 link: https://codeforamerica.org/
 img-feat: code-for-america-feat.png
 img-og: code-for-america-og.png
-img-twitter: code-for-america-twitter.png
 img-alt: "Code for America logo"
 img-caption: #""
 img-link: 
 github: https://github.com/codeforamerica
 linkedin: https://www.linkedin.com/company/code-for-america/
 instagram: https://www.instagram.com/codeforamerica
-threads: https://www.threads.net/@codeforamerica
 youtube: https://www.youtube.com/user/CodeforAmerica
-facebook: https://www.facebook.com/codeforamerica
-x: usdresponse
 medium: 
 street-address: 
 city: 

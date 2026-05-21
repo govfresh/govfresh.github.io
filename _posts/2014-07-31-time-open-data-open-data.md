@@ -1,6 +1,7 @@
 ---
 title: "It's time for open data on open data"
 date: 2014-07-31
+modified:
 description: Recent conversations I've had with municipal executives managing open data programs indicate that traction around open data platform usage isn't meeting their personal expectations.
 author: GovFresh
 ---

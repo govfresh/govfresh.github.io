@@ -1,6 +1,7 @@
 ---
 title: "NAGW honors top government websites"
 date: 2011-09-28
+modified:
 description: Earlier this month, the National Association of Government Webmasters honored three members with its 2011 Pinnacle Awards for the “highest achievement in web design and development.”
 author: GovFresh
 ---

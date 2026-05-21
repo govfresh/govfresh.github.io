@@ -1,6 +1,7 @@
 ---
 title: "Participation and the cult of catalogs"
 date: 2015-09-29
+modified:
 description: undefined
 author: GovFresh
 ---

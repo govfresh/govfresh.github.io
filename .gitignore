@@ -6,3 +6,4 @@ license.md
 */.DS_Store
 .claude/
 .vscode/
+node_modules/

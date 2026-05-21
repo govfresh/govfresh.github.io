@@ -1,6 +1,7 @@
 ---
 title: "NSF accelerator program brings science innovation to 300 teams in first two years"
 date: 2013-11-04
+modified:
 description: This is the start of the third year teaching teams of scientists (professors and their graduate students) in the National Science Foundation Innovation Corps. This month we’ve crossed ~300 teams in the first two years through the program.
 author: GovFresh
 ---

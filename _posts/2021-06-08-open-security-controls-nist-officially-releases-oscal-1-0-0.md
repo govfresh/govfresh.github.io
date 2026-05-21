@@ -1,6 +1,7 @@
 ---
 title: "Open security controls: NIST officially releases OSCAL 1.0.0"
 date: 2021-06-08
+modified:
 description: The National Institute of Standards and Technology officially released Open Security Controls Assessment Language 1.0.0, a federal government effort to standardize authorization packages and streamline security reviews using a common machine-readable language.
 author: GovFresh
 ---

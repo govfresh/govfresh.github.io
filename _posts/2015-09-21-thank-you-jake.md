@@ -1,6 +1,7 @@
 ---
 title: "Thank you, Jake"
 date: 2015-09-21
+modified:
 description: There have been countless, beautiful anecdotes on Jake’s compassion, humility and contributions, and there’s nothing I can add that would do justice to honor the influence he’s had on me other than to say, Jake, I miss you so much, and you will be with me always as I try to live up to the standards you set for those of us still here.
 author: GovFresh
 ---

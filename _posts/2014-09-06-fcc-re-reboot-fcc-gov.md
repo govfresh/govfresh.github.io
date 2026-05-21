@@ -1,6 +1,7 @@
 ---
 title: "FCC readies to refresh FCC.gov"
 date: 2014-09-06
+modified:
 description: It took 10 years for the Federal Communications Commission to re-do its first website, and now FCC.gov is set to undergo a second overhaul since it relaunched in 2011.
 author: GovFresh
 ---

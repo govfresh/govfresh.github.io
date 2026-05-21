@@ -1,6 +1,7 @@
 ---
 title: "Chicago's effort to grow our own talent"
 date: 2013-10-10
+modified:
 description: In recent months, we've highlighted several efforts to teach young people how to code and about technology. These efforts have included Englewood Codes, Civic Summer and Adler Planetarium's Youth Hackathon.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "MC Hammer: 'These tools create a level of transparency that sometimes can be uncomfortable'"
 date: 2011-10-22
+modified:
 description: O’Reilly Media’s Alex Howard interviewed musician and tech entrepreneur MC Hammer at the 2011 Web 2.0 Summit in San Francisco where, towards the end, Hammer talks about the impact social media, mobile and crowdsourcing have on government.
 author: GovFresh
 ---

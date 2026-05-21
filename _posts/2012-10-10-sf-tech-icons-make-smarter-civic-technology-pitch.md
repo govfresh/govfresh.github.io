@@ -1,6 +1,7 @@
 ---
 title: "SF tech icons make smarter civic technology pitch"
 date: 2012-10-10
+modified:
 description: sf.citi brings out the the tech heavyweights for a new video imagining what civic technology could do for a "smarter San Francisco."
 author: GovFresh
 ---

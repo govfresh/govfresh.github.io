@@ -1,6 +1,7 @@
 ---
 title: "SF government chooses Microsoft's cloud for email"
 date: 2011-05-18
+modified:
 description: The City and County of San Francisco announced it has selected Microsoft Exchange Online to host its 23,000 employee email system.
 author: GovFresh
 ---

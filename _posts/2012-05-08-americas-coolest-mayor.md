@@ -1,6 +1,7 @@
 ---
 title: "America's coolest mayor"
 date: 2012-05-08
+modified:
 description: This is the first time I’ve heard of Harvard-educated, professional wrestler look-alike and Braddock, Pennsylvania, mayor John Fetterman, featured in this episode of Hulu’s “A Day In The Life” series.
 author: GovFresh
 ---

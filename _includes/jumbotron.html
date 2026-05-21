@@ -141,35 +141,11 @@
               </small>
             </p>
           {% endif %}
-          {% if page.threads %}
-            <p class="small text-body-secondary mb-0">
-              <small>
-                <i class="fa-brands fa-threads"></i>
-                <a href="{{ page.threads }}">Threads</a>
-              </small>
-            </p>
-          {% endif %}
           {% if page.youtube %}
             <p class="small text-body-secondary mb-0">
               <small>
                 <i class="fa-brands fa-youtube"></i>
                 <a href="{{ page.youtube }}">YouTube</a>
-              </small>
-            </p>
-          {% endif %}
-          {% if page.x %}
-            <p class="small text-body-secondary mb-0">
-              <small>
-                <i class="fa-brands fa-x-twitter"></i>
-                <a href="https://x.com/{{ page.x }}">X</a>
-              </small>
-            </p>
-          {% endif %}
-          {% if page.facebook %}
-            <p class="small text-body-secondary mb-0">
-              <small>
-                <i class="fa-brands fa-facebook"></i>
-                <a href="{{ page.facebook }}">Facebook</a>
               </small>
             </p>
           {% endif %}
@@ -328,11 +304,6 @@
       {% if page.description %}
         <p class="lead text-body-secondary mb-4">{{ page.description }}</p>
       {% endif %}
-      {% include image.html loading="eager" fetchpriority="high" %}
-      {% include author.html %}
-      {% include date.html %}
-      {% include updated.html %}
-      {% include read-time.html %}
     </div>
   {% elsif page.layout == "briefs" %}
     <div class="container pt-1 pb-3 mb-4 border-bottom">
@@ -342,27 +313,15 @@
       {% if page.description %}
         <p class="lead text-body-secondary mb-4">{{ page.description }}</p>
       {% endif %}
-      {% include image.html loading="eager" fetchpriority="high" %}
-      {% include author.html %}
-      {% include date.html %}
-      {% include updated.html %}
-      {% include read-time.html %}
     </div>
   {% elsif page.layout == "papers" %}
     <div class="container pt-1 pb-3 mb-4 border-bottom">
-      <div class="content-narrow">
-        {% if page.title %}
-          <h1 class="display-5 mb-3">{{ page.title }}</h1>
-        {% endif %}
-        {% if page.description %}
-          <p class="lead text-body-secondary mb-4">{{ page.description }}</p>
-        {% endif %}
-        {% include image.html loading="eager" fetchpriority="high" %}
-        {% include author.html %}
-        {% include date.html %}
-        {% include updated.html %}
-        {% include read-time.html %}
-      </div>
+      {% if page.title %}
+        <h1 class="display-5 mb-3">{{ page.title }}</h1>
+      {% endif %}
+      {% if page.description %}
+        <p class="lead text-body-secondary mb-4">{{ page.description }}</p>
+      {% endif %}
     </div>
   {% elsif page.layout == "research" %}
     <div class="container pt-1 pb-3 mb-4 border-bottom">
@@ -372,9 +331,6 @@
       {% if page.description %}
         <p class="lead text-body-secondary mb-4">{{ page.description }}</p>
       {% endif %}
-      {% include author.html %}
-      {% include date.html %}
-      {% include updated.html %}
     </div>
   {% elsif page.layout == "dm" %}
     <div class="container pt-1 pb-2 mb-2">

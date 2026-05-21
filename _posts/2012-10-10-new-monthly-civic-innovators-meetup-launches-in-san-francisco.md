@@ -1,6 +1,7 @@
 ---
 title: "New monthly civic innovators meetup launches in San Francisco"
 date: 2012-10-10
+modified:
 description: CivicMeet is a new monthly meetup that brings together public and private sector innovators working to create a more open, engaged civil society.
 author: GovFresh
 ---

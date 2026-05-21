@@ -532,8 +532,33 @@ a.nav-link, a.nav-link:visited, a.nav-link:hover, a.nav-link:active {
 }
 
 .toc-list {
-    padding-left: 2rem;
+    padding-left: 1rem;
     margin: 0;
+    list-style-position: outside;
+    list-style-type: square;
+}
+
+.toc-list li {
+    margin-inline-start: 0;
+    font-size: 0.8rem;
+}
+
+.toc-list li.toc-h3 {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.toc-link.active {
+    color: #000000;
+    font-weight: 600;
+}
+
+.post h2, .post h3, .post h4 {
+    scroll-margin-top: 1.5rem;
+}
+
+[data-theme=dark] .toc-link.active {
+    color: #ffffff;
 }
 
 /* TOC links */
@@ -555,21 +580,26 @@ a.nav-link, a.nav-link:visited, a.nav-link:hover, a.nav-link:active {
 /* Thoughts layout — content left, TOC right, top-aligned */
 .thoughts-layout {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 240px;
     gap: 2rem;
     align-items: start;
 }
 
-
-/* Breadcrumb — link color and monospace via WA shadow DOM */
-wa-breadcrumb-item::part(label) {
-    color: var(--bs-link-color);
-    text-decoration: none;
-    font-family: var(--bs-font-monospace);
-    font-size: 0.85rem;
+.thoughts-toc {
+    position: sticky;
+    top: 1rem;
 }
 
-wa-breadcrumb-item:hover::part(label) {
+
+/* Breadcrumb — style host element so inherited props cascade into slot and shadow DOM */
+wa-breadcrumb-item {
+    color: var(--bs-link-color);
+    font-family: var(--bs-font-monospace);
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+wa-breadcrumb-item:hover {
     text-decoration: underline;
 }
 
@@ -608,7 +638,7 @@ wa-breadcrumb-item:hover::part(label) {
     text-decoration: underline;
 }
 
-/* Author byline links — secondary color in both themes */
+/* Author byline links — secondary color by default */
 .author-link, .author-link:visited {
     color: var(--bs-secondary-color);
     text-decoration: none;
@@ -616,6 +646,23 @@ wa-breadcrumb-item:hover::part(label) {
 
 .author-link:hover {
     text-decoration: underline;
+}
+
+/* On content pages, byline links use link color */
+article:not(.featured-post) .author-link,
+article:not(.featured-post) .author-link:visited {
+    color: var(--bs-link-color);
+}
+
+/* Listen box platform icon links — body text color, link color on hover */
+.listen-link, .listen-link:visited {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.listen-link:hover {
+    color: var(--bs-link-color);
+    text-decoration: none;
 }
 
 /* Share icon links — body color in light, primary color in dark */
@@ -669,16 +716,23 @@ wa-button::part(base) {
     box-shadow: var(--wa-shadow-m);
     font-family: var(--bs-font-monospace);
     text-decoration: none;
-    transition: transform 0.1s ease;
+    transition: transform 0.1s ease, background 0.1s ease, color 0.1s ease;
 }
 
 wa-button::part(base):hover {
     transform: translateY(1px);
-    color: var(--bs-link-color);
+    background: var(--bs-link-color);
+    color: var(--bs-body-bg);
 }
 
 wa-button::part(base):active {
     transform: translateY(2px);
+}
+
+
+.connect-with-icons .icon-link:hover {
+    color: var(--bs-body-color);
+    text-decoration: none;
 }
 
 .navbar-brand:hover #logo {
@@ -926,6 +980,12 @@ figcaption a:hover {
     text-decoration: underline !important;
 }
 
+/* Default layout h2 spacing */
+
+.default-body h2 {
+    margin-bottom: 1.25rem;
+}
+
 /* Posts */
 
 .post-signal h2 {
@@ -941,7 +1001,7 @@ figcaption a:hover {
 }
 
 .post p, .post ul {
-    font-family: var(--bs-font-serif) !important;
+    font-family: var(--bs-font-sans-serif) !important;
     margin-bottom: 1.5rem;
 }
 
@@ -1014,6 +1074,15 @@ wa-card {
     position: relative;
 }
 
+wa-card:has(.card-link, .body-link):hover {
+    --wa-color-surface-border: var(--bs-link-color);
+}
+
+wa-card h2, wa-card h3, wa-card h4 {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 wa-card .card-link::after,
 wa-card .body-link::after {
     content: '';
@@ -1083,6 +1152,11 @@ wa-badge[appearance="outlined"]::part(base) {
     filter: drop-shadow(3px 3px 0 var(--bs-gray));
 }
 
+wa-callout small {
+    font-family: var(--bs-font-monospace);
+    font-size: 0.875rem;
+}
+
 /* People sidebar — left-align flush with avatar, equal section spacing */
 .people-sidebar {
     display: flex;
@@ -1102,6 +1176,18 @@ wa-badge[appearance="outlined"]::part(base) {
 
 .people-sidebar .wa-cluster {
     margin-top: 0 !important;
+    margin-bottom: 0.75rem;
+}
+
+.people-sidebar .icon-link,
+.people-sidebar .icon-link:visited {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.people-sidebar .icon-link:hover {
+    color: var(--bs-link-color);
+    text-decoration: none;
 }
 
 /* Progress */
@@ -1141,6 +1227,14 @@ wa-badge[appearance="outlined"]::part(base) {
 [data-theme=dark] .plyr--audio .plyr__control:hover {
     background-color: #ffffff;
     color: #000000;
+}
+
+[data-theme=dark] .plyr--audio .plyr__control svg {
+    fill: #ffffff;
+}
+
+[data-theme=dark] .plyr--audio .plyr__control:hover svg {
+    fill: #000000;
 }
 
 #read-time-bar {
@@ -1399,6 +1493,17 @@ pre {
 .lunrsearchresult a:hover, .lunrsearchresult a:focus { text-decoration: none; }
 .lunrsearchresult a:hover .title { text-decoration: underline; }
 
+/* Iframe embed — border follows theme, dark mode inverts light-themed iframes */
+.iframe-embed iframe {
+    border: 1px solid var(--bs-border-color);
+    display: block;
+    width: 100%;
+}
+
+[data-theme=dark] .iframe-embed iframe {
+    filter: invert(1) hue-rotate(180deg);
+}
+
 /* Responsive video embed */
 .video-responsive {
     aspect-ratio: 16 / 9;
@@ -1643,6 +1748,10 @@ pre {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.papers-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 
 
 /* Prevent CLS: reserve space for card and feed images */
@@ -1687,6 +1796,7 @@ wa-card img[slot='media'],
         max-width: 150px;
     }
 
+
     .thoughts-toc {
         display: none;
     }
@@ -1700,6 +1810,10 @@ wa-card img[slot='media'],
     }
 
     .demos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .papers-grid {
         grid-template-columns: 1fr;
     }
 
@@ -1793,6 +1907,7 @@ wa-card img[slot='media'],
     .post-dm-quick-thoughts ul,
     .post-dm-quick-thoughts ol {
         padding: 1rem;
+        font-size: 0.95rem;
     }
 
     /* Blockquote */

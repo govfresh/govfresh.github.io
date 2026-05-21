@@ -6,7 +6,6 @@ description: "Great source code meets machine-readable web industry standards an
 author: Luke Fretwell
 img-feat: code-digital-experience-law-feat.png
 img-og: code-digital-experience-law-og.png
-img-twitter: code-digital-experience-law-twitter.png
 img-alt: "Computer with code icon"
 img-caption: "Computer with code icon via Font Awesome"
 img-link: https://fontawesome.com

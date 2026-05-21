@@ -1,6 +1,7 @@
 ---
 title: "GovDelivery expands government communications offering with Textizen acquisition"
 date: 2015-07-28
+modified:
 description: Government communications platform GovDelivery announced today it has acquired the civic engagement text messaging service Textizen to "promote citizen action, engagement, and behavior change."
 author: GovFresh
 ---

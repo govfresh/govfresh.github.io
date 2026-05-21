@@ -1,6 +1,7 @@
 ---
 title: "Best in SF government social media"
 date: 2011-03-31
+modified:
 description: The City of San Francisco over the last two years has aggressively embraced social media for marketing of government programs  and initiatives, citizen engagement, and two-way communications. An important task for the next mayor is not only to preserve the vibrant  ecosystem left by one of the U.S.'s most tech-savvy mayors, but to continue to advance government innovation in one of the world's most  tech-savvy cities. 
 author: GovFresh
 ---

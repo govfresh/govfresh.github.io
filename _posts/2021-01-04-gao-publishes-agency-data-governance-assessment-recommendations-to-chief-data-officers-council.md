@@ -1,6 +1,7 @@
 ---
 title: "GAO publishes agency data governance assessment, recommendations to Chief Data Officers Council"
 date: 2021-01-04
+modified:
 description: The U.S. Government Accountability Office published a report on data governance progress across four federal agencies.
 author: GovFresh
 ---

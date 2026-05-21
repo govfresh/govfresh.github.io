@@ -1,6 +1,7 @@
 ---
 title: "A meta tag on USAJOBS posts could substantially increase the visibility of federal government job opportunities"
 date: 2022-07-01
+modified:
 description: "One simple piece of code to the U.S. government's employment website could go a long way in increasing social media reach."
 author: Luke Fretwell
 img: lincoln-memorial-lights.jpg

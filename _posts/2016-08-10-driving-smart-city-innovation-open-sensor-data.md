@@ -1,6 +1,7 @@
 ---
 title: "Driving smart city innovation with open sensor data"
 date: 2016-08-10
+modified:
 description: For many years, open access to data has been viewed as an important means of improving government transparency and accountability and deepening citizen engagement, and today hundreds of local and national governments worldwide are using open data portals to publish data and documents that they produce over the course of their operations.
 author: GovFresh
 ---

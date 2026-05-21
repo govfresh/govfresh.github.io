@@ -1,11 +1,11 @@
 ---
 title: "Open source"
 date: 2024-11-12
+modified:
 description: "GovFresh research notes on open source software."
 author: GovFresh
 img-feat: research-code-feat.png
 img-og: research-code-feat.png
-img-twitter: research-code-feat.png
 img-alt: "Code icon"
 img-caption: "Code icon via Font Awesome"
 img-link: https://fontawesome.com/

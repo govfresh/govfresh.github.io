@@ -1,6 +1,7 @@
 ---
 title: "SFOpen 2011: David Chiu"
 date: 2011-06-08
+modified:
 description: San Francisco mayoral candidate David Chiu discusses his ideas on open government and Government 2.0.
 author: GovFresh
 ---

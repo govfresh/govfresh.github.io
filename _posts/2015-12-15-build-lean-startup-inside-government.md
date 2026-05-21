@@ -1,6 +1,7 @@
 ---
 title: "How to build a lean startup inside government"
 date: 2015-12-15
+modified:
 description: Leaders from 18F and the White House Presidential Innovation Fellowship program presented at the 2015 Lean Startup Conference on “Lean Methodologies When the Organization is the Product,” and this is the best video you’ll watch on getting a holistic approach to building a lean startup inside government.
 author: GovFresh
 ---

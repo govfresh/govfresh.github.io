@@ -1,6 +1,7 @@
 ---
 title: "How and why Los Angeles deployed open source and agile"
 date: 2015-05-20
+modified:
 description: undefined
 author: GovFresh
 ---

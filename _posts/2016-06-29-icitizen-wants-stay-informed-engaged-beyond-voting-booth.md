@@ -1,6 +1,7 @@
 ---
 title: "icitizen wants you to stay informed, engaged beyond the voting booth"
 date: 2016-06-29
+modified:
 description: icitizen re-launched in January 2016 with a broader goal, to change how we communicate on civic issues, connect with our communities and "promote meaningful change." icitizen's Jacel Egan shares the vision for its future.
 author: GovFresh
 ---

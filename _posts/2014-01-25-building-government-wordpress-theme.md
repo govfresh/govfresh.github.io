@@ -1,6 +1,7 @@
 ---
 title: "GovFresh  building a government WordPress theme"
 date: 2014-01-25
+modified:
 description: Despite the fact that millions of websites around the world today are powered by low- and no-cost open source content management systems, nearly all small city governments remain trapped in the 90s.  To date, however, this need hasn't adequately been served, and we need to change this. We can change this.
 author: GovFresh
 ---

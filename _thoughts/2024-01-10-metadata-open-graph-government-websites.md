@@ -6,7 +6,6 @@ description: "Complete metadata can have a significant impact on how citizens ex
 author: Luke Fretwell
 img-feat: metadata-feat.png
 img-og: metadata-og.png
-img-twitter: metadata-twitter.png
 img-alt: "File with code icon"
 img-caption: "File with code icon via Font Awesome"
 img-link: https://fontawesome.com

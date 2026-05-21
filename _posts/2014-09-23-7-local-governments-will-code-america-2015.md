@@ -1,6 +1,7 @@
 ---
 title: "These 7 local governments will Code for America in 2015"
 date: 2014-09-23
+modified:
 description: Code for America today announced the next class of municipalities for its 2015 Fellowship Program that partners civic technologists with local governments for one year to “explore answers to local challenges by engaging with the community, building applications, and testing the results.”
 author: GovFresh
 ---

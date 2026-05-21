@@ -1,6 +1,7 @@
 ---
 title: "Ask not what your city can do for you - ask what you can do for your city"
 date: 2011-06-11
+modified:
 description: When President John F. Kennedy famously proclaimed "Ask not what your country can do for you - ask what you can do for your country," a sense of civic pride was embedded into our patriotic psyche and Americans were given the money quote needed to do more than just complain about their government.
 author: GovFresh
 ---

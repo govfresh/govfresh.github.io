@@ -1,6 +1,7 @@
 ---
 title: "Why open source matters for government and civic tech (and how to support it)"
 date: 2016-08-22
+modified:
 description: The Open Knowledge Foundation and University of Cambridge recently published a must-read and circulate widely report on why open source software matters for government and civic tech and how to support it.
 author: GovFresh
 ---

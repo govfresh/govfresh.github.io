@@ -1,6 +1,7 @@
 ---
 title: "Civic kickstart: Citizinvestor wants to help your local project get funded"
 date: 2012-07-02
+modified:
 description: Citizinvestor is the latest startup to tackle public budget woes by offsetting lack of public funding with crowdsourced citizen donations targeted to specific projects.
 author: GovFresh
 ---

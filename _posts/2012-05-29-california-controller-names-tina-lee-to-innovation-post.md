@@ -1,6 +1,7 @@
 ---
 title: "California controller names Tina Lee to innovation post"
 date: 2012-05-29
+modified:
 description: California Controller John Chiang has appointed Tina Lee as Director of Outreach and Innovation to help his office better engage with the state’s citizens, non-profit and community organizations and businesses.
 author: GovFresh
 ---

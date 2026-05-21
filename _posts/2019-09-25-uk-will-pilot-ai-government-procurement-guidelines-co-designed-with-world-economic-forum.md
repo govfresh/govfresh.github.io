@@ -1,6 +1,7 @@
 ---
 title: "UK will pilot AI government procurement guidelines co-designed with World Economic Forum"
 date: 2019-09-25
+modified:
 description: The United Kingdom Government announced it will pilot newly-developed artificial intelligence procurement guidelines it co-designed with the World Economic Forum.
 author: GovFresh
 ---

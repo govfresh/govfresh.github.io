@@ -1,11 +1,11 @@
 ---
 title: "cloud.gov"
 date: 2024-10-17
+modified:
 description: "GovFresh research notes on cloud.gov."
 author: GovFresh
 img-feat: research-cloud-gov-feat.png
 img-og: research-cloud-gov-feat.png
-img-twitter: research-cloud-gov-feat.png
 img-alt: "Cloud icon"
 img-caption: "Cloud icon via Font Awesome"
 img-link: https://fontawesome.com/

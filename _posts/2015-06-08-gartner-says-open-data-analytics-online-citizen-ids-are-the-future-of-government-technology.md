@@ -1,6 +1,7 @@
 ---
 title: "Gartner says open data, analytics, online citizen IDs are the future of government technology"
 date: 2015-06-08
+modified:
 description: undefined
 author: GovFresh
 ---

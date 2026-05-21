@@ -1,6 +1,7 @@
 ---
 title: "New mobile app Commons gets creative with 311"
 date: 2011-06-22
+modified:
 description: TechPresident’s Becky Kazansky has a great overview of Commons, a new 311 iPhone app that makes use of gaming and social features to better engage citizens.
 author: GovFresh
 ---

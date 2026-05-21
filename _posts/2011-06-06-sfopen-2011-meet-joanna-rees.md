@@ -1,6 +1,7 @@
 ---
 title: "SFOpen 2011: Meet Joanna Rees"
 date: 2011-06-06
+modified:
 description: San Francisco mayoral candidate Joanna Rees discusses her ideas on open government and Government 2.0.
 author: GovFresh
 ---

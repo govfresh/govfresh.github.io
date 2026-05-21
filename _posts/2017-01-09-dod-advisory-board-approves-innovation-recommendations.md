@@ -1,6 +1,7 @@
 ---
 title: "DOD advisory board approves innovation recommendations"
 date: 2017-01-09
+modified:
 description: The U.S. Department of Defense’s Defense Innovation Advisory Board approved 11 recommendations “aimed at keeping the Defense Department on the cutting edge in technology, culture, operations and processes.”
 author: GovFresh
 category:

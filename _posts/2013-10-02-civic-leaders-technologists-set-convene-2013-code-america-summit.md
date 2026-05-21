@@ -1,6 +1,7 @@
 ---
 title: "Civic leaders, technologists set to convene for 2013 Code for America Summit"
 date: 2013-10-02
+modified:
 description: Registration is still open for the 2013 Code for America Summit set for October 15 to 17 in San Francisco.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Join the WordPress for Government Google Group"
 date: 2012-02-01
+modified:
 description: As I mentioned in my 2012 civic commitment post, I’m focused on helping drastically lower the cost, de-mystify the technology and build better websites for local government.
 author: GovFresh
 ---

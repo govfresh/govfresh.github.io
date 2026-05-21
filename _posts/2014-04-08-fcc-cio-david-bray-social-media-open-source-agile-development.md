@@ -1,6 +1,7 @@
 ---
 title: "FCC CIO David Bray on social media, open source, agile development and more"
 date: 2014-04-08
+modified:
 description: Federal Communications Commission Chief Information Officer David Bray participated in our first GitChat, an open Q&A with civic innovators, that leverages GitHub as a discussion platform.
 author: GovFresh
 ---

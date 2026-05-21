@@ -1,6 +1,7 @@
 ---
 title: "Substantive feedback on White House open source policy as comment period extended"
 date: 2016-04-13
+modified:
 description: The White House extended the Federal Source Code Policy comment period to April 18 and, to date, there there are 147 comments with much of the discussion centered around licensing and security.
 author: GovFresh
 ---

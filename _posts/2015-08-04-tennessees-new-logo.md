@@ -1,6 +1,7 @@
 ---
 title: "Tennessee's new logo"
 date: 2015-08-04
+modified:
 description: There is a lot of shortsighted chatter around the state of Tennessee's new branding efforts and, while I don't have a strong opinion on the logo aesthetics, which has received criticism for its $46,000 price tag, it's important to commend the holistic approach to uniformity and why this will benefit residents (and taxpayers) in the future.
 author: GovFresh
 ---

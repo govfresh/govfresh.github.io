@@ -1,6 +1,7 @@
 ---
 title: "Regulatory hacking"
 date: 2016-05-23
+modified:
 description: undefined
 author: GovFresh
 ---

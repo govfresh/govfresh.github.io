@@ -1,6 +1,7 @@
 ---
 title: "Liquid democracy: Blockchains and governance in the post nation-state era"
 date: 2019-01-18
+modified:
 description: Intrigued by what Democracy Earth Foundation is doing to leverage the power of blockchain to empower a different approach to democracy, I asked the team to share more about its work.
 author: GovFresh
 ---

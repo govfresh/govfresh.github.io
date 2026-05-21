@@ -1,6 +1,7 @@
 ---
 title: "Policy hackathon in SF to address U.S., European city challenges"
 date: 2019-08-27
+modified:
 description: A policy hackathon will be held in San Francisco on September 24 to "tackle problems brought by cities from the U.S. and Europe."
 author: GovFresh
 category:

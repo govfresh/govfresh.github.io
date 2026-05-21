@@ -1,6 +1,7 @@
 ---
 title: "4 ways the federal government can improve plainlanguage.gov"
 date: 2015-12-17
+modified:
 description: Managed by the Federal Aviation Administration, plainlanguage.gov, the federal government website tasked with helping agencies write better for those it serves needs renewed attention. While momentum on better government digital services is in full-swing, it’s time to re-invent how plain language is presented.
 author: GovFresh
 ---

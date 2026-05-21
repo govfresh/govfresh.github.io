@@ -1,6 +1,7 @@
 ---
 title: "Government contracting: Business size and the implications of cheating"
 date: 2013-12-11
+modified:
 description: Acquiring government contracts is hard work. So, when some businesses hear that there are set-aside federal contracts that are awarded specifically to small businesses, is it any wonder that some businesses try to misrepresent their size to try and win a bid?
 author: GovFresh
 ---

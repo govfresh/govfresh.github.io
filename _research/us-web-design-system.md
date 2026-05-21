@@ -1,11 +1,11 @@
 ---
 title: "U.S. Web Design System"
 date: 2024-12-17
+modified:
 description: "GovFresh research notes on the U.S. Web Design System."
 author: GovFresh
 img-feat: research-uswds-feat.png
 img-og: research-uswds-feat.png
-img-twitter: research-uswds-feat.png
 img-alt: "USWDS icon"
 img-caption: ""
 img-link: 

@@ -1,6 +1,7 @@
 ---
 title: "Government sharing is government caring"
 date: 2011-09-19
+modified:
 description: Just discovered this MESH Government to the Rescue TEDxGotham talk by former New York State Senate Chief Information Officer Andrew Hoppin.
 author: GovFresh
 ---

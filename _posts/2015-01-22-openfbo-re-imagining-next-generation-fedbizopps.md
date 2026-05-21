@@ -1,6 +1,7 @@
 ---
 title: "OpenFBO: re-imagining the next generation FedBizOpps"
 date: 2015-01-22
+modified:
 description: Inspired by a recent General Services Administration request for information to create a “new and improved” FedBizOpps, OpenFBO is a community experiment to re-imagine the next generation FBO.
 author: GovFresh
 ---

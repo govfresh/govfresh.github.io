@@ -1,6 +1,7 @@
 ---
 title: "U.S. government releases federal open source policy"
 date: 2016-03-10
+modified:
 description: undefined
 author: GovFresh
 ---

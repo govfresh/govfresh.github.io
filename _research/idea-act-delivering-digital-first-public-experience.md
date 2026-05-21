@@ -1,11 +1,11 @@
 ---
 title: "21st Century Integrated Digital Experience Act"
 date: 2024-10-06
+modified:
 description: "GovFresh research notes on the 21st Century Integrated Digital Experience Act."
 author: GovFresh
 img-feat: research-idea-act-feat.png
 img-og: research-idea-act-feat.png
-img-twitter: research-idea-act-feat.png
 img-alt: "Light bulb icon"
 img-caption: "Light bulb icon via Font Awesome"
 img-link: https://fontawesome.com/

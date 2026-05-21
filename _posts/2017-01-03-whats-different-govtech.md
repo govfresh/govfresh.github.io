@@ -1,6 +1,7 @@
 ---
 title: "What’s different about GovTech?"
 date: 2017-01-03
+modified:
 description: I’ve spent the last eight years building and selling products to governments. At the risk of oversimplifying what works in govtech, I think success comes from three factors.
 author: GovFresh
 category:

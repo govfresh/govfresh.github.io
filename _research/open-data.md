@@ -1,11 +1,11 @@
 ---
 title: "Open data"
 date: 2024-11-12
+modified:
 description: "GovFresh research notes on open data."
 author: GovFresh
 img-feat: research-database-feat.png
 img-og: research-database-feat.png
-img-twitter: research-database-feat.png
 img-alt: "Database icon"
 img-caption: "Database icon via Font Awesome"
 img-link: https://fontawesome.com/

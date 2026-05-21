@@ -1,6 +1,7 @@
 ---
 title: "Edmonton launches open data site"
 date: 2011-07-06
+modified:
 description: According to Edmonton Chief Information Officer Chris Moore, the city has launched its official open data site at edmonton.socrata.com.
 author: GovFresh
 ---

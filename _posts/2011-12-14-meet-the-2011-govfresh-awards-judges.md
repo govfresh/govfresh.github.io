@@ -1,6 +1,7 @@
 ---
 title: "Meet the 2011 GovFresh Awards judges"
 date: 2011-12-14
+modified:
 description: Last week, thousands of votes were cast across every category in the 2011 GovFresh Awards. Our judges are now reviewing and selecting their picks and winners will be announced on Monday, December 19.
 author: GovFresh
 ---

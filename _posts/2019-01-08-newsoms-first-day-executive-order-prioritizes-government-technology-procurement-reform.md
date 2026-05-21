@@ -1,6 +1,7 @@
 ---
 title: "Newsom's first-day executive order prioritizes government technology procurement reform"
 date: 2019-01-08
+modified:
 description: "California Governor Gavin Newsom wasted no time on his first day in office addressing what many see as the most critical -- albeit bureaucratic -- issue impacting the state's government technology challenges: procurement."
 author: GovFresh
 ---

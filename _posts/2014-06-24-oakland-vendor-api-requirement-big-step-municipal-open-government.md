@@ -1,6 +1,7 @@
 ---
 title: "Oakland vendor API requirement a big step for municipal open government"
 date: 2014-06-24
+modified:
 description: To get an idea of how badly Oakland needs to upgrade its digital infrastructure, you just need to read this one line from Tuesday's city council staff report.
 author: GovFresh
 ---
