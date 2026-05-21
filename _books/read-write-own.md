@@ -26,7 +26,7 @@ category:
   - Data
   - Open source
 author: Luke Fretwell
-feature: yes
+feature: 
 ---
 
 Chris Dixon's "Read Write Own" didn't necessarily help me understand the technical aspects of blockchain (my fault, not his), it did give me better context on internet networks (protocol, corporate, blockchain). It also gave me a deeper understanding how decentralized networks work, and the role they can play in building a better internet.

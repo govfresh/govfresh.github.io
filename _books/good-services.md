@@ -13,7 +13,7 @@ review-link:
 category:
   - Customer experience
   - Design
-feature: 
+feature: yes
 ---
 
 From the publisher:

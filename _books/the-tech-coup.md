@@ -29,7 +29,7 @@ category:
   - Open government
   - Policy
 author: Luke Fretwell
-feature: yes
+feature: 
 ---
 
 Here’s the grammatically edited version of your text:  

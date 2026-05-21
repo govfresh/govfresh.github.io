@@ -26,7 +26,6 @@ category:
   - Civic hacking
   - Cybersecurity
 author: Luke Fretwell
-feature: yes
 ---
 
 In *Hack to the Future: How World Governments Relentlessly Pursue and Domesticate Hackers*, Emily Crose offers a cultural, historical and legal schooling on hackers, hacking, and government’s evolving approach to dealing with them.
