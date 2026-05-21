@@ -28,7 +28,7 @@ category:
   - Design
   - Open government
 author: 
-feature: 
+feature: yes
 ---
 
 A playbook helping local governments build people-centered digital public services.

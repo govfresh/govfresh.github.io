@@ -13,6 +13,7 @@ quote: "My approach to engineering documentation inspired me to coin a new term,
 category:
   - Design
 author: Luke Fretwell
+feature: yes
 ---
 
 Documentation is more than an organized afterthought exclusive to a select team; it's an opportunity to show a system's inner workings, fostering a culture of openness and collaboration beyond bureaucratic confines.

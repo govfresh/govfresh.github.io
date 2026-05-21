@@ -7,3 +7,5 @@ docs:
     number: 4
   - name: papers
     number: 3
+  - name: books
+    number: 5

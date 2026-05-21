@@ -23,7 +23,7 @@ quote:
 category:
   - Cybersecurity
 author: 
-feature: yes
+feature: 
 ---
 
 ## From the publisher

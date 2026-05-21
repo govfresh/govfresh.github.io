@@ -24,7 +24,7 @@ category:
   - Cybersecurity
   - Data
 author: 
-feature: yes
+feature: 
 ---
 
 From the publisher:
