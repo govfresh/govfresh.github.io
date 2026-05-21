@@ -1287,12 +1287,16 @@ pre {
 
 /* Subscribe */
 
-.subscribe {
+.subscribe-band {
     opacity: 0;
     pointer-events: none;
     position: fixed;
-    bottom: 2rem;
-    left: max(1rem, calc((100vw - 1140px) / 2 + 1rem));
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bs-body-bg);
+    border-top: 1px solid var(--wa-color-surface-border);
+    padding: 0.5rem max(1rem, calc((100vw - 1140px) / 2 + 1rem));
     z-index: 1000;
 }
 
