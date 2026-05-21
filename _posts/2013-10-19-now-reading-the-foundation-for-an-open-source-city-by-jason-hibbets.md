@@ -1,6 +1,7 @@
 ---
 title: "Now reading: 'The Foundation for an Open Source City' by Jason Hibbets"
 date: 2013-10-19
+modified:
 description: undefined
 author: GovFresh
 category:

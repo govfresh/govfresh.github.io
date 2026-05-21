@@ -1,6 +1,7 @@
 ---
 title: "Missouri town uses YouTube to re-define public access television"
 date: 2011-06-09
+modified:
 description: The city council of St. Charles, Missouri has launched Discover St. Charles, a YouTube channel that delivers department updates to citizens using short video clips.
 author: GovFresh
 ---

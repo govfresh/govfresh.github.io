@@ -1,6 +1,7 @@
 ---
 title: "Government as ‘The Open Organization’"
 date: 2016-05-04
+modified:
 description: For those who want to learn how government can become more engaged institutionally, both internally and externally, “The Open Organization” is the blueprint.
 author: GovFresh
 ---

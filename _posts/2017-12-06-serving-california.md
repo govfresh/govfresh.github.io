@@ -1,6 +1,7 @@
 ---
 title: "Serving California: Angie Quirarte"
 date: 2017-12-06
+modified:
 description: Angie Quirarte is a behind-the-scenes hero for the state of California, leading on issues such as public sector workforce recruitment and retention, public data, creating a user-friendly government, improving  internal government processes and more.
 author: GovFresh
 ---

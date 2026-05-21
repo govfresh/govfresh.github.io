@@ -1,6 +1,7 @@
 ---
 title: "How Joomla is powering government"
 date: 2012-02-15
+modified:
 description: We've heard a lot about Drupal and WordPress in government, but not much about the open source platform Joomla. We asked Joomla External Communications Lead Sandra Ordonez to share how government is using it, its key features, how it compares to Drupal and WordPress and what governments are using it.
 author: GovFresh
 ---

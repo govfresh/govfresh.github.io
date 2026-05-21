@@ -3,6 +3,7 @@ title: "Civic hacking with Steve Spiker"
 description: "A pioneering civic technologist retrospects and shares his thoughts on hacking government for good."
 excerpt: "A pioneering civic technologist retrospects and shares his thoughts on hacking government for good."
 date: 2023-08-28
+modified:
 topics:
   - Civic hacking
 author: GovFresh
@@ -16,9 +17,7 @@ img-feat: steve-spiker.png
 img-cover: steve-spiker-episode.png
 img-alt: Steve Spiker
 short-name: Spike
-email: 
-website: 
-twitter: https://twitter.com/spjika/
+
 linkedin: https://www.linkedin.com/in/stevespiker/
 redirect_from: /episode/civic-hacking-steve-spiker
 ---

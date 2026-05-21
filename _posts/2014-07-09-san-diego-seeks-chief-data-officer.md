@@ -1,6 +1,7 @@
 ---
 title: "San Diego seeks chief data officer"
 date: 2014-07-09
+modified:
 description: If you like open data and great weather, the city of San Diego is looking for a performance and analytics chief data officer.
 author: GovFresh
 ---

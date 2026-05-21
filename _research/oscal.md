@@ -1,11 +1,11 @@
 ---
 title: "OSCAL"
 date: 2024-10-29
+modified:
 description: "GovFresh research notes on the Open Security Controls Assessment Language."
 author: GovFresh
 img-feat: research-gears-feat.png
 img-og: research-gears-feat.png
-img-twitter: research-gears-feat.png
 img-alt: "Gears icon"
 img-caption: "Gears icon via Font Awesome"
 img-link: https://fontawesome.com/

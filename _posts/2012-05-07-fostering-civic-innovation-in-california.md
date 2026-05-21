@@ -1,6 +1,7 @@
 ---
 title: "Fostering civic innovation in California"
 date: 2012-05-07
+modified:
 description: Alissa Black joined the New America Foundation in April to lead the newly-formed California Civic Innovation Project, focused on building "communities of practice within California’s local governments and identifies best practices to improving service delivery, opening new channels for public voices, and bridging the state’s digital divides."
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "SF Mayor Ed Lee at 2011 Web 2.0 Summit (VIDEO)"
 date: 2011-10-21
+modified:
 description: O’Reilly Media’s Alex Howard interviewed San Francisco Mayor Ed Lee this week at the Web 2.0 Summit in San Francisco. Lee discusses open source, open data, apps, mobile and bridging the digital divide.
 author: GovFresh
 ---

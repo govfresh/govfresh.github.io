@@ -1,6 +1,7 @@
 ---
 title: "California levels up on digital, seeks director for new innovation office"
 date: 2019-06-04
+modified:
 description: California is officially for looking for its first director of the newly-established Office of Digital Innovation.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "SF Mayoral Candidates: An Open Government Pledge for San Francisco"
 date: 2011-05-18
+modified:
 description: In an effort to make it easier for local governments to better implement open government policies, a group of dedicated advocates recently created a sample Local Open Government Initiative (LOGI), modeled after the one initiated by President Obama for the federal government in January 2009.
 author: GovFresh
 category:

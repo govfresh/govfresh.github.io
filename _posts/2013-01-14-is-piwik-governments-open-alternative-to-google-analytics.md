@@ -1,6 +1,7 @@
 ---
 title: "Is Piwik government's 'open' alternative to Google Analytics?"
 date: 2013-01-14
+modified:
 description: Piwik creator Matthieu Aubry shares how the open source real time web analytics tool may be a viable option for government.
 author: GovFresh
 ---

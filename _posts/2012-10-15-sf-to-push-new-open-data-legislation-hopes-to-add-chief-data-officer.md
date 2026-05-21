@@ -1,6 +1,7 @@
 ---
 title: "San Francisco set to appoint chief data officer in revised open data legislation"
 date: 2012-10-15
+modified:
 description: San Francisco will announce proposed revisions to open data legislation Monday that includes the creation of a chief data officer who will serve as the primary evangelist for making city data freely-available to the public.
 author: GovFresh
 ---

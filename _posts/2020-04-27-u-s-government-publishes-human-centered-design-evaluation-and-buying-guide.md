@@ -1,6 +1,7 @@
 ---
 title: "U.S government publishes human-centered design evaluation and buying guide"
 date: 2020-04-27
+modified:
 description: The U.S. General Services Administration published  an Evaluation and Buying Guide to "help federal agencies seeking Human-Centered Design (HCD) services to improve Customer Experience (CX)."
 author: GovFresh
 ---

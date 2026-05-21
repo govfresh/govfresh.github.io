@@ -1,6 +1,7 @@
 ---
 title: "Government open innovation labs"
 date: 2019-07-08
+modified:
 description: The United Kingdom and Argentina governments are working on what they call the Policy Innovation Exchange that creates the potential for a much-needed, broad-scale government-to-government open collaboration organization that addresses common issues each -- and others -- have.
 author: GovFresh
 ---

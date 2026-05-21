@@ -1,6 +1,7 @@
 ---
 title: "The other Vivek is wrong about open government"
 date: 2011-06-23
+modified:
 description: Whether it was written out of naivete or for the intent of sensationalism, the other Vivek, Vivek Wadhwa, misses the mark in his Washington Post piece The death of open government.
 author: GovFresh
 ---

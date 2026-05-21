@@ -1,6 +1,7 @@
 ---
 title: "Getting out the vote"
 date: 2016-10-05
+modified:
 description: Make sure you're registered to vote.
 author: GovFresh
 ---

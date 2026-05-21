@@ -1,6 +1,7 @@
 ---
 title: "Register for the government 2021 User Experience Summit"
 date: 2021-06-07
+modified:
 description: The U.S. federal government's user experience community of practice is hosting a three-day virtual UX summit June 22-24. 
 author: GovFresh
 ---

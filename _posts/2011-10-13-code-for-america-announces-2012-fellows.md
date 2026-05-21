@@ -1,6 +1,7 @@
 ---
 title: "Code for America announces 2012 Fellows"
 date: 2011-10-13
+modified:
 description: Code for America Founder and Executive Director Jennifer Pahlka announced its 2012 fellows today at the Code for America Summit in San Francisco.
 author: GovFresh
 ---

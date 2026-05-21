@@ -1,6 +1,7 @@
 ---
 title: "Sofman joins SmartProcure as government sector EVP"
 date: 2015-05-19
+modified:
 description: undefined
 author: GovFresh
 ---

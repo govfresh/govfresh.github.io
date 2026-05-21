@@ -1,6 +1,7 @@
 ---
 title: "What if mayors ruled the world?"
 date: 2014-12-03
+modified:
 description: Freakonomics Radio has a great episode on the dynamics of mayors and their ability (compared to governors and presidents) to directly and immediately impact the lives of citizens, primarily because they deal with tactical issues with relatively less political obstacles.
 author: GovFresh
 ---

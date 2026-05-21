@@ -1,6 +1,7 @@
 ---
 title: "Introducing GovPress"
 date: 2014-06-23
+modified:
 description: After several years of talking about and conceptualizing, and months of development, I'm proud to formally (and finally) release GovPress, a simple, elegant WordPress theme for government.
 author: GovFresh
 ---

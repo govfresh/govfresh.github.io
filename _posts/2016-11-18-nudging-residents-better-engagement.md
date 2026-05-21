@@ -1,6 +1,7 @@
 ---
 title: "Nudging residents to better engagement"
 date: 2016-11-18
+modified:
 description: “Behavioral Insights for Cities” offers anecdotes into how governments can improve constituent engagement by implementing smarter messaging and design into print collateral, email, texts and online interactions.
 author: GovFresh
 ---

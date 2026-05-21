@@ -1,6 +1,7 @@
 ---
 title: "iPads and voter registration usability"
 date: 2012-05-11
+modified:
 description: Open Source Digital Voting Foundation’s John Sebes writes about watching new citizens complete voter registration application forms and the associated usability issues, especially for older, less tech-savvy demographic.
 author: GovFresh
 ---

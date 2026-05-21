@@ -1,6 +1,7 @@
 ---
 title: "AGL launches Agile Government Handbook"
 date: 2015-02-05
+modified:
 description: I'm fortunate to engage with many great people on a number of rewarding projects, but the work I’ve been doing on Agile Government Leadership has been particularly fulfilling, both personally and professionally.
 author: GovFresh
 ---

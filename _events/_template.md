@@ -15,7 +15,6 @@ org-link:
 hashtag: #"#"
 img-feat: -feat.png
 img-og: -og.png
-img-twitter: -twitter.png
 img-alt: " logo"
 img-caption: ""
 img-link: 

@@ -1,6 +1,7 @@
 ---
 title: "OpenDataRace Begins in Philadelphia"
 date: 2011-09-19
+modified:
 description: Several months ago, with the unveiling of the OpenDataPhilly website, the City of Philadelphia joined the growing fraternity of cities across the country and around the world to release municipal data sets in open, developer friendly formats.
 author: GovFresh
 ---

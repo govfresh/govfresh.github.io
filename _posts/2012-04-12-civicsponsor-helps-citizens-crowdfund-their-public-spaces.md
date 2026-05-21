@@ -1,6 +1,7 @@
 ---
 title: "CivicSponsor helps citizens crowdfund their public spaces"
 date: 2012-04-12
+modified:
 description: CivicSponsor wants to disrupt the traditional way we fund our public spaces. Here, its three co-founders outline how their new venture aims to help citizens and public servants think outside the taxpayer box.
 author: GovFresh
 ---

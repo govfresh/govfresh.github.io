@@ -1,6 +1,7 @@
 ---
 title: "Neighborly inspiration from CEO Jase Wilson"
 date: 2017-01-04
+modified:
 description: Neighborly CEO Jase Wilson is an inspiring entrepreneur working to change how public projects are funded.
 author: GovFresh
 ---

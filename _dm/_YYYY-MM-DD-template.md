@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: "
 date: YYYY-MM-DD
+modified:
 description: ""
 author: GovFresh
 name: 
@@ -10,24 +11,15 @@ shortname:
 img: .jpg
 img-feat: -dm-feat.png
 img-og: -dm-og.png
-img-twitter: -dm-twitter.png
 img-alt: "Headshot of "
-#img-caption: ""
 email: 
 website: 
-twitter: 
-medium: 
-figma: 
-youtube: 
-vimeo: 
+bluesky: 
+mastodon: 
 linkedin: 
 instagram: 
-facebook: 
 github: 
-flickr: 
-tumblr: 
-amazon: 
-calendar: 
+youtube: 
 rss: 
 category:
   - Accessibility
@@ -44,8 +36,4 @@ category:
   - Open source
   - Policy
   - Procurement
-feature: 
-contributors:
-  - 
 ---
-

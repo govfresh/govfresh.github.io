@@ -1,6 +1,7 @@
 ---
 title: "Phaedra Chrousos retrospects federal government digital service"
 date: 2016-07-12
+modified:
 description: After two years of helping lay a new foundation for how the federal government buys, builds and delivers government digital services, Technology Transformation Service Commissioner Phaedra Chrousos announced she is stepping down. I asked Chrousos to share some parting thoughts.
 author: GovFresh
 ---

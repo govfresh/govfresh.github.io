@@ -1,6 +1,7 @@
 ---
 title: "San Francisco seeks chief data officer"
 date: 2013-09-28
+modified:
 description: After nearly a year since it first announced proposed open data legislation that included the creation of a city chief data officer, San Francisco has officially posted the position.
 author: GovFresh
 ---

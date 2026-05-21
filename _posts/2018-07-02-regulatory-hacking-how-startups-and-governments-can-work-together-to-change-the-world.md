@@ -1,6 +1,7 @@
 ---
 title: "'Regulatory Hacking': How startups and governments can work together to change the world"
 date: 2018-07-02
+modified:
 description: To win in the Regulatory Era, founders, funders, executives, and policymakers will need to get smart about regulatory hacking.
 author: GovFresh
 ---

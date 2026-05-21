@@ -1,6 +1,7 @@
 ---
 title: "The seeds of a federal government software-as-as-service digital platform?"
 date: 2016-09-08
+modified:
 description: With the release of a new identity management platform, 18F is slowly culling together all the requisite pieces for an easy-to-deploy, cloud-based federal government web management platform.
 author: GovFresh
 ---

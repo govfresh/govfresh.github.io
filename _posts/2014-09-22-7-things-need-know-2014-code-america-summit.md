@@ -1,6 +1,7 @@
 ---
 title: "7 things you need to know about the 2014 Code for America Summit"
 date: 2014-09-22
+modified:
 description: undefined
 author: GovFresh
 category:

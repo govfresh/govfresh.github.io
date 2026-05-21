@@ -1,6 +1,7 @@
 ---
 title: "Improve San Francisco from inside City Hall"
 date: 2012-11-01
+modified:
 description: Recognizing that good ideas are found outside City Hall, San Francisco Mayor Ed Lee is giving you an opportunity to join him and his team of innovators inside City Hall.
 author: GovFresh
 ---

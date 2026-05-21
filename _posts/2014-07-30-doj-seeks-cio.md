@@ -1,6 +1,7 @@
 ---
 title: "DOJ seeks CIO"
 date: 2014-07-30
+modified:
 description: The U.S. Department of Justice is looking for a chief information officer.
 author: GovFresh
 ---

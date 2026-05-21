@@ -1,6 +1,7 @@
 ---
 title: "A few ways to fix a government"
 date: 2017-10-04
+modified:
 description: IBM Research Manager Charity Wayua’s “A few ways to fix a government” talk is an inspirational example of how government (and its partners) can — when tasked with goals and measurable results — leverage user and data analytics research to successfully create better results for those it serves.
 author: GovFresh
 ---

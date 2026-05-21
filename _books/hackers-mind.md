@@ -4,7 +4,6 @@ description: "How the Powerful Bend Society’s Rules, and How to Bend them Back
 img-book: hackers-mind.jpg
 img-feat: hackers-mind-feat.png
 img-og: hackers-mind-og.png
-img-twitter: hackers-mind-twitter.png
 img-alt: "Cover of A Hacker's Mind"
 book-author: Bruce Schneier
 published: February 2023

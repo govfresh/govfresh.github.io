@@ -1,6 +1,7 @@
 ---
 title: "The power of digital governments around the globe"
 date: 2017-01-03
+modified:
 description: With the advent of artificial intelligence, augmented reality, smart sensors and the Internet of Things, the digital and physical worlds have become more integrated than ever.
 author: GovFresh
 category:

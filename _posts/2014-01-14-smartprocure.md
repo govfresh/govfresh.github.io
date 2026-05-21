@@ -1,6 +1,7 @@
 ---
 title: "Startup.civ: SmartProcure"
 date: 2014-01-14
+modified:
 description: SmartProcure is a government purchasing database that helps agencies improve purchasing decisions and vendors win more government business.
 author: GovFresh
 ---

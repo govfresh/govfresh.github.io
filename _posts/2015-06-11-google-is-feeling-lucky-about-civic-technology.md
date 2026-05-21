@@ -1,6 +1,7 @@
 ---
 title: "Google is feeling lucky about civic technology"
 date: 2015-06-11
+modified:
 description: Google has launched Sidewalk Labs, an “urban innovation company devoted to improving city life for residents, businesses and city governments, in particular by developing and incubating civic technologies.”
 author: GovFresh
 ---

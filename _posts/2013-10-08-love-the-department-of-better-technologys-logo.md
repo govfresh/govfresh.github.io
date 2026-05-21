@@ -1,6 +1,7 @@
 ---
 title: "Love the Department of Better Technology's logo"
 date: 2013-10-08
+modified:
 description: undefined
 author: GovFresh
 ---

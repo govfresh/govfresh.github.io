@@ -1,6 +1,7 @@
 ---
 title: "Mobile democracy: How governments can promote equality, participation and customer service"
 date: 2011-09-21
+modified:
 description: There’s a lot more to democratic government than holding elections and town hall meetings.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Nextdoor now lets neighbors poll one another, better quantify results"
 date: 2015-03-11
+modified:
 description: The fast-growing, neighborhood-based community platform Nextdoor has launched a new feature, Nextdoor Polls, that now allows neighbors to easily ask one another questions and quantify the results.
 author: GovFresh
 ---

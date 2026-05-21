@@ -1,11 +1,11 @@
 ---
 title: "Open Source AI Definition"
 date: 2025-01-21
+modified:
 description: "GovFresh research notes on the Open Source Institute's Open Source AI Definition."
 author: GovFresh
 img-feat: research-open-source-ai-definition-feat.png
 img-og: research-open-source-ai-definition-feat.png
-img-twitter: research-open-source-ai-definition-feat.png
 img-alt: "Robot icon"
 img-caption: "Robot icon via Font Awesome"
 img-link: https://fontawesome.com/

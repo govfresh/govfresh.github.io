@@ -1,6 +1,7 @@
 ---
 title: "Join us at the 2014 Code for America Summit"
 date: 2014-08-13
+modified:
 description: The 2014 Code for America Summit is set for September 23-24 and registration is now open.
 author: GovFresh
 ---

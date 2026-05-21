@@ -1,6 +1,7 @@
 ---
 title: "How the open data community died"
 date: 2011-12-02
+modified:
 description: Here’s a presentation that Openly Local‘s Chris Taggart gave during the 2011 Open Government Data Camp in Warsaw.
 author: GovFresh
 ---

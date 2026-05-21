@@ -1,6 +1,7 @@
 ---
 title: "Time for government to plug into one platform?"
 date: 2011-08-11
+modified:
 description: In a new blog post, Gartner's Andrea Di Maio asks if it's time to pull the plug on government Websites?
 author: GovFresh
 ---

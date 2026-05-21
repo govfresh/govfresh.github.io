@@ -1,6 +1,7 @@
 ---
 title: "NSA challenges students to test their cyber skills in mock national security exercise"
 date: 2019-09-23
+modified:
 description: The National Security Agency will host a “cyber-challenge similar to those that regularly threaten national security,” open to students at any U.S. based academic institution. The exercise will run from September 20, 2019 to January 10, 2020.
 author: GovFresh
 ---

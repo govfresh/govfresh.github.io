@@ -1,6 +1,7 @@
 ---
 title: "Data Challenge Spotlight: Visualizing Health Reform"
 date: 2012-11-15
+modified:
 description: Visualizing Health Reform is the go-to source for factual, easy-to-understand information on health care reform in Illinois.
 author: GovFresh
 ---

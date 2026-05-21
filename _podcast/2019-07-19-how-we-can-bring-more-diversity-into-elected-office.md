@@ -3,6 +3,7 @@ title: "How we can bring more diversity into elected office"
 description: The Government We Need talks with Run for Something’s Sarah Horvitz about the changing face of local politics and how to elect diverse representation.
 excerpt: The Government We Need talks with Run for Something’s Sarah Horvitz about the changing face of local politics and how to elect diverse representation.
 date: 2019-07-25
+modified:
 topics:
 author: The Government We Need
 tgwn: yes

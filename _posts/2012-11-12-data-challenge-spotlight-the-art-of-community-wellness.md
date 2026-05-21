@@ -1,6 +1,7 @@
 ---
 title: "Data Challenge Spotlight: The Art of Community Wellness"
 date: 2012-11-12
+modified:
 description: undefined
 author: GovFresh
 ---

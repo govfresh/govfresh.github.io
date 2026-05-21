@@ -1,6 +1,7 @@
 ---
 title: "Inside the new BART.gov"
 date: 2014-01-28
+modified:
 description: Bay Area Rapid Transit Web Services Manager Timothy Moore discusses the recent upgrade of its flagship website, BART.gov, including a Drupal migration, embracing agile development, encouraging third-party developers to build off its open data and APIs, and plans for the future.
 author: GovFresh
 ---

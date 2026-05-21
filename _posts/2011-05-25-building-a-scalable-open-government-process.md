@@ -1,6 +1,7 @@
 ---
 title: "Building a scalable open government process"
 date: 2011-05-25
+modified:
 description: Much of the energy and effort around open government to date has literally been hacked together or leans towards a reactive, transparency watchdog approach to getting government to be more extroverted. 
 author: GovFresh
 category:

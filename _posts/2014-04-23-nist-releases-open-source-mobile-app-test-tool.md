@@ -1,6 +1,7 @@
 ---
 title: "NIST releases open source mobile app test tool"
 date: 2014-04-23
+modified:
 description: The National Institute of Standards and Technology has released an open source tool, AppVet, that makes it easier for agencies to test mobile applications security and reliability. 
 author: GovFresh
 ---

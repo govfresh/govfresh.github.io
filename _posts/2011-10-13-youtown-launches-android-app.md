@@ -1,6 +1,7 @@
 ---
 title: "YouTown launches Android app"
 date: 2011-10-13
+modified:
 description: Civic mobile app YouTown is now available in the Android Market.
 author: GovFresh
 ---

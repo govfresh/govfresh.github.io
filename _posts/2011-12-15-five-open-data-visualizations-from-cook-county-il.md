@@ -1,6 +1,7 @@
 ---
 title: "Five open data visualizations from Cook County (IL)"
 date: 2011-12-15
+modified:
 description: Here are five visualizations from the new Cook County (IL) open data catalog.
 author: GovFresh
 ---

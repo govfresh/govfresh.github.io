@@ -3,6 +3,7 @@ title: "How government can bring mindfulness to law enforcement"
 description: The Government We Need talks with Mindful Badge's Richard Goerling about mindful policing.
 excerpt: The Government We Need talks with Mindful Badge's Richard Goerling about mindful policing.
 date: 2021-12-20
+modified:
 topics:
 author: The Government We Need
 tgwn: yes

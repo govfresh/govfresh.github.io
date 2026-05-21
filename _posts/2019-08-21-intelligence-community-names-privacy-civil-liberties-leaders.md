@@ -1,6 +1,7 @@
 ---
 title: "Intelligence community names privacy, civil liberties leaders"
 date: 2019-08-21
+modified:
 description: ODNI and CIA named new leaders of their respective privacy, civil liberty units.
 author: GovFresh
 ---

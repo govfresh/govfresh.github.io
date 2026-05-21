@@ -1,6 +1,7 @@
 ---
 title: "New FCC CIO launches blog, joins Twitter"
 date: 2013-10-22
+modified:
 description: Federal Communications Commission Chief Information Officer David Bray announced Tuesday a new blog, Twitter handle and hashtag in an effort to open up communications on the agency's technology strategy and operations.
 author: GovFresh
 ---

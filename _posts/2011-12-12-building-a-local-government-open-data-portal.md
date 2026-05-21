@@ -1,6 +1,7 @@
 ---
 title: "Building a local government open data portal"
 date: 2011-12-12
+modified:
 description: Gov 2.0 Radio hosts Adriel Hampton and Allison Hornery talked with Cook County Deputy Director of New Media Sebastian James about the launch of Data.cookcountyil.gov.
 author: GovFresh
 ---

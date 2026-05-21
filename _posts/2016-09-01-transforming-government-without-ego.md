@@ -1,6 +1,7 @@
 ---
 title: "Transforming government without ego"
 date: 2016-09-01
+modified:
 description: Many of us are attracted to practices that move us towards that place of intense joy that comes from being present. In my field, technology, both Free and Open Source development and agile practices have offered me, and many others, a path towards a similar joy.
 author: GovFresh
 ---

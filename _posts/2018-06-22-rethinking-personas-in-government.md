@@ -1,6 +1,7 @@
 ---
 title: "Rethinking personas in government"
 date: 2018-06-22
+modified:
 description: Effective use of personas must be taken seriously when designing truly inclusive public services.
 author: GovFresh
 ---

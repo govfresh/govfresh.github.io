@@ -1,6 +1,7 @@
 ---
 title: "'10% Happier' government"
 date: 2017-09-28
+modified:
 description: I’ve listened to several “10% Happier with Dan Harris” podcasts recently, and there are several great ones that feature leaders in politics, law enforcement, corrections, the judiciary and military.
 author: GovFresh
 ---

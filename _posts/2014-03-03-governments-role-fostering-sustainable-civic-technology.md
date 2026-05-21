@@ -1,6 +1,7 @@
 ---
 title: "Government's role in fostering sustainable civic technology"
 date: 2014-03-03
+modified:
 description: In a new blog post, Philadelphia Chief Data Officer Mark Headd shares his thoughts on what it will take to make civic technology sustainable, including government insisting on open source software solutions.
 author: GovFresh
 ---

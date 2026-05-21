@@ -1,6 +1,7 @@
 ---
 title: "Delaware wants your help redesigning its next website"
 date: 2013-10-08
+modified:
 description: undefined
 author: GovFresh
 ---

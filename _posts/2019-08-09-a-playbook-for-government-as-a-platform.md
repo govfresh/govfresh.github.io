@@ -1,6 +1,7 @@
 ---
 title: "A playbook for government as a platform"
 date: 2019-08-09
+modified:
 description: There seems to be a playbook for all things digital government, and now there's the "Government as a Platform Playbook" that provides deeper insight into the wonky word technologists often use to describe a more exponential approach to government service delivery.
 author: GovFresh
 category:

@@ -1,6 +1,7 @@
 ---
 title: "Building software for better public meetings"
 date: 2018-07-05
+modified:
 description: Traditional government meetings software, used to publish agendas, minutes, and livestream and archive videos, are in dire need of a modern, affordable upgrade.
 author: GovFresh
 category:

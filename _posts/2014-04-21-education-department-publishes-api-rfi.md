@@ -1,6 +1,7 @@
 ---
 title: "Education Department wants your ideas on open data, APIs"
 date: 2014-04-21
+modified:
 description: The U.S. Department of Education has published a request for information asking for public feedback on how the agency can innovate with open data, particularly application programming interfaces.
 author: GovFresh
 ---

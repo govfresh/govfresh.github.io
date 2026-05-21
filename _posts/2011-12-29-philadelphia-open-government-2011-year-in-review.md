@@ -1,6 +1,7 @@
 ---
 title: "Philadelphia Open Government 2011 Year in Review"
 date: 2011-12-29
+modified:
 description: The time of year-end reviews and top 10 lists is now upon us, so I’m compiling the details of a watershed year for open data and civic hacking in two cities where I’ve seen huge leaps made in 2011 - Philadelphia and Baltimore.
 author: GovFresh
 ---

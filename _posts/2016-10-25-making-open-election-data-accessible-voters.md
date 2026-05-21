@@ -1,6 +1,7 @@
 ---
 title: "Making open election data more accessible to voters"
 date: 2016-10-25
+modified:
 description: Having access to timely and comprehensive election data is fundamental to democracy.
 author: GovFresh
 ---

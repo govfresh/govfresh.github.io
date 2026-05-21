@@ -4,7 +4,6 @@ description: "The Secret Military History of the Internet"
 img-book: surveillance-valley.jpg
 img-feat: surveillance-valley.jpg
 img-og: surveillance-valley.jpg
-img-twitter: surveillance-valley.jpg
 img-alt: "Surveillance Valley cover"
 book-author: Yasha Levine
 published: 2018

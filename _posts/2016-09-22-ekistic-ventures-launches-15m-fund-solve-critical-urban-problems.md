@@ -1,6 +1,7 @@
 ---
 title: "Ekistic Ventures launches $15M fund to 'solve critical urban problems'"
 date: 2016-09-22
+modified:
 description: Adding to the increased interest in investment opportunities around civic and government technology, a new venture fund, Ekistic Ventures, launched with the intent of “building a portfolio of companies that will solve critical urban problems.”
 author: GovFresh
 ---

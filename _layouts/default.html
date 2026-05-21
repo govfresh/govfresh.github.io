@@ -5,8 +5,11 @@ layout: default
 {% include nav.html %}
 <main id="main-content">
   {% include jumbotron.html %}
+  <wa-divider class="mb-4"></wa-divider>
   <div class="container">
-    {{ content }}
+    <div class="default-body">
+      {{ content }}
+    </div>
   </div>
 </main>
 {% include analytics.html %}

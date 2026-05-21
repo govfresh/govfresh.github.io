@@ -1,6 +1,7 @@
 ---
 title: "How government can share and re-purpose open source civic software"
 date: 2012-01-06
+modified:
 description: Civic Commons Director Nick Grossman and 2011 Code for America Fellow Jeremy Canfield give an overview of the new Civic Commons Marketplace, a repository and apps showcase for open source civic and government development projects.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Biden nominates Robin Carnahan to be next GSA administrator"
 date: 2021-04-06
+modified:
 description: President Biden has nominated digital government innovator Robin Carnahan as the next administrator of General Services Administration.
 author: GovFresh
 ---

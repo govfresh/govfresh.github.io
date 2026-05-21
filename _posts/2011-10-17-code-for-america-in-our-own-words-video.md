@@ -1,6 +1,7 @@
 ---
 title: "Code for America: 'In our own words' (VIDEO)"
 date: 2011-10-17
+modified:
 description: Excellent Code for America video featuring the 2011 fellows discussing their work and CfA mission.
 author: GovFresh
 ---

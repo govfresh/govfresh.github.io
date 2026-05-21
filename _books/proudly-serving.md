@@ -9,14 +9,12 @@ email: proudlyservingbook@gmail.com
 website: https://proudlyservingbook.com
 subscribe: https://proudlyserving.substack.com/
 patreon: 
-twitter: https://twitter.com/proudly_serving
 medium: 
 figma: https://www.figma.com/@proudlyserving
 youtube: 
 vimeo: 
 linkedin: https://www.linkedin.com/company/proudlyserving
 instagram: 
-facebook: 
 github: https://github.com/proudlyserving/book
 flickr: 
 tumblr: 

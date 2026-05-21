@@ -1,6 +1,7 @@
 ---
 title: "SF developers, public servants pitch their civic tents at CityCampSF"
 date: 2011-06-21
+modified:
 description: If there's one lesson that's  inherent to CityCampSF, it's that crowdsourcing will save the world.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Georgia.gov has Drupal on its mind"
 date: 2011-09-14
+modified:
 description: The next iteration of Georgia.gov will be built using the open source platform Drupal.
 author: GovFresh
 ---

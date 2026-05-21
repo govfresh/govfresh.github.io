@@ -1,6 +1,7 @@
 ---
 title: "Five strategies to revive civic communication from The Aspen Institute, Knight Foundation"
 date: 2011-07-20
+modified:
 description: "Last March, the Aspen Institute and John S. and James L. Knight Foundation released the white paper Civic Engagement and Community Information: Five Strategies to Revive Civic Communication."
 author: GovFresh
 ---

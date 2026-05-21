@@ -1,6 +1,7 @@
 ---
 title: "e.Republic announces top 100 government technology companies for 2017"
 date: 2017-01-05
+modified:
 description: Government Technology and e.Republic Labs announced the 2017 GovTech100, “a listing of the leading 100 companies focused on government as a customer, having developed an innovative or disruptive offering to improve or transform government, or having created new models for delivering services.”
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Retrospecting agile government"
 date: 2015-09-17
+modified:
 description: Last week, I was in New Orleans for the CivicActions corporate retreat, and presented to the team on the work done around Agile Government Leadership, and I wanted to share some of this here because, while there’s still much to do around changing government project management practices, we’ve accomplished a great deal over the past 18 months since its inception.
 author: GovFresh
 ---

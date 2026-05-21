@@ -1,6 +1,7 @@
 ---
 title: "USDS publishes design standards for federal government websites"
 date: 2015-09-23
+modified:
 description: The U.S. Digital Service has soft-launched new U.S. Web Design Standards to “create consistency and beautiful user experiences across U.S. federal government websites.”
 author: GovFresh
 ---

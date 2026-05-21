@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Andrew Hening"
 date: 2022-08-03
+modified:
 description: "Civic innovator, systems changer, homelessness ender"
 author: GovFresh
 name: Andrew Hening
@@ -13,19 +14,11 @@ img-alt: Andrew Hening
 #img-caption: ""
 email: andrew@heningconsulting.com
 website: https://www.howtosolvehomelessness.org
-twitter: 
-medium:
-figma:
-youtube:
-vimeo:
+
 linkedin: https://www.linkedin.com/in/andrewhening/
-instagram:
-facebook:
-github:
-flickr:
-tumblr:
+
 amazon: https://www.amazon.com/dp/B0B38CX8K8/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1654918089&sr=8-1
-rss:
+
 category:
   - Inclusion
 share-twitter: https://twitter.com/govfresh/status/1554914940250513410?s=20&t=uO9KEBiN7hKeys9t1tXwyw

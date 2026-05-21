@@ -1,6 +1,7 @@
 ---
 title: "SF reboots open data efforts"
 date: 2014-06-20
+modified:
 description: It took a while for San Francisco to get a serious open data effort off the ground, but now that new chief data officer Joy Bonaguro has had some time to take lay of the land, she's ready to roll. 
 author: GovFresh
 ---

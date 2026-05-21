@@ -7,7 +7,6 @@ author: GovFresh
 description: "What's on our radar."
 img-feat: signal-feat.png
 img-og: signal-og.png
-img-twitter: signal-twitter.png
 img-alt: "Icon of satellite dish"
 img-caption: "Satellite dish icon via Font Awesome"
 img-link: https://fontawesome.com

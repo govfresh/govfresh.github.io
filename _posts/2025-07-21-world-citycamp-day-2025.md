@@ -6,7 +6,6 @@ author: GovFresh
 description: "A global movement of community-focused events that foster civic collaboration and innovation"
 img-feat: citycamp-feat.png
 img-og: citycamp-og.png
-img-twitter: citycamp-og.png
 img-alt: "CityCamp logo"
 #img-caption: ""
 #img-link: 

@@ -1,6 +1,7 @@
 ---
 title: "Bloomberg commits $42 million to scale government performance management, open data"
 date: 2015-08-12
+modified:
 description: As part of a new What Works Cities initiative, Bloomberg Philanthropies announced a $42 million effort to help 100 U.S. cities "elevate and accelerate" their "use of data and evidence to engage citizens, make government more effective, and improve people’s lives."
 author: GovFresh
 ---

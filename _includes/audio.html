@@ -13,6 +13,15 @@
         <source src="{{ page.audio }}" type="audio/mpeg">
       {% endif %}
     </audio>
+    {% if page.layout == "podcast" %}
+      <div class="wa-cluster wa-gap-l pb-3 mt-2">
+        {% for item in site.data.subscribe-podcast.docs %}
+          <a href="{{ item.url }}" aria-label="{{ item.title }}" class="listen-link">
+            <i class="{{ item.icon }} {{ site.data.connect.sm }}"></i>
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
     <script src="{{ site.baseurl }}/js/plyr.js" defer></script>
     <script src="{{ site.baseurl }}/js/audio-init.js" defer></script>
   </div>

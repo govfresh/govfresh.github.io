@@ -1,6 +1,7 @@
 ---
 title: "Beta government"
 date: 2016-02-10
+modified:
 description: The beta period has eliminated the fear associated with the a big launch. Knowing that beta is the beginning of a collaborative process eases that fear and creates a feedback culture that is much-needed in digital government innovation.
 author: GovFresh
 ---

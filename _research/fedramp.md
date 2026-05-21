@@ -1,11 +1,11 @@
 ---
 title: "FedRAMP"
 date: 2024-10-07
+modified:
 description: "GovFresh research notes on the Federal Risk and Authorization Management Program."
 author: GovFresh
 img-feat: research-fedramp-feat.png
 img-og: research-fedramp-feat.png
-img-twitter: research-fedramp-feat.png
 img-alt: "Cloud icon"
 img-caption: "Cloud icon via Font Awesome"
 img-link: https://fontawesome.com/

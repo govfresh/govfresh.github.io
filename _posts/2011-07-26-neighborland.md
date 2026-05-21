@@ -1,6 +1,7 @@
 ---
 title: "Here comes the Neighborland"
 date: 2011-07-26
+modified:
 description: Neighborland is a new ideation crowdsourcing startup that gives citizens a "fun and easy way for residents to suggest new businesses and services that they want in their neighborhood."
 author: GovFresh
 ---

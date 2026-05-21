@@ -1,6 +1,7 @@
 ---
 title: "White House joins with 11 cities for 'Startup in a Day' initiative to help businesses launch faster"
 date: 2015-06-11
+modified:
 description: In an effort to help entrepreneurs get businesses legally established without the red tape hassle, the White House, Small Business Administration and National League of Cities are rallying cities to provide simpler online tools and processes for those applying for licenses and permits.
 author: GovFresh
 ---

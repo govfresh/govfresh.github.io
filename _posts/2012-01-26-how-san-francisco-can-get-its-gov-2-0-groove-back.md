@@ -1,6 +1,7 @@
 ---
 title: "How San Francisco can get its gov 2.0 groove back"
 date: 2012-01-26
+modified:
 description: There’s been a great deal of discussion lately around the topic of government innovation, especially here in San Francisco, with the appointment of a new chief innovation officer, a new “civic accelerator,” a new venture with a consortium of Bay Area technology companies and a new technology and innovation task force led by SF Mayor Ed Lee.
 author: GovFresh
 ---

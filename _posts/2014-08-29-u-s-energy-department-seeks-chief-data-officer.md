@@ -1,6 +1,7 @@
 ---
 title: "U.S. Energy Department seeks chief data officer"
 date: 2014-08-29
+modified:
 description: The U.S. Department of Energy is looking for a chief data officer.
 author: GovFresh
 ---

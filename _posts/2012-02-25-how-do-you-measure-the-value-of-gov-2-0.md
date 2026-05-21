@@ -1,6 +1,7 @@
 ---
 title: "How do you measure the value of Gov 2.0?"
 date: 2012-02-25
+modified:
 description: Creating sustainable, meaningful civic contributions to government is something I’ve addressed before, and it’s something that continues to elude us in the form of civic applications and hackathons, despite the overwhelming attention given to each.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "How you can follow and discuss government technology news using HashtagGov"
 date: 2015-12-09
+modified:
 description: I’ve been using Slack for a while now to follow government and civic technology news and, while it’s mostly a tool for team communications, the integrations features make it a great way to manage and digest a lot of information.
 author: GovFresh
 category:

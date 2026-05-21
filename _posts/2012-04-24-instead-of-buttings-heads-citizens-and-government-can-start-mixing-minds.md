@@ -1,6 +1,7 @@
 ---
 title: "Instead of butting heads, citizens and government can start mixing minds"
 date: 2012-04-24
+modified:
 description: MindMixer is working with the San Francisco, Los Angeles and other local communities to help crowdsource ideas for civic improvement. CEO and Co-Founder Nick Bowden discusses his venture and the value of government-citizen collaboration.
 author: GovFresh
 ---

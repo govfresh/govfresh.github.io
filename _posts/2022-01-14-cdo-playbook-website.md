@@ -1,6 +1,7 @@
 ---
 title: "Hacking the chief data officers playbook"
 date: 2022-01-14
+modified:
 description: "Making it more accessible, and suggestions for the CDO Council."
 author: Luke Fretwell
 img: civic-hacking-header.png

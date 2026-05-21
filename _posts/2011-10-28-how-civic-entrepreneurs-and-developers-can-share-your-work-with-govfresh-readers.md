@@ -1,6 +1,7 @@
 ---
 title: "How civic entrepreneurs and developers can share your work with GovFresh readers"
 date: 2011-10-28
+modified:
 description: I regularly get emails from start-ups, entrepreneurs and developers who ask to get their products featured on GovFresh.
 author: GovFresh
 ---

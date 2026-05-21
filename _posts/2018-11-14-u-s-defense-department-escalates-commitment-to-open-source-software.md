@@ -1,6 +1,7 @@
 ---
 title: "U.S. Defense Department escalates commitment to open source software"
 date: 2018-11-14
+modified:
 description: The U.S. Defense Department is escalating its commitment to open source software with a proactive push for agency participation to publicly share custom-developed code.
 author: GovFresh
 ---

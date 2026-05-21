@@ -4,7 +4,6 @@ shortname: ""
 description: "."
 img-feat: -labs-feat.png
 img-og: -labs-og.png
-img-twitter: -labs-twitter.png
 img-alt: " logo"
 website: 
 github: 

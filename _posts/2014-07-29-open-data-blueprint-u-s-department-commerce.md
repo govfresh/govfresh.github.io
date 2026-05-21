@@ -1,6 +1,7 @@
 ---
 title: "An open data blueprint for the U.S. Department of Commerce"
 date: 2014-07-29
+modified:
 description: U.S. Secretary of Commerce Penny Pritzker recently announced the Department of Commerce will hire its first-ever chief data officer. I wanted to make sure that when this new and extremely important individual assumes their role, they have my latest thoughts on how to make the Department of Commerce developer portal the best it possibly can be, because this will be the driving force behind the rapidly expanding API driven economy.
 author: GovFresh
 ---

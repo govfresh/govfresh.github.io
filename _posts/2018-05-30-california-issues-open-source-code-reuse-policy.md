@@ -1,6 +1,7 @@
 ---
 title: "California issues open source, code reuse policy"
 date: 2018-05-30
+modified:
 description: The California Department of Technology has set a new standard for state government technology offices, releasing an open source and code reuse policy “to better support cost efficiency, effectiveness, and the public’s experience with government programs.”
 author: GovFresh
 ---

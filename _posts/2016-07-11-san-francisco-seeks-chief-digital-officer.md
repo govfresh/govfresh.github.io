@@ -1,6 +1,7 @@
 ---
 title: "San Francisco seeks chief digital services officer to lead online strategy, execution"
 date: 2016-07-11
+modified:
 description: San Francisco announced the creation of a new internal digital agency and is looking for a chief digital services officer to lead its efforts.
 author: GovFresh
 ---

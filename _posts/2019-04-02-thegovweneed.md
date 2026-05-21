@@ -1,6 +1,7 @@
 ---
 title: "Podcast idea (call for collaboration): The Government We Need"
 date: 2019-04-02
+modified:
 description: Two years ago, I had an idea for a podcast that focused on the whole of government, and how big thinkers are re-imagining and changing how civil society operates along the civic spectrum.
 author: GovFresh
 category:

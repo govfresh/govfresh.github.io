@@ -1,11 +1,11 @@
 ---
 title: ""
 date: YYYY-MM-DD
+modified:
 description: "GovFresh research notes on ."
 author: GovFresh
 img-feat: research--feat.png
 img-og: research--feat.png
-img-twitter: research--feat.png
 img-alt: " icon"
 img-caption: " via Font Awesome"
 img-link: https://fontawesome.com/

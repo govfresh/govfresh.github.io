@@ -1,6 +1,7 @@
 ---
 title: "Register and learn how Salt Lake City is going agile"
 date: 2015-03-24
+modified:
 description: undefined
 author: GovFresh
 ---

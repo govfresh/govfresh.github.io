@@ -1,6 +1,7 @@
 ---
 title: "Reinventing government procurement"
 date: 2014-07-30
+modified:
 description: Reinventors is hosting a live, online government procurement roundtable with key nonprofit, business and media leaders on Thursday, July 31, 2014, at 11:00 a.m. PT.
 author: GovFresh
 ---

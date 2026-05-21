@@ -13,15 +13,12 @@ calendar: &calendar "fa-solid fa-calendar"
 subscribe: &subscribe "fa-solid fa-envelope-open-text"
 bluesky: &bluesky "fab fa-bluesky"
 patreon: &patreon "fab fa-patreon"
-twitter: &twitter "fab fa-x-twitter"
 linkedin: &linkedin "fab fa-linkedin-in"
-facebook: &facebook "fab fa-facebook"
 github: &github "fab fa-github"
 medium: &medium "fab fa-medium"
 youtube: &youtube "fab fa-youtube"
 vimeo: &vimeo "fab fa-vimeo"
 instagram: &instagram "fa-brands fa-instagram"
-threads: &threads "fa-brands fa-threads"
 flickr: &flickr "fab fa-flickr"
 figma: &figma "fab fa-figma"
 tumblr: &tumblr "fab fa-tumblr"
@@ -44,9 +41,9 @@ docs:
 #    url: 
 #    icon: *website
 
-#  - name: Email
-#    url: 
-#    icon: *email
+  - name: Email
+    url: contact@govfresh.com
+    icon: *email
 
   - name: Subscribe
     url: https://govfresh.com/subscribe
@@ -64,17 +61,9 @@ docs:
     url: https://mastodon.social/@govfresh
     icon: *mastodon
 
-  - name: X 
-    url: https://x.com/govfresh
-    icon: *twitter
-
   - name: YouTube
     url: https://www.youtube.com/@GovFresh
     icon: *youtube
-
-  - name:  Facebook
-    url: https://www.facebook.com/govfresh
-    icon: *facebook
 
 #  - name: Discord
 #    url: 
@@ -91,10 +80,6 @@ docs:
   - name: Instagram
     url: https://instagram.com/govfresh
     icon: *instagram
-
-  - name: Threads
-    url: https://www.threads.net/@govfresh
-    icon: *threads
 
 #  - name: Flickr
 #    url: 

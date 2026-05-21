@@ -2,10 +2,10 @@
 title: "The Tech Coup"
 description: "How to Save Democracy from Silicon Valley"
 date: 2025-02-11
+modified:
 img-book: the-tech-coup.jpg
 img-feat: the-tech-coup-feat.png
 img-og: the-tech-coup-og.png
-img-twitter: the-tech-coup-twitter.png
 img-alt: "Cover of The Tech Coup: How to Save Democracy from Silicon Valley"
 book-author: Marietje Schaake
 published: September 2024

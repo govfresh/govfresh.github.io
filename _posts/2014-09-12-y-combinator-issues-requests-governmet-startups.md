@@ -1,6 +1,7 @@
 ---
 title: "Y Combinator issues request for government-focused startups"
 date: 2014-09-12
+modified:
 description: Y Combinator posted a list of sectors it's interested in hearing pitches from in a "request for startups" that includes government-focused ventures.
 author: GovFresh
 ---

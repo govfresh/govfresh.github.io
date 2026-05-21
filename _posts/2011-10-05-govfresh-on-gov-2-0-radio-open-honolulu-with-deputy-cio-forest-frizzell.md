@@ -1,6 +1,7 @@
 ---
 title: "GovFresh on Gov 2.0 Radio: Open Honolulu with Deputy CIO Forest Frizzell"
 date: 2011-10-05
+modified:
 description: Honolulu Deputy Chief Information Officer Forest Frizzell joins GovFresh founder Luke Fretwell for the inaugural episode of GovFresh on Gov 2.0 Radio to discuss Honolulu open government and Gov 2.0, CityCamp Honolulu and the city’s upcoming partnership with Code for America.
 author: GovFresh
 ---

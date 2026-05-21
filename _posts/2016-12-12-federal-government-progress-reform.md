@@ -1,6 +1,7 @@
 ---
 title: "Federal government progress in IT reform"
 date: 2016-12-12
+modified:
 description: The U.S. Government Accountability Office released a status report on federal government technology reform progress, and it's an insightful read more than anything on the the lack of synchronization between agencies and GAO.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "How to watch the historic SpaceX NASA flight launch"
 date: 2020-05-26
+modified:
 description: Liftoff for the much-hyped SpaceX test flight of NASA’s Commercial Crew Program is scheduled for Wednesday, May 27, at 4:33 p.m. Eastern Daylight Time.
 author: GovFresh
 ---

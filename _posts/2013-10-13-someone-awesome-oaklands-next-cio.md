@@ -1,6 +1,7 @@
 ---
 title: "Someone awesome can be Oakland's next CIO"
 date: 2013-10-13
+modified:
 description: undefined
 author: GovFresh
 ---

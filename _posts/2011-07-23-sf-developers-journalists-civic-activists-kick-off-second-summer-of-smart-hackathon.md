@@ -1,6 +1,7 @@
 ---
 title: "SF developers, journalists, civic activists kick off second Summer of Smart hackathon"
 date: 2011-07-23
+modified:
 description: It's 9:15 on Friday night, and there are about 100 people milling around the GAAFTA headquarters.
 author: GovFresh
 ---

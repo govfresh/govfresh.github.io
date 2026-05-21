@@ -1,6 +1,7 @@
 ---
 title: "Inclusive government forms"
 date: 2018-07-09
+modified:
 description: Governments must take a proactive lead on inclusivity, making all members of the communities they serve feel welcome in their interactions with them. Being mindful of these identity-related form fields, opting out of their use when they are irrelevant, is a critical step towards showing government is for everyone.
 author: GovFresh
 category:

@@ -1,6 +1,7 @@
 ---
 title: "OpenGov Camp hits the Big Apple"
 date: 2011-06-01
+modified:
 description: undefined
 author: GovFresh
 ---

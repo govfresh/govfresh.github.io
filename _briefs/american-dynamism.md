@@ -1,11 +1,11 @@
 ---
 title: "American Dynamism"
 date: 2024-12-03
+modified:
 description: "A brief-ish explainer of Andreessen Horowitz's American Dynamism."
 author: Luke Fretwell
 img-feat: brief-american-dynamism-feat.png
 img-og: brief-american-dynamism-og.png
-img-twitter: brief-american-dynamism-twitter.png
 img-alt: "American flag and sparkles icons"
 img-caption: "American flag and sparkles icons via OpenMoji"
 img-link: https://openmoji.org/

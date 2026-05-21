@@ -1,6 +1,7 @@
 ---
 title: "For GovHub, all politics is personal"
 date: 2012-04-11
+modified:
 description: When no one in Nick Gaines' UC Berkeley freshman political science class could answer the question “Who is your state senator?," he tuned in, dropped out and started GovHub with co-founder Adam Becker.
 author: GovFresh
 ---

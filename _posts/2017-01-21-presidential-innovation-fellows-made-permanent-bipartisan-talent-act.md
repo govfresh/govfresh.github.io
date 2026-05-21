@@ -1,6 +1,7 @@
 ---
 title: "Presidential Innovation Fellows made permanent through bipartisan TALENT Act"
 date: 2017-01-21
+modified:
 description: As of 20 January, President Obama signed the TALENT Act of 2017 (H.R.39) into law as one of his last acts as President.
 author: GovFresh
 category:

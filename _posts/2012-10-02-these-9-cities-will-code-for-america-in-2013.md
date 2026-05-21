@@ -1,6 +1,7 @@
 ---
 title: "These 9 cities will Code for America in 2013"
 date: 2012-10-02
+modified:
 description: Code for America announced the 9 cities that will participate in its 2013 fellowship program.
 author: GovFresh
 ---

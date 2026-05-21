@@ -1,6 +1,7 @@
 ---
 title: "How government can empower citizens in the redistricting process"
 date: 2012-02-15
+modified:
 description: In January 2011, Michael McDonald and Micah Altman founded the Public Mapping Project and began building the open source platform DistrictBuilder to give citizens more of a say in the redistricting process.
 author: GovFresh
 ---

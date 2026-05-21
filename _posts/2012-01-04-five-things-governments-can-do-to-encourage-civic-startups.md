@@ -1,6 +1,7 @@
 ---
 title: "Five ways governments can encourage civic startups"
 date: 2012-01-04
+modified:
 description: 2012 is shaping up to be the “Year of the Civic Startup.”
 author: GovFresh
 ---

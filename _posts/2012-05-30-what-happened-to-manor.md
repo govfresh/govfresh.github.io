@@ -1,6 +1,7 @@
 ---
 title: "What happened to Manor?"
 date: 2012-05-30
+modified:
 description: Ines Mergel asks a great question about a government 2.0 icon emblematic of the potential local open government had in its nascent heyday way back two years ago.
 author: GovFresh
 ---

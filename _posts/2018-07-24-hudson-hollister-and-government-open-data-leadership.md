@@ -1,6 +1,7 @@
 ---
 title: "Hudson Hollister and government open data leadership"
 date: 2018-07-24
+modified:
 description: As he steps down from his role as executive director of the Data Coalition, Hudson Hollister reflects on the organization he founded and shares his insights, appreciation and advice to the open data community at large.
 author: GovFresh
 ---

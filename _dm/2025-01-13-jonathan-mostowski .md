@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Jonathan Mostowski"
 date: 2025-01-13
+modified:
 description: "Acquisition strategist, author, innovator, problem solver"
 author: GovFresh
 name: Jonathan Mostowski
@@ -10,25 +11,15 @@ shortname: Jonathan
 img: jonathan-mostowski.jpeg
 img-feat: jonathan-mostowski-dm-feat.png
 img-og: jonathan-mostowski-dm-og.png
-img-twitter: jonathan-mostowski-dm-twitter.png
 img-alt: "Headshot of Jonathan Mostowski"
 #img-caption: ""
 email: jonmost@agileacq.com
 website: https://agileacq.com
-twitter: https://twitter.com/jonmost
 medium: https://medium.com/@agileacquisitions
-figma: 
-youtube: 
-vimeo: 
+
 linkedin: https://www.linkedin.com/in/jonmost/
 instagram: https://www.instagram.com/agileacq/
-facebook: 
-github: 
-flickr: 
-tumblr: 
-amazon: 
-calendar: 
-rss: 
+
 category:
   - Business
   - Policy

@@ -1,6 +1,7 @@
 ---
 title: "Twitter permanently suspends @realDonaldTrump"
 date: 2021-01-08
+modified:
 description: Twitter announced it has permanently suspended Donald Trump's Twitter account.
 author: GovFresh
 ---

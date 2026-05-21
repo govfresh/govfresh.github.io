@@ -1,11 +1,11 @@
 ---
 title: "NIST Cybersecurity Framework"
 date: 2024-10-07
+modified:
 description: "GovFresh research notes on the National Institute of Standards and Technology Cybersecurity Framework."
 author: GovFresh
 img-feat: research-nist-csf-feat.png
 img-og: research-nist-csf-feat.png
-img-twitter: research-nist-csf-feat.png
 img-alt: "Shield icon"
 img-caption: "Shield icon via Font Awesome"
 img-link: https://fontawesome.com/

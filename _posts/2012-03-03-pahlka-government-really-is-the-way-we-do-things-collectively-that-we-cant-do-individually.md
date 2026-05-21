@@ -1,6 +1,7 @@
 ---
 title: "Pahlka: 'Government really is the way we do things collectively that we can't do individually'"
 date: 2012-03-03
+modified:
 description: Great TEDxPhilly talk by Code for America Founder and Executive Director Jen Pahlka. Really inspiring to see Jen articulate what’s happening around city and local government beyond the tech talk people like me are so in the weeds on.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "New digital city pilot program"
 date: 2016-03-24
+modified:
 description: Cities receive one year of free ProudCity services, and we work directly with them to assess their current digital systems, how they can be optimized, and then help them quickly onboard to the platform.
 author: GovFresh
 ---

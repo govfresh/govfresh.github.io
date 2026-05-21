@@ -1,6 +1,7 @@
 ---
 title: "FreshWrap: CfA Summit, procurement, healthcare.gov and more"
 date: 2013-10-18
+modified:
 description: A wrap-up of this week's civic technology and open government news.
 author: GovFresh
 ---

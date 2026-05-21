@@ -1,6 +1,7 @@
 ---
 title: "Code.gov gets a U.S. Web Design System refresh"
 date: 2019-07-08
+modified:
 description: Code.gov -- the platform that makes it easier to find open source code developed by the U.S. Government -- announced updates that includes aesthetics aligned with the U.S. Web Design System and better adherence to accessibility standards.
 author: GovFresh
 ---

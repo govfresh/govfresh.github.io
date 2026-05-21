@@ -1,11 +1,11 @@
 ---
 title: "New web accessibility law"
 date: 2024-11-13
+modified:
 description: "A brief-ish explainer of the new web accessibility law for state and local governments."
 author: Rebecca Woodbury
 img-feat: brief-scroll-feat.png
 img-og: brief-scroll-og.png
-img-twitter: brief-scroll-twitter.png
 img-alt: "Scroll icon"
 img-caption: "Scroll icon via OpenMoji"
 img-link: https://openmoji.org/

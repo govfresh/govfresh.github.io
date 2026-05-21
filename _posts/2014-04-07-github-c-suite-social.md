@@ -1,6 +1,7 @@
 ---
 title: "GitHub and the C-suite social"
 date: 2014-04-07
+modified:
 description: Much like we pooh-poohed Twitter in those early days, GitHub, in its early crawl, is today dismissed simply as a tool for the diehard developer. However, as with any tool with great potential, innovators find new ways to leverage emerging technology to communicate, and government chief information and technology officers can effectively do this with GitHub.
 author: GovFresh
 ---

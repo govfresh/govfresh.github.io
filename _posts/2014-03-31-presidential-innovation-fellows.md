@@ -1,6 +1,7 @@
 ---
 title: "Civic hackers: The White House wants you"
 date: 2014-03-31
+modified:
 description: The White House is now accepting applications for the 2014 Presidential Innovation Fellows program.
 author: GovFresh
 ---

@@ -4,7 +4,6 @@ description: "Building the Next Era of the Internet"
 img-book: read-write-own.jpg
 img-feat: read-write-own.jpg
 img-og: read-write-own-og.png
-img-twitter: read-write-own-twitter.png
 img-alt: "Read Write Own: Building the Next Era of the Internet"
 book-author: Chris Dixon
 published: January 2024

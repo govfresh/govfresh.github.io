@@ -1,6 +1,7 @@
 ---
 title: "Telling Detroit's stories"
 date: 2017-09-21
+modified:
 description: Aaron Foley is Detroit’s first chief storyteller, appointed by Mayor Mike Duggan in April 2017, to help the city go beyond formalized bureaucratic communications and public relations and share the stories that don’t always get heard.
 author: GovFresh
 ---

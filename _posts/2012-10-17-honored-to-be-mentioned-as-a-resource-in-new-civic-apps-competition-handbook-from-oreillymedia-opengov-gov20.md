@@ -1,6 +1,7 @@
 ---
 title: "Honored to be mentioned as a resource in new 'Civic Apps Competition Handbook' from @oreillymedia #opengov #gov20"
 date: 2012-10-17
+modified:
 description: undefined
 author: GovFresh
 category:

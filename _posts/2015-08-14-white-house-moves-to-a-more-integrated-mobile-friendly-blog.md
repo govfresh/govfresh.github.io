@@ -1,6 +1,7 @@
 ---
 title: "White House moves to a more integrated, mobile-friendly blog"
 date: 2015-08-14
+modified:
 description: undefined
 author: GovFresh
 ---

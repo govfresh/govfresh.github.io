@@ -1,6 +1,7 @@
 ---
 title: "Register for the 2019 DKAN Open Data Summit"
 date: 2019-07-16
+modified:
 description: For those interested in government open source and open data, registration for the 2019 DKAN Open Data Summit is now open.
 author: GovFresh
 category:

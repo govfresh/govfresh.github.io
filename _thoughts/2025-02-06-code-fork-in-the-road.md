@@ -6,7 +6,6 @@ description: "Repository bureaucracy and how the general public can help preserv
 author: Luke Fretwell
 img-feat: fork-feat.png
 img-og: fork-og.png
-img-twitter: fork-twitter.png
 img-alt: "Code fork icon"
 img-caption: "Fork icon via Font Awesome"
 img-link: https://fontawesome.com/

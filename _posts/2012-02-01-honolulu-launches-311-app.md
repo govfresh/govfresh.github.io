@@ -1,6 +1,7 @@
 ---
 title: "Honolulu launches 311 app"
 date: 2012-02-01
+modified:
 description: Honolulu launched a new 311 application, Honolulu 311, now available on iPhone, Android, Windows Mobile and Blackberry. The service was developed by CitySourced.
 author: GovFresh
 ---

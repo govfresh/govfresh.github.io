@@ -1,11 +1,11 @@
 ---
 title: "Login.gov"
 date: 2024-10-24
+modified:
 description: "GovFresh research notes on Login.gov."
 author: GovFresh
 img-feat: research-right-arrow-bracket-feat.png
 img-og: research-right-arrow-bracket-feat.png
-img-twitter: research-right-arrow-bracket-feat.png
 img-alt: "Right arrow with bracket icon"
 img-caption: "Right arrow with bracket via Font Awesome"
 img-link: https://fontawesome.com/

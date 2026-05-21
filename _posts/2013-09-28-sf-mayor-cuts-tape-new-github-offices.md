@@ -1,6 +1,7 @@
 ---
 title: "SF mayor helps cut tape on new GitHub HQ, posts muni code repo"
 date: 2013-09-28
+modified:
 description: Lee announced the city posted municipal code on GitHub "to make it more accessible to our public."
 author: GovFresh
 ---

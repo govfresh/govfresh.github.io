@@ -1,6 +1,7 @@
 ---
 title: "Visualize this: A week's worth of NYC subway entries and exits"
 date: 2013-04-25
+modified:
 description: This animation visualizes one week's worth of turnstile data for the New York City Subway.
 author: GovFresh
 ---

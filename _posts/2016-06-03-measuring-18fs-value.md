@@ -1,6 +1,7 @@
 ---
 title: "Measuring 18F's value"
 date: 2016-06-03
+modified:
 description: It’s very easy, especially in a political environment, and especially for a high-profile organization like 18F, to be critical of its operations. There are a long list of items I’d like to see GAO look into and, right now, 18F isn’t one of them.
 author: GovFresh
 ---

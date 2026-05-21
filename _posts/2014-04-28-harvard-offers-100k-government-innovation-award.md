@@ -1,6 +1,7 @@
 ---
 title: "Harvard offers $100K government innovation award"
 date: 2014-04-28
+modified:
 description: The Award for Public Engagement in Government is a new component to the center's standing Innovations in American Government Awards program.
 author: GovFresh
 ---

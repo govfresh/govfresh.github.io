@@ -1,6 +1,7 @@
 ---
 title: "Seven reasons why you should apply for this federal government innovation fellowship"
 date: 2014-07-07
+modified:
 description: If you’re interested in working for the federal government with an agency that doesn’t have the institutional legacy of entrenched bureaucracy and truly gets design and open source innovation, and has a direct impact on American consumers, the Consumer Financial Protection Bureau has just the opportunity for you.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "NIC wins oregon.gov contract, now manages half of U.S. state websites"
 date: 2011-12-09
+modified:
 description: NIC Inc. announced Tuesday it was awarded a 10-year contract to develop and maintain Oregon's official website, oregon.gov.
 author: GovFresh
 ---

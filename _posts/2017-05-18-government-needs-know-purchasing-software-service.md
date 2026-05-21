@@ -1,6 +1,7 @@
 ---
 title: "What government needs to know when purchasing software-as-a-service"
 date: 2017-05-18
+modified:
 description: e.Republic published a best practices guide to procuring software-as-a-service, and the conclusion is a must-read for anyone in government responsible for technology purchases.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "What government can learn from Olay"
 date: 2021-11-15
+modified:
 description: "Olay’s Open to Change advertising campaign is something government should take note of."
 author: Luke Fretwell
 img: olay-open-to-change.jpg

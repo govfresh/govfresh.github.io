@@ -1,6 +1,7 @@
 ---
 title: "Time for government to stop using Medium"
 date: 2022-02-17
+modified:
 description: "A publishing platform that says it's an environment open to everyone doesn't provide equal access to all."
 author: Luke Fretwell
 img: medium.png

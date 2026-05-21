@@ -1,6 +1,7 @@
 ---
 title: "Cloud.gov is FedRAMP Ready, moves feds closer to internally deploying tech projects faster"
 date: 2016-06-05
+modified:
 description: In a Hacker News post, the cloud.gov team shares that the platform has attained FedRAMP Ready status, moving it closer to operating as a full-service cloud provider for federal technology projects.
 author: GovFresh
 ---

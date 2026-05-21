@@ -1,6 +1,7 @@
 ---
 title: "We want you: Recruiting and hiring for government digital services"
 date: 2019-02-12
+modified:
 description: If government truly wants to transform digital services and effectively serve the public at scale, it must start with how it attracts and retains top technology talent.
 author: GovFresh
 ---

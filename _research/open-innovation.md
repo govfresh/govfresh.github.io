@@ -1,11 +1,11 @@
 ---
 title: "Open innovation"
 date: 2024-11-12
+modified:
 description: "GovFresh research notes on open innovation."
 author: GovFresh
 img-feat: research-flask-feat.png
 img-og: research-flask-feat.png
-img-twitter: research-flask-feat.png
 img-alt: "Flask icon"
 img-caption: "Flask icon via Font Awesome"
 img-link: https://fontawesome.com/

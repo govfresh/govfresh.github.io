@@ -1,6 +1,7 @@
 ---
 title: "USAID seeks chief technology officer"
 date: 2020-04-17
+modified:
 description: The U.S. Agency for International Development is looking for a new chief technology officer.
 author: GovFresh
 category:

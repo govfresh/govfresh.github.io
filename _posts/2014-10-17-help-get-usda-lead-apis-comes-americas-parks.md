@@ -1,6 +1,7 @@
 ---
 title: "Help get USDA to lead with APIs when it comes to America's parks"
 date: 2014-10-17
+modified:
 description: As part of this work I’m always on the look out for valuable public assets across city, state and federal government, and help make sure the conversations around these assets always include application programming interfaces, so that we aren’t just building web and mobile applications in silos, and limiting the potential for public access by individuals and small businesses.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Buy this book: 'A Civic Technologist's Practice Guide'"
 date: 2021-05-15
+modified:
 description: Cyd Harrell's "A Civic Technologist's Practice Guide" is the book we've always needed, but wouldn't have been possible until now thanks in no small part to the unparalleled experience she's accrued over the years working at Code for America, 18F, California Administrative Office of the Courts, and other service design-focused environments inside and outside of public service.
 author: GovFresh
 ---

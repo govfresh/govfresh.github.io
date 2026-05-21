@@ -1,6 +1,7 @@
 ---
 title: "Enabling the civic social layer"
 date: 2011-06-01
+modified:
 description: Over the past few months, I’ve been seeing different models of ‘digital’ or ‘smart’ cities. Many of these models are heavily centered on the re-engineering of technical or physical layers of infrastructure.  
 author: GovFresh
 category:

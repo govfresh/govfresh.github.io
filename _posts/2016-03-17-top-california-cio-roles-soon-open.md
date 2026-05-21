@@ -1,6 +1,7 @@
 ---
 title: "California seeks CIOs"
 date: 2016-03-17
+modified:
 description: Of significant importance is the state CIO opening, and its convergence with evolving talk of establishing a government digital service team, much like what has been done in the United Kingdom and here in the United States with the U.S. Digital Service and 18F.
 author: GovFresh
 ---

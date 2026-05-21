@@ -1,48 +1,22 @@
 {% assign chapters = include.html | split: '<h' %}
 {% if chapters.size > 1 %}
-  {% if page.layout == "research" %}
-    <nav class="toc mb-3">
-      <p class="mb-1 text-body-secondary small">Contents</p>
-      <ul class="toc-list small">
-        {% for chapter in chapters %}
+  <nav class="toc" aria-label="On this page">
+    <p class="mb-3 text-body-secondary small">On this page</p>
+    <ul class="toc-list small">
+      {% for chapter in chapters %}
+        {% if chapter != chapters[0] %}
           {% assign level = chapter | slice: 0, 1 %}
-          {% if level == '2' %}
-            {% assign id_parts = chapter | split: 'id="' %}
-            {% if id_parts.size > 1 %}
-              {% assign id = id_parts[1] | split: '"' | first %}
-            {% else %}
-              {% assign id = '' %}
-            {% endif %}
-            {% assign title_parts = chapter | split: '>' %}
-            {% if title_parts.size > 1 %}
-              {% assign title = title_parts[1] | split: '</h2' | first %}
-            {% else %}
-              {% assign title = 'Untitled' %}
-            {% endif %}
-            <li class="mb-1 small">
-              <a href="#{{ id }}" class="toc-link">{{ title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
-  {% else %}
-    <nav class="toc">
-      <p class="mb-1 text-body-secondary small">On this page</p>
-      <ul class="toc-list small">
-        {% for chapter in chapters %}
-          {% if chapter != chapters[0] %}
+          {% if level == '2' or level == '3' and page.layout != "research" %}
             {% assign id_parts = chapter | split: 'id="' %}
             {% assign id = id_parts[1] | split: '"' | first %}
-            {% assign level = chapter | slice: 0, 1 %}
             {% assign title_parts = chapter | split: '>' %}
-            {% assign title = title_parts[1] | split: '</h' | first %}
-            <li class="mb-1 small {% if level == '3' %}ms-3{% endif %}">
+            {% assign title = title_parts[1] | split: '</h' | first | strip_html %}
+            <li class="mb-1 small {% if level == '3' %}toc-h3{% endif %}">
               <a href="#{{ id }}" class="toc-link">{{ title }}</a>
             </li>
           {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
-  {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 {% endif %}

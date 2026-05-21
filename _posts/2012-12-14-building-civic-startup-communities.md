@@ -1,6 +1,7 @@
 ---
 title: "Building civic 'Startup Communities'"
 date: 2012-12-14
+modified:
 description: "I've been thinking a lot about the importance of a more structured approach to community with respect to the civic technology movement, which is why I picked up Brad Feld's 'Startup Communities: Building an Entrepreneurial Ecosystem in Your City.'"
 author: GovFresh
 ---

@@ -6,7 +6,6 @@ description: "My civic tech retrospective."
 author: Luke Fretwell
 img-feat: heart-feat2.png
 img-og: heart-og2.png
-img-twitter: heart-og2.png
 img-alt: "Heart icon"
 img-caption: "Heart icon via Font Awesome"
 img-link: https://fontawesome.com/
@@ -327,7 +326,3 @@ Hack around. Find out.
 Share your art.
 
 JFDI.
-
-## Post script
-
-[Contact me](https://lukefretwell.com/contact) if you’d like to work together or want to meet and discuss ideas (see also: [services](https://lukefretwell.com/contact)). I’m open to all the possibilities.

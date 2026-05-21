@@ -1,6 +1,7 @@
 ---
 title: "Steve Spiker and Eddie Tejeda sharing OpenOakland's work at East Bay Mini Maker Faire."
 date: 2013-10-20
+modified:
 description: undefined
 author: GovFresh
 category:

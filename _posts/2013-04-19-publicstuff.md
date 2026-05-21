@@ -1,6 +1,7 @@
 ---
 title: "PublicStuff builds a civic network that connects government and citizens"
 date: 2013-04-19
+modified:
 description: PublicStuff helps local governments turn service requests and inquiries into tangible community improvements by connecting people directly to their city representatives from their laptop, mobile phone or tablet.
 author: GovFresh
 ---

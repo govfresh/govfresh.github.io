@@ -1,6 +1,7 @@
 ---
 title: "Jan. 10: Celebrate your city on CityCamp Day"
 date: 2014-10-22
+modified:
 description: To celebrate the fifth anniversary of CityCamp, we're encouraging cities across the world to celebrate CityCamp Day on January 10, 2015.
 author: GovFresh
 ---

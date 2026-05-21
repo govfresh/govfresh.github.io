@@ -1,6 +1,7 @@
 ---
 title: "How you can get involved in the 2015 National Day of Civic Hacking"
 date: 2015-05-19
+modified:
 description: The 2015 National Day of Civic Hacking will be held on June 6. To date, more than 70 events around the world have been scheduled. The global hackathon, targeted to “urbanists, government staff, developers, designers, and activists,” is organized by Code for America and Second Muse.
 author: GovFresh
 ---

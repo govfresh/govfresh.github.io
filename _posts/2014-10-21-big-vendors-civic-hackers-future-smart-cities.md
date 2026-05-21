@@ -1,6 +1,7 @@
 ---
 title: "Big IT vendors, civic hackers and the future of 'Smart Cities'"
 date: 2014-10-21
+modified:
 description: Much like “green” has done for the sustainability movement, the term “smart cities” has brought as much skepticism as enthusiasm for an ambiguous, over-marketed term used to describe the end product of the new urbanist movement.
 author: GovFresh
 ---

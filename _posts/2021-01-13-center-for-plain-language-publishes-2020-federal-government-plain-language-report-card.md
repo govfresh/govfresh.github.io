@@ -1,6 +1,7 @@
 ---
 title: "Center for Plain Language publishes 2020 federal government plain language report card"
 date: 2021-01-13
+modified:
 description: The Center for Plain Language published its 2020 federal website plain language report card.
 author: GovFresh
 ---

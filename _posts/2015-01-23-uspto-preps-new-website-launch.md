@@ -1,6 +1,7 @@
 ---
 title: "USPTO preps for new website launch"
 date: 2015-01-23
+modified:
 description: The U.S. Patent and Trade Office plans to move its beta website, located at beta.uspto.gov, to the official agency domain, USPTO.gov, on February 5.
 author: GovFresh
 ---

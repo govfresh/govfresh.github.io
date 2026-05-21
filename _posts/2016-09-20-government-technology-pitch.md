@@ -1,6 +1,7 @@
 ---
 title: "The government technology pitch"
 date: 2016-09-20
+modified:
 description: Crisis has a history of dictating government technology disruption. But innovators don’t wait for crises.
 author: GovFresh
 category:

@@ -1,6 +1,7 @@
 ---
 title: "Making government research more inclusive"
 date: 2021-01-07
+modified:
 description: Canadian Digital Service design research team members Martha Edwards and Anne-Marie Mulumba share great insights into how people in government are making their research more inclusive.
 author: GovFresh
 ---

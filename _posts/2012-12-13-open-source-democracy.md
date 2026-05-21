@@ -1,6 +1,7 @@
 ---
 title: "Open source democracy"
 date: 2012-12-13
+modified:
 description: Great Clay Shirky TED Talk on how distributed version control and "having access to all the source code all of the time" will one day change the way government works.
 author: GovFresh
 ---

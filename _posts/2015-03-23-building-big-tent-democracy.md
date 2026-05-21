@@ -1,6 +1,7 @@
 ---
 title: "Building big tent democracy"
 date: 2015-03-23
+modified:
 description: undefined
 author: GovFresh
 ---

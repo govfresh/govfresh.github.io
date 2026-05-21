@@ -1,6 +1,7 @@
 ---
 title: "Appallicious joins with SF to launch park and rec iPhone app"
 date: 2012-10-15
+modified:
 description: undefined
 author: GovFresh
 ---

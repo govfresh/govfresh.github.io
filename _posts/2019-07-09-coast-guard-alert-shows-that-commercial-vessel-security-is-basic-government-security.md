@@ -1,6 +1,7 @@
 ---
 title: "Coast Guard alert shows that even commercial vessel security is just basic government security"
 date: 2019-07-09
+modified:
 description: Based on recent cyber incidents aboard commercial vessels, the U.S. Coast Guard issued a security alert to vessel and facility owners and operators that is essentially basic security practices, even ones that could potentially save governments from the ransomware attacks we see happening more frequently.
 author: GovFresh
 category:

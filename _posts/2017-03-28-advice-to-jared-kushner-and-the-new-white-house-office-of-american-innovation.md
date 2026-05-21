@@ -1,6 +1,7 @@
 ---
 title: "Advice to Jared Kushner and the new White House Office of American Innovation"
 date: 2017-03-28
+modified:
 description: With the help of GSA and the brand power of USA, the opportunity to truly scale impact is endless.
 author: GovFresh
 ---

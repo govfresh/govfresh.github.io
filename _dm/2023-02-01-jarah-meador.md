@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Jarah Meador"
 date: 2023-02-01
+modified:
 description: "Director of Challenge.Gov + CitizenScience.Gov"
 author: GovFresh
 name: Jarah Meador
@@ -12,21 +13,9 @@ img-feat: jarah-meador.jpg
 img-alt: "Headshot of Jarah Meador"
 #img-caption: ""
 email: jarah.meador@gsa.gov
-website: 
-twitter: 
-medium: 
-figma: 
-youtube: 
-vimeo: 
+
 linkedin: https://www.linkedin.com/in/jarahmeador/
-instagram: 
-facebook: 
-github: 
-flickr: 
-tumblr: 
-amazon: 
-calendar: 
-rss: 
+
 category:
   - Data
   - Open innovation

@@ -1,6 +1,7 @@
 ---
 title: ".@jedsundwall opens up Ignite @codeforamerica! #cfasummit"
 date: 2012-10-01
+modified:
 description: undefined
 author: GovFresh
 category:

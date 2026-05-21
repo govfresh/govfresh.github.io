@@ -1,6 +1,7 @@
 ---
 title: "Driving smart city innovation with open sensor data (part 3)"
 date: 2016-09-07
+modified:
 description: An odd thing happened in Dehradun, the capital city of the northern state of Uttarakhand, when the city received news that it would receive funding as one of 100 cities chosen to participate India’s $15 billion Smart Cities Mission. Rather than celebrating making the coveted list, the city instead found itself embroiled in a dispute that saw local activists take to the woods to hug trees in protest against Dehradun’s smart city proposal.
 author: GovFresh
 ---

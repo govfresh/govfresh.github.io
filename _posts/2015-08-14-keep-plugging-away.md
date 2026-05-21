@@ -1,6 +1,7 @@
 ---
 title: "Keep plugging away"
 date: 2015-08-14
+modified:
 description: BallotPath founder Jim Cupples sent me a follow-up note, and it hits home two important points.
 author: GovFresh
 ---

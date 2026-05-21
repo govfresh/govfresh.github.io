@@ -1,6 +1,7 @@
 ---
 title: "Good government services"
 date: 2020-05-26
+modified:
 description: "In their new book \"Good Services: How to design services that work,\" former UK Government Design Director Lou Downe offers the public sector an invaluable playbook to delivering government services that are in inclusive and intentional."
 author: GovFresh
 category:

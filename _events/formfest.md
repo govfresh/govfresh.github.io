@@ -15,7 +15,6 @@ org-link:
 hashtag: "#FormFest"
 img-feat: formfest-feat.png
 img-og: formfest-og.png
-img-twitter: formfest-twitter.png
 img-alt: "FormFest logo"
 img-caption: ""
 img-link: 

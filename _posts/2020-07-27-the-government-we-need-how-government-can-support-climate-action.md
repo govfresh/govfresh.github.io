@@ -1,6 +1,7 @@
 ---
 title: "The Government We Need: How government can support climate action"
 date: 2020-07-27
+modified:
 description: The Government We Need talks with Rick Cole about local government's role in sustainability.
 author: GovFresh
 ---

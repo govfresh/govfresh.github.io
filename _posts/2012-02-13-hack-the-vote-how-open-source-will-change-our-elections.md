@@ -1,6 +1,7 @@
 ---
 title: "Trust the vote: How open source will change our elections"
 date: 2012-02-13
+modified:
 description: After watching the documentary Hacking Democracy, I started researching how government uses voting technology to conduct elections. That's how I learned about the work of Open Source Digital Voting Foundation.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Save the date (May 31-June 1) and hack your city"
 date: 2014-05-02
+modified:
 description: The goal of the annual event is to "bring together citizens, software developers, and entrepreneurs together to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to improve our communities and the governments that serve them."
 author: GovFresh
 ---

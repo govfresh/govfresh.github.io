@@ -1,6 +1,7 @@
 ---
 title: "GovFresh Q&A: New Accela CEO Gary Kovacs"
 date: 2019-01-17
+modified:
 description: Gary Kovacs is the new chief executive officer of Accela, a provider of cloud-based government productivity solutions. We asked Kovacs to share his perspective on various aspects of the government technology landscape, and where he sees Accela’s role in all this.
 author: GovFresh
 category:

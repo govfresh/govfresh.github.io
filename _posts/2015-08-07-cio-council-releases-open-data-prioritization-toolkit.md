@@ -1,6 +1,7 @@
 ---
 title: "Federal CIO Council releases open data prioritization toolkit"
 date: 2015-08-07
+modified:
 description: The federal CIO Council’s Innovation Committee has published an open data prioritization workbook and toolkit, including a data inventory tracker and prioritization matrix, to help agencies best evaluate and prioritize data for release to the public.
 author: GovFresh
 ---

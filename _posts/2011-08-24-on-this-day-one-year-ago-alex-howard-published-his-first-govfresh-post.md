@@ -1,6 +1,7 @@
 ---
 title: "On this day one year ago, Alex Howard published his first GovFresh post"
 date: 2011-08-24
+modified:
 description: On this day one year ago, Alex Howard published his first GovFresh post. Since then, he has written a total of 302 on his OpenGovFresh blog.
 author: GovFresh
 ---

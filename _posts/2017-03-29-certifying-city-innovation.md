@@ -1,6 +1,7 @@
 ---
 title: "Certifying city innovation"
 date: 2017-03-29
+modified:
 description: Bloomberg Philanthropies’ What Work Cities initiative announced a new certification program that rewards achievements and provides “a clear path to excellence.”
 author: GovFresh
 ---

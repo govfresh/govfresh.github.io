@@ -1,6 +1,7 @@
 ---
 title: "How to present to your city council like Steve Jobs"
 date: 2011-06-10
+modified:
 description: Apple CEO Steve Jobs recently presented to the Cupertino, CA, city council on the company's plans for building a new campus.
 author: GovFresh
 ---

@@ -1,5 +1,5 @@
 ---
-layout: feed
+layout: latest
 ---
 
 {% include header.html %}
@@ -46,7 +46,7 @@ layout: feed
         {% unless forloop.first %}
           <wa-divider{% if forloop.index > per_page %} class="feed-hidden"{% endif %}></wa-divider>
         {% endunless %}
-        <article class="feed-post py-4{% if forloop.index > per_page %} feed-hidden{% endif %}">
+        <article class="feed-post py-3{% if forloop.index > per_page %} feed-hidden{% endif %}">
 
           {% if section_name == "thoughts" %}{% assign badge_label = "Thought" %}
           {% elsif section_name == "podcast" %}{% assign badge_label = "Podcast" %}
@@ -59,19 +59,31 @@ layout: feed
           {% else %}{% assign badge_label = section_name | capitalize %}{% endif %}
           <p class="mb-2"><wa-badge variant="brand">{{ badge_label }}</wa-badge></p>
 
-          {% assign img_src = "" %}
-          {% if item.img-og %}
-            {% assign img_src = item.img-og %}
-          {% elsif item.img-feat %}
-            {% assign img_src = item.img-feat %}
-          {% endif %}
-
-          {% if img_src != "" %}
-            <img
-              src="{{ site.baseurl }}/assets/img/{{ item.img-path | default: 'posts' }}/{{ img_src }}"
-              alt="{{ item.img-alt | default: item.title }}"
-              class="w-100 mb-3 border drop-shadow"
-              loading="lazy">
+          {% if section_name == "demos" and item.video %}
+            <div class="video-responsive mb-3 border">
+              <iframe
+                src="https://www.youtube.com/embed/{{ item.video }}?rel=0&modestbranding=1"
+                title="{{ item.video-title | default: item.title }}"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy">
+              </iframe>
+            </div>
+          {% else %}
+            {% assign img_src = "" %}
+            {% if item.img-og %}
+              {% assign img_src = item.img-og %}
+            {% elsif item.img-feat %}
+              {% assign img_src = item.img-feat %}
+            {% endif %}
+            {% if img_src != "" %}
+              <img
+                src="{{ site.baseurl }}/assets/img/{{ item.img-path | default: 'posts' }}/{{ img_src }}"
+                alt="{{ item.img-alt | default: item.title }}"
+                class="w-100 mb-3 border drop-shadow"
+                loading="lazy">
+            {% endif %}
           {% endif %}
 
           {% if item.audio %}
@@ -84,7 +96,7 @@ layout: feed
           {% endif %}
 
           {% if item.title %}
-            <h2 class="h4 mb-2">
+            <h2 class="h4 mb-1">
               <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
             </h2>
           {% endif %}

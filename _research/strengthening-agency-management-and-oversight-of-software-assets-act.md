@@ -1,11 +1,11 @@
 ---
 title: "SOMOSA Act"
 date: 2025-01-12
+modified:
 description: "GovFresh research notes on the Strengthening Agency Management and Oversight of Software Assets Act."
 author: GovFresh
 img-feat: research-somosa-feat.png
 img-og: research-somosa-feat.png
-img-twitter: research-somosa-feat.png
 img-alt: "Table icon"
 img-caption: "Table icon via Font Awesome"
 img-link: https://fontawesome.com/

@@ -1,6 +1,7 @@
 ---
 title: "Hacking for Diplomacy – Solving foreign policy challenges with the Lean LaunchPad"
 date: 2016-08-04
+modified:
 description: Join a select cross-disciplinary class that takes real problems from the U.S. State Department and asks students to use Lean Methods to test their understanding of the problem and deliver rapid-fire innovative solutions to pressing diplomacy, development and foreign policy challenges.
 author: GovFresh
 ---

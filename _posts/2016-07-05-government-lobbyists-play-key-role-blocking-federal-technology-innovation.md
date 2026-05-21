@@ -1,6 +1,7 @@
 ---
 title: "Government IT lobbyists play key role in blocking federal technology innovation"
 date: 2016-07-05
+modified:
 description: Government Technology's Jason Shueh finally brings to light the core impetus surrounding backlash against 18F efforts to fix federal government technology development and procurement practices.
 author: GovFresh
 ---

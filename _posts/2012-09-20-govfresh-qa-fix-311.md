@@ -1,6 +1,7 @@
 ---
 title: "GovFresh Q&A: Fix 311"
 date: 2012-09-20
+modified:
 description: Fix 311 aims to be a nationwide app for the 311 system using smartphones and GPS. Fix 311 also includes a CRM system to manage cases.
 author: GovFresh
 ---

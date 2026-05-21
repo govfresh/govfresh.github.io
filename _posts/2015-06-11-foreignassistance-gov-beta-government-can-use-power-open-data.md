@@ -1,6 +1,7 @@
 ---
 title: "ForeignAssistance.gov beta shows how government can use the power of open data"
 date: 2015-06-11
+modified:
 description: The new beta of U.S. Department of State’s ForeignAssistance.gov shows how government can leverage the power of data and visualizations to communicate the story behind its mission deliverables.
 author: GovFresh
 category:

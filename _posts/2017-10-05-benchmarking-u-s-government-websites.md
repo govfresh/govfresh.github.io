@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking U.S. government websites"
 date: 2017-10-05
+modified:
 description: Earlier this year, the Information Technology and Innovation Foundation published an assessment of federal government websites that includes rankings around page load speeds, mobile friendliness, Domain Name System Security Extensions, Secure Sockets Layer and accessibility.
 author: GovFresh
 ---

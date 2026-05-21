@@ -1,6 +1,7 @@
 ---
 title: "GitChat with GSA CIO Sonny Hashmi"
 date: 2014-04-10
+modified:
 description: We're hosting our next GitChat with General Services Administration Chief Information Officer Sonny Hashmi.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "The Mission Model Canvas – An adapted business model for mission-driven organizations"
 date: 2016-02-24
+modified:
 description: "As we prepared for the new Hacking for Defense class at Stanford, we had to stop and ask ourselves: How do we use the Business Model Canvas if the primary goal is not to earn money, but to fulfill a mission?"
 author: GovFresh
 category:

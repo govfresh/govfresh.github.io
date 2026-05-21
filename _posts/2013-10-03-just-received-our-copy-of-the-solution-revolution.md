@@ -1,6 +1,7 @@
 ---
 title: "Just received our copy of 'The Solution Revolution.'"
 date: 2013-10-03
+modified:
 description: undefined
 author: GovFresh
 category:

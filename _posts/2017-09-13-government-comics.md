@@ -1,6 +1,7 @@
 ---
 title: "Government comics"
 date: 2017-09-13
+modified:
 description: For public communications and engagement enthusiasts, Government Issue is a great coffee table book and perhaps point of inspiration for government leaders to re-think how to better communicate with constituents.
 author: GovFresh
 ---

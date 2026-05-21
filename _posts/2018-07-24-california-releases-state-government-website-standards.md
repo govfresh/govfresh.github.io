@@ -1,6 +1,7 @@
 ---
 title: "California releases state government website standards"
 date: 2018-07-24
+modified:
 description: The California Department of Technology has published unified design standards and accompanying resources for official state government websites.
 author: GovFresh
 ---

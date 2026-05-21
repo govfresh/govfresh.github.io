@@ -1,6 +1,7 @@
 ---
 title: "'Let's start delivering information to the right person at the right time - that's the value of open gov'"
 date: 2012-02-29
+modified:
 description: Dan Morgan‘s comments on my “How do you measure the value of Gov 2.0?” post offer an insightful perspective I feel they warrant a post of their own. 
 author: GovFresh
 category:

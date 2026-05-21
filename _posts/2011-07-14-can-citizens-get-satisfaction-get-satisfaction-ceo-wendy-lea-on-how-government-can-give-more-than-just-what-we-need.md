@@ -1,6 +1,7 @@
 ---
 title: "Can citizens get satisfaction?"
 date: 2011-07-14
+modified:
 description: Get Satisfaction CEO Wendy Lea shares her advice on how government can leverage Web 2.0 tools to better connect with citizens.
 author: GovFresh
 ---

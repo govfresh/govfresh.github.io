@@ -1,6 +1,7 @@
 ---
 title: "New center wants to help Congress grok deep space, deep fakes"
 date: 2019-09-12
+modified:
 description: The U.S. Government Accountability Office launched a new Center for Strategic Foresight to help Congress better understand issues related to emerging notorious technologies, such as deep space and deep fakes, that impact a well-functioning democracy.
 author: GovFresh
 ---

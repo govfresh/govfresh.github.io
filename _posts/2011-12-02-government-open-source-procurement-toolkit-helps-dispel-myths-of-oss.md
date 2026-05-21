@@ -1,6 +1,7 @@
 ---
 title: "Government open source procurement toolkit helps dispel myths of OSS"
 date: 2011-12-02
+modified:
 description: The British government’s Cabinet Office has published an Open Source Procurement Toolkit as part of its ongoing information and communications strategy.
 author: GovFresh
 ---

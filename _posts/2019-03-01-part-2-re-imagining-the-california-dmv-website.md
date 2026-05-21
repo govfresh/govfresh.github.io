@@ -1,6 +1,7 @@
 ---
 title: "Part 2: Re-imagining the California DMV website"
 date: 2019-03-01
+modified:
 description: It's been a week since I published my thoughts on re-imagining the California Department of Motor Vehicles website. During that time, the issues I had with not receiving my REAL ID were resolved and the process inspired me to think and prototype a little more on the first iteration.
 author: GovFresh
 ---

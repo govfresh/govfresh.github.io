@@ -1,6 +1,7 @@
 ---
 title: "RSVP: CivicMeet for Bay Area civic entrepreneurs"
 date: 2015-07-15
+modified:
 description: undefined
 author: GovFresh
 ---

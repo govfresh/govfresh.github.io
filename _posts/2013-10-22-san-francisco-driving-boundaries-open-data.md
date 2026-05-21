@@ -1,6 +1,7 @@
 ---
 title: "San Francisco: Driving the boundaries of open data"
 date: 2013-10-22
+modified:
 description: During last week’s 2013 Code for America summit at the Yerba Buena Center, officials from cities including Louisville, New York City, South Bend and New Orleans spoke about how open data had changed the complexion of their communities in public safety, citizen services and blight mapping.
 author: GovFresh
 ---

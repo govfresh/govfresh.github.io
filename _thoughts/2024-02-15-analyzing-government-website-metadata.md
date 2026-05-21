@@ -6,7 +6,6 @@ description: "How government-managed domains conform to basic metadata practices
 author: Luke Fretwell
 img-feat: gov-metadata-feat.png
 img-og: gov-metadata-og.png
-img-twitter: gov-metadata-twitter.png
 img-alt: "Window icon"
 img-caption: "Window icon from Font Awesome"
 img-link: https://fontawesome.com

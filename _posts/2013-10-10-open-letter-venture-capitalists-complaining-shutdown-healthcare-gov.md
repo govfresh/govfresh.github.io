@@ -1,6 +1,7 @@
 ---
 title: "An open letter to venture capitalists frustrated with the federal government shutdown"
 date: 2013-10-10
+modified:
 description: undefined
 author: GovFresh
 ---

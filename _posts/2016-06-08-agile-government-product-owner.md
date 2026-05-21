@@ -1,6 +1,7 @@
 ---
 title: "New online course: Agile for the government product owner"
 date: 2016-06-08
+modified:
 description: Agile Government Leadership has launched a new online course focused on the government product owner.
 author: GovFresh
 ---

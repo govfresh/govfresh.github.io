@@ -1,6 +1,7 @@
 ---
 title: "Civic technology (infographic)"
 date: 2016-06-29
+modified:
 description: We created an infographic based on the recent “Engines of Change” report from Omidyar Network and Purpose that defined and outlined key components of what constitutes “civic technology.”
 author: GovFresh
 ---

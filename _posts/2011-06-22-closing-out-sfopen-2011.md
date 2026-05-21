@@ -1,6 +1,7 @@
 ---
 title: "Closing out SFOpen 2011"
 date: 2011-06-22
+modified:
 description: A wrap-up of  SFOpen 2011, the San Francisco mayoral forum on open government, civic technology and public innovation.
 author: GovFresh
 ---

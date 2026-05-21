@@ -1,6 +1,7 @@
 ---
 title: "12 books for better government"
 date: 2015-07-27
+modified:
 description: I’m doing some spring cleaning and parting ways with a number of my beloved government-focused books. Before I do, I wanted to share the ones I’m letting go of that I highly recommend to those involved in re-thinking the way government works, and its changing role given the way the world is evolving.
 author: GovFresh
 category:

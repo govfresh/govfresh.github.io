@@ -6,7 +6,6 @@ link: https://www.cpsai.org/
 link-text: cpsai.org
 img-feat: cpsai-feat.png
 img-og: cpsai-og.png
-img-twitter: cpsai-twitter.png
 img-alt: "Center for Public Sector AI logo"
 img-caption: #""
 img-link: 

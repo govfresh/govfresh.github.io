@@ -1,6 +1,7 @@
 ---
 title: "Driving smart city innovation with open sensor data (part 5)"
 date: 2016-09-21
+modified:
 description: While there is much technology that can be sifted into must-have, nice-to-have and maybe-someday categories without a negative impact on smart city advancement, there are a few basic pieces of technology cities will need in order to extract value from the real-time data that has already begun to flow through smart cities.
 author: GovFresh
 ---

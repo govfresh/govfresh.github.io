@@ -1,6 +1,7 @@
 ---
 title: "The future of government technology procurement"
 date: 2015-07-08
+modified:
 description: The General Services Administration and 18F recently held an open request for quotation related to a new blanket purchase agreement for a federal marketplace for agile delivery services. The transparency throughout the entire process was refreshing and provides a window into the future of procurement as well as what FedBizOpps could and should be.
 author: GovFresh
 ---

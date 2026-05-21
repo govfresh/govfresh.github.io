@@ -1,6 +1,7 @@
 ---
 title: "Governments now have access to a centralized resource of open source coronavirus projects"
 date: 2020-04-07
+modified:
 description: New America has launched the Pandemic Response Repository that will serve as a centralized location for open source projects aimed at helping governments respond to the coronavirus pandemic.
 author: GovFresh
 ---

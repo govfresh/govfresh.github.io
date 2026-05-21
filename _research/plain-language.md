@@ -1,11 +1,11 @@
 ---
 title: "Plain Language"
 date: 2024-10-08
+modified:
 description: "GovFresh research notes on plain language."
 author: GovFresh
 img-feat: research-plain-language-feat.png
 img-og: research-plain-language-feat.png
-img-twitter: research-plain-language-feat.png
 img-alt: "Language icon"
 img-caption: "Language icon via Font Awesome"
 img-link: https://fontawesome.com/

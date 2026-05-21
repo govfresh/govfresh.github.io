@@ -1,6 +1,7 @@
 ---
 title: "GitChat with Gavin Newsom"
 date: 2014-05-06
+modified:
 description: California Lieutenant Governor Gavin Newsom is our next GitChat guest. 
 author: GovFresh
 ---

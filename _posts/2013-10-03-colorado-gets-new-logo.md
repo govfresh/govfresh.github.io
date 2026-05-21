@@ -1,6 +1,7 @@
 ---
 title: "Colorado gets a logo"
 date: 2013-10-03
+modified:
 description: undefined
 author: GovFresh
 ---

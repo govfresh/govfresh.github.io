@@ -1,6 +1,7 @@
 ---
 title: "Say hello to ProudCity"
 date: 2016-01-19
+modified:
 description: Today, I’m excited to announce a new civic startup, ProudCity, founded by me and three others, committed to making it easier for cities to stand up and manage municipal digital services.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "NASA will host a virtual  COVID-19 hackathon in partnership with European, Japanese space agencies"
 date: 2020-05-11
+modified:
 description: NASA will host a virtual COVID-19 hackathon May 30 to 31, 2020, in partnership with the European Space Agency and Japan Aerospace Exploration Agency.
 author: GovFresh
 category:

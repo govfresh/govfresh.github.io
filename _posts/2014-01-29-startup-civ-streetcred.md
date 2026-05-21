@@ -1,6 +1,7 @@
 ---
 title: "Startup.civ: StreetCred"
 date: 2014-01-29
+modified:
 description: StreetCred helps law enforcement agencies locate fugitives, get them out of the community, and bring the officers home safely each day.
 author: GovFresh
 ---

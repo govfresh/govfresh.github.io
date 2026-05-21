@@ -1,6 +1,7 @@
 ---
 title: "Bloomberg: How cities can 'Moneyball' government"
 date: 2011-12-02
+modified:
 description: New York City Mayor Mike Bloomberg has a blog post on how cities are collaborating to better leverage data analytics and maximize taxpayer return on investment. The post cites examples from major American cities and how they’ve leveraged data, especially 311 logs, to realize efficiencies.
 author: GovFresh
 ---

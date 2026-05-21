@@ -1,6 +1,7 @@
 ---
 title: "Open government hackathons matter"
 date: 2011-08-24
+modified:
 description: The civic hackathon - a gathering (either virtual or physical) of technologists for a few days or weeks to build civic-themed software - remains one of the more durable manifestations of the open government movement.
 author: GovFresh
 ---

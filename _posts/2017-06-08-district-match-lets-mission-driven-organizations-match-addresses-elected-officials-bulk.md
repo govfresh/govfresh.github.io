@@ -1,6 +1,7 @@
 ---
 title: "District Match lets mission-driven organizations match addresses to elected officials in bulk"
 date: 2017-06-08
+modified:
 description: Azavea Product Specialist Patrick Han and Product Manager Stephanie Thome share how Cicero’s District Match app makes it easy for nonprofits to mobilize their constituents to contact their elected officials.
 author: GovFresh
 ---

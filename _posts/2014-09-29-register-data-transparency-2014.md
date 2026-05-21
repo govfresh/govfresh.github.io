@@ -1,6 +1,7 @@
 ---
 title: "Register for Data Transparency 2014"
 date: 2014-09-29
+modified:
 description: The Data Transparency Coalition will host Data Transparency 2014 on Tuesday, September 30, in Washington, D.C.
 author: GovFresh
 ---

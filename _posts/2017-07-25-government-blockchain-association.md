@@ -1,6 +1,7 @@
 ---
 title: "Government Blockchain Association wants to facilitate public sector blockchain awareness, adoption"
 date: 2017-07-25
+modified:
 description: The newly-formed Government Blockchain Association is a 501(c)(6) nonprofit corporation that wants to create relationships “between and among technologists, public policy makers, application specialists and those who simply need to understand the new and emerging digital currencies that will change the world.”
 author: GovFresh
 ---

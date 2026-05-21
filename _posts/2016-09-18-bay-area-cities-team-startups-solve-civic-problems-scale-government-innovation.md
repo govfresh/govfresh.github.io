@@ -1,6 +1,7 @@
 ---
 title: "Bay Area cities team with startups to solve civic problems, scale government innovation"
 date: 2016-09-18
+modified:
 description: Bay Area cities San Francisco, Oakland, West Sacramento and San Leandro teamed with startups this year as part of the Startup in Residence program to “explore ways to use technology to make government more accountable, efficient and responsive.”
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "U.S. DOT seeks chief data officer"
 date: 2014-06-08
+modified:
 description: The U.S. Department of Transportation is looking for a chief data officer and, hurry, because you have until Tuesday to apply.
 author: GovFresh
 ---

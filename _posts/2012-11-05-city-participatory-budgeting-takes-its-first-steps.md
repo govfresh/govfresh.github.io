@@ -1,6 +1,7 @@
 ---
 title: "City participatory budgeting takes its first steps"
 date: 2012-11-05
+modified:
 description: This past September Vallejo, Ca., began the United States' first citywide venture in participatory budgeting, allowing residents to directly decide how $3.4 million dollars of public money would be spent.
 author: GovFresh
 ---

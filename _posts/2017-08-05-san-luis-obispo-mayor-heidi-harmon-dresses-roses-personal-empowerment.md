@@ -1,6 +1,7 @@
 ---
 title: "San Luis Obispo Mayor Heidi Harmon on dresses, roses and personal empowerment"
 date: 2017-08-05
+modified:
 description: San Luis Obispo Mayor Heidi Harmon has an inspiring interview with the The California Report on her personal style, what it re-enforces and the sense of empowerment it gives her.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Revelstone shares lesson learned from the civic startup trenches"
 date: 2013-04-19
+modified:
 description: undefined
 author: GovFresh
 ---

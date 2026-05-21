@@ -6,7 +6,6 @@ description: "Beyond policy, proactive engagement and better data management wil
 author: Luke Fretwell
 img-feat: robot-feat.png
 img-og: robot-og.png
-img-twitter: robot-twitter.png
 img-alt: "Robot icon"
 img-caption: "Robot icon via Font Awesome"
 img-link: https://fontawesome.com

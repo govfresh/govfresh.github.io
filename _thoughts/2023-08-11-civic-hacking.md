@@ -6,7 +6,6 @@ description: "The soul and grassroots foundation of democracy."
 author: Luke Fretwell
 img-feat: code-feat.png
 img-og: code-og.png
-img-twitter: code-twitter.png
 img-alt: "Code icon"
 img-caption: "Code icon via Font Awesome"
 img-link: https://fontawesome.com

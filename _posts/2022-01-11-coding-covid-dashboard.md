@@ -1,6 +1,7 @@
 ---
 title: "Coding a COVID-19 dashboard (with my 13 year-old son)"
 date: 2022-01-11
+modified:
 description: "Adventures in father-son civic hacking."
 author: Luke Fretwell
 img: civic-hacking-header.png

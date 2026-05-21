@@ -1,6 +1,7 @@
 ---
 title: "What went wrong with the open data movement"
 date: 2019-07-16
+modified:
 description: Kin Lane offers insightful commentary on what went wrong with the open data movement, and why it failed to live up to initial exuberance and expectations.
 author: GovFresh
 category:

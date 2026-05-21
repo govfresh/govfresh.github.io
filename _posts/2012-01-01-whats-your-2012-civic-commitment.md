@@ -1,6 +1,7 @@
 ---
 title: "What's your 2012 civic commitment?"
 date: 2012-01-01
+modified:
 description: A recent Seth Godin blog post resonates with me and reflects how I’ve always approached GovFresh and will continue to do in 2012.
 author: GovFresh
 ---

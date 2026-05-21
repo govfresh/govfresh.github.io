@@ -1,6 +1,7 @@
 ---
 title: "Effective city government is only possible by embracing the spirit of innovation"
 date: 2011-06-15
+modified:
 description: Our government is only as strong as the bonds of trust between our institutions and citizens. An effective government must communicate its goals and actions.
 author: GovFresh
 category:

@@ -2,11 +2,11 @@
 layout: news
 title: "Government websites fail basic cybersecurity practices"
 date: 2024-10-22
+modified:
 author: Luke Fretwell
 description: "ScanGov adds security grades, scorecards."
 img-feat: scangov-security.png
 img-og: scangov-security.png
-img-twitter: scangov-security.png
 img-alt: "Screenshot of web page showing security scores for government websites"
 img-caption: "Screenshot of ScanGov web page showing security grades and scores for government websites."
 img-link: 

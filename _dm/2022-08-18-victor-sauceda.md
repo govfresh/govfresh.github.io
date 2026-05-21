@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Victor Sauceda"
 date: 2022-08-18
+modified:
 description: "CEO, founder, justice reform advocate, community leader, change agent"
 author: GovFresh
 name: Victor Sauceda
@@ -13,20 +14,13 @@ img-alt: Victor Sauceda headshot
 #img-caption: ""
 email: victorasauceda@gmail.com
 website: https://victorycode.co
-twitter: 
-medium:
-figma:
-youtube:
-vimeo:
+
 linkedin: https://www.linkedin.com/in/victor-sauceda-10202a190/
-instagram:
-facebook:
+
 github: https://github.com/victorSauceda
-flickr:
-tumblr:
-amazon: 
+
 calendar: https://calendly.com/victorasauceda/
-rss:
+
 category:
 share-twitter: https://twitter.com/govfresh/status/1560374512662679553?s=20&t=78ZKXUOwCw-YwLw4ll8LAA
 share-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6966140533987532800

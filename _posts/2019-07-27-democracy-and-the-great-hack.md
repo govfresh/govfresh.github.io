@@ -1,6 +1,7 @@
 ---
 title: "Democracy and 'The Great Hack'"
 date: 2019-07-27
+modified:
 description: The new Netflix documentary, The Great Hack, is an eye-opening account of how voter and social media profile data, particularly from Facebook, combined with a sophisticated, incendiary digital media campaign, can undermine democracy, as we saw happen with Brexit and the 2016 presidential campaign.
 author: GovFresh
 ---

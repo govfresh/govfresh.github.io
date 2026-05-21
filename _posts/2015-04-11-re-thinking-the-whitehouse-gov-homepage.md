@@ -1,6 +1,7 @@
 ---
 title: "Re-thinking the whitehouse.gov homepage"
 date: 2015-04-11
+modified:
 description: Starting with its homepage, the White House is moving to a more mobile-friendly design.
 author: GovFresh
 ---

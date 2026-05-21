@@ -1,6 +1,7 @@
 ---
 title: "GovReady wins $1.1M DHS contract to make security more open"
 date: 2016-03-01
+modified:
 description: The U.S. Department of Homeland Security announced it has awarded startup GovReady a $1.1M certification and accreditation contract that will be critical to bringing an open source approach to security.
 author: GovFresh
 ---

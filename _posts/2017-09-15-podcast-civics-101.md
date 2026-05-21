@@ -1,6 +1,7 @@
 ---
 title: "Podcast: Civics 101"
 date: 2017-09-15
+modified:
 description: The episodes focus on a single topic or institution — such as gerrymandering, lobbying, nuclear codes, National Secretary Council, Department of State — and interviews an expert with each lasting about 15 minutes.
 author: GovFresh
 ---

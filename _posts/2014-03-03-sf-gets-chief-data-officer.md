@@ -1,6 +1,7 @@
 ---
 title: "SF names Joy Bonaguro as city's first chief data officer"
 date: 2014-03-03
+modified:
 description: In a Twitter exchange between San Francisco Chief Information Officer Marc Touitou and myself, Touitou confirmed that the city has appointed Joy Bonaguro as its first chief data officer.
 author: GovFresh
 ---

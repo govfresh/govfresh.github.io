@@ -2,11 +2,11 @@
 layout: news
 title: "DEF CON Franklin to hold inaugural town meeting"
 date: 2024-10-01
+modified:
 author: GovFresh
 description: "Getting first projects launched."
 img-feat: defcon-franklin-feat.png
 img-og: defcon-franklin-og.png
-img-twitter: defcon-franklin-twitter.png
 img-alt: "Cartoon image of Ben Franklin in a skull and cross bones imagery"
 img-caption: 
 img-link: 

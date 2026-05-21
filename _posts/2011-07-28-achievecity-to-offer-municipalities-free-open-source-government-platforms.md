@@ -1,6 +1,7 @@
 ---
 title: "AchieveCity to offer municipalities free, open source government platforms"
 date: 2011-07-28
+modified:
 description: Firmstep has launched a new service called AchieveCity, a Web-based government platform powered by the Drupal distribution OpenPublic (developed by Phase2 Technology) and hosted in the Amazon EC2 environment.
 author: GovFresh
 ---

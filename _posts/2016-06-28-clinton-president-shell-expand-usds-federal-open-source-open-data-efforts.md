@@ -1,6 +1,7 @@
 ---
 title: "If Clinton is president, she'll expand USDS, federal open source and open data efforts"
 date: 2016-06-28
+modified:
 description: Hillary Clinton released her technology and innovation agenda that promises to expand the U.S. Digital Service and agency-specific digital teams, encourage the continued adoption of open source and open data and bring a more user-friendly approach to federal government operations.
 author: GovFresh
 ---

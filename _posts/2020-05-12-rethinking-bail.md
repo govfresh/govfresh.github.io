@@ -1,6 +1,7 @@
 ---
 title: "Rethinking bail"
 date: 2020-05-12
+modified:
 description: TED Radio Hour host Manoush Zomorodi's conversation with The Bail Project's Robin Steinberg is incredibly insightful and inspiring. Steinberg shares her work supporting those who can't afford to pay cash bail, which ultimately leads to a downward spiral of injustice.
 author: GovFresh
 category:

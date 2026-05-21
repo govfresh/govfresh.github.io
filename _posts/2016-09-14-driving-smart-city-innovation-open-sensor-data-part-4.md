@@ -1,6 +1,7 @@
 ---
 title: "Driving smart city innovation with open sensor data (part 4)"
 date: 2016-09-14
+modified:
 description: While it is commonly acknowledged that cities today produce massive amounts of data, it is less often noted that much of the data referenced is not actually produced directly by city systems, but rather by cities’ ecosystems of partners in domains such as transportation, waste and water management and energy services.
 author: GovFresh
 ---

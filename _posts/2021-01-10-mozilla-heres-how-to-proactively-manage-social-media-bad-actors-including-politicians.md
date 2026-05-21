@@ -1,6 +1,7 @@
 ---
 title: "Mozilla: Here's how to proactively manage social media bad actors, including politicians"
 date: 2021-01-10
+modified:
 description: In the aftermath of the deplatforming of Donald Trump, Mozilla offers concrete advice on how to best deal with bad actors -- including heads of states and politicians -- on social media platforms, beyond just suspending or permanently removing them.
 author: GovFresh
 category:

@@ -1,6 +1,7 @@
 ---
 title: "New GovFresh logo"
 date: 2014-07-23
+modified:
 description: Just an update that we've made slight modifications to the GovFresh logo.
 author: GovFresh
 ---

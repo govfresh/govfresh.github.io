@@ -1,6 +1,7 @@
 ---
 title: "How to not be the next USAspending.gov"
 date: 2015-04-01
+modified:
 description: Regardless of the vendor drama and complexity around delivering data specific to USAspending, here is a simple formula for any government working on the release of a new public-facing website.
 author: GovFresh
 ---

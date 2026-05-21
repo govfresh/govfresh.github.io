@@ -1,6 +1,7 @@
 ---
 title: "Original Civic Industries business card (and first one handed out by co-founder Eddie Tejeda). #opengov design + history"
 date: 2013-10-12
+modified:
 description: undefined
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "GovFreshTV: Q&A with Chicago CTO John Tolva"
 date: 2011-10-18
+modified:
 description: During last week's Code for America 2011 Summit, I sat down with Chicago Chief Technology Officer John Tolva and asked him about his current IT initiatives, challenges and lessons learned.
 author: GovFresh
 ---

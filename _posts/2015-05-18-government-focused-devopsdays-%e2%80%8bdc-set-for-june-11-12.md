@@ -1,6 +1,7 @@
 ---
 title: "Government-focused DevOpsDays ​DC set for June 11-12"
 date: 2015-05-18
+modified:
 description: According to organizers, the event is for “executives, program managers, and engineers considering or actively implementing DevOps at their organization.”
 author: GovFresh
 ---

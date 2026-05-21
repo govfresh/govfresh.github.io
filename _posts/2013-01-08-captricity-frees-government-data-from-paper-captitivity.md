@@ -1,6 +1,7 @@
 ---
 title: "Captricity frees government data from paper captivity"
 date: 2013-01-08
+modified:
 description: Captricity solves the “paper problem,” unlocking digital, machine-readable data from paper.
 author: GovFresh
 ---

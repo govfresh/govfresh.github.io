@@ -1,6 +1,7 @@
 ---
 title: "How California gets a return on its $25 million innovation investment"
 date: 2022-03-21
+modified:
 description: "Time for Alpha 2.0."
 author: Luke Fretwell
 pattern: isometric

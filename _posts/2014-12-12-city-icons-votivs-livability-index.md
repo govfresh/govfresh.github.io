@@ -1,6 +1,7 @@
 ---
 title: "City icons and Vocativ's livability index"
 date: 2014-12-12
+modified:
 description: Vocativ published its 2014 Livability Index of the 35 best cities for people 35 and under, and the best part of it is the montage of city icons they created for the piece.
 author: GovFresh
 ---

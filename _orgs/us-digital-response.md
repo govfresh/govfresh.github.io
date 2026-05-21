@@ -5,13 +5,11 @@ author: GovFresh
 link: https://www.usdigitalresponse.org
 img-feat: usdr-feat.png
 img-og: usdr-og.png
-img-twitter: usdr-twitter.png
 img-alt: "U.S. Digital Response logo"
 img-caption: #""
 img-link: 
 github: https://github.com/usdigitalresponse
 linkedin: https://www.linkedin.com/company/usdr/mycompany/
-x: usdresponse
 medium: https://medium.com/u-s-digital-response
 street-address: 
 city: 

@@ -1,6 +1,7 @@
 ---
 title: "How Palo Alto is leading the digital city movement"
 date: 2012-06-14
+modified:
 description: Palo Alto, Calif., Chief Information Officer Jonathan Reichental discusses his “digital city” vision, including how he leveraged the local developer community to help build city applications, bringing a “hacker ethic” to bureaucracy and the importance of supportive leaders in managing IT and cultural change.
 author: GovFresh
 ---

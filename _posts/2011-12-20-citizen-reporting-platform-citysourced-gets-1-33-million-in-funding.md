@@ -1,6 +1,7 @@
 ---
 title: "Citizen reporting platform CitySourced gets $1.33 million in funding"
 date: 2011-12-20
+modified:
 description: Location-based mobile reporting platform CitySourced announced it has raised $1.33 million in Series A financing.
 author: GovFresh
 ---

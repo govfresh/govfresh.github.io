@@ -1,11 +1,11 @@
 ---
 title: "AI Cybersecurity Collaboration Playbook"
 date: 2025-02-19
+modified:
 description: "GovFresh research notes on the AI Cybersecurity Collaboration Playbook."
 author: GovFresh
 img-feat: research-ai-cybersecurity-collaboration-playbook-feat.png
 img-og: research-ai-cybersecurity-collaboration-playbook-feat.png
-img-twitter: research-ai-cybersecurity-collaboration-playbook-feat.png
 img-alt: "Robot icon"
 img-caption: "Robot icon via Font Awesome"
 img-link: https://fontawesome.com/

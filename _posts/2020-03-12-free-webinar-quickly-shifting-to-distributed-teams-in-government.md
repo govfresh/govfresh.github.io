@@ -1,6 +1,7 @@
 ---
 title: "Free webinar: 'Quickly Shifting to Distributed Teams in Government'"
 date: 2020-03-12
+modified:
 description: To support government teams quickly shifting to distributed work during the COVID-19 pandemic, CivicActions will host a free webinar — repeated daily the week of March 16 — to share best practices and answer questions from the government community at large. Topics to be covered include operations, communications, security and productivity in a distributed work environment.
 author: GovFresh
 category:

@@ -1,6 +1,7 @@
 ---
 title: "NationBuilder brings community software to government"
 date: 2013-01-31
+modified:
 description: Vice President of Community Adriel Hampton pitches NationBuilder Government, a unified web, communications and CRM database solution.
 author: GovFresh
 ---

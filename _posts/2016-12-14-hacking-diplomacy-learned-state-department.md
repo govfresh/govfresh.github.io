@@ -1,6 +1,7 @@
 ---
 title: "Hacking for Diplomacy: What we learned with the State Department"
 date: 2016-12-14
+modified:
 description: By the end of the class our sponsors inside State had experienced a practical example of a new and powerful methodology which could help them better understand and deal with complicated international problems and apply technology where appropriate.
 author: GovFresh
 ---

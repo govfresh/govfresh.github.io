@@ -10,16 +10,27 @@ layout: papers
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
     <div class="container">
-      <div class="content-narrow">
-        {% include download.html %}
-        <div class="post">
-          <div>
-            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+      <div class="thoughts-layout">
+        <div>
+          {% include image.html loading="eager" fetchpriority="high" %}
+          {% include author.html %}
+          {% include date.html %}
+          {% include updated.html %}
+          {% include read-time.html %}
+          <wa-divider class="mb-4 mt-3"></wa-divider>
+          {% include download.html %}
+          <div class="post mb-5">
+            <div>
+              {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+            </div>
           </div>
+          {% include contributors.html %}
+          {% include bio.html %}
+          {% include topics.html %}
         </div>
-        {% include bio.html %}
-        {% include contributors.html %}
-        {% include topics.html %}
+        <div class="thoughts-toc">
+          {% include toc.html html=content %}
+        </div>
       </div>
     </div>
   </article>
@@ -29,5 +40,6 @@ layout: papers
     {% include previews.html show-only="true" %}
   </div>
 </aside>
+<script src="{{ site.baseurl }}/js/toc-active.js" defer></script>
 {% include analytics.html %}
 {% include footer.html %}

@@ -1,6 +1,7 @@
 ---
 title: "Open Town Hall aims to keep online public forums civil"
 date: 2011-10-11
+modified:
 description: In 2007, Robert Vogel and Mike Alvarez Cohen started Peak Democracy to “build public trust in government through online public comment forums that are civil yet meet government freedom-of-speech and transparency laws.” 
 author: GovFresh
 ---

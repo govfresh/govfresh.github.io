@@ -1,6 +1,7 @@
 ---
 title: "Citizen 2.0 white paper highlights 17 examples of government social media innovation"
 date: 2011-11-03
+modified:
 description: Switzerland-based RedCut has released Citizen 2.0, a white paper of case studies that include 17 examples of social media and government innovation. We asked CEO Hadi Barkat to share his methodology and what he learned.
 author: GovFresh
 ---

@@ -1,11 +1,11 @@
 ---
 title: "GDPR"
 date: 2024-11-03
+modified:
 description: "GovFresh research notes on General Data Protection Regulation."
 author: GovFresh
 img-feat: research-user-shield-feat.png
 img-og: research-user-shield-feat.png
-img-twitter: research-user-shield-feat.png
 img-alt: "User shield icon"
 img-caption: "User shield via Font Awesome"
 img-link: https://fontawesome.com/

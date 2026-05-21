@@ -1,6 +1,7 @@
 ---
 title: "It's time for a national chief data officers council"
 date: 2015-03-16
+modified:
 description: As momentum around appointing public sector chief data officers grows, it’s time for the federal government to get ahead of the curve and create a formal chief data officers council similar to, but more inclusive, proactive and public than the already-established U.S. Chief Information Officers Council.
 author: GovFresh
 ---

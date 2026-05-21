@@ -1,6 +1,7 @@
 ---
 title: "Big feet: Walkonomics wants to crowdsource the friendliness of the world's streets"
 date: 2013-03-26
+modified:
 description: Walkonomics mobile app rates and maps the pedestrian-friendliness of every street in San Francisco, Manhattan and England.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Accela acquires mobile 311 platform PublicStuff"
 date: 2015-05-18
+modified:
 description: The service allows citizens to report non-emergency requests, such as potholes and graffiti, via their mobile devices, which are then serviced through a back-end, enterprise customer relationship management system.
 author: GovFresh
 ---

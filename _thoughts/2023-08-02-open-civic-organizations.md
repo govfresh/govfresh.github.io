@@ -6,7 +6,6 @@ description: "How government agencies, academia, nonprofit organizations and pub
 author: Luke Fretwell
 img-feat: oco-feat.png
 img-og: oco-feat.png
-img-twitter: oco-feat.png
 img-alt: "Laurel Wreath"
 img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project (CC BY 3.0)"
 img-link: https://thenounproject.com/icon/laurel-wreath-1383533/

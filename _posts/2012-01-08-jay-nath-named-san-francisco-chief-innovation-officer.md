@@ -1,6 +1,7 @@
 ---
 title: "Jay Nath named San Francisco chief innovation officer"
 date: 2012-01-08
+modified:
 description: The San Francisco Chronicle reports that Jay Nath has been appointed Chief Innovation Officer for the City and County of San Francisco.
 author: GovFresh
 ---

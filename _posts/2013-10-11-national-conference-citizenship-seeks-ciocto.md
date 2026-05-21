@@ -1,6 +1,7 @@
 ---
 title: "National Conference on Citizenship seeks CIO/CTO"
 date: 2013-10-11
+modified:
 description: The National Conference on Citizenship is looking for a chief information officer/chief technology officer.
 author: GovFresh
 ---

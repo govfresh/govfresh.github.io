@@ -1,6 +1,7 @@
 ---
 title: "The opportunity for civic startups"
 date: 2011-10-28
+modified:
 description: Excellent Civic Startups presentation from Civic Commons Managing Director Nick Grossman.
 author: GovFresh
 ---

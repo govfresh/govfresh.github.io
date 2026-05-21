@@ -1,6 +1,7 @@
 ---
 title: "Oakland (California) City Hall"
 date: 2013-12-31
+modified:
 description: undefined
 author: GovFresh
 category:

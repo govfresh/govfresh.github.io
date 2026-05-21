@@ -1,6 +1,7 @@
 ---
 title: "Kiba Gateaux on how blockchain can facilitate peace"
 date: 2018-07-25
+modified:
 description: Kiba Gateaux shares his thoughts on the role blockchain can play in making the world a more “hospitable and prosperous place for everyone,” and how others can get involved.
 author: GovFresh
 ---

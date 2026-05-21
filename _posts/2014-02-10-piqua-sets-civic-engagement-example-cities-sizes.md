@@ -1,6 +1,7 @@
 ---
 title: "Piqua sets the civic example for cities of all sizes"
 date: 2014-02-10
+modified:
 description: GovFresh 2013 Small City of the Year Piqua, Ohio, is a shining example of the old adage “small is beautiful.” With its multi-pronged approach to engaging citizens, Piqua is proof that it doesn’t take a big city budget to execute big civic ideas.
 author: GovFresh
 ---

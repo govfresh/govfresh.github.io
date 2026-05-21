@@ -3,6 +3,7 @@ title: "How government can secure us in the internet+ era"
 description: The Government We Need talks with Bruce Schneier about internet+ security and government’s role in keeping us safe.
 excerpt: The Government We Need talks with Bruce Schneier about internet+ security and government’s role in keeping us safe.
 date: 2019-06-19
+modified:
 topics:
   - Cybersecurity
   - Policy

@@ -1,6 +1,7 @@
 ---
 title: "Talk to the hand: New Covington logo breaks government convention"
 date: 2015-01-13
+modified:
 description: I'm a huge fan of government re-branding to modernize away from the antiquated look of the traditional seal, mostly because I believe it can play a huge role in citizen sentiment and how employees see themselves and their roles as public servants.
 author: GovFresh
 ---

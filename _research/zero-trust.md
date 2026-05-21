@@ -1,11 +1,11 @@
 ---
 title: "Zero Trust"
 date: 2024-10-07
+modified:
 description: "GovFresh research notes on Zero Trust."
 author: GovFresh
 img-feat: research-zero-trust-feat.png
 img-og: research-zero-trust-feat.png
-img-twitter: research-zero-trust-feat.png
 img-alt: "Building shield icon"
 img-caption: "Building shield icon via Font Awesome"
 img-link: https://fontawesome.com/

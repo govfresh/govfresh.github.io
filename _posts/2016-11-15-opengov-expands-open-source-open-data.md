@@ -1,6 +1,7 @@
 ---
 title: "OpenGov expands to open source, open data"
 date: 2016-11-15
+modified:
 description: Open Gov’s CEO Zac Bookman shares how OpenGov the company’s new open data solution will impact public administration – including how governments engage with citizens such as civic developers.
 author: GovFresh
 ---

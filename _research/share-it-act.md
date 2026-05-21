@@ -1,11 +1,11 @@
 ---
 title: "SHARE IT Act"
 date: 2025-01-06
+modified:
 description: "GovFresh research notes on the SHARE IT Act."
 author: GovFresh
 img-feat: research-share-it-act-feat.png
 img-og: research-share-it-act-feat.png
-img-twitter: research-share-it-act-feat.png
 img-alt: "Compare code icon"
 img-caption: "Compare code via Font Awesome"
 img-link: https://fontawesome.com/

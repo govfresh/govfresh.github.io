@@ -1,6 +1,7 @@
 ---
 title: "'War Dogs' and government procurement"
 date: 2017-06-13
+modified:
 description: Regardless of whether you’re interested in the business of war, there’s enough references to government purchasing to make it fully entertaining for those of you who are proud procurement enthusiasts.
 author: GovFresh
 category:

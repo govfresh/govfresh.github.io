@@ -1,6 +1,7 @@
 ---
 title: "Open data vital for San Francisco’s Bike Share"
 date: 2013-04-17
+modified:
 description: Finally, a bike-sharing program is coming to San Francisco!
 author: GovFresh
 ---

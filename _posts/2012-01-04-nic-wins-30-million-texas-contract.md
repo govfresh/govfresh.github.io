@@ -1,6 +1,7 @@
 ---
 title: "NIC wins $30 million Texas contract"
 date: 2012-01-04
+modified:
 description: The Kansas City Star reports e-gov services provider NIC won a $30-$35 million contract from the Texas Department of Public Safety.
 author: GovFresh
 ---

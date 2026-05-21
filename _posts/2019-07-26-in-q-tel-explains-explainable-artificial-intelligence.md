@@ -1,6 +1,7 @@
 ---
 title: "In-Q-Tel explains explainable artificial intelligence"
 date: 2019-07-26
+modified:
 description: The intelligence community's venture capital arm, In-Q-Tel, published a helpful primer on explainable artificial intelligence.
 author: GovFresh
 ---

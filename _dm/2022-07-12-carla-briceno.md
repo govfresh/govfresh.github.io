@@ -1,6 +1,7 @@
 ---
 title: "Direct messaging: Carla Briceno"
 date: 2022-07-05
+modified:
 description: "CEO and co-founder, Bixal"
 author: GovFresh
 name: Carla Briceno
@@ -11,20 +12,11 @@ img: carla-briceno.jpg
 img-feat: carla-briceno.jpg
 img-alt: Carla Briceno
 #img-caption: ""
-email:
+
 website: https://www.bixal.com/
-twitter: 
-medium:
-figma:
-youtube:
-vimeo:
+
 linkedin: https://www.linkedin.com/in/carlabriceno/
-instagram:
-facebook:
-github:
-flickr:
-tumblr:
-rss:
+
 category:
   - Business
 feature:

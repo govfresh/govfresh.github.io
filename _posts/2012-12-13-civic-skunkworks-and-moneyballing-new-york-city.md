@@ -1,6 +1,7 @@
 ---
 title: "Civic skunkworks and Moneyballing New York City"
 date: 2012-12-13
+modified:
 description: New York City's Michael Flowers gives an overview of how the city leverages data analytics to solve problems and better serve citizens.
 author: GovFresh
 ---

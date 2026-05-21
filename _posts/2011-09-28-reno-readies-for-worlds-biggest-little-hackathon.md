@@ -1,6 +1,7 @@
 ---
 title: "Reno readies for world's biggest little hackathon"
 date: 2011-09-28
+modified:
 description: The world's biggest little city is about to get its code on.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Baltimore Open Government 2011 Year in Review"
 date: 2011-12-30
+modified:
 description: Following up on my previous post for the City of Philadelphia, this post describes what happened on the open government and open data fronts in the City of Baltimore in 2011.
 author: GovFresh
 ---

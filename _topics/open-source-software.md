@@ -5,5 +5,5 @@ icon: "fa-solid fa-code-branch"
 img-og: open-source-og.png
 img-alt: ""
 redirect_from:
-  - /topics/open-source-software
+  - /topics/open-source
 ---

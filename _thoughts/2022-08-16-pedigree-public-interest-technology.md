@@ -6,7 +6,6 @@ description: "The community that supports digital government services should be 
 author: Luke Fretwell
 img-feat: pedigree-feat.png
 img-og: pedigree-og.png
-img-twitter: pedigree-twitter.png
 img-alt: "Icon of a certificate seal"
 img-caption: "Certificate icon via Font Awesome"
 img-link: https://fontawesome.com/

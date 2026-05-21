@@ -1,6 +1,7 @@
 ---
 title: "Oakland moves closer to adopting open data policy"
 date: 2013-09-28
+modified:
 description: The policy calls for the city "to make every reasonable effort to publish its data in machine readable formats using prevailing open standards" and directs the city administrator to lead the effort under a specific timeline.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Why no one uses your government data"
 date: 2014-01-06
+modified:
 description: Publishing government information is about much more than simply throwing 0’s and 1’s over the firewall. It’s about building ecosystems and communities. It’s about solving shared challenges. It’s about consumption — after all, that’s the American way.
 author: GovFresh
 ---

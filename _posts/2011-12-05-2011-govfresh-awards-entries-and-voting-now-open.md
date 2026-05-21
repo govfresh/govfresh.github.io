@@ -1,6 +1,7 @@
 ---
 title: "2011 GovFresh Awards entries and voting now open"
 date: 2011-12-05
+modified:
 description: Every day, tech-minded citizens across the country are doing good by their communities, literally geeking out about how they can help re-define the relationship government has with its citizens, using technology as a democratic tool to empower both.
 author: GovFresh
 ---

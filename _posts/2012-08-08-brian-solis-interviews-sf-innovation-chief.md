@@ -1,6 +1,7 @@
 ---
 title: "Brian Solis interviews SF innovation chief"
 date: 2012-08-08
+modified:
 description: Watch San Francisco Chief Innovation Officer Jay Nath being interviewed by Brian Solis.
 author: GovFresh
 ---

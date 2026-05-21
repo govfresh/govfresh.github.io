@@ -1,6 +1,7 @@
 ---
 title: "Kudos to the city of Oakland for hosting CityCamp Oakland IN CITY HALL."
 date: 2013-11-09
+modified:
 description: undefined
 author: GovFresh
 category:

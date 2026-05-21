@@ -1,6 +1,7 @@
 ---
 title: "Gov 2.0 Radio: Reno.gov Web Manager Kristy Fifelski"
 date: 2011-08-15
+modified:
 description: Kristy Fifelski of GovGirl.com and Reno.gov joins us on Gov 2.0 Radio to discuss Reno's planned inaugural civic hackathon, her GovGirl video series, the upcoming National Association of Government Webmasters conference and the new NV.gov.
 author: GovFresh
 ---

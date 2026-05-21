@@ -10,23 +10,13 @@ img: carlos-moreno.jpeg
 img-feat: carlos-moreno.jpeg
 img-alt: Carlos Moreno
 email: tulsadesigner@gmail.com
-website: 
-subscribe: 
-patreon: 
-bluesky: 
-mastodon: 
-twitter: 
+
 medium: https://medium.com/@chimchim237
-figma: 
-youtube: 
-vimeo: 
+
 linkedin: https://www.linkedin.com/in/tulsadesigner/
-instagram: 
-facebook: https://www.facebook.com/chimchim237
+
 github: https://github.com/chimchim237
-flickr: 
-tumblr: 
-rss: 
+
 team: 
 role: Contributor
 ---

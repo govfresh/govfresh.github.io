@@ -1,6 +1,7 @@
 ---
 title: "Government (software) as a service"
 date: 2016-04-05
+modified:
 description: Given the ubiquity of both government and software-as-a-service in our lives, it’s only natural they are starting to work more closely with one another.
 author: GovFresh
 ---

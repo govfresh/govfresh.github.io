@@ -6,7 +6,6 @@ description: "Anatomy of a proper government website address."
 author: Luke Fretwell
 img-feat: url-feat.png
 img-og: url-og.png
-img-twitter: url-twitter.png
 img-alt: "Link icon"
 img-caption: "Link icon via Font Awesome"
 img-link: https://fontawesome.com

@@ -1,6 +1,7 @@
 ---
 title: "How government can enable peace through entrepreneurship"
 date: 2017-11-13
+modified:
 description: "In \"Peace Through Entrepreneurship: Investing in a Startup Culture for Security and Development,\" former State Department staffer Steven Koltai makes the case that world peace can best be achieved through nonmilitary means, especially entrepreneurship that leads to global job creation."
 author: GovFresh
 ---

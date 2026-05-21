@@ -1,6 +1,7 @@
 ---
 title: "e.Republic expands model to venture capitalism, funds first startup"
 date: 2014-07-28
+modified:
 description: Government media and events company e.Republic is expanding its business operations to include funding civic-focused startups, in hopes of leveraging its Rolodex of government officials to help serve as a channel for sales and marketing to those ventures it supports.
 author: GovFresh
 ---

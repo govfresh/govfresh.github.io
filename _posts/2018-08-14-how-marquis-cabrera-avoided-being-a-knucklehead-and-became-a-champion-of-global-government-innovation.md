@@ -1,6 +1,7 @@
 ---
 title: "How Marquis Cabrera avoided 'being a knucklehead' and became a champion of global government innovation"
 date: 2018-08-14
+modified:
 description: Marquis Cabrera is extremely insightful on many topics, a great thinker, conversationalist and intelect that brings a sense of humor, humility, genuine purpose and passion much needed in government technology.
 author: GovFresh
 ---

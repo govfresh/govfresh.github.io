@@ -1,6 +1,7 @@
 ---
 title: "This week on Gov2 TV: OGP, 'open government is dead' debate"
 date: 2011-10-07
+modified:
 description: This week’s Gov2 TV discusses the international Open Government Partnership, the “open gov is dead” debate and the latest government 2.0 news and trends with O’Reilly Media Government 2.0 Washington Correspondent Alex Howard and host Walter Schwabe.
 author: GovFresh
 ---

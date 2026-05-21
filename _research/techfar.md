@@ -1,11 +1,11 @@
 ---
 title: "TechFAR"
 date: 2024-10-07
+modified:
 description: "GovFresh research notes on TechFAR."
 author: GovFresh
 img-feat: research-techfar-feat.png
 img-og: research-techfar-feat.png
-img-twitter: research-techfar-feat.png
 img-alt: "Money check icon"
 img-caption: "Money check icon via Font Awesome"
 img-link: https://fontawesome.com/

@@ -1,6 +1,7 @@
 ---
 title: "Cori Zarek named new executive director for Georgetown's Beeck Center for Social Impact + Innovation"
 date: 2021-01-05
+modified:
 description: The Beeck Center for Social Impact + Innovation at Georgetown University today announced that Cori Zarek will take over as executive director.
 author: GovFresh
 category:

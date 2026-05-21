@@ -1,6 +1,7 @@
 ---
 title: "For and with the people: An introduction to government digital service"
 date: 2019-01-29
+modified:
 description: As the general public increasingly expects the civic user experience to be as refined as the ones we have with our consumer electronics, digital service delivery has become a priority for governments locally and globally.
 author: GovFresh
 ---

@@ -1,6 +1,7 @@
 ---
 title: "USPTO's tech strategy is a blueprint for all government IT"
 date: 2015-07-28
+modified:
 description: I just discovered the U.S. Patent and Trademark Office strategic IT plan, which should serve as a blueprint for all government agency technology efforts.
 author: GovFresh
 ---

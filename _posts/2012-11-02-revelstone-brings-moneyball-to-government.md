@@ -1,6 +1,7 @@
 ---
 title: "Revelstone brings 'Moneyball' to government"
 date: 2012-11-02
+modified:
 description: Revelstone provides a web-based performance analytics and benchmarking platform to help local governments manage better.
 author: GovFresh
 ---

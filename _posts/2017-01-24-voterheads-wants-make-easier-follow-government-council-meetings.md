@@ -1,6 +1,7 @@
 ---
 title: "Voterheads wants to make it easier for you to follow government council meetings"
 date: 2017-01-24
+modified:
 description: Voterheads lets anyone keep track of any council meeting, down to the specific topic. CEO Karl McCollester shares how they’re making this possible.
 author: GovFresh
 ---

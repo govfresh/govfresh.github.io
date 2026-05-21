@@ -1,5 +1,5 @@
 ---
-layout: feed
+layout: latest
 title: Latest
 description: The GovFresh feed.
 img-og: govfresh-og.png

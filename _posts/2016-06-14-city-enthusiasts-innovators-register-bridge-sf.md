@@ -1,6 +1,7 @@
 ---
 title: "City enthusiasts, innovators: Register for BRIDGE SF"
 date: 2016-06-14
+modified:
 description: San Francisco Bay Area city enthusiasts and innovators can now register for BRIDGE SF, “a collaboration of public, private, non-profit, and academic institutions coming together to challenge assumptions, develop skills, share best practices, and build partnerships that drive innovation for a better tomorrow.”
 author: GovFresh
 ---

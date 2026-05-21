@@ -1,6 +1,7 @@
 ---
 title: "18F starts building pattern library for federal government websites"
 date: 2015-06-25
+modified:
 description: 18F has started building a much-needed federal government-wide pattern library.
 author: GovFresh
 ---

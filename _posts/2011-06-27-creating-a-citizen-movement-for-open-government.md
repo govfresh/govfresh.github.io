@@ -1,6 +1,7 @@
 ---
 title: "Creating a citizen movement for open government"
 date: 2011-06-27
+modified:
 description: How do you get techies, govies, and citizens to identify,  collaborate, and start creating solutions for your local government?  Host a CityCamp.
 author: GovFresh
 ---

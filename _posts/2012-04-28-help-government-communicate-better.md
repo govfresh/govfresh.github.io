@@ -1,6 +1,7 @@
 ---
 title: "Help government communicate better"
 date: 2012-04-28
+modified:
 description: Measured Voice President Jed Sundwall writes “Why We’re a Civic Startup” on the company’s blog to highlight why it applied to the Code for America Accelerator program.
 author: GovFresh
 ---

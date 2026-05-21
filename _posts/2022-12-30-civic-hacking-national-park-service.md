@@ -1,6 +1,7 @@
 ---
 title: "Civic hacking the National Park Service"
 date: 2022-12-30
+modified:
 description: "Building a national parks directory with the NPS API."
 author: Luke Fretwell
 img: civic-hacking-header.png

@@ -1,6 +1,7 @@
 ---
 title: "Thoughts on the new acquisition.gov"
 date: 2015-04-13
+modified:
 description: The General Services Administration announced a new re-design of acquisition.gov, the official website for the Federal Acquisition Regulations.
 author: GovFresh
 ---

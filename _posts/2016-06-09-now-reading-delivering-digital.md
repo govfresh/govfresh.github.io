@@ -1,6 +1,7 @@
 ---
 title: "Now reading: 'Delivering on Digital'"
 date: 2016-06-09
+modified:
 description: "I’m reading Bill Eggers’ new book, \"Delivering on Digital: The Innovators and Technologies That Are Transforming Government,\" and wanted to share that it’s now available for purchase."
 author: GovFresh
 ---

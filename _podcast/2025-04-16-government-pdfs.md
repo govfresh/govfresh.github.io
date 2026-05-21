@@ -3,6 +3,7 @@ title: "Government PDFs"
 description: "The controversial file format beloved by government."
 excerpt: "The controversial file format beloved by government."
 date: 2025-04-16
+modified:
 topics:
   - Customer experience
   - Design
@@ -19,10 +20,7 @@ img-alt: "PDF icon"
 short-name: Rebecca
 email: rebecca@deptofcivicthings.com
 website: https://deptofcivicthings.com/
-bluesky: 
-mastodon: 
-github: 
-twitter: http://www.twitter.com/bexwoodbury
+
 instagram: https://www.instagram.com/deptofcivicthings/
 linkedin: https://www.linkedin.com/company/department-of-civic-things/
 subscribe: https://deptcivicthings.substack.com/

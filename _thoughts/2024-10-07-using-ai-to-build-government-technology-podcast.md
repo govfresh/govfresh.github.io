@@ -6,7 +6,6 @@ description: "I created podcast-like overviews of FedRAMP, NIST Cybersecurity Fr
 author: Luke Fretwell
 img-feat: microphone-feat.png
 img-og: microphone-og.png
-img-twitter: microphone-twitter.png
 img-alt: "Microphone icon"
 img-caption: "Microphone icon via Font Awesome"
 img-link: https://fontawesome.com/

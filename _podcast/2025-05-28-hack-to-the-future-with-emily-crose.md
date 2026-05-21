@@ -3,6 +3,7 @@ title: "Hack to the Future with Emily Crose"
 description: "Government's history, relationship and evolution with hackers and hacking."
 excerpt: "Government's history, relationship and evolution with hackers and hacking."
 date: 2025-05-28 -0700
+modified:
 topics:
   - Civic hacking
   - Cybersecurity
@@ -17,13 +18,10 @@ img-og: emily-crose-episode-og.png
 img-cover: episode-emily-crose.png
 img-alt: "Emily Crose"
 short-name: Emily
-email: 
+
 website: https://www.hexadecim8.com
 bluesky: https://bsky.app/profile/hexadecim8.com
-mastodon: 
-github: 
-twitter: 
-linkedin: 
+
 redirect_from: /episode/hack-to-the-future-with-emily-crose
 ---
 

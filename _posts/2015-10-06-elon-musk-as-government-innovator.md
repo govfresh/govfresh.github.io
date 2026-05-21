@@ -1,6 +1,7 @@
 ---
 title: "Elon Musk as government innovator"
 date: 2015-10-06
+modified:
 description: After reading Ashlee Vance's new Elon Musk biography, I find myself wondering whether we should really worry about bad government websites, and instead chalk them up as inspiration for those who will change the world.
 author: GovFresh
 ---

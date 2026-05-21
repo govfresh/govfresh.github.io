@@ -6,7 +6,6 @@ description: "A deep dive on open civic organizations."
 author: Luke Fretwell
 img-feat: oco-feat.png
 img-og: oco-og.png
-img-twitter: oco-twitter.png
 img-alt: "Circular laurel wreath design, colored in white, against a black background."
 img-caption: "Laurel Wreath by prasong tadoungsorn from Noun Project (CC BY 3.0)"
 img-link: https://thenounproject.com/icon/laurel-wreath-1383533/

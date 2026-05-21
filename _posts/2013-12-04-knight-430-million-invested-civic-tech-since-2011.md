@@ -1,6 +1,7 @@
 ---
 title: "Knight: More than $430 million invested in civic tech since 2011"
 date: 2013-12-04
+modified:
 description: undefined
 author: GovFresh
 ---

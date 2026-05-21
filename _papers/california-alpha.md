@@ -1,13 +1,13 @@
 ---
 title: "California Alpha"
 date: 2025-07-30
+modified:
 description: "How a short-term, experimental project scaled digital service innovation and impact across the State of California."
 author:
   - Luke Fretwell
   - Angelica Quirarte
 img-feat: paper-ca-alpha-feat.png
 img-og: paper-ca-alpha-og.png
-img-twitter: paper-ca-alpha-twitter.png
 img-alt: "State of California icon"
 #img-caption: " icon via OpenMoji"
 #img-link: https://openmoji.org/

@@ -1,6 +1,7 @@
 ---
 title: "Subscribe to the GovFresh newsletter"
 date: 2015-07-08
+modified:
 description: A few weeks ago, we added an email subscription option, and the sign-up rate has been incredible.
 author: GovFresh
 ---

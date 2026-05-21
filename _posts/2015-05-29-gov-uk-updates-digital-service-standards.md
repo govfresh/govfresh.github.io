@@ -1,6 +1,7 @@
 ---
 title: "GOV.UK updates digital service standards"
 date: 2015-05-29
+modified:
 description: The GOV.UK team has updated established protocols that serve as the foundation for ensuring government digital teams provide high-quality citizen services.
 author: GovFresh
 ---

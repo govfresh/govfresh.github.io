@@ -1,6 +1,7 @@
 ---
 title: "Big Code for America announcements and how you can get involved"
 date: 2011-12-15
+modified:
 description: Code for America made a number of announcements Wednesday that will have a big impact on the organization’s work in 2012 and potentially the future of government technology.
 author: GovFresh
 ---

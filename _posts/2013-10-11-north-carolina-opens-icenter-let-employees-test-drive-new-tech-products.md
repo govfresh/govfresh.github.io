@@ -1,6 +1,7 @@
 ---
 title: "New North Carolina iCenter lets state 'try before you buy' tech products"
 date: 2013-10-11
+modified:
 description: undefined
 author: GovFresh
 ---

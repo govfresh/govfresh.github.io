@@ -1,6 +1,7 @@
 ---
 title: "Two SF civic innovation programs now accepting fellowship applications"
 date: 2014-07-24
+modified:
 description: The San Francisco Mayor’s Office of Civic Innovation and Fuse Corps are now accepting fellowship applications for a total of five fellowship opportunities.
 author: GovFresh
 ---

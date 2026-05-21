@@ -1,6 +1,7 @@
 ---
 title: "Defaulting to open: A foundation for data-driven decisions"
 date: 2014-10-09
+modified:
 description: San Francisco Chief Data Officer Joy Bonaguro shares her vision for the city's open data future at the 2014 Code for America Summit.
 author: GovFresh
 ---

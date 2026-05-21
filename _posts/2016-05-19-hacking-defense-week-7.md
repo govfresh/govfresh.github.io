@@ -1,6 +1,7 @@
 ---
 title: "Hacking for Defense (Week 7)"
 date: 2016-05-19
+modified:
 description: We just held our seventh week of the Hacking for Defense class. Now with over 750 interviews of beneficiaries (users, program managers, stakeholders, etc.) almost all the teams are beginning to pivot from their original understanding of their sponsor’s problem and their hypotheses about how to solve them.
 author: GovFresh
 ---

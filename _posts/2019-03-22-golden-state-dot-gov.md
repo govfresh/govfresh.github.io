@@ -1,6 +1,7 @@
 ---
 title: "Golden State dot-gov"
 date: 2019-03-22
+modified:
 description: California is on the cusp of ushering in a new era of government digital services, one that our elected leaders can finally align, prioritize and execute on, and prove to the people of the Golden State that our representatives are ready to innovate just as other industries here have done.
 author: GovFresh
 ---

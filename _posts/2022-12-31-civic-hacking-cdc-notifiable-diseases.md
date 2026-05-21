@@ -1,6 +1,7 @@
 ---
 title: "Civic hacking CDC notifiable diseases"
 date: 2022-12-31
+modified:
 description: "Building a map of weekly notifiable disease cases across the United States."
 author: Luke Fretwell
 img: civic-hacking-header.png

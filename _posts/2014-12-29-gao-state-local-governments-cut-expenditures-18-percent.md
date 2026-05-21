@@ -1,6 +1,7 @@
 ---
 title: "GAO: State, local governments should cut expenditures by 18 percent"
 date: 2014-12-29
+modified:
 description: The U.S. Government Accountability Office released its 2014 state and local fiscal outlook model that indicates state and local government need to cut current expenditures by 18 percent to achieve fiscal balance over the next 50 years.
 author: GovFresh
 ---

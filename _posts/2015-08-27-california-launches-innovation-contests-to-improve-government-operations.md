@@ -1,6 +1,7 @@
 ---
 title: "California launches innovation contests to improve government operations"
 date: 2015-08-27
+modified:
 description: The state of California has launched a $25K Find a New Way innovation contest that gives residents a chance "to identify areas of improvement within the state government and share their untapped expertise to create solutions."
 author: GovFresh
 ---

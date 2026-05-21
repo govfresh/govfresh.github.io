@@ -1,6 +1,7 @@
 ---
 title: "Code for America launches accelerator to 'turbo-charge' civic startups"
 date: 2012-04-16
+modified:
 description: Code for America officially launched its Code for America Accelerator to “‘turbo-charge’ select civic startups by providing them an opportunity to amplify market awareness of their product, to access a wealth of business training and advice, and to be introduced to a broad network of potential investors and civic leaders.”
 author: GovFresh
 ---

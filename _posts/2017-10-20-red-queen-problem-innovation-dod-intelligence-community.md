@@ -1,6 +1,7 @@
 ---
 title: "The Red Queen Problem: Innovation in the DoD and intelligence community"
 date: 2017-10-20
+modified:
 description: Innovation, disruption, accelerators, have all become urgent buzzwords in the Department of Defense and Intelligence community. They are a reaction to the “red queen problem” but aren’t actually solving the problem. Here’s why.
 author: GovFresh
 category:

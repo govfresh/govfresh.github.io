@@ -1,6 +1,7 @@
 ---
 title: "SF CIO, Innovation Director discuss city's tech progress, innovation"
 date: 2011-09-26
+modified:
 description: San Francisco Chief Information Officer Jon Walton and Director of Innovation Jay Nath discuss government innovation and the work they're doing within the SF Department of Technology.
 author: GovFresh
 ---

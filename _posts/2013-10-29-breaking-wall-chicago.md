@@ -1,6 +1,7 @@
 ---
 title: "Breaking the wall in Chicago"
 date: 2013-10-29
+modified:
 description: Over the past few years, the civic innovation movement has grown tremendously. It's exploded really. Ten years ago, who would have imagined that Chicago would be a national leader in open government data?
 author: GovFresh
 ---
