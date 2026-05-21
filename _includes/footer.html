@@ -1,14 +1,16 @@
 <footer>
   {% unless page.url contains '/subscribe' %}
-  <wa-button
-    href="{{ site.baseurl }}/subscribe"
-    id="subscribe-button"
-    aria-label="Subscribe"
-    tabindex="-1"
-    size="s"
-    class="subscribe">
-    Subscribe
-  </wa-button>
+  <div id="subscribe-band" class="subscribe-band">
+    <wa-button
+      href="{{ site.baseurl }}/subscribe"
+      id="subscribe-button"
+      aria-label="Subscribe"
+      tabindex="-1"
+      size="s"
+      class="subscribe">
+      Subscribe
+    </wa-button>
+  </div>
   <script src="{{ site.baseurl }}/js/subscribe-button.js" defer></script>
   {% endunless %}
   <div class="container mt-5">
