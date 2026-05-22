@@ -1,14 +1,12 @@
 ---
 title: ""
 description: ""
-date: 
-modified: 
 img-book: .jpg
 img-feat: -feat.png
-img-og: -og.png
+#img-og: -og.png
 img-alt: ""
 book-author: 
-published: 
+book-published: 
 isbn: 
 genre: 
 book-language: 
@@ -17,10 +15,10 @@ number-of-pages:
 publisher: 
 publisher-url: 
 website: 
-library: https://www.worldcat.org/
-bookshop: https://bookshop.org/
-goodreads: https://www.goodreads.com/
-amazon: https://www.amazon.com
+#library: https://www.worldcat.org/
+#bookshop: https://bookshop.org/
+#goodreads: https://www.goodreads.com/
+#amazon: https://www.amazon.com
 quote: 
 category:
   - Accessibility
@@ -40,4 +38,3 @@ category:
 author: 
 feature: yes
 ---
-

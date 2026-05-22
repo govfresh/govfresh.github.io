@@ -6,7 +6,7 @@ img-feat: unit-x-feat.png
 img-og: unit-x-og.png
 img-alt: "Book cover of Unit X: How the Pentagon and Silicon Valley Are Transforming the Future of War"
 book-author: Christopher Kirchhoff and Raj M. Shah
-published: July 2024
+book-published: July 2024
 isbn: 1668031388
 genre: 
 book-language: English

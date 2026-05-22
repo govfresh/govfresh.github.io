@@ -6,7 +6,7 @@ img-feat: hackers-mind-feat.png
 img-og: hackers-mind-og.png
 img-alt: "Cover of A Hacker's Mind"
 book-author: Bruce Schneier
-published: February 2023
+book-published: February 2023
 isbn: 978-0-393-86666-7
 genre: 
 book-language: English

@@ -8,7 +8,7 @@ img-feat: the-tech-coup-feat.png
 img-og: the-tech-coup-og.png
 img-alt: "Cover of The Tech Coup: How to Save Democracy from Silicon Valley"
 book-author: Marietje Schaake
-published: September 2024
+book-published: September 2024
 isbn: 0691241171
 genre: 
 book-language: English

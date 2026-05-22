@@ -8,7 +8,7 @@ img-feat: hack-to-the-future-feat.png
 img-og: hack-to-the-future-og.png
 img-alt: "Cover of Hack to the Future"
 book-author: Emily Crose
-published: October 2024
+book-published: October 2024
 isbn: 978-1-394-16983-2
 genre: 
 book-language: 

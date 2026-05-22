@@ -6,7 +6,7 @@ img-feat: read-write-own.jpg
 img-og: read-write-own-og.png
 img-alt: "Read Write Own: Building the Next Era of the Internet"
 book-author: Chris Dixon
-published: January 2024
+book-published: January 2024
 isbn: 9780593731383
 genre: 
 book-language: English

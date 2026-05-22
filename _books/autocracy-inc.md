@@ -6,7 +6,7 @@ img-feat: autocracy-inc-feat.png
 img-og: autocracy-inc-og.png
 img-alt: "Cover of Autocracy, Inc."
 book-author: Anne Applebaum
-published: July 2024
+book-published: July 2024
 isbn: 0385549938
 genre: 
 book-language: English

@@ -5,7 +5,7 @@ img-book: citizens.jpg
 img-feat: citizens.jpg
 img-alt: "Cover of 'Citizens'"
 book-author: Jon Alexander, Ariane Conrad
-published: March 2022
+book-published: March 2022
 isbn: 9781912454846
 genre: 
 book-language: English

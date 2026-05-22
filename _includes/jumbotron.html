@@ -195,7 +195,7 @@
           {% include image.html loading="eager" fetchpriority="high" %}
         </div>
         <div>
-          <ul class="list-unstyled mb-0 text-body-secondary small">
+          <ul class="list-unstyled text-body-secondary small">
             {% if page.book-author %}
               <li>By {{ page.book-author }}</li>
             {% endif %}
@@ -208,8 +208,8 @@
             {% if page.book-format %}
               <li>{{ page.book-format }}</li>
             {% endif %}
-            {% if page.published %}
-              <li>{{ page.published }}</li>
+            {% if page.book-published %}
+              <li>{{ page.book-published }}</li>
             {% endif %}
             {% if page.genre %}
               <li>{{ page.genre }}</li>
@@ -227,7 +227,7 @@
                 href="{{ page.bookshop }}"
                 variant="brand"
                 size="l"
-                class="mt-4 mb-2">
+                class="mb-2">
                 Buy
               </wa-button>
             </p>
