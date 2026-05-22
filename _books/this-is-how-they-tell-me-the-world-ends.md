@@ -6,7 +6,7 @@ img-feat: this-is-how-they-tell-me-the-world-ends-feat.png
 img-og: this-is-how-they-tell-me-the-world-ends-og.png
 img-alt: "Cover of This Is How They Tell Me The World Ends"
 book-author: Nicole Perlroth
-published: February 9, 2021
+book-published: February 9, 2021
 isbn: 9781635576054
 genre: 
 book-language: English

@@ -1594,6 +1594,11 @@ pre {
 .list-unstyled {
     list-style: none;
     padding-left: 0;
+    padding-inline-start: 0;
+}
+
+.list-unstyled li {
+    margin-inline-start: 0;
 }
 
 .list-inline {

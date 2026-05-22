@@ -6,7 +6,7 @@ img-feat: surveillance-valley.jpg
 img-og: surveillance-valley.jpg
 img-alt: "Surveillance Valley cover"
 book-author: Yasha Levine
-published: 2018
+book-published: 2018
 isbn: 9781610398039
 genre: 
 book-language: English
