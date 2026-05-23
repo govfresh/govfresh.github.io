@@ -1294,10 +1294,34 @@ pre {
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--bs-body-bg);
     border-top: 1px solid var(--wa-color-surface-border);
     padding: 0.5rem max(1rem, calc((100vw - 1140px) / 2 + 1rem));
     z-index: 1000;
+}
+
+.subscribe-sponsor {
+    display: none;
+    font-family: var(--bs-font-monospace);
+    font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+    .subscribe-sponsor {
+        display: inline;
+    }
+}
+
+.subscribe-sponsor a {
+    color: var(--bs-link-color);
+    text-decoration: none;
+}
+
+.subscribe-sponsor a:hover {
+    text-decoration: underline;
 }
 
 /* ============================================
