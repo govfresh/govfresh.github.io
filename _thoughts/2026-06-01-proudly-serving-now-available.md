@@ -1,8 +1,8 @@
 ---
-title: "Hello world: “Proudly Serving”"
-date: 2026-03-22 -0700
+title: "Proudly Serving now available in print and digital formats"
+date: 2026-06-01 -0700
 modified: 
-description: "A community project that proves the power of collective civic collaboration"
+description: "Public service with and for the people."
 author: Luke Fretwell
 img-feat: book-feat.png
 img-og: book-og.png

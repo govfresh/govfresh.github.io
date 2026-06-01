@@ -37,4 +37,6 @@ categories:
   - Open source
   - Policy
   - Procurement
+redirect_from:
+  - /events/
 ---

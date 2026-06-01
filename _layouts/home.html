@@ -79,8 +79,7 @@ layout: home
         {% endfor %}
       {% endif %}
 
-      {% comment %} Sort safely - only sort if we have items with dates {% endcomment %}
-      {% comment %} Skip sorting to avoid array comparison errors {% endcomment %}
+      {% assign featured_posts = featured_posts | sort: "date" | reverse %}
 
       {% comment %} Display featured content {% endcomment %}
       {% for post in featured_posts limit: 1 %}
