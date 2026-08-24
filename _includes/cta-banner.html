@@ -1,0 +1,16 @@
+<div id="cta-banner" class="cta-banner">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a
+      href="{{ include.href }}"
+      id="cta-banner-button"
+      aria-label="{{ include.aria_label }}"
+      tabindex="-1"
+      class="cta-banner-button btn btn-sm">
+      {{ include.text }}
+    </a>
+    {% if include.sponsor_text %}
+      <span class="cta-banner-sponsor d-none d-md-inline">Sponsor: <a href="{{ include.sponsor_link }}">{{ include.sponsor_text }}</a></span>
+    {% endif %}
+  </div>
+</div>
+<script src="{{ site.baseurl }}/assets/lf-ui/cta-banner.js" defer></script>

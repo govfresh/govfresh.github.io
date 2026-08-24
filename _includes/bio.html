@@ -1,31 +1,4 @@
 {% for author in page.author %}
   {% assign author_data = site.people | where: "title", author | first %}
-  <wa-callout class="bio-callout mt-5 mb-3">
-    <div class="wa-flank wa-gap-l">
-      <div>
-        {% if author_data.img %}
-          <wa-avatar
-            image="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
-            label="Photo of {{ author_data.title }}"
-            class="bio-avatar"
-            style="--size: 5rem">
-          </wa-avatar>
-        {% endif %}
-      </div>
-      <div>
-        {% if author_data.title %}
-          <h2 class="h4 mb-0 pb-0">{{ author_data.title }}</h2>
-        {% endif %}
-        {% include social.html size="small" %}
-        {% if author_data.bio-short %}
-          <p class="small mt-2 text-body-secondary">{{ author_data.bio-short }}</p>
-        {% endif %}
-        {% if author_data.shortname %}
-          <p class="small mb-0 text-body-secondary">
-            <a href="{{ site.baseurl }}{{ author_data.url }}">More about {{ author_data.shortname }}</a>
-          </p>
-        {% endif %}
-      </div>
-    </div>
-  </wa-callout>
+  {% include bio-card.html %}
 {% endfor %}

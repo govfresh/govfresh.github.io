@@ -1,4 +1,6 @@
-{% if page.author %}
+{% if include.item.author %}
+  {% assign itemAuthor = include.item.author %}
+{% elsif page.author %}
   {% assign itemAuthor = page.author %}
 {% elsif post.author %}
   {% assign itemAuthor = post.author %}
@@ -7,15 +9,8 @@
   {% for author in itemAuthor %}
     {% assign author_data = site.people | where: "title", author | first %}
     {% if author_data.content.size > 1 %}
-      <p class="small text-body-secondary mb-1">
-        <small>
-          <i class="fa-solid fa-circle-user"></i>
-          By:
-          <a href="{{ site.baseurl }}{{ author_data.url }}" class="author-link">
-            {{ author_data.title }}
-          </a>
-        </small>
-      </p>
+      {% assign author_href = site.baseurl | append: author_data.url %}
+      {% include icon-line.html icon="fa-solid fa-circle-user" label="By:" value=author_data.title href=author_href link_class="author-link" %}
     {% endif %}
   {% endfor %}
 {% endif %}

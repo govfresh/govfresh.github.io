@@ -4,30 +4,28 @@ layout: podcast
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   <article>
     {% include jumbotron.html %}
     <div class="container">
-      <div class="wa-flank wa-gap-l wa-align-items-start">
-        <div>
+      <div class="row g-0 gap-4 align-items-start">
+        <div class="col-12 col-md-auto">
           {% include image.html loading="eager" %}
         </div>
-        <div>
+        <div class="col-12 col-md">
           {% include audio.html %}
           {% if page.number %}
+            {% assign episode_value = "Episode " | append: page.number %}
             <div class="mb-3">
-              <p class="small text-body-secondary mb-1">
-                <small>
-                  <i class="fa-solid fa-microphone-lines"></i>
-                  Episode {{ page.number }}</small>
-              </p>
+              {% include icon-line.html icon="fa-solid fa-microphone-lines" value=episode_value %}
               {% include date.html %}
               {% include host.html %}
               {% include duration.html %}
             </div>
           {% endif %}
-          <wa-divider class="mb-4 mt-1"></wa-divider>
+          <hr class="mb-4 mt-1">
           <div class="post">
             <div>
               <h2>In this episode</h2>

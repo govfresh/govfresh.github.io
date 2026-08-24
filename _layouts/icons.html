@@ -3,41 +3,45 @@ layout: default
 ---
 
 {% if page.title == "Topics" %}
-  <div class="wa-grid py-4" style="--min-column-size: 320px">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 card-group">
     {% for item in site.topics %}
       {% if item.title != 'Template' %}
-        <wa-card class="text-center">
-          {% if item.icon and item.url %}
-            <a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}" class="body-link">
+        <div class="col">
+          <div class="text-center card h-100"><div class="card-body">
+            {% if item.icon and item.url %}
+              <a href="{{ site.baseurl }}{{ item.url }}" aria-label="{{ item.title }}" class="body-link">
+                <p class="mb-4">
+                  <i class="{{ item.icon }} {{ site.data.connect.lg }}" aria-hidden="true"></i>
+                </p>
+              </a>
+            {% elsif item.icon %}
               <p class="mb-4">
-                <i class="{{ item.icon }} {{ site.data.connect.lg }} drop-shadow3" aria-hidden="true"></i>
+                <i class="{{ item.icon }} {{ site.data.connect.lg }}" aria-hidden="true"></i>
               </p>
-            </a>
-          {% elsif item.icon %}
-            <p class="mb-4">
-              <i class="{{ item.icon }} {{ site.data.connect.lg }} drop-shadow3" aria-hidden="true"></i>
-            </p>
-          {% endif %}
-          <p class="small">{{ item.title }}</p>
-        </wa-card>
+            {% endif %}
+            <p class="card-caption">{{ item.title }}</p>
+          </div></div>
+        </div>
       {% endif %}
     {% endfor %}
   </div>
 {% else %}
   <div class="container">
-    <div class="wa-grid mb-3" style="--min-column-size: 280px">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 card-group">
       {% for item in site.data.icons.docs %}
         {% if item.title == page.title %}
           {% for page in item.pages %}
             {% for website in site.pages %}
               {% if website.parent == page %}
-                <wa-card class="text-center pt-3 pb-3">
-                  <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3 shadow" aria-hidden="true"></i>
-                  <h2 class="h3">
-                    <a href="{{ site.baseurl }}/{{ website.parent }}" class="card-link">{{ website.title }}</a>
-                  </h2>
-                  <p class="description">{{ website.description }}</p>
-                </wa-card>
+                <div class="col">
+                  <div class="text-center pt-3 pb-3 card h-100"><div class="card-body">
+                    <i class="{{ website.icon }} {{ site.data.connect.lg }} mb-3 shadow" aria-hidden="true"></i>
+                    <h2 class="h3">
+                      <a href="{{ site.baseurl }}/{{ website.parent }}" class="card-link">{{ website.title }}</a>
+                    </h2>
+                    <p class="description">{{ website.description }}</p>
+                  </div></div>
+                </div>
               {% endif %}
             {% endfor %}
           {% endfor %}

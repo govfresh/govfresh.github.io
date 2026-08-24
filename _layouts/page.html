@@ -5,16 +5,15 @@ layout: page
 {% include nav.html %}
 <main id="main-content">
   {% include jumbotron.html %}
-  <wa-divider class="mb-4"></wa-divider>
-  <div class="container">
-    <div class="content-narrow">
-      <div class="post-signal post">
-        <div>
-          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
-        </div>
+  <hr class="mb-4">
+  {% capture body %}
+    <div class="post-signal post">
+      <div>
+        {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
       </div>
     </div>
-  </div>
+  {% endcapture %}
+  {% include toc-layout.html html=body toc_html=content %}
 </main>
 {% include analytics.html %}
 {% include footer.html %}

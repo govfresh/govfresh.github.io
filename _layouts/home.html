@@ -6,8 +6,8 @@ layout: home
 {% include nav.html %}
 <main id="main-content">
   <section>
-    <div class="container">
-      <h1 class="wa-visually-hidden">{{ site.title }} - {{ site.description }}
+    <div class="container hero-lg">
+      <h1 class="visually-hidden">{{ site.title }} - {{ site.description }}
       </h1>
 
       {% comment %} Build featured posts array safely {% endcomment %}
@@ -85,52 +85,33 @@ layout: home
       {% for post in featured_posts limit: 1 %}
         {% assign img_url = site.baseurl | append: "/assets/img/posts/" | append: post.img-og %}
 
-        <article class="featured-post pb-3">
-          <div class="featured-grid">
-            <div>
+        <article class="feature-card pb-3">
+          <div class="feature-grid row row-cols-1 row-cols-md-2">
+            <div class="col">
               <a href="{{ site.baseurl }}{{ post.url }}">
                 <img
-                  class="drop-shadow border"
+                  class="shadow-lg border"
                   src="{{ img_url }}"
                   alt="{{ post.img-alt | default: post.title }}"
                   loading="eager"
                   fetchpriority="high">
               </a>
             </div>
-            <div>
+            <div class="col">
               {% if post.title %}
-                <h2 class="mb-3">
+                <h2>
                   <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
                 </h2>
               {% endif %}
               {% if post.description %}
-                <p class="text-body-secondary mb-3">{{ post.description }}</p>
+                <p class="card-description mb-3">{{ post.description }}</p>
               {% endif %}
-              <div class="wa-cluster wa-gap-l">
-                {% if post.author %}
-                  {% assign author_obj = site.people | where: "name", post.author | first %}
-                  {% if author_obj %}
-                    <div class="wa-cluster wa-gap-s">
-                      <wa-avatar
-                        image="{{ site.baseurl }}/assets/img/people/{{ author_obj.img }}"
-                        label="{{ author_obj.name }}"
-                        class="bio-avatar"
-                        style="--size: 1.25rem">
-                      </wa-avatar>
-                      <a href="{{ site.baseurl }}{{ author_obj.url }}" class="author-link small">{{ post.author }}</a>
-                    </div>
-                  {% else %}
-                    <span class="small text-body-secondary">{{ post.author }}</span>
-                  {% endif %}
-                {% endif %}
-                {% if post.date %}
-                  <span class="small text-body-secondary">{{ post.date | date: "%B %-d, %Y" }}</span>
-                {% endif %}
-              </div>
+              {% include author.html item=post %}
+              {% include date.html %}
             </div>
           </div>
         </article>
-        <wa-divider class="mb-4"></wa-divider>
+        <hr class="mb-4">
       {% endfor %}
 
       {% comment %} Additional home content {% endcomment %}

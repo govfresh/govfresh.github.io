@@ -1,15 +1,17 @@
 <div class="mt-4 pb-3">
   <h2>Subscribe</h2>
-  <div class="wa-grid" style="--min-column-size: 160px">
+  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 card-group">
     {% for item in site.data.subscribe-podcast.docs %}
-      <wa-card class="text-center">
-        <a href="{{ item.url }}" aria-label="{{ item.title }}" class="body-link">
-          <p class="mb-4">
-            <i class="{{ item.icon }} {{ site.data.connect.lg }} drop-shadow3"></i>
-          </p>
-        </a>
-        <p class="small">{{ item.title }}</p>
-      </wa-card>
+      <div class="col">
+        <div class="text-center card h-100"><div class="card-body">
+          <a href="{{ item.url }}" aria-label="{{ item.title }}" class="body-link">
+            <p class="mb-2">
+              <i class="{{ item.icon }} {{ site.data.connect.md }}"></i>
+            </p>
+          </a>
+          <p class="card-caption">{{ item.title }}</p>
+        </div></div>
+      </div>
     {% endfor %}
   </div>
 </div>

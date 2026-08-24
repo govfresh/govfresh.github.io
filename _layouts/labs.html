@@ -4,7 +4,8 @@ layout: labs
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   {% include jumbotron.html %}
 </main>

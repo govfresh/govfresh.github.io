@@ -4,28 +4,28 @@ layout: signal
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   <article>
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
-    <div class="container">
-      <div class="content-narrow">
-        {% include author.html %}
-        {% include date.html %}
-        {% include updated.html %}
-        {% include read-time.html %}
-        <div class="post-signal">
-          <div>
-            <div class="post-signal border-top pt-4 mt-4">
-              {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
-            </div>
+    {% capture body %}
+      {% include author.html %}
+      {% include date.html %}
+      {% include updated.html %}
+      {% include read-time.html %}
+      <div class="post-signal">
+        <div>
+          <div class="post-signal border-top pt-4 mt-4">
+            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
           </div>
         </div>
-        {% include contributors.html %}
-        {% include topics.html %}
       </div>
-    </div>
+      {% include contributors.html %}
+      {% include topics.html %}
+    {% endcapture %}
+    {% include toc-layout.html html=body toc_html=content %}
   </article>
 </main>
 <aside>

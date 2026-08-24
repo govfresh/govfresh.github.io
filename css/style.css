@@ -1,270 +1,44 @@
-/* Fonts */
+/* Fonts — @font-face for Mona Sans/Roboto Mono, and the dedicated
+   single-weight families ("Mona Sans Bold"/"Roboto Mono Medium") that make
+   bold/medium text immune to Bootstrap resetting font-weight inside a card/
+   badge/alert, come from lf-ui's lf-theme.css. strong{} comes from lf-ui's
+   lf-components.css. */
 
-@font-face {
-    font-family: "Public Sans Regular";
-    src: url("/assets/fonts/public-sans/PublicSans-Regular.woff2") format("woff2"),
-         url("/assets/fonts/public-sans/PublicSans-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Public Sans Bold";
-    src: url("/assets/fonts/public-sans/PublicSans-Bold.woff2") format("woff2"),
-         url("/assets/fonts/public-sans/PublicSans-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Public Sans Extra Bold";
-    src: url("/assets/fonts/public-sans/PublicSans-ExtraBold.woff2") format("woff2"),
-         url("/assets/fonts/public-sans/PublicSans-ExtraBold.ttf") format("truetype");
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Roboto Mono";
-    src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.woff2") format("woff2"),
-         url("/assets/fonts/roboto-mono/RobotoMono-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Roboto Mono";
-    src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.woff2") format("woff2"),
-         url("/assets/fonts/roboto-mono/RobotoMono-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "PT Serif Regular";
-    src: url("/assets/fonts/pt-serif/PTSerif-Regular.woff2") format("woff2"),
-         url("/assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* Prevent CLS from unregistered Web Awesome components */
-:not(:defined) {
-    visibility: hidden;
-}
-
-/* Global keyboard focus ring */
-:focus-visible {
-    outline: 2px solid var(--bs-link-color);
-    outline-offset: 2px;
-}
-
-/* ============================================
-   CSS Reboot
-   ============================================ */
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-html {
-    background-color: var(--bs-body-bg, #fff);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-
-body {
-    margin: 0;
-    font-family: var(--bs-font-sans-serif, system-ui, sans-serif);
-    font-size: var(--bs-body-font-size, 1rem);
-    font-weight: var(--bs-body-font-weight, 400);
-    line-height: var(--bs-body-line-height, 1.5);
-    color: var(--bs-body-color, #000);
-    background-color: var(--bs-body-bg, #fff);
-    -webkit-text-size-adjust: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    line-height: 1.2;
-}
-
-h1 {
-    font-size: calc(1.375rem + 1.5vw);
-}
-
-h2 {
-    font-size: calc(1.325rem + 0.9vw);
-}
-
-h3 {
-    font-size: calc(1.3rem + 0.6vw);
-}
-
-h4 {
-    font-size: calc(1.275rem + 0.3vw);
-}
-
-h5 {
-    font-size: 1.25rem;
-}
-
-h6 {
-    font-size: 1rem;
-}
-
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.75rem;
-    }
-
-    h4 {
-        font-size: 1.5rem;
-    }
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-ul, ol {
-    padding-left: 2rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-ul ul, ol ul, ul ol, ol ol {
-    margin-bottom: 0;
-}
-
-li {
-    margin-bottom: 0.25rem;
-}
-
-a {
-    color: var(--bs-link-color, #0d6efd);
-    text-decoration: underline;
-}
-
-a:hover {
-    color: var(--bs-link-hover-color, #0a58ca);
-}
-
-img, svg {
-    vertical-align: middle;
-    max-width: 100%;
-    height: auto;
-}
-
-table {
-    border-collapse: collapse;
-    caption-side: bottom;
-}
-
-th {
-    text-align: inherit;
-    text-align: -webkit-match-parent;
-}
-
-thead, tbody, tfoot, tr, td, th {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
-}
-
-input, button, select, optgroup, textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-button, input {
-    overflow: visible;
-}
-
-hr {
-    margin: 1rem 0;
-    border: 0;
-    border-top: 1px solid var(--bs-border-color, #ccc);
-    opacity: 1;
-}
-
-blockquote {
-    margin: 0 0 1rem;
-}
+/* CSS Reboot, base element styling (html/body/headings/paragraphs/lists/
+   links/images/tables/forms/hr), and the utility-class layer that used to
+   live here (box-sizing, focus ring, .container, .d-*, .text-*, .border*,
+   .w-100, .list-unstyled/.list-inline*, .lead, .small) are all now real
+   Bootstrap (vendored at assets/lf-ui/bootstrap.min.css) or shared lf-ui
+   tokens/rules (assets/lf-ui/lf-theme.css) — this file no longer
+   reimplements them. */
 
 /* Light mode */
 
 :root,
 [data-theme=light] {
-    /* Site palette */
-    --bs-font-serif: "PT Serif Regular", Times, Baskerville, "Times New Roman", "Baskerville Serif", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --bs-font-sans-serif: "Public Sans Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --bs-font-monospace: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --bs-body-font-family: var(--bs-font-sans-serif);
-    --bs-body-font-size: 1.2rem;
-    --bs-body-font-weight: 400;
-    --bs-body-line-height: 1.6;
+    /* Site palette — --bs-font-sans-serif/--bs-font-monospace/
+       --bs-body-font-family now come from lf-ui's lf-theme.css. Root
+       font-size (drives body text size via inheritance, since Bootstrap's
+       own body rule reads --bs-body-font-size which isn't overridden here
+       anymore) also comes from lf-theme.css. */
     --bs-body-color: #000000;
+    /* --bs-primary/--bs-link-color/--bs-link-hover-color/--bs-border-color/
+       --bs-box-shadow(-lg) now come from lf-ui's lf-theme.css. */
     --bs-body-bg: #ffffff;
-    --bs-secondary-color: rgb(86, 92, 101);
+    /* --bs-secondary-color now comes from lf-ui's lf-theme.css. */
     --bs-secondary-bg: #212121;
-    --bs-link-color: #0d6efd;
-    --bs-link-hover-color: #0d6efd;
-    --bs-border-color: #000000;
     --bs-border-radius: 0.175rem;
     --bs-border-radius-sm: 0.25rem;
     --bs-gray: #ccc;
     --bs-black: #000;
     --bs-selection-bg: #d5bfff;
     --bs-selection-color: var(--bs-body-color);
-    --shadow-offset-color: #dddddd;
 
     /* DM bubble colors */
     --dm-bubble-q-bg: #000;
     --dm-bubble-q-color: #fff;
     --dm-bubble-a-bg: #e9ecef;
     --dm-bubble-a-color: #000;
-
-    /* Web Awesome token overrides */
-    --wa-color-brand-fill-loud: var(--bs-body-bg);
-    --wa-color-brand-on-loud: var(--bs-body-color);
-    --wa-color-brand-border-loud: var(--bs-gray);
-    --wa-color-brand-fill-normal: var(--bs-body-bg);
-    --wa-color-brand-on-normal: var(--bs-body-color);
-    --wa-color-brand-border-normal: var(--bs-gray);
-    --wa-color-brand-fill-quiet: var(--bs-body-bg);
-    --wa-color-brand-on-quiet: var(--bs-body-color);
-    --wa-color-brand-border-quiet: var(--bs-gray);
-    --wa-color-surface-default: var(--bs-body-bg);
-    --wa-color-surface-raised: var(--bs-body-bg);
-    --wa-color-surface-border: var(--bs-gray);
-    --wa-color-text-normal: var(--bs-body-color);
-    --wa-color-text-secondary: var(--bs-secondary-color);
-    --wa-panel-border-radius: var(--bs-border-radius);
-    --wa-shadow-s: 5px 5px 0px 0px var(--bs-secondary-bg);
-    --wa-shadow-m: 5px 5px 0px 0px var(--bs-body-color);
-    --wa-shadow-l: -5px 5px 0px 0px var(--bs-body-color);
-    --wa-font-family-body: var(--bs-font-sans-serif);
-    --wa-font-family-heading: var(--bs-font-sans-serif);
-    --wa-font-family-mono: var(--bs-font-monospace);
 
     .card-border-top-gray {
         border-top: 1px solid var(--bs-gray) !important;
@@ -281,46 +55,17 @@ blockquote {
     --bs-body-bg-rgb: 0, 0, 0;
     --bs-emphasis-color: var(--bs-body-color);
     --bs-emphasis-color-rgb: 255, 255, 255;
-    --bs-secondary-color: #c6cace;
+    /* --bs-secondary-color now comes from lf-ui's lf-theme.css. */
     --bs-secondary-color-rgb: 255, 255, 255;
     --bs-secondary-bg: #fff;
     --bs-secondary-bg-rgb: 255, 255, 255;
-    --bs-link-color: #70e17b;
-    --bs-link-color-rgb: 112, 225, 123;
-    --bs-link-decoration: underline;
-    --bs-link-hover-color: #70e17b;
-    --bs-link-hover-color-rgb: 112, 225, 123;
+    /* --bs-primary/--bs-link-color/--bs-link-hover-color/--bs-border-color
+       now come from lf-ui's lf-theme.css. */
     --bs-link-decoration: underline;
     --bs-link--hover-decoration: underline dashed;
-    --bs-border-color: var(--bs-gray);
-    --bs-selection-bg: #70e17b;
+    --bs-selection-bg: #4a90e2;
     --bs-selection-color: var(--bs-body-bg);
     --bs-gray: #333;
-
-    --shadow-offset-color: var(--bs-gray);
-
-    /* Web Awesome dark mode token overrides */
-    --wa-color-brand-fill-loud: var(--bs-body-bg);
-    --wa-color-brand-on-loud: var(--bs-body-color);
-    --wa-color-brand-border-loud: var(--bs-gray);
-    --wa-color-brand-fill-normal: var(--bs-body-bg);
-    --wa-color-brand-on-normal: var(--bs-body-color);
-    --wa-color-brand-border-normal: var(--bs-gray);
-    --wa-color-brand-fill-quiet: var(--bs-body-bg);
-    --wa-color-brand-on-quiet: var(--bs-body-color);
-    --wa-color-brand-border-quiet: var(--bs-gray);
-    --wa-color-surface-default: var(--bs-body-bg);
-    --wa-color-surface-raised: var(--bs-body-bg);
-    --wa-color-surface-border: var(--bs-gray);
-    --wa-color-text-normal: var(--bs-body-color);
-    --wa-color-text-secondary: var(--bs-secondary-color);
-    --wa-panel-border-radius: var(--bs-border-radius);
-    --wa-shadow-s: 5px 5px 0px 0px var(--bs-secondary-bg);
-    --wa-shadow-m: 5px 5px 0px 0px var(--bs-gray);
-    --wa-shadow-l: -5px 5px 0px 0px var(--bs-gray);
-    --wa-font-family-body: var(--bs-font-sans-serif);
-    --wa-font-family-heading: var(--bs-font-sans-serif);
-    --wa-font-family-mono: var(--bs-font-monospace);
 
     /* DM bubble colors — dark mode */
     --dm-bubble-q-bg: #1a1a1a;
@@ -330,55 +75,15 @@ blockquote {
 
 }
 
-/* Drop shadows — respond to theme via --wa-shadow-* and --shadow-offset-color */
-
-.drop-shadow {
-    box-shadow: var(--wa-shadow-l);
-}
-
-.drop-shadow2 {
-    box-shadow: var(--wa-shadow-m);
-}
-
-.drop-shadow3 {
-    filter: drop-shadow(-2px 2px 0 var(--shadow-offset-color));
-}
-
-.drop-shadow4 {
-    filter: drop-shadow(-4px 4px 0 var(--shadow-offset-color));
-}
-
-/* Sizes & Fonts */
-
-:root {
-    --size-1: 0;
-    --size-3: .25rem;
-    --size-4: .5rem;
-    --size-5: .625rem;
-    --size-6: 1rem;
-    --size-7: 1.2rem;
-    --size-8: 1.5625rem;
-    --size-9: 2rem;
-    --spacer: 1rem;
-    --font-1: "Public Sans Bold", sans-serif;
-    --font-2: "Public Sans Regular", sans-serif;
-    --font-3: "Public Sans Extra Bold", sans-serif;
-}
-
-strong {
-    font-family: var(--font-1) !important;
-}
+/* Drop shadow — .drop-shadow comes from lf-ui's lf-components.css. */
 
 /* Monospace */
 
 .pagination .page-link,
 .list-unstyled,
-.text-body-secondary,
 .lead,
-footer,
 nav,
 #nav,
-.badge,
 .post-dm h2,
 .post blockquote p,
 .post blockquote ul,
@@ -387,12 +92,6 @@ blockquote li {
     font-family: var(--bs-font-monospace) !important;
 }
 
-a.nav-link,
-a.nav-link:active,
-a.nav-link:visited,
-a.nav-link:hover,
-.breadcrumb-item a,
-.breadcrumb-item a:visited,
 .list-inline-item a,
 .list-inline-item a:visited {
     font-family: var(--bs-font-monospace) !important;
@@ -406,108 +105,9 @@ a.nav-link:hover,
     color: var(--bs-selection-color);
 }
 
-/* Toggler */
-
-.navbar-toggler {
-    background: none;
-    border: none;
-    color: var(--bs-body-color);
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.navbar-toggler .fa-bars {
-    font-size: 1.25rem;
-}
-
-.navbar-toggler:hover {
-    color: var(--bs-link-color);
-}
-
-.navbar-toggler:focus-visible {
-    outline: 2px solid var(--bs-link-color);
-    outline-offset: 2px;
-}
-
-/* Mobile dropdown menu panel */
-wa-dropdown::part(menu) {
-    background-color: var(--bs-body-bg);
-    border: 1px solid var(--bs-border-color);
-    box-shadow: var(--wa-shadow-m);
-}
-
-wa-dropdown-item::part(label) {
-    color: var(--bs-body-color);
-}
-
-wa-dropdown-item:hover::part(label) {
-    color: var(--bs-link-color);
-}
-
-/* Mobile nav — native details/summary */
-details#mobile-nav {
-    position: relative;
-}
-
-details#mobile-nav summary {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-details#mobile-nav summary::-webkit-details-marker {
-    display: none;
-}
-
-details#mobile-nav summary::marker {
-    display: none;
-}
-
-.mobile-nav-menu {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 100%;
-    background-color: var(--bs-body-bg);
-    border: 1px solid var(--bs-border-color);
-    box-shadow: var(--wa-shadow-m);
-    min-width: 180px;
-    padding: 0.25rem 0;
-    z-index: 100;
-}
-
-.mobile-nav-menu.is-open {
-    display: block;
-}
-
-.mobile-nav-link {
-    display: block;
-    padding: 0.625rem 1rem;
-    min-height: 44px;
-    color: var(--bs-body-color);
-    text-decoration: none;
-    font-family: var(--bs-font-monospace);
-    font-size: 0.875rem;
-    line-height: 1.4;
-    display: flex;
-    align-items: center;
-}
-
-.mobile-nav-link:hover,
-.mobile-nav-link[aria-current="page"] {
-    color: var(--bs-link-color);
-}
-
-
-/* Logo */
-
-#logo {
-    width: 100%;
-    max-width: 175px;
-    fill: var(--bs-body-color);
-    max-height: 75px;
-}
+/* Nav — .nav-link/.navbar-toggler/.navbar-collapse (mobile) come from
+   lf-ui's lf-components.css. Logo color/dark-mode now comes from the
+   inline <svg>'s fill: currentColor — no separate filter rule needed. */
 
 /* Links */
 
@@ -515,102 +115,55 @@ a:hover {
     text-decoration: var(--bs-link-hover-decoration);
 }
 
-a.nav-link, a.nav-link:visited, a.nav-link:hover, a.nav-link:active {
-    color: var(--bs-body-color);
-    text-decoration: none;
-}
-
-/* Active nav link */
-#nav a[aria-current="page"] {
-    color: var(--bs-link-color);
-}
-
-/* Shared hover: top nav + footer nav links */
-#nav a:hover, footer a.nav-link:hover {
-    color: var(--bs-link-color);
-    text-decoration: underline !important;
-}
-
-.toc-list {
-    padding-left: 1rem;
-    margin: 0;
-    list-style-position: outside;
-    list-style-type: square;
-}
-
-.toc-list li {
-    margin-inline-start: 0;
-    font-size: 0.8rem;
-}
-
-.toc-list li.toc-h3 {
-    list-style-type: none;
-    padding-inline-start: 0;
-}
-
-.toc-link.active {
-    color: #000000;
-    font-weight: 600;
-}
-
-.post h2, .post h3, .post h4 {
-    scroll-margin-top: 1.5rem;
-}
-
-[data-theme=dark] .toc-link.active {
-    color: #ffffff;
-}
-
-/* TOC links */
-.toc-link, .toc-link:visited {
-    color: var(--bs-body-color);
-    text-decoration: none;
-}
-
-.toc-link:hover {
-    color: var(--bs-link-color);
-    text-decoration: underline;
-}
-
+/* .toc-list/.toc-heading/.toc-link/.post h2,h3,h4 scroll-margin-top all
+   come from lf-ui's lf-components.css. Dark-mode toc-link color stays
+   local — govfresh has a real [data-theme] manual toggle, lukefretwell
+   doesn't (prefers-color-scheme only), a genuine per-site difference. */
 [data-theme=dark] .toc-link,
 [data-theme=dark] .toc-link:visited {
     color: var(--bs-link-color);
 }
 
-/* Thoughts layout — content left, TOC right, top-aligned */
-.thoughts-layout {
-    display: grid;
-    grid-template-columns: 1fr 240px;
-    gap: 2rem;
-    align-items: start;
+/* .toc-layout/.toc-sidebar come from lf-ui's lf-components.css. */
+
+
+/* Breadcrumb — comes from lf-ui's lf-components.css. */
+
+/* Secondary/muted text roles specific to govfresh (no lf-ui presence —
+   these components don't exist on lukefretwell). Same treatment as
+   lf-components.css's icon-line/card-description/etc.: the class itself
+   carries the color instead of pairing a text-body-secondary utility in
+   markup. */
+.disclosure-text,
+.audio-note,
+.contributors-text,
+.download-cta,
+.quote-attribution,
+.pagination-text,
+.book-meta {
+    color: var(--bs-secondary-color);
 }
 
-.thoughts-toc {
-    position: sticky;
-    top: 1rem;
+.disclosure-text {
+    font-family: var(--site-font-secondary);
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-
-/* Breadcrumb — style host element so inherited props cascade into slot and shadow DOM */
-wa-breadcrumb-item {
-    color: var(--bs-link-color);
-    font-family: var(--bs-font-monospace);
-    font-size: 0.875rem;
-    text-decoration: none;
+/* dm.html's "Jump to new messages" link — was a bare Bootstrap `small`
+   utility, given its own class name with no matching rule added at the
+   time. Same size token as the rest of this file's small-text roles. */
+.dm-jump-link {
+    font-size: var(--site-small-font-size);
 }
 
-wa-breadcrumb-item:hover {
-    text-decoration: underline;
-}
-
-/* Card title links — body color in light, primary color in dark, no underline */
+/* Card title links — body color in light, primary color in dark, no
+   underline. Hover (link color, no underline) comes from lf-ui's
+   lf-components.css now. */
 .card-link, .card-link:visited {
     color: var(--bs-body-color);
     text-decoration: none;
-}
-
-.card-link:hover {
-    text-decoration: underline;
 }
 
 [data-theme=dark] .card-link,
@@ -618,39 +171,19 @@ wa-breadcrumb-item:hover {
     color: var(--bs-link-color);
 }
 
-/* Body-color links — always body color regardless of theme (used for icon cards) */
-.body-link, .body-link:visited {
-    color: var(--bs-body-color);
-    text-decoration: none;
-}
+/* Icon/social/nav links — come from lf-ui's lf-components.css. */
 
-.body-link:hover {
-    text-decoration: underline;
-}
-
-/* Icon/social/nav links — primary color, no underline */
-.icon-link, .icon-link:visited {
-    color: var(--bs-link-color);
-    text-decoration: none;
-}
-
-.icon-link:hover {
-    text-decoration: underline;
-}
-
-/* Author byline links — secondary color by default */
+/* Author byline links — same color as the date text next to them,
+   always underlined (not just on hover), everywhere — this used to also
+   have a second, higher-specificity rule overriding the color back to
+   link-color outside .featured-post, so the same class rendered two
+   different colors depending which article wrapper it sat in. */
 .author-link, .author-link:visited {
     color: var(--bs-secondary-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .author-link:hover {
-    text-decoration: underline;
-}
-
-/* On content pages, byline links use link color */
-article:not(.featured-post) .author-link,
-article:not(.featured-post) .author-link:visited {
     color: var(--bs-link-color);
 }
 
@@ -665,69 +198,17 @@ article:not(.featured-post) .author-link:visited {
     text-decoration: none;
 }
 
-/* Share icon links — body color in light, primary color in dark */
-.share a, .share a:visited {
-    color: var(--bs-body-color);
-    text-decoration: none;
-}
+/* .share/.share a/.share-copy-btn come from lf-ui's lf-components.css. */
 
-.share a:hover {
-    text-decoration: underline;
-}
+/* Heading anchor links (from anchor_headings.html) come from lf-ui's
+   lf-components.css. */
 
-[data-theme=dark] .share a,
-[data-theme=dark] .share a:visited {
-    color: var(--bs-link-color);
-}
-
-h2 a#heading-hashtag, h3 a#heading-hashtag, h4 a#heading-hashtag {
-    color: var(--bs-body-color);
-    display: none;
-    text-decoration: none;
-}
-
-h2:hover a#heading-hashtag, h3:hover a#heading-hashtag, h4:hover a#heading-hashtag {
-    color: var(--bs-link-color);
-    display: revert;
-}
-
-a.btn:hover, .social a:hover {
-    border: var(--bs-body-color) 1px solid;
-}
-
-/* wa-menu nav links */
-wa-menu-item a {
-    color: var(--bs-body-color);
-    text-decoration: none;
-    display: block;
-    width: 100%;
-}
-
-wa-menu-item a:hover {
-    text-decoration: underline;
-}
-
-/* wa-button base styling — border and shadow match wa-card */
-wa-button::part(base) {
-    background: var(--bs-body-bg);
-    color: var(--bs-body-color);
-    border: 1px solid var(--wa-color-surface-border);
-    border-radius: var(--bs-border-radius);
-    box-shadow: var(--wa-shadow-m);
-    font-family: var(--bs-font-monospace);
-    text-decoration: none;
-    transition: transform 0.1s ease, background 0.1s ease, color 0.1s ease;
-}
-
-wa-button::part(base):hover {
-    transform: translateY(1px);
-    background: var(--bs-link-color);
-    color: var(--bs-body-bg);
-}
-
-wa-button::part(base):active {
-    transform: translateY(2px);
-}
+/* .btn base/.btn:hover/.btn:active come from lf-ui's lf-components.css —
+   its border-color doesn't change on hover, so no local override is
+   needed. (Formerly there was one here that forced hover's border to
+   --bs-body-color instead of the standard --bs-border-color, plus a dead
+   .social selector — .social hasn't existed in markup since social.html
+   was rebuilt around .connect-with-icons/.icon-link.) */
 
 
 .connect-with-icons .icon-link:hover {
@@ -735,21 +216,9 @@ wa-button::part(base):active {
     text-decoration: none;
 }
 
-.navbar-brand:hover #logo {
-    fill: var(--bs-link-color);
-}
-
-a.logo:hover, .logo:hover {
-    transform: translateY(1px);
-}
-
-a.logo:active, .logo:active {
-    transform: translateY(2px);
-}
-
 .listen a, .listen a:visited {
-    margin-right: var(--size-6);
-    padding-right: var(--size-1);
+    margin-right: 1rem;
+    padding-right: 0;
     text-decoration: none;
 }
 
@@ -852,36 +321,17 @@ a[href^="tel:"]::after {
     font-family: var(--bs-font-monospace);
 }
 
-/* Headings */
+/* Headings — h1-h6 font-family/weight/letter-spacing/color come from lf-ui's
+   lf-components.css. .h1-.h6 are real Bootstrap utility classes now (exact
+   duplicates of what was here before — deleted, not shared). .display-5/
+   .display-6 aren't used on the other lf-ui consumer, so they stay local,
+   matching the shared heading treatment's values directly. */
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-5, .display-6 {
-    font-family: var(--font-1) !important;
-    letter-spacing: -.05rem;
-    line-height: normal !important;
-}
-
-.h1 {
-    font-size: 2.5rem !important;
-}
-
-.h2 {
-    font-size: 2rem !important;
-}
-
-.h3 {
-    font-size: 1.75rem !important;
-}
-
-.h4 {
-    font-size: 1.5rem !important;
-}
-
-.h5 {
-    font-size: 1.25rem !important;
-}
-
-.h6 {
-    font-size: 1rem !important;
+/* .display-5/.display-6 are applied to real <h1> elements, so
+   font-family/font-weight already come from Bootstrap's own
+   --bs-headings-* variables — only letter-spacing needs setting here. */
+.display-5, .display-6 {
+    letter-spacing: -0.02em;
 }
 
 .post h2 {
@@ -890,46 +340,38 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-5, .display-6 {
 }
 
 article h2, article h3, article h4 {
-    padding-bottom: var(--size-6);
-    padding-top: var(--size-6);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 
 .post-dm h2 {
     border-bottom: 1px solid var(--bs-border-color);
     color: var(--bs-secondary-color) !important;
-    font-size: var(--size-6) !important;
+    font-size: 1rem !important;
     letter-spacing: normal;
-    margin-bottom: var(--size-7) !important;
-    padding-bottom: var(--size-5);
+    margin-bottom: 1.2rem !important;
+    padding-bottom: .625rem;
 }
 
 .post-dm h3 {
     background-color: var(--dm-bubble-q-bg);
-    border-radius: var(--size-4);
+    border-radius: .5rem;
     color: var(--dm-bubble-q-color);
     font-family: var(--bs-font-sans-serif) !important;
-    font-size: var(--size-7) !important;
+    font-size: 1.2rem !important;
     line-height: 1.6 !important;
-    margin: var(--size-6) var(--size-1);
-    margin-left: var(--size-9);
-    padding: var(--size-9);
+    margin: 1rem 0;
+    margin-left: 2rem;
+    padding: 2rem;
     letter-spacing: normal;
-    box-shadow: -5px 5px 0px 0px var(--bs-gray);
+    box-shadow: var(--bs-box-shadow-lg);
 }
 
 .post-dm h3 a, .post-dm h3 a:visited, .post-dm h3 a:hover {
     color: var(--dm-bubble-q-color) !important;
     text-decoration: underline !important;
 }
-
-/* Nav */
-
-#nav {
-    border-bottom: 1px solid var(--wa-color-surface-border);
-    margin-bottom: calc(var(--spacer) * 1.5);
-}
-
 
 /* Buttons */
 
@@ -939,39 +381,8 @@ button.close-btn {
     color: var(--bs-body-color);
 }
 
-/* Images */
-
-img.xxxs {
-    width: 2rem;
-}
-
-img.xxs {
-    width: 8rem;
-}
-
-img.xs {
-    width: 10rem;
-}
-
-img.sm {
-    width: 12.5rem;
-}
-
-img.md {
-    width: 15rem;
-}
-
-img.lg {
-    width: 18.75rem;
-}
-
-img.xl {
-    width: 20rem;
-}
-
-img.xxl {
-    width: 50rem;
-}
+/* Images — base img{} and the img.xxxs–.xxl scale come from lf-ui's
+   lf-components.css. */
 
 /* Figcaption */
 
@@ -1006,28 +417,28 @@ figcaption a:hover {
 }
 
 .post-dm {
-    margin-bottom: var(--size-9);
+    margin-bottom: 2rem;
 }
 
 .post-dm p, .post-dm ul, .post-dm ol {
     background-color: var(--dm-bubble-a-bg);
-    border-radius: var(--size-4);
+    border-radius: .5rem;
     color: var(--dm-bubble-a-color) !important;
     font-family: var(--bs-font-sans-serif) !important;
-    margin: var(--size-6) var(--size-1);
-    margin-right: var(--size-9);
-    padding: var(--size-9);
-    box-shadow: 5px 5px 0px 0px var(--bs-gray);
+    margin: 1rem 0;
+    margin-right: 2rem;
+    padding: 2rem;
+    box-shadow: var(--bs-box-shadow-lg);
 }
 
 .post-dm-quick-thoughts p, .post-dm-quick-thoughts ul, .post-dm-quick-thoughts ol {
     background-color: var(--dm-bubble-a-bg);
-    border-radius: var(--size-4);
+    border-radius: .5rem;
     color: var(--dm-bubble-a-color) !important;
     font-family: var(--bs-font-sans-serif) !important;
-    margin: var(--size-7) var(--size-1);
-    padding: var(--size-9);
-    box-shadow: 5px 5px 0px 0px var(--bs-gray);
+    margin: 1.2rem 0;
+    padding: 2rem;
+    box-shadow: var(--bs-box-shadow-lg);
 }
 
 .post-dm a, .post-dm a:visited, .post-dm a:hover {
@@ -1035,60 +446,59 @@ figcaption a:hover {
 }
 
 .post-dm ul li, .post-dm ol li {
-    margin-left: var(--size-9);
+    margin-left: 2rem;
 }
 
 .post-dm ol li {
-    padding-bottom: var(--size-8);
+    padding-bottom: 1.5625rem;
 }
 
 .new-dm {
-    font-family: var(--font-3);
+    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
 }
 
 /* Blockquote */
 
 blockquote {
-    border-left: var(--size-4) solid var(--bs-secondary-color);
-    margin-left: var(--size-8);
-    padding: var(--size-1) var(--size-8);
-    margin-bottom: var(--size-8);
-    margin-top: var(--size-9);
+    border-left: .5rem solid var(--bs-secondary-color);
+    margin-left: 1.5625rem;
+    padding: 0 1.5625rem;
+    margin-bottom: 1.5625rem;
+    margin-top: 2rem;
 }
 
 blockquote p, blockquote ul {
     font-family: var(--bs-font-monospace) !important;
     padding-bottom: 0;
-    padding-top: var(--size-3);
+    padding-top: .25rem;
 }
 
-/* Cards */
+/* Cards — .card p.small comes from lf-ui's lf-components.css. */
 
-wa-card p.small {
-    font-family: var(--bs-font-monospace) !important;
-}
+/* .card base/.card:hover come from lf-ui's lf-components.css. */
 
-wa-card {
-    width: 100% !important;
-    box-shadow: var(--wa-shadow-m);
-    position: relative;
-}
+/* .card:has(.card-link):hover / .card:has(.body-link):hover come from
+   lf-ui's lf-components.css now — both variants unified there. */
 
-wa-card:has(.card-link, .body-link):hover {
-    --wa-color-surface-border: color-mix(in srgb, var(--bs-link-color) 50%, transparent);
-}
-
-wa-card h2, wa-card h3, wa-card h4 {
+.card h2, .card h3, .card h4 {
     padding-bottom: 0;
     padding-top: 0;
 }
 
-wa-card .card-link::after,
-wa-card .body-link::after {
+/* .card .body-link::after comes from lf-ui's lf-components.css now. */
+.card .card-link::after {
     content: '';
     position: absolute;
     inset: 0;
     z-index: 1;
+}
+
+/* Horizontal cards — .brief-card/.research-card used to render this way via
+   <wa-card orientation="horizontal">; that layout now has to be supplied
+   directly since the underlying element is a plain .card. */
+.brief-card, .research-card {
+    display: flex;
+    flex-direction: row;
 }
 
 .home-include .border-bottom:last-child {
@@ -1112,94 +522,12 @@ ul.list-inline li {
     margin-inline-start: 0;
 }
 
-.breadcrumb-item a, .breadcrumb-item a:visited {
-    display: inline-block
-}
+/* Badges, breadcrumb, bio-callout/bio-avatar come from lf-ui's
+   lf-components.css. */
 
-/* Badges */
-
-.badge {
-    border: 1px solid var(--bs-body-color);
-    font-weight: normal;
-}
-
-wa-badge::part(base) {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    font-weight: normal;
-    font-family: var(--bs-font-monospace);
-}
-
-/* Anchor wrapping a badge — no underline or color bleed */
-a:has(> wa-badge) {
-    text-decoration: none;
-    color: inherit;
-}
-
-wa-badge[appearance="outlined"]::part(base) {
-    color: var(--bs-body-color);
-    border-color: var(--bs-body-color);
-    box-shadow: none;
-}
-
-/* Bio callout box and avatar */
-.bio-callout::part(base) {
-    box-shadow: var(--wa-shadow-m);
-}
-
-.bio-callout wa-avatar, wa-avatar.bio-avatar {
-    filter: drop-shadow(3px 3px 0 var(--bs-gray));
-}
-
-wa-callout small {
-    font-family: var(--bs-font-monospace);
-    font-size: 0.875rem;
-}
-
-/* People sidebar — left-align flush with avatar, equal section spacing */
-.people-sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
-}
-
-.people-sidebar ul {
-    margin-bottom: 0;
-}
-
-.people-sidebar li {
-    margin-inline-start: 0;
-    margin-bottom: 0.15rem;
-}
-
-.people-sidebar .wa-cluster {
-    margin-top: 0 !important;
-    margin-bottom: 0.75rem;
-}
-
-.people-sidebar .icon-link,
-.people-sidebar .icon-link:visited {
-    color: var(--bs-body-color);
-    text-decoration: none;
-}
-
-.people-sidebar .icon-link:hover {
-    color: var(--bs-link-color);
-    text-decoration: none;
-}
-
-/* Progress */
-
-#read-time-container {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background: none;
-    z-index: 2;
-    pointer-events: none;
-}
+/* .people-sidebar/.people-layout-sidebar come from lf-ui's
+   lf-components.css. Progress — #read-time-container/#read-time-bar also
+   come from there. */
 
 .plyr {
     z-index: 3;
@@ -1209,40 +537,28 @@ wa-callout small {
     pointer-events: auto;
 }
 
-[data-theme=light] .plyr--audio .plyr__controls {
-    background-color: #ffffff;
-    color: #000000;
+/* Was two hardcoded #fff/#000 pairs behind [data-theme=light]/[data-theme=
+   dark] — real theme tokens already flip correctly between light and dark
+   on their own, so one rule per state covers both themes instead of four
+   duplicated blocks. */
+.plyr--audio .plyr__controls {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
 }
 
-[data-theme=light] .plyr--audio .plyr__control:hover {
-    background-color: #000000;
-    color: #ffffff;
+.plyr--audio .plyr__control svg {
+    fill: var(--bs-body-color);
 }
 
-[data-theme=dark] .plyr--audio .plyr__controls {
-    background-color: #000000;
-    color: #ffffff;
+.plyr--audio .plyr__control:hover {
+    background-color: var(--bs-body-color);
+    color: var(--bs-body-bg);
 }
 
-[data-theme=dark] .plyr--audio .plyr__control:hover {
-    background-color: #ffffff;
-    color: #000000;
+.plyr--audio .plyr__control:hover svg {
+    fill: var(--bs-body-bg);
 }
 
-[data-theme=dark] .plyr--audio .plyr__control svg {
-    fill: #ffffff;
-}
-
-[data-theme=dark] .plyr--audio .plyr__control:hover svg {
-    fill: #000000;
-}
-
-#read-time-bar {
-    height: 0.75rem;
-    background-color: var(--bs-selection-bg);
-    width: 0;
-    transition: width 0.1s;
-}
 
 /* Back to top */
 
@@ -1253,7 +569,7 @@ wa-callout small {
     border-top-right-radius: var(--bs-border-radius-sm);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    border: 1px solid var(--bs-gray);
+    border: 1px solid var(--bs-border-color);
     border-bottom: none;
     cursor: pointer;
     padding: .25rem .75rem .15rem .75rem;
@@ -1262,7 +578,7 @@ wa-callout small {
     position: fixed;
     bottom: 0;
     right: 1rem;
-    box-shadow: 5px 5px 0px 0px var(--bs-gray);
+    box-shadow: var(--bs-box-shadow-lg);
     z-index: 1000;
 }
 
@@ -1282,233 +598,23 @@ pre {
     overflow-wrap: break-word;
     max-width: 100%;
     min-width: 100px;
-    padding: var(--size-8);
-}
-
-/* Subscribe */
-
-.subscribe-band {
-    opacity: 0;
-    pointer-events: none;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--bs-body-bg);
-    border-top: 1px solid var(--wa-color-surface-border);
-    padding: 0.5rem max(1rem, calc((100vw - 1140px) / 2 + 1rem));
-    z-index: 1000;
-}
-
-.subscribe-sponsor {
-    display: none;
-    font-family: var(--bs-font-monospace);
-    font-size: 0.875rem;
-}
-
-@media (min-width: 768px) {
-    .subscribe-sponsor {
-        display: inline;
-    }
-}
-
-.subscribe-sponsor a {
-    color: var(--bs-link-color);
-    text-decoration: none;
-}
-
-.subscribe-sponsor a:hover {
-    text-decoration: underline;
+    padding: 1.5625rem;
 }
 
 /* ============================================
-   Layout
+   Layout — the narrow reading column is real Bootstrap grid
+   (.col-lg-8.mx-auto inside .container), not a custom max-width class.
    ============================================ */
-
-.container {
-    width: 100%;
-    max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-
-/* Centered narrow content */
-.content-narrow {
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
 
 /* ============================================
    Utility classes
    ============================================ */
 
-/* Margin */
-.m-0 {
-    margin: 0 !important;
-}
-
-.mt-0 {
-    margin-top: 0 !important;
-}
-
-.mt-1 {
-    margin-top: calc(var(--spacer) * .25) !important;
-}
-
-.mt-2 {
-    margin-top: calc(var(--spacer) * .5) !important;
-}
-
-.mt-3 {
-    margin-top: var(--spacer) !important;
-}
-
-.mt-4 {
-    margin-top: calc(var(--spacer) * 1.5) !important;
-}
-
-.mt-5 {
-    margin-top: calc(var(--spacer) * 3) !important;
-}
-
-.mb-0 {
-    margin-bottom: 0 !important;
-}
-
-.mb-1 {
-    margin-bottom: calc(var(--spacer) * .25) !important;
-}
-
-.mb-2 {
-    margin-bottom: calc(var(--spacer) * .5) !important;
-}
-
-.mb-3 {
-    margin-bottom: var(--spacer) !important;
-}
-
-.mb-4 {
-    margin-bottom: calc(var(--spacer) * 1.5) !important;
-}
-
-.mb-5 {
-    margin-bottom: calc(var(--spacer) * 3) !important;
-}
-
-.me-2 {
-    margin-inline-end: calc(var(--spacer) * .5) !important;
-}
-
-.ms-2 {
-    margin-inline-start: calc(var(--spacer) * .5) !important;
-}
-
-.mx-2 {
-    margin-left: calc(var(--spacer) * .5) !important;
-    margin-right: calc(var(--spacer) * .5) !important;
-}
-
-.my-0 {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
-
-.my-3 {
-    margin-top: var(--spacer) !important;
-    margin-bottom: var(--spacer) !important;
-}
-
-/* Padding */
-.p-0 {
-    padding: 0 !important;
-}
-
-.p-2 {
-    padding: calc(var(--spacer) * .5) !important;
-}
-
-.pt-0 {
-    padding-top: 0 !important;
-}
-
-.pt-1 {
-    padding-top: calc(var(--spacer) * .25) !important;
-}
-
-.pt-2 {
-    padding-top: calc(var(--spacer) * .5) !important;
-}
-
-.pt-3 {
-    padding-top: var(--spacer) !important;
-}
-
-.pt-4 {
-    padding-top: calc(var(--spacer) * 1.5) !important;
-}
-
-.pt-5 {
-    padding-top: calc(var(--spacer) * 3) !important;
-}
-
-.pb-0 {
-    padding-bottom: 0 !important;
-}
-
-.pb-2 {
-    padding-bottom: calc(var(--spacer) * .5) !important;
-}
-
-.pb-3 {
-    padding-bottom: var(--spacer) !important;
-}
-
-.pb-4 {
-    padding-bottom: calc(var(--spacer) * 1.5) !important;
-}
-
-.pb-5 {
-    padding-bottom: calc(var(--spacer) * 3) !important;
-}
-
-.px-3 {
-    padding-left: var(--spacer) !important;
-    padding-right: var(--spacer) !important;
-}
-
-.py-3 {
-    padding-top: var(--spacer) !important;
-    padding-bottom: var(--spacer) !important;
-}
-
-.py-4 {
-    padding-top: calc(var(--spacer) * 1.5) !important;
-    padding-bottom: calc(var(--spacer) * 1.5) !important;
-}
-
-.py-5 {
-    padding-top: calc(var(--spacer) * 3) !important;
-    padding-bottom: calc(var(--spacer) * 3) !important;
-}
-
-/* Display */
-.d-none {
-    display: none !important;
-}
+/* .lf-grid comes from lf-ui's lf-components.css (.lf-cluster/.lf-flank/
+   .lf-stack were all converted to real Bootstrap utilities/grid). */
 
 .feed-hidden {
     display: none;
-}
-
-.feed-byline {
-    font-family: var(--bs-font-monospace);
 }
 
 /* Search */
@@ -1532,65 +638,15 @@ pre {
     filter: invert(1) hue-rotate(180deg);
 }
 
-/* Responsive video embed */
-.video-responsive {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-}
+/* .video-responsive removed — it was a hand-rolled 16:9 embed wrapper;
+   .ratio.ratio-16x9 (real Bootstrap) does the same thing, including the
+   child-fills-box behavior, with no extra CSS needed. */
 
-.video-responsive iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.d-block {
-    display: block !important;
-}
-
-.d-inline {
-    display: inline !important;
-}
-
-
-@media (min-width: 768px) {
-    .d-md-none {
-        display: none !important;
-    }
-
-    .d-md-block {
-        display: block !important;
-    }
-}
-
-@media (min-width: 992px) {
-    .d-lg-none {
-        display: none !important;
-    }
-
-    .d-lg-block {
-        display: block !important;
-    }
-}
-
-/* Text alignment */
-.text-center {
-    text-align: center !important;
-}
-
-.text-end {
-    text-align: right !important;
-}
-
-/* Text color */
-.text-body-secondary {
-    color: var(--bs-secondary-color) !important;
-}
-
-.text-decoration-none {
-    text-decoration: none !important;
-}
-
-/* Typography */
+/* .d-, .text-, .lead, .small, .fs-4, .list-unstyled, .list-inline,
+   .border, .w-100 are all real Bootstrap utilities now — no local
+   reimplementation needed. .display-5 and .display-6 are a genuine
+   customization (fluid clamp() sizing, no Bootstrap equivalent) and stay
+   below. */
 .display-5 {
     font-size: clamp(1.8rem, 4vw, 3rem);
     line-height: 1.2;
@@ -1601,155 +657,51 @@ pre {
     line-height: 1.2;
 }
 
-.lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-
-.small, small {
-    font-size: 0.875em;
-}
-
-.fs-4 {
-    font-size: 1.5rem !important;
-}
-
-/* Lists */
-.list-unstyled {
-    list-style: none;
-    padding-left: 0;
-    padding-inline-start: 0;
-}
-
-.list-unstyled li {
-    margin-inline-start: 0;
-}
-
-.list-inline {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.list-inline-item {
-    display: inline-block;
-}
-
-/* Borders */
-.border {
-    border: 1px solid var(--bs-border-color) !important;
-}
-
-.border-top {
-    border-top: 1px solid var(--bs-border-color) !important;
-}
-
-.border-bottom {
-    border-bottom: 1px solid var(--bs-border-color) !important;
-}
-
-.border-0 {
-    border: none !important;
-}
-
-
-/* Sizing */
-.w-100 {
-    width: 100% !important;
-}
-
 /* Link utilities */
 
-/* Navbar */
-.navbar {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-}
-
-.navbar-nav {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-brand {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-/* Breadcrumb */
-.breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.breadcrumb-item+.breadcrumb-item::before {
-    content: "/";
-    padding: 0 0.5rem;
-    color: var(--bs-secondary-color);
-}
+/* Navbar — .navbar/.navbar-brand/.navbar-nav come from lf-ui's
+   lf-components.css; layout (display/flex-wrap/position) comes from
+   Bootstrap's own .navbar/.navbar-brand. */
 
 
-/* Featured grid (homepage) */
-.featured-grid .wa-cluster {
-    font-family: var(--bs-font-monospace);
-}
 
-.featured-grid .wa-cluster a {
-    font-family: var(--bs-font-monospace);
-}
-
-.featured-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: center;
-}
-
-
-/* Footer nav */
-.footer-bar {
+/* Section divider — "related/more content" sections (Contributors,
+   related-post previews, "More demos") — same role, found drifted into
+   3 different hand-typed value combos (mt-5 pt-3, pt-5 pb-3, mt-5 pt-4),
+   reconciled to one. Not the same role as .hero-divider (that separates
+   hero from body) or signal.html's post-internal divider (separates
+   byline from body content within one post) — this is specifically
+   "divider before a related-content section", so it's its own class. */
+.section-divider {
+    margin-top: 3rem;
     padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    border-top: 0.0625rem solid var(--bs-border-color);
 }
 
-.footer-nav {
-    list-style: none;
-    padding: 0;
-    padding-inline-start: 0;
-    margin: 0 0 0.75rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem 1rem;
+/* Feature card — generic name (was .featured-post/.featured-grid), not
+   tied to the homepage specifically, so this can be reused wherever a
+   single highlighted item + image needs the same 2-column treatment.
+   Byline font-family comes from .icon-line itself now (--site-font-
+   secondary) — the old .lf-cluster-scoped monospace rules here are gone
+   along with the .lf-cluster wrapper they targeted. */
+.feature-grid img {
+    border-radius: var(--bs-border-radius);
 }
 
-.footer-nav li {
-    margin-inline-start: 0;
+/* Column widths/collapse come from Bootstrap's own .row.row-cols-1.row-
+   cols-md-2 (markup) — this just sets the gutter to this component's own
+   2rem/1rem instead of a row-cols default. */
+.feature-grid {
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 2rem;
 }
 
-.footer-nav li a,
-.footer-bar p a {
-    color: var(--bs-body-color);
-    text-decoration: none;
-    font-size: 0.875rem;
+.feature-card h2 {
+    margin-bottom: 0.5rem;
 }
 
-.footer-nav li a:hover,
-.footer-bar p a:hover {
-    color: var(--bs-link-color);
-    text-decoration: underline;
-}
+
+/* Footer, footer-bar, footer-nav come from lf-ui's lf-components.css. */
 
 /* Search input — dark mode */
 [data-theme=dark] .form-control {
@@ -1762,11 +714,6 @@ pre {
     color: var(--bs-secondary-color);
 }
 
-/* Share — match byline font size */
-.share {
-    font-size: calc(0.875em * 0.875);
-}
-
 /* Demo page — 75% video */
 .demo-video-wrapper {
     width: 75%;
@@ -1777,18 +724,27 @@ pre {
     object-fit: cover;
 }
 
-.demos-grid {
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .papers-grid {
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* Named modifiers instead of inline style="--min-column-size: ...",
+   matching .papers-grid above — same underlying .lf-grid auto-fit/minmax
+   mechanism, just moved out of markup. Both still needed by cards.html,
+   which stays on .lf-grid deliberately — it's reused across 12 different
+   layouts spanning both full-width and narrow .col-lg-8 containers, so
+   its column count genuinely needs to reflow with the real container
+   width the way Bootstrap's viewport-based row-cols-* can't. Everything
+   else that used to share this mechanism (home.html, topic.html,
+   demos.html, icons.html, the shared site-index.html) was single-context
+   and has been converted to real Bootstrap .row, .row-cols-N, .col. */
+.books-grid { --min-column-size: 220px; }
+.card-list-grid { --min-column-size: 320px; }
+
 
 
 /* Prevent CLS: reserve space for card and feed images */
-wa-card img[slot='media'],
+.card-img,
 .feed-post img {
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -1796,8 +752,13 @@ wa-card img[slot='media'],
     height: auto;
 }
 
+.card-img {
+    margin-bottom: 0.75rem;
+    border-radius: var(--bs-border-radius);
+}
+
 /* Briefs horizontal card */
-.brief-card img[slot='media'] {
+.brief-card .card-img {
     width: 200px;
     min-width: 200px;
     aspect-ratio: auto;
@@ -1806,7 +767,7 @@ wa-card img[slot='media'],
 }
 
 /* Research horizontal card */
-.research-card img[slot='media'] {
+.research-card .card-img {
     width: 150px;
     min-width: 150px;
     aspect-ratio: auto;
@@ -1815,37 +776,11 @@ wa-card img[slot='media'],
 }
 
 
-/* People page layout */
-.people-layout-sidebar {
-    min-width: 200px;
-}
-
 /* ============================================
    Mobile (max-width: 768px)
    ============================================ */
 
 @media (max-width: 768px) {
-    #logo {
-        max-width: 150px;
-    }
-
-
-    .thoughts-toc {
-        display: none;
-    }
-
-    .thoughts-layout {
-        grid-template-columns: 1fr;
-    }
-
-    .featured-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .demos-grid {
-        grid-template-columns: 1fr;
-    }
-
     .papers-grid {
         grid-template-columns: 1fr;
     }
@@ -1855,72 +790,20 @@ wa-card img[slot='media'],
         width: 100%;
     }
 
-    .people-layout {
-        flex-direction: column;
-    }
-
-    .wa-grid {
-        --min-column-size: 100%;
-    }
-
     .brief-card,
     .research-card {
         flex-direction: column;
     }
 
-    .brief-card img[slot='media'],
-    .research-card img[slot='media'] {
+    .brief-card .card-img,
+    .research-card .card-img {
         max-width: 100%;
         width: 100%;
-    }
-
-    /* Font sizes */
-    :root, [data-theme=light], [data-theme=dark] {
-        --bs-body-font-size: 1.1rem;
-    }
-
-    .lead {
-        font-size: 1.1rem;
     }
 
     /* List indentation */
     ul, ol {
         padding-left: 1.5rem;
-    }
-
-    /* Drop shadows — reduce offset from 5px to 3px */
-    :root, [data-theme=light] {
-        --wa-shadow-s: 3px 3px 0px 0px var(--bs-secondary-bg);
-        --wa-shadow-m: 3px 3px 0px 0px var(--bs-body-color);
-        --wa-shadow-l: -3px 3px 0px 0px var(--bs-body-color);
-    }
-
-    [data-theme=dark] {
-        --wa-shadow-s: 3px 3px 0px 0px var(--bs-secondary-bg);
-        --wa-shadow-m: 3px 3px 0px 0px var(--bs-gray);
-        --wa-shadow-l: -3px 3px 0px 0px var(--bs-gray);
-    }
-
-    .drop-shadow3 {
-        filter: drop-shadow(-1px 2px 0 var(--shadow-offset-color));
-    }
-
-    .drop-shadow4 {
-        filter: drop-shadow(-2px 3px 0 var(--shadow-offset-color));
-    }
-
-    /* Touch targets */
-    .navbar-toggler {
-        min-height: 44px;
-        padding: 10px 14px;
-    }
-
-    wa-dropdown-item {
-        min-height: 44px;
-    }
-
-    wa-button::part(base) {
-        min-height: 44px;
     }
 
     /* DM bubbles — reduce padding and margins */
@@ -1962,26 +845,10 @@ wa-card img[slot='media'],
         -webkit-overflow-scrolling: touch;
     }
 
-    /* WA card internal padding */
-    wa-card {
-        --spacing: var(--wa-space-m);
+    /* Feature grid gap */
+    .feature-grid {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 1rem;
     }
 
-    /* Featured grid gap */
-    .featured-grid {
-        gap: 1rem;
-    }
-
-    /* Nav margin */
-    #nav {
-        margin-bottom: 1rem;
-    }
-}
-
-/* Very small screens (max-width: 360px) */
-@media (max-width: 360px) {
-    .container {
-        padding-right: 0.75rem;
-        padding-left: 0.75rem;
-    }
 }

@@ -4,22 +4,22 @@ layout: quick-thoughts
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   <article>
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
-    <div class="container">
-      <div class="content-narrow">
-        <div class="post post-dm-quick-thoughts fs-4">
-          <div>
-            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
-          </div>
+    {% capture body %}
+      <div class="post post-dm-quick-thoughts">
+        <div>
+          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
         </div>
-        {% include bio.html %}
-        {% include topics.html %}
       </div>
-    </div>
+      {% include bio.html %}
+      {% include topics.html %}
+    {% endcapture %}
+    {% include toc-layout.html html=body toc_html=content %}
   </article>
 </main>
 <aside>

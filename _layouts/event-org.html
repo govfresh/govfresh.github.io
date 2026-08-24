@@ -1,0 +1,34 @@
+{% include header.html %}
+{% include nav.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
+<main id="main-content">
+  {% include jumbotron.html %}
+  {% capture body %}
+    <div class="post">
+      <div class="pb-4">{{ content }}
+        {% include video.html %}
+        {% assign action_url = page[layout.action_field] %}
+        {% if action_url %}
+          {% if layout.action_heading %}
+            <h2>{{ layout.action_label }}</h2>
+          {% endif %}
+          <p>
+            <a href="{{ action_url }}" class="my-3 btn">
+              {{ layout.action_label }}
+            </a>
+          </p>
+        {% endif %}
+      </div>
+    </div>
+    {% include topics.html %}
+  {% endcapture %}
+  {% include toc-layout.html html=body toc_html=content %}
+</main>
+<aside>
+  <div class="container">
+    {% include previews.html show-only="true" %}
+  </div>
+</aside>
+{% include analytics.html %}
+{% include footer.html %}

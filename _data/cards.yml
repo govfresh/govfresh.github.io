@@ -1,0 +1,104 @@
+# Config for _includes/card.html — one entry per content type, replacing
+# the old card-<type>.html files. Each type's card is: wrapper -> image ->
+# heading -> description -> byline -> meta lines (icon-line.html). Fields
+# not present for a type are simply skipped.
+#
+# podcast and demos have real per-branch (secondary vs primary) content
+# differences beyond heading level, so their image/description keys can be
+# suffixed _secondary/_primary to override the shared value for that branch.
+
+books:
+  image_field: img-book
+  image_path_dynamic: true
+  image_class: "xxs mb-4 shadow-lg border"
+  byline_field: book-author
+  byline_prefix: "By "
+
+briefs:
+  wrapper_class: brief-card
+  sub_wrapper: true
+  heading_class: "h4 mb-1"
+  image_field: img-feat
+  image_path: posts
+  image_class: card-img
+  description_mb: mb-0
+
+demos:
+  no_description_secondary: true
+  image_field_secondary: img-feat
+  image_path_secondary: posts
+  image_class_secondary: "card-img rounded demo-card-thumb"
+  heading_class_secondary: "h4 demos mt-0 pt-0 mb-0 pb-0"
+  image_field_primary: img-og
+  image_path_primary: posts
+  image_class_primary: "card-img xxl"
+  wrapper_class_primary: "mx-2 mb-3"
+  description_mb_primary: "mb-0 pb-0"
+  watch_cta_primary: true
+
+events:
+  wrapper_class: "mx-2"
+  image_field: img-og
+  image_path: logos
+  image_class: "card-img xxl border-bottom"
+  meta:
+    - { field: event-date, icon: "fa-regular fa-calendar", label: "Date:" }
+    - { field: event-location, icon: "fa-solid fa-location-pin", label: "Location:" }
+    - { field: org, icon: "fa-regular fa-building", label: "Host:" }
+
+labs:
+  image_field: img-feat
+  image_path: posts
+  image_class: "card-img xl border-bottom"
+
+orgs:
+  wrapper_class: "mx-2"
+  image_field: img-og
+  image_path: logos
+  image_class: "card-img xxl border-bottom"
+
+papers:
+  heading_class: "h4 mt-2"
+  image_field: img-og
+  image_path: posts
+  image_class: "card-img xxl"
+
+podcast:
+  image_field_secondary: img-feat
+  image_path_secondary: people
+  image_class_secondary: "md rounded-circle mb-3 shadow-lg border"
+  image_field_primary: img-feat
+  image_path_primary: people
+  image_class_primary: "sm rounded-circle mb-4 shadow-lg border"
+  description_mb: mb-0
+  episode_label_secondary: "Episode #"
+  episode_label_primary: "#"
+
+research:
+  wrapper_class: research-card
+  sub_wrapper: true
+  heading_class: "h4 mb-1"
+  image_field: img-feat
+  image_path: posts
+  image_class: card-img
+  description_mb: mb-0
+
+signal:
+  image_field: img-og
+  image_path: posts
+  image_class: card-img xxl
+  wrapper_class_primary: "mx-2 mb-3"
+  no_description_secondary: true
+
+thoughts:
+  image_field: img-og
+  image_path: posts
+  image_class: "card-img xxl"
+  byline_field: author
+  byline_prefix: "By "
+
+people:
+  is_person_card: true
+  image_field: img-feat
+  image_path_dynamic: true
+  image_class: "rounded-circle xs mb-4 shadow-lg border"

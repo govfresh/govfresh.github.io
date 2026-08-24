@@ -1,40 +1,26 @@
 <footer>
-  {% unless page.url contains '/subscribe' %}
-  <div id="subscribe-band" class="subscribe-band">
-    <wa-button
-      href="{{ site.baseurl }}/subscribe"
-      id="subscribe-button"
-      aria-label="Subscribe"
-      tabindex="-1"
-      size="s"
-      class="subscribe">
-      Subscribe
-    </wa-button>
-    <small class="subscribe-sponsor">Sponsor: <a href="https://scangov.com">ScanGov</a></small>
-  </div>
-  <script src="{{ site.baseurl }}/js/subscribe-button.js" defer></script>
-  {% endunless %}
-  <div class="container mt-5">
-    <wa-callout class="mb-4">
-      <small>
-        <i class="fa-solid fa-lightbulb"></i>
-        Help make GovFresh better: <a href="{{ site.baseurl }}/feedback">Send us your feedback</a>
-      </small>
-    </wa-callout>
-  </div>
-  <wa-divider></wa-divider>
+  {% assign cta = site.data.site.cta_banner %}
+  {% if cta.button_link and page.url != cta.button_link %}
+    {% assign cta_href = site.baseurl | append: cta.button_link %}
+    {% include cta-banner.html href=cta_href aria_label=cta.button_text text=cta.button_text sponsor_text=cta.sponsor_text sponsor_link=cta.sponsor_link %}
+  {% endif %}
+  {% assign feedback = site.data.site.feedback %}
+  {% if feedback.link %}
+    <div class="container mt-5">
+      <div class="mb-4 alert alert-light cta-text">
+        <i class="{{ feedback.icon }}"></i>
+        {{ feedback.text }} <a href="{{ site.baseurl }}{{ feedback.link }}">{{ feedback.link_text }}</a>
+      </div>
+    </div>
+  {% endif %}
+  <hr>
   <div class="container footer-bar">
-    <ul class="footer-nav">
-      {% for item in site.data.nav.docs %}
-        {% if item.url %}
-          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+    {% include footer-nav.html %}
     <p class="mb-0">
-      <a href="{{ site.baseurl }}/site-index/">Site index</a>
-      &nbsp;&middot;&nbsp;
-      <a href="https://my.scangov.com/public/key6541-1749843847485/govfresh-com/report">ScanGov Scorecard <i class="fa-solid fa-star" aria-hidden="true"></i></a>
+      {% assign scangov_link = site.data.site.scangov.link %}
+      {% if site.data.site-index %}<a href="{{ site.baseurl }}/site-index/">Site index</a>{% endif %}
+      {% if site.data.site-index and scangov_link %}&nbsp;&middot;&nbsp;{% endif %}
+      {% if scangov_link %}<a href="{{ scangov_link }}">ScanGov Scorecard <i class="fa-solid fa-star" aria-hidden="true"></i></a>{% endif %}
     </p>
   </div>
 </footer>

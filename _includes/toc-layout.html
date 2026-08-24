@@ -1,0 +1,33 @@
+{% comment %}
+  Standard content + optional TOC layout. include.html is the main-column
+  content; include.toc_html (defaults to include.html) is what toc.html
+  scans for headings — pass it separately when include.html contains
+  headings that shouldn't drive the TOC (e.g. card titles from a nested
+  include with no id, which toc.html now skips anyway, but a caller may
+  still want to scan a smaller, purpose-built fragment instead).
+{% endcomment %}
+{% assign toc_source = include.toc_html | default: include.html %}
+{% assign toc_chapters = toc_source | split: '<h' %}
+<div class="container">
+  {% if toc_chapters.size > 1 %}
+    <div class="toc-layout row gap-4">
+      <div class="col">{{ include.html }}</div>
+      <div class="toc-sidebar col-auto">
+        {% include toc.html html=toc_source %}
+      </div>
+    </div>
+    <script src="{{ site.baseurl }}/js/toc-active.js" defer></script>
+  {% else %}
+    {% comment %}
+      Same .toc-layout row as the TOC branch above, just with an empty
+      .toc-sidebar column instead of toc.html's output — its fixed width
+      (CSS) keeps content the same narrower reading width whether or not a
+      TOC is present, instead of this branch going edge-to-edge
+      full-container-width.
+    {% endcomment %}
+    <div class="toc-layout row gap-4">
+      <div class="col">{{ include.html }}</div>
+      <div class="toc-sidebar col-auto"></div>
+    </div>
+  {% endif %}
+</div>

@@ -3,7 +3,7 @@
     {% if page.layout == "dm" %}
       {% assign i = 0 %}
       {% for item in page.name %}
-        <h2 class="h4 mb-0 pb-0">Connect with
+        <h2 class="h4 mb-0">Connect with
           {% if page.group %}
             {{ page.shortname[i] }}
           {% else %}
@@ -18,12 +18,12 @@
       {% if page.short-name %}
         <h2 class="mb-1">Connect with {{ page.short-name }}</h2>
       {% endif %}
-      <div class="wa-cluster wa-gap-l mt-2 connect-with-icons">
+      <div class="d-flex flex-wrap align-items-center gap-4 mt-2 connect-with-icons">
         {% if page.website %}
           <a
             href="{{ page.website }}"
             aria-label="Website"
-            class="icon-link drop-shadow3">
+            class="icon-link">
             <i class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
@@ -31,7 +31,7 @@
           <a
             href="mailto:{{ page.email }}"
             aria-label="Email"
-            class="icon-link drop-shadow3">
+            class="icon-link">
             <i class="{{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
@@ -39,7 +39,7 @@
           <a
             href="{{ page.bluesky }}"
             aria-label="Bluesky"
-            class="icon-link drop-shadow3">
+            class="icon-link">
             <i class="{{ site.data.connect.bluesky }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
@@ -48,7 +48,7 @@
             href="{{ page.mastodon }}"
             rel="me"
             aria-label="Mastodon"
-            class="icon-link drop-shadow3">
+            class="icon-link">
             <i class="{{ site.data.connect.mastodon }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}
@@ -56,7 +56,7 @@
           <a
             href="{{ page.linkedin }}"
             aria-label="LinkedIn"
-            class="icon-link drop-shadow3">
+            class="icon-link">
             <i class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i>
           </a>
         {% endif %}

@@ -1,35 +1,7 @@
 ---
-layout: events
+layout: event-org
+action_field: event-link-register
+action_label: Register
+action_heading: true
 ---
-
-{% include header.html %}
-{% include nav.html %}
-{% include breadcrumb.html %}
-<main id="main-content">
-  {% include jumbotron.html %}
-  <div class="container">
-    <div class="content-narrow">
-      <div class="post">
-        <div class="pb-4">{{ content }}
-          {% include video.html %}
-          {% if page.event-link-register %}
-            <h2>Register</h2>
-            <p>
-              <wa-button href="{{ page.event-link-register }}" variant="brand" class="my-3">
-                Register
-              </wa-button>
-            </p>
-          {% endif %}
-        </div>
-      </div>
-      {% include topics.html %}
-    </div>
-  </div>
-</main>
-<aside>
-  <div class="container">
-    {% include previews.html show-only="true" %}
-  </div>
-</aside>
-{% include analytics.html %}
-{% include footer.html %}
+{{ content }}

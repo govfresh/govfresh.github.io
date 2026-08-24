@@ -4,18 +4,16 @@ layout: people
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   {% include jumbotron.html %}
-  <wa-divider class="mb-4"></wa-divider>
+  <hr class="mb-4">
   <div class="container">
-    <div class="wa-flank wa-gap-l wa-align-items-start">
-      <div class="people-sidebar people-layout-sidebar">
+    <div class="row g-0 gap-4 align-items-start">
+      <div class="col-12 col-md-auto d-flex flex-column align-items-start people-sidebar people-layout-sidebar">
         {% include image.html %}
-        <ul class="list-unstyled small">
-          {% if page.name %}
-            <li>{{ page.name }}</li>
-          {% endif %}
+        <ul class="list-unstyled card-byline">
           {% if page.position %}
             <li>{{ page.position }}</li>
           {% endif %}
@@ -26,7 +24,7 @@ layout: people
         {% include social.html size = "small" %}
         {% include role.html %}
       </div>
-      <div>
+      <div class="col-12 col-md">
         <div class="post">
           {{ content }}
         </div>

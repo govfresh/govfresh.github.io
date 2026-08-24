@@ -1,8 +1,8 @@
 {% if page.audio %}
-  <div class="border drop-shadow2 mb-3 pt-2 px-3">
+  <div class="card mb-3"><div class="card-body">
     <h2 class="mb-0 pb-3">Listen</h2>
     {% if page.layout == "research" %}
-      <p class="pb-0 small text-body-secondary mb-0 pb-3">A podcast-like overview created with Google NotebookLM.</p>
+      <p class="audio-note mb-0 pb-3">A podcast-like overview created with Google NotebookLM.</p>
     {% endif %}
     <audio id="player" controls preload="metadata">
       {% if page.layout == "research" %}
@@ -14,7 +14,7 @@
       {% endif %}
     </audio>
     {% if page.layout == "podcast" %}
-      <div class="wa-cluster wa-gap-l pb-3 mt-2">
+      <div class="d-flex flex-wrap align-items-center gap-4 pb-3 mt-2">
         {% for item in site.data.subscribe-podcast.docs %}
           <a href="{{ item.url }}" aria-label="{{ item.title }}" class="listen-link">
             <i class="{{ item.icon }} {{ site.data.connect.sm }}"></i>
@@ -24,5 +24,5 @@
     {% endif %}
     <script src="{{ site.baseurl }}/js/plyr.js" defer></script>
     <script src="{{ site.baseurl }}/js/audio-init.js" defer></script>
-  </div>
+  </div></div>
 {% endif %}

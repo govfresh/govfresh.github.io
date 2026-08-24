@@ -4,14 +4,15 @@ layout: demos
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   <article>
     <div class="container pt-3">
       <div class="pt-1 pb-3 mb-3">
         {% include jumbotron.html %}
       </div>
-      <wa-divider class="mb-3"></wa-divider>
+      <hr class="mb-3">
       <div class="post">
         <div>
           {{ content }}
@@ -20,19 +21,19 @@ layout: demos
       {% include demos.html %}
       {% include topics.html %}
       {% if site.demos.size > 2 %}
-        <aside class="mt-5 pt-4 border-top">
+        <aside class="section-divider">
           <h2 class="h4 pb-3 my-0">More demos</h2>
-          <div class="wa-grid demos-grid mb-3">
+          <div class="row row-cols-1 row-cols-md-3 card-group">
             {% assign demos_limit = site.demos-number | plus: 0 %}
             {% assign demos_count = 1 %}
             {% for item in site.demos reversed %}
               {% if item.title != page.title and demos_count < demos_limit %}
-                {% include card-demos.html %}
+                <div class="col">{% include card.html type="demos" %}</div>
                 {% assign demos_count = demos_count | plus: 1 %}
               {% endif %}
             {% endfor %}
           </div>
-          <wa-button href="{{ site.baseurl }}/demos" variant="brand" size="s">Demos</wa-button>
+          <a href="{{ site.baseurl }}/demos" class="btn btn-sm">Demos</a>
         </aside>
       {% endif %}
     </div>

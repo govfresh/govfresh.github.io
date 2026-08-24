@@ -1,8 +1,2 @@
-<p class="small text-body-secondary mb-1">
-  <small>
-    <i class="fa-solid fa-message"></i>
-    <a href="{{ site.baseurl }}/feedback">
-      Feedback
-    </a>
-  </small>
-</p>
+{% assign feedback_href = site.baseurl | append: "/feedback" %}
+{% include icon-line.html icon="fa-solid fa-message" value="Feedback" href=feedback_href %}

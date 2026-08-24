@@ -1,0 +1,936 @@
+/* lf-ui component layer — shared rules for elements that should render
+   identically across consumers. Depends on lf-theme.css's tokens (fonts,
+   --bs-border-color, --bs-box-shadow(-lg), --site-transition/--site-transform-*).
+   Rules with real per-site differences (card border-hover retargeting tied
+   to site-specific link classes) stay local to each consumer instead of
+   being forced identical here. */
+
+/* Headings — the vendored Bootstrap 5.3.2 build hardcodes font-weight:500
+   with no CSS-variable hook (checked against the actual compiled CSS, not
+   assumed), and sets no font-family for headings at all, so this can't be
+   done via Bootstrap's own variables the way --bs-primary/--bs-border-color
+   can. "Mona Sans Bold" (not "Mona Sans" + font-weight: 700) is deliberate:
+   it's a dedicated bold-only font-family, so any more-specific rule
+   downstream that resets font-weight (inside a card, alert, badge — any
+   "box" component) still renders the bold glyphs, because there's only one
+   file registered under this family name regardless of what weight number
+   ends up applying. No !important — this file loads after
+   bootstrap.min.css, so plain source-order specificity is enough to win. */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+    letter-spacing: -0.02em;
+}
+
+/* Standard space below every page's h1, replacing hand-typed mb-2/mb-3/mb-4
+   on individual <h1> tags across jumbotron.html's branches — one value
+   instead of drifted near-duplicates. margin-bottom is zeroed because
+   Bootstrap's reboot already puts margin-bottom:.5rem on every heading —
+   left alone, that stacks under this padding for 1.5rem total instead of
+   the intended single 1rem. */
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 0.75rem;
+}
+
+/* Same reasoning as headings above — a dedicated bold-only family instead
+   of relying on the browser's implicit <strong> bold, which is just as
+   vulnerable to a downstream font-weight reset. */
+strong {
+    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+}
+
+/* No color override — Bootstrap's own h1-h6 rule reads color:
+   var(--bs-heading-color), and that variable's own real default is
+   inherit. Headings should render in whatever the surrounding text color
+   is, not a separately-managed "heading color" — overriding it here would
+   just be a second, redundant place for that value to drift out of sync. */
+
+/* Share widget — body color in light, link color in dark. [data-bs-theme]
+   (not [data-theme]) because that's the one dark-mode attribute both
+   consumers' theme-toggle scripts actually set, regardless of which
+   attribute/class each site's own local CSS keys its other dark-mode rules
+   off of. */
+
+.share {
+    font-size: calc(0.875em * 0.875);
+}
+
+/* The "Share:" label and each icon link/button render at the standard
+   small-text size, not .share's own smaller base size — explicit here
+   since a bare descendant would otherwise inherit the smaller value. */
+.share span,
+.share a,
+.share button {
+    font-size: var(--site-small-font-size);
+}
+
+.share a, .share a:visited, .share .share-copy-btn {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.share a:hover, .share .share-copy-btn:hover {
+    text-decoration: underline;
+}
+
+[data-bs-theme=dark] .share a,
+[data-bs-theme=dark] .share a:visited,
+[data-bs-theme=dark] .share .share-copy-btn {
+    color: var(--bs-link-color);
+}
+
+/* govfresh's a[href^="mailto:"]:not(.icon-link)::after rule decorates plain
+   prose mailto links with an extra envelope glyph — useful in body text,
+   but it also matches the share widget's own "Share via Email" link (which
+   already has a real Font Awesome envelope icon inside it), producing two
+   envelopes stacked next to each other. Scoped off here rather than
+   touching that rule's selector, since the prose use case is legitimate. */
+.share a[href^="mailto:"]::after {
+    content: none;
+}
+
+.share-copy-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Secondary/muted text — a real Bootstrap color utility, but this site
+   language also treats it as "metadata" text (dates, captions, bylines),
+   set in the monospace typeface like the rest of that vocabulary
+   (nav, badges, footer). */
+
+.text-body-secondary {
+    font-family: var(--bs-font-monospace);
+}
+
+/* Read-time progress bar — read-time-bar.html/read-time-bar.js are
+   byte-identical between consumers already; this is the matching CSS. */
+
+#read-time-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: none;
+    z-index: 100;
+    pointer-events: none;
+}
+
+#read-time-bar {
+    height: 0.25rem;
+    background-color: var(--bs-link-color);
+    width: 0;
+    transition: width 0.1s;
+}
+
+/* People profile layout — sidebar (photo, name/position/org, social,
+   role badge) left-aligned flush with the avatar, equal section spacing. */
+
+/* display/flex-direction/align-items come from Bootstrap's own .d-flex.
+   flex-column.align-items-start on the markup — this only sets the
+   gap, which doesn't match a Bootstrap gap-* step (gap-2 is 0.5rem,
+   gap-3 is 1rem). */
+.people-sidebar {
+    gap: 0.75rem;
+}
+
+.people-sidebar ul {
+    margin-bottom: 0;
+    font-family: var(--bs-font-monospace);
+}
+
+.people-sidebar li {
+    margin-inline-start: 0;
+    margin-bottom: 0.15rem;
+}
+
+.people-layout-sidebar {
+    min-width: 200px;
+}
+
+/* Content + optional TOC layout — content left, TOC right, top-aligned.
+   Named for toc-layout.html, the shared include that renders this markup
+   (not "thoughts-layout" — its original name, a holdover from when only
+   note/thoughts posts used it; toc-layout.html now backs every page that
+   might show a TOC: about, work, home, notes, articles). Breakpoint
+   matches Bootstrap's own lg (991.98px), not an arbitrary custom value. */
+
+/* Column widths/wrap come from Bootstrap's own .row/.col/.col-auto
+   (markup) — this sets the gutter to this component's own 2rem instead of
+   .row's default, and aligns items to the top instead of Bootstrap's
+   default stretch (a .col-auto sidebar shorter than .col's content
+   shouldn't stretch to match it). */
+.toc-layout {
+    --bs-gutter-x: 2rem;
+    align-items: flex-start;
+}
+
+/* Fixed width, not sized to its own content — needs to hold the same
+   width whether it's rendering toc.html's real output or standing in
+   empty as a spacer (toc-layout.html's no-TOC branch), so .col reading
+   width stays identical either way. */
+.toc-sidebar {
+    width: 240px;
+    position: sticky;
+    top: 1rem;
+}
+
+@media (max-width: 991.98px) {
+    .toc-sidebar {
+        display: none;
+    }
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0.5rem 1rem;
+    background: var(--bs-body-bg);
+    border-bottom: 0.0625rem solid var(--bs-border-color);
+    box-shadow: var(--bs-box-shadow);
+    font-family: var(--bs-font-monospace);
+    font-size: 0.95rem;
+}
+
+.navbar-brand {
+    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+    font-size: 1.1rem;
+    letter-spacing: -0.02em;
+    color: var(--bs-body-color);
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.navbar-brand:hover { color: var(--bs-link-color); }
+
+.navbar-nav {
+    gap: 0.25rem;
+}
+
+.nav-link {
+    color: var(--bs-body-color);
+    text-decoration: none;
+    padding: 0.625rem 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: var(--site-small-font-size);
+    transition: color var(--site-transition);
+}
+
+.nav-link:hover,
+.nav-link[aria-current="page"] {
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+    padding: 0.4rem;
+    color: var(--bs-body-color);
+    font-size: 1.2rem;
+    min-height: 2.75rem;
+    min-width: 2.75rem;
+    cursor: pointer;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:hover {
+    color: var(--bs-link-color);
+}
+
+.navbar-toggler:focus-visible {
+    outline: 0.125rem solid var(--bs-link-color);
+    outline-offset: 0.125rem;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: var(--bs-body-bg);
+        border: 0.0625rem solid var(--bs-border-color);
+        box-shadow: var(--bs-box-shadow);
+        margin-top: 0.5rem;
+        padding: 0.25rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn {
+        font-size: 0.85rem;
+        min-height: 2.25rem;
+        padding: 0.25rem 0.75rem;
+    }
+}
+
+/* Logo — inline <svg> (not <img>) so fill: currentColor lets it inherit
+   .navbar-brand's color, tracking light/dark mode and hover automatically
+   with no separate dark-mode filter/invert rule needed. Sized by height
+   (not max-width/max-height) so wordmark and icon+wordmark lockups of
+   differing aspect ratio still read at the same navbar prominence. Height
+   itself is a per-site choice (site.json's logo.height, read by each
+   site's own brand-mark.html) — two named tiers, not a one-off number
+   per site: some marks' visible glyphs fill their own viewBox close to
+   edge-to-edge (short is enough), others have more internal padding
+   baked into the viewBox relative to their ink and read smaller at the
+   same height unless bumped up (tall). */
+#logo {
+    width: auto;
+}
+
+.logo-height-short { height: 1.0rem; }
+.logo-height-tall { height: 1.5rem; }
+
+#logo, #logo * {
+    transition: fill var(--site-transition);
+}
+
+/* .drop-shadow removed — it was byte-for-byte identical to Bootstrap's
+   own .shadow-lg utility (box-shadow: var(--bs-box-shadow-lg)), just
+   under a different name. Every former .drop-shadow site now uses
+   .shadow-lg directly. */
+
+/* image.html's posts/thoughts top-of-page image — a dedicated class
+   instead of keying off .xxl/.border, which several unrelated branches
+   (briefs/labs/events/orgs) also use. */
+.post-top-image { border-radius: var(--bs-border-radius); }
+
+/* Hero — page-title/description block padding, shared across every
+   jumbotron.html branch on both consumers instead of each branch hand-
+   typing its own pt-N / pb-N combo. Margin-bottom stays a plain Bootstrap
+   mb-* utility (generic spacing, not hero-specific); .hero-divider adds
+   the border-bottom some branches need. Compose freely: class="container
+   hero-md hero-divider mb-4". Top padding was originally ported at its
+   pre-existing value (0.25rem, effectively no visible space above the
+   page title on every "else"-branch page — about, work, press, etc.) —
+   bumped to read as real intentional spacing next to Bootstrap's native
+   (large) h1 size, confirmed against the rendered page, not guessed. */
+.hero-xs { padding-top: 2rem; }
+.hero-sm { padding-top: 2rem; padding-bottom: 0.5rem; }
+.hero-md { padding-top: 2rem; padding-bottom: 1rem; }
+.hero-lg { padding-top: 2rem; }
+
+.hero-divider {
+    border-bottom: 0.0625rem solid var(--bs-border-color);
+}
+
+/* Standard "hero, then body content, no TOC" wrapper — govfresh hand-typed
+   this as container py-4 (padding, top+bottom), lukefretwell as container
+   mt-4 (margin, top only); same role, two slightly different values.
+   Reconciled to one: both now use real Bootstrap .py-4 directly in
+   markup (padding, not margin, for the same reason h1/lead moved off
+   margin earlier this session — and py-4 is exactly 1.5rem top+bottom,
+   so no custom class is needed at all). Previously this lived here as
+   its own .content-body class using the "1.5rem 0" 2-value shorthand,
+   which also zeroed left/right padding and silently canceled Bootstrap's
+   own .container gutter — fixed by switching to explicit padding-top/
+   -bottom, then removed entirely once that was recognized as identical
+   to .py-4. */
+
+/* Card grid — the gutter (g-3) is already identical at every one of the
+   18 places this pattern appears; baking it in here means one fewer
+   utility class to hand-type, and one less thing that could silently
+   drift to a different gutter value somewhere. Column-count progression
+   (row-cols-*) stays a plain Bootstrap utility on the markup — that part
+   is genuinely content-dependent, not a role this class should own. */
+.card-group {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Modifier for a card grid that's one of several stacked on the same
+   page (topic.html's category sections) — the divider + extra top
+   space only makes sense when something precedes it on the page, so
+   it's additive, not baked into the base class. */
+.card-group-divider {
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.0625rem solid var(--bs-border-color);
+}
+
+/* When a breadcrumb precedes the hero (breadcrumb.html's wrapper is always
+   the sibling right before <main>, regardless of nesting inside <main> —
+   see .breadcrumb-bar below), the breadcrumb already provides visual
+   separation from the nav, so the hero doesn't need its full no-breadcrumb
+   top padding on top of that — this reduces it theme-wide, automatically,
+   for every layout that includes breadcrumb.html, no per-page changes. */
+.breadcrumb-bar + main .hero-xs,
+.breadcrumb-bar + main .hero-sm,
+.breadcrumb-bar + main .hero-md,
+.breadcrumb-bar + main .hero-lg {
+    padding-top: 1rem;
+}
+
+/* Small/secondary text — each role below is a semantic class (what the
+   text IS, not how it's sized/colored/set), and each references
+   --site-small-font-size, --site-font-secondary (lf-theme.css) and
+   --bs-secondary-color directly rather than generic
+   "small"/"text-body-secondary" utilities. No small/.small or
+   text-body-secondary fallback: nothing in this theme's markup pairs a
+   utility class onto these roles going forward — the class alone carries
+   the full treatment. Unscoped (not `.card p.X`) — applies the same
+   wherever the role appears, inside a card or not. */
+
+/* Icon + optional label + value line — post metadata (date, author,
+   duration...), event/org contact fields. Margin comes from a plain
+   Bootstrap mb-* utility passed alongside this class, not baked in here,
+   since it varies by context (standalone line vs. a stacked block). */
+.icon-line {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+}
+
+/* image.html's figures — shrink-to-fit the image's own rendered width
+   (instead of the full-width block a bare <figure> defaults to), so a
+   centered figure (e.g. the book branch's .text-center wrapper) centers
+   image+caption as one unit rather than centering the image while a
+   full-width figcaption centers its text independently across a wider
+   box than the photo. */
+.image-figure {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Image caption text (image.html's <figcaption><p>). Always left-aligned
+   within .image-figure's now image-width box, so the caption's left edge
+   matches the photo's left edge regardless of whether an ancestor
+   centers the figure. */
+.img-caption {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+/* Card body text — a card's description paragraph, or a secondary byline/
+   meta line (byline, episode number, date-only line). Only .card-byline
+   gets a baked-in margin — every usage is mb-0, but .card-description's
+   margin varies by context (mb-0/mb-2/mb-3 depending on what follows it),
+   so that one stays a plain Bootstrap utility in markup. */
+.card-description,
+.card-byline {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+}
+
+.card-byline {
+    margin-bottom: 0;
+}
+
+/* Caption under a title/icon (card-grid.html's theme cards, social.html's
+   connect-icon captions) and a card's inline tag list. */
+.card-caption,
+.card-tags {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+    margin-bottom: 0;
+}
+
+/* Post byline/date on signal cards and feed listings (card.html's signal
+   type, signal/index.html) — this rule was missing entirely until now, so
+   this text has been rendering at ambient body size, not intended. */
+.post-meta {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+}
+
+/* bio-card.html's bio blurb. Deliberately NOT distinguished from the
+   "more about" link paragraph via :has(a) — author-supplied bio prose can
+   itself contain links (confirmed: at least one author's bio-short does),
+   which would wrongly match that selector. Real, separately-named class
+   for the link line instead. */
+.bio-text {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+    margin-top: 0.5rem;
+}
+
+/* bio-card.html's "more about X" link line — always just the one link,
+   nothing else. */
+.bio-more-link {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+    margin-bottom: 0;
+}
+
+/* toc.html's "On this page" heading. */
+.toc-heading {
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+    margin-bottom: 1rem;
+}
+
+/* On-page table of contents (toc.html + toc-active.js, both real vendored
+   lf-ui files now — previously separately-maintained copies on each site
+   that stayed byte-identical only by hand, and their supporting CSS
+   wasn't shared at all, which is how lukefretwell ended up missing the
+   scroll-margin-top rule below and got a visibly different scroll
+   landing position than govfresh for the same TOC-link click. */
+.toc-list {
+    padding-left: 1rem;
+    margin: 0;
+    list-style-position: outside;
+    list-style-type: square;
+    font-size: var(--site-small-font-size);
+}
+
+.toc-list li {
+    margin-inline-start: 0;
+    margin-bottom: 0.25rem;
+}
+
+.toc-list li.toc-h3 {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.toc-link, .toc-link:visited {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.toc-link:hover {
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+
+.toc-link.active {
+    color: var(--bs-link-color);
+    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+}
+
+/* So a clicked TOC link doesn't land its heading flush at the very top of
+   the viewport. */
+.post h2, .post h3, .post h4 {
+    scroll-margin-top: 1.5rem;
+}
+
+/* Bootstrap's own .lead is font-size:1.25rem/font-weight:300 — this theme
+   renders "lead" (page-description) text at body size/weight/color
+   instead, so the class stays as a semantic marker without that visual
+   footprint; only the font-family (the secondary/description font) is
+   still a deliberate departure from plain body text. Loads after
+   bootstrap.min.css, so plain source-order specificity is enough to win,
+   no !important needed. */
+.lead {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: var(--site-font-secondary);
+    color: var(--bs-body-color);
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+/* Smaller, secondary-colored description tier — same font-family as .lead,
+   for a description role that isn't the page-level one (e.g. a section
+   intro line). Reusable in place of coining a one-off class per use. */
+.lead-2 {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-body-color);
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+/* Buttons — base appearance (padding, border-radius) comes from Bootstrap's
+   own .btn; this layer adds the shared color/shadow/motion treatment. */
+
+.btn {
+    background: var(--bs-body-color);
+    color: var(--bs-body-bg);
+    border: 0.0625rem solid var(--bs-border-color);
+    box-shadow: var(--bs-box-shadow);
+    font-family: "Roboto Mono Regular", var(--bs-font-monospace);
+    text-decoration: none;
+    transition: transform var(--site-transition), box-shadow var(--site-transition), background var(--site-transition), color var(--site-transition);
+}
+
+.btn:hover {
+    transform: var(--site-transform-hover);
+    box-shadow: var(--bs-box-shadow-lg);
+    background: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    /* Bootstrap's own .btn:hover (higher specificity than the base .btn
+       rule above, since a pseudo-class outweighs a plain class) resets
+       border-color to transparent by default — it's designed for a
+       .btn-primary/-secondary/etc. variant to supply a real hover color,
+       which this bare .btn never adds. Without this, hover would fall
+       through to that transparent default instead of staying the
+       standard border token. */
+    border-color: var(--bs-border-color);
+    text-decoration: none;
+}
+
+.btn:active {
+    transform: var(--site-transform-active);
+}
+
+/* CTA banner — fixed band shared by both consumers' subscribe/connect CTA.
+   A real nested .container (via Bootstrap's own d-flex/align-items-center/
+   justify-content-between utility classes in the markup) centers the
+   button+sponsor row at Bootstrap's actual breakpoint max-widths,
+   replacing a previous per-consumer hand-rolled
+   `padding: 0.5rem max(1rem, calc((100vw - 1140px) / 2 + 1rem))` hack that
+   only centered correctly above one hardcoded breakpoint. The outer
+   #cta-banner stays full-bleed (background/border) so no custom flex CSS
+   is needed here. cta-banner.html always emits this wrapper, not
+   conditionally on a sponsor — a single consistent treatment across both
+   consumers was the point. The button itself uses plain .btn above (its
+   bg/border/shadow already read clearly against the band's own opaque
+   background) — no contrast-inversion. */
+
+.cta-banner {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bs-body-bg);
+    border-top: 0.0625rem solid var(--bs-border-color);
+    padding: 0.5rem 0;
+    z-index: 1000;
+}
+
+/* Visibility (hidden below md, inline at md+) comes from Bootstrap's own
+   .d-none.d-md-inline on the markup — this only adds the font treatment. */
+.cta-banner-sponsor {
+    font-family: var(--bs-font-monospace);
+    font-size: 0.875rem;
+}
+
+.cta-banner-sponsor a {
+    color: var(--bs-link-color);
+    text-decoration: none;
+}
+
+.cta-banner-sponsor a:hover {
+    text-decoration: underline;
+}
+
+/* Cards — position: relative needed for stretched card-link; display is
+   left to Bootstrap's own .card (flex column), not overridden. */
+
+.card {
+    /* Bootstrap's own --bs-card-border-color defaults to the raw, never-
+       themed --bs-border-color-translucent — a different, unrelated
+       shade from the site's real border token used everywhere else
+       (navbar, hr). Retargeting it here is enough; nothing else needs
+       --bs-border-color-translucent overridden globally. */
+    --bs-card-border-color: var(--bs-border-color);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: var(--bs-box-shadow);
+}
+
+/* No lift/transform on any card, linked or not (a plain icon/caption
+   theme card on /services previously still lifted, since only linked
+   cards got the no-lift override) — just a subtle border/shadow darken as
+   the hover affordance. */
+.card:hover {
+    --bs-card-border-color: color-mix(in srgb, var(--bs-border-color) 85%, black 15%);
+    box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,0.09), 0 0.125rem 0.5rem rgba(0,0,0,0.06);
+}
+
+/* Skip-to-content link — Bootstrap's own .visually-hidden-focusable
+   already handles hiding it until focused; this only adds a visible
+   "button" look for the focused state, which real Bootstrap has no
+   opinion on. */
+.visually-hidden-focusable:focus {
+    padding: 0.5rem;
+    background: var(--bs-body-bg);
+    border: 0.125rem solid var(--bs-link-color);
+    z-index: 1000;
+}
+
+/* Heading anchor links — generated by anchor_headings.html. Hidden until
+   the heading is hovered, so the page doesn't show a permanent link icon
+   next to every heading. */
+
+h2 a#heading-hashtag, h3 a#heading-hashtag, h4 a#heading-hashtag {
+    color: var(--bs-body-color);
+    display: none;
+    text-decoration: none;
+}
+
+h2:hover a#heading-hashtag, h3:hover a#heading-hashtag, h4:hover a#heading-hashtag {
+    color: var(--bs-link-color);
+    display: revert;
+}
+
+/* Icon/social links — body color by default, link color on hover, no
+   underline (matches .breadcrumb-item a's treatment — .nav-link now
+   underlines on hover to match .footer-nav, but icon links stay plain
+   since they're icon-only glyphs, not text a reader scans for). */
+
+.icon-link, .icon-link:visited {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    color: var(--bs-link-color);
+}
+
+/* Body-color links — always body color regardless of theme, underline on
+   hover. Used by social.html's default (card-grid) branch — baked
+   directly into that shared include's markup as class="body-link", so
+   this can't stay per-site the way .card-link's own hover/dark-mode
+   treatment does (documented exception, tied to site-specific link
+   classes) — a shared include emitting a fixed class needs shared CSS
+   for it, or one consumer silently gets unstyled links the moment it
+   actually calls that code path. */
+
+.body-link, .body-link:visited {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.body-link:hover {
+    text-decoration: underline;
+}
+
+/* Card heading link — standardized hover: link color, no underline.
+   Previously diverged both ways: govfresh added an underline on hover
+   but kept body-color (no color change at all in light mode); lukefretwell
+   explicitly forced body-color on hover (no visual feedback beyond the
+   container-level border/shadow change above).
+   Selector is `.card .card-link:hover` (0,3,0), not the simpler
+   `.card-link:hover` (0,2,0) — lukefretwell's own base rule
+   `.card a.card-link { color: ... }` is (0,2,1), which would otherwise
+   keep beating a lower-specificity hover rule regardless of source
+   order, since lf-components.css loads before each consumer's own
+   css/style.css. A second, plain `.card-link:hover` (0,2,0) covers
+   .card-link used outside a .card (e.g. the homepage feature section) —
+   lukefretwell's higher-specificity base rule only matches inside .card,
+   so there's nothing to lose to there; govfresh's own base rule is only
+   (0,1,0), so this still safely wins in both places it needs to. */
+.card .card-link:hover,
+.card-link:hover {
+    color: var(--bs-link-color);
+    text-decoration: none;
+}
+
+/* Stretched-link pattern — makes the whole card clickable, not just the
+   link text. */
+.card .body-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+/* Badges */
+
+.badge {
+    border: none;
+    border-radius: var(--bs-border-radius);
+    box-shadow: none;
+    /* Explicit regular family, not font-weight: normal — a numeric reset
+       doesn't help if an ancestor's family is "Mona Sans Bold" (that family
+       renders bold glyphs regardless of requested weight, same reasoning as
+       the h1-h6 rule above). Forcing the regular family is what actually
+       guarantees non-bold text here. */
+    font-family: var(--bs-font-sans-serif);
+}
+
+a:has(> .badge) {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Breadcrumb — body-color default, link-color on hover, no underline
+   (matches .icon-link's treatment, not .nav-link's — see above) instead
+   of Bootstrap's own link-colored default. */
+
+/* Wraps breadcrumb.html's markup — real Bootstrap .container plus this
+   theme's own top padding, replacing the inline pt-2 utility so the value
+   lives in one place (also targeted by the .hero-* padding-reduction rule
+   above, via the + main descendant selector). */
+.breadcrumb-bar {
+    padding-top: 0.5rem;
+}
+
+/* Bootstrap's own .breadcrumb already sets display:flex, flex-wrap:wrap,
+   list-style:none, and defaults its padding to 0 via
+   --bs-breadcrumb-padding-x/-y — only margin-bottom (Bootstrap's default
+   is 1rem) needs overriding, via Bootstrap's own variable instead of a
+   flat property so the rest of the component's variable-driven behavior
+   stays intact. */
+.breadcrumb {
+    --bs-breadcrumb-margin-bottom: 0;
+}
+
+.breadcrumb-item a,
+.breadcrumb-item a:visited {
+    display: inline-block;
+    color: var(--bs-body-color);
+    text-decoration: none;
+    font-family: var(--bs-font-monospace);
+    font-size: var(--site-small-font-size);
+}
+
+.breadcrumb-item a:hover {
+    color: var(--bs-link-color);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "/";
+    padding: 0 0.5rem;
+    color: var(--bs-secondary-color);
+}
+
+/* Bio callout — used identically by both consumers' bio.html */
+
+.bio-callout {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--bs-box-shadow);
+    border-radius: 0.375rem;
+    /* Bootstrap's real .alert-light sets its own color: var(--bs-alert-color)
+       -> --bs-light-text-emphasis, a hardcoded gray unrelated to either
+       site's --bs-body-color. Without this, the bio name heading and any
+       other plain text in the box silently inherits that gray instead of
+       real text color. */
+    color: var(--bs-body-color);
+}
+
+.bio-avatar {
+    filter: drop-shadow(0.1875rem 0.1875rem 0 var(--bs-border-color));
+}
+
+/* Divider between stacked subsections on one page (services.html's
+   Services -> Themes -> Get started) — same border-top pt-4 mt-4 combo
+   hand-typed on both <section>s in that file. Distinct role from
+   govfresh's own .section-divider (that one separates a whole related-
+   content section at a page's end, a bigger 3rem/1rem gap); this is a
+   tighter divider between subsections within one flow. */
+.subsection-divider {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 0.0625rem solid var(--bs-border-color);
+}
+
+/* Footer — footer.html/footer-nav.html are shared markup; this is the
+   matching shared CSS. Previously each consumer hand-rolled its own
+   version of this (different padding, a bespoke desktop side-by-side
+   flex layout on one consumer only, different font sizes) despite the
+   markup being identical — that's exactly the kind of drift that's easy
+   to miss because nothing tracks per-site CSS the way check-sync.js
+   tracks shared files. Moving it here closes that gap: any future edit
+   has to go through lf-ui, so both consumers move together. */
+
+footer {
+    font-family: var(--bs-font-monospace);
+}
+
+/* CTA text inside an .alert.alert-light (footer.html's feedback link,
+   demos.html's subscribe link) — color comes from .bio-callout's own rule
+   above, not duplicated here since .alert-light's default gray text is
+   actually fine for a muted callout, unlike the bio box. */
+.cta-text {
+    font-size: var(--site-small-font-size);
+}
+
+.alert .cta-text {
+    font-family: var(--bs-font-monospace);
+}
+
+.footer-bar {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.75rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+}
+
+.footer-nav li {
+    margin-inline-start: 0;
+}
+
+.footer-nav li a,
+.footer-bar p a {
+    color: var(--bs-body-color);
+    text-decoration: none;
+    font-size: var(--site-small-font-size);
+}
+
+.footer-nav li a:hover,
+.footer-bar p a:hover {
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+
+/* Layout primitives — .lf-cluster, .lf-stack, and .lf-flank are gone;
+   .lf-cluster/.lf-stack were nothing but display:flex + a fixed gap,
+   exactly what Bootstrap's own .d-flex.flex-wrap.align-items-center.gap-*
+   (cluster) and .d-flex.flex-column.gap-* (stack, align-items:stretch is
+   flex's own default) already do; .lf-flank (the "sidebar" pattern —
+   content-sized first child, growing second child) was converted to real
+   .row + .col-auto/.col at all 6 usages. Every former usage of all three
+   now uses those directly. .lf-grid stays: a container-relative auto-fit
+   grid, no real Bootstrap equivalent since row-cols-* is
+   viewport-breakpoint-based, not container-relative. */
+
+.lf-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(var(--min-column-size, 20ch), 100%), 1fr));
+    --min-column-size: initial;
+    margin-block: 0;
+    margin-inline: 0;
+    gap: var(--lf-space-m);
+}
+
+@media (max-width: 768px) {
+    .lf-grid {
+        --min-column-size: 100%;
+    }
+}
+
+/* Image sizing — previously duplicated per-consumer with both a
+   different scale (lukefretwell: xs/sm/md/lg/xxl; govfresh: xxxs through
+   xxl, finer-grained) and a different property (lukefretwell: max-width,
+   scales down but never forces upscaling past a small source image's
+   real size; govfresh: width, forces the exact size regardless of
+   intrinsic dimensions). Currently invisible since neither consumer's
+   markdown content actually invokes these classes yet — reconciled here
+   on govfresh's fuller scale, using max-width (the safer default) before
+   either site's content starts relying on a particular behavior. Base
+   img{} rule (scale down to fit the container, respecting these caps)
+   needs to be shared alongside the scale itself, or the same class
+   renders differently depending on which consumer's copy of this rule
+   is present. */
+img {
+    height: auto;
+    width: 100%;
+}
+
+img.xxxs { max-width: 2rem; }
+img.xxs { max-width: 8rem; }
+img.xs { max-width: 10rem; }
+img.sm { max-width: 12.5rem; }
+img.md { max-width: 15rem; }
+img.lg { max-width: 18.75rem; }
+img.xl { max-width: 20rem; }
+img.xxl { max-width: 50rem; }
+

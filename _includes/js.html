@@ -1,4 +1,9 @@
-<!-- Web Awesome -->
-<script type="module" src="{{ site.baseurl }}/assets/web-awesome/webawesome.loader.js" data-webawesome="{{ site.baseurl }}/assets/web-awesome/"></script>
+<!-- Bootstrap (lf-ui) -->
+<script src="{{ site.baseurl }}/assets/lf-ui/bootstrap.bundle.min.js" defer></script>
 <script src="{{ site.baseurl }}/js/theme.js"></script>
 <script src="{{ site.baseurl }}/js/pdf-links.js" defer></script>
+<script>
+  function copyLink() {
+    navigator.clipboard.writeText(window.location.href);
+  }
+</script>

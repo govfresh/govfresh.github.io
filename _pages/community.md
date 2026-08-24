@@ -40,6 +40,6 @@ We adhere to the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_Hous
 
 [GovFresh code of conduct](/conduct/)
 
-## Request invite
+## Join
 
-To request an invite, email <community@govfresh.com> with 'GovFresh community' in the subject.
+<a href="https://join.slack.com/t/govfresh/shared_invite/zt-1nv56aqqt-BHrT80QLxjtDo5TCkVXgwA">Join the GovFresh community.</a>

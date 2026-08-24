@@ -1,5 +1,6 @@
-{% if jekyll.environment == "production" %}
+{% assign google_analytics_id = site.data.site.analytics.google %}
+{% if jekyll.environment == "production" and google_analytics_id %}
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCWE4K3TR4"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics_id }}"></script>
   <script src="{{ site.baseurl }}/js/analytics.js" defer></script>
 {% endif %}

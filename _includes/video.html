@@ -5,7 +5,7 @@
   {% if page.video-description %}
     <p>{{ page.video-description }}</p>
   {% endif %}
-  <div class="video-responsive mb-4 border">
+  <div class="ratio ratio-16x9 mb-4 border">
     <iframe
       src="https://www.youtube.com/embed/{{ page.video }}?rel=0&modestbranding=1"
       title="{{ page.video-title | default: page.title }}"

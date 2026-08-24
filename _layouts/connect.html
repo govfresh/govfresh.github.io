@@ -1,9 +1,15 @@
 ---
-layout: default
+layout: connect
 ---
-
-<div class="container py-4">
-  <div class="wa-grid" style="--min-column-size: 320px">
-    {% include social.html %}
+{% include header.html %}
+{% include nav.html %}
+<main id="main-content">
+  {% include jumbotron.html %}
+  <div class="container py-4">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 card-group">
+      {% include social.html %}
+    </div>
   </div>
-</div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}
