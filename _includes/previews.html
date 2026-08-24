@@ -4,7 +4,7 @@
     {% if include.show-only %}
       {% assign size = site.[loop.parent] | size %}
       {% if loop.parent == page.parent and show != "true" and size > 1 %}
-        <div class="border-top pt-5 pb-3">
+        <div class="section-divider">
           {% assign show = "true" %}
           {% if page.parent == "podcast" %}
             <h2>Episodes</h2>
@@ -12,9 +12,9 @@
             <h2>{{ loop.title }}</h2>
           {% endif %}
           {% include cards.html page=loop.parent page-title=title %}
-          <wa-button href="{{ site.baseurl }}/{{ page.parent }}" variant="brand" size="s" class="mt-3">{{ loop.title }}</wa-button>
+          <a href="{{ site.baseurl }}/{{ page.parent }}" class="mt-3 btn btn-sm">{{ loop.title }}</a>
           {% if page.parent == "podcast" %}
-            <wa-divider class="mt-4"></wa-divider>
+            <hr class="mt-4">
             {% include subscribe-podcast.html %}
           {% endif %}
         </div>
@@ -27,7 +27,7 @@
         <p class="lead">{{ loop.description }}</p>
         {% assign page = loop %}
         {% include cards.html page-title=title %}
-        <wa-button href="{{ site.baseurl }}/{{ page.parent }}" variant="brand" size="s">{{ loop.title }}</wa-button>
+        <a href="{{ site.baseurl }}/{{ page.parent }}" class="btn btn-sm">{{ loop.title }}</a>
       </div>
     {% endif %}
   {% endfor %}

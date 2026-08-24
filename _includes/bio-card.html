@@ -1,0 +1,24 @@
+<div class="bio-callout alert alert-light">
+  <div class="row g-0 gap-4">
+    <div class="col-auto">
+      {% if author_data.img %}
+        <img src="{{ site.baseurl }}/assets/img/{{ author_data.img-path | default: 'people' }}/{{ author_data.img }}" alt="Photo of {{ author_data.title }}"
+          class="bio-avatar rounded-circle" style="width: 5rem; height: 5rem; object-fit: cover;">
+      {% endif %}
+    </div>
+    <div class="col">
+      {% if author_data.title %}
+        <h2 class="h5 mb-0">{{ author_data.title }}</h2>
+      {% endif %}
+      {% include social.html size="small" %}
+      {% if author_data.bio-short %}
+        <p class="bio-text">{{ author_data.bio-short }}</p>
+      {% endif %}
+      {% if author_data.shortname %}
+        <p class="bio-more-link">
+          <a href="{{ site.baseurl }}{{ author_data.url }}">More about {{ author_data.shortname }}</a>
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>

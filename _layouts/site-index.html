@@ -7,18 +7,26 @@ layout: site-index
   {% include jumbotron.html %}
   <div class="container">
     {% for section in site.data.site-index.sections %}
-      <h2 class="h4 mb-3">{{ section.label }}</h2>
-      <div class="wa-grid mb-5" style="--min-column-size: 300px">
-        {% assign items = site[section.collection] %}
-        {% for post in items %}
-          {% unless post.sitemap == false or post.title == nil or post.title == "" %}
-            <wa-card>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
-              {% if post.description and post.description != "undefined" %}<p class="small text-body-secondary mb-0 mt-1">{{ post.description }}</p>{% endif %}
-            </wa-card>
-          {% endunless %}
-        {% endfor %}
-      </div>
+      {% assign items = site[section.collection] %}
+      {% assign visible_items = "" | split: "" %}
+      {% for post in items %}
+        {% unless post.sitemap == false or post.title == nil or post.title == "" %}
+          {% assign visible_items = visible_items | push: post %}
+        {% endunless %}
+      {% endfor %}
+      {% if visible_items.size > 0 %}
+        <h2 class="h4 mb-3">{{ section.label }}</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 card-group">
+          {% for post in visible_items %}
+            <div class="col">
+              <div class="card h-100"><div class="card-body">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
+                {% if post.description and post.description != "undefined" %}<p class="card-description mb-0 mt-1">{{ post.description }}</p>{% endif %}
+              </div></div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </main>

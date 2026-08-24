@@ -1,0 +1,12 @@
+{% comment %}
+  Conditional search box — only renders where the consumer has lunr search
+  wired up (site.json's "search": "lunr", plus the underlying js/lunr.js
+  and js/search.js files). Pairs the box with a visible intro line, not
+  just the input's placeholder, since this gets dropped into pages (404)
+  that don't already establish "this is search" context the way a
+  dedicated /search page's own h1 does.
+{% endcomment %}
+{% if site.data.site.search == "lunr" %}
+  <p>Try searching:</p>
+  {% include search-lunr.html %}
+{% endif %}

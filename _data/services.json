@@ -1,0 +1,22 @@
+{
+  "services": [
+    { "title": "Advice", "description": "Strategic, tactical", "icon": "fa-lightbulb", "tags": ["Board advisory", "Startup guidance", "Business strategy", "Executive mentorship", "One-on-one and team coaching"] },
+    { "title": "Product", "description": "Plan, deliver", "icon": "fa-rocket", "tags": ["Strategy", "Design", "Development", "Launch"] },
+    { "title": "Brand", "description": "Image, identity", "icon": "fa-palette", "tags": ["Naming", "Positioning", "Visual identity"] },
+    { "title": "Narrative", "description": "Comms, content", "icon": "fa-pen-nib", "tags": ["Content strategy and implementation", "Media positioning and coaching"] }
+  ],
+  "themes": [
+    { "title": "Digital services and transformation", "icon": "fa-gears" },
+    { "title": "Civic and government technology", "icon": "fa-landmark" },
+    { "title": "Open culture", "icon": "fa-door-open" },
+    { "title": "Open data", "icon": "fa-database" },
+    { "title": "Open source", "icon": "fa-code" },
+    { "title": "Ecosystem development", "icon": "fa-seedling" },
+    { "title": "Agile methodologies", "icon": "fa-rotate" },
+    { "title": "Software evaluation", "icon": "fa-magnifying-glass" },
+    { "title": "Web standards", "icon": "fa-globe" },
+    { "title": "Accessibility", "icon": "fa-universal-access" },
+    { "title": "Procurement", "icon": "fa-file-contract" },
+    { "title": "Security", "icon": "fa-shield-halved" }
+  ]
+}

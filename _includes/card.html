@@ -1,0 +1,124 @@
+{% unless item.show == 'hide' %}
+{% assign cfg = site.data.cards[include.type] %}
+{% assign level_suffix = "primary" %}
+{% if include.level == "secondary" %}{% assign level_suffix = "secondary" %}{% endif %}
+
+{% assign wrapper_extra_key = "wrapper_class_" | append: level_suffix %}
+{% assign wrapper_extra = cfg[wrapper_extra_key] | default: cfg.wrapper_class %}
+{% assign wrapper_class = "card h-100" %}
+{% if wrapper_extra %}{% assign wrapper_class = wrapper_extra | append: " card h-100" %}{% endif %}
+
+{% assign image_field_key = "image_field_" | append: level_suffix %}
+{% assign image_field = cfg[image_field_key] | default: cfg.image_field %}
+{% assign image_path_key = "image_path_" | append: level_suffix %}
+{% assign image_path = cfg[image_path_key] | default: cfg.image_path %}
+{% if cfg.image_path_dynamic %}{% assign image_path = item.img-path %}{% endif %}
+{% assign image_class_key = "image_class_" | append: level_suffix %}
+{% assign image_class = cfg[image_class_key] | default: cfg.image_class %}
+{% assign image_value = item[image_field] %}
+
+{% assign heading_class_key = "heading_class_" | append: level_suffix %}
+{% assign heading_class = cfg[heading_class_key] | default: cfg.heading_class | default: "h4" %}
+
+{% assign description_mb_key = "description_mb_" | append: level_suffix %}
+{% assign description_mb = cfg[description_mb_key] | default: cfg.description_mb %}
+{% assign no_description = false %}
+{% if cfg.no_description_secondary and level_suffix == "secondary" %}{% assign no_description = true %}{% endif %}
+
+{% comment %} Bootstrap's real .card-footer, not more markup stacked into .card-body — anything that isn't the card's own title/description belongs here (byline, event/org meta fields, episode number, watch CTA, demos' duration/date list, a person's position/org + role badge). {% endcomment %}
+{% assign has_footer = false %}
+{% if cfg.byline_field or cfg.meta or cfg.is_person_card %}{% assign has_footer = true %}{% endif %}
+{% if include.type == "signal" or include.type == "podcast" %}{% assign has_footer = true %}{% endif %}
+{% if cfg.watch_cta_primary and level_suffix == "primary" %}{% assign has_footer = true %}{% endif %}
+{% if include.type == "demos" and level_suffix == "secondary" %}{% assign has_footer = true %}{% endif %}
+
+<div class="{{ wrapper_class }}">
+  <div class="card-body">
+    {% if cfg.is_person_card and item.img %}
+      {% comment %} matches image.html's people branch: gates on item.img, renders item.img-feat — a pre-existing quirk, preserved as-is. {% endcomment %}
+      <img
+        class="{{ image_class }}"
+        src="{{ site.baseurl }}/assets/img/{{ image_path }}/{{ item.img-feat }}"
+        alt="{{ item.img-alt }}">
+    {% elsif image_value %}
+      <img
+        class="{{ image_class }}"
+        src="{{ site.baseurl }}/assets/img/{{ image_path }}/{{ image_value }}"
+        alt="{{ item.img-alt }}"
+        loading="lazy">
+    {% elsif include.type == "podcast" and level_suffix == "primary" and item.img %}
+      {% comment %} podcast's else-branch img fallback — the only type where a second, bare-value field is tried. {% endcomment %}
+      <img
+        src="{{ item.img }}"
+        alt="{{ item.title }}"
+        class="{{ image_class }}">
+    {% endif %}
+    {% if cfg.sub_wrapper %}<div>{% endif %}
+    {% if item.title %}
+      {% if level_suffix == "secondary" %}
+        <h3 class="{{ heading_class }}">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+        </h3>
+      {% else %}
+        <h2 class="{{ heading_class }}">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+        </h2>
+      {% endif %}
+    {% endif %}
+    {% if item.description and no_description == false %}
+      <p class="card-description {{ description_mb }}">{{ item.description }}</p>
+    {% endif %}
+    {% if cfg.sub_wrapper %}</div>{% endif %}
+  </div>
+
+  {% if has_footer %}
+    <div class="card-footer">
+      {% if cfg.byline_field %}
+        {% assign byline_value = item[cfg.byline_field] %}
+        {% if byline_value %}
+          <p class="card-byline">{{ cfg.byline_prefix }}{{ byline_value }}</p>
+        {% endif %}
+      {% endif %}
+
+      {% if cfg.is_person_card %}
+        {% if item.position %}
+          <p class="card-description">
+            {{ item.position }}<br>{{ item.org }}
+          </p>
+        {% endif %}
+        {% include role.html %}
+      {% endif %}
+
+      {% if cfg.meta %}
+        {% for meta_item in cfg.meta %}
+          {% assign meta_value = item[meta_item.field] %}
+          {% if meta_value %}
+            {% include icon-line.html icon=meta_item.icon label=meta_item.label value=meta_value mb="mb-0" %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if include.type == "signal" and item.date %}
+        <p class="post-meta mb-0">{{ item.date | date: site.date }}</p>
+      {% endif %}
+
+      {% if include.type == "podcast" and item.number %}
+        {% assign episode_label_key = "episode_label_" | append: level_suffix %}
+        {% assign episode_label = cfg[episode_label_key] %}
+        <p class="card-byline">{{ episode_label }}{{ item.number }}</p>
+      {% endif %}
+
+      {% if cfg.watch_cta_primary and level_suffix == "primary" %}
+        {% include icon-line.html icon="fa-solid fa-circle-play" value="Watch" mb="mb-0" %}
+      {% endif %}
+
+      {% if include.type == "demos" and level_suffix == "secondary" and item.duration %}
+        <ul class="list-unstyled card-byline">
+          <li>{{ item.duration }} / {{ item.author }}</li>
+          <li>{{ item.date | date: site.date }}</li>
+        </ul>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>
+{% endunless %}

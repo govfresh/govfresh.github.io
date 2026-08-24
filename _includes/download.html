@@ -1,13 +1,10 @@
 {% if page.download-link %}
-  <p class="small text-body-secondary mb-0 py-3 mb-3">
-    <wa-button
-      href="{{ page.download-link }}"
-      variant="brand"
-      size="s"
+  <p class="download-cta py-3 mb-3">
+    <a href="{{ page.download-link }}"
       target="_blank"
       rel="noopener"
-      aria-label="Download this paper">
+      aria-label="Download this paper" class="btn btn-sm">
       <i class="fa-solid fa-cloud-arrow-down"></i>
-      Download this paper</wa-button>
+      Download this paper</a>
   </p>
 {% endif %}

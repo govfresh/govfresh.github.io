@@ -1,0 +1,37 @@
+{
+  "logo": {
+    "height": "tall"
+  },
+  "search": "lunr",
+  "feedback": {
+    "text": "Help make GovFresh better:",
+    "link": "/feedback",
+    "link_text": "Send us your feedback",
+    "icon": "fa-solid fa-lightbulb"
+  },
+  "scangov": {
+    "link": "https://my.scangov.com/public/key6541-1749843847485/govfresh-com/report"
+  },
+  "cta_banner": {
+    "button_text": "Subscribe",
+    "button_link": "/subscribe/",
+    "sponsor_text": "ScanGov",
+    "sponsor_link": "https://scangov.com"
+  },
+  "services_cta": {
+    "button_text": "Contact us",
+    "button_link": "/connect"
+  },
+  "analytics": {
+    "google": "G-GCWE4K3TR4"
+  },
+  "theme": {
+    "light": "#ffffff",
+    "dark": "#000"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/govfresh",
+    "linkedin": "https://www.linkedin.com/company/govfresh",
+    "github": "https://github.com/govfresh"
+  }
+}

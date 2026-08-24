@@ -1,0 +1,5 @@
+<p class="icon-line {{ include.mb | default: "mb-1" }}">
+  <i class="{{ include.icon }}"></i>
+  {% if include.label %}{{ include.label }}{% endif %}
+  {% if include.href and include.href != "" %}<a href="{{ include.href }}"{% if include.link_class %} class="{{ include.link_class }}"{% endif %}>{{ include.value }}</a>{% else %}{{ include.value }}{% endif %}
+</p>

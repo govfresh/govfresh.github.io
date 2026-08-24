@@ -7,12 +7,12 @@ layout: latest
 <main id="main-content">
   <div class="container py-4">
     {% if page.title %}
-      <h1 class="mb-2">{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
     {% endif %}
     {% if page.description %}
-      <p class="lead text-body-secondary mb-4">{{ page.description }}</p>
+      <p class="lead">{{ page.description }}</p>
     {% endif %}
-    <wa-divider class="mb-4"></wa-divider>
+    <hr class="mb-4">
     {% assign feed_items = "" | split: "" %}
     {% for item in site.thoughts %}
       {% assign feed_items = feed_items | push: item %}{% endfor %}
@@ -40,11 +40,13 @@ layout: latest
     {% assign per_page = 15 %}
     {% assign total = feed_items | size %}
 
-    <div id="feed-container" class="content-narrow">
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div id="feed-container" class="col-lg-8">
       {% for item in feed_items %}
         {% assign section_name = item.parent | default: item.collection | default: "signal" %}
         {% unless forloop.first %}
-          <wa-divider{% if forloop.index > per_page %} class="feed-hidden"{% endif %}></wa-divider>
+          <hr{% if forloop.index > per_page %} class="feed-hidden"{% endif %}>
         {% endunless %}
         <article class="feed-post py-3{% if forloop.index > per_page %} feed-hidden{% endif %}">
 
@@ -57,10 +59,10 @@ layout: latest
           {% elsif section_name == "research" %}{% assign badge_label = "Research" %}
           {% elsif section_name == "labs" %}{% assign badge_label = "Lab" %}
           {% else %}{% assign badge_label = section_name | capitalize %}{% endif %}
-          <p class="mb-2"><wa-badge variant="brand">{{ badge_label }}</wa-badge></p>
+          <p class="mb-2"><span class="badge text-bg-light">{{ badge_label }}</span></p>
 
           {% if section_name == "demos" and item.video %}
-            <div class="video-responsive mb-3 border">
+            <div class="ratio ratio-16x9 mb-3 border">
               <iframe
                 src="https://www.youtube.com/embed/{{ item.video }}?rel=0&modestbranding=1"
                 title="{{ item.video-title | default: item.title }}"
@@ -81,7 +83,7 @@ layout: latest
               <img
                 src="{{ site.baseurl }}/assets/img/{{ item.img-path | default: 'posts' }}/{{ img_src }}"
                 alt="{{ item.img-alt | default: item.title }}"
-                class="w-100 mb-3 border drop-shadow"
+                class="w-100 mb-3 border shadow-lg post-top-image"
                 loading="lazy">
             {% endif %}
           {% endif %}
@@ -102,40 +104,29 @@ layout: latest
           {% endif %}
 
           {% if item.description %}
-            <p class="text-body-secondary small mb-2">{{ item.description }}</p>
+            <p class="card-description mb-2">{{ item.description }}</p>
           {% endif %}
 
-          <div class="wa-cluster wa-gap-l feed-byline">
-            {% if item.author %}
-              {% for author in item.author %}
-                {% assign author_obj = site.people | where: "name", author | first %}
-                {% if author_obj %}
-                  <div class="wa-cluster wa-gap-s">
-                    <wa-avatar
-                      image="{{ site.baseurl }}/assets/img/people/{{ author_obj.img }}"
-                      label="{{ author_obj.name }}"
-                      style="--size: 1.25rem"></wa-avatar>
-                    <a href="{{ site.baseurl }}{{ author_obj.url }}" class="author-link small">{{ author }}</a>
-                  </div>
-                {% else %}
-                  <span class="small text-body-secondary">{{ author }}</span>
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-            <span class="small text-body-secondary">{{ item.date | date: "%B %-d, %Y" }}</span>
-          </div>
+          {% include author.html item=item %}
+          {% include date.html %}
         </article>
       {% endfor %}
+      </div>
+      <div class="col-lg-2"></div>
     </div>
 
     {% if total > per_page %}
-      <div class="content-narrow text-center py-5" id="load-more-wrapper">
-        <wa-button id="load-more" variant="brand" data-per-page="{{ per_page }}">Load more</wa-button>
-        <p class="small text-body-secondary mt-2">
-          Showing
-          <span id="showing-count">{{ per_page }}</span>
-          of {{ total }}
-        </p>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 text-center py-5" id="load-more-wrapper">
+          <button type="button" id="load-more" data-per-page="{{ per_page }}" class="btn">Load more</button>
+          <p class="pagination-text mt-2">
+            Showing
+            <span id="showing-count">{{ per_page }}</span>
+            of {{ total }}
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
       </div>
     {% endif %}
   </div>

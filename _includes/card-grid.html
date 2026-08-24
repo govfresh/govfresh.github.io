@@ -1,0 +1,36 @@
+{% if include.type == "theme" %}
+  {% assign grid_cols = "row-cols-2 row-cols-sm-4" %}
+{% else %}
+  {% assign grid_cols = "row-cols-1 row-cols-sm-2" %}
+{% endif %}
+<div class="row {{ grid_cols }} card-group">
+  {% for item in include.items %}
+    <div class="col">
+      {% if include.type == "service" %}
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid {{ item.icon }} fa-2x" aria-hidden="true"></i>
+            </div>
+            <h2 class="h4 text-center mb-1">{{ item.title }}</h2>
+            <p class="card-description text-center mb-3">{{ item.description }}</p>
+          </div>
+          {% if item.tags %}
+            <div class="card-footer">
+              <ul class="card-tags">
+                {% for tag in item.tags %}
+                  <li>{{ tag }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        </div>
+      {% elsif include.type == "theme" %}
+        <div class="text-center card h-100"><div class="card-body">
+          <i class="fa-solid {{ item.icon }} fa-lg mb-2" aria-hidden="true"></i>
+          <p class="card-caption">{{ item.title }}</p>
+        </div></div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

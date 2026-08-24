@@ -1,0 +1,197 @@
+/* lf-ui theme layer — Bootstrap 5.3 custom-property overrides.
+   Canonical here: https://github.com/lukefretwell/lf-standards/blob/main/brand
+   Structure follows scangov/components' public/css/scangov.css. */
+
+/* Fonts */
+
+@font-face {
+    font-family: "Mona Sans";
+    src: url("/assets/fonts/mona-sans/MonaSans-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Mona Sans";
+    src: url("/assets/fonts/mona-sans/MonaSans-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Same file, registered again under its own family name with a full
+   font-weight range (100 900). Headings use this family directly instead
+   of "Mona Sans" + font-weight: 700 — a numeric weight is only a request,
+   and any more-specific rule downstream that resets font-weight (a card,
+   an alert, a badge — any "box" component) silently falls back to the
+   regular-weight file. A dedicated bold-only family can't do that: there's
+   only one file registered under this name, so every weight request
+   resolves to it regardless of what the cascade does to font-weight. */
+@font-face {
+    font-family: "Mona Sans Bold";
+    src: url("/assets/fonts/mona-sans/MonaSans-Bold.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("/assets/fonts/roboto-mono/RobotoMono-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("/assets/fonts/roboto-mono/RobotoMono-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Dedicated single-weight family, same trick as "Mona Sans Bold" above —
+   .btn requests this by name instead of "Roboto Mono" + a numeric weight,
+   so its weight survives even where something downstream resets
+   font-weight. */
+@font-face {
+    font-family: "Roboto Mono Regular";
+    src: url("/assets/fonts/roboto-mono/RobotoMono-Regular.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Base font families — real Bootstrap variable names, not invented --lf-*
+   ones, so any Bootstrap component (not just body/code) picks these up
+   automatically. See lf-design-system-plan.md's CSS custom-property
+   naming decision. */
+
+:root {
+    --bs-font-sans-serif: "Mona Sans", system-ui, sans-serif;
+    --bs-font-monospace: "Roboto Mono", ui-monospace, monospace;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+
+    /* Shadows — same in light and dark, only border-color shifts by theme. */
+    --bs-box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,0.06), 0 0.125rem 0.5rem rgba(0,0,0,0.04);
+    --bs-box-shadow-lg: 0 0.25rem 0.75rem rgba(0,0,0,0.08), 0 0.125rem 0.25rem rgba(0,0,0,0.04);
+
+    /* Motion — no real Bootstrap equivalent for a named transition/transform
+       token, so these stay --site-*. */
+    --site-transition: 0.15s ease;
+    --site-transform-hover: translateY(0.0625rem);
+    --site-transform-active: translateY(0.125rem);
+
+    /* Small/secondary text — Bootstrap's own small/.small hardcodes 0.875em
+       with no variable hook, so this token is the single source of truth
+       for every "small text" role (nav, footer, breadcrumbs, TOC, card
+       meta, captions) instead of independently-guessed numbers. Below
+       Bootstrap's own 0.875em default — a deliberately clearer step down
+       from body text, not just the built-in ratio. */
+    --site-small-font-size: 0.8rem;
+
+    /* Secondary/description text font — one indirection so "what font do
+       descriptions use" can change without touching every rule that uses
+       it. Defaults to the same family as --bs-font-monospace, but is its
+       own variable, not a second name for it. */
+    --site-font-secondary: var(--bs-font-monospace);
+
+    /* Bootstrap's own body rule reads this directly — setting line-height
+       on :root/html alone doesn't reach body, since body's own (Bootstrap)
+       line-height declaration always wins over an inherited value. */
+    --bs-body-line-height: 1.6;
+
+    /* Spacing token for .lf-grid (lf-components.css) — the only layout
+       primitive left; .lf-cluster/.lf-stack/.lf-flank were all converted
+       to real Bootstrap utilities/grid. */
+    --lf-space-m: 1rem;
+}
+
+/* Root type scale — every rem-based measurement site-wide (component
+   padding, .nav-link font-size, #logo height, spacing) resolves against
+   this. It has to be identical on both consumers, or identical rem values
+   in shared CSS still render at different physical sizes. */
+:root {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 1rem;
+    }
+}
+
+/* Sticky footer — body is a flex column spanning the full viewport height;
+   main grows to fill whatever space the page's actual content doesn't
+   need, pushing footer to the bottom of the viewport on short pages
+   instead of leaving it floating right under the content. */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: var(--bs-body-font-family);
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+body > main {
+    flex: 1 0 auto;
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+    outline: 0.125rem solid var(--bs-link-color);
+    outline-offset: 0.125rem;
+}
+
+code, kbd, pre, samp {
+    font-family: var(--bs-font-monospace);
+}
+
+/* Bootstrap's own <hr> defaults to `color: inherit; opacity: .25`, which
+   blends toward the current text color rather than using the site's real
+   border token — visibly darker/more saturated than every other border
+   on the page (navbar, cards), which all read from --bs-border-color.
+   Used widely as a plain divider (footer, people page, note/post
+   dividers, and most of govfresh's content-type layouts), so this is a
+   base-element fix, not a per-component one. */
+hr {
+    color: var(--bs-border-color);
+    opacity: 1;
+}
+
+/* Light mode (default) */
+
+:root, [data-bs-theme=light] {
+    --bs-primary: #0050d8;
+    --bs-primary-rgb: 0, 80, 216;
+    --bs-link-color: #0050d8;
+    --bs-link-color-rgb: 0, 80, 216;
+    --bs-link-hover-color: #0050d8;
+    --bs-link-hover-color-rgb: 0, 80, 216;
+    --bs-border-color: #e6e6e6;
+    --bs-secondary-color: rgb(86, 92, 101);
+}
+
+/* Dark mode */
+
+[data-bs-theme=dark] {
+    --bs-primary: #4a90e2;
+    --bs-primary-rgb: 74, 144, 226;
+    --bs-link-color: #4a90e2;
+    --bs-link-color-rgb: 74, 144, 226;
+    --bs-link-hover-color: #4a90e2;
+    --bs-link-hover-color-rgb: 74, 144, 226;
+    --bs-border-color: #444444;
+    --bs-secondary-color: #c6cace;
+}

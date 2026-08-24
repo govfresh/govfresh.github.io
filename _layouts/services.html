@@ -1,0 +1,21 @@
+---
+layout: services
+---
+{% include header.html %}
+{% include nav.html %}
+<main id="main-content">
+  {% include jumbotron.html %}
+  <div class="container py-4">
+    {% include card-grid.html items=site.data.services.services type="service" %}
+    <section class="subsection-divider" aria-labelledby="themes-heading">
+      <h2 id="themes-heading" class="h2">Themes</h2>
+      {% include card-grid.html items=site.data.services.themes type="theme" %}
+    </section>
+    <section class="subsection-divider" aria-labelledby="get-started-heading">
+      <h2 id="get-started-heading" class="h2">Get started</h2>
+      <p><a href="{{ site.baseurl }}{{ site.data.site.services_cta.button_link }}" class="btn">{{ site.data.site.services_cta.button_text }}</a></p>
+    </section>
+  </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

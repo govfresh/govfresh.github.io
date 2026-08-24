@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="{{ site.data.site.theme.light }}" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="{{ site.data.site.theme.dark }}" media="(prefers-color-scheme: dark)">
+
+<!-- Content Security Policy — directives sourced from _data/csp.json, not hardcoded here, so each site's real policy stays reviewable as data instead of a template edit. -->
+{% capture csp_content %}{% for directive in site.data.csp %}{% assign csp_name = directive[0] %}{% assign csp_values = directive[1] %}{{ csp_name }}{% if csp_values.size > 0 %} {{ csp_values | join: ' ' }}{% endif %}; {% endfor %}{% endcapture %}
+<meta http-equiv="Content-Security-Policy" content="{{ csp_content | strip }}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+<!-- Favicon -->
+{% include favicon.html %}
+
+<!-- Robots / pagination -->
+<meta name="robots" content="{% if page.noindex %}noindex, nofollow{% else %}index, follow{% endif %}">
+{% if page.prev_url %}
+<link rel="prev" href="{{ site.url }}{{ page.prev_url }}">
+{% endif %}
+{% if page.next_url %}
+<link rel="next" href="{{ site.url }}{{ page.next_url }}">
+{% endif %}
+
+<!-- CSS -->
+{% include style.html %}

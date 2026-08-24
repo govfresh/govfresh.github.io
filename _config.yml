@@ -1,20 +1,10 @@
 # Site Information
 title: GovFresh
 author: GovFresh
-tagline: "Design / Technology / Democracy"
 description: "Design / Technology / Democracy"
 url: https://govfresh.com
 timezone: America/Los_Angeles
-
-# Social Media
-social:
-  name: GovFresh
-  links:
-    - https://www.facebook.com/govfresh
-    - https://www.linkedin.com/company/govfresh
-    - https://github.com/govfresh
-
-linkedin: https://www.linkedin.com/company/govfresh
+logo: brand-mark.html
 
 # Build Settings
 markdown: kramdown

@@ -1,21 +1,21 @@
 {% for post in site.posts limit: 1 %}
-  <div class="wa-flank wa-gap-l mt-3">
-    <div>
+  <div class="row g-0 gap-4 mt-3">
+    <div class="col-12 col-md-auto">
       {% if post.title %}
         <h3 class="mb-4">
           <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
         </h3>
       {% endif %}
       {% if post.description %}
-        <p class="lead text-body-secondary">{{ post.description }}</p>
+        <p class="lead">{{ post.description }}</p>
       {% endif %}
       {% include author.html %}
       {% include date.html %}
       {% include updated.html %}
     </div>
-    <div>
+    <div class="col-12 col-md">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        <img class="mb-4 drop-shadow border" src="{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}" alt="{{ post.title }}">
+        <img class="mb-4 shadow-lg border" src="{{ site.baseurl }}/assets/img/posts/{{ post.img-og }}" alt="{{ post.title }}">
       </a>
     </div>
   </div>

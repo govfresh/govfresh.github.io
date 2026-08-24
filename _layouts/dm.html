@@ -4,18 +4,19 @@ layout: dm
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   <article>
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
     <div class="container">
-      <div class="wa-flank wa-gap-l wa-align-items-start">
-        <div>
+      <div class="row g-0 gap-4 align-items-start">
+        <div class="col-12 col-md-auto">
           {% assign i = 0 %}
           {% for item in page.name %}
             {% include image.html %}
-            <ul class="list-unstyled small">
+            <ul class="list-unstyled card-byline">
               <li>
                 {% if page.group %}
                   {{ page.name[i] }}
@@ -43,16 +44,16 @@ layout: dm
             {% assign i = i | plus: 1 %}
           {% endfor %}
         </div>
-        <div>
+        <div class="col-12 col-md">
           {% if content contains 'id="new"' %}
-            <wa-callout>
+            <div class="alert alert-light">
               <div class="new-dm">
-                <a href="#new" class="text-body small">
+                <a href="#new" class="text-body dm-jump-link">
                   Jump to new messages
                   <i class="fa-regular fa-circle-down"></i>
                 </a>
               </div>
-            </wa-callout>
+            </div>
           {% endif %}
           <div class="post post-dm">
             <div>{{ content }}</div>

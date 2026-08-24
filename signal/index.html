@@ -6,16 +6,16 @@ parent: signal
 redirect_from:
   - /signal
 ---
-<div class="wa-grid" style="--min-column-size: 300px">
+<div class="lf-grid" style="--min-column-size: 300px">
   {% for post in site.posts limit: 100 %}
-    <wa-card>
+    <div class="card"><div class="card-body">
       <h2 class="h5 mb-2">
         <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">{{ post.title }}</a>
       </h2>
       {% if post.description %}
-        <p class="small text-body-secondary mb-2">{{ post.description }}</p>
+        <p class="card-description text-body-secondary mb-2">{{ post.description }}</p>
       {% endif %}
-      <p class="small text-body-secondary mb-0">{{ post.date | date: site.date }}</p>
-    </wa-card>
+      <p class="post-meta text-body-secondary mb-0">{{ post.date | date: site.date }}</p>
+    </div></div>
   {% endfor %}
 </div>

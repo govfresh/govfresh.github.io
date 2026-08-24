@@ -1,34 +1,6 @@
 ---
-layout: orgs
+layout: event-org
+action_field: link
+action_label: Learn more
 ---
-
-{% include header.html %}
-{% include nav.html %}
-{% include breadcrumb.html %}
-<main id="main-content">
-  {% include jumbotron.html %}
-  <div class="container">
-    <div class="content-narrow">
-      <div class="post">
-        <div class="pb-4">{{ content }}
-          {% include video.html %}
-          {% if page.link %}
-            <p>
-              <wa-button href="{{ page.link }}" variant="brand" class="my-3">
-                Learn more
-              </wa-button>
-            </p>
-          {% endif %}
-        </div>
-      </div>
-      {% include topics.html %}
-    </div>
-  </div>
-</main>
-<aside>
-  <div class="container">
-    {% include previews.html show-only="true" %}
-  </div>
-</aside>
-{% include analytics.html %}
-{% include footer.html %}
+{{ content }}

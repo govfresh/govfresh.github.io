@@ -4,7 +4,7 @@
     "name": "{{ site.title }}",
     "description": "{{ site.description }}",
     "url": "{{ site.url }}",
-    "sameAs": [{% for link in site.social.links %}"{{ link }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+    "sameAs": [{% for pair in site.data.site.social %}"{{ pair[1] }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
     "publisher": {
         "@type": "Organization",
         "name": "{{ site.title }}",

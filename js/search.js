@@ -13,14 +13,14 @@
             var results = idx.search(term);
             var container = document.getElementById('search-child');
             if (results.length > 0) {
-                results.forEach(function(r) {
+                var parts = results.map(function(r) {
                     var doc = documents[parseInt(r.ref, 10)];
                     var body = doc.body.substring(0, 160) + (doc.body.length >= 160 ? '...' : '');
-                    container.innerHTML +=
-                        '<div><a href="' + doc.url + '"><h2 class="h4">' + doc.title + '</h2></a>' +
-                        '<p class="mb-0 small text-body-secondary">' + body + '</p>' +
-                        '<p class="mb-4 small text-body-secondary"><a href="' + doc.url + '">' + doc.url + '</a></p></div>';
+                    return '<div><a href="' + doc.url + '"><h2 class="h4">' + doc.title + '</h2></a>' +
+                        '<p class="mb-0 card-description">' + body + '</p>' +
+                        '<p class="mb-4 card-byline"><a href="' + doc.url + '">' + doc.url + '</a></p></div>';
                 });
+                container.innerHTML = parts.join('');
             } else {
                 container.innerHTML = "<p class='lunrsearchresult'>No results found.</p>";
             }

@@ -4,7 +4,8 @@ layout: topic
 
 {% include header.html %}
 {% include nav.html %}
-{% include breadcrumb.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   {% include jumbotron.html %}
   <div class="container">
@@ -15,33 +16,48 @@ layout: topic
         {% assign items = items_by_cat | concat: items_by_topic | reverse %}
         {% assign size = items | size %}
         {% if size > 0 %}
+          {% assign card_type = collection %}
           {% if collection == "posts" %}
-            {% assign card-include = "card-signal.html" %}
+            {% assign card_type = "signal" %}
             {% assign section-label = "Signal" %}
           {% elsif collection == "dm" %}
-            {% assign card-include = "card-dm.html" %}
             {% assign section-label = "Direct message" %}
           {% else %}
-            {% assign card-include = "card-" | append: collection | append: ".html" %}
             {% assign section-label = collection | capitalize %}
           {% endif %}
           <div class="preview {{ section-label | downcase }}">
             <h2>{{ section-label }}</h2>
             {% if collection == "briefs" or collection == "research" %}
-              <div class="wa-stack mt-4 mb-5 pb-4 border-bottom">
+              <div class="d-flex flex-column gap-3 mt-4 mb-5 pb-4 border-bottom">
+                {% for item in items %}
+                  {% if collection == "dm" %}{% include card-dm.html %}{% else %}{% include card.html type=card_type %}{% endif %}
+                {% endfor %}
+              </div>
             {% elsif collection == "papers" %}
-              <div class="wa-grid papers-grid mt-4 mb-5 pb-4 border-bottom">
+              <div class="row row-cols-1 row-cols-md-2 card-group card-group-divider">
+                {% for item in items %}
+                  <div class="col">{% if collection == "dm" %}{% include card-dm.html %}{% else %}{% include card.html type=card_type %}{% endif %}</div>
+                {% endfor %}
+              </div>
             {% elsif collection == "books" %}
-              <div class="wa-grid mt-4 mb-5 pb-4 border-bottom" style="--min-column-size: 220px">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 card-group card-group-divider">
+                {% for item in items %}
+                  <div class="col">{% if collection == "dm" %}{% include card-dm.html %}{% else %}{% include card.html type=card_type %}{% endif %}</div>
+                {% endfor %}
+              </div>
             {% elsif collection == "demos" %}
-              <div class="wa-grid demos-grid mt-4 mb-5 pb-4 border-bottom">
+              <div class="row row-cols-1 row-cols-md-3 card-group card-group-divider">
+                {% for item in items %}
+                  <div class="col">{% if collection == "dm" %}{% include card-dm.html %}{% else %}{% include card.html type=card_type %}{% endif %}</div>
+                {% endfor %}
+              </div>
             {% else %}
-              <div class="wa-grid mt-4 mb-5 pb-4 border-bottom" style="--min-column-size: 280px">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 card-group card-group-divider">
+                {% for item in items %}
+                  <div class="col">{% if collection == "dm" %}{% include card-dm.html %}{% else %}{% include card.html type=card_type %}{% endif %}</div>
+                {% endfor %}
+              </div>
             {% endif %}
-              {% for item in items %}
-                {% include {{ card-include }} %}
-              {% endfor %}
-            </div>
           </div>
         {% endif %}
       {% endfor %}
