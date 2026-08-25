@@ -233,7 +233,7 @@ defaults:
       type: "labs"
     values:
       folder: "Labs"
-      img-path: "posts"
+      img-path: "work"
       parent: "labs"
       layout: "work"
       short: "true"
