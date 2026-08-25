@@ -1,0 +1,8 @@
+---
+layout: null
+---
+User-agent: *
+{% for path in site.data.site.robots.disallow %}Disallow: {{ path }}
+{% endfor %}Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml

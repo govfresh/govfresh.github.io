@@ -235,7 +235,7 @@ defaults:
       folder: "Labs"
       img-path: "posts"
       parent: "labs"
-      layout: "labs"
+      layout: "work"
       short: "true"
       schematype: "WebPage"
       og-type: "website"

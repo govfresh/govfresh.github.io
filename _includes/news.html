@@ -1,0 +1,28 @@
+{% if page.news %}
+  {% for item in page.news %}
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="h4">
+            <a
+              href="{{ item.link }}"
+              class="card-link"
+              {% if item.link contains "http" %}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="{{ item.title }} (opens in new tab)"
+              {% endif %}>
+              {{ item.title }}
+              {% if item.link contains "http" %}
+                <i class="fa-solid fa-arrow-up-right-from-square fa-xs" aria-hidden="true"></i>
+              {% endif %}
+            </a>
+          </h3>
+        </div>
+        <div class="card-footer">
+          <p class="card-byline">{% if item.source %}{{ item.source }}{% elsif item.date %}{{ item.date | date: site.date }}{% endif %}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}

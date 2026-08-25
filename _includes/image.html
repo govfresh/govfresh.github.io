@@ -130,13 +130,14 @@
     </figure>
   {% endif %}
 
-{% elsif page.parent == "labs" or page.parent == "events" or page.parent == "orgs" %}
-  {% if page.img-feat %}
+{% elsif page.parent == "labs" or page.parent == "events" or page.parent == "orgs" or page.parent == "work" %}
+  {% assign feature_img = page.img-feat | default: page.img-og %}
+  {% if feature_img %}
     <figure class="image-figure">
       <img
-        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+        src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ feature_img }}"
         alt="{{ page.img-alt }}"
-        class="mb-2 border xxl"
+        class="mb-2 border xxl post-top-image"
         loading="{{ include.loading | default: 'lazy' }}"
         {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}

@@ -1,0 +1,56 @@
+---
+layout: work
+---
+{% include header.html %}
+{% include nav.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
+<main id="main-content">
+  {% capture body %}
+    {% if page.title %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+    {% if page.description %}
+      <p class="lead">{{ page.description }}</p>
+    {% endif %}
+    {% include image.html loading="eager" fetchpriority="high" %}
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <article class="post">
+        {{ content | markdownify }}
+      </article>
+    </section>
+    {% if page.website or page.github %}
+      <section class="subsection-divider" aria-labelledby="links-heading">
+        <h2 id="links-heading">Links</h2>
+        {% if page.website %}
+          {% assign is_wordpress = false %}
+          {% if page.website contains "wordpress.org" or page.website contains "wordpress.com" %}
+            {% assign is_wordpress = true %}
+          {% endif %}
+          <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm">
+            {% if is_wordpress %}
+              <i class="fa-brands fa-wordpress" aria-hidden="true"></i> WordPress.org
+            {% else %}
+              <i class="fa-solid fa-window-maximize" aria-hidden="true"></i> {{ page.title }} website
+            {% endif %}
+          </a>
+        {% endif %}
+        {% if page.github %}
+          <a href="{{ page.github }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+        {% endif %}
+      </section>
+    {% endif %}
+    {% if page.news %}
+      <section class="subsection-divider" aria-labelledby="news-heading">
+        <h2 id="news-heading">News</h2>
+        <div class="row row-cols-1 row-cols-sm-2 card-group">
+          {% include news.html %}
+        </div>
+      </section>
+    {% endif %}
+  {% endcapture %}
+  {% include toc-layout.html html=body %}
+</main>
+{% include analytics.html %}
+{% include footer.html %}
