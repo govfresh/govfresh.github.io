@@ -1,0 +1,22 @@
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "{{ page.title }}",
+    "description": "{{ page.description }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "applicationCategory": "WebApplication",
+    "operatingSystem": "WordPress",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    },
+    "downloadUrl": "{{ page.website }}",
+    "codeRepository": "{{ page.github }}",
+    "image": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-og }}",
+    "publisher": {
+        "@type": "Organization",
+        "name": "GovFresh",
+        "url": "https://www.govfresh.com"
+    }
+}
