@@ -1,16 +1,29 @@
+{% assign visible_links = "" | split: "" %}
+{% for link in include.links %}
+  {% assign link_href = site.baseurl | append: link.url %}
+  {% unless page.url == link_href or page.url == link.url %}
+    {% assign visible_links = visible_links | push: link %}
+  {% endunless %}
+{% endfor %}
+{% if visible_links.size > 0 %}
 <div id="cta-banner" class="cta-banner">
   <div class="container d-flex align-items-center justify-content-between">
-    <a
-      href="{{ include.href }}"
-      id="cta-banner-button"
-      aria-label="{{ include.aria_label }}"
-      tabindex="-1"
-      class="cta-banner-button btn btn-sm">
-      {{ include.text }}
-    </a>
+    <div class="d-flex flex-wrap gap-2">
+      {% for link in visible_links %}
+        <a
+          href="{{ site.baseurl }}{{ link.url }}"
+          aria-label="{{ link.text }}"
+          tabindex="-1"
+          class="cta-banner-button btn btn-sm">
+          {% if link.icon %}<i class="fa-solid {{ link.icon }}" aria-hidden="true"></i>{% endif %}
+          {{ link.text }}
+        </a>
+      {% endfor %}
+    </div>
     {% if include.sponsor_text %}
       <span class="cta-banner-sponsor d-none d-md-inline">Sponsor: <a href="{{ include.sponsor_link }}">{{ include.sponsor_text }}</a></span>
     {% endif %}
   </div>
 </div>
 <script src="{{ site.baseurl }}/assets/lf-ui/cta-banner.js" defer></script>
+{% endif %}

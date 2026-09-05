@@ -45,10 +45,7 @@ layout: latest
       <div id="feed-container" class="col-lg-8">
       {% for item in feed_items %}
         {% assign section_name = item.parent | default: item.collection | default: "signal" %}
-        {% unless forloop.first %}
-          <hr{% if forloop.index > per_page %} class="feed-hidden"{% endif %}>
-        {% endunless %}
-        <article class="feed-post py-3{% if forloop.index > per_page %} feed-hidden{% endif %}">
+        <article class="feed-post border rounded-3 p-3 mb-3{% if forloop.index > per_page %} feed-hidden{% endif %}">
 
           {% if section_name == "thoughts" %}{% assign badge_label = "Thought" %}
           {% elsif section_name == "podcast" %}{% assign badge_label = "Podcast" %}
@@ -59,56 +56,67 @@ layout: latest
           {% elsif section_name == "research" %}{% assign badge_label = "Research" %}
           {% elsif section_name == "labs" %}{% assign badge_label = "Lab" %}
           {% else %}{% assign badge_label = section_name | capitalize %}{% endif %}
-          <p class="mb-2"><span class="badge text-bg-light">{{ badge_label }}</span></p>
 
-          {% if section_name == "demos" and item.video %}
-            <div class="ratio ratio-16x9 mb-3 border">
-              <iframe
-                src="https://www.youtube.com/embed/{{ item.video }}?rel=0&modestbranding=1"
-                title="{{ item.video-title | default: item.title }}"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                loading="lazy">
-              </iframe>
+          {% assign is_video = false %}
+          {% if section_name == "demos" and item.video %}{% assign is_video = true %}{% endif %}
+          {% assign img_src = "" %}
+          {% if item.img-og %}
+            {% assign img_src = item.img-og %}
+          {% elsif item.img-feat %}
+            {% assign img_src = item.img-feat %}
+          {% endif %}
+          {% assign has_media = false %}
+          {% if is_video or img_src != "" %}{% assign has_media = true %}{% endif %}
+
+          <div class="row g-3">
+            {% if has_media %}
+              <div class="col-12 col-md-auto">
+                {% if is_video %}
+                  <div class="ratio ratio-16x9 feed-post-media border">
+                    <iframe
+                      src="https://www.youtube.com/embed/{{ item.video }}?rel=0&modestbranding=1"
+                      title="{{ item.video-title | default: item.title }}"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                      loading="lazy">
+                    </iframe>
+                  </div>
+                {% else %}
+                  <img
+                    src="{{ site.baseurl }}/assets/img/{{ item.img-path | default: 'posts' }}/{{ img_src }}"
+                    alt="{{ item.img-alt | default: item.title }}"
+                    class="feed-post-media border shadow-lg post-top-image"
+                    loading="lazy">
+                {% endif %}
+              </div>
+            {% endif %}
+            <div class="col-12 col-md">
+              <p class="mb-2"><span class="badge text-bg-light">{{ badge_label }}</span></p>
+
+              {% if item.audio %}
+                {% if item.collection == "podcast" %}
+                  {% assign audio_src = "https://media.githubusercontent.com/media/govfresh/podcast-archive/refs/heads/main/assets/audio/" | append: item.audio %}
+                {% else %}
+                  {% assign audio_src = site.baseurl | append: "/assets/audio/" | append: item.audio %}
+                {% endif %}
+                <audio class="feed-player mb-3" preload="metadata" src="{{ audio_src }}"></audio>
+              {% endif %}
+
+              {% if item.title %}
+                <h2 class="h4 mb-1">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
+                </h2>
+              {% endif %}
+
+              {% if item.description %}
+                <p class="card-description mb-2">{{ item.description }}</p>
+              {% endif %}
+
+              {% include author.html item=item %}
+              {% include date.html %}
             </div>
-          {% else %}
-            {% assign img_src = "" %}
-            {% if item.img-og %}
-              {% assign img_src = item.img-og %}
-            {% elsif item.img-feat %}
-              {% assign img_src = item.img-feat %}
-            {% endif %}
-            {% if img_src != "" %}
-              <img
-                src="{{ site.baseurl }}/assets/img/{{ item.img-path | default: 'posts' }}/{{ img_src }}"
-                alt="{{ item.img-alt | default: item.title }}"
-                class="w-100 mb-3 border shadow-lg post-top-image"
-                loading="lazy">
-            {% endif %}
-          {% endif %}
-
-          {% if item.audio %}
-            {% if item.collection == "podcast" %}
-              {% assign audio_src = "https://media.githubusercontent.com/media/govfresh/podcast-archive/refs/heads/main/assets/audio/" | append: item.audio %}
-            {% else %}
-              {% assign audio_src = site.baseurl | append: "/assets/audio/" | append: item.audio %}
-            {% endif %}
-            <audio class="feed-player mb-3" preload="metadata" src="{{ audio_src }}"></audio>
-          {% endif %}
-
-          {% if item.title %}
-            <h2 class="h4 mb-1">
-              <a href="{{ site.baseurl }}{{ item.url }}" class="card-link">{{ item.title }}</a>
-            </h2>
-          {% endif %}
-
-          {% if item.description %}
-            <p class="card-description mb-2">{{ item.description }}</p>
-          {% endif %}
-
-          {% include author.html item=item %}
-          {% include date.html %}
+          </div>
         </article>
       {% endfor %}
       </div>

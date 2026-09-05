@@ -1,8 +1,7 @@
 <footer>
   {% assign cta = site.data.site.cta_banner %}
-  {% if cta.button_link and page.url != cta.button_link %}
-    {% assign cta_href = site.baseurl | append: cta.button_link %}
-    {% include cta-banner.html href=cta_href aria_label=cta.button_text text=cta.button_text sponsor_text=cta.sponsor_text sponsor_link=cta.sponsor_link %}
+  {% if cta.links %}
+    {% include cta-banner.html links=cta.links sponsor_text=cta.sponsor_text sponsor_link=cta.sponsor_link %}
   {% endif %}
   {% assign feedback = site.data.site.feedback %}
   {% if feedback.link %}

@@ -13,8 +13,11 @@
     "link": "https://my.scangov.com/public/key6541-1749843847485/govfresh-com/report"
   },
   "cta_banner": {
-    "button_text": "Subscribe",
-    "button_link": "/subscribe/",
+    "links": [
+      { "text": "Subscribe", "url": "/subscribe/", "icon": "fa-envelope-open-text" },
+      { "text": "Join", "url": "/community/", "icon": "fa-circle-nodes" },
+      { "text": "Connect", "url": "/connect/", "icon": "fa-plug" }
+    ],
     "sponsor_text": "ScanGov",
     "sponsor_link": "https://scangov.com"
   },

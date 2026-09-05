@@ -1,5 +1,5 @@
 {% assign the_duration = post.duration | default: item.duration | default: page.duration %}
 {% if the_duration %}
   {% assign the_duration = the_duration | duration: site.duration %}
-  {% include icon-line.html icon="fa-regular fa-clock" label="Duration:" value=the_duration %}
+  {% include icon-line.html icon="fa-regular fa-clock" value=the_duration %}
 {% endif %}

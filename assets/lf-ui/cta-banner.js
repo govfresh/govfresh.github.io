@@ -3,20 +3,21 @@
 // height, hides it again once the footer is visible (or immediately, on
 // short pages where the footer is visible from the top).
 (function () {
-  var button = document.getElementById('cta-banner-button');
   var band = document.getElementById('cta-banner');
-  var fadeTarget = band || button;
+  var buttons = band ? band.querySelectorAll('.cta-banner-button') : [];
   var footer = document.querySelector('footer');
-  if (!button || !fadeTarget || !footer) return;
+  if (!band || !buttons.length || !footer) return;
 
   var footerVisible = false;
   var pageIsShort = false;
 
   function updateButton() {
     var visible = document.documentElement.scrollTop > window.innerHeight * 0.4 && !footerVisible && !pageIsShort;
-    fadeTarget.style.opacity = visible ? '1' : '0';
-    fadeTarget.style.pointerEvents = visible ? 'auto' : 'none';
-    button.setAttribute('tabindex', visible ? '0' : '-1');
+    band.style.opacity = visible ? '1' : '0';
+    band.style.pointerEvents = visible ? 'auto' : 'none';
+    buttons.forEach(function (btn) {
+      btn.setAttribute('tabindex', visible ? '0' : '-1');
+    });
   }
 
   var footerObserver = new IntersectionObserver(function (entries) {

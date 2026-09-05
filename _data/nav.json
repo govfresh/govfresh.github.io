@@ -4,7 +4,6 @@
     { "title": "Podcast", "url": "/podcast/", "icon": "fa-podcast" },
     { "title": "Community", "url": "/community/", "icon": "fa-circle-nodes" },
     { "title": "Services", "url": "/services/", "icon": "fa-wand-magic-sparkles" },
-    { "title": "Connect", "url": "/connect/", "icon": "fa-plug" },
     { "title": "Search", "url": "/search/", "icon": "fa-magnifying-glass", "icon-only": true }
   ]
 }

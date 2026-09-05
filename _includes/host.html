@@ -2,5 +2,5 @@
   {% assign host_person = site.people | where: "name", page.host | first %}
   {% assign host_href = "" %}
   {% if host_person %}{% assign host_href = site.baseurl | append: host_person.url %}{% endif %}
-  {% include icon-line.html icon="fa-solid fa-circle-user" label="Host:" value=page.host href=host_href link_class="author-link" %}
+  {% include icon-line.html icon="fa-solid fa-circle-user" value=page.host href=host_href link_class="author-link" %}
 {% endif %}

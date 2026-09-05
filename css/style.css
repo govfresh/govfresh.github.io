@@ -493,12 +493,12 @@ blockquote p, blockquote ul {
 }
 
 /* Horizontal cards — .brief-card/.research-card used to render this way via
-   <wa-card orientation="horizontal">; that layout now has to be supplied
-   directly since the underlying element is a plain .card. */
-.brief-card, .research-card {
-    display: flex;
-    flex-direction: row;
-}
+   <wa-card orientation="horizontal">; that layout now comes from real
+   Bootstrap .row/.col-auto/.col in card.html's own cfg.sub_wrapper branch
+   (was display:flex/flex-direction:row here, but that targeted the outer
+   card element, which only ever has one child — .card-body — so it was a
+   no-op; the image rendered stacked above the text exactly like a normal
+   vertical card despite this comment's original claim otherwise). */
 
 .home-include .border-bottom:last-child {
     border-bottom: none !important;
@@ -756,6 +756,21 @@ pre {
     border-radius: var(--bs-border-radius);
 }
 
+/* /latest/'s horizontal feed cards — fixed width at desktop (16:9 crop
+   comes from the .feed-post img rule above), full width once the row
+   stacks on mobile. Specificity note: needs to beat .feed-post img's
+   width:100% (a class+element selector), so this is scoped under
+   .feed-post rather than being a bare .feed-post-media class. */
+.feed-post .feed-post-media {
+    width: 240px;
+}
+
+@media (max-width: 767.98px) {
+    .feed-post .feed-post-media {
+        width: 100%;
+    }
+}
+
 /* Briefs horizontal card */
 .brief-card .card-img {
     width: 200px;
@@ -787,11 +802,6 @@ pre {
 
     .demo-video-wrapper {
         width: 100%;
-    }
-
-    .brief-card,
-    .research-card {
-        flex-direction: column;
     }
 
     .brief-card .card-img,

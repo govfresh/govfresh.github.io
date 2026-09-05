@@ -1,5 +1,5 @@
 {% assign the_date = post.date | default: item.date | default: page.date %}
 {% if the_date %}
   {% assign the_date = the_date | date: site.date %}
-  {% include icon-line.html icon="fa-regular fa-calendar" label="Posted:" value=the_date %}
+  {% include icon-line.html icon="fa-regular fa-calendar" value=the_date %}
 {% endif %}
