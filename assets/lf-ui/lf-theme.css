@@ -82,9 +82,14 @@
     --bs-font-monospace: "Roboto Mono", ui-monospace, monospace;
     --bs-body-font-family: var(--bs-font-sans-serif);
 
-    /* Shadows — same in light and dark, only border-color shifts by theme. */
-    --bs-box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,0.06), 0 0.125rem 0.5rem rgba(0,0,0,0.04);
-    --bs-box-shadow-lg: 0 0.25rem 0.75rem rgba(0,0,0,0.08), 0 0.125rem 0.25rem rgba(0,0,0,0.04);
+    /* Shadows — same in light and dark, only border-color shifts by theme.
+       Tighter blur radii than a typical soft/diffuse shadow (crisper edge,
+       reads more like a defined outline than a haze), alpha bumped up
+       slightly on each layer to compensate for the smaller blur otherwise
+       reading as too faint. */
+    --bs-box-shadow-sm: 0 0.0625rem 0.0625rem rgba(0,0,0,0.06);
+    --bs-box-shadow: 0 0.0625rem 0.125rem rgba(0,0,0,0.08), 0 0.0625rem 0.1875rem rgba(0,0,0,0.05);
+    --bs-box-shadow-lg: 0 0.125rem 0.25rem rgba(0,0,0,0.10), 0 0.0625rem 0.125rem rgba(0,0,0,0.06);
 
     /* Motion — no real Bootstrap equivalent for a named transition/transform
        token, so these stay --site-*. */

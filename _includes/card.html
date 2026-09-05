@@ -33,7 +33,8 @@
 {% if include.type == "demos" and level_suffix == "secondary" %}{% assign has_footer = true %}{% endif %}
 
 <div class="{{ wrapper_class }}">
-  <div class="card-body">
+  <div class="card-body{% if cfg.sub_wrapper %} row g-3{% endif %}">
+    {% if cfg.sub_wrapper %}<div class="col-12 col-md-auto">{% endif %}
     {% if cfg.is_person_card and item.img %}
       {% comment %} matches image.html's people branch: gates on item.img, renders item.img-feat — a pre-existing quirk, preserved as-is. {% endcomment %}
       <img
@@ -53,7 +54,7 @@
         alt="{{ item.title }}"
         class="{{ image_class }}">
     {% endif %}
-    {% if cfg.sub_wrapper %}<div>{% endif %}
+    {% if cfg.sub_wrapper %}</div><div class="col-12 col-md">{% endif %}
     {% if item.title %}
       {% if level_suffix == "secondary" %}
         <h3 class="{{ heading_class }}">

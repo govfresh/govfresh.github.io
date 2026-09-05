@@ -191,7 +191,6 @@ strong {
     padding: 0.5rem 1rem;
     background: var(--bs-body-bg);
     border-bottom: 0.0625rem solid var(--bs-border-color);
-    box-shadow: var(--bs-box-shadow);
     font-family: var(--bs-font-monospace);
     font-size: 0.95rem;
 }
@@ -254,7 +253,6 @@ strong {
     .navbar-collapse {
         background: var(--bs-body-bg);
         border: 0.0625rem solid var(--bs-border-color);
-        box-shadow: var(--bs-box-shadow);
         margin-top: 0.5rem;
         padding: 0.25rem 0;
     }
@@ -643,7 +641,10 @@ strong {
    the hover affordance. */
 .card:hover {
     --bs-card-border-color: color-mix(in srgb, var(--bs-border-color) 85%, black 15%);
-    box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,0.09), 0 0.125rem 0.5rem rgba(0,0,0,0.06);
+    /* Same tight blur radii as --bs-box-shadow (lf-theme.css), just darker
+       — hardcoded rather than the variable since this is specifically a
+       darker-than-resting hover state, not reusable elsewhere. */
+    box-shadow: 0 0.0625rem 0.125rem rgba(0,0,0,0.11), 0 0.0625rem 0.1875rem rgba(0,0,0,0.07);
 }
 
 /* Skip-to-content link — Bootstrap's own .visually-hidden-focusable

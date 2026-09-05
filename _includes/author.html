@@ -10,7 +10,7 @@
     {% assign author_data = site.people | where: "title", author | first %}
     {% if author_data.content.size > 1 %}
       {% assign author_href = site.baseurl | append: author_data.url %}
-      {% include icon-line.html icon="fa-solid fa-circle-user" label="By:" value=author_data.title href=author_href link_class="author-link" %}
+      {% include icon-line.html icon="fa-solid fa-circle-user" value=author_data.title href=author_href link_class="author-link" %}
     {% endif %}
   {% endfor %}
 {% endif %}

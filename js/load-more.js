@@ -10,12 +10,7 @@
     btn.addEventListener('click', function() {
         var next = shown + perPage;
         for (var i = shown; i < Math.min(next, posts.length); i++) {
-            var post = posts[i];
-            var prev = post.previousElementSibling;
-            if (prev && prev.tagName.toLowerCase() === 'wa-divider') {
-                prev.classList.remove('feed-hidden');
-            }
-            post.classList.remove('feed-hidden');
+            posts[i].classList.remove('feed-hidden');
         }
         shown = Math.min(next, posts.length);
         showingEl.textContent = shown;

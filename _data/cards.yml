@@ -44,7 +44,7 @@ events:
   meta:
     - { field: event-date, icon: "fa-regular fa-calendar", label: "Date:" }
     - { field: event-location, icon: "fa-solid fa-location-pin", label: "Location:" }
-    - { field: org, icon: "fa-regular fa-building", label: "Host:" }
+    - { field: org, icon: "fa-regular fa-building" }
 
 labs:
   image_field: img-feat
