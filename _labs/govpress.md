@@ -1,6 +1,6 @@
 ---
 title: "GovPress"
-description: "A WordPress theme for government."
+description: "A WordPress theme for government"
 img-feat: govpress-og.png
 img-og: govpress-og.png
 img-alt: "Icon of government building inside of a circle"

@@ -129,16 +129,16 @@
       {% endfor %}
     </div>
   {% elsif pull == "labs" %}
-    <div class="lf-grid card-list-grid mb-3">
+    <div class="row row-cols-1 row-cols-md-3 card-group mb-3">
       {% assign limit = site.labs-number | plus: 0 %}
       {% assign amount = 1 %}
       {% for item in site.labs %}
         {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and limit > amount and title != item.title %}
-          {% include card.html type="labs" level="secondary" %}
+          <div class="col">{% include card.html type="labs" level="secondary" %}</div>
           {% assign amount = amount | plus: 1 %}
         {% elsif page.short != "true" and title != "Government. Fresh." %}
           {% assign amount = amount | plus: 1 %}
-          {% include card.html type="labs" %}
+          <div class="col">{% include card.html type="labs" %}</div>
         {% endif %}
       {% endfor %}
     </div>
@@ -159,8 +159,9 @@
     </div>
   {% elsif pull == "podcast" %}
     {% if page.short != "true" and title != "Government. Fresh." %}
-      {% include subscribe-podcast.html %}
-      <hr class="mb-4 mt-2">
+      <div class="pb-4 mt-2 border-bottom">
+        {% include subscribe-podcast.html %}
+      </div>
     {% endif %}
     <div class="lf-grid card-list-grid mb-3">
       {% assign limit = site.podcast-number | plus: 0 %}

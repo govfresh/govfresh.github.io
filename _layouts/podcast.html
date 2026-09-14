@@ -15,17 +15,18 @@ layout: podcast
           {% include image.html loading="eager" %}
         </div>
         <div class="col-12 col-md">
-          {% include audio.html %}
-          {% if page.number %}
-            {% assign episode_value = "Episode " | append: page.number %}
-            <div class="mb-3">
-              {% include icon-line.html icon="fa-solid fa-microphone-lines" value=episode_value %}
-              {% include date.html %}
-              {% include host.html %}
-              {% include duration.html %}
-            </div>
-          {% endif %}
-          <hr class="mb-4 mt-1">
+          <div class="pb-4 mb-4 border-bottom">
+            {% include audio.html %}
+            {% if page.number %}
+              {% assign episode_value = "Episode " | append: page.number %}
+              <div class="mb-3">
+                {% include icon-line.html icon="fa-solid fa-microphone-lines" value=episode_value %}
+                {% include date.html %}
+                {% include host.html %}
+                {% include duration.html %}
+              </div>
+            {% endif %}
+          </div>
           <div class="post">
             <div>
               <h2>In this episode</h2>

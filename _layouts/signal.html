@@ -11,14 +11,10 @@ layout: signal
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
     {% capture body %}
-      {% include author.html %}
-      {% include date.html %}
-      {% include updated.html %}
-      {% include read-time.html %}
       <div class="post-signal">
         <div>
-          <div class="post-signal border-top pt-4 mt-4">
-            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+          <div class="post-signal pt-4 mt-4">
+            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" anchorClass="heading-hashtag" %}
           </div>
         </div>
       </div>

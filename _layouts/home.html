@@ -85,7 +85,7 @@ layout: home
       {% for post in featured_posts limit: 1 %}
         {% assign img_url = site.baseurl | append: "/assets/img/posts/" | append: post.img-og %}
 
-        <article class="feature-card pb-3">
+        <article class="feature-card pb-3 mb-4 border-bottom">
           <div class="feature-grid row row-cols-1 row-cols-md-2">
             <div class="col">
               <a href="{{ site.baseurl }}{{ post.url }}">
@@ -111,7 +111,6 @@ layout: home
             </div>
           </div>
         </article>
-        <hr class="mb-4">
       {% endfor %}
 
       {% comment %} Additional home content {% endcomment %}

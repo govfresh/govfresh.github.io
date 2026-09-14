@@ -1,0 +1,4 @@
+{
+  "github": { "icon": "fa-brands fa-github", "label": "GitHub" },
+  "search": { "icon": "fa-solid fa-magnifying-glass", "label": "Search" }
+}

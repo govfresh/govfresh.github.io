@@ -4,17 +4,20 @@
 
 /* Fonts */
 
+/* Public Sans — USWDS's open sans-serif (github.com/uswds/public-sans),
+   licensed SIL OFL 1.1; OFL.txt ships alongside the .woff2 files in
+   vendor/fonts/public-sans/ per the license's redistribution terms. */
 @font-face {
-    font-family: "Mona Sans";
-    src: url("/assets/fonts/mona-sans/MonaSans-Regular.woff2") format("woff2");
+    font-family: "Public Sans";
+    src: url("/assets/fonts/public-sans/PublicSans-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Mona Sans";
-    src: url("/assets/fonts/mona-sans/MonaSans-Bold.woff2") format("woff2");
+    font-family: "Public Sans";
+    src: url("/assets/fonts/public-sans/PublicSans-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -22,15 +25,15 @@
 
 /* Same file, registered again under its own family name with a full
    font-weight range (100 900). Headings use this family directly instead
-   of "Mona Sans" + font-weight: 700 — a numeric weight is only a request,
+   of "Public Sans" + font-weight: 700 — a numeric weight is only a request,
    and any more-specific rule downstream that resets font-weight (a card,
    an alert, a badge — any "box" component) silently falls back to the
    regular-weight file. A dedicated bold-only family can't do that: there's
    only one file registered under this name, so every weight request
    resolves to it regardless of what the cascade does to font-weight. */
 @font-face {
-    font-family: "Mona Sans Bold";
-    src: url("/assets/fonts/mona-sans/MonaSans-Bold.woff2") format("woff2");
+    font-family: "Public Sans Bold";
+    src: url("/assets/fonts/public-sans/PublicSans-Bold.woff2") format("woff2");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
@@ -60,7 +63,7 @@
     font-display: swap;
 }
 
-/* Dedicated single-weight family, same trick as "Mona Sans Bold" above —
+/* Dedicated single-weight family, same trick as "Public Sans Bold" above —
    .btn requests this by name instead of "Roboto Mono" + a numeric weight,
    so its weight survives even where something downstream resets
    font-weight. */
@@ -78,7 +81,7 @@
    naming decision. */
 
 :root {
-    --bs-font-sans-serif: "Mona Sans", system-ui, sans-serif;
+    --bs-font-sans-serif: "Public Sans", system-ui, sans-serif;
     --bs-font-monospace: "Roboto Mono", ui-monospace, monospace;
     --bs-body-font-family: var(--bs-font-sans-serif);
 
@@ -96,6 +99,37 @@
     --site-transition: 0.15s ease;
     --site-transform-hover: translateY(0.0625rem);
     --site-transform-active: translateY(0.125rem);
+
+    /* How far below the viewport top a `position: sticky` sidebar settles
+       once scrolled — one value so every sticky sidebar (the TOC on the
+       right, a cross-page nav on the left, any future one) stops at the
+       same offset instead of each guessing its own rem value. */
+    --site-sticky-offset: 1rem;
+
+    /* Code block palette — ported from scangov/components' code.css,
+       tokenized so the Rouge (Jekyll) and Prism (Eleventy) rule sets in
+       lf-components.css can both point at the same named colors despite
+       using completely different class names for the same token kinds.
+       Fixed dark background regardless of site theme — a code block that
+       flips light/dark with the page isn't what the source theme does,
+       same convention as e.g. GitHub's code blocks. */
+    --code-bg: #000000;
+    --code-bg-highlight-line: #22282a;
+    --code-comment: #99aa8a;
+    --code-error-bg: #1e0010;
+    --code-error: #ff6b9d;
+    --code-keyword: #93c763;
+    --code-literal: #ae81ff;
+    --code-name: #f1f2f3;
+    --code-operator: #e8e2b7;
+    --code-punctuation: #f1f2f3;
+    --code-generic-inserted: #678cb1;
+    --code-number: #ffcd22;
+    --code-string: #a1d3ff;
+    --code-string-affix: #ec7600;
+    --code-class-function: #678cb1;
+    --code-builtin: #93c763;
+    --code-type: #83d8e1;
 
     /* Small/secondary text — Bootstrap's own small/.small hardcodes 0.875em
        with no variable hook, so this token is the single source of truth

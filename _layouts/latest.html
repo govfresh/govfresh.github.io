@@ -6,13 +6,14 @@ layout: latest
 {% include nav.html %}
 <main id="main-content">
   <div class="container py-4">
-    {% if page.title %}
-      <h1>{{ page.title }}</h1>
-    {% endif %}
-    {% if page.description %}
-      <p class="lead">{{ page.description }}</p>
-    {% endif %}
-    <hr class="mb-4">
+    <div class="pb-4 mb-4 border-bottom">
+      {% if page.title %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
+      {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+      {% endif %}
+    </div>
     {% assign feed_items = "" | split: "" %}
     {% for item in site.thoughts %}
       {% assign feed_items = feed_items | push: item %}{% endfor %}

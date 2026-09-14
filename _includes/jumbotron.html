@@ -1,5 +1,5 @@
 {% if page.layout == "signal" %}
-  <div class="container hero-sm mb-2">
+  <div class="container hero-sm hero-divider mb-2">
     {% if page.title %}
       <h1>{{ page.title }}</h1>
     {% endif %}
@@ -7,6 +7,24 @@
       <p class="lead">{{ page.description }}</p>
     {% endif %}
     {% include image.html loading="eager" fetchpriority="high" %}
+    {% include author.html %}
+    {% include date.html %}
+    {% include updated.html %}
+    {% include read-time.html %}
+  </div>
+{% elsif page.layout == "article" %}
+  <div class="container hero-xs hero-divider">
+    {% if page.title %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+    {% if page.description %}
+      <p class="lead">{{ page.description }}</p>
+    {% endif %}
+    {% include image.html loading="eager" fetchpriority="high" %}
+    {% include author.html %}
+    {% include date.html %}
+    {% include updated.html %}
+    {% include read-time.html %}
   </div>
 {% elsif page.layout == "events" %}
   <div class="container hero-sm hero-divider mb-2">
@@ -90,7 +108,7 @@
   {% include date.html %}
   {% include duration.html %}
 {% elsif page.layout == "news" %}
-  <div class="container hero-xs">
+  <div class="container hero-xs hero-divider">
     {% if page.title %}
       <h1>{{ page.title }}</h1>
     {% endif %}
@@ -98,6 +116,10 @@
       <p class="lead">{{ page.description }}</p>
     {% endif %}
     {% include image.html loading="eager" fetchpriority="high" %}
+    {% include author.html %}
+    {% include date.html %}
+    {% include updated.html %}
+    {% include read-time.html %}
   </div>
 {% elsif page.layout == "book" %}
   <div class="container hero-sm hero-divider mb-2">
@@ -254,6 +276,15 @@
   </div>
 {% elsif page.layout == "connect" or page.layout == "services" %}
   <div class="container hero-lg">
+    {% if page.title %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+    {% if page.description %}
+      <p class="lead">{{ page.description }}</p>
+    {% endif %}
+  </div>
+{% elsif page.layout == "default" or page.layout == "page" or page.layout == "people" or page.layout == "not-found" %}
+  <div class="container hero-xs hero-divider">
     {% if page.title %}
       <h1>{{ page.title }}</h1>
     {% endif %}

@@ -7,12 +7,6 @@
     {% include read-time-bar.html %}
     {% include jumbotron.html %}
     {% capture body %}
-      {% include image.html loading="eager" fetchpriority="high" %}
-      {% include author.html %}
-      {% include date.html %}
-      {% include updated.html %}
-      {% include read-time.html %}
-      <hr class="mb-4 mt-3">
       {% if layout.include_download %}
         {% include download.html %}
       {% endif %}
@@ -21,7 +15,7 @@
       {% endif %}
       <div class="{{ layout.post_class | default: 'post' }}">
         <div>
-          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" anchorClass="heading-hashtag" %}
         </div>
       </div>
       {% include contributors.html %}

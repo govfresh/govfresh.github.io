@@ -1,10 +1,9 @@
 ---
 layout: cards
 title: Labs
-description: GovFresh experiments in data, design and civic hacking.
+description: GovFresh digital government experiments.
 img-og: labs-og.png
 img-alt: ""
 permalink: /labs/
 parent: labs
 ---
-

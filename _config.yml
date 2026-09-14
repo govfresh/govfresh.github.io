@@ -4,7 +4,6 @@ author: GovFresh
 description: "Design / Technology / Democracy"
 url: https://govfresh.com
 timezone: America/Los_Angeles
-logo: brand-mark.html
 
 # Build Settings
 markdown: kramdown
