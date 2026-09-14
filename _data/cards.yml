@@ -48,7 +48,7 @@ events:
 
 labs:
   image_field: img-feat
-  image_path: posts
+  image_path_dynamic: true
   image_class: "card-img xl border-bottom"
 
 orgs:

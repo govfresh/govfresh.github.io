@@ -4,7 +4,7 @@
     {% assign featured_url = featured_item.url %}
     {% for i in site.data.order.docs %}
       {% assign page = site.pages | where: "parent", i.name | first %}
-      <div class="preview {{ page.parent }} mt-2 mb-2 pt-2 pb-3">
+      <div class="preview {{ page.parent }} mt-2 mb-2 pt-2 pb-3 border-bottom">
         <h2>{{ page.title }}</h2>
         <p class="lead">{{ page.description }}</p>
         {% assign amount = 1 %}
@@ -59,7 +59,6 @@
           {% assign permalink = page.parent %}
         {% endif %}
         <a href="{{ site.baseurl }}{{ permalink }}" class="mb-3 btn btn-sm">{{ page.title }}</a>
-        <hr>
       </div>
     {% endfor %}
     {% include topics.html home=true %}

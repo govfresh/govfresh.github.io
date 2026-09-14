@@ -3,7 +3,9 @@
     { "title": "Latest", "url": "/latest/", "icon": "fa-tower-broadcast" },
     { "title": "Podcast", "url": "/podcast/", "icon": "fa-podcast" },
     { "title": "Community", "url": "/community/", "icon": "fa-circle-nodes" },
-    { "title": "Services", "url": "/services/", "icon": "fa-wand-magic-sparkles" },
-    { "title": "Search", "url": "/search/", "icon": "fa-magnifying-glass", "icon-only": true }
+    { "title": "Services", "url": "/services/", "icon": "fa-wand-magic-sparkles" }
+  ],
+  "icons": [
+    { "type": "search", "url": "/search/" }
   ]
 }

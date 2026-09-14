@@ -5,11 +5,24 @@
    to site-specific link classes) stay local to each consumer instead of
    being forced identical here. */
 
+/* Text selection — a sensible on-brand default (link-color highlight,
+   body-bg text) for any consumer that doesn't set its own. govfresh and
+   lukefretwell each already have their own deliberate brand-color
+   ::selection override in their local style.css (different purple/blue
+   hues, not something to force identical) — those load after this file,
+   so they still win on a consumer that has one; this is what a consumer
+   with no local override (gov-schema) gets instead of the browser's
+   unthemed default blue. */
+::selection {
+    background-color: var(--bs-link-color);
+    color: var(--bs-body-bg);
+}
+
 /* Headings — the vendored Bootstrap 5.3.2 build hardcodes font-weight:500
    with no CSS-variable hook (checked against the actual compiled CSS, not
    assumed), and sets no font-family for headings at all, so this can't be
    done via Bootstrap's own variables the way --bs-primary/--bs-border-color
-   can. "Mona Sans Bold" (not "Mona Sans" + font-weight: 700) is deliberate:
+   can. "Public Sans Bold" (not "Public Sans" + font-weight: 700) is deliberate:
    it's a dedicated bold-only font-family, so any more-specific rule
    downstream that resets font-weight (inside a card, alert, badge — any
    "box" component) still renders the bold glyphs, because there's only one
@@ -17,8 +30,14 @@
    ends up applying. No !important — this file loads after
    bootstrap.min.css, so plain source-order specificity is enough to win. */
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+/* .h1-.h6 too, not just the real tags — Bootstrap's own utility classes
+   exist so a non-heading element can look like a heading (a card title
+   that deliberately isn't a real <h*>, to stay out of a page's own
+   heading-scanning TOC/outline), and "look like" should include the
+   custom heading font, not just size/weight/line-height. */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Public Sans Bold", var(--bs-font-sans-serif);
     letter-spacing: -0.02em;
 }
 
@@ -37,7 +56,7 @@ h1 {
    of relying on the browser's implicit <strong> bold, which is just as
    vulnerable to a downstream font-weight reset. */
 strong {
-    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+    font-family: "Public Sans Bold", var(--bs-font-sans-serif);
 }
 
 /* No color override — Bootstrap's own h1-h6 rule reads color:
@@ -85,9 +104,13 @@ strong {
    but it also matches the share widget's own "Share via Email" link (which
    already has a real Font Awesome envelope icon inside it), producing two
    envelopes stacked next to each other. Scoped off here rather than
-   touching that rule's selector, since the prose use case is legitimate. */
+   touching that rule's selector, since the prose use case is legitimate.
+   !important is needed because this selector and govfresh's own
+   a[href^="mailto:"]:not(.icon-link)::after tie on specificity (two
+   class-level selectors each) — without it, whichever stylesheet loads
+   later wins the tie and silently defeats this override. */
 .share a[href^="mailto:"]::after {
-    content: none;
+    content: none !important;
 }
 
 .share-copy-btn {
@@ -105,7 +128,17 @@ strong {
    (nav, badges, footer). */
 
 .text-body-secondary {
-    font-family: var(--bs-font-monospace);
+    font-family: var(--site-font-secondary);
+}
+
+/* Secondary font alone, no color change — for identifiers, file paths,
+   and other monospace-styled text that isn't muted/secondary-colored
+   prose. Real <code>/<kbd>/<pre>/<samp> already get the monospace family
+   for free (lf-theme.css); this is for everything else — a <dd>, <a>,
+   <li>, <td> — that wants the same typeface without also picking up
+   .text-body-secondary's color change. */
+.font-secondary {
+    font-family: var(--site-font-secondary);
 }
 
 /* Read-time progress bar — read-time-bar.html/read-time-bar.js are
@@ -140,7 +173,7 @@ strong {
 
 .people-sidebar ul {
     margin-bottom: 0;
-    font-family: var(--bs-font-monospace);
+    font-family: var(--site-font-secondary);
 }
 
 .people-sidebar li {
@@ -169,6 +202,16 @@ strong {
     align-items: flex-start;
 }
 
+/* A flex item's default min-width is auto, not 0 — wide unbroken content
+   inside .col (a long <pre> line, e.g.) sets its intrinsic minimum width
+   above what's left over after .toc-sidebar, and Bootstrap's .row wraps
+   flex-wrap by default, so the sidebar drops below the content entirely
+   instead of the <pre> just scrolling within its own already-narrower
+   box (pre's own overflow:auto, elsewhere in this file). */
+.toc-layout > .col {
+    min-width: 0;
+}
+
 /* Fixed width, not sized to its own content — needs to hold the same
    width whether it's rendering toc.html's real output or standing in
    empty as a spacer (toc-layout.html's no-TOC branch), so .col reading
@@ -176,7 +219,15 @@ strong {
 .toc-sidebar {
     width: 240px;
     position: sticky;
-    top: 1rem;
+    top: var(--site-sticky-offset);
+}
+
+/* Generic sticky-sidebar primitive — same offset as .toc-sidebar (they
+   should always agree), but with no width/side opinion, for a sidebar
+   that isn't the "On this page" TOC (a cross-page nav list, e.g.). */
+.sticky-sidebar {
+    position: sticky;
+    top: var(--site-sticky-offset);
 }
 
 @media (max-width: 991.98px) {
@@ -191,12 +242,12 @@ strong {
     padding: 0.5rem 1rem;
     background: var(--bs-body-bg);
     border-bottom: 0.0625rem solid var(--bs-border-color);
-    font-family: var(--bs-font-monospace);
+    font-family: var(--site-font-secondary);
     font-size: 0.95rem;
 }
 
 .navbar-brand {
-    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+    font-family: "Public Sans Bold", var(--bs-font-sans-serif);
     font-size: 1.1rem;
     letter-spacing: -0.02em;
     color: var(--bs-body-color);
@@ -266,27 +317,36 @@ strong {
     }
 }
 
-/* Logo — inline <svg> (not <img>) so fill: currentColor lets it inherit
-   .navbar-brand's color, tracking light/dark mode and hover automatically
-   with no separate dark-mode filter/invert rule needed. Sized by height
-   (not max-width/max-height) so wordmark and icon+wordmark lockups of
-   differing aspect ratio still read at the same navbar prominence. Height
-   itself is a per-site choice (site.json's logo.height, read by each
-   site's own brand-mark.html) — two named tiers, not a one-off number
-   per site: some marks' visible glyphs fill their own viewBox close to
+/* Logo — a CSS mask, not an inline <svg> or <img>, so the mark inherits
+   .navbar-brand's currentColor and tracks light/dark mode and hover
+   automatically, using nothing but each site's plain, unedited .svg
+   export — no per-site conversion to inline markup, no fill="currentColor"
+   find-and-replace; drop a new logo.svg in and it works. --brand-mark-src
+   (the file) and aspect-ratio (the file's own intrinsic width/height) are
+   set inline per site from site.json's logo config; only the two height
+   tiers live here, since they're a real shared choice, not a per-site
+   number: some marks' visible glyphs fill their own viewBox close to
    edge-to-edge (short is enough), others have more internal padding
    baked into the viewBox relative to their ink and read smaller at the
    same height unless bumped up (tall). */
-#logo {
+.brand-mark {
+    display: inline-block;
+    vertical-align: middle;
     width: auto;
+    background-color: currentColor;
+    -webkit-mask-image: var(--brand-mark-src);
+    mask-image: var(--brand-mark-src);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    transition: background-color var(--site-transition);
 }
 
-.logo-height-short { height: 1.0rem; }
+.logo-height-short { height: 1.125rem; }
 .logo-height-tall { height: 1.5rem; }
-
-#logo, #logo * {
-    transition: fill var(--site-transition);
-}
 
 /* .drop-shadow removed — it was byte-for-byte identical to Bootstrap's
    own .shadow-lg utility (box-shadow: var(--bs-box-shadow-lg)), just
@@ -507,7 +567,7 @@ strong {
 
 .toc-link.active {
     color: var(--bs-link-color);
-    font-family: "Mona Sans Bold", var(--bs-font-sans-serif);
+    font-family: "Public Sans Bold", var(--bs-font-sans-serif);
 }
 
 /* So a clicked TOC link doesn't land its heading flush at the very top of
@@ -551,7 +611,7 @@ strong {
     color: var(--bs-body-bg);
     border: 0.0625rem solid var(--bs-border-color);
     box-shadow: var(--bs-box-shadow);
-    font-family: "Roboto Mono Regular", var(--bs-font-monospace);
+    font-family: "Roboto Mono Regular", var(--site-font-secondary);
     text-decoration: none;
     transition: transform var(--site-transition), box-shadow var(--site-transition), background var(--site-transition), color var(--site-transition);
 }
@@ -574,6 +634,26 @@ strong {
 
 .btn:active {
     transform: var(--site-transform-active);
+}
+
+/* Outline variants stay genuinely outlined — transparent background,
+   colored border/text from whichever variant Bootstrap's own
+   .btn-outline-* class already set via --bs-btn-color/-border-color —
+   instead of the bare .btn solid dark-pill treatment above. A page needs
+   a lighter-weight action next to a heavier one (e.g. "Download JSON"
+   beside a copy-to-clipboard field) and Bootstrap's outline vocabulary
+   already exists for exactly that; the higher-specificity attribute
+   selector here is what lets it win over the plain .btn rule. */
+.btn[class*="btn-outline-"] {
+    background: var(--bs-btn-bg, transparent);
+    color: var(--bs-btn-color);
+    border-color: var(--bs-btn-border-color);
+}
+
+.btn[class*="btn-outline-"]:hover {
+    background: var(--bs-btn-hover-bg);
+    color: var(--bs-btn-hover-color);
+    border-color: var(--bs-btn-hover-border-color);
 }
 
 /* CTA banner — fixed band shared by both consumers' subscribe/connect CTA.
@@ -606,7 +686,7 @@ strong {
 /* Visibility (hidden below md, inline at md+) comes from Bootstrap's own
    .d-none.d-md-inline on the markup — this only adds the font treatment. */
 .cta-banner-sponsor {
-    font-family: var(--bs-font-monospace);
+    font-family: var(--site-font-secondary);
     font-size: 0.875rem;
 }
 
@@ -638,8 +718,11 @@ strong {
 /* No lift/transform on any card, linked or not (a plain icon/caption
    theme card on /services previously still lifted, since only linked
    cards got the no-lift override) — just a subtle border/shadow darken as
-   the hover affordance. */
-.card:hover {
+   the hover affordance. Scoped to cards that actually go somewhere
+   (.stretched-link makes the whole card clickable) — a plain stat/info
+   card with no link of its own shouldn't visually react to a hover that
+   does nothing. */
+.card:has(.stretched-link):hover {
     --bs-card-border-color: color-mix(in srgb, var(--bs-border-color) 85%, black 15%);
     /* Same tight blur radii as --bs-box-shadow (lf-theme.css), just darker
        — hardcoded rather than the variable since this is specifically a
@@ -658,17 +741,31 @@ strong {
     z-index: 1000;
 }
 
-/* Heading anchor links — generated by anchor_headings.html. Hidden until
-   the heading is hovered, so the page doesn't show a permanent link icon
-   next to every heading. */
+/* Heading anchor links — generated by anchor_headings.html (Jekyll
+   consumers, via anchorClass="heading-hashtag") or an equivalent transform
+   (gov-schema, which has no Liquid to run that plugin, so it inlines the
+   icon SVG itself rather than relying on Font Awesome — gov-schema
+   doesn't load an icon font at all). A class, not an id — anchor_headings.html
+   also hardcodes id="heading-hashtag" on every anchor it generates, which
+   is harmless under Jekyll (never validated) but is a hard build error
+   under Eleventy's IdAttributePlugin (duplicate ids across a page); the
+   class is what both actually style off of. Hidden until the heading is
+   hovered, so the page doesn't show a permanent link icon next to every
+   heading. */
 
-h2 a#heading-hashtag, h3 a#heading-hashtag, h4 a#heading-hashtag {
+h2 a.heading-hashtag, h3 a.heading-hashtag, h4 a.heading-hashtag {
     color: var(--bs-body-color);
     display: none;
     text-decoration: none;
 }
 
-h2:hover a#heading-hashtag, h3:hover a#heading-hashtag, h4:hover a#heading-hashtag {
+.heading-hashtag svg {
+    width: 0.75em;
+    height: 0.6em;
+    vertical-align: middle;
+}
+
+h2:hover a.heading-hashtag, h3:hover a.heading-hashtag, h4:hover a.heading-hashtag {
     color: var(--bs-link-color);
     display: revert;
 }
@@ -685,6 +782,41 @@ h2:hover a#heading-hashtag, h3:hover a#heading-hashtag, h4:hover a#heading-hasht
 
 .icon-link:hover {
     color: var(--bs-link-color);
+}
+
+/* External link icon — auto-appended to any absolute http(s) link inside
+   prose content, so a reader knows before clicking that it leaves the
+   current page for another site. .icon-link/.card-link/.btn are excluded
+   because those already carry their own explicit affordance (an icon
+   glyph, a stretched-link card, a button); .pdf is excluded so a
+   consumer's own file-type icon for PDFs (if it has one) isn't fought
+   over by two ::after rules on the same element. This can't know a given
+   consumer's own domain, so an absolute link back to the site's own host
+   (e.g. in prose that happens to spell it out in full) would still match
+   here — a consumer with that pattern in its content needs a small local
+   `content: none !important` override keyed to its own domain (see
+   govfresh's style.css for the pattern).
+   mask-image (not a plain <img>/background-image) is what lets a single-
+   color SVG tint via background-color instead of needing a pre-colored
+   asset per theme. Promoted here after two consumers independently built
+   the same feature two different ways (one via this mask-image technique,
+   one via a Font Awesome ligature) — one shared implementation instead of
+   two drifted ones. Icon source: assets/img/icons/arrow-up-right-from-
+   square.svg — each consumer vendors this one file (Font Awesome's free
+   glyph, MIT-licensed, extracted as a static SVG so no icon font is
+   required for it to work here). */
+.post a[href^="http"]:not(.icon-link):not(.card-link):not(.btn):not([href$=".pdf"])::after {
+    content: "";
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    background-color: var(--bs-body-color);
+    margin-left: 0.3rem;
+    vertical-align: middle;
+    mask-image: url(/assets/img/icons/arrow-up-right-from-square.svg);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
 }
 
 /* Body-color links — always body color regardless of theme, underline on
@@ -741,12 +873,18 @@ h2:hover a#heading-hashtag, h3:hover a#heading-hashtag, h4:hover a#heading-hasht
     border: none;
     border-radius: var(--bs-border-radius);
     box-shadow: none;
-    /* Explicit regular family, not font-weight: normal — a numeric reset
-       doesn't help if an ancestor's family is "Mona Sans Bold" (that family
-       renders bold glyphs regardless of requested weight, same reasoning as
-       the h1-h6 rule above). Forcing the regular family is what actually
-       guarantees non-bold text here. */
+    /* Explicit regular family, not just font-weight: normal on its own —
+       a numeric reset doesn't help if an ancestor's family is "Public Sans
+       Bold" (that family renders bold glyphs regardless of requested
+       weight, same reasoning as the h1-h6 rule above). But unlike that
+       bold-only family, "Public Sans" itself has real 400 and 700 faces
+       registered (see lf-theme.css), so Bootstrap's own .badge
+       font-weight: 700 still resolves to genuine bold glyphs within this
+       family — the font-family override alone does not neutralize it.
+       font-weight: 400 is needed too: a status badge is a label, not
+       emphasis. */
     font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
 }
 
 a:has(> .badge) {
@@ -754,9 +892,22 @@ a:has(> .badge) {
     color: inherit;
 }
 
-/* Breadcrumb — body-color default, link-color on hover, no underline
-   (matches .icon-link's treatment, not .nav-link's — see above) instead
-   of Bootstrap's own link-colored default. */
+/* Eyebrow/caption label — a small heading-like tag above a page or section
+   title ("sections", "schemas", "term set"). Sentence case, not
+   text-transform: uppercase — full caps reads as shouting and is one more
+   thing a non-technical reader has to parse as "not really a word". Replaces
+   the old bare `text-uppercase small fw-semibold text-body-secondary`
+   utility-class combo so the no-caps rule lives in one place instead of
+   depending on every consumer remembering to drop `text-uppercase`. */
+.lf-eyebrow {
+    font-size: .875rem;
+    font-weight: 600;
+    color: var(--bs-secondary-color, var(--bs-body-color));
+}
+
+/* Breadcrumb — a real, clickable link (link-color, underlined) like any
+   other link on the page, not a subdued one-off treatment; a reader should
+   be able to tell it's clickable without hovering first. */
 
 /* Wraps breadcrumb.html's markup — real Bootstrap .container plus this
    theme's own top padding, replacing the inline pt-2 utility so the value
@@ -768,24 +919,31 @@ a:has(> .badge) {
 
 /* Bootstrap's own .breadcrumb already sets display:flex, flex-wrap:wrap,
    list-style:none, and defaults its padding to 0 via
-   --bs-breadcrumb-padding-x/-y — only margin-bottom (Bootstrap's default
-   is 1rem) needs overriding, via Bootstrap's own variable instead of a
-   flat property so the rest of the component's variable-driven behavior
-   stays intact. */
+   --bs-breadcrumb-padding-x/-y — margin-bottom (Bootstrap's default is
+   1rem) is set to a smaller value via Bootstrap's own variable instead of
+   a flat property so the rest of the component's variable-driven behavior
+   stays intact. A breadcrumb sitting flush against the heading right
+   below it reads as unfinished, but Bootstrap's own 1rem is more gap than
+   the two need. */
 .breadcrumb {
-    --bs-breadcrumb-margin-bottom: 0;
+    --bs-breadcrumb-margin-bottom: 0.75rem;
+}
+
+/* font-family/size lives on the item itself, not just the link inside it —
+   put only on .breadcrumb-item a, a linked item's own font-size (inherited
+   from the page's body text) differs from .active's, so the two <li>s
+   establish different line-box heights and the shorter/smaller one's text
+   renders visibly lower than its sibling. Setting it here instead sizes
+   every item's line box identically regardless of whether it holds a link
+   or the plain active text. */
+.breadcrumb-item {
+    font-family: var(--site-font-secondary);
+    font-size: var(--site-small-font-size);
 }
 
 .breadcrumb-item a,
 .breadcrumb-item a:visited {
     display: inline-block;
-    color: var(--bs-body-color);
-    text-decoration: none;
-    font-family: var(--bs-font-monospace);
-    font-size: var(--site-small-font-size);
-}
-
-.breadcrumb-item a:hover {
     color: var(--bs-link-color);
 }
 
@@ -836,7 +994,7 @@ a:has(> .badge) {
    has to go through lf-ui, so both consumers move together. */
 
 footer {
-    font-family: var(--bs-font-monospace);
+    font-family: var(--site-font-secondary);
 }
 
 /* CTA text inside an .alert.alert-light (footer.html's feedback link,
@@ -848,7 +1006,7 @@ footer {
 }
 
 .alert .cta-text {
-    font-family: var(--bs-font-monospace);
+    font-family: var(--site-font-secondary);
 }
 
 .footer-bar {
@@ -934,4 +1092,155 @@ img.md { max-width: 15rem; }
 img.lg { max-width: 18.75rem; }
 img.xl { max-width: 20rem; }
 img.xxl { max-width: 50rem; }
+
+/* Data tables — ported from scangov/components/public/css/scangov.css.
+   Bootstrap's own .table only draws horizontal rules between rows; this
+   adds a full border on every cell plus a row-hover highlight, for
+   tables that are actually being read/scanned as reference data rather
+   than skimmed. Excludes .table-sm — a consumer that wants a dense,
+   minimal table (e.g. an admin/dashboard view) opts out with that
+   modifier, the same way scangov's own admin tables do. */
+.table:not(.table-sm) > :not(caption) > * {
+    border-width: var(--bs-border-width) 0;
+}
+
+.table:not(.table-sm) > :not(caption) > * > * {
+    border-width: 0 var(--bs-border-width);
+}
+
+.table:not(.table-sm) > tbody > tr:hover > * {
+    --bs-table-color-state: var(--bs-table-hover-color);
+    --bs-table-bg-state: var(--bs-table-hover-bg);
+}
+
+.table:not(.table-sm) {
+    font-size: 0.95rem;
+}
+
+/* Header row reads as a label for the data below it, not more content of
+   the same weight — same secondary-color role .text-body-secondary/
+   breadcrumbs/footer already use, not a new one-off gray. */
+.table th {
+    color: var(--bs-secondary-color);
+    font-family: var(--site-font-secondary);
+}
+
+/* Code blocks — ported from scangov/components/public/css/code.css.
+   Two rule sets, one shared palette (--code-* tokens, lf-theme.css):
+   Rouge/Pygments classes for the Jekyll consumers (kramdown's fenced code
+   blocks tokenize this way) and Prism.js classes for gov-schema (Eleventy
+   + @11ty/eleventy-plugin-syntaxhighlight). Different tokenizers, same
+   token *meanings* — each selector below maps to whichever --code-*
+   variable is the closest conceptual match, so both ecosystems read as
+   the same design even though neither shares a class name with the
+   other. font-family is --bs-font-monospace directly, not
+   --site-font-secondary — code should stay genuinely monospace even if
+   the site's secondary/UI font is ever changed to something else (same
+   reasoning as the code/kbd/pre/samp rule in lf-theme.css). */
+
+.highlight pre,
+pre.highlight,
+pre[class*="language-"],
+pre:has(code[class*="language-"]) {
+    background-color: var(--code-bg);
+    color: var(--code-name);
+    border-radius: var(--bs-border-radius);
+    font-family: var(--bs-font-monospace);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+/* Rouge/Pygments (govfresh, lukefretwell) */
+
+.highlight .hll { background-color: var(--code-bg-highlight-line); }
+.highlight .c { color: var(--code-comment); }
+.highlight .err { background-color: var(--code-error-bg); color: var(--code-error); }
+.highlight .k { color: var(--code-keyword); }
+.highlight .l { color: var(--code-literal); }
+.highlight .n { color: var(--code-name); }
+.highlight .o { color: var(--code-operator); }
+.highlight .p { color: var(--code-punctuation); }
+.highlight .c1, .highlight .ch, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .cs { color: var(--code-comment); }
+.highlight .gd { color: var(--code-operator); }
+.highlight .ge { font-style: italic; }
+.highlight .gi { color: var(--code-generic-inserted); }
+.highlight .gs { font-weight: 700; }
+.highlight .gu { color: var(--code-comment); }
+.highlight .kc, .highlight .kd { color: var(--code-keyword); }
+.highlight .kn { color: var(--code-operator); }
+.highlight .kp, .highlight .kr { color: var(--code-keyword); }
+.highlight .kt { color: var(--code-type); }
+.highlight .ld { color: var(--code-string-affix); }
+.highlight .m { color: var(--code-number); }
+.highlight .s { color: var(--code-string); }
+.highlight .na { color: var(--code-class-function); }
+.highlight .nb { color: var(--code-name); }
+.highlight .nc { color: var(--code-class-function); }
+.highlight .no { color: var(--code-keyword); }
+.highlight .nd { color: var(--code-class-function); }
+.highlight .ni { color: var(--code-name); }
+.highlight .ne, .highlight .nf { color: var(--code-class-function); }
+.highlight .nl, .highlight .nn { color: var(--code-name); }
+.highlight .nx { color: var(--code-class-function); }
+.highlight .py { color: var(--code-name); }
+.highlight .nt { color: var(--code-operator); }
+.highlight .nv { color: var(--code-name); }
+.highlight .ow { color: var(--code-operator); }
+.highlight .w { color: var(--code-name); }
+.highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo { color: var(--code-number); }
+.highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd { color: var(--code-string-affix); }
+.highlight .se { color: var(--code-literal); }
+.highlight .s1, .highlight .sh, .highlight .si, .highlight .sr, .highlight .ss, .highlight .sx { color: var(--code-string-affix); }
+.highlight .bp, .highlight .vc, .highlight .vg, .highlight .vi { color: var(--code-name); }
+.highlight .il { color: var(--code-number); }
+
+/* Prism.js (gov-schema) — class-name groupings taken from
+   @11ty/eleventy-plugin-syntaxhighlight's own demo/prism-theme.css, not
+   guessed, so every token Prism actually emits is covered. */
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata { color: var(--code-comment); }
+.token.punctuation { color: var(--code-punctuation); }
+.token.property, .token.tag, .token.constant, .token.symbol, .token.deleted { color: var(--code-class-function); }
+.token.boolean, .token.number { color: var(--code-number); }
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted { color: var(--code-string); }
+.token.operator, .token.entity, .token.url, .token.variable { color: var(--code-operator); }
+.token.atrule, .token.attr-value, .token.function { color: var(--code-class-function); }
+.token.keyword { color: var(--code-keyword); }
+.token.regex, .token.important { color: var(--code-string-affix); }
+.token.class-name { color: var(--code-type); }
+.token.important, .token.bold { font-weight: 700; }
+.token.italic { font-style: italic; }
+
+/* Prism's max-height/overflow behavior (was gov-schema-local, moved here
+   so it isn't split across two files from the same component). */
+pre[class*="language-"], pre {
+    max-height: 32rem;
+    overflow: auto;
+}
+
+/* A link to #<accordion-item-id> should actually reveal that item, not
+   just scroll a collapsed, still-empty-looking panel into view — Bootstrap
+   only opens a .collapse via its own JS/`.show` class, so :target is the
+   one pure-CSS hook available for "arrived via link" state. */
+.accordion-collapse:target {
+    display: block;
+}
+
+/* Copy-to-clipboard field (js/copy-field.js) — an identifier's own natural
+   length, not the full container width; a schema ID or IRI is a value to
+   copy, not prose to read at paragraph width. */
+.copy-field {
+    max-width: 34rem;
+}
+
+/* A schema field table's Type column (gov-schema's profile pages) can hold
+   a long pipe-separated enum with no code list to move it to (a schema.org
+   @type choice list, say) — Bootstrap's table default keeps <code> on one
+   line and stretches the column to fit, which for a 10-value enum forces
+   the whole row absurdly wide. Wrap it like ordinary text instead. */
+.gs-field-table code {
+    font-size: 0.8125rem;
+    white-space: normal;
+    word-break: break-word;
+}
 

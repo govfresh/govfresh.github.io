@@ -1,6 +1,9 @@
 {
   "logo": {
-    "height": "tall"
+    "file": "/assets/img/brand/logo.svg",
+    "width": 1947,
+    "height": 491,
+    "size": "tall"
   },
   "search": "lunr",
   "feedback": {
