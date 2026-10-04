@@ -463,6 +463,19 @@ strong {
     margin-bottom: 1.5rem;
 }
 
+/* Photo credit + high-resolution download link (image-credit.html), set
+   under an image. Same type treatment as .img-caption; a little more room
+   above than a caption gets so it doesn't crowd the photo. */
+.img-credit {
+    font-size: var(--site-small-font-size);
+    font-family: var(--site-font-secondary);
+    color: var(--bs-secondary-color);
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.img-credit p { margin-bottom: 0; }
+
 /* Card body text — a card's description paragraph, or a secondary byline/
    meta line (byline, episode number, date-only line). Only .card-byline
    gets a baked-in margin — every usage is mb-0, but .card-description's

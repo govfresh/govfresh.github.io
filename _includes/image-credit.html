@@ -1,0 +1,22 @@
+{% comment %}
+  Photo credit and high-resolution download link, shown under an image.
+  Driven by front matter, so nothing renders unless a page sets one:
+    img-credit / img-credit-url  "Photo by: <name>", linked when a URL is set
+    img-download                 path under /assets/img/ to the full-size file
+  Included at the end of image.html; layouts that draw their own <img>
+  (e.g. lukefretwell's about) include it directly.
+{% endcomment %}
+{% if page.img-credit or page.img-download %}
+  <div class="img-credit">
+    {% if page.img-credit %}
+      <p>Photo by:
+        {% if page.img-credit-url %}<a href="{{ page.img-credit-url }}" class="body-link">{{ page.img-credit }}</a>{% else %}{{ page.img-credit }}{% endif %}
+      </p>
+    {% endif %}
+    {% if page.img-download %}
+      <p>
+        <a href="{{ site.baseurl }}/assets/img/{{ page.img-download }}">Download high-resolution image <i class="fa-solid fa-download" aria-hidden="true"></i></a>
+      </p>
+    {% endif %}
+  </div>
+{% endif %}
