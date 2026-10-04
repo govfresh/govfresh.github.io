@@ -463,6 +463,14 @@ strong {
     margin-bottom: 1.5rem;
 }
 
+/* Rule under an image block (image.html: image, caption, credit, download
+   link). Same line as .hero-divider, as its own element because the image
+   sits inside a container that doesn't carry the border. */
+.image-divider {
+    border-bottom: 0.0625rem solid var(--bs-border-color);
+    margin-bottom: 1.5rem;
+}
+
 /* Photo credit + high-resolution download link (image-credit.html), set
    under an image. Same type treatment as .img-caption, with tighter line
    spacing so the two lines read as one block, and more room above than a
@@ -472,11 +480,13 @@ strong {
     font-family: var(--site-font-secondary);
     color: var(--bs-secondary-color);
     text-align: left;
-    line-height: 1.3;
+    line-height: 1.45;
     margin-top: 0.875rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 .img-credit p { margin-bottom: 0; }
+.img-credit a { text-decoration: underline; }
+.img-credit a:hover { text-decoration: none; }
 
 /* Card body text — a card's description paragraph, or a secondary byline/
    meta line (byline, episode number, date-only line). Only .card-byline

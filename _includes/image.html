@@ -4,7 +4,7 @@
   Each consumer only has content for a subset of these branches — the
   rest are simply never matched, which is fine.
 {% endcomment %}
-
+{% capture image_markup %}
 {% if page.parent == "books" %}
   {% if page.img-book %}
     <figure class="image-figure">
@@ -298,4 +298,11 @@
   {% endif %}
 
 {% endif %}
+{% endcapture %}
+{% if image_markup contains "<img" %}
+{{ image_markup }}
 {% include image-credit.html %}
+<div class="image-divider"></div>
+{% else %}
+{% include image-credit.html %}
+{% endif %}
