@@ -480,12 +480,13 @@ strong {
     font-family: var(--site-font-secondary);
     color: var(--bs-secondary-color);
     text-align: left;
-    line-height: 1.45;
+    line-height: 1.5rem;
     margin-top: 0.875rem;
     margin-bottom: 1rem;
 }
 .img-credit p { margin-bottom: 0; }
-.img-credit a { text-decoration: underline; }
+/* 24px-tall rows: each link is a 24px touch target (WCAG 2.5.8). */
+.img-credit a { display: inline-block; text-decoration: underline; }
 .img-credit a:hover { text-decoration: none; }
 
 /* Card body text — a card's description paragraph, or a secondary byline/
