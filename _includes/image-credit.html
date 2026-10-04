@@ -8,15 +8,14 @@
 {% endcomment %}
 {% if page.img-credit or page.img-download %}
   <div class="img-credit">
-    {% if page.img-credit %}
-      <p>Photo by:
+    <p>
+      {% if page.img-credit %}Photo by:
         {% if page.img-credit-url %}<a href="{{ page.img-credit-url }}" class="body-link">{{ page.img-credit }}</a>{% else %}{{ page.img-credit }}{% endif %}
-      </p>
-    {% endif %}
-    {% if page.img-download %}
-      <p>
+      {% endif %}
+      {% if page.img-credit and page.img-download %}<br>{% endif %}
+      {% if page.img-download %}
         <a href="{{ site.baseurl }}/assets/img/{{ page.img-download }}" class="body-link">Download high-resolution image <i class="fa-solid fa-download" aria-hidden="true"></i></a>
-      </p>
-    {% endif %}
+      {% endif %}
+    </p>
   </div>
 {% endif %}
