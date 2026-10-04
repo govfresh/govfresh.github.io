@@ -138,6 +138,7 @@
         src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ feature_img }}"
         alt="{{ page.img-alt }}"
         class="mb-2 border xxl post-top-image"
+        {% if page.img-width and page.img-height %}width="{{ page.img-width }}" height="{{ page.img-height }}"{% endif %}
         loading="{{ include.loading | default: 'lazy' }}"
         {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}>
       {% if page.img-caption %}
