@@ -3,10 +3,17 @@
     <a class="navbar-brand" href="{{ site.baseurl }}/" aria-label="{{ site.title }}">
       {% if site.data.site.logo.file %}
         <span
-          class="brand-mark logo-height-{{ site.data.site.logo.size | default: 'short' }}"
+          class="brand-mark logo-height-{{ site.data.site.logo.size | default: 'short' }}{% if site.data.site.logo.mobile_file %} brand-mark-full{% endif %}"
           aria-hidden="true"
           style="--brand-mark-src: url('{{ site.baseurl }}{{ site.data.site.logo.file }}'); aspect-ratio: {{ site.data.site.logo.width }} / {{ site.data.site.logo.height }};">
         </span>
+        {% if site.data.site.logo.mobile_file %}
+        <span
+          class="brand-mark brand-mark-icon"
+          aria-hidden="true"
+          style="--brand-mark-src: url('{{ site.baseurl }}{{ site.data.site.logo.mobile_file }}'); aspect-ratio: 1 / 1;">
+        </span>
+        {% endif %}
       {% else %}
         {{ site.title }}
       {% endif %}
