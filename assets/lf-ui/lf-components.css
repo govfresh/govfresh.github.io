@@ -305,7 +305,14 @@ strong {
 }
 
 @media (max-width: 768px) {
+    /* min-height alone leaves the label stuck to the top of the taller box
+       (more space below than above); flex-centering splits it evenly. gap
+       replaces the inline whitespace between an icon and its label. */
     .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.35em;
         font-size: 0.85rem;
         min-height: 2.25rem;
         padding: 0.25rem 0.75rem;
@@ -338,6 +345,16 @@ strong {
     -webkit-mask-size: contain;
     mask-size: contain;
     transition: background-color var(--site-transition);
+}
+
+/* Optional small-screen mark (site.data.site.logo.mobile_file in nav.html):
+   a square icon swaps in for the wordmark at phone widths. The icon's ink
+   sits inside its viewBox with some padding, so the box is taller than the
+   wordmark's and nudged left to keep its ink on the page's left edge. */
+.brand-mark-icon { display: none; height: 2rem; margin-left: -0.25rem; }
+@media (max-width: 768px) {
+    .brand-mark-full { display: none; }
+    .brand-mark-icon { display: inline-block; }
 }
 
 .logo-height-short { height: 1.2rem; }
