@@ -340,8 +340,8 @@ strong {
     transition: background-color var(--site-transition);
 }
 
-.logo-height-short { height: 1.125rem; }
-.logo-height-tall { height: 1.5rem; }
+.logo-height-short { height: 1.2rem; }
+.logo-height-tall { height: 1.6rem; }
 
 /* .drop-shadow removed — it was byte-for-byte identical to Bootstrap's
    own .shadow-lg utility (box-shadow: var(--bs-box-shadow-lg)), just
