@@ -5,17 +5,12 @@
    to site-specific link classes) stay local to each consumer instead of
    being forced identical here. */
 
-/* Text selection — a sensible on-brand default (link-color highlight,
-   body-bg text) for any consumer that doesn't set its own. govfresh and
-   lukefretwell each already have their own deliberate brand-color
-   ::selection override in their local style.css (different purple/blue
-   hues, not something to force identical) — those load after this file,
-   so they still win on a consumer that has one; this is what a consumer
-   with no local override (schemaGov) gets instead of the browser's
-   unthemed default blue. */
+/* Text selection — a 20% tint of the link color behind the
+   text, which keeps its own color so it stays readable in light and dark
+   mode. A consumer can still override this in its local style.css, which
+   loads after this file. */
 ::selection {
-    background-color: var(--bs-link-color);
-    color: var(--bs-body-bg);
+    background-color: rgba(var(--bs-link-color-rgb), 0.2);
 }
 
 /* Headings — the vendored Bootstrap 5.3.2 build hardcodes font-weight:500
