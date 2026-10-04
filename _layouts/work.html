@@ -3,7 +3,7 @@ layout: work
 ---
 {% include header.html %}
 {% include nav.html %}
-{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent %}
 {% include breadcrumb.html href=breadcrumb_href label=page.folder %}
 <main id="main-content">
   {% capture body %}
