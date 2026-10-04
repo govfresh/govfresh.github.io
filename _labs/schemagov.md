@@ -1,12 +1,12 @@
 ---
-title: "gov-schema"
-shortname: "gov-schema"
+title: "schemaGov"
+shortname: "schemaGov"
 description: "A shared vocabulary for government operations"
-img-feat: gov-schema-og.png
-img-og: gov-schema-og.png
-img-alt: "gov-schema logo"
+img-feat: schemaGov-og.png
+img-og: schemaGov-og.png
+img-alt: "schemaGov logo"
 website: https://schema.govfresh.com/
-github: https://github.com/govfresh/gov-schema
+github: https://github.com/govfresh/schemaGov
 category:
   - Data
   - Design
