@@ -3,7 +3,8 @@
     "file": "/assets/img/brand/logo.svg",
     "width": 1947,
     "height": 525,
-    "size": "tall"
+    "size": "tall",
+    "mobile_file": "/assets/img/favicon/favicon.svg"
   },
   "search": "lunr",
   "feedback": {
@@ -33,7 +34,7 @@
   },
   "theme": {
     "light": "#ffffff",
-    "dark": "#000"
+    "dark": "#1a1a1a"
   },
   "social": {
     "facebook": "https://www.facebook.com/govfresh",

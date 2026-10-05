@@ -455,6 +455,15 @@ strong {
     font-size: var(--site-small-font-size);
     font-family: var(--site-font-secondary);
     color: var(--bs-secondary-color);
+    line-height: 1.5;
+}
+
+/* Fixed-width icon slot so labels start at the same x on every line
+   (calendar, calendar-check, clock and user icons differ in width). */
+.icon-line > i {
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
 }
 
 /* image.html's figures — shrink-to-fit the image's own rendered width
@@ -1282,3 +1291,113 @@ pre[class*="language-"], pre {
     word-break: break-word;
 }
 
+
+/* Dark-mode icon color — Font Awesome glyphs follow body text color. */
+[data-bs-theme=dark] .fa,
+[data-bs-theme=dark] .fa-solid,
+[data-bs-theme=dark] .fa-regular,
+[data-bs-theme=dark] .fa-light,
+[data-bs-theme=dark] .fa-duotone,
+[data-bs-theme=dark] .fab,
+[data-bs-theme=dark] .fa-brands,
+[data-bs-theme=dark] .svg-inline--fa {
+    color: var(--bs-body-color) !important;
+    fill: currentColor !important;
+}
+
+[data-bs-theme=dark] .btn .fa,
+[data-bs-theme=dark] .btn .fa-solid,
+[data-bs-theme=dark] .btn .fa-regular,
+[data-bs-theme=dark] .btn .fa-brands,
+[data-bs-theme=dark] .btn .svg-inline--fa {
+    color: inherit !important;
+}
+
+/* ---- Shared base content rules --------------------------------------
+   These used to be copy-pasted into each site's own style.css (and were
+   missing from schemaGov, which has no site stylesheet), so the same
+   markup rendered differently per site. lukefretwell's treatment is the
+   standard. A site stylesheet must not redefine any of these. */
+
+/* Prose links: link color, underlined, visited purple, underline off on
+   hover. Class-based components (.btn, .card-link, .icon-link, .nav-link,
+   ...) out-specify this on their own. */
+main a, main a:visited {
+    text-decoration: underline;
+    color: var(--bs-link-color);
+}
+
+main a:visited {
+    color: var(--site-link-visited);
+}
+
+main a:hover {
+    text-decoration: none;
+}
+
+a {
+    transition: color var(--site-transition), opacity var(--site-transition);
+}
+
+.btn:visited, .btn:visited:hover {
+    color: inherit;
+}
+
+main a.btn, main a.btn:visited {
+    text-decoration: none;
+}
+
+.post h2 { padding-top: 1rem; padding-bottom: 0.5rem; }
+.post h3, .post h4 { padding-top: 1rem; padding-bottom: 1rem; }
+
+/* Stretched card link — covers entire card */
+.card a.card-link {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+
+.card a.card-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.card a.card-link:focus-visible {
+    outline: none;
+}
+
+.card:has(a.card-link:focus-visible) {
+    outline: 0.125rem solid var(--bs-link-color);
+    outline-offset: 0.125rem;
+}
+
+.card a.card-link:visited { color: var(--bs-body-color); }
+
+.card h2, .card h3, .card h4 { margin-bottom: 0.25rem; }
+
+figcaption p { margin: 0.25rem 0; }
+
+blockquote {
+    border-left: 0.5rem solid var(--bs-secondary-color);
+    margin-left: 1.5625rem;
+    padding: 0 1.5625rem;
+    margin-bottom: 1.5625rem;
+    margin-top: 2rem;
+}
+
+blockquote p, blockquote ul {
+    font-family: var(--site-font-secondary);
+    padding-bottom: 0;
+    padding-top: 0.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+    .card:hover, .btn:hover, .btn:active {
+        transform: none;
+    }
+}

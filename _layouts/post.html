@@ -1,0 +1,38 @@
+{% include header.html %}
+{% include nav.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent | append: '/' %}
+{% assign breadcrumb_label = page.label | default: page.folder %}
+{% include breadcrumb.html href=breadcrumb_href label=breadcrumb_label %}
+<main id="main-content">
+  <article>
+    {% include read-time-bar.html %}
+    {% capture body %}
+      {% comment %} Hero sits in the content column so the TOC sidebar starts level with the h1. {% endcomment %}
+      <div class="hero-md hero-divider mb-4">
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
+        {% if page.description %}
+          <p class="lead">{{ page.description }}</p>
+        {% endif %}
+        {% include image.html loading="eager" fetchpriority="high" %}
+        {% include author.html %}
+        {% include date.html %}
+        {% include updated.html %}
+        {% include read-time.html %}
+      </div>
+      <div class="post mb-5">
+        {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" anchorClass="heading-hashtag" %}
+      </div>
+      {% include contributors.html %}
+      {% include share.html %}
+      {% include bio.html %}
+      {% include topics.html %}
+    {% endcapture %}
+    {% include toc-layout.html html=body toc_html=content %}
+  </article>
+</main>
+{% comment %} Site-owned: related/more content below the article (more-notes on lukefretwell, previews on govfresh). {% endcomment %}
+{% include post-after.html %}
+{% include analytics.html %}
+{% include footer.html %}

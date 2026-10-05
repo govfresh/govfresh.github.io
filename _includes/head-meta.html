@@ -7,6 +7,9 @@
 {% capture csp_content %}{% for directive in site.data.csp %}{% assign csp_name = directive[0] %}{% assign csp_values = directive[1] %}{{ csp_name }}{% if csp_values.size > 0 %} {{ csp_values | join: ' ' }}{% endif %}; {% endfor %}{% endcapture %}
 <meta http-equiv="Content-Security-Policy" content="{{ csp_content | strip }}">
 
+<!-- Dark mode: follow system preference, live (js/theme.js). Blocking and in <head> on purpose — sets data-bs-theme before first paint, so no light flash on refresh in dark mode. -->
+<script src="{{ site.baseurl }}/js/theme.js"></script>
+
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
