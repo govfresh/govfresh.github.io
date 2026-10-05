@@ -220,6 +220,11 @@ hr {
     --bs-link-hover-color-rgb: 0, 80, 216;
     --bs-border-color: #e6e6e6;
     --bs-secondary-color: rgb(86, 92, 101);
+    --bs-body-bg: #ffffff;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-body-color: #212121;
+    --bs-body-color-rgb: 33, 33, 33;
+    --site-link-visited: #5942d2;
 }
 
 /* Dark mode */
@@ -233,4 +238,10 @@ hr {
     --bs-link-hover-color-rgb: 74, 144, 226;
     --bs-border-color: #444444;
     --bs-secondary-color: #c6cace;
+    --bs-body-bg: #1a1a1a;
+    --bs-body-bg-rgb: 26, 26, 26;
+    --bs-body-color: #ffffff;
+    --bs-body-color-rgb: 255, 255, 255;
+    color-scheme: dark;
+    --site-link-visited: #a093f7;
 }

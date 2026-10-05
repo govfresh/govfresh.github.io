@@ -16,7 +16,8 @@
           tabindex="-1"
           class="cta-banner-button btn btn-sm">
           {% if link.icon %}<i class="fa-solid {{ link.icon }}" aria-hidden="true"></i>{% endif %}
-          {{ link.text }}
+          {% comment %} Icon-only below md when the link has an icon; aria-label above keeps it named. {% endcomment %}
+          <span{% if link.icon %} class="d-none d-md-inline"{% endif %}>{{ link.text }}</span>
         </a>
       {% endfor %}
     </div>

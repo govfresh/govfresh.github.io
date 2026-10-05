@@ -1,5 +1,5 @@
 {% assign the_updated = item.modified | default: post.modified | default: page.modified %}
 {% if the_updated %}
   {% assign the_updated = the_updated | date: site.date %}
-  {% include icon-line.html icon="fa-regular fa-calendar-check" label="Updated:" value=the_updated mb="mb-0" %}
+  {% include icon-line.html icon="fa-regular fa-calendar-check" label="Updated:" value=the_updated %}
 {% endif %}

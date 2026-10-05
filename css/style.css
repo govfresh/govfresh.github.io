@@ -21,10 +21,8 @@
        font-size (drives body text size via inheritance, since Bootstrap's
        own body rule reads --bs-body-font-size which isn't overridden here
        anymore) also comes from lf-theme.css. */
-    --bs-body-color: #000000;
     /* --bs-primary/--bs-link-color/--bs-link-hover-color/--bs-border-color/
        --bs-box-shadow(-lg) now come from lf-ui's lf-theme.css. */
-    --bs-body-bg: #ffffff;
     /* --bs-secondary-color now comes from lf-ui's lf-theme.css. */
     --bs-secondary-bg: #212121;
     --bs-border-radius: 0.175rem;
@@ -46,11 +44,6 @@
 /* Dark mode */
 
 [data-theme=dark] {
-    color-scheme: dark;
-    --bs-body-color: #fff;
-    --bs-body-color-rgb: 255, 255, 255;
-    --bs-body-bg: #000;
-    --bs-body-bg-rgb: 0, 0, 0;
     --bs-emphasis-color: var(--bs-body-color);
     --bs-emphasis-color-rgb: 255, 255, 255;
     /* --bs-secondary-color now comes from lf-ui's lf-theme.css. */
@@ -101,18 +94,8 @@ blockquote li {
 
 /* Links */
 
-a:hover {
-    text-decoration: var(--bs-link-hover-decoration);
-}
-
 /* .toc-list/.toc-heading/.toc-link/.post h2,h3,h4 scroll-margin-top all
-   come from lf-ui's lf-components.css. Dark-mode toc-link color stays
-   local — govfresh has a real [data-theme] manual toggle, lukefretwell
-   doesn't (prefers-color-scheme only), a genuine per-site difference. */
-[data-theme=dark] .toc-link,
-[data-theme=dark] .toc-link:visited {
-    color: var(--bs-link-color);
-}
+   come from lf-ui's lf-components.css. */
 
 /* .toc-layout/.toc-sidebar come from lf-ui's lf-components.css. */
 
@@ -156,26 +139,7 @@ a:hover {
     text-decoration: none;
 }
 
-[data-theme=dark] .card-link,
-[data-theme=dark] .card-link:visited {
-    color: var(--bs-link-color);
-}
-
 /* Icon/social/nav links — come from lf-ui's lf-components.css. */
-
-/* Author byline links — same color as the date text next to them,
-   always underlined (not just on hover), everywhere — this used to also
-   have a second, higher-specificity rule overriding the color back to
-   link-color outside .featured-post, so the same class rendered two
-   different colors depending which article wrapper it sat in. */
-.author-link, .author-link:visited {
-    color: var(--bs-secondary-color);
-    text-decoration: underline;
-}
-
-.author-link:hover {
-    color: var(--bs-link-color);
-}
 
 /* Listen box platform icon links — body text color, link color on hover */
 .listen-link, .listen-link:visited {
@@ -320,11 +284,6 @@ a[href^="tel:"]::after {
     letter-spacing: -0.02em;
 }
 
-.post h2 {
-    padding-bottom: .5rem;
-    padding-top: 1rem
-}
-
 article h2, article h3, article h4 {
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -443,22 +402,6 @@ figcaption a:hover {
     font-family: "Public Sans Bold", var(--bs-font-sans-serif);
 }
 
-/* Blockquote */
-
-blockquote {
-    border-left: .5rem solid var(--bs-secondary-color);
-    margin-left: 1.5625rem;
-    padding: 0 1.5625rem;
-    margin-bottom: 1.5625rem;
-    margin-top: 2rem;
-}
-
-blockquote p, blockquote ul {
-    font-family: var(--site-font-secondary) !important;
-    padding-bottom: 0;
-    padding-top: .25rem;
-}
-
 /* Cards — .card p.small comes from lf-ui's lf-components.css. */
 
 /* .card base/.card:hover come from lf-ui's lf-components.css. */
@@ -472,13 +415,7 @@ blockquote p, blockquote ul {
     margin-bottom: 0.25rem;
 }
 
-/* .card .body-link::after comes from lf-ui's lf-components.css now. */
-.card .card-link::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-}
+/* .card .card-link::after (stretched link) comes from lf-ui's lf-components.css. */
 
 /* Horizontal cards — .brief-card/.research-card used to render this way via
    <wa-card orientation="horizontal">; that layout now comes from real

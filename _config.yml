@@ -117,7 +117,7 @@ defaults:
       folder: "Thoughts"
       img-path: "posts"
       parent: "thoughts"
-      layout: "thoughts"
+      layout: "post"
       short: "true"
       schematype: "NewsArticle"
       og-type: "article"
