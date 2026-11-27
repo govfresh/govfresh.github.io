@@ -1,36 +1,48 @@
+{% comment %}
+  Icon cards. include.type is "service" or "theme"; include.size="small" gives
+  the compact size; include.show_items adds a service's list; include.heading
+  sets the title element. A service links to its page when it has a url, and
+  its list is read from items (collection) or tags (data file).
+{% endcomment %}
+{% assign heading = include.heading | default: "h2" %}
+{% assign size_class = "" %}
+{% assign grid_cols = "row-cols-1 row-cols-sm-2" %}
+{% if include.size == "small" %}
+  {% assign size_class = "card-sm" %}
+{% endif %}
 {% if include.type == "theme" %}
-  {% assign grid_cols = "row-cols-2 row-cols-sm-4" %}
-{% else %}
-  {% assign grid_cols = "row-cols-1 row-cols-sm-2" %}
+  {% assign grid_cols = "row-cols-2 row-cols-md-4" %}
 {% endif %}
 <div class="row {{ grid_cols }} card-group">
   {% for item in include.items %}
     <div class="col">
-      {% if include.type == "service" %}
-        <div class="card h-100">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid {{ item.icon }} fa-2x" aria-hidden="true"></i>
-            </div>
-            <h2 class="h4 text-center mb-1">{{ item.title }}</h2>
-            <p class="card-description text-center mb-3">{{ item.description }}</p>
-          </div>
-          {% if item.tags %}
-            <div class="card-footer">
-              <ul class="card-tags">
-                {% for tag in item.tags %}
-                  <li>{{ tag }}</li>
-                {% endfor %}
-              </ul>
-            </div>
+      <div class="card card-feature {{ size_class }} h-100">
+        <div class="card-body">
+          <i class="card-icon fa-solid {{ item.icon }}" aria-hidden="true"></i>
+          {% if include.type == "service" %}
+            <{{ heading }} class="card-title">
+              {% if item.url %}
+                <a href="{{ site.baseurl }}{{ item.url }}" class="card-link stretched-link">{{ item.title }}</a>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </{{ heading }}>
+            <p class="card-description mb-0">{{ item.description }}</p>
+          {% else %}
+            <p class="card-caption">{{ item.title }}</p>
           {% endif %}
         </div>
-      {% elsif include.type == "theme" %}
-        <div class="text-center card h-100"><div class="card-body">
-          <i class="fa-solid {{ item.icon }} fa-lg mb-2" aria-hidden="true"></i>
-          <p class="card-caption">{{ item.title }}</p>
-        </div></div>
-      {% endif %}
+        {% assign entries = item.items | default: item.tags %}
+        {% if include.show_items and entries %}
+          <div class="card-footer">
+            <ul class="card-tags">
+              {% for entry in entries %}
+                <li>{{ entry }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </div>
     </div>
   {% endfor %}
 </div>

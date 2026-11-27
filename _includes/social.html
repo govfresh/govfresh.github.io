@@ -243,14 +243,12 @@
   <!-- Connect -->
   {% for item in site.data.connect.docs %}
     <div class="col">
-      <div class="text-center card h-100"><div class="card-body">
+      <div class="card card-feature card-sm h-100"><div class="card-body">
         <a
           href="{{ item.url }}"
           aria-label="{{ item.name }}"
           class="body-link">
-          <p class="mb-2">
-            <i class="{{ item.icon }} {{ site.data.connect.md }}"></i>
-          </p>
+          <i class="card-icon {{ item.icon }}" aria-hidden="true"></i>
         </a>
         <p class="card-caption">{{ item.name }}</p>
       </div></div>

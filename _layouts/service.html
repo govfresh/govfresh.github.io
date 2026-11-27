@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+{% include header.html %}
+{% include nav.html %}
+{% assign breadcrumb_href = site.baseurl | append: '/' | append: page.parent %}
+{% include breadcrumb.html href=breadcrumb_href label=page.folder %}
+<main id="main-content">
+  {% capture body %}
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="lead">{{ page.description }}</p>
+    {% endif %}
+    <article class="post">
+      {% if page.items %}
+        <ul>
+          {% for entry in page.items %}
+            <li>{{ entry }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {{ content }}
+    </article>
+  {% endcapture %}
+  {% include toc-layout.html html=body %}
+</main>
+{% include analytics.html %}
+{% include footer.html %}
