@@ -541,6 +541,44 @@ strong {
     margin-bottom: 0;
 }
 
+/* Icon cards (card-grid.html, social.html). Every measure derives from the
+   title size, so a size variant only has to change that one value. Text size
+   is the same in both. */
+.card-feature {
+    --card-title-size: 1.25rem;
+    --card-icon-size: calc(var(--card-title-size) * 1.5);
+    --card-space: var(--card-title-size);
+    text-align: center;
+}
+
+.card-feature.card-sm {
+    --card-title-size: 1rem;
+}
+
+.card-feature .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--card-space);
+}
+
+.card-feature .card-icon {
+    font-size: var(--card-icon-size);
+    line-height: 1;
+    margin-bottom: calc(var(--card-space) * 0.6);
+}
+
+.card-feature .card-title {
+    font-size: var(--card-title-size);
+    line-height: 1.25;
+    margin: 0 0 calc(var(--card-space) * 0.25);
+}
+
+.card-feature .card-footer {
+    padding: calc(var(--card-space) * 0.75) var(--card-space);
+    text-align: left;
+}
+
 /* Post byline/date on signal cards and feed listings (card.html's signal
    type, signal/index.html) — this rule was missing entirely until now, so
    this text has been rendering at ambient body size, not intended. */

@@ -6,10 +6,15 @@ layout: services
 <main id="main-content">
   {% include jumbotron.html %}
   <div class="container py-4">
-    {% include card-grid.html items=site.data.services.services type="service" %}
+    {% if site.services %}
+      {% assign services = site.services | sort: "order" %}
+    {% else %}
+      {% assign services = site.data.services.services %}
+    {% endif %}
+    {% include card-grid.html items=services type="service" show_items=true %}
     <section class="subsection-divider" aria-labelledby="themes-heading">
       <h2 id="themes-heading" class="h2">Themes</h2>
-      {% include card-grid.html items=site.data.services.themes type="theme" %}
+      {% include card-grid.html items=site.data.services.themes type="theme" size="small" %}
     </section>
     <section class="subsection-divider" aria-labelledby="get-started-heading">
       <h2 id="get-started-heading" class="h2">Get started</h2>
